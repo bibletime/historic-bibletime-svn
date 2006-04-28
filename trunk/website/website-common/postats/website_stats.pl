@@ -18,5 +18,5 @@ my $stats = SSI::POStats->new( $cgi );
 print $cgi->header();
 
 print $cgi->start_div({-class=>'postats'});
-print $stats->show_stats("website_stats.txt", '/$lang/po/full.po');
+print $stats->show_stats("website_stats.txt", '/po/bibletime_website_$lang.po');
 print $cgi->end_div();

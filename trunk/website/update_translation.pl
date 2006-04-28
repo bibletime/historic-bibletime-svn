@@ -261,9 +261,14 @@ while (my $lang = shift(@langs)) {
 #copy all common files
 `cp -raf website-common/* website-common/.htaccess  $TARGET`;
 
+#Copy all language po file
+`mkdir website-generated/po;`
+`for d in $(cat config/language.conf); do echo "$d"; cp -Rf content/$d/po/full.po website-generated/po/bibletime_website_$d.po; done;`
+
 &create_apache_files($ENV{"PWD"} . "/$TARGET/en", "$TARGET");
 
 #Now update the statistics. At the end so we get all changed to the PO files.
 
 
 `(cd $TARGET/postats && perl make_postats.pl > /dev/null 2>&1; cd ..)`;
+

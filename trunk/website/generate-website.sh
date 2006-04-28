@@ -5,4 +5,4 @@ export XML_CATALOG_FILES="docbook-xsl/catalog.xml docbook-xsl/website/catalog.xm
 rm content/$POLANG/autolayout.xml
 xsltproc --output content/$POLANG/autolayout.xml docbook-xsl/website/xsl/autolayout.xsl content/$POLANG/layout.xml 
 xsltproc --nonet --path "content/$POLANG/" --stringparam output-root website-generated/$POLANG/ bibletime-xsl/bibletime.xsl content/$POLANG/autolayout.xml
-cp -Ra website-common/* website-generated/
+cp -Raf website-common/* website-generated/
