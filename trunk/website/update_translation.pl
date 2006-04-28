@@ -259,7 +259,7 @@ while (my $lang = shift(@langs)) {
 }
 
 #copy all common files
-`cp -ra website-common/* website-common/.htaccess  $TARGET`;
+`cp -raf website-common/* website-common/.htaccess  $TARGET`;
 
 &create_apache_files($ENV{"PWD"} . "/$TARGET/en", "$TARGET");
 
