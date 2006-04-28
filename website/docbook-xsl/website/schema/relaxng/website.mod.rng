@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== -->
+<!--
+  Website Module V2.6
+  Copyright (C) 2002 Norman Walsh
+  http://sourceforge.net/projects/docbook/
+  
+  $Id: website.mod,v 1.6 2005/04/15 19:11:36 nwalsh Exp $
+  
+  Please direct all questions and comments about this DTD to
+  Norman Walsh, <ndw@nwalsh.com>.
+-->
+<!-- ====================================================================== -->
+<grammar xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns="http://relaxng.org/ns/structure/1.0">
+  <define name="head">
+    <element name="head">
+      <ref name="head.attlist"/>
+      <ref name="title"/>
+      <optional>
+        <ref name="titleabbrev"/>
+      </optional>
+      <optional>
+        <ref name="subtitle"/>
+      </optional>
+      <optional>
+        <ref name="summary"/>
+      </optional>
+      <optional>
+        <ref name="base"/>
+      </optional>
+      <optional>
+        <ref name="keywords"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="copyright"/>
+          <ref name="author"/>
+          <ref name="edition"/>
+          <ref name="meta"/>
+          <ref name="headlink"/>
+          <ref name="script"/>
+          <ref name="style"/>
+          <ref name="abstract"/>
+          <ref name="revhistory"/>
+          <ref name="rddl.elements"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="head.attlist" combine="interleave">
+    <empty/>
+  </define>
+  <define name="meta">
+    <element name="meta">
+      <ref name="meta.attlist"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="meta.attlist" combine="interleave">
+    <optional>
+      <attribute name="http-equiv"/>
+    </optional>
+    <optional>
+      <attribute name="name"/>
+    </optional>
+    <attribute name="content"/>
+  </define>
+  <define name="headlink">
+    <element name="headlink">
+      <ref name="headlink.attlist"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="headlink.attlist" combine="interleave">
+    <optional>
+      <attribute name="href"/>
+    </optional>
+    <optional>
+      <attribute name="media"/>
+    </optional>
+    <optional>
+      <attribute name="name"/>
+    </optional>
+    <optional>
+      <attribute name="rel"/>
+    </optional>
+    <optional>
+      <attribute name="rev"/>
+    </optional>
+    <optional>
+      <attribute name="src"/>
+    </optional>
+    <optional>
+      <attribute name="title"/>
+    </optional>
+    <optional>
+      <attribute name="type"/>
+    </optional>
+  </define>
+  <define name="script">
+    <element name="script">
+      <ref name="script.attlist"/>
+      <text/>
+    </element>
+  </define>
+  <define name="script.attlist" combine="interleave">
+    <optional>
+      <attribute name="src"/>
+    </optional>
+    <optional>
+      <attribute name="language"/>
+    </optional>
+    <optional>
+      <attribute name="type"/>
+    </optional>
+  </define>
+  <define name="style">
+    <element name="style">
+      <ref name="style.attlist"/>
+      <text/>
+    </element>
+  </define>
+  <define name="style.attlist" combine="interleave">
+    <optional>
+      <attribute name="src"/>
+    </optional>
+    <optional>
+      <attribute name="type"/>
+    </optional>
+  </define>
+  <define name="config">
+    <element name="config">
+      <ref name="config.attlist"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="config.attlist" combine="interleave">
+    <attribute name="param"/>
+    <attribute name="value"/>
+    <optional>
+      <attribute name="altval"/>
+    </optional>
+    <ref name="common.attrib"/>
+  </define>
+  <define name="summary">
+    <element name="summary">
+      <ref name="summary.attlist"/>
+      <zeroOrMore>
+        <ref name="word.char.mix"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="summary.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+  </define>
+  <define name="base">
+    <element name="base">
+      <ref name="base.attlist"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="base.attlist" combine="interleave">
+    <attribute name="href"/>
+    <optional>
+      <attribute name="target"/>
+    </optional>
+  </define>
+  <define name="keywords">
+    <element name="keywords">
+      <ref name="keywords.attlist"/>
+      <text/>
+    </element>
+  </define>
+  <define name="keywords.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+  </define>
+  <define name="webpage">
+    <element name="webpage">
+      <ref name="webpage.attlist"/>
+      <ref name="webpage.mix"/>
+    </element>
+  </define>
+  <define name="webpage.attlist" combine="interleave">
+    <optional>
+      <attribute name="navto" a:defaultValue="yes">
+        <choice>
+          <value>yes</value>
+          <value>no</value>
+        </choice>
+      </attribute>
+    </optional>
+    <ref name="idreq.common.attrib"/>
+  </define>
+  <define name="webtoc">
+    <element name="webtoc">
+      <ref name="webtoc.attlist"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="webtoc.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+  </define>
+  <define name="rss">
+    <element name="rss">
+      <ref name="rss.attlist"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="rss.attlist" combine="interleave">
+    <attribute name="feed"/>
+    <ref name="common.attrib"/>
+  </define>
+  <include href="rddl.mod.rng"/>
+  <include href="forms.mod.rng"/>
+</grammar>
+<!-- End of Website Module V2.6 ......................................... -->
+<!-- ...................................................................... -->

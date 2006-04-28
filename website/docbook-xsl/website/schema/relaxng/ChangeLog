@@ -1,0 +1,81 @@
+2005-04-18  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: more realclean targets
+
+2005-04-08  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* .cvsignore: ignore .rng files
+
+	* Makefile: make *.rng as well as *.rnc files (*.rng files are needed for
+	people who want to do validation using xmllint)
+
+2005-04-07  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: make -> $(MAKE)
+
+	* schemas.xml: moved RELAX NG locating-rules file to root dir of distro, at same
+	level as catalogs.xml, which has a similar purpose
+
+2005-04-06  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* schemas.xml: New file.
+
+2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* .cvsignore: ignore stuff
+
+	* Makefile: runtrang, fail if not found
+
+2005-04-01  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: .rng files, don't generate (if you need them, use trang to
+	generate them from the .rnc files); website-custom.rnc, don't
+	generate (duh); clean target, be explicit about what files to
+	remove
+
+2005-03-31  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* .cvsignore, Makefile, autolayout.rng, extensions.rng, forms.rng, layout.rng, rddl.rng, union.xml, website-full.rng, website.rng: 
+	build switched to generate all RNG schemas from DTDs; now also
+	generates RNC versions from RNGs (you can use the RNCs for
+	context-sensitive, validated editing in Emacs/nXML mode, Oxygen
+	XML Editor, etc.); RNG and RNC conversions both rely on "trang";
+	tagged the directory (tag name: "original") before making the
+	change, so original CVS-maintained RNG files and union.xml and
+	Makefile that were in this directory can be checked out at any
+	time by doing a "cvs update -r original"
+
+2003-06-22  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.rng, extensions.rng, layout.rng: Cleanup attributes on script element
+
+	* autolayout.rng, layout.rng, website-full.rng, website.rng: 
+	Updated version numbers
+
+2003-02-18  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.rng, extensions.rng, forms.rng, layout.rng, rddl.rng, website-full.rng, website.rng: 
+	Updated version numbers to 2.4.1
+
+2003-01-23  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* .cvsignore: Ignore websitedb.rng
+
+	* .cvsignore, Makefile: Updated
+
+	* config.xml: Generated
+
+	* config.xml, union.xml: Changed configuration strategy
+
+	* extensions.rng, forms.rng, rddl.rng, website-full.rng, website.rng: 
+	Removed extraneous xmlns declaration
+
+	* union.xml: Oops. I did need this file
+
+	* websitedb.rng: This file is generated
+
+2003-01-16  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* .cvsignore, Makefile, autolayout.rng, extensions.rng, forms.rng, layout.rng, rddl.rng, union.xml, website-full.rng, website.rng, websitedb.rng: 
+	New file.
+

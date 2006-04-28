@@ -1,0 +1,89 @@
+# ======================================================================
+
+# Website Module V2.6
+# Copyright (C) 2002 Norman Walsh
+# http://sourceforge.net/projects/docbook/
+# 
+# $Id: website.mod,v 1.6 2005/04/15 19:11:36 nwalsh Exp $
+# 
+# Please direct all questions and comments about this DTD to
+# Norman Walsh, <ndw@nwalsh.com>.
+
+# ======================================================================
+
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+
+head =
+  element head {
+    head.attlist,
+    title,
+    titleabbrev?,
+    subtitle?,
+    summary?,
+    base?,
+    keywords?,
+    (copyright
+     | author
+     | edition
+     | meta
+     | headlink
+     | script
+     | style
+     | abstract
+     | revhistory
+     | rddl.elements)*
+  }
+head.attlist &= empty
+meta = element meta { meta.attlist, empty }
+meta.attlist &=
+  attribute http-equiv { text }?,
+  attribute name { text }?,
+  attribute content { text }
+headlink = element headlink { headlink.attlist, empty }
+headlink.attlist &=
+  attribute href { text }?,
+  attribute media { text }?,
+  attribute name { text }?,
+  attribute rel { text }?,
+  attribute rev { text }?,
+  attribute src { text }?,
+  attribute title { text }?,
+  attribute type { text }?
+script = element script { script.attlist, text }
+script.attlist &=
+  attribute src { text }?,
+  attribute language { text }?,
+  attribute type { text }?
+style = element style { style.attlist, text }
+style.attlist &=
+  attribute src { text }?,
+  attribute type { text }?
+config = element config { config.attlist, empty }
+config.attlist &=
+  attribute param { text },
+  attribute value { text },
+  attribute altval { text }?,
+  common.attrib
+summary = element summary { summary.attlist, word.char.mix* }
+summary.attlist &= common.attrib
+base = element base { base.attlist, empty }
+base.attlist &=
+  attribute href { text },
+  attribute target { text }?
+keywords = element keywords { keywords.attlist, text }
+keywords.attlist &= common.attrib
+webpage = element webpage { webpage.attlist, webpage.mix }
+webpage.attlist &=
+  [ a:defaultValue = "yes" ] attribute navto { "yes" | "no" }?,
+  idreq.common.attrib
+webtoc = element webtoc { webtoc.attlist, empty }
+webtoc.attlist &= common.attrib
+rss = element rss { rss.attlist, empty }
+rss.attlist &=
+  attribute feed { text },
+  common.attrib
+include "rddl.mod.rnc"
+include "forms.mod.rnc"
+# End of Website Module V2.6 .........................................
+
+# ......................................................................

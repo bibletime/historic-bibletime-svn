@@ -1,0 +1,328 @@
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!NOTATION XML SYSTEM "xml">
+]>
+
+<webpage id="software_gallery">
+	<config param="desc" value="Gallery" />
+	<config param="rcsdate" value="$Date: 2005/03/26 11:36:07 $" />
+	<head>
+		<title>Gallery</title>
+		<summary>Gallery of BibleTime</summary>
+		<keywords>
+			BibleTime, Linux, Software, biblestudy, bible study, KDE,
+			God, Religion, Bible, devotional, crosswire, sword,
+			screenshot, gallery
+		</keywords>
+	</head>
+
+	<section>
+		<title>Gallery</title>
+		<para>
+			You can find some nice screenshots of BibleTime here,
+			showing one or two text module(s) each. They demonstrate the
+			powerful Unicode handling mechanisms of
+			<ulink url="http://www.trolltech.com">Trolltech's</ulink>
+			Qt 3. Some of the screenshots are really impressive.
+		</para>
+		<para>
+			Most of the screenshots were created using the superb
+			<ulink url="http://home.att.net/~jameskass/CODE2000.ZIP">
+				Code2000
+			</ulink>
+			Unicode font. Click on the preview images to see a large and
+			detailed version of each screenshot.
+		</para>
+
+		<formalpara>
+			<title>WLC - hebrew rendering</title>
+			<para>
+				<ulink url="/images/gallery/bhs.png">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/bhs_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>BHS - hebrew rendering</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+			<para>
+				<para>
+					The
+					<emphasis>WLC</emphasis>
+					(short for
+					<emphasis>Westminster Leningrad Codex</emphasis>
+					), the best available text of the Hebrew Old
+					Testament.
+				</para>
+				<para>
+					As you can see, BibleTime renders the text correctly
+					from right to left. Those of you who can read Hebrew
+					will notice that the Vowel Points and the
+					Cantillation Marks (you can switch both of them on
+					and off) are displayed correctly.
+				</para>
+			</para>
+		</formalpara>
+
+
+		<formalpara>
+			<title>Peshitta - early syrian translation</title>
+			<para>
+				<ulink url="/images/gallery/peshitta.png">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/peshitta_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>BHS - hebrew rendering</phrase>
+						</textobject>
+						<textobject>
+							<phrase>
+								Peshitta - early syrian translation
+							</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+
+			<para>
+				<para>
+					The
+					<emphasis>Peshitta</emphasis>
+					contains an early Syrian text, running from right to
+					left.
+				</para>
+				<para>
+					Qt renders this text very nice with Code2000, which
+					is one of the very few fonts that support syrian
+					characters.
+				</para>
+			</para>
+		</formalpara>
+
+		<formalpara>
+			<title>The Arabic Bible</title>
+			<para>
+				<ulink url="/images/gallery/arasvd.jpg">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/arasvd_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>The Arabic Bible</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+			<para>
+				<emphasis>AraSVD</emphasis>
+				: The Arabic Bible. Very nice example for right-to-left
+				rendering of a complex script - Arabic is probably one
+				of the most complicated scripts of the world. This
+				screenshot was taken after linebreaks were switched off,
+				providing a more readable text view.
+			</para>
+		</formalpara>
+
+		<formalpara>
+			<title>Chinese rendering</title>
+			<para>
+				<ulink url="/images/gallery/chigu.jpg">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/chigu_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>Chinese rendering</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+			<para>
+				<emphasis>ChiGU</emphasis>
+				: Chinese Bible text. Since QT 3 BibleTime can correctly
+				break the paragraphs (as you may know, there are no
+				spaces between words).
+			</para>
+		</formalpara>
+
+
+		<formalpara>
+			<title>
+				Greek rendering with Strong's numbers and morphological
+				tags
+			</title>
+			<para>
+				<ulink url="/images/gallery/ignt.jpg">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/ignt_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>
+								Greek rendering with Strong's numbers
+								and morphological tags
+							</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+			<para>
+				<emphasis>IGNT</emphasis>
+				: The Interlinear Greek New Testament. The green numbers
+				in "&lt; &gt;" brackets are Strongnumbers, whereas the
+				numbers in "( )" brackets are Morphologic Tags. Both of
+				them can displayed in a tooltip using a predefined
+				Strong's and Morphology dictionary, as you can see in
+				the example.
+			</para>
+		</formalpara>
+
+
+		<formalpara>
+			<title>Korean and Thai</title>
+			<para>
+				<ulink url="/images/gallery/korthai.jpg">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/korthai_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>Korean and Thai</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+			<para>
+				<emphasis>Kor</emphasis>
+				and
+				<emphasis>ThaiKJV</emphasis>
+				. Korean and Thai are very good Unicode examples covered
+				by an amount of Unicode scripts already. They are
+				displayed in a parallel view in one window. The first
+				line of Thai text is of a little smaller pointsize. It
+				is a section heading, and those can be turned on and off
+				using the first toolbutton in the display window.
+			</para>
+		</formalpara>
+
+		<formalpara>
+			<title>Bulgarian and footnotes</title>
+			<para>
+				<ulink url="/images/gallery/bulgarian.jpg">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/bulgarian_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>Bulgarian and footnotes</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+			<para>
+				<emphasis>Bulgarian</emphasis>
+				: The Bible in Bulgarian language. Bulgarian uses the
+				Kyrillic script, which is also used in other languages
+				like Russian. Notice the marked text - it is a
+				"footnote". The popup menu shows how those can be turned
+				on and off.
+			</para>
+		</formalpara>
+
+		<formalpara>
+			<title>Vietnamese and Romanian</title>
+			<para>
+				<ulink url="/images/gallery/vietromcor.jpg">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/vietromcor_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>Vietnamese and Romanian</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+			<para>
+				<emphasis>Viet</emphasis>
+				and
+				<emphasis>RomCor</emphasis>
+				. East Europe meets East Asia! Vietnamese and Romanian
+				are not geographically linked, though they look somehow
+				similar in this screenshot.
+			</para>
+		</formalpara>
+
+		<formalpara>
+			<title>
+				Esperanto without verse numbers and linebreaks
+			</title>
+			<para>
+				<ulink url="/images/gallery/esperanto.jpg">
+					<inlinemediaobject>
+						<imageobject>
+							<imagedata
+								fileref="/images/gallery/esperanto_small.jpg" format="JPG" />
+						</imageobject>
+						<textobject>
+							<phrase>
+								Esperanto without verse numbers and
+								linebreaks
+							</phrase>
+						</textobject>
+					</inlinemediaobject>
+				</ulink>
+			</para>
+
+			<para>
+				YES, there is a Bible for those of you who prefer to
+				speak Esperanto. This is not really a Unicode example,
+				since the displayed characters come from the iso 8859-1
+				charset. But this shows how text looks like after
+				switching off versenumbers and linebreaks.
+			</para>
+		</formalpara>
+
+		<!-- This is the template.
+			
+			<formalpara>
+			<title>
+			</title>
+			<para>
+			<ulink url="/images/gallery/image.jpg">
+			<inlinemediaobject>
+			<imageobject>
+			<imagedata
+			fileref="/images/gallery/image_small.jpg" format="JPG" />
+			</imageobject>
+			</inlinemediaobject>
+			</ulink>
+			</para>
+			
+			<para>
+			</para>
+			</formalpara>			
+		-->
+
+	</section>
+
+</webpage>

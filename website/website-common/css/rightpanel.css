@@ -1,0 +1,48 @@
+#rightpanel {
+	position: absolute;
+	left: 10px;
+	top: 140px;
+	width: 200px;
+	padding: 0 0 25px 0;
+}
+
+#rightpanel #devotional,#rightpanel  .tip {
+	margin: 20px 0 15px 0;
+	border: 1px solid #888884;
+	text-align: justify;
+	padding:0;
+}
+
+#rightpanel #devotional p, #rightpanel  .tip p {
+	padding: 7px;
+	margin:0;
+	font-size: 12px;
+}
+
+#rightpanel h1 {
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	background: #094ED0;
+	margin: 0px;
+	padding:3px;
+	border-bottom: 1px solid #888884;
+	text-transform: none;
+	
+}
+
+#rightpanel h1+p {
+	margin: 4px 0 0 0;
+}
+
+#rightpanel p+p {
+	margin: 4px 0 0 0;
+}
+
+#logos {
+	text-align: center;
+}
+
+#logos img {
+	padding: 20px 0px 0px 2px;
+}

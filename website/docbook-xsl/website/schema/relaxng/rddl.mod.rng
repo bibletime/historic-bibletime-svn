@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== -->
+<!--
+  Website DTD RDDL Module V2.6
+  Part of the Website distribution
+  http://sourceforge.net/projects/docbook/
+  
+  Please direct all questions and comments about this DTD to
+  Norman Walsh, <ndw@nwalsh.com>.
+-->
+<!-- ====================================================================== -->
+<grammar xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns:rddl="http://www.rddl.org/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <define name="rddl.resource">
+    <element name="rddl:resource">
+      <ref name="rddl.resource.attlist"/>
+      <zeroOrMore>
+        <ref name="para.char.mix"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="rddl.resource.attlist" combine="interleave">
+    <optional>
+      <attribute name="id">
+        <data type="ID"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="xml:lang">
+        <data type="NMTOKEN"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="xml:base"/>
+    </optional>
+    <optional>
+      <attribute name="xlink:type" a:defaultValue="simple">
+        <value>simple</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="xlink:arcrole"/>
+    </optional>
+    <optional>
+      <attribute name="xlink:role" a:defaultValue="http://www.rddl.org/#resource"/>
+    </optional>
+    <optional>
+      <attribute name="xlink:href"/>
+    </optional>
+    <optional>
+      <attribute name="xlink:title"/>
+    </optional>
+  </define>
+</grammar>
+<!--
+  	%xlink-embed;	CDATA	#FIXED   "none"
+  	%xlink-actuate;	CDATA	#FIXED   "none"
+  >
+-->
+<!-- End of rddl.mod V2.6 ............................................... -->
+<!-- ...................................................................... -->

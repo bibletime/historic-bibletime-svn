@@ -1,0 +1,45 @@
+.qandaset {
+	border-spacing: 0px;
+	vertical-align: top;
+}
+
+.qandaset >dl {
+	margin-bottom: 25px;
+}
+
+table tr.toc {
+	font-size: 0.9em;
+	margin: 0px;
+	display: none;
+}
+
+tr.toc {
+	display: none;
+}
+
+.qandadiv {
+	margin: 20px 0 0 0;
+	border: 1px solid black;
+}
+
+.qandadiv .title {
+	color: #094ED0;
+	margin: 0px;
+	padding-bottom: 2px; border-bottom : 1px dotted black;
+	width: 100%;;
+	border-bottom: 1px dotted black
+}
+
+.question {
+	font-weight: bold;
+	font-size: 110%;
+	margin: 0;
+	padding: 0;
+}
+.question p {
+	margin: 2px 0 3px 10px;	
+}
+
+.answer {
+	margin: 0 0 0 25px;
+}

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== -->
+<!--
+  Website DTD Forms Module V2.6
+  Part of the Website distribution
+  http://sourceforge.net/projects/docbook/
+  
+  Please direct all questions and comments about this DTD to
+  Norman Walsh, <ndw@nwalsh.com>.
+-->
+<!-- ====================================================================== -->
+<grammar xmlns:html="http://www.w3.org/1999/xhtml" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <define name="html.form">
+    <element name="html:form">
+      <ref name="html.form.attlist"/>
+      <oneOrMore>
+        <choice>
+          <ref name="component.mix"/>
+          <ref name="html.input"/>
+          <ref name="html.button"/>
+          <ref name="html.label"/>
+          <ref name="html.select"/>
+          <ref name="html.textarea"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="html.form.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+    <ref name="events"/>
+    <attribute name="action"/>
+    <optional>
+      <attribute name="method" a:defaultValue="GET">
+        <choice>
+          <value>GET</value>
+          <value>POST</value>
+        </choice>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="onsubmit"/>
+    </optional>
+    <optional>
+      <attribute name="onreset"/>
+    </optional>
+  </define>
+  <define name="inputtype">
+    <choice>
+      <value>text</value>
+      <value>password</value>
+      <value>checkbox</value>
+      <value>radio</value>
+      <value>submit</value>
+      <value>reset</value>
+      <value>file</value>
+      <value>hidden</value>
+      <value>image</value>
+      <value>button</value>
+    </choice>
+  </define>
+  <define name="html.input">
+    <element name="html:input">
+      <ref name="html.input.attlist"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="html.input.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+    <ref name="events"/>
+    <optional>
+      <attribute name="type" a:defaultValue="text">
+        <ref name="inputtype"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="name"/>
+    </optional>
+    <optional>
+      <attribute name="value"/>
+    </optional>
+    <optional>
+      <attribute name="checked">
+        <value>checked</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="disabled">
+        <value>disabled</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="readonly">
+        <value>readonly</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="size"/>
+    </optional>
+    <optional>
+      <attribute name="maxlength"/>
+    </optional>
+    <optional>
+      <attribute name="src"/>
+    </optional>
+    <optional>
+      <attribute name="alt"/>
+    </optional>
+    <optional>
+      <attribute name="usemap"/>
+    </optional>
+    <optional>
+      <attribute name="tabindex"/>
+    </optional>
+    <optional>
+      <attribute name="accesskey"/>
+    </optional>
+    <optional>
+      <attribute name="onfocus"/>
+    </optional>
+    <optional>
+      <attribute name="onblur"/>
+    </optional>
+    <optional>
+      <attribute name="onselect"/>
+    </optional>
+    <optional>
+      <attribute name="onchange"/>
+    </optional>
+  </define>
+  <define name="html.button">
+    <element name="html:button">
+      <ref name="html.button.attlist"/>
+      <zeroOrMore>
+        <ref name="para.char.mix"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="html.button.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+    <ref name="events"/>
+    <optional>
+      <attribute name="name"/>
+    </optional>
+    <optional>
+      <attribute name="value"/>
+    </optional>
+    <optional>
+      <attribute name="type" a:defaultValue="submit">
+        <choice>
+          <value>button</value>
+          <value>submit</value>
+          <value>reset</value>
+        </choice>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="disabled">
+        <value>disabled</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="tabindex"/>
+    </optional>
+    <optional>
+      <attribute name="accesskey"/>
+    </optional>
+    <optional>
+      <attribute name="onfocus"/>
+    </optional>
+    <optional>
+      <attribute name="onblur"/>
+    </optional>
+  </define>
+  <define name="html.label">
+    <element name="html:label">
+      <ref name="html.label.attlist"/>
+      <zeroOrMore>
+        <ref name="para.char.mix"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="html.label.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+    <ref name="events"/>
+    <optional>
+      <attribute name="for">
+        <data type="IDREF"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="accesskey"/>
+    </optional>
+    <optional>
+      <attribute name="onfocus"/>
+    </optional>
+    <optional>
+      <attribute name="onblur"/>
+    </optional>
+  </define>
+  <define name="html.select">
+    <element name="html:select">
+      <ref name="html.select.attlist"/>
+      <oneOrMore>
+        <ref name="html.option"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="html.select.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+    <ref name="events"/>
+    <optional>
+      <attribute name="name"/>
+    </optional>
+    <optional>
+      <attribute name="size"/>
+    </optional>
+    <optional>
+      <attribute name="multiple">
+        <value>multiple</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="disabled">
+        <value>disabled</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="tabindex"/>
+    </optional>
+    <optional>
+      <attribute name="onfocus"/>
+    </optional>
+    <optional>
+      <attribute name="onblur"/>
+    </optional>
+    <optional>
+      <attribute name="onchange"/>
+    </optional>
+  </define>
+  <define name="html.option">
+    <element name="html:option">
+      <ref name="html.option.attlist"/>
+      <text/>
+    </element>
+  </define>
+  <define name="html.option.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+    <ref name="events"/>
+    <optional>
+      <attribute name="selected">
+        <value>selected</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="disabled">
+        <value>disabled</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="value"/>
+    </optional>
+  </define>
+  <define name="html.textarea">
+    <element name="html:textarea">
+      <ref name="html.textarea.attlist"/>
+      <text/>
+    </element>
+  </define>
+  <define name="html.textarea.attlist" combine="interleave">
+    <ref name="common.attrib"/>
+    <ref name="events"/>
+    <optional>
+      <attribute name="name"/>
+    </optional>
+    <attribute name="rows"/>
+    <attribute name="cols"/>
+    <optional>
+      <attribute name="disabled">
+        <value>disabled</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="readonly">
+        <value>readonly</value>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="tabindex"/>
+    </optional>
+    <optional>
+      <attribute name="accesskey"/>
+    </optional>
+    <optional>
+      <attribute name="onfocus"/>
+    </optional>
+    <optional>
+      <attribute name="onblur"/>
+    </optional>
+    <optional>
+      <attribute name="onselect"/>
+    </optional>
+    <optional>
+      <attribute name="onchange"/>
+    </optional>
+  </define>
+</grammar>
+<!-- End of forms.mod V2.6 .............................................. -->
+<!-- ...................................................................... -->

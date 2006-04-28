@@ -1,0 +1,100 @@
+# ======================================================================
+
+# Website Layout DTD V2.5.0
+# Part of the Website distribution
+# http://sourceforge.net/projects/docbook/
+# 
+# Please use the following formal public identifier to identify it:
+# 
+# "-//Norman Walsh//DTD Website Layout V2.5.0//EN"
+# 
+# For example:
+# 
+# <!DOCTYPE layout PUBLIC "-//Norman Walsh//DTD Website Layout V2.5.0//EN"
+#                 "http://docbook.sourceforge.net/release/website/2.5.0/layout.dtd">
+# 
+# Please direct all questions and comments about this DTD to
+# Norman Walsh, <ndw@nwalsh.com>.
+
+# ======================================================================
+
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+
+layout =
+  element layout {
+    attlist.layout,
+    (config | style | script | headlink | copyright)*,
+    toc+,
+    notoc*
+  }
+attlist.layout &= empty
+config = element config { attlist.config, empty }
+attlist.config &=
+  attribute param { text },
+  attribute value { text },
+  attribute altval { text }?
+style = element style { attlist.style, text }
+attlist.style &=
+  attribute src { text }?,
+  attribute type { text }?
+script = element script { attlist.script, text }
+attlist.script &=
+  attribute src { text }?,
+  attribute language { text }?,
+  attribute type { text }?
+headlink = element headlink { attlist.headlink, empty }
+attlist.headlink &=
+  attribute href { text }?,
+  attribute media { text }?,
+  attribute name { text }?,
+  attribute rel { text }?,
+  attribute rev { text }?,
+  attribute src { text }?,
+  attribute title { text }?,
+  attribute type { text }?
+copyright = element copyright { attlist.copyright, year+, holder+ }
+attlist.copyright &= empty
+year = element year { attlist.year, text* }
+attlist.year &= empty
+holder = element holder { attlist.holder, (text | ulink)* }
+attlist.holder &= attribute role { text }?
+ulink = element ulink { attlist.ulink, text* }
+attlist.ulink &= attribute url { text }
+toc = element toc { attlist.toc, tocentry* }
+attlist.toc &=
+  attribute page { text },
+  attribute dir { text }?,
+  attribute filename { text }?
+tocentry =
+  element tocentry {
+    attlist.tocentry, (title | titleabbrev | summary)*, tocentry*
+  }
+attlist.tocentry &=
+  attribute id { xsd:ID }?,
+  attribute page { text }?,
+  attribute href { text }?,
+  attribute dir { text }?,
+  attribute filename { text }?,
+  attribute revisionflag { "added" | "changed" }?,
+  [ a:defaultValue = "0" ] attribute tocskip { "0" | "1" }?
+notoc = element notoc { attlist.notoc, empty }
+attlist.notoc &=
+  attribute page { text },
+  attribute dir { text }?,
+  attribute filename { text }?
+title = element title { attlist.title, any }
+attlist.title &= empty
+titleabbrev = element titleabbrev { attlist.titleabbrev, any }
+attlist.titleabbrev &= empty
+summary = element summary { attlist.summary, text* }
+attlist.summary &= empty
+start = layout
+any =
+  (element * {
+     attribute * { text }*,
+     any
+   }
+   | text)*
+# End of layout.dtd V2.5.0 .............................................
+
+# ......................................................................

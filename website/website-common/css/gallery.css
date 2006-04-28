@@ -1,0 +1,17 @@
+#software_galleryPage .formalpara {
+	clear: both;
+	margin: 15px 0 25px 0;
+	float: none;
+}
+
+#software_galleryPage .inlinemediaobject {
+	float: right;
+	display:block;
+	width:50%;
+	margin-bottom:20px;	
+}
+
+#software_galleryPage .inlinemediaobject + p {
+	clear: both;
+	margin-bottom:20px;
+}

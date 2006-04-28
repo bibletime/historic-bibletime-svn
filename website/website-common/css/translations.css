@@ -1,0 +1,35 @@
+#translationPage {
+	
+}
+
+#translationPage .postats {
+	margin: 15px 0 25px 15px;
+}
+
+#translationPage .language {
+	font-size: 0.8em;
+	width: 90%;
+	margin: 5px 0 10px 0;
+	padding: 0;
+}
+
+#translationPage .language td.translated { /* translated */
+	background-color: #B0DB99;
+	height: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+#translationPage .language td.fuzzy { /* fuzzy */
+	background-color: #9AA0D2;
+	height: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+#translationPage .language td.untranslated { /* untranslated */
+	background-color: #FF9A9C;
+	height: 15px;
+	margin: 0;
+	padding: 0;
+}

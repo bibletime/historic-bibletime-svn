@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <!-- ====================================================================== -->
+  <!--
+    Website Extensions V2.6
+    Copyright (C) 2002 Norman Walsh
+    http://sourceforge.net/projects/docbook/
+    
+    $Id: extensions.mod,v 1.4 2005/04/11 11:13:16 xmldoc Exp $
+    
+    Please direct all questions and comments about this DTD to
+    Norman Walsh, <ndw@nwalsh.com>.
+  -->
+  <!-- ====================================================================== -->
+  <!-- allow webtoc to occur anywhere a para can occur -->
+  <define name="local.para.class">
+    <choice>
+      <ref name="webtoc"/>
+      <ref name="rss"/>
+    </choice>
+  </define>
+  <include href="namespaces.mod.rng"/>
+  <!-- RDDL? -->
+  <define name="rddl.elements">
+    <ref name="rddl-resource.element"/>
+  </define>
+  <define name="local.section.attrib">
+    <optional>
+      <attribute name="rddl">
+        <data type="IDREF"/>
+      </attribute>
+    </optional>
+  </define>
+  <!-- Forms? -->
+  <define name="local.para.char.mix">
+    <choice>
+      <ref name="html.input"/>
+      <ref name="html.button"/>
+      <ref name="html.label"/>
+      <ref name="html.select"/>
+      <ref name="html.textarea"/>
+      <ref name="rddl.elements"/>
+    </choice>
+  </define>
+  <define name="local.divcomponent.mix">
+    <ref name="html.form"/>
+  </define>
+  <!-- the XML notation; this really should go in DocBook -->
+  <define name="local.notation.class">
+    <notAllowed/>
+  </define>
+  <define name="notation.class">
+    <choice>
+      <value>BMP</value>
+      <value>CGM-CHAR</value>
+      <value>CGM-BINARY</value>
+      <value>CGM-CLEAR</value>
+      <value>DITROFF</value>
+      <value>DVI</value>
+      <value>EPS</value>
+      <value>EQN</value>
+      <value>FAX</value>
+      <value>GIF</value>
+      <value>GIF87a</value>
+      <value>GIF89a</value>
+      <value>JPG</value>
+      <value>JPEG</value>
+      <value>IGES</value>
+      <value>PCX</value>
+      <value>PIC</value>
+      <value>PNG</value>
+      <value>PS</value>
+      <value>SGML</value>
+      <value>XML</value>
+      <value>TBL</value>
+      <value>TEX</value>
+      <value>TIFF</value>
+      <value>WMF</value>
+      <value>WPG</value>
+      <value>linespecific</value>
+      <ref name="local.notation.class"/>
+    </choice>
+  </define>
+</grammar>
+<!-- End of Website Extensions V2.6 ..................................... -->
+<!-- ...................................................................... -->

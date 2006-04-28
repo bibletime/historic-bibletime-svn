@@ -1,0 +1,43 @@
+div.guestbook {
+	width: 100%;
+}
+
+div.guestbook form.additem {
+	color: black;
+	background-color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+div.guestbook .item {
+	width:100%;
+}
+
+div.guestbook .item .header {
+	vertical-align: middle;
+	padding: 3px;
+	font-size: 1em;
+	
+	background-color: white;
+	color: #094ED0;
+}
+
+div.guestbook .item .header .name {
+	font-weight: bold;
+}
+
+div.guestbook .item .header .contact-info img {
+	vertical-align: bottom;
+	margin: 1px;
+	padding: 1px;
+}
+
+div.guestbook .item .comments {
+	font-size: 0.85em;
+	padding: 0 10px 15px 10px
+}
+
+div.guestbook .item .comments p {
+	margin: 0;
+	padding: 0;
+}
