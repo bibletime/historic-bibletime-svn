@@ -1,0 +1,499 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2006-04-17 15:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING"
+
+# type: Content of: <webpage><head><title>
+#: test.xml:5
+msgid "Software"
+msgstr ""
+
+# type: Content of: <webpage><section><title>
+#: test.xml:15
+msgid "Welcome to the BibleTime project."
+msgstr ""
+
+# type: Content of: <webpage><section><para>
+#: test.xml:17
+msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject>"
+msgstr ""
+
+# type: Content of: <webpage><section><para>
+#: test.xml:23
+msgid ""
+"</inlinemediaobject> </ulink> BibleTime is a Bible study application for "
+"Linux. It is based on the <ulink url=\"http://www.kde.org/\"> K Desktop "
+"Environment </ulink> and uses the <ulink "
+"url=\"http://www.crosswire.org/sword/\">Sword</ulink> programming library to "
+"work with Bible texts, commentaries, dictionaries and books provided by the "
+"<ulink url=\"http://www.crosswire.org/\"> Crosswire Bible Society </ulink> ."
+msgstr ""
+
+# type: Content of: <webpage><section><title>
+#: test.xml:45
+msgid "News about BibleTime"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:47
+msgid "2006-03-18: BibleTime 1.6beta1"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:49
+msgid "The first beta release of the upcoming version 1.6 has been released today."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:53
+msgid ""
+"Among many bug fixes it includes a new instant search feature, which enabled "
+"BibleTime to search in your installed works in a fraction of a second."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:58
+msgid ""
+"The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> "
+"clucene.sf.net </ulink> ) is required to compile and install BibleTime "
+"1.6beta1.  Please report all found bugs and your suggestions using our "
+"trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> "
+"www.sf.net/projects/bibletime.  </ulink>"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:72
+msgid "2006-03-17: Locked German Bible"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:74
+msgid ""
+"The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen "
+"</ulink> decided to release their excellent, modern translation \"Hoffnung "
+"für Alle\" (GerHfa2002) for use by the Sword community."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:83
+msgid ""
+"The text contains headings, footnotes, ... and can be downloaded <ulink "
+"url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> "
+"here </ulink> . This module is locked. If you want to use it, you can buy an "
+"unlock key for 22 &euro; <ulink "
+"url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> "
+"directly from Brunnen </ulink> . CrossWire is not involved in the financial "
+"transaction and receives no share of the money."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:99
+msgid ""
+"We hope that in future, more publishers <ulink "
+"url=\"http://crosswire.org/sword/publisher/index.jsp\"> will make use of "
+"this possibility </ulink> to distribute their copyrighted material for use "
+"with The SWORD Project."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:108
+msgid ""
+"This will ultimately increase the recent material available through The "
+"SWORD Project and help users with studying God's word. Stay tuned for more "
+"module updates soon!"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:116
+msgid "2005-12-18: Translations, packages, FAQ"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:118
+msgid ""
+"A new release of our translations package is now available at our download "
+"location. It includes many updates of the user interface translations. We "
+"hope to provide binary packages soon."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:124
+msgid ""
+"Perhaps you noticed all the package updates in the last few months. Jeremy "
+"Erickson is working on it and is a great blessing for our team."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:128
+msgid "The FAQ received some minor updates."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:132
+msgid "2005-11-13: BibleTime 1.5.3"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:134
+msgid ""
+"A new bugfix release is out now. Version 1.5.3 contains only a few fixes, "
+"mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:139
+msgid ""
+"Get the new release in the download section. Binary packages should be "
+"available soon."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:145
+msgid "2005-10-16: BibleTime 1.5.2"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:147
+msgid ""
+"A new bugfix release has been released today. Version 1.5.2 contains fixes "
+"for most of the bugs found in 1.5.1. It also contains some minor "
+"improvements to the user interface. See the file Changelog in the source "
+"code package for more details."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:154
+msgid ""
+"BibleTime 1.5.2 is available from the usual places. We'd be glad if binary "
+"packages could be prepared to simplify BibleTime's installation."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:161
+msgid "2005-09-28: New forums"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:163
+msgid ""
+"Because the old forum software turned out to be insecure we installed a new "
+"forum software today. We hope that you will continue to use the forums."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:170
+msgid "2005-09-12: BibleTime 1.5.1 and translations"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:172
+msgid ""
+"The bugfix release 1.5.1 is available now at our download location. A first "
+"version of BibleTime's translation files has been released, too."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:179
+msgid "2005-07-16: BibleTime 1.5"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:181
+msgid ""
+"BibleTime 1.5 is available now. It contains many new features and "
+"improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available "
+"in the download section. We hope to provide binary and translation packages "
+"for the most important Linux distributions in the next few weeks."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:189
+msgid ""
+"Please use our new forums to discuss about this new release. Translators are "
+"encouraged to update their translations."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:196
+msgid "2005-06-17: BibleTime 1.5 release candidate 2"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:198
+msgid ""
+"The second release candidate of BibleTime version 1.5 was released today. It "
+"contains fixes for most of the problems found in 1.5rc1 and some more "
+"additional improvements. Please report all problems and bugs you encounter "
+"<ulink "
+"url=\"http://sourceforge.net/tracker/?atid=521207&amp;group_id=954&amp;func=browse\"> here </ulink> . The source code of BibleTime 1.5rc2 and Sword 1.5.8 is available in the download section."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:213
+msgid "2005-06-15: BibleTime forums online"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:215
+msgid ""
+"In the ongoing effort to build a BibleTime user community the BibleTime "
+"forums are now available for everybody at <ulink "
+"url=\"http://forum.bibletime.info/\"> forum.bibletime.info </ulink> . All "
+"users of BibleTime are encouraged to use these forums to discuss everything "
+"related to BibleTime."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:227
+msgid "2005-05-29: BibleTime 1.5 release candidate 1"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:229
+msgid ""
+"The first release candidate of BibleTime version 1.5 was released today. It "
+"contains a ton of fixes, improvements and new features. Everybody who is "
+"capable to install software using the source code is encouraged to test this "
+"release. Please report all problems and bugs you encounter <ulink "
+"url=\"http://sourceforge.net/tracker/?atid=521207&amp;group_id=954&amp;func=browse\"> here </ulink> . The source code of BibleTime 1.5rc1 and Sword 1.5.8 is available in the download section."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:245
+msgid "2005-01-24: Bible software Survey"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:247
+msgid ""
+"Bible Software vendors from around the globe are jointly sponsoring a "
+"cooperative User Survey to glean from Bible Software Users worldwide their "
+"needs, requests, and dreams. We'd be glad if you could take the survey here: "
+"<ulink url=\"http://www.surveymonkey.com/s.asp?u=91866814127\"> Bible "
+"software survey </ulink>"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:259
+msgid "2004-12-23: Status update"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:261
+msgid ""
+"The BibleTime project is still alive and development is almost finished for "
+"the next version, BibleTime 1.5.  This version will contain major user "
+"interface improvements which will make it simpler to use than any other "
+"version before. We hope to release version 1.5 in the first three months of "
+"the next year."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:271
+msgid "2004-05-25: Documentation author(s) needed"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:273
+msgid ""
+"The BibleTime team is in urgent need of one or more volunteers who want to "
+"work on the documentation. The handbook is outdated and needs a major update "
+"before the next version of BibleTime can be released. If you have some free "
+"time and know how to work with docbook files (or are ready to learn it), "
+"plase contact us at <email>info@bibletime.info</email> ."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:285
+msgid "2004-02-09: BibleTime 1.4.1 for Mac OS X"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:287
+msgid ""
+"On the BibleTime development list <ulink "
+"url=\"http://www.crosswire.org/pipermail/bt-devel/2004-February/005181.html\"> Daniel Glassey writes </ulink> that BibleTime is now available for Mac OSX. To get BibleTime running on Mac please follow the instructions in <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2004-February/005163.html\"> this eMail </ulink> and <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2004-February/005181.html\"> this eMail </ulink> . Please report problems or success to <email>info@bibletime.info</email> ."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:311
+msgid "2004-01-29: BibleTime 1.4.1"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:313
+msgid ""
+"BibleTime 1.4.1 was released today. The most important changes in version "
+"1.4.1 are updated translations and bugfixes, especially in the Sword setup "
+"dialog."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:320
+msgid "2004-01-26: User forums online"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:322
+msgid ""
+"We're happy to announce a forum for BibleTime users.  Please ask all your "
+"questions there if you need help.  We'd appreciate all feedback and "
+"suggestions in the forum, too. The address is <ulink "
+"url=\"http://www.crosswire.org/forums\"> http://www.crosswire.org/forums "
+"</ulink> ."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:334
+msgid "2004-01-16: Debian packages available"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:336
+msgid ""
+"<ulink url=\"http://packages.debian.org/unstable/kde/bibletime\"> Debian "
+"packages of BibleTime 1.4 </ulink> are available now in Debian Unstable. Be "
+"sure to get the <ulink "
+"url=\"http://packages.debian.org/unstable/kde/bibletime-i18n\"> "
+"bibletime-i18n package </ulink> , too. Kudos to our Debian packager Daniel "
+"Glassey for his work!"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:351
+msgid "2004-01-11: New translation effort"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:353
+msgid "First of all we want to wish all of you a truly happy and blessed new year."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:357
+msgid ""
+"As you probably already noticed, there is a new page online called <ulink "
+"url=\"translation.shtml\"> &quot;Translation&quot; </ulink> . This page "
+"gives an introduction into how you can help with the translation of the "
+"different areas of the BibleTime project, and offers detailed statistics on "
+"the completeness of the existing languages. Be sure to check it out."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:371
+msgid "2003-12-29: BibleTime 1.4"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:373
+msgid ""
+"The new version 1.4 of BibleTime is now available for download. 1.4 in "
+"comparision with version 1.3 contains a new SwordSetup dialog to setup Sword "
+"and to install modules from local sources or from the internet. With the "
+"SwordSetup part it's also possible to remove modules from disk. 1.4 also "
+"contains many new bugfixes.  BibleTime 1.4 is available on our download "
+"page."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:382
+msgid ""
+"You need Sword 1.5.7 with enabled curl support to make use of the remote "
+"installation features. The binary packages we provide for some of the major "
+"linux distributions should work out of the box."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:388
+msgid ""
+"If you run into troubles installing BibleTime or you have problems using it "
+"please submit a bugreport. We need your support to improve BibleTime."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:395
+msgid "2003-12-03: BibleTime 1.4beta1"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:397
+msgid ""
+"The first testing version of the upcoming BibleTime 1.4 was released "
+"today. The new feature in comparision with 1.3 is the new SwordSetup dialog "
+"which makes the Sword and module configuration more userfriendly. Using the "
+"dialog you can now setup Sword's configuration files, install modules from "
+"the internet or from local sources (e.g. a CD) and also uninstall modules "
+"from your system.  This beta release also contains some important bugfixes."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:407
+msgid ""
+"This 1.4beta1 release is only meant for testing, so we do not provide binary "
+"packages. If you know how to compile programs from source code we encourage "
+"you to try this beta1 release. You need Sword 1.5.6 with enabled curl "
+"support to make use of the remote installation features."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:417
+msgid "2003-10-19: SuSE 9.0 packages"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:419
+msgid ""
+"RPM packages are now available for SuSE 9.0. Report any problems to "
+"info@bibletime.info. Thank you!"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:425
+msgid "2003-10-16: New webpages"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:427
+msgid ""
+"BibleTime has now new webpages which offer better navigation, better design "
+"and faster page download time."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:431
+msgid "If you experience any problems with the new pages please let us know!"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><title>
+#: test.xml:437
+msgid "2003-08-23: BibleTime 1.3"
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:439
+msgid ""
+"Version 1.3 of BibleTime is finally available. BibleTime 1.3 contains a lot "
+"of new features, usability improvements and bug fixes. Upgrading to version "
+"1.3 is strongly recommended for all our users. You can get the Software "
+"here: <ulink url=\"http://www.bibletime.info/software/download/\"> Download "
+"</ulink> . Binary packages will be released in the next few days."
+msgstr ""
+
+# type: Content of: <webpage><section><formalpara><para>
+#: test.xml:451
+msgid ""
+"Get the bibletime and the bibletime-i18n packages for full "
+"functionality. We're very sorry for the long release time, we hope to "
+"shorten it with the next releases."
+msgstr ""
