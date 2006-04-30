@@ -164,7 +164,7 @@ sub make_xml_files() {
 sub create_apache_files() {
 	my $source = shift;
 	my $dest = shift;
-	my @langs = &get_langs("language-online.conf");
+	my @langs = &get_langs("config/language-online.conf");
 	
 	print "Creating apache files ...\n";
 	
@@ -199,7 +199,7 @@ sub create_apache_files() {
 			print OUT "Content-language: $lang\n";
 		}
 		
-		print OUT "\nURI: default/$htmlfile\n";
+		print OUT "\nURI: en/$htmlfile\n";
 		print OUT "Content-type: text/html\n";
 		
 		close(OUT);
@@ -262,8 +262,9 @@ while (my $lang = shift(@langs)) {
 `cp -raf website-common/* website-common/.htaccess  $TARGET`;
 
 #Copy all language po file
-`mkdir website-generated/po;`
-`for d in $(cat config/language.conf); do echo "$d"; cp -Rf content/$d/po/full.po website-generated/po/bibletime_website_$d.po; done;`
+`mkdir website-generated/po;`;
+`for d in \$(cat config/language.conf); do echo "\$d"; cp -Rf content/\$d/po/full.po website-generated/po/bibletime_website_\$d.po; done;`;
+`cp content/en/pot/full.pot website-generated/po/bibletime_website_template.pot`;
 
 &create_apache_files($ENV{"PWD"} . "/$TARGET/en", "$TARGET");
 

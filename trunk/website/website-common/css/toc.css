@@ -32,14 +32,14 @@
 	padding: 0;
 }
 
-#navigation li > a {
+#navigation li a {
 	font-weight: bold;
 	background-color: #E9EFFE;
 	padding: 6px;
 	border-bottom: 2px dotted white;
 }
 
-#navigation li li > a {
+#navigation li li a {
 	color: black;
 	background-color: white;
 	padding: 2px;
@@ -51,7 +51,7 @@
 }
 
 /* Toplevel entries */
-#navigation .current > span {
+#navigation .current span {
 	color:black;
 	background-color: #E9EFFE;
 	display: block;
@@ -65,7 +65,7 @@
 	padding-bottom: 5px;
 }
 
-#navigation ul ul .current > span {
+#navigation ul ul .current span {
 	font-weight: bold;
 	background-color: white;
 /*	color: #094ED0;*/
