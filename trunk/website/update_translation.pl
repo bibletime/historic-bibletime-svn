@@ -71,7 +71,7 @@ sub update_po_files() {
 	my $potdir = shift;
 	my $podir  = shift;
 
-	#print "$podir: Creating PO files\n";
+	print "$podir: Creating PO files\n";
 	mkpath($podir);
 
 	my $potfile = "$potdir/full.pot";
@@ -80,6 +80,9 @@ sub update_po_files() {
 	if (!-f $pofile) {
 		`touch $pofile`;
 	}
+
+        #print "msgmerge --force-po --no-wrap -o $pofile.new $pofile $potfile\n";
+
 
 	`msgmerge --force-po --no-wrap -o $pofile.new $pofile $potfile  `;
 
@@ -243,7 +246,7 @@ if (!@langs) {
 
 &update_pot_files($ENV{"PWD"} . "/content/en",  $ENV{"PWD"} . "/content/en/pot/");
 
-foreach my $lang (&get_langs("language.conf")) {
+foreach my $lang (&get_langs("config/language.conf")) {
 	print "Creating PO files for $lang...\n";
 	&update_po_files($ENV{"PWD"} . "/content/en/pot/", $ENV{"PWD"} . "/content/$lang/po/");
 };

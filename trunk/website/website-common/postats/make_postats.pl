@@ -7,8 +7,8 @@ use lib "../Perl";
 use Locale::PO;
 use strict;
 
-my $BT_HOME="/home/joachim/Projekte/BibleTime";
-my $WEB_HOME="$BT_HOME/bibletime-website2";
+my $BT_HOME="/home/jansorg/Projekte/BibleTime";
+my $WEB_HOME="$BT_HOME/bibletime-website";
 
 sub get_langs {
 	my $file = shift || "language.conf";
