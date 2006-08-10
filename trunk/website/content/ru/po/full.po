@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-07-05 22:35+0000\n"
+"POT-Creation-Date: 2006-08-02 21:19+0000\n"
 "PO-Revision-Date: 2006-01-23 21:44+0100\n"
 "Last-Translator: Joachim Ansorg <mail@joachim-ansorg.de>\n"
 "Language-Team:  <de@li.org>\n"
@@ -2512,8 +2512,8 @@ msgstr "Исходный код и пакеты для основных дист
 
 #. Tag: para
 #: software_installation.xml:26
-#, no-c-format
-msgid "Debian packages are available for <ulink url=\"http://packages.debian.org/unstable/kde/bibletime\">Debian Unstable</ulink> and <ulink url=\"http://packages.debian.org/stable/x11/bibletime\">Debian Stable</ulink>."
+#, fuzzy, no-c-format
+msgid "Debian packages are available for <ulink url=\"http://packages.debian.org/unstable/kde/bibletime\">Debian Unstable</ulink> and <ulink url=\"http://packages.debian.org/stable/kde/bibletime\">Debian Stable</ulink>."
 msgstr "Есть Debian-пакеты для <ulink url=\"http://packages.debian.org/unstable/kde/bibletime\">Debian Unstable(нестабильный)</ulink> и <ulink url=\"http://packages.debian.org/stable/x11/bibletime\">Debian Stable (стабильный)</ulink>."
 
 #. Tag: para
@@ -2528,86 +2528,92 @@ msgstr "Есть пакеты Gentoo на <ulink url=\"http://packages.gentoo.or
 msgid "A FreeBSD application port of BibleTime can be found on <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
 msgstr "FreeBSD версию BibleTime можно найти на <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
 
+#. Tag: para
+#: software_installation.xml:41
+#, fuzzy, no-c-format
+msgid "PC-BSD packages are available <ulink url=\"http://www.pbidir.com/search.php?str=bibletime\">here</ulink>."
+msgstr "Есть пакеты Gentoo на <ulink url=\"http://packages.gentoo.org/search/?sstring=bibletime\">www.gentoo.org</ulink>."
+
 #. Tag: title
-#: software_installation.xml:44
+#: software_installation.xml:48
 #, no-c-format
 msgid "Installation of BibleTime"
 msgstr "Установка BibleTime"
 
 #. Tag: para
-#: software_installation.xml:45
+#: software_installation.xml:49
 #, no-c-format
 msgid "This section explains how to install BibleTime on your system. Basically there are two ways to install it: Either by using prebuilt binary packages or by compiling from source code. Installing BibleTime using prebuilt packages is the easiest way."
 msgstr "Этот раздел поясняет как установить BibleTime на вашей системе. Есть два способа установки: Или с помощью предварительно собранных бинарных пакетов, или выполнив компиляцию из исходного кода Установка с помощью предварительно собранных бинарных пакетов самый простой путь. "
 
 #. Tag: title
-#: software_installation.xml:49
+#: software_installation.xml:53
 #, no-c-format
 msgid "Prebuilt binary packages"
 msgstr "Предварительно собранные бинарные пакеты"
 
 #. Tag: para
-#: software_installation.xml:50
+#: software_installation.xml:54
 #, no-c-format
 msgid "We try to provide packages for the most important Linux distributions. These include RedHat, Mandrake and SuSE."
 msgstr "Мы стараемся подготовить пакеты для самых распространенных дистрибутивов Линукс. В их число входят RedHat, Mandrake и SuSE."
 
 #. Tag: para
-#: software_installation.xml:53
+#: software_installation.xml:57
 #, no-c-format
 msgid "First download the binary package for your Linux distribution. For example: You want to download <application>BibleTime 1.4</application> for <productname>SuSE Linux 9.0</productname>. In this case you have to download the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please download the package &quot;bibletime-i18n&quot; package, too. This package contains the available translations of the BibleTime user interface and handbook."
 msgstr "Сначала загрузите бинарный пакет для вашего дистрибутива Линукс. Например: Вы хотите загрузить <application>BibleTime 1.4</application> для <productname>SuSE Linux 9.0</productname>. В этом случае вам нужно загрузить пакет <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Пожалуйста, не забудьте также загрузить пакет &quot;bibletime-i18n&quot;. Этот пакет содержит существующие переводы интерфейса пользователя и руководства для BibleTime. "
 
 #. Tag: para
-#: software_installation.xml:56
+#: software_installation.xml:60
 #, no-c-format
 msgid "If there are no packages for your version of Linux you have to install from source code. Please see below how to do that."
 msgstr "Если здесь нет пакета для вашей версии Линукс, вам нужно делать установку из исходного кода. Пожалуйста, прочтите ниже как это сделать."
 
 #. Tag: title
-#: software_installation.xml:60
+#: software_installation.xml:64
 #, no-c-format
 msgid "Installation from source code"
 msgstr "Установка из исходного кода"
 
 #. Tag: para
-#: software_installation.xml:61
+#: software_installation.xml:65
 #, no-c-format
 msgid "Installation using BibleTime's source code is more difficult than using binary packages. Please follow the steps below if you decided to install BibleTime from sources:"
 msgstr "Установка с использованием исходного кода BibleTime более сложна по сравнению с использованием бинарных пакетов. Installation using BibleTime's source code is more difficult than using binary packages. Пожалуйста следуйте указаниям, приведённым ниже, если вы решили устанавливать BibleTime из исходного кода:"
 
 #. Tag: para
-#: software_installation.xml:66
+#: software_installation.xml:70
 #, no-c-format
 msgid "At first make sure the required software is installed on your system. Depending on your Linux distribution you have to install the development packages of the required software, too."
 msgstr "Для начала убедитесь, что необходимое программное обеспечение (ПО) установлено в вашей системе. В зависимости от вашего дистрибутива Линукс вам также нужно установить пакеты для разработки (development packages) необходимого ПО."
 
 #. Tag: para
-#: software_installation.xml:71
+#: software_installation.xml:75
 #, no-c-format
 msgid "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
 msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
 
 #. Tag: para
-#: software_installation.xml:72
+#: software_installation.xml:76
 #, no-c-format
 msgid "At least the libraries and the base package. KDE 3 is shipped with many Linux distributions. Very often it's installed by default."
 msgstr "Как минимум библиотеки и базовый пакет. KDE 3 поставляется со многими дистрибутивами Линукс. И очень часто устанавливается по умолчанию."
 
 #. Tag: para
-#: software_installation.xml:81
+#: software_installation.xml:85
 #, fuzzy, no-c-format
 msgid "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword 1.5.8</ulink>."
 msgstr "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword 1.5.7</ulink>."
 
 #. Tag: para
-#: software_installation.xml:82
+#: software_installation.xml:86
 #, no-c-format
 msgid "Installation instructions are available on <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\">www.crosswire.org/sword/software</ulink>. Basically the installation steps are"
 msgstr "Инструкции по установке есть на <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\">www.crosswire.org/sword/software</ulink>. Основные шаги при установке"
 
 #. Tag: screen
-#: software_installation.xml:83
+#: software_installation.xml:87
 #, fuzzy, no-c-format
 msgid ""
 "<command>./usrinst.sh --enable-shared --without-clucene</command>\n"
@@ -2621,19 +2627,19 @@ msgstr ""
 "                                                                <command>make install_config</command>"
 
 #. Tag: para
-#: software_installation.xml:88
+#: software_installation.xml:92
 #, no-c-format
 msgid "Please note that this list is only valid for the latest version of BibleTime, older versions may require other software."
 msgstr "Пожалуйста, обратите внимание, что этот список годится только для последней версии BibleTime. Старые версии могут требовать другого программного обеспечения. "
 
 #. Tag: para
-#: software_installation.xml:93
+#: software_installation.xml:97
 #, no-c-format
 msgid "Compile and install BibleTime:"
 msgstr "Компиляция и установка BibleTime:"
 
 #. Tag: screen
-#: software_installation.xml:94
+#: software_installation.xml:98
 #, no-c-format
 msgid ""
 "<command>./configure --prefix=&lt;your KDE directory&gt;</command>\n"
@@ -2645,13 +2651,13 @@ msgstr ""
 "                                                <command>make install</command>"
 
 #. Tag: para
-#: software_installation.xml:97
+#: software_installation.xml:101
 #, no-c-format
 msgid "You can get your KDE directory by running the command <command>kde-config --prefix</command>. If you get problems please read our <olink targetdocent=\"software_faq\">FAQ</olink>. If there's no solution of your problem, please contact us at <email>info@bibletime.info</email>."
 msgstr "Вы можете узнать ваш каталог KDE выполнив команду <command>kde-config --prefix</command>. Если у вас возникли проблемы, прочтите наш раздел <olink targetdocent=\"software_faq\">ЧаВо</olink>. Если там нет решения вашей проблемы, пожалуйста напишите нам на <email>info@bibletime.info</email>."
 
 #. Tag: para
-#: software_installation.xml:100
+#: software_installation.xml:104
 #, no-c-format
 msgid ""
 "Debian (and possibly derived distros as well) use a non-standard path to store the documentation of KDE programs. Therefore the ./configure line above in this case needs to be changed to: <screen>\n"
@@ -2660,7 +2666,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software_installation.xml:109
+#: software_installation.xml:113
 #, fuzzy, no-c-format
 msgid ""
 "Compile and install the translations of BibleTime's user interface (bibletime-i18n): <screen>\n"
@@ -2674,55 +2680,55 @@ msgstr ""
 "                                                <command>make install</command>"
 
 #. Tag: title
-#: software_installation.xml:121
+#: software_installation.xml:125
 #, fuzzy, no-c-format
 msgid "Install works"
 msgstr "Установка модулей Sword"
 
 #. Tag: para
-#: software_installation.xml:122
+#: software_installation.xml:126
 #, fuzzy, no-c-format
 msgid "You need Sword modules to work with BibleTime. Since version 1.4 BibleTime offers a userfriendly dialog (the Bookshelf Manager) to install/update/remove works. We strongly recommend this way to install works on your computer."
 msgstr "Для работы с BibleTime вам понадобятся модули Sword. Начиная с версии 1.4 BibleTime предлагает дружелюбный диалог управления модулями Sword. Мы настоятельно рекомендуем этот способ установки модулей на ваш компьютер. "
 
 #. Tag: para
-#: software_installation.xml:126
+#: software_installation.xml:130
 #, fuzzy, no-c-format
 msgid "Instructions for manual installation is available on <ulink url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\">www.crosswire.org/sword/modules</ulink>."
 msgstr "Инструкции для установки модулей вручную находятся на <ulink url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\">www.crosswire.org/sword/modules</ulink>."
 
 #. Tag: title
-#: software_installation.xml:130
+#: software_installation.xml:134
 #, fuzzy, no-c-format
 msgid "Available types of works"
 msgstr "Доступные типы модулей"
 
 #. Tag: para
-#: software_installation.xml:131
+#: software_installation.xml:135
 #, fuzzy, no-c-format
 msgid "Here is a list of available types of works and where to get more information:"
 msgstr "Это список существующих типов модулей и где можно получить больше информации о них:"
 
 #. Tag: ulink
-#: software_installation.xml:135
+#: software_installation.xml:139
 #, no-c-format
 msgid "Bibles"
 msgstr "Библии"
 
 #. Tag: ulink
-#: software_installation.xml:136
+#: software_installation.xml:140
 #, no-c-format
 msgid "Commentaries"
 msgstr "Комментарии"
 
 #. Tag: ulink
-#: software_installation.xml:137
+#: software_installation.xml:141
 #, no-c-format
 msgid "Lexicons / Dictionaries"
 msgstr "Словари"
 
 #. Tag: ulink
-#: software_installation.xml:138
+#: software_installation.xml:142
 #, no-c-format
 msgid "Books"
 msgstr "Книги"
