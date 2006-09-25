@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-08-02 21:19+0000\n"
+"POT-Creation-Date: 2006-09-23 08:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -129,43 +129,37 @@ msgid "Imprint"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:78 layout.xml:62
-#, no-c-format
-msgid "User forums"
-msgstr ""
-
-#. Tag: title
-#: autolayout.xml:81 development.xml:10
+#: autolayout.xml:78 development.xml:10
 #, no-c-format
 msgid "Development"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:84 development_help.xml:12
+#: autolayout.xml:81 development_help.xml:12
 #, no-c-format
 msgid "Help us"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:88 development_join.xml:10
+#: autolayout.xml:85 development_join.xml:10
 #, no-c-format
 msgid "Join us"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:92 development_mailinglists.xml:10
+#: autolayout.xml:89 development_mailinglists.xml:10
 #, no-c-format
 msgid "Mailinglists"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:97 translation.xml:9
+#: autolayout.xml:94 translation.xml:9
 #, no-c-format
 msgid "Translation"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:101 biblehowto.docbook:17
+#: autolayout.xml:98 biblehowto.docbook:17
 #, no-c-format
 msgid "Biblestudy HowTo"
 msgstr ""
@@ -3266,11 +3260,24 @@ msgid ""
 msgstr ""
 
 #. Tag: para
+#: software_installation.xml:80
+#, no-c-format
+msgid ""
+"<ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink>."
+msgstr ""
+
+#. Tag: para
+#: software_installation.xml:81
+#, no-c-format
+msgid "This is necessary for the new instant search feature."
+msgstr ""
+
+#. Tag: para
 #: software_installation.xml:85
 #, no-c-format
 msgid ""
 "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword "
-"1.5.8</ulink>."
+"1.5.9</ulink>."
 msgstr ""
 
 #. Tag: para
@@ -4129,11 +4136,35 @@ msgstr ""
 #. Tag: title
 #: software.xml:52
 #, no-c-format
-msgid "2006-06-17: BibleTime 1.6beta3"
+msgid "2006-09-22: BibleTime 1.6"
 msgstr ""
 
 #. Tag: para
 #: software.xml:53
+#, no-c-format
+msgid ""
+"A new version of BibleTime has been made available today. It includes many "
+"fixes and several new features like the instant search in the installed "
+"works."
+msgstr ""
+
+#. Tag: para
+#: software.xml:56
+#, no-c-format
+msgid ""
+"You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this "
+"release. A detailed changelog is available <ulink url=\"http://sourceforge."
+"net/project/shownotes.php?release_id=449414&amp;group_id=954\">here</ulink>"
+msgstr ""
+
+#. Tag: title
+#: software.xml:62
+#, no-c-format
+msgid "2006-06-17: BibleTime 1.6beta3"
+msgstr ""
+
+#. Tag: para
+#: software.xml:63
 #, no-c-format
 msgid ""
 "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://"
@@ -4142,20 +4173,20 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:57
+#: software.xml:67
 #, no-c-format
 msgid ""
 "You need to install CLucene 0.9.12 before installing this preview release."
 msgstr ""
 
 #. Tag: title
-#: software.xml:63
+#: software.xml:73
 #, no-c-format
 msgid "2006-04-26: BibleTime 1.6beta2"
 msgstr ""
 
 #. Tag: para
-#: software.xml:64
+#: software.xml:74
 #, no-c-format
 msgid ""
 "The second preview release of BibleTime 1.6 is out now. See <ulink url="
@@ -4164,26 +4195,26 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:68
+#: software.xml:78
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
 msgstr ""
 
 #. Tag: title
-#: software.xml:74
+#: software.xml:84
 #, no-c-format
 msgid "2006-03-18: BibleTime 1.6beta1"
 msgstr ""
 
 #. Tag: para
-#: software.xml:75
+#: software.xml:85
 #, no-c-format
 msgid ""
 "The first beta release of the upcoming version 1.6 has been released today."
 msgstr ""
 
 #. Tag: para
-#: software.xml:79
+#: software.xml:89
 #, no-c-format
 msgid ""
 "Among many bug fixes it includes a new instant search feature, which enabled "
@@ -4191,7 +4222,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:84
+#: software.xml:94
 #, no-c-format
 msgid ""
 "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> "
@@ -4202,13 +4233,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:99
+#: software.xml:109
 #, no-c-format
 msgid "2006-03-17: Locked German Bible"
 msgstr ""
 
 #. Tag: para
-#: software.xml:100
+#: software.xml:110
 #, no-c-format
 msgid ""
 "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </"
@@ -4217,7 +4248,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:109
+#: software.xml:119
 #, no-c-format
 msgid ""
 "The text contains headings, footnotes, ... and can be downloaded <ulink url="
@@ -4229,7 +4260,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:125
+#: software.xml:135
 #, no-c-format
 msgid ""
 "We hope that in future, more publishers <ulink url=\"http://crosswire.org/"
@@ -4238,7 +4269,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:134
+#: software.xml:144
 #, no-c-format
 msgid ""
 "This will ultimately increase the recent material available through The "
@@ -4247,13 +4278,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:143
+#: software.xml:153
 #, no-c-format
 msgid "2005-12-18: Translations, packages, FAQ"
 msgstr ""
 
 #. Tag: para
-#: software.xml:144
+#: software.xml:154
 #, no-c-format
 msgid ""
 "A new release of our translations package is now available at our download "
@@ -4262,7 +4293,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:150
+#: software.xml:160
 #, no-c-format
 msgid ""
 "Perhaps you noticed all the package updates in the last few months. Jeremy "
@@ -4270,19 +4301,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:155
+#: software.xml:165
 #, no-c-format
 msgid "The FAQ received some minor updates."
 msgstr ""
 
 #. Tag: title
-#: software.xml:159
+#: software.xml:169
 #, no-c-format
 msgid "2005-11-13: BibleTime 1.5.3"
 msgstr ""
 
 #. Tag: para
-#: software.xml:160
+#: software.xml:170
 #, no-c-format
 msgid ""
 "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, "
@@ -4290,7 +4321,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:165
+#: software.xml:175
 #, no-c-format
 msgid ""
 "Get the new release in the download section. Binary packages should be "
@@ -4298,13 +4329,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:172
+#: software.xml:182
 #, no-c-format
 msgid "2005-10-16: BibleTime 1.5.2"
 msgstr ""
 
 #. Tag: para
-#: software.xml:173
+#: software.xml:183
 #, no-c-format
 msgid ""
 "A new bugfix release has been released today. Version 1.5.2 contains fixes "
@@ -4314,7 +4345,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:180
+#: software.xml:190
 #, no-c-format
 msgid ""
 "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary "
@@ -4322,13 +4353,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:188
+#: software.xml:198
 #, no-c-format
 msgid "2005-09-28: New forums"
 msgstr ""
 
 #. Tag: para
-#: software.xml:189
+#: software.xml:199
 #, no-c-format
 msgid ""
 "Because the old forum software turned out to be insecure we installed a new "
@@ -4336,13 +4367,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:197
+#: software.xml:207
 #, no-c-format
 msgid "2005-09-12: BibleTime 1.5.1 and translations"
 msgstr ""
 
 #. Tag: para
-#: software.xml:198
+#: software.xml:208
 #, no-c-format
 msgid ""
 "The bugfix release 1.5.1 is available now at our download location. A first "
@@ -4350,13 +4381,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:206
+#: software.xml:216
 #, no-c-format
 msgid "2005-07-16: BibleTime 1.5"
 msgstr ""
 
 #. Tag: para
-#: software.xml:207
+#: software.xml:217
 #, no-c-format
 msgid ""
 "BibleTime 1.5 is available now. It contains many new features and "
@@ -4366,7 +4397,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:215
+#: software.xml:225
 #, no-c-format
 msgid ""
 "Please use our new forums to discuss about this new release. Translators are "

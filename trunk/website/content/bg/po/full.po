@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: index\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-08-02 21:19+0000\n"
+"POT-Creation-Date: 2006-09-23 08:30+0000\n"
 "PO-Revision-Date: 2003-12-28 14:05+0200\n"
 "Last-Translator: Andrew Ivanov <linux_ready@yahoo.com>\n"
 "Language-Team: Bulgarian\n"
@@ -130,43 +130,37 @@ msgid "Imprint"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:78 layout.xml:62
-#, no-c-format
-msgid "User forums"
-msgstr ""
-
-#. Tag: title
-#: autolayout.xml:81 development.xml:10
+#: autolayout.xml:78 development.xml:10
 #, no-c-format
 msgid "Development"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:84 development_help.xml:12
+#: autolayout.xml:81 development_help.xml:12
 #, no-c-format
 msgid "Help us"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:88 development_join.xml:10
+#: autolayout.xml:85 development_join.xml:10
 #, no-c-format
 msgid "Join us"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:92 development_mailinglists.xml:10
+#: autolayout.xml:89 development_mailinglists.xml:10
 #, no-c-format
 msgid "Mailinglists"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:97 translation.xml:9
+#: autolayout.xml:94 translation.xml:9
 #, no-c-format
 msgid "Translation"
 msgstr ""
 
 #. Tag: title
-#: autolayout.xml:101 biblehowto.docbook:17
+#: autolayout.xml:98 biblehowto.docbook:17
 #, fuzzy, no-c-format
 msgid "Biblestudy HowTo"
 msgstr "Ръководство за изучаване на Библията"
@@ -2594,9 +2588,21 @@ msgid "At least the libraries and the base package. KDE 3 is shipped with many L
 msgstr ""
 
 #. Tag: para
+#: software_installation.xml:80
+#, no-c-format
+msgid "<ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink>."
+msgstr ""
+
+#. Tag: para
+#: software_installation.xml:81
+#, no-c-format
+msgid "This is necessary for the new instant search feature."
+msgstr ""
+
+#. Tag: para
 #: software_installation.xml:85
 #, no-c-format
-msgid "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword 1.5.8</ulink>."
+msgid "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword 1.5.9</ulink>."
 msgstr ""
 
 #. Tag: para
@@ -3362,191 +3368,209 @@ msgstr ""
 #. Tag: title
 #: software.xml:52
 #, no-c-format
-msgid "2006-06-17: BibleTime 1.6beta3"
+msgid "2006-09-22: BibleTime 1.6"
 msgstr ""
 
 #. Tag: para
 #: software.xml:53
 #, no-c-format
+msgid "A new version of BibleTime has been made available today. It includes many fixes and several new features like the instant search in the installed works."
+msgstr ""
+
+#. Tag: para
+#: software.xml:56
+#, no-c-format
+msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">here</ulink>"
+msgstr ""
+
+#. Tag: title
+#: software.xml:62
+#, no-c-format
+msgid "2006-06-17: BibleTime 1.6beta3"
+msgstr ""
+
+#. Tag: para
+#: software.xml:63
+#, no-c-format
 msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for the list of changes."
 msgstr ""
 
 #. Tag: para
-#: software.xml:57
+#: software.xml:67
 #, no-c-format
 msgid "You need to install CLucene 0.9.12 before installing this preview release."
 msgstr ""
 
 #. Tag: title
-#: software.xml:63
+#: software.xml:73
 #, no-c-format
 msgid "2006-04-26: BibleTime 1.6beta2"
 msgstr ""
 
 #. Tag: para
-#: software.xml:64
+#: software.xml:74
 #, no-c-format
 msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for more details."
 msgstr ""
 
 #. Tag: para
-#: software.xml:68
+#: software.xml:78
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
 msgstr ""
 
 #. Tag: title
-#: software.xml:74
+#: software.xml:84
 #, no-c-format
 msgid "2006-03-18: BibleTime 1.6beta1"
 msgstr ""
 
 #. Tag: para
-#: software.xml:75
+#: software.xml:85
 #, no-c-format
 msgid "The first beta release of the upcoming version 1.6 has been released today."
 msgstr ""
 
 #. Tag: para
-#: software.xml:79
+#: software.xml:89
 #, no-c-format
 msgid "Among many bug fixes it includes a new instant search feature, which enabled BibleTime to search in your installed works in a fraction of a second."
 msgstr ""
 
 #. Tag: para
-#: software.xml:84
+#: software.xml:94
 #, no-c-format
 msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
 msgstr ""
 
 #. Tag: title
-#: software.xml:99
+#: software.xml:109
 #, no-c-format
 msgid "2006-03-17: Locked German Bible"
 msgstr ""
 
 #. Tag: para
-#: software.xml:100
+#: software.xml:110
 #, no-c-format
 msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decided to release their excellent, modern translation \"Hoffnung für Alle\" (GerHfa2002) for use by the Sword community."
 msgstr ""
 
 #. Tag: para
-#: software.xml:109
+#: software.xml:119
 #, no-c-format
 msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here </ulink> . This module is locked. If you want to use it, you can buy an unlock key for 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen </ulink> . CrossWire is not involved in the financial transaction and receives no share of the money."
 msgstr ""
 
 #. Tag: para
-#: software.xml:125
+#: software.xml:135
 #, no-c-format
 msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> will make use of this possibility </ulink> to distribute their copyrighted material for use with The SWORD Project."
 msgstr ""
 
 #. Tag: para
-#: software.xml:134
+#: software.xml:144
 #, no-c-format
 msgid "This will ultimately increase the recent material available through The SWORD Project and help users with studying God's word. Stay tuned for more module updates soon!"
 msgstr ""
 
 #. Tag: title
-#: software.xml:143
+#: software.xml:153
 #, no-c-format
 msgid "2005-12-18: Translations, packages, FAQ"
 msgstr ""
 
 #. Tag: para
-#: software.xml:144
+#: software.xml:154
 #, no-c-format
 msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
 msgstr ""
 
 #. Tag: para
-#: software.xml:150
+#: software.xml:160
 #, no-c-format
 msgid "Perhaps you noticed all the package updates in the last few months. Jeremy Erickson is working on it and is a great blessing for our team."
 msgstr ""
 
 #. Tag: para
-#: software.xml:155
+#: software.xml:165
 #, no-c-format
 msgid "The FAQ received some minor updates."
 msgstr ""
 
 #. Tag: title
-#: software.xml:159
+#: software.xml:169
 #, no-c-format
 msgid "2005-11-13: BibleTime 1.5.3"
 msgstr ""
 
 #. Tag: para
-#: software.xml:160
+#: software.xml:170
 #, no-c-format
 msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
 msgstr ""
 
 #. Tag: para
-#: software.xml:165
+#: software.xml:175
 #, no-c-format
 msgid "Get the new release in the download section. Binary packages should be available soon."
 msgstr ""
 
 #. Tag: title
-#: software.xml:172
+#: software.xml:182
 #, no-c-format
 msgid "2005-10-16: BibleTime 1.5.2"
 msgstr ""
 
 #. Tag: para
-#: software.xml:173
+#: software.xml:183
 #, no-c-format
 msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
 msgstr ""
 
 #. Tag: para
-#: software.xml:180
+#: software.xml:190
 #, no-c-format
 msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
 msgstr ""
 
 #. Tag: title
-#: software.xml:188
+#: software.xml:198
 #, no-c-format
 msgid "2005-09-28: New forums"
 msgstr ""
 
 #. Tag: para
-#: software.xml:189
+#: software.xml:199
 #, no-c-format
 msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
 msgstr ""
 
 #. Tag: title
-#: software.xml:197
+#: software.xml:207
 #, no-c-format
 msgid "2005-09-12: BibleTime 1.5.1 and translations"
 msgstr ""
 
 #. Tag: para
-#: software.xml:198
+#: software.xml:208
 #, no-c-format
 msgid "The bugfix release 1.5.1 is available now at our download location. A first version of BibleTime's translation files has been released, too."
 msgstr ""
 
 #. Tag: title
-#: software.xml:206
+#: software.xml:216
 #, no-c-format
 msgid "2005-07-16: BibleTime 1.5"
 msgstr ""
 
 #. Tag: para
-#: software.xml:207
+#: software.xml:217
 #, no-c-format
 msgid "BibleTime 1.5 is available now. It contains many new features and improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available in the download section. We hope to provide binary and translation packages for the most important Linux distributions in the next few weeks."
 msgstr ""
 
 #. Tag: para
-#: software.xml:215
+#: software.xml:225
 #, no-c-format
 msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
 msgstr ""
