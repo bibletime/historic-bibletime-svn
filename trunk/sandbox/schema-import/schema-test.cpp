@@ -139,8 +139,10 @@ void testDBSpeed(void){
 	clock.restart();
 	QString osisID;
 	for (int i=0; i<osisIDcount; ++i){
+		qDebug() << "Database :"<< i;
 //		QSqlQuery getOsisID = db_vector[1].exec( QString("SELECT osisID from bible WHERE osisID='").append(osisIDs[i]).append("'") );
-		QSqlQuery getOsisID = db_vector[i % 1000].exec( QString("SELECT osisID from bible WHERE osisID='").append(osisIDs[i]).append("'") );
+		QSqlQuery getOsisID = db_vector[i % 1000].exec( QString("SELECT osisID from bible") );
+//		QSqlQuery getOsisID = db_vector[i % 1000].exec( QString("SELECT osisID from bible WHERE osisID='").append(osisIDs[i]).append("'") );
 		while (getOsisID.next()){
 			osisID = getOsisID.value(0).toString();
 		}
