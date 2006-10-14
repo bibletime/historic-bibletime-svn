@@ -172,7 +172,57 @@ void parse_and_print(std::string input)
 	std::cout << std::endl;
 }
 
+#include <QString>
+#include <QRegExp>
+#include <QStringList>
+#include <QDebug>
+
+void parse_and_print_qt(const QString& reflist)
+{
+	QRegExp toplevelSeparator;
+	//If ":" is used to separate chapter and verse, then both ";" and "," 
+	//can be used to separate ranges, if not, only ";" can be used
+	if (reflist.contains(":")) 
+		toplevelSeparator.setPattern(";|,");
+	else 
+		toplevelSeparator.setPattern(";");
+
+	qDebug() << "splitting up toplevel Ranges in" << reflist;
+	
+	//Start by splitting up the toplevel ranges which are independent of each other
+	// e.g. Gen 1,2; Mt 3,2 -> "Gen 1,2", "Mt 3,2"
+	QStringList toplevelRanges = reflist.split( toplevelSeparator, QString::SkipEmptyParts);
+	QStringList::const_iterator toplevelRange;
+	for (toplevelRange = toplevelRanges.constBegin(); toplevelRange != toplevelRanges.constEnd(); ++toplevelRange)
+	{
+		qDebug() << "splitting up sublevel Ranges in" << *toplevelRange;
+		//Now look for real indicated ranges and split them also
+		// e.g. Gen 3,3-4,1 -> "Gen 3,3" "4,1"
+		QStringList sublevelRanges = toplevelRange->split( "-", QString::SkipEmptyParts);
+		QStringList::const_iterator sublevelRange;
+		for (sublevelRange = sublevelRanges.constBegin(); sublevelRange != sublevelRanges.constEnd(); ++sublevelRange)
+		{
+			//TODO: Missing: Look for list items indicated by a ".", e.g. Gen 1,2.5
+			//TODO: Implement in-range and general parsing context
+			//TODO: Implement interpolation of missing information
+			qDebug() << "parsing:" << *sublevelRange;
+			//              book                        chapter            verse
+			QRegExp rx("\\s*(\\d*[^0-9:,]+[^0-9:,\\s])?\\s*(\\d+)?\\s*[:,]?\\s*(\\d+)?\\s*"); 
+			if (rx.indexIn(*sublevelRange) != -1)
+			{
+				qDebug() << "result:" << rx.cap(1) << " " << rx.cap(2) << "," << rx.cap(3);
+			}
+			else
+				qDebug() << "error: no match found";
+		}
+	}
+}
+//zum Aufsplitten von .-Ranges (z.B. Gen 1,1.2-3;5,4.7) kann man "[.](?=[0-9]+)" nehmen
+
+
 int main()
 {
-	parse_and_print("Gen 1:2,2-4;Lev 3:5-7;4:4-5:4;Mt-Jn");
+	//parse_and_print("Gen 1:2,2-4;Lev 3:5-7;4:4-5:4;Mt-Jn");
+	parse_and_print_qt("Gen 1:23; Ex 2:3");
+	parse_and_print_qt("1. Mose 3,25; 2 Mose 3,2-4; 5,4; 3; Gen");
 } 
