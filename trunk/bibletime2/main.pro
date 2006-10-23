@@ -25,8 +25,8 @@ TARGET			= build/bibletime2
 # INSTALL SECTION
 # Install to target/ by default, to /usr on release
 #
-install_base 					= target/
-release:install_base	= /usr/
+install_base					= target
+release:install_base	= /usr
 
 install_binary.files	= build/bibletime2
 install_binary.path 	= $$install_base/bin/
@@ -39,7 +39,8 @@ INSTALLS 							+= install_binary
 #
 # QT SECTION
 #
-QT += xml sql
+QT 			+= xml sql
+CONFIG 	+= qt stl exceptions
 ##########################################################
 
 
@@ -51,16 +52,16 @@ QT += xml sql
 #
 
 # src/
-FORMS 			+= 
+FORMS 			+=
 HEADERS 		+=
 SOURCES 		+= src/main.cpp
 RESOURCES 	+=
 
 # src/frontend/
-FORMS 			+=
-HEADERS 		+=
-SOURCES 		+=
-RESOURCES 	+=
+#FORMS 			+=
+#HEADERS 		+=
+#SOURCES 		+=
+#RESOURCES 	+=
  
 ##########################################################
 
