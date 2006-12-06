@@ -1,0 +1,8 @@
+ 
+PROJECT(Parsertest C++)
+
+UseQt4
+
+ADD_EXECUTABLE(parsertest parsertest.cpp)
+
+
