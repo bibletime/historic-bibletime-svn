@@ -109,7 +109,7 @@
 						<xsl:call-template name="output-flags">
 							<xsl:with-param name="langs">
 								<xsl:text>
-									en de fi fr nn pt-br ko ru
+									en de es fi fr nl nn pt-br ko ru
 								</xsl:text>
 							</xsl:with-param>
 							<xsl:with-param name="htmlfilename"

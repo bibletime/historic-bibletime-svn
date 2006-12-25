@@ -1,29 +1,36 @@
-#, fuzzy
+# translation of bibletime_website_cs.po to
+# Pavel Lauko <pavel.lauko@gmail.com>, 2006.
 msgid ""
 msgstr ""
+"Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-09-25 16:10+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2006-12-25 14:23+0000\n"
+"PO-Revision-Date: 2006-11-01 20:38+0100\n"
+"Last-Translator: Pavel Lauko <pavel.lauko@gmail.com>\n"
+"Language-Team:  <cs@li.org>\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. Tag: holder
 #: autolayout.xml:4 layout.xml:16
 #, no-c-format
 msgid "The BibleTime developers"
-msgstr ""
+msgstr "Vývojáři BibleTime"
 
 #. Tag: title
 #: autolayout.xml:7 error404.xml:9
 #, no-c-format
 msgid "Error 404: File not found"
-msgstr ""
+msgstr "Error 404 soubor nenalezen"
 
 #. Tag: title
 #: autolayout.xml:11 devotional.xml:9
 #, no-c-format
 msgid "Devotional"
-msgstr ""
+msgstr "Denní čtení"
 
 #. Tag: title
 #: autolayout.xml:15 sidebar_tips.xml:11
@@ -36,98 +43,98 @@ msgstr ""
 #: autolayout.xml:19 software_swordcd.xml:10
 #, no-c-format
 msgid "Sword CD"
-msgstr ""
+msgstr "Sword CD"
 
 #
 #. Tag: title
 #: autolayout.xml:23 index.xml:9
 #, no-c-format
 msgid "BibleTime"
-msgstr ""
+msgstr "BibleTime"
 
 #
 #. Tag: title
 #: autolayout.xml:26 software.xml:10
 #, no-c-format
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #
 #. Tag: title
 #: autolayout.xml:29 software_about.xml:9
 #, no-c-format
 msgid "About BibleTime"
-msgstr ""
+msgstr "O programu BibleTime"
 
 #
 #. Tag: title
 #: autolayout.xml:33 software_screenshots.xml:9
 #, no-c-format
 msgid "Screenshots"
-msgstr ""
+msgstr "Náhledy prostředí"
 
 #
 #. Tag: title
 #: autolayout.xml:37 software_gallery.xml:9 software_gallery.xml:19
 #, no-c-format
 msgid "Gallery"
-msgstr ""
+msgstr "Galerie"
 
 #
 #. Tag: title
 #: autolayout.xml:41 software_installation.xml:11
 #, no-c-format
 msgid "Download"
-msgstr ""
+msgstr "Stáhnout"
 
 #
 #. Tag: title
 #: autolayout.xml:45 software_faq.xml:11
 #, no-c-format
 msgid "<title>FAQ</title>"
-msgstr ""
+msgstr "<title>FAQ</title>"
 
 #
 #. Tag: title
 #: autolayout.xml:49 software_links.xml:9
 #, no-c-format
 msgid "Links"
-msgstr ""
+msgstr "Odkazy"
 
 #
 #. Tag: title
 #: autolayout.xml:53 software_linkus.xml:9
 #, no-c-format
 msgid "Link to us"
-msgstr ""
+msgstr "Odkazujte na nás"
 
 #
 #. Tag: title
 #: autolayout.xml:57 software_guestbook.xml:9
 #, no-c-format
 msgid "Guestbook"
-msgstr ""
+msgstr "Návštěvní kniha"
 
 #
 #. Tag: title
 #: autolayout.xml:61 software_press.xml:10 software_press.xml:15
 #, no-c-format
 msgid "In the press"
-msgstr ""
+msgstr "V tisku"
 
 #
 #. Tag: title
 #: autolayout.xml:65 software_contact.xml:10
 #, no-c-format
 msgid "Contact"
-msgstr ""
+msgstr "Kontakty"
 
 #
 #. Tag: title
 #: autolayout.xml:69 software_license.xml:9 software_license.xml:14
 #, no-c-format
 msgid "License"
-msgstr ""
+msgstr "Licence"
 
 #. Tag: title
 #: autolayout.xml:73 software_imprint.xml:10
@@ -140,21 +147,21 @@ msgstr ""
 #: autolayout.xml:78 development.xml:10
 #, no-c-format
 msgid "Development"
-msgstr ""
+msgstr "Vývoj"
 
 #
 #. Tag: title
 #: autolayout.xml:81 development_help.xml:12
 #, no-c-format
 msgid "Help us"
-msgstr ""
+msgstr "Požte nám"
 
 #
 #. Tag: title
 #: autolayout.xml:85 development_join.xml:10
 #, no-c-format
 msgid "Join us"
-msgstr ""
+msgstr "Připojte se"
 
 #
 #. Tag: title
@@ -168,14 +175,14 @@ msgstr ""
 #: autolayout.xml:94 translation.xml:9
 #, no-c-format
 msgid "Translation"
-msgstr ""
+msgstr "Překlady"
 
 #
 #. Tag: title
 #: autolayout.xml:98 biblehowto.docbook:17
 #, no-c-format
 msgid "Biblestudy HowTo"
-msgstr ""
+msgstr "Jak studovat Bibli"
 
 #
 #. Tag: title
@@ -203,7 +210,7 @@ msgstr "ROLES_OF_TRANSLATORS"
 #: biblehowto.docbook:38
 #, no-c-format
 msgid "The team of &bibletime;, info@bibletime.info"
-msgstr "The team of &bibletime;, info@bibletime.info"
+msgstr "Tým &bibletime;, info@bibletime.info"
 
 #
 #. Tag: holder
@@ -285,11 +292,32 @@ msgstr "Scripture quotes are from the New American Standard Bible unless otherwi
 msgid "HowTo"
 msgstr "Abstrakt"
 
+#
+#. Tag: title
+#: development.xml:15
+#, no-c-format
+msgid "BibleTime's development"
+msgstr ""
+
+#
+#. Tag: para
+#: development.xml:16
+#, no-c-format
+msgid "These pages describe how to join in the development of BibleTime and which ways exist to help us! BibleTime's quality and usefulness depends on the help of others to a large degree."
+msgstr ""
+
+#
+#. Tag: para
+#: development.xml:20
+#, no-c-format
+msgid "Please read the following pages very carefully to see whether you can help us with the development!"
+msgstr ""
+
 #. Tag: title
 #: development_help.xml:17
 #, no-c-format
 msgid "Please help us ..."
-msgstr ""
+msgstr "Pomožte nám prosím"
 
 #. Tag: para
 #: development_help.xml:18
@@ -302,20 +330,20 @@ msgstr ""
 #: development_help.xml:24
 #, no-c-format
 msgid "Do you want to pray?"
-msgstr ""
+msgstr "Chcete se modlit?"
 
 #
 #. Tag: para
 #: development_help.xml:25
 #, no-c-format
 msgid "Praying is something everybody can do. If you are praying for the Sword and BibleTime projects you are helping us as much as the other team members of the BibleTime project."
-msgstr ""
+msgstr "Modlit se může úplně každý. Pokud se budete za tým Sword a za tým BibleTime modlit, pomáháte nám tím stejně, jako byste byli skutečnými členy vývojového týmu našeho projektu."
 
 #. Tag: title
 #: development_help.xml:30
 #, no-c-format
 msgid "Do you want to report a bug or suggest a new feature?"
-msgstr ""
+msgstr "Chcete ohlásit chybu nebo předpokládáte novou součást?"
 
 #. Tag: para
 #: development_help.xml:31
@@ -347,7 +375,7 @@ msgstr ""
 #: development_help.xml:49
 #, no-c-format
 msgid "Do you know how to write documentation?"
-msgstr ""
+msgstr "Chcete vědět, jak psát dokumentaci k programu?"
 
 #. Tag: para
 #: development_help.xml:50
@@ -360,7 +388,7 @@ msgstr ""
 #: development_help.xml:57
 #, no-c-format
 msgid "Are you good in translating english into another language?"
-msgstr ""
+msgstr "Umíte dobře překládat z angličtiny do jiných jazyků?"
 
 #. Tag: para
 #: development_help.xml:58
@@ -372,41 +400,41 @@ msgstr ""
 #: development_help.xml:64
 #, no-c-format
 msgid "You can find more information about the translation process on the page <olink targetdocent=\"translations\"> translation</olink>."
-msgstr ""
+msgstr "Více informací o procesu překladů najdete na stránce <olink targetdocent=\"translations\"> překladů</olink>."
 
 #
 #. Tag: title
 #: development_join.xml:15
 #, no-c-format
 msgid "Join the BibleTime team"
-msgstr ""
+msgstr "Připojte se k týmu BibleTime"
 
 #
 #. Tag: para
 #: development_join.xml:16
 #, no-c-format
 msgid "We are glad for everybody who helps us improving the BibleTime software, it's documentation and it's translations."
-msgstr ""
+msgstr "Jsme vděčni za každého, kdo nám pomáha vylepšovat software BibleTime, tzn. dokumentaci a překlady."
 
 #
 #. Tag: title
 #: development_join.xml:20
 #, no-c-format
 msgid "The basic steps.."
-msgstr ""
+msgstr "Základní krok.."
 
 #
 #. Tag: para
 #: development_join.xml:21
 #, no-c-format
 msgid "The following are necessary for each type of team member. Please follow them!"
-msgstr ""
+msgstr "Následující věci jsou důležité pro všechny typy členů týmu. Prosím, respektujte je!"
 
 #. Tag: para
 #: development_join.xml:27
 #, no-c-format
 msgid "If you don't have an account on <ulink url=\"https://sf.net\">SourceForge</ulink>, please sign up for one. It's free. We need your username to add you to the team members, to assign tasks to you, etc."
-msgstr ""
+msgstr "Pokud nemáte účet na <ulink url=\"https://sf.net\">SourceForge</ulink>, prosím, regustrujte se. je to zdarma. Potřebujeme Váše uživatelské jméno přidat mezi členy týmu, kvůli přiřazování úkolů, atp."
 
 #. Tag: para
 #: development_join.xml:32
@@ -419,14 +447,14 @@ msgstr ""
 #: development_join.xml:37
 #, no-c-format
 msgid "Get the development version of BibleTime and install it. If you need help with this ask on the mailing list or look into the documentation section."
-msgstr ""
+msgstr "Stáhněte si vývojářskou verzi BibleTime a nainstalujte ji. Pokud s tím potřebujete pomoci, ptejte se v maling listu nebo se podívejte do  příslusné části dokumentace."
 
 #
 #. Tag: title
 #: development_join.xml:44
 #, no-c-format
 msgid "The next steps for software developers..."
-msgstr ""
+msgstr "Další krok pro vývojáře..."
 
 #
 #. Tag: para
@@ -440,7 +468,7 @@ msgstr ""
 #: development_join.xml:52
 #, no-c-format
 msgid "If you don't know what to do please ask on the mailing list for some tasks. Don't forget to add how difficult it should be."
-msgstr ""
+msgstr "Pokud nevíte, co byste mohli dělat, zeptejte se prosím pomocí mailing listu. Nezapoměňte při doazu poznamenat, jak náročný úkol Vám může být přidělen."
 
 #
 #. Tag: title
@@ -454,7 +482,7 @@ msgstr ""
 #: development_join.xml:63
 #, no-c-format
 msgid "Read the existing english documentation. It's located in the docs/ directory of the bibletime cvs directory."
-msgstr ""
+msgstr "Přčtěte si existující anglickou dokumentaci. Najdete ji v adresáři docs/ directory v cvs úložišti BibleTime"
 
 #
 #. Tag: para
@@ -525,27 +553,6 @@ msgstr ""
 #: development_mailinglists.xml:29
 #, no-c-format
 msgid "Archives of the Sword development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/pipermail/sword-devel</ulink>."
-msgstr ""
-
-#
-#. Tag: title
-#: development.xml:15
-#, no-c-format
-msgid "BibleTime's development"
-msgstr ""
-
-#
-#. Tag: para
-#: development.xml:16
-#, no-c-format
-msgid "These pages describe how to join in the development of BibleTime and which ways exist to help us! BibleTime's quality and usefulness depends on the help of others to a large degree."
-msgstr ""
-
-#
-#. Tag: para
-#: development.xml:20
-#, no-c-format
-msgid "Please read the following pages very carefully to see whether you can help us with the development!"
 msgstr ""
 
 #. Tag: title
@@ -2219,6 +2226,267 @@ msgstr ""
 msgid "It will cost you just a few minutes to update the webpage translation in your language. Help with the translations is something all users can do and which help all users. If you want to help us keeping the translations up to date, please read the page about <olink targetdocent=\"translations\">making translations</olink> and update the translation file of your own language."
 msgstr ""
 
+#
+#. Tag: author
+#: software.xml:16
+#, fuzzy, no-c-format
+msgid "The BibleTime team"
+msgstr "Typy studia Bible"
+
+#
+#. Tag: title
+#: software.xml:20
+#, no-c-format
+msgid "Welcome to the BibleTime project."
+msgstr ""
+
+#. Tag: para
+#: software.xml:21
+#, no-c-format
+msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\"> K Desktop Environment </ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\"> Crosswire Bible Society </ulink> ."
+msgstr ""
+
+#
+#. Tag: title
+#: software.xml:50
+#, no-c-format
+msgid "News about BibleTime"
+msgstr ""
+
+#. Tag: title
+#: software.xml:52
+#, no-c-format
+msgid "2006-12-10: BibleTime 1.6.2"
+msgstr ""
+
+#. Tag: para
+#: software.xml:53
+#, no-c-format
+msgid "A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. The translation package bibletime-i18n has been updated, as well."
+msgstr ""
+
+#. Tag: title
+#: software.xml:59
+#, no-c-format
+msgid "2006-10-26: BibleTime 1.6.1"
+msgstr ""
+
+#. Tag: para
+#: software.xml:60
+#, no-c-format
+msgid "A new version of the BibleTime software has been made available today. BibleTime 1.6.1 contains several fixes for bugs which have been found in version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for details. The translation package bibletime-i18n has also been updated. Sword 1.5.9 and CLucene 0.9.15 are required before installing from source code. But we hope to provide binary packages soon."
+msgstr ""
+
+#. Tag: title
+#: software.xml:67
+#, no-c-format
+msgid "2006-09-22: BibleTime 1.6"
+msgstr ""
+
+#. Tag: para
+#: software.xml:68
+#, no-c-format
+msgid "A new version of BibleTime has been made available today. It includes many fixes and several new features like the instant search in the installed works."
+msgstr ""
+
+#. Tag: para
+#: software.xml:71
+#, no-c-format
+msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">here</ulink>"
+msgstr ""
+
+#. Tag: title
+#: software.xml:77
+#, no-c-format
+msgid "2006-06-17: BibleTime 1.6beta3"
+msgstr ""
+
+#. Tag: para
+#: software.xml:78
+#, no-c-format
+msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for the list of changes."
+msgstr ""
+
+#. Tag: para
+#: software.xml:82
+#, no-c-format
+msgid "You need to install CLucene 0.9.12 before installing this preview release."
+msgstr ""
+
+#. Tag: title
+#: software.xml:88
+#, no-c-format
+msgid "2006-04-26: BibleTime 1.6beta2"
+msgstr ""
+
+#. Tag: para
+#: software.xml:89
+#, no-c-format
+msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for more details."
+msgstr ""
+
+#. Tag: para
+#: software.xml:93
+#, no-c-format
+msgid "You need to install CLucene 0.9.10 before installing this beta release."
+msgstr ""
+
+#. Tag: title
+#: software.xml:99
+#, no-c-format
+msgid "2006-03-18: BibleTime 1.6beta1"
+msgstr ""
+
+#. Tag: para
+#: software.xml:100
+#, no-c-format
+msgid "The first beta release of the upcoming version 1.6 has been released today."
+msgstr ""
+
+#. Tag: para
+#: software.xml:104
+#, no-c-format
+msgid "Among many bug fixes it includes a new instant search feature, which enabled BibleTime to search in your installed works in a fraction of a second."
+msgstr ""
+
+#. Tag: para
+#: software.xml:109
+#, no-c-format
+msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
+msgstr ""
+
+#. Tag: title
+#: software.xml:124
+#, no-c-format
+msgid "2006-03-17: Locked German Bible"
+msgstr ""
+
+#. Tag: para
+#: software.xml:125
+#, no-c-format
+msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decided to release their excellent, modern translation \"Hoffnung für Alle\" (GerHfa2002) for use by the Sword community."
+msgstr ""
+
+#. Tag: para
+#: software.xml:134
+#, no-c-format
+msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here </ulink> . This module is locked. If you want to use it, you can buy an unlock key for 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen </ulink> . CrossWire is not involved in the financial transaction and receives no share of the money."
+msgstr ""
+
+#. Tag: para
+#: software.xml:150
+#, no-c-format
+msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> will make use of this possibility </ulink> to distribute their copyrighted material for use with The SWORD Project."
+msgstr ""
+
+#. Tag: para
+#: software.xml:159
+#, no-c-format
+msgid "This will ultimately increase the recent material available through The SWORD Project and help users with studying God's word. Stay tuned for more module updates soon!"
+msgstr ""
+
+#. Tag: title
+#: software.xml:168
+#, no-c-format
+msgid "2005-12-18: Translations, packages, FAQ"
+msgstr ""
+
+#. Tag: para
+#: software.xml:169
+#, no-c-format
+msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
+msgstr ""
+
+#. Tag: para
+#: software.xml:175
+#, no-c-format
+msgid "Perhaps you noticed all the package updates in the last few months. Jeremy Erickson is working on it and is a great blessing for our team."
+msgstr ""
+
+#. Tag: para
+#: software.xml:180
+#, no-c-format
+msgid "The FAQ received some minor updates."
+msgstr ""
+
+#. Tag: title
+#: software.xml:184
+#, no-c-format
+msgid "2005-11-13: BibleTime 1.5.3"
+msgstr ""
+
+#. Tag: para
+#: software.xml:185
+#, no-c-format
+msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
+msgstr ""
+
+#. Tag: para
+#: software.xml:190
+#, no-c-format
+msgid "Get the new release in the download section. Binary packages should be available soon."
+msgstr ""
+
+#. Tag: title
+#: software.xml:197
+#, no-c-format
+msgid "2005-10-16: BibleTime 1.5.2"
+msgstr ""
+
+#. Tag: para
+#: software.xml:198
+#, no-c-format
+msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
+msgstr ""
+
+#. Tag: para
+#: software.xml:205
+#, no-c-format
+msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
+msgstr ""
+
+#. Tag: title
+#: software.xml:213
+#, no-c-format
+msgid "2005-09-28: New forums"
+msgstr ""
+
+#. Tag: para
+#: software.xml:214
+#, no-c-format
+msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
+msgstr ""
+
+#. Tag: title
+#: software.xml:222
+#, no-c-format
+msgid "2005-09-12: BibleTime 1.5.1 and translations"
+msgstr ""
+
+#. Tag: para
+#: software.xml:223
+#, no-c-format
+msgid "The bugfix release 1.5.1 is available now at our download location. A first version of BibleTime's translation files has been released, too."
+msgstr ""
+
+#. Tag: title
+#: software.xml:231
+#, no-c-format
+msgid "2005-07-16: BibleTime 1.5"
+msgstr ""
+
+#. Tag: para
+#: software.xml:232
+#, no-c-format
+msgid "BibleTime 1.5 is available now. It contains many new features and improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available in the download section. We hope to provide binary and translation packages for the most important Linux distributions in the next few weeks."
+msgstr ""
+
+#. Tag: para
+#: software.xml:240
+#, no-c-format
+msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
+msgstr ""
+
 #. Tag: title
 #: software_about.xml:14
 #, no-c-format
@@ -2792,7 +3060,7 @@ msgstr ""
 #. Tag: para
 #: software_installation.xml:31
 #, no-c-format
-msgid "Gentoo packages are available on <ulink url=\"http://packages.gentoo.org/search/?sstring=bibletime\">www.gentoo.org</ulink>."
+msgid "Gentoo packages are in Portage. Just call \"emerge bibletime\"."
 msgstr ""
 
 #. Tag: para
@@ -2827,11 +3095,10 @@ msgstr ""
 msgid "Prebuilt binary packages"
 msgstr ""
 
-#
 #. Tag: para
 #: software_installation.xml:54
 #, no-c-format
-msgid "We try to provide packages for the most important Linux distributions. These include RedHat, Mandrake and SuSE."
+msgid "With the help of great volunteers, we try to provide packages for the most important Linux distributions. Before installing BibleTime, however, you need to find and install packages for <ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink> and Sword (Sword binaries are available at the BibleTime download site)."
 msgstr ""
 
 #. Tag: para
@@ -3670,243 +3937,6 @@ msgid ""
 msgstr ""
 
 #
-#. Tag: author
-#: software.xml:16
-#, fuzzy, no-c-format
-msgid "The BibleTime team"
-msgstr "Typy studia Bible"
-
-#
-#. Tag: title
-#: software.xml:20
-#, no-c-format
-msgid "Welcome to the BibleTime project."
-msgstr ""
-
-#. Tag: para
-#: software.xml:21
-#, no-c-format
-msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\"> K Desktop Environment </ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\"> Crosswire Bible Society </ulink> ."
-msgstr ""
-
-#
-#. Tag: title
-#: software.xml:50
-#, no-c-format
-msgid "News about BibleTime"
-msgstr ""
-
-#. Tag: title
-#: software.xml:52
-#, no-c-format
-msgid "2006-09-22: BibleTime 1.6"
-msgstr ""
-
-#. Tag: para
-#: software.xml:53
-#, no-c-format
-msgid "A new version of BibleTime has been made available today. It includes many fixes and several new features like the instant search in the installed works."
-msgstr ""
-
-#. Tag: para
-#: software.xml:56
-#, no-c-format
-msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">here</ulink>"
-msgstr ""
-
-#. Tag: title
-#: software.xml:62
-#, no-c-format
-msgid "2006-06-17: BibleTime 1.6beta3"
-msgstr ""
-
-#. Tag: para
-#: software.xml:63
-#, no-c-format
-msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for the list of changes."
-msgstr ""
-
-#. Tag: para
-#: software.xml:67
-#, no-c-format
-msgid "You need to install CLucene 0.9.12 before installing this preview release."
-msgstr ""
-
-#. Tag: title
-#: software.xml:73
-#, no-c-format
-msgid "2006-04-26: BibleTime 1.6beta2"
-msgstr ""
-
-#. Tag: para
-#: software.xml:74
-#, no-c-format
-msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for more details."
-msgstr ""
-
-#. Tag: para
-#: software.xml:78
-#, no-c-format
-msgid "You need to install CLucene 0.9.10 before installing this beta release."
-msgstr ""
-
-#. Tag: title
-#: software.xml:84
-#, no-c-format
-msgid "2006-03-18: BibleTime 1.6beta1"
-msgstr ""
-
-#. Tag: para
-#: software.xml:85
-#, no-c-format
-msgid "The first beta release of the upcoming version 1.6 has been released today."
-msgstr ""
-
-#. Tag: para
-#: software.xml:89
-#, no-c-format
-msgid "Among many bug fixes it includes a new instant search feature, which enabled BibleTime to search in your installed works in a fraction of a second."
-msgstr ""
-
-#. Tag: para
-#: software.xml:94
-#, no-c-format
-msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
-msgstr ""
-
-#. Tag: title
-#: software.xml:109
-#, no-c-format
-msgid "2006-03-17: Locked German Bible"
-msgstr ""
-
-#. Tag: para
-#: software.xml:110
-#, no-c-format
-msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decided to release their excellent, modern translation \"Hoffnung für Alle\" (GerHfa2002) for use by the Sword community."
-msgstr ""
-
-#. Tag: para
-#: software.xml:119
-#, no-c-format
-msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here </ulink> . This module is locked. If you want to use it, you can buy an unlock key for 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen </ulink> . CrossWire is not involved in the financial transaction and receives no share of the money."
-msgstr ""
-
-#. Tag: para
-#: software.xml:135
-#, no-c-format
-msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> will make use of this possibility </ulink> to distribute their copyrighted material for use with The SWORD Project."
-msgstr ""
-
-#. Tag: para
-#: software.xml:144
-#, no-c-format
-msgid "This will ultimately increase the recent material available through The SWORD Project and help users with studying God's word. Stay tuned for more module updates soon!"
-msgstr ""
-
-#. Tag: title
-#: software.xml:153
-#, no-c-format
-msgid "2005-12-18: Translations, packages, FAQ"
-msgstr ""
-
-#. Tag: para
-#: software.xml:154
-#, no-c-format
-msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
-msgstr ""
-
-#. Tag: para
-#: software.xml:160
-#, no-c-format
-msgid "Perhaps you noticed all the package updates in the last few months. Jeremy Erickson is working on it and is a great blessing for our team."
-msgstr ""
-
-#. Tag: para
-#: software.xml:165
-#, no-c-format
-msgid "The FAQ received some minor updates."
-msgstr ""
-
-#. Tag: title
-#: software.xml:169
-#, no-c-format
-msgid "2005-11-13: BibleTime 1.5.3"
-msgstr ""
-
-#. Tag: para
-#: software.xml:170
-#, no-c-format
-msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
-msgstr ""
-
-#. Tag: para
-#: software.xml:175
-#, no-c-format
-msgid "Get the new release in the download section. Binary packages should be available soon."
-msgstr ""
-
-#. Tag: title
-#: software.xml:182
-#, no-c-format
-msgid "2005-10-16: BibleTime 1.5.2"
-msgstr ""
-
-#. Tag: para
-#: software.xml:183
-#, no-c-format
-msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
-msgstr ""
-
-#. Tag: para
-#: software.xml:190
-#, no-c-format
-msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
-msgstr ""
-
-#. Tag: title
-#: software.xml:198
-#, no-c-format
-msgid "2005-09-28: New forums"
-msgstr ""
-
-#. Tag: para
-#: software.xml:199
-#, no-c-format
-msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
-msgstr ""
-
-#. Tag: title
-#: software.xml:207
-#, no-c-format
-msgid "2005-09-12: BibleTime 1.5.1 and translations"
-msgstr ""
-
-#. Tag: para
-#: software.xml:208
-#, no-c-format
-msgid "The bugfix release 1.5.1 is available now at our download location. A first version of BibleTime's translation files has been released, too."
-msgstr ""
-
-#. Tag: title
-#: software.xml:216
-#, no-c-format
-msgid "2005-07-16: BibleTime 1.5"
-msgstr ""
-
-#. Tag: para
-#: software.xml:217
-#, no-c-format
-msgid "BibleTime 1.5 is available now. It contains many new features and improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available in the download section. We hope to provide binary and translation packages for the most important Linux distributions in the next few weeks."
-msgstr ""
-
-#. Tag: para
-#: software.xml:225
-#, no-c-format
-msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
-msgstr ""
-
-#
 #. Tag: para
 #: software_press.xml:16
 #, no-c-format
@@ -4090,139 +4120,17 @@ msgstr ""
 #. Tag: para
 #: translation.xml:55
 #, no-c-format
-msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
 #. Tag: title
 #: translation.xml:65
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
-msgstr ""
+msgstr "<title>Přeložte příročku k programu</title>"
 
 #. Tag: para
 #: translation.xml:66
 #, no-c-format
-msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
-
-#
-#, fuzzy
-#~ msgid "The team"
-#~ msgstr "Typy studia Bible"
-
-#
-#~ msgid "I. BEWARE OF PRACTICING YOUR RIGHTEOUSNESS BEFORE MEN TO BE NOTICED"
-#~ msgstr "I. Pozor na praktikování spravedlnosti lidem na obdiv"
-
-#
-#~ msgid ""
-#~ "A. WHEN YOU GIVE\n"
-#~ "  B. WHEN YOU FAST\n"
-#~ "  C. WHEN YOU PRAY"
-#~ msgstr ""
-#~ "A. Když dáváš\n"
-#~ "  B. Když se postíš\n"
-#~ "  C. Když se modlíš"
-
-#
-#, fuzzy
-#~ msgid ""
-#~ "A. When you give\n"
-#~ "     1. DON'T SOUND A TRUMPET.  (HOW MIGHT SOMEONE \"SOUND A TRUMPET\" TODAY?)\n"
-#~ "     2. DO IT SECRETLY.        ETC."
-#~ msgstr ""
-#~ "A. Když dáváš\n"
-#~ "     1. nevytrubuj to do světa.  (Jakým způsobem se dneska \"vytrubuje\"?)\n"
-#~ "     2. dělej to potají.\n"
-#~ "a tak dále."
-
-#
-#, fuzzy
-#~ msgid ""
-#~ "Find these verses:\n"
-#~ "                \"Faithful are the wounds of a friend.\"\n"
-#~ "                \"We are ambassadors of Christ.\"\n"
-#~ "                The story of the rich man and Lazarus."
-#~ msgstr ""
-#~ "Nalezněte tyto verše:\n"
-#~ "\t\t\"Bezpečnější rány od přítele\".\n"
-#~ "\t\t\"Jsme tedy posly Kristovými\".\n"
-#~ "\t\tPříběh o bohatém muži a Lazarovi."
-
-#
-#~ msgid "Step 2) Cross-reference"
-#~ msgstr "Krok 2) Křížové odkazy"
-
-#
-#~ msgid "MARY IS ALREADY CLINGING TO JESUS, AND HE IS SAYING TO STOP HOLDING HIM!"
-#~ msgstr "Marie se již Ježíše držela a On jí říká, aby toho nechala!"
-
-#
-#~ msgid "Ex. 1B"
-#~ msgstr "Příklad 1B"
-
-#
-#~ msgid ""
-#~ "Cross-references for aleipho:\n"
-#~ "  Mt.6:17 But you, when you fast, anoint your head\n"
-#~ "  Mk.16:1 [the women] brought spices that they might come and anoint Him.\n"
-#~ "  Mk.6:13 And they were...anointing with oil many sick people and healing them.\n"
-#~ "  Lk.7:38 ...kissing His feet and anointing them with the perfume\n"
-#~ "  Jn.12:3 Mary...anointed the feet of Jesus, and wiped them with her hair\n"
-#~ "Cross-references of chrio:\n"
-#~ "  Lk.4:18 The Spirit of the Lord is upon me, because He has anointed me to preach...\"\n"
-#~ "  Acts 4:27 Jesus, whom Thou hast anointed\n"
-#~ "  Acts 10:38 God anointed Jesus with the Holy Ghost and power\n"
-#~ "  2 Cor.1:21 Now He who...anointed us is God"
-#~ msgstr ""
-#~ "Odkazy na aleipho:\n"
-#~ "  Mt 6,17:  když se postíš, pomaž si hlavu olejem a umyj si tvář,\n"
-#~ "  Mk 16,1:  [ženy] nakoupily vonné masti, aby mohly jít pomazat Ježíše.\n"
-#~ "  L 7,38:   líbala mu nohy a mazala je mastí.\n"
-#~ "  J 12,3:   pomazala Ježíšovy nohy a vytřela je svými vlasy.\n"
-#~ "Odkazy na chrio:\n"
-#~ "  L 4,18:   Duch Pánův je nade mnou, protože mne pomazal kázat evangelium chudým.\n"
-#~ "  Sk 4,27:  proti ... Ježíši, kterého jsi pomazal,\n"
-#~ "  Sk 10,38: Bůh pomazal Duchem Svatým a mocí Ježíše\n"
-#~ "  2K 1,21:  Ten, kdo nás s vámi utvrzuje v Kristu a pomazal nás, je Bůh,"
-
-#
-#~ msgid "An allegory is: A STORY WHERE EACH ELEMENT HAS A MEANING"
-#~ msgstr "Alegorie je příběh, kde každý detail má svůj význam."
-
-#
-#, fuzzy
-#~ msgid "Number of CDs ordered:"
-#~ msgstr "Počet opisů"
-
-#
-#~ msgid "appended paragraph 1"
-#~ msgstr "<application>Jak studovat Bibli</application> je příručka pro studium Bible."
-
-#
-#~ msgid "appended paragraph 2"
-#~ msgstr "Náš tým tvůrců BibleTime doufá, že tento návod vyprovokuje vás čtenáře ke studiu Písma, abyste zjistili, co říká. Tato příručka byla zvolena proto, že neobhajuje žádné konkrétní denominační učení. Očekáváme, že vy sami budete číst a studovat Písma, abyste pochopili jejich poselství. Pokud začnete s postojem, že chcete, aby Pán zasel své slovo do vašeho srdce, nezklame vás."
-
-#
-#~ msgid "appended paragraph 3"
-#~ msgstr "Bible"
-
-#
-#~ msgid "appended paragraph 4"
-#~ msgstr "Study"
-
-#
-#~ msgid "appended paragraph 5"
-#~ msgstr "HowTo"
-
-#
-#~ msgid "appended paragraph 6"
-#~ msgstr "<keyword>Jak</keyword>"
-
-#
-#~ msgid "appended paragraph 7"
-#~ msgstr "studovat"
-
-#
-#~ msgid "appended paragraph 8"
-#~ msgstr "Bibli"
