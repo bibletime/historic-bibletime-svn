@@ -49,6 +49,13 @@
 		  <section>
 			  <title>News about BibleTime</title>
 			  <formalpara>
+				  <title>2007-01-29: BibleTime 1.6.3</title>
+				  <para>
+					Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url="http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954">Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linu distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location.
+				  </para>
+			  </formalpara>
+			  
+			  <formalpara>
 				  <title>2006-12-10: BibleTime 1.6.2</title>
 				  <para>
 					  A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url="http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954">Changelog</ulink>. The translation package bibletime-i18n has been updated, as well.
