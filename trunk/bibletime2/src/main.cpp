@@ -11,11 +11,20 @@
 #include <QString>
 #include <QtDebug>
 
-#include "main.h"
+#include "backend/osisparser.h"
 
 int main(int argc, char *argv[])
 {
-	qDebug() << "Hi. This is BibleTime2. Almost.";
-	qDebug() << testString;
+	qDebug() << "\n\nHello world. This is BibleTime2. Almost. ;)\n\n\n";
+
+	QString testReflist = "Gen 1:2,4-6;3-5;5:1-6:2;Lev 3:5-7;4:4-5:4;Mt 1-Jn";
+
+	qDebug() << "Parser test: parsing " << testReflist;
+
+	qDebug() << "Result: " << backend::parse_reflist(testReflist);
+
+//	for (int i = 0; i<10000; i++)
+//		backend::parse_reflist(testReflist);
+
 	return EXIT_SUCCESS;
 }

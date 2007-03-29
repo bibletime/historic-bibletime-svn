@@ -1,1 +1,0 @@
-QString testString = "hi";

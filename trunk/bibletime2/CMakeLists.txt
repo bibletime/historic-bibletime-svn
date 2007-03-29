@@ -4,9 +4,9 @@ SET(DEBUG true)
 
 
 SET(bibletime_SOURCES
+	src/backend/osisparser.cpp
 	src/main.cpp
 )
-
 
 ADD_EXECUTABLE(bibletime ${bibletime_SOURCES})
 
