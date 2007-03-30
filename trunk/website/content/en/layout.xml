@@ -13,9 +13,8 @@
 		<year>2004</year>
 		<year>2005</year>
 		<year>2006</year>
-		<holder role="http://www.bibletime.info/">
-			The BibleTime developers
-		</holder>
+		<year>2007</year>
+		<holder role="http://www.bibletime.info/">The BibleTime developers</holder>
 	</copyright>
 
 	<!-- Pages which do not appear in the navigation on the left -->
@@ -26,17 +25,12 @@
 	<notoc page="software_swordcd.xml"
 		filename="software_swordcd.shtml" />
 
-	<!-- PAGE IS MISSING IN CVS.
-		<notoc page="software_swordcdsend.xml" filename="software_swordcdsend.php4"/>  -->
-
 	<toc page="index.xml" filename="no_index.html">
 		<tocentry page="software.xml" filename="index.html">
 			<tocentry page="software_about.xml"
 				filename="software_about.html" />
 			<tocentry page="software_screenshots.xml"
 				filename="software_screenshots.html" />
-			<tocentry page="software_gallery.xml"
-				filename="software_gallery.html" />
 			<tocentry page="software_installation.xml"
 				filename="software_installation.html" />
 			<tocentry page="software_faq.xml"
@@ -69,6 +63,9 @@
 				filename="development_join.html" />
 			<tocentry page="development_mailinglists.xml"
 				filename="development_mailinglists.html" />
+			<tocentry id="devel.bibletime.info"	href="http://devel.bibletime.info/">
+				<title>Development wiki</title>
+			</tocentry>
 		</tocentry>
 
 		<tocentry page="translation.xml" filename="translation.shtml" />
