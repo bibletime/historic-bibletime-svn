@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE autolayout PUBLIC "-//Norman Walsh//DTD Website Autolayout V2.5.0//EN" "http://docbook.sourceforge.net/release/website/2.5.0/schema/dtd/autolayout.dtd">
 <autolayout>
-<style title="Blue" src="/css/bluescreen.css" type="text/css"/><copyright><year>1999</year><year>2000</year><year>2001</year><year>2002</year><year>2003</year><year>2004</year><year>2005</year><year>2006</year><holder role="http://www.bibletime.info/">
-			The BibleTime developers
-		</holder></copyright><notoc page="error404.xml" id="error404" filename="error404.html">
+<style title="Blue" src="/css/bluescreen.css" type="text/css"/><copyright><year>1999</year><year>2000</year><year>2001</year><year>2002</year><year>2003</year><year>2004</year><year>2005</year><year>2006</year><year>2007</year><holder role="http://www.bibletime.info/">The BibleTime developers</holder></copyright><notoc page="error404.xml" id="error404" filename="error404.html">
 <title>Error 404: File not found</title>
 <summary>Error 404: File not found</summary>
 </notoc>
@@ -32,10 +30,6 @@
 <tocentry page="software_screenshots.xml" id="software_screenshots" filename="software_screenshots.html">
 <title>Screenshots</title>
 <summary>Screenshots of BibleTime</summary>
-</tocentry>
-<tocentry page="software_gallery.xml" id="software_gallery" filename="software_gallery.html">
-<title>Gallery</title>
-<summary>Gallery of BibleTime</summary>
 </tocentry>
 <tocentry page="software_installation.xml" id="documentation_installation_bibletime" filename="software_installation.html">
 <title>Download</title>
@@ -88,6 +82,9 @@
 <tocentry page="development_mailinglists.xml" id="development_mailinglists" filename="development_mailinglists.html">
 <title>Mailinglists</title>
 <summary>BibleTime's mailinglists</summary>
+</tocentry>
+<tocentry id="devel.bibletime.info" href="http://devel.bibletime.info/">
+<title>Development wiki</title>
 </tocentry>
 </tocentry>
 <tocentry page="translation.xml" id="translation" filename="translation.shtml">

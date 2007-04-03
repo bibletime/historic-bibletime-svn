@@ -1,9 +1,8 @@
-# translation of bibletime_website_nl.po to Nederlands
 # translation of full.po to
 # translation of 2006-11-24 bibletime_website_nl.po to
 # translation of 2006-11-23 bibletime_website_nl.po to
 # translation of bibletime_website_nl.po to
-# Copyright (C) 2003, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2006, 2007 Free Software Foundation, Inc.
 #
 # Harry Vennik <htvennik@zonnet.nl>, 2003.
 # Johan van der Lingen <johanlingen@hotmail.com>, 2006.
@@ -12,161 +11,161 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_nl\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-02-17 11:24+0000\n"
-"PO-Revision-Date: 2006-12-31 15:02+0100\n"
-"Last-Translator: Johan van der Lingen <johanlingen@hotmail.com>\n"
-"Language-Team: Nederlands <nl@li.org>\n"
+"POT-Creation-Date: 2007-03-31 09:49+0000\n"
+"PO-Revision-Date: 2007-03-25 01:06+0100\n"
+"Last-Translator: Johan van der Lingen\n"
+"Language-Team:  <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #. Tag: holder
-#: autolayout.xml:4 layout.xml:16
+#: autolayout.xml:4 layout.xml:17
 #, no-c-format
 msgid "The BibleTime developers"
 msgstr "De BibleTime ontwikkelaars"
 
 #. Tag: title
-#: autolayout.xml:7 error404.xml:9
+#: autolayout.xml:5 error404.xml:9
 #, no-c-format
 msgid "Error 404: File not found"
 msgstr "Foutmelding 404: Bestand niet gevonden"
 
 #. Tag: title
-#: autolayout.xml:11 devotional.xml:9
+#: autolayout.xml:9 devotional.xml:9
 #, no-c-format
 msgid "Devotional"
 msgstr "Overdenking"
 
 #. Tag: title
-#: autolayout.xml:15 sidebar_tips.xml:11
+#: autolayout.xml:13 sidebar_tips.xml:11
 #, fuzzy, no-c-format
 msgid "Sidebar tips"
 msgstr "Sidebar tips"
 
 #. Tag: title
-#: autolayout.xml:19 software_swordcd.xml:10
+#: autolayout.xml:17 software_swordcd.xml:10
 #, no-c-format
 msgid "Sword CD"
 msgstr "Sword CD"
 
 #. Tag: title
-#: autolayout.xml:23 index.xml:9
+#: autolayout.xml:21 index.xml:9
 #, no-c-format
 msgid "BibleTime"
 msgstr "BibleTime"
 
 #. Tag: title
-#: autolayout.xml:26 software.xml:10
+#: autolayout.xml:24 software.xml:10
 #, no-c-format
 msgid "Software"
 msgstr "Software"
 
 #. Tag: title
-#: autolayout.xml:29 software_about.xml:9
+#: autolayout.xml:27 software_about.xml:9
 #, no-c-format
 msgid "About BibleTime"
 msgstr "Over BibleTime"
 
 #. Tag: title
-#: autolayout.xml:33 software_screenshots.xml:9
+#: autolayout.xml:31 software_screenshots.xml:9
 #, no-c-format
 msgid "Screenshots"
 msgstr "Screenshots"
 
 #. Tag: title
-#: autolayout.xml:37 software_gallery.xml:9 software_gallery.xml:19
-#, no-c-format
-msgid "Gallery"
-msgstr "Galerie"
-
-#. Tag: title
-#: autolayout.xml:41 software_installation.xml:11
+#: autolayout.xml:35 software_installation.xml:11
 #, no-c-format
 msgid "Download"
 msgstr "Download"
 
 #. Tag: title
-#: autolayout.xml:45 software_faq.xml:11
+#: autolayout.xml:39 software_faq.xml:11
 #, no-c-format
 msgid "<title>FAQ</title>"
 msgstr "<title>FAQ</title>"
 
 #. Tag: title
-#: autolayout.xml:49 software_links.xml:9
+#: autolayout.xml:43 software_links.xml:9
 #, no-c-format
 msgid "Links"
 msgstr "Links"
 
 #. Tag: title
-#: autolayout.xml:53 software_linkus.xml:9
+#: autolayout.xml:47 software_linkus.xml:9
 #, no-c-format
 msgid "Link to us"
 msgstr "Link naar ons"
 
 #. Tag: title
-#: autolayout.xml:57 software_guestbook.xml:9
+#: autolayout.xml:51 software_guestbook.xml:9
 #, no-c-format
 msgid "Guestbook"
 msgstr "Gastenboek"
 
 #. Tag: title
-#: autolayout.xml:61 software_press.xml:10 software_press.xml:15
+#: autolayout.xml:55 software_press.xml:10 software_press.xml:15
 #, no-c-format
 msgid "In the press"
 msgstr "In de media"
 
 #. Tag: title
-#: autolayout.xml:65 software_contact.xml:10
+#: autolayout.xml:59 software_contact.xml:10
 #, no-c-format
 msgid "Contact"
 msgstr "Contact"
 
 #. Tag: title
-#: autolayout.xml:69 software_license.xml:9 software_license.xml:14
+#: autolayout.xml:63 software_license.xml:9 software_license.xml:14
 #, no-c-format
 msgid "License"
 msgstr "Licentie"
 
 #. Tag: title
-#: autolayout.xml:73 software_imprint.xml:10
+#: autolayout.xml:67 software_imprint.xml:10
 #, no-c-format
 msgid "Imprint"
 msgstr "Uitgever"
 
 #. Tag: title
-#: autolayout.xml:78 development.xml:10
+#: autolayout.xml:72 development.xml:10
 #, no-c-format
 msgid "Development"
 msgstr "Ontwikkeling"
 
 #. Tag: title
-#: autolayout.xml:81 development_help.xml:12
+#: autolayout.xml:75 development_help.xml:12
 #, no-c-format
 msgid "Help us"
 msgstr "Help ons"
 
 #. Tag: title
-#: autolayout.xml:85 development_join.xml:10
+#: autolayout.xml:79 development_join.xml:10
 #, no-c-format
 msgid "Join us"
 msgstr "Doe mee!"
 
 #. Tag: title
-#: autolayout.xml:89 development_mailinglists.xml:10
+#: autolayout.xml:83 development_mailinglists.xml:10
 #, no-c-format
 msgid "Mailinglists"
 msgstr "Mailing lists"
 
 #. Tag: title
-#: autolayout.xml:94 translation.xml:9
+#: autolayout.xml:87 layout.xml:67
+#, fuzzy, no-c-format
+msgid "Development wiki"
+msgstr "Ontwikkeling"
+
+#. Tag: title
+#: autolayout.xml:91 translation.xml:9
 #, no-c-format
 msgid "Translation"
 msgstr "Vertaling"
 
 #. Tag: title
-#: autolayout.xml:98 biblehowto.docbook:17
+#: autolayout.xml:95 biblehowto.docbook:17
 #, no-c-format
 msgid "Biblestudy HowTo"
 msgstr "Bijbelstudie HowTo"
@@ -1989,15 +1988,15 @@ msgstr "Nieuws over BibleTime"
 
 #. Tag: title
 #: software.xml:52
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2007-01-29: BibleTime 1.6.3"
-msgstr "2006-10-26: BibleTime 1.6.1"
+msgstr "2007-01-29: BibleTime 1.6.3"
 
 #. Tag: para
 #: software.xml:53
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linu distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
-msgstr "Er is vandaag een nieuwe versie van BibleTime software beschikbaar gemaakt. BibleTime 1.6.1 bevat verscheidene reparaties voor fouten die aangetroffen werden in versie 1.6. Lees de <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> voor details. De package met vertalingen, bibletime-i18n, is ook vernieuwd. Sword 1.5.9 en CLucene 0.9.15 zijn benodigd alvorens te installeren vanuit de broncode. Maar we hopen snel binaire packages aan te bieden."
+msgstr "Versie 1.6.3 is vandaag vrijgegeven. Behalve verscheidene kleine reparaties, werkt de zoekfunctie in unicode modules nu weer. De vertalingen zijn ook vernieuwd. Zie de <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> voor een gedetailleerde lijst met veranderingen. We hopen snel packages aan te bieden voor de grotere linux distributies. Om vanuit de broncode te installeren, heb je Sword 1.5.9 en CLucene 0.9.16a nodig. Packages hiervan zijn verkrijgbaar op onze download locatie."
 
 #. Tag: title
 #: software.xml:59
@@ -2141,7 +2140,7 @@ msgstr "2005-12-18: Vertalingen, packages, FAQ"
 #: software.xml:176
 #, no-c-format
 msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
-msgstr "Een nieuwe uitgifte van onze vertaalpackage is nu beschikbaar in de download sectie. Het bevat vele updates van de vertalingen van de gebruikersinterface. We hopen binnenkort binaire packages aan te bieden."
+msgstr "Een nieuwe uitgifte van onze vertaalpackage is nu beschikbaar op de download locatie. Het bevat vele updates van de vertalingen van de gebruikersinterface. We hopen binnenkort binaire packages aan te bieden."
 
 #. Tag: para
 #: software.xml:182
@@ -2521,192 +2520,6 @@ msgstr "BibleTime is beschikbaar in verscheidene talen, welke allemaal staan ver
 msgid "If a translation into your language is not available, please consider to help to make it available. More information is available on out <olink targetdocent=\"translation\">translations page.</olink>."
 msgstr "Als een vertaling in uw taal niet beschikbaar is, denk er dan eens over na om het beschikbaar te helpen maken. Meer informatie kunt u vinden op de <olink targetdocent=\"translation\">pagina over vertalingen</olink>."
 
-#. Tag: para
-#: software_gallery.xml:20
-#, no-c-format
-msgid "You can find some nice screenshots of BibleTime here, showing one or two text module(s) each. They demonstrate the powerful Unicode handling mechanisms of <ulink url=\"http://www.trolltech.com\">Trolltech's</ulink> Qt 3. Some of the screenshots are really impressive."
-msgstr "Hier kunt u wat mooie screenshots van BibleTime vinden, welke elk &eacute;&eacute;n of twee tekst modules laten zien. Ze demonstreren de krachtige mechanismen van <ulink url=\"http://www.trolltech.com\">Trolltechs</ulink> Qt 3 om om te gaan met Unicode. Sommige screenshots zijn echt indrukwekkend."
-
-#. Tag: para
-#: software_gallery.xml:27
-#, no-c-format
-msgid "Most of the screenshots were created using the superb <ulink url=\"http://home.att.net/~jameskass/CODE2000.ZIP\"> Code2000 </ulink> Unicode font. Click on the preview images to see a large and detailed version of each screenshot."
-msgstr "De meeste screenshots zijn gemaakt met het prachtige <ulink url=\"http://home.att.net/~jameskass/CODE2000.ZIP\"> Code2000 </ulink> Unicode font. Klik op de voorbeeldafbeeldingen om een grote en gedetailleerde versie van ieder screenshot te zien."
-
-#. Tag: title
-#: software_gallery.xml:37
-#, no-c-format
-msgid "WLC - hebrew rendering"
-msgstr "WLC - Hebreeuws weergeven"
-
-#. Tag: phrase
-#: software_gallery.xml:46 software_gallery.xml:82
-#, no-c-format
-msgid "BHS - hebrew rendering"
-msgstr "BHS - Hebreeuws weergeven"
-
-#. Tag: para
-#: software_gallery.xml:53
-#, no-c-format
-msgid "The <emphasis>WLC</emphasis> (short for <emphasis>Westminster Leningrad Codex</emphasis> ), the best available text of the Hebrew Old Testament."
-msgstr "De <emphasis>WLC</emphasis> (afkorting van <emphasis>Westminster Leningrad Codex</emphasis>), de beste beschikbare tekst van het Hebreeuwse Oude Testament."
-
-#. Tag: para
-#: software_gallery.xml:61
-#, no-c-format
-msgid "As you can see, BibleTime renders the text correctly from right to left. Those of you who can read Hebrew will notice that the Vowel Points and the Cantillation Marks (you can switch both of them on and off) are displayed correctly."
-msgstr "Zoals u kunt zien, geeft BibleTime de tekst correct van rechts naar links weer. Degenen onder jullie die Hebreeuws kunnen lezen zullen opmerken dat de klinkerpunten en de intonatietekens (u kunt ze allebei in- en uitschakelen) correct zijn weergegeven."
-
-#. Tag: title
-#: software_gallery.xml:73
-#, no-c-format
-msgid "<title>Peshitta - early syrian translation</title>"
-msgstr "<title>Peshitta - vroeg-Syrische vertaling</title>"
-
-#. Tag: phrase
-#: software_gallery.xml:85
-#, no-c-format
-msgid "<phrase>Peshitta - early syrian translation</phrase>"
-msgstr "<phrase>Peshitta - vroeg-Syrische vertaling</phrase>"
-
-#. Tag: para
-#: software_gallery.xml:95
-#, no-c-format
-msgid "The <emphasis>Peshitta</emphasis> contains an early Syrian text, running from right to left."
-msgstr "De <emphasis>Peshitta</emphasis> bevat een vroeg-Syrische tekst, die van rechts naar links loopt."
-
-#. Tag: para
-#: software_gallery.xml:101
-#, no-c-format
-msgid "Qt renders this text very nice with Code2000, which is one of the very few fonts that support syrian characters."
-msgstr "Qt geeft deze tekst heel mooi weer met Code2000, wat &eacute;&eacute;n van de weinige lettertypen is dat Syrische karakters ondersteunt."
-
-#. Tag: title
-#: software_gallery.xml:110
-#, no-c-format
-msgid "<title>The Arabic Bible</title>"
-msgstr "<title>De Arabische bijbel</title>"
-
-#. Tag: phrase
-#: software_gallery.xml:119
-#, no-c-format
-msgid "<phrase>The Arabic Bible</phrase>"
-msgstr "<phrase>De Arabische bijbel</phrase>"
-
-#. Tag: para
-#: software_gallery.xml:125
-#, no-c-format
-msgid "<emphasis>AraSVD</emphasis> : The Arabic Bible. Very nice example for right-to-left rendering of a complex script - Arabic is probably one of the most complicated scripts of the world. This screenshot was taken after linebreaks were switched off, providing a more readable text view."
-msgstr "<emphasis>AraSVD</emphasis>. De Arabische bijbel. Een mooi voorbeeld van een van-rechts-naar-links weergave van een complexe schrift - Arabisch is waarschijnlijk &eacute;&eacute;n van de meest gecompliceerde schriften ter wereld. Dit screenshot is genomen nadat de regeleinden zijn uitgezet, waardoor een leesbaarder tekstweergave is verkregen."
-
-#. Tag: title
-#: software_gallery.xml:136
-#, no-c-format
-msgid "<title>Chinese rendering</title>"
-msgstr "<title>Chinees weergeven</title>"
-
-#. Tag: phrase
-#: software_gallery.xml:145
-#, no-c-format
-msgid "<phrase>Chinese rendering</phrase>"
-msgstr "<phrase>Chinees weergeven</phrase>"
-
-#. Tag: para
-#: software_gallery.xml:151
-#, no-c-format
-msgid "<emphasis>ChiGU</emphasis> : Chinese Bible text. Since QT 3 BibleTime can correctly break the paragraphs (as you may know, there are no spaces between words)."
-msgstr "<emphasis>ChiGU</emphasis>: Chinese bijbeltekst. Sinds QT 3 kan BibleTime de paragrafen correct afbreken (zoals je misschien weet, staan er geen spaties tussen de woorden)."
-
-#. Tag: title
-#: software_gallery.xml:161
-#, no-c-format
-msgid "<title>Greek rendering with Strong's numbers and morphological tags</title>"
-msgstr "<title>Grieks weergeven met Strong-nummering en morfologische tags</title>"
-
-#. Tag: phrase
-#: software_gallery.xml:173
-#, no-c-format
-msgid "<phrase>Greek rendering with Strong's numbers and morphological tags</phrase>"
-msgstr "<phrase>Grieks weergeven met Strong-nummering en morfologische tags</phrase>"
-
-#. Tag: para
-#: software_gallery.xml:182
-#, no-c-format
-msgid "<emphasis>IGNT</emphasis> : The Interlinear Greek New Testament. The green numbers in \"&lt; &gt;\" brackets are Strongnumbers, whereas the numbers in \"( )\" brackets are Morphologic Tags. Both of them can displayed in a tooltip using a predefined Strong's and Morphology dictionary, as you can see in the example."
-msgstr "<emphasis>IGNT</emphasis>: Het Interlinear Greek New Testament. De groene nummers in \"&lt; &gt;\"-haakjes zijn Strong-nummers, terwijl de nummers tussen \"( )\"-haakjes Morfologische Tags zijn. Beiden kunnen weergeven worden in een tooltip door gebruik te maken van de voorgedefinieerde Strong- en Morfologische woordenboeken, zoals u kunt zien in het voorbeeld."
-
-#. Tag: title
-#: software_gallery.xml:195
-#, no-c-format
-msgid "<title>Korean and Thai</title>"
-msgstr "<title>Koreaans en Thais</title>"
-
-#. Tag: phrase
-#: software_gallery.xml:204
-#, no-c-format
-msgid "<phrase>Korean and Thai</phrase>"
-msgstr "<phrase>Koreaans en Thais</phrase>"
-
-#. Tag: para
-#: software_gallery.xml:210
-#, no-c-format
-msgid "<emphasis>Kor</emphasis> and <emphasis>ThaiKJV</emphasis> . Korean and Thai are very good Unicode examples covered by an amount of Unicode scripts already. They are displayed in a parallel view in one window. The first line of Thai text is of a little smaller pointsize. It is a section heading, and those can be turned on and off using the first toolbutton in the display window."
-msgstr "<emphasis>Kor</emphasis> en <emphasis>ThaiKJV</emphasis>: Koreaans en Thais zijn zeer goede Unicode voorbeelden die reeds gedekt worden door een aantal Unicode scripts. Ze worden weergegeven in een parallelelle weergave in &eacute;&eacute;n venster. De eerste regel met Thaise tekst heeft een iets kleiner lettertype. Het is de kop van een sectie, en die kan in- en uitgeschakeld worden door de eerste toolknop in het weergavevenster te gebruiken."
-
-#. Tag: title
-#: software_gallery.xml:224
-#, no-c-format
-msgid "<title>Bulgarian and footnotes</title>"
-msgstr "<title>Bulgaars en voetnoten</title>"
-
-#. Tag: phrase
-#: software_gallery.xml:233
-#, no-c-format
-msgid "<phrase>Bulgarian and footnotes</phrase>"
-msgstr "<phrase>Bulgaars en voetnoten</phrase>"
-
-#. Tag: para
-#: software_gallery.xml:239
-#, no-c-format
-msgid "<emphasis>Bulgarian</emphasis> : The Bible in Bulgarian language. Bulgarian uses the Kyrillic script, which is also used in other languages like Russian. Notice the marked text - it is a \"footnote\". The popup menu shows how those can be turned on and off."
-msgstr "<emphasis>bulgaars</emphasis>: De bijbel in de Bulgaarse taal. Bulgaren gebruiken het Cyrillische schrift, welke ook gebruik wordt in talen zoals Russisch. Let op de gemarkeerde tekst - het is een \"voetnoot\". Het popup menu laat zien hoe deze in- en uitgeschakeld kunnen worden."
-
-#. Tag: title
-#: software_gallery.xml:250
-#, no-c-format
-msgid "<title>Vietnamese and Romanian</title>"
-msgstr "<title> Vietnamees en Roemeens</title>"
-
-#. Tag: phrase
-#: software_gallery.xml:259
-#, no-c-format
-msgid "<phrase>Vietnamese and Romanian</phrase>"
-msgstr "<phrase> Vietnamees en Roemeens</phrase>"
-
-#. Tag: para
-#: software_gallery.xml:265
-#, no-c-format
-msgid "<emphasis>Viet</emphasis> and <emphasis>RomCor</emphasis> . East Europe meets East Asia! Vietnamese and Romanian are not geographically linked, though they look somehow similar in this screenshot."
-msgstr "<emphasis>Viet</emphasis> en <emphasis>RomCor</emphasis>. Oost-Europa ontmoet Oost-Azi&euml;! Vietnam en Roemeni&euml; zijn geografisch niet verbonden, maar de talen lijken wel aardig op elkaar in dit screenshot."
-
-#. Tag: title
-#: software_gallery.xml:276
-#, no-c-format
-msgid "<title>Esperanto without verse numbers and linebreaks</title>"
-msgstr "<title>Esperanto zonder versnummers en regeleinden</title>"
-
-#. Tag: phrase
-#: software_gallery.xml:287
-#, no-c-format
-msgid "<phrase>Esperanto without verse numbers and linebreaks</phrase>"
-msgstr "<phrase>Esperanto zonder versnummers en regeleinden</phrase>"
-
-#. Tag: para
-#: software_gallery.xml:296
-#, no-c-format
-msgid "YES, there is a Bible for those of you who prefer to speak Esperanto. This is not really a Unicode example, since the displayed characters come from the iso 8859-1 charset. But this shows how text looks like after switching off versenumbers and linebreaks."
-msgstr "JA, er is een bijbel voor wie het liefst Esperanto spreekt. Dit is niet echt een Unicode voorbeeld, omdat de weergegeven karakters uit de iso 8859-1 charset komen. Maar het laat wel zien hoe tekst eruit ziet nadat de versnummers en de regeleinden zijn uitgeschakeld."
-
 #. Tag: title
 #: software_guestbook.xml:14
 #, no-c-format
@@ -2765,13 +2578,13 @@ msgstr "Download BibleTime"
 #: software_installation.xml:17
 #, no-c-format
 msgid "This is a short list of available download locations. Packages which are not provided on our SourceForge pages might be outdated. Please see below for detailed download and installation instructions."
-msgstr "Dit is een korte lijst van beschikbare download locaties. Packages die niet worden aangeboden op onze SourceForge pagina's zouden achterhaald kunnen zijn. Kijk a.u.b. hieronder voor gedetailleerde instrucites met betrekking tot downloaden en installeren."
+msgstr "Dit is een korte lijst van beschikbare download locaties. Packages die niet worden aangeboden op onze SourceForge pagina's zouden achterhaald kunnen zijn. Kijk a.u.b. hieronder voor gedetailleerde instructies met betrekking tot downloaden en installeren."
 
 #. Tag: para
 #: software_installation.xml:21
 #, no-c-format
 msgid "Sourcecode and packages for major Linux distributions can be downloaded from <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\">SourceForge</ulink>."
-msgstr "Broncode en packages voor grote Linux distributies kunnen gedownload worden van  <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\">SourceForge</ulink>."
+msgstr "Broncode en packages voor de grotere Linux distributies kunnen gedownload worden van  <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\">SourceForge</ulink>."
 
 #. Tag: para
 #: software_installation.xml:26
@@ -2825,7 +2638,7 @@ msgstr "Met de hulp van fantastische vrijwilligers proberen we packages aan te b
 #: software_installation.xml:57
 #, no-c-format
 msgid "First download the binary package for your Linux distribution. For example: You want to download <application>BibleTime 1.4</application> for <productname>SuSE Linux 9.0</productname>. In this case you have to download the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please download the package &quot;bibletime-i18n&quot; package, too. This package contains the available translations of the BibleTime user interface and handbook."
-msgstr "Download eerst de binary package voor uw Linux-distributie. U wilt bijvoorbeeld BibleTime 1.2.2 voor SuSE Linux 8.1 downloaden. In dit geval downloadt u de package \"bibletime-1.2.2-1suse8.1.i586.rpm\". Vergeet niet ook de package bibletime-i18n, met de documentatie en vertalingen beschikbaar voor BibleTime, te downloaden."
+msgstr "Download eerst de binary package voor uw Linux distributie. U wilt bijvoorbeeld BibleTime 1.2.2 voor SuSE Linux 8.1 downloaden. In dit geval downloadt u de package \"bibletime-1.2.2-1suse8.1.i586.rpm\". Vergeet niet ook de package bibletime-i18n, met de documentatie en vertalingen beschikbaar voor BibleTime, te downloaden."
 
 #. Tag: para
 #: software_installation.xml:60
@@ -2861,7 +2674,7 @@ msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
 #: software_installation.xml:76
 #, no-c-format
 msgid "At least the libraries and the base package. KDE 3 is shipped with many Linux distributions. Very often it's installed by default."
-msgstr "Tenminste de bibliotheken en het basispakket. KDE 3 wordt geleverd bij veel Linux-distributies. Vaak wordt het standaard ge&iuml;nstalleerd."
+msgstr "Tenminste de bibliotheken en het basispakket. KDE 3 wordt geleverd bij veel Linux distributies. Vaak wordt het standaard ge&iuml;nstalleerd."
 
 #. Tag: para
 #: software_installation.xml:80
@@ -4184,3 +3997,99 @@ msgstr "<title>Vertaal het programma handboek.</title>"
 #, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Als een vertaling van het handboek nog niet in uw taal bestaat, kunt u, kunt u het <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> sjabloon voor vertaling van het handboek</ulink> downloaden en vertalen. Als u een bestaande vertaling wilt verbeteren, gebruik dan de links in onderstaande tabel om het bijbehorende bestand te downloaden."
+
+#~ msgid "Gallery"
+#~ msgstr "Galerie"
+
+#~ msgid "You can find some nice screenshots of BibleTime here, showing one or two text module(s) each. They demonstrate the powerful Unicode handling mechanisms of <ulink url=\"http://www.trolltech.com\">Trolltech's</ulink> Qt 3. Some of the screenshots are really impressive."
+#~ msgstr "Hier kunt u wat mooie screenshots van BibleTime vinden, welke elk &eacute;&eacute;n of twee tekst modules laten zien. Ze demonstreren de krachtige mechanismen van <ulink url=\"http://www.trolltech.com\">Trolltechs</ulink> Qt 3 om om te gaan met Unicode. Sommige screenshots zijn echt indrukwekkend."
+
+#~ msgid "Most of the screenshots were created using the superb <ulink url=\"http://home.att.net/~jameskass/CODE2000.ZIP\"> Code2000 </ulink> Unicode font. Click on the preview images to see a large and detailed version of each screenshot."
+#~ msgstr "De meeste screenshots zijn gemaakt met het prachtige <ulink url=\"http://home.att.net/~jameskass/CODE2000.ZIP\"> Code2000 </ulink> Unicode font. Klik op de voorbeeldafbeeldingen om een grote en gedetailleerde versie van ieder screenshot te zien."
+
+#~ msgid "WLC - hebrew rendering"
+#~ msgstr "WLC - Hebreeuws weergeven"
+
+#~ msgid "BHS - hebrew rendering"
+#~ msgstr "BHS - Hebreeuws weergeven"
+
+#~ msgid "The <emphasis>WLC</emphasis> (short for <emphasis>Westminster Leningrad Codex</emphasis> ), the best available text of the Hebrew Old Testament."
+#~ msgstr "De <emphasis>WLC</emphasis> (afkorting van <emphasis>Westminster Leningrad Codex</emphasis>), de beste beschikbare tekst van het Hebreeuwse Oude Testament."
+
+#~ msgid "As you can see, BibleTime renders the text correctly from right to left. Those of you who can read Hebrew will notice that the Vowel Points and the Cantillation Marks (you can switch both of them on and off) are displayed correctly."
+#~ msgstr "Zoals u kunt zien, geeft BibleTime de tekst correct van rechts naar links weer. Degenen onder jullie die Hebreeuws kunnen lezen zullen opmerken dat de klinkerpunten en de intonatietekens (u kunt ze allebei in- en uitschakelen) correct zijn weergegeven."
+
+#~ msgid "<title>Peshitta - early syrian translation</title>"
+#~ msgstr "<title>Peshitta - vroeg-Syrische vertaling</title>"
+
+#~ msgid "<phrase>Peshitta - early syrian translation</phrase>"
+#~ msgstr "<phrase>Peshitta - vroeg-Syrische vertaling</phrase>"
+
+#~ msgid "The <emphasis>Peshitta</emphasis> contains an early Syrian text, running from right to left."
+#~ msgstr "De <emphasis>Peshitta</emphasis> bevat een vroeg-Syrische tekst, die van rechts naar links loopt."
+
+#~ msgid "Qt renders this text very nice with Code2000, which is one of the very few fonts that support syrian characters."
+#~ msgstr "Qt geeft deze tekst heel mooi weer met Code2000, wat &eacute;&eacute;n van de weinige lettertypen is dat Syrische karakters ondersteunt."
+
+#~ msgid "<title>The Arabic Bible</title>"
+#~ msgstr "<title>De Arabische bijbel</title>"
+
+#~ msgid "<phrase>The Arabic Bible</phrase>"
+#~ msgstr "<phrase>De Arabische bijbel</phrase>"
+
+#~ msgid "<emphasis>AraSVD</emphasis> : The Arabic Bible. Very nice example for right-to-left rendering of a complex script - Arabic is probably one of the most complicated scripts of the world. This screenshot was taken after linebreaks were switched off, providing a more readable text view."
+#~ msgstr "<emphasis>AraSVD</emphasis>. De Arabische bijbel. Een mooi voorbeeld van een van-rechts-naar-links weergave van een complexe schrift - Arabisch is waarschijnlijk &eacute;&eacute;n van de meest gecompliceerde schriften ter wereld. Dit screenshot is genomen nadat de regeleinden zijn uitgezet, waardoor een leesbaarder tekstweergave is verkregen."
+
+#~ msgid "<title>Chinese rendering</title>"
+#~ msgstr "<title>Chinees weergeven</title>"
+
+#~ msgid "<phrase>Chinese rendering</phrase>"
+#~ msgstr "<phrase>Chinees weergeven</phrase>"
+
+#~ msgid "<emphasis>ChiGU</emphasis> : Chinese Bible text. Since QT 3 BibleTime can correctly break the paragraphs (as you may know, there are no spaces between words)."
+#~ msgstr "<emphasis>ChiGU</emphasis>: Chinese bijbeltekst. Sinds QT 3 kan BibleTime de paragrafen correct afbreken (zoals je misschien weet, staan er geen spaties tussen de woorden)."
+
+#~ msgid "<title>Greek rendering with Strong's numbers and morphological tags</title>"
+#~ msgstr "<title>Grieks weergeven met Strong-nummering en morfologische tags</title>"
+
+#~ msgid "<phrase>Greek rendering with Strong's numbers and morphological tags</phrase>"
+#~ msgstr "<phrase>Grieks weergeven met Strong-nummering en morfologische tags</phrase>"
+
+#~ msgid "<emphasis>IGNT</emphasis> : The Interlinear Greek New Testament. The green numbers in \"&lt; &gt;\" brackets are Strongnumbers, whereas the numbers in \"( )\" brackets are Morphologic Tags. Both of them can displayed in a tooltip using a predefined Strong's and Morphology dictionary, as you can see in the example."
+#~ msgstr "<emphasis>IGNT</emphasis>: Het Interlinear Greek New Testament. De groene nummers in \"&lt; &gt;\"-haakjes zijn Strong-nummers, terwijl de nummers tussen \"( )\"-haakjes Morfologische Tags zijn. Beiden kunnen weergeven worden in een tooltip door gebruik te maken van de voorgedefinieerde Strong- en Morfologische woordenboeken, zoals u kunt zien in het voorbeeld."
+
+#~ msgid "<title>Korean and Thai</title>"
+#~ msgstr "<title>Koreaans en Thais</title>"
+
+#~ msgid "<phrase>Korean and Thai</phrase>"
+#~ msgstr "<phrase>Koreaans en Thais</phrase>"
+
+#~ msgid "<emphasis>Kor</emphasis> and <emphasis>ThaiKJV</emphasis> . Korean and Thai are very good Unicode examples covered by an amount of Unicode scripts already. They are displayed in a parallel view in one window. The first line of Thai text is of a little smaller pointsize. It is a section heading, and those can be turned on and off using the first toolbutton in the display window."
+#~ msgstr "<emphasis>Kor</emphasis> en <emphasis>ThaiKJV</emphasis>: Koreaans en Thais zijn zeer goede Unicode voorbeelden die reeds gedekt worden door een aantal Unicode scripts. Ze worden weergegeven in een parallelelle weergave in &eacute;&eacute;n venster. De eerste regel met Thaise tekst heeft een iets kleiner lettertype. Het is de kop van een sectie, en die kan in- en uitgeschakeld worden door de eerste toolknop in het weergavevenster te gebruiken."
+
+#~ msgid "<title>Bulgarian and footnotes</title>"
+#~ msgstr "<title>Bulgaars en voetnoten</title>"
+
+#~ msgid "<phrase>Bulgarian and footnotes</phrase>"
+#~ msgstr "<phrase>Bulgaars en voetnoten</phrase>"
+
+#~ msgid "<emphasis>Bulgarian</emphasis> : The Bible in Bulgarian language. Bulgarian uses the Kyrillic script, which is also used in other languages like Russian. Notice the marked text - it is a \"footnote\". The popup menu shows how those can be turned on and off."
+#~ msgstr "<emphasis>bulgaars</emphasis>: De bijbel in de Bulgaarse taal. Bulgaren gebruiken het Cyrillische schrift, welke ook gebruik wordt in talen zoals Russisch. Let op de gemarkeerde tekst - het is een \"voetnoot\". Het popup menu laat zien hoe deze in- en uitgeschakeld kunnen worden."
+
+#~ msgid "<title>Vietnamese and Romanian</title>"
+#~ msgstr "<title> Vietnamees en Roemeens</title>"
+
+#~ msgid "<phrase>Vietnamese and Romanian</phrase>"
+#~ msgstr "<phrase> Vietnamees en Roemeens</phrase>"
+
+#~ msgid "<emphasis>Viet</emphasis> and <emphasis>RomCor</emphasis> . East Europe meets East Asia! Vietnamese and Romanian are not geographically linked, though they look somehow similar in this screenshot."
+#~ msgstr "<emphasis>Viet</emphasis> en <emphasis>RomCor</emphasis>. Oost-Europa ontmoet Oost-Azi&euml;! Vietnam en Roemeni&euml; zijn geografisch niet verbonden, maar de talen lijken wel aardig op elkaar in dit screenshot."
+
+#~ msgid "<title>Esperanto without verse numbers and linebreaks</title>"
+#~ msgstr "<title>Esperanto zonder versnummers en regeleinden</title>"
+
+#~ msgid "<phrase>Esperanto without verse numbers and linebreaks</phrase>"
+#~ msgstr "<phrase>Esperanto zonder versnummers en regeleinden</phrase>"
+
+#~ msgid "YES, there is a Bible for those of you who prefer to speak Esperanto. This is not really a Unicode example, since the displayed characters come from the iso 8859-1 charset. But this shows how text looks like after switching off versenumbers and linebreaks."
+#~ msgstr "JA, er is een bijbel voor wie het liefst Esperanto spreekt. Dit is niet echt een Unicode voorbeeld, omdat de weergegeven karakters uit de iso 8859-1 charset komen. Maar het laat wel zien hoe tekst eruit ziet nadat de versnummers en de regeleinden zijn uitgeschakeld."
