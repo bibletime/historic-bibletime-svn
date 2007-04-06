@@ -29,11 +29,23 @@
             name="backend_Interfaces.pgml"
             diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
             diagramname="Interfaces" />
+    <member type="pgml"
+            name="backend_Bookplugininterfaces.pgml"
+            diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+            diagramname="Book plugin interfaces" />
+    <member type="pgml"
+            name="backend_Searchplugininterfaces.pgml"
+            diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+            diagramname="Search plugin interfaces" />
+    <member type="pgml"
+            name="backend_Abstractclasses.pgml"
+            diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+            diagramname="Abstract classes" />
     <member type="todo"
             name="backend.todo" />
     <historyfile name="" />
   </argo>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Fri Apr 06 02:28:21 CEST 2007'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Fri Apr 06 03:36:21 CEST 2007'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.24(5) revised on $Date: 2006-11-06 19:55:22 +0100 (Mon, 06 Nov 2006) $ </XMI.exporterVersion>
@@ -194,14 +206,141 @@ This is a singleton object.</UML:TaggedValue.dataValue>
                 <UML:Reception xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E6'
                   isSpecification = 'false' isQuery = 'false' isRoot = 'false' isLeaf = 'false'
                   isAbstract = 'false'/>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000084A'
+                  name = 'search' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000084B'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000084D'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000084C'
+                      name = 'SearchQuery' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000091E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000865'
+                  name = 'searchIndex' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000866'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000867'
+                  name = 'setSearchIndex' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000868'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000091E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000869'
+                      name = 'index' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
               </UML:Classifier.feature>
             </UML:Interface>
             <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7'
               name = 'SearchIndex' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-              isLeaf = 'false' isAbstract = 'false'/>
+              isLeaf = 'false' isAbstract = 'false'>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000085B'
+                  name = 'book' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000085C'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Interface>
             <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E9'
-              name = 'SearchIndexManager' visibility = 'public' isSpecification = 'false'
-              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'/>
+              name = 'SearchIndexDriver' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000852'
+                  name = 'searchIndex' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000853'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000854'
+                      name = 'Book' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000091E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000855'
+                  name = 'isIndexAvailable' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000856'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000857'
+                      name = 'Book' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000091E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000858'
+                  name = 'deleteIndex' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000859'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000085A'
+                      name = 'Book' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000091E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Interface>
             <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009EB'
               name = 'SearcherFactory' visibility = 'public' isSpecification = 'false'
               isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
@@ -233,7 +372,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
                     <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000979'
                       name = 'return' isSpecification = 'false' kind = 'return'>
                       <UML:Parameter.type>
-                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097A'/>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009EB'/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
@@ -388,7 +527,20 @@ This is a singleton object.</UML:TaggedValue.dataValue>
                     <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097C'
                       name = 'return' isSpecification = 'false' kind = 'return'>
                       <UML:Parameter.type>
-                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097D'/>
+                        <UML:Interface xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000875'
+                  name = 'language' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000876'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000871'/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
@@ -408,14 +560,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
                   name = 'Licenced' isSpecification = 'false'/>
               </UML:Enumeration.literal>
             </UML:Enumeration>
-            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000095B'
-              name = 'BookMetaData*' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
-            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000960'
-              name = 'BookManager*' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
             <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961'
-              name = 'BookDrivers' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              name = 'BookDriver' visibility = 'public' isSpecification = 'false' isRoot = 'false'
               isLeaf = 'false' isAbstract = 'false'>
               <UML:Classifier.feature>
                 <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000963'
@@ -490,15 +636,9 @@ This is a singleton object.</UML:TaggedValue.dataValue>
                 </UML:Operation>
               </UML:Classifier.feature>
             </UML:Interface>
-            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000096B'
-              name = 'SearchIndex*' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
-            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000096C'
-              name = 'Searcher*' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
             <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000971'
-              name = 'PluginManager' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-              isLeaf = 'false' isAbstract = 'false'>
+              name = 'PluginManagers' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
               <UML:ModelElement.taggedValue>
                 <UML:TaggedValue xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000976'
                   isSpecification = 'false'>
@@ -524,12 +664,136 @@ This is a singleton object.</UML:TaggedValue.dataValue>
                 </UML:Operation>
               </UML:Classifier.feature>
             </UML:Interface>
-            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097A'
-              name = 'SearcherFactory*' visibility = 'public' isSpecification = 'false'
-              isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
-            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097D'
-              name = 'BookDriver' visibility = 'public' isSpecification = 'false' isRoot = 'false'
-              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000848'
+              name = 'SearchQuery' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000084E'
+              name = 'SearchResult' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000086B'
+              name = 'SearchIndexManager' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Class xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000871'
+              name = 'Language' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+              <UML:Classifier.feature>
+                <UML:Attribute xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000087C'
+                  name = 'name' visibility = 'private' isSpecification = 'false' ownerScope = 'instance'
+                  changeability = 'changeable' targetScope = 'instance'>
+                  <UML:StructuralFeature.multiplicity>
+                    <UML:Multiplicity xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008A7'>
+                      <UML:Multiplicity.range>
+                        <UML:MultiplicityRange xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008A6'
+                          lower = '1' upper = '1'/>
+                      </UML:Multiplicity.range>
+                    </UML:Multiplicity>
+                  </UML:StructuralFeature.multiplicity>
+                  <UML:StructuralFeature.type>
+                    <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                  </UML:StructuralFeature.type>
+                </UML:Attribute>
+                <UML:Attribute xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000885'
+                  name = 'iso-1' visibility = 'private' isSpecification = 'false' ownerScope = 'instance'
+                  changeability = 'changeable' targetScope = 'instance'>
+                  <UML:StructuralFeature.multiplicity>
+                    <UML:Multiplicity xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008C6'>
+                      <UML:Multiplicity.range>
+                        <UML:MultiplicityRange xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008C5'
+                          lower = '1' upper = '1'/>
+                      </UML:Multiplicity.range>
+                    </UML:Multiplicity>
+                  </UML:StructuralFeature.multiplicity>
+                  <UML:StructuralFeature.type>
+                    <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                  </UML:StructuralFeature.type>
+                </UML:Attribute>
+                <UML:Attribute xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008AE'
+                  name = 'translated' visibility = 'private' isSpecification = 'false' ownerScope = 'instance'
+                  changeability = 'changeable' targetScope = 'instance'>
+                  <UML:StructuralFeature.multiplicity>
+                    <UML:Multiplicity xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008B8'>
+                      <UML:Multiplicity.range>
+                        <UML:MultiplicityRange xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008B7'
+                          lower = '1' upper = '1'/>
+                      </UML:Multiplicity.range>
+                    </UML:Multiplicity>
+                  </UML:StructuralFeature.multiplicity>
+                  <UML:StructuralFeature.type>
+                    <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                  </UML:StructuralFeature.type>
+                </UML:Attribute>
+              </UML:Classifier.feature>
+            </UML:Class>
+            <UML:Class xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000873'
+              name = 'LanguageManager' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000877'
+                  name = 'languages' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000878'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000879'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000087A'
+                  name = 'instance' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000087B'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000873'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008A8'
+                  name = 'languageForName' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008A9'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000871'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008AA'
+                      name = 'name' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008AB'
+                  name = 'languageForIso639' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008AC'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000871'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:00000000000008AD'
+                      name = 'name' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Class>
           </UML:Namespace.ownedElement>
         </UML:Package>
         <UML:TagDefinition xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'
@@ -564,6 +828,12 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000957'
           name = 'QList&lt;BookMetaData&gt;' visibility = 'public' isSpecification = 'false'
           isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+        <UML:Class xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000084D'
+          name = 'QList&lt;SearchResult&gt;' visibility = 'public' isSpecification = 'false'
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+        <UML:Class xmi.id = '127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000879'
+          name = 'QList&lt;Language&gt;' visibility = 'public' isSpecification = 'false'
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
       </UML:Namespace.ownedElement>
     </UML:Model>
   </XMI.content>
@@ -572,7 +842,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       name="Interfaces"
 >
   <group name="Fig0"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[40, 40, 217, 63]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[272, 208, 217, 63]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3"
        fill="1"
        fillcolor="white"
@@ -583,8 +853,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig0.0"
-      x="40"
-      y="40"
+      x="272"
+      y="208"
       width="217"
       height="63"
       fill="1"
@@ -593,7 +863,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       strokecolor="black"
     />
     <group name="Fig0.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[40, 40, 217, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[272, 208, 217, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3"
          fill="1"
          fillcolor="white"
@@ -604,8 +874,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig0.1.0"
-        x="40"
-        y="40"
+        x="272"
+        y="208"
         width="217"
         height="15"
         fill="1"
@@ -614,8 +884,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig0.1.1"
-        x="41"
-        y="41"
+        x="273"
+        y="209"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -625,8 +895,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig0.2"
-      x="40"
-      y="55"
+      x="272"
+      y="223"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -635,7 +905,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >Book</text>
     <group name="Fig0.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[41, 78, 216, 24]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[273, 246, 216, 24]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -645,8 +915,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig0.3.0"
-        x="41"
-        y="78"
+        x="273"
+        y="246"
         width="216"
         height="24"
         fill="1"
@@ -661,14 +931,14 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="41"
-                y="78" />
-        <lineto x="257"
-                y="78" />
+        <moveto x="273"
+                y="246" />
+        <lineto x="489"
+                y="246" />
       </path>
       <text name="Fig0.3.2"
-        x="41"
-        y="79"
+        x="273"
+        y="247"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -678,8 +948,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >+metaData() : BookMetaData</text>
     </group>
     <rectangle name="Fig0.4"
-      x="40"
-      y="40"
+      x="272"
+      y="208"
       width="217"
       height="63"
       fill="0"
@@ -689,7 +959,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig1"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[337, 40, 297, 89]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[600, 8, 297, 89]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D7"
        fill="1"
        fillcolor="white"
@@ -700,8 +970,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig1.0"
-      x="337"
-      y="40"
+      x="600"
+      y="8"
       width="297"
       height="89"
       fill="1"
@@ -710,7 +980,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       strokecolor="black"
     />
     <group name="Fig1.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[337, 40, 297, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[600, 8, 297, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D7"
          fill="1"
          fillcolor="white"
@@ -721,8 +991,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig1.1.0"
-        x="337"
-        y="40"
+        x="600"
+        y="8"
         width="297"
         height="15"
         fill="1"
@@ -731,8 +1001,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig1.1.1"
-        x="338"
-        y="41"
+        x="601"
+        y="9"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -742,8 +1012,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig1.2"
-      x="337"
-      y="55"
+      x="600"
+      y="23"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -752,7 +1022,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >BookManager</text>
     <group name="Fig1.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[338, 78, 296, 50]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[601, 46, 296, 50]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -762,8 +1032,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig1.3.0"
-        x="338"
-        y="78"
+        x="601"
+        y="46"
         width="296"
         height="50"
         fill="1"
@@ -778,14 +1048,14 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="338"
-                y="78" />
-        <lineto x="634"
-                y="78" />
+        <moveto x="601"
+                y="46" />
+        <lineto x="897"
+                y="46" />
       </path>
       <text name="Fig1.3.2"
-        x="338"
-        y="79"
+        x="601"
+        y="47"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -794,8 +1064,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         textsize="10"
       >+availableBooks() : BookList</text>
       <text name="Fig1.3.3"
-        x="338"
-        y="92"
+        x="601"
+        y="60"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -804,8 +1074,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         textsize="10"
       >+book(bookMetaData : BookMetaData) : Book</text>
       <text name="Fig1.3.4"
-        x="338"
-        y="105"
+        x="601"
+        y="73"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -815,8 +1085,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >+instance() : BookManager</text>
     </group>
     <rectangle name="Fig1.4"
-      x="337"
-      y="40"
+      x="600"
+      y="8"
       width="297"
       height="89"
       fill="0"
@@ -826,7 +1096,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig2"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[376, 152, 82, 62]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[504, 208, 82, 62]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D9"
        fill="1"
        fillcolor="white"
@@ -837,8 +1107,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig2.0"
-      x="376"
-      y="152"
+      x="504"
+      y="208"
       width="82"
       height="62"
       fill="1"
@@ -847,7 +1117,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       strokecolor="black"
     />
     <group name="Fig2.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[376, 152, 82, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[504, 208, 82, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D9"
          fill="1"
          fillcolor="white"
@@ -858,8 +1128,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig2.1.0"
-        x="376"
-        y="152"
+        x="504"
+        y="208"
         width="82"
         height="15"
         fill="1"
@@ -868,8 +1138,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig2.1.1"
-        x="377"
-        y="153"
+        x="505"
+        y="209"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -879,8 +1149,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig2.2"
-      x="376"
-      y="167"
+      x="504"
+      y="223"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -889,7 +1159,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >BookList</text>
     <group name="Fig2.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[377, 190, 81, 23]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[505, 246, 81, 23]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -899,8 +1169,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig2.3.0"
-        x="377"
-        y="190"
+        x="505"
+        y="246"
         width="81"
         height="23"
         fill="1"
@@ -915,15 +1185,15 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="377"
-                y="190" />
-        <lineto x="458"
-                y="190" />
+        <moveto x="505"
+                y="246" />
+        <lineto x="586"
+                y="246" />
       </path>
     </group>
     <rectangle name="Fig2.4"
-      x="376"
-      y="152"
+      x="504"
+      y="208"
       width="82"
       height="62"
       fill="0"
@@ -933,7 +1203,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig3"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[296, 496, 145, 62]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[272, 304, 145, 80]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DD"
        fill="1"
        fillcolor="white"
@@ -944,17 +1214,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig3.0"
-      x="296"
-      y="496"
+      x="272"
+      y="304"
       width="145"
-      height="62"
+      height="80"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="black"
     />
     <group name="Fig3.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[296, 496, 145, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[272, 304, 145, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DD"
          fill="1"
          fillcolor="white"
@@ -965,8 +1235,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig3.1.0"
-        x="296"
-        y="496"
+        x="272"
+        y="304"
         width="145"
         height="15"
         fill="1"
@@ -975,8 +1245,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig3.1.1"
-        x="297"
-        y="497"
+        x="273"
+        y="305"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -986,8 +1256,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig3.2"
-      x="296"
-      y="511"
+      x="272"
+      y="319"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -996,7 +1266,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >BookNavigationModel</text>
     <group name="Fig3.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[297, 534, 144, 23]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[273, 342, 144, 41]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1006,10 +1276,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig3.3.0"
-        x="297"
-        y="534"
+        x="273"
+        y="342"
         width="144"
-        height="23"
+        height="41"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -1022,17 +1292,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="297"
-                y="534" />
-        <lineto x="441"
-                y="534" />
+        <moveto x="273"
+                y="342" />
+        <lineto x="417"
+                y="342" />
       </path>
     </group>
     <rectangle name="Fig3.4"
-      x="296"
-      y="496"
+      x="272"
+      y="304"
       width="145"
-      height="62"
+      height="80"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -1040,7 +1310,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig4"
-       description="org.argouml.uml.diagram.static_structure.ui.FigEnumeration[409, 637, 144, 76]pathVisible=false;operationsVisible=false"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEnumeration[424, 304, 144, 80]pathVisible=false;operationsVisible=false"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E1"
        fill="1"
        fillcolor="white"
@@ -1051,17 +1321,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig4.0"
-      x="409"
-      y="637"
+      x="424"
+      y="304"
       width="144"
-      height="76"
+      height="80"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="black"
     />
     <group name="Fig4.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[409, 637, 144, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[424, 304, 144, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E1"
          fill="1"
          fillcolor="white"
@@ -1072,8 +1342,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig4.1.0"
-        x="409"
-        y="637"
+        x="424"
+        y="304"
         width="144"
         height="15"
         fill="1"
@@ -1082,8 +1352,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig4.1.1"
-        x="410"
-        y="638"
+        x="425"
+        y="305"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1093,8 +1363,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«enumeration»</text>
     </group>
     <text name="Fig4.2"
-      x="409"
-      y="652"
+      x="424"
+      y="319"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -1103,7 +1373,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >BookNavigationTypes</text>
     <group name="Fig4.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[364, 387, 59, 20]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[11, 54, 59, 20]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1114,8 +1384,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig4.3.0"
-        x="364"
-        y="387"
+        x="11"
+        y="54"
         width="59"
         height="20"
         fill="1"
@@ -1132,24 +1402,24 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
         visibility="0"
       >
-        <moveto x="364"
-                y="387" />
-        <lineto x="423"
-                y="387" />
+        <moveto x="11"
+                y="54" />
+        <lineto x="70"
+                y="54" />
       </path>
     </group>
     <rectangle name="Fig4.4"
-      x="409"
-      y="637"
+      x="424"
+      y="304"
       width="144"
-      height="76"
+      height="80"
       fill="0"
       fillcolor="white"
       stroke="1"
       strokecolor="black"
     />
     <group name="Fig4.5"
-         description="org.argouml.uml.diagram.ui.FigEnumLiteralsCompartment[410, 675, 143, 34]"
+         description="org.argouml.uml.diagram.ui.FigEnumLiteralsCompartment[425, 342, 143, 34]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1159,8 +1429,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig4.5.0"
-        x="410"
-        y="675"
+        x="425"
+        y="342"
         width="143"
         height="34"
         fill="1"
@@ -1175,14 +1445,14 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="410"
-                y="675" />
-        <lineto x="553"
-                y="675" />
+        <moveto x="425"
+                y="342" />
+        <lineto x="568"
+                y="342" />
       </path>
       <text name="Fig4.5.2"
-        x="410"
-        y="676"
+        x="425"
+        y="343"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1191,8 +1461,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         textsize="10"
       >Passages</text>
       <text name="Fig4.5.3"
-        x="410"
-        y="689"
+        x="425"
+        y="356"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1203,7 +1473,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </group>
   </group>
   <group name="Fig5"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[24, 216, 82, 62]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[240, 480, 256, 89]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4"
        fill="1"
        fillcolor="white"
@@ -1214,17 +1484,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig5.0"
-      x="24"
-      y="216"
-      width="82"
-      height="62"
+      x="240"
+      y="480"
+      width="256"
+      height="89"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="black"
     />
     <group name="Fig5.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[24, 216, 82, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[240, 480, 256, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4"
          fill="1"
          fillcolor="white"
@@ -1235,9 +1505,9 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig5.1.0"
-        x="24"
-        y="216"
-        width="82"
+        x="240"
+        y="480"
+        width="256"
         height="15"
         fill="1"
         fillcolor="white"
@@ -1245,8 +1515,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig5.1.1"
-        x="25"
-        y="217"
+        x="241"
+        y="481"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1256,8 +1526,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig5.2"
-      x="24"
-      y="231"
+      x="240"
+      y="495"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -1266,7 +1536,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >Searcher</text>
     <group name="Fig5.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[25, 254, 81, 23]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[241, 518, 255, 50]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1276,10 +1546,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig5.3.0"
-        x="25"
-        y="254"
-        width="81"
-        height="23"
+        x="241"
+        y="518"
+        width="255"
+        height="50"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -1292,17 +1562,47 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="25"
-                y="254" />
-        <lineto x="106"
-                y="254" />
+        <moveto x="241"
+                y="518" />
+        <lineto x="496"
+                y="518" />
       </path>
+      <text name="Fig5.3.2"
+        x="241"
+        y="519"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+search(SearchQuery : void) : QList&lt;SearchResult&gt;</text>
+      <text name="Fig5.3.3"
+        x="241"
+        y="532"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+searchIndex() : SearchIndex</text>
+      <text name="Fig5.3.4"
+        x="241"
+        y="545"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+setSearchIndex(index : SearchIndex) : void</text>
     </group>
     <rectangle name="Fig5.4"
-      x="24"
-      y="216"
-      width="82"
-      height="62"
+      x="240"
+      y="480"
+      width="256"
+      height="89"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -1310,7 +1610,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig6"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[24, 312, 91, 62]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[551, 592, 162, 63]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7"
        fill="1"
        fillcolor="white"
@@ -1321,17 +1621,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig6.0"
-      x="24"
-      y="312"
-      width="91"
-      height="62"
+      x="551"
+      y="592"
+      width="162"
+      height="63"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="black"
     />
     <group name="Fig6.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[24, 312, 91, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[551, 592, 162, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7"
          fill="1"
          fillcolor="white"
@@ -1342,9 +1642,9 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig6.1.0"
-        x="24"
-        y="312"
-        width="91"
+        x="551"
+        y="592"
+        width="162"
         height="15"
         fill="1"
         fillcolor="white"
@@ -1352,8 +1652,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig6.1.1"
-        x="25"
-        y="313"
+        x="552"
+        y="593"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1363,8 +1663,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig6.2"
-      x="24"
-      y="327"
+      x="551"
+      y="607"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -1373,7 +1673,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >SearchIndex</text>
     <group name="Fig6.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[25, 350, 90, 23]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[552, 630, 161, 24]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1383,10 +1683,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig6.3.0"
-        x="25"
-        y="350"
-        width="90"
-        height="23"
+        x="552"
+        y="630"
+        width="161"
+        height="24"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -1399,17 +1699,27 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="25"
-                y="350" />
-        <lineto x="115"
-                y="350" />
+        <moveto x="552"
+                y="630" />
+        <lineto x="713"
+                y="630" />
       </path>
+      <text name="Fig6.3.2"
+        x="552"
+        y="631"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+book() : Book</text>
     </group>
     <rectangle name="Fig6.4"
-      x="24"
-      y="312"
-      width="91"
-      height="62"
+      x="551"
+      y="592"
+      width="162"
+      height="63"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -1417,7 +1727,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig7"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[128, 312, 135, 62]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[552, 480, 224, 96]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E9"
        fill="1"
        fillcolor="white"
@@ -1428,17 +1738,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig7.0"
-      x="128"
-      y="312"
-      width="135"
-      height="62"
+      x="552"
+      y="480"
+      width="224"
+      height="96"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="black"
     />
     <group name="Fig7.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[128, 312, 135, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[552, 480, 224, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E9"
          fill="1"
          fillcolor="white"
@@ -1449,9 +1759,9 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig7.1.0"
-        x="128"
-        y="312"
-        width="135"
+        x="552"
+        y="480"
+        width="224"
         height="15"
         fill="1"
         fillcolor="white"
@@ -1459,8 +1769,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig7.1.1"
-        x="129"
-        y="313"
+        x="553"
+        y="481"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1470,17 +1780,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig7.2"
-      x="128"
-      y="327"
+      x="552"
+      y="495"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="red"
       font="Dialog"
       textsize="12"
-    >SearchIndexManager</text>
+    >SearchIndexDriver</text>
     <group name="Fig7.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[129, 350, 134, 23]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[553, 518, 223, 57]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1490,10 +1800,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig7.3.0"
-        x="129"
-        y="350"
-        width="134"
-        height="23"
+        x="553"
+        y="518"
+        width="223"
+        height="57"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -1506,17 +1816,47 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="129"
-                y="350" />
-        <lineto x="263"
-                y="350" />
+        <moveto x="553"
+                y="518" />
+        <lineto x="776"
+                y="518" />
       </path>
+      <text name="Fig7.3.2"
+        x="553"
+        y="519"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+searchIndex(Book : void) : SearchIndex</text>
+      <text name="Fig7.3.3"
+        x="553"
+        y="532"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+isIndexAvailable(Book : void) : SearchIndex</text>
+      <text name="Fig7.3.4"
+        x="553"
+        y="545"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+deleteIndex(Book : void) : bool</text>
     </group>
     <rectangle name="Fig7.4"
-      x="128"
-      y="312"
-      width="135"
-      height="62"
+      x="552"
+      y="480"
+      width="224"
+      height="96"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -1524,7 +1864,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig8"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[120, 216, 224, 76]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[8, 480, 224, 80]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009EB"
        fill="1"
        fillcolor="white"
@@ -1535,17 +1875,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig8.0"
-      x="120"
-      y="216"
+      x="8"
+      y="480"
       width="224"
-      height="76"
+      height="80"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="black"
     />
     <group name="Fig8.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[120, 216, 224, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[8, 480, 224, 15]"
          href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009EB"
          fill="1"
          fillcolor="white"
@@ -1556,8 +1896,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig8.1.0"
-        x="120"
-        y="216"
+        x="8"
+        y="480"
         width="224"
         height="15"
         fill="1"
@@ -1566,8 +1906,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig8.1.1"
-        x="121"
-        y="217"
+        x="9"
+        y="481"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1577,8 +1917,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig8.2"
-      x="120"
-      y="231"
+      x="8"
+      y="495"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -1587,7 +1927,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >SearcherFactory</text>
     <group name="Fig8.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[121, 254, 223, 37]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[9, 518, 223, 41]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1597,10 +1937,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig8.3.0"
-        x="121"
-        y="254"
+        x="9"
+        y="518"
         width="223"
-        height="37"
+        height="41"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -1613,37 +1953,37 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="121"
-                y="254" />
-        <lineto x="344"
-                y="254" />
+        <moveto x="9"
+                y="518" />
+        <lineto x="232"
+                y="518" />
       </path>
       <text name="Fig8.3.2"
-        x="121"
-        y="255"
+        x="9"
+        y="519"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >+create(book : Books) : Searcher</text>
+      >+create(book : Book) : Searcher</text>
       <text name="Fig8.3.3"
-        x="121"
-        y="268"
+        x="9"
+        y="532"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >+instance() : SearcherFactory*</text>
+      >+instance() : SearcherFactory</text>
     </group>
     <rectangle name="Fig8.4"
-      x="120"
-      y="216"
+      x="8"
+      y="480"
       width="224"
-      height="76"
+      height="80"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -1651,7 +1991,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig9"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[464, 152, 95, 62]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[592, 208, 95, 62]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000856"
        fill="1"
        fillcolor="white"
@@ -1662,17 +2002,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig9.0"
-      x="464"
-      y="152"
+      x="592"
+      y="208"
       width="95"
       height="62"
       fill="1"
       fillcolor="white"
       stroke="0"
-      strokecolor="0 255 255"
+      strokecolor="black"
     />
     <group name="Fig9.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[464, 152, 95, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[592, 208, 95, 15]"
          href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000856"
          fill="1"
          fillcolor="white"
@@ -1683,8 +2023,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig9.1.0"
-        x="464"
-        y="152"
+        x="592"
+        y="208"
         width="95"
         height="15"
         fill="1"
@@ -1693,8 +2033,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig9.1.1"
-        x="465"
-        y="153"
+        x="593"
+        y="209"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1704,8 +2044,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig9.2"
-      x="464"
-      y="167"
+      x="592"
+      y="223"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -1714,7 +2054,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >BookListFilter</text>
     <group name="Fig9.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[465, 190, 94, 23]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[593, 246, 94, 23]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1724,8 +2064,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig9.3.0"
-        x="465"
-        y="190"
+        x="593"
+        y="246"
         width="94"
         height="23"
         fill="1"
@@ -1740,15 +2080,15 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="465"
-                y="190" />
-        <lineto x="559"
-                y="190" />
+        <moveto x="593"
+                y="246" />
+        <lineto x="687"
+                y="246" />
       </path>
     </group>
     <rectangle name="Fig9.4"
-      x="464"
-      y="152"
+      x="592"
+      y="208"
       width="95"
       height="62"
       fill="0"
@@ -1758,7 +2098,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig10"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[40, 416, 101, 62]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[696, 208, 101, 62]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000858"
        fill="1"
        fillcolor="white"
@@ -1769,17 +2109,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig10.0"
-      x="40"
-      y="416"
+      x="696"
+      y="208"
       width="101"
       height="62"
       fill="1"
       fillcolor="white"
       stroke="0"
-      strokecolor="0 255 255"
+      strokecolor="black"
     />
     <group name="Fig10.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[40, 416, 101, 15]"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[696, 208, 101, 15]"
          href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000858"
          fill="1"
          fillcolor="white"
@@ -1790,8 +2130,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig10.1.0"
-        x="40"
-        y="416"
+        x="696"
+        y="208"
         width="101"
         height="15"
         fill="1"
@@ -1800,8 +2140,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig10.1.1"
-        x="41"
-        y="417"
+        x="697"
+        y="209"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1811,8 +2151,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig10.2"
-      x="40"
-      y="431"
+      x="696"
+      y="223"
       fill="1"
       fillcolor="white"
       stroke="0"
@@ -1821,7 +2161,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       textsize="12"
     >BookListGroup</text>
     <group name="Fig10.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[41, 454, 100, 23]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[697, 246, 100, 23]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -1831,8 +2171,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig10.3.0"
-        x="41"
-        y="454"
+        x="697"
+        y="246"
         width="100"
         height="23"
         fill="1"
@@ -1847,15 +2187,15 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="41"
-                y="454" />
-        <lineto x="141"
-                y="454" />
+        <moveto x="697"
+                y="246" />
+        <lineto x="797"
+                y="246" />
       </path>
     </group>
     <rectangle name="Fig10.4"
-      x="40"
-      y="416"
+      x="696"
+      y="208"
       width="101"
       height="62"
       fill="0"
@@ -1865,170 +2205,7 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig11"
-       description="org.argouml.uml.diagram.static_structure.ui.FigEnumeration[633, 637, 99, 76]pathVisible=false;operationsVisible=false"
-       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085C"
-       fill="1"
-       fillcolor="white"
-       stroke="1"
-       strokecolor="black"
-  >
-    <private>
-    </private>
-    
-    <rectangle name="Fig11.0"
-      x="633"
-      y="637"
-      width="99"
-      height="76"
-      fill="1"
-      fillcolor="white"
-      stroke="0"
-      strokecolor="0 255 255"
-    />
-    <group name="Fig11.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[633, 637, 99, 15]"
-         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085C"
-         fill="1"
-         fillcolor="white"
-         stroke="1"
-         strokecolor="black"
-    >
-      <private>
-      </private>
-      
-      <rectangle name="Fig11.1.0"
-        x="633"
-        y="637"
-        width="99"
-        height="15"
-        fill="1"
-        fillcolor="white"
-        stroke="1"
-        strokecolor="black"
-      />
-      <text name="Fig11.1.1"
-        x="634"
-        y="638"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >«enumeration»</text>
-    </group>
-    <text name="Fig11.2"
-      x="633"
-      y="652"
-      fill="1"
-      fillcolor="white"
-      stroke="0"
-      strokecolor="black"
-      font="Dialog"
-      textsize="12"
-    >RenderType</text>
-    <group name="Fig11.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[634, 708, 99, 20]"
-         fill="1"
-         fillcolor="white"
-         stroke="0"
-         strokecolor="black"
-         visibility="0"
-    >
-      <private>
-      </private>
-      
-      <rectangle name="Fig11.3.0"
-        x="634"
-        y="708"
-        width="99"
-        height="20"
-        fill="1"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        visibility="0"
-      />
-      <path name="Fig11.3.1"
-        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
-        fill="1"
-        fillcolor="white"
-        stroke="1"
-        strokecolor="black"
-        visibility="0"
-      >
-        <moveto x="634"
-                y="708" />
-        <lineto x="733"
-                y="708" />
-      </path>
-    </group>
-    <rectangle name="Fig11.4"
-      x="633"
-      y="637"
-      width="99"
-      height="76"
-      fill="0"
-      fillcolor="white"
-      stroke="1"
-      strokecolor="black"
-    />
-    <group name="Fig11.5"
-         description="org.argouml.uml.diagram.ui.FigEnumLiteralsCompartment[634, 675, 98, 34]"
-         fill="1"
-         fillcolor="white"
-         stroke="0"
-         strokecolor="black"
-    >
-      <private>
-      </private>
-      
-      <rectangle name="Fig11.5.0"
-        x="634"
-        y="675"
-        width="98"
-        height="34"
-        fill="1"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-      />
-      <path name="Fig11.5.1"
-        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
-        fill="1"
-        fillcolor="white"
-        stroke="1"
-        strokecolor="black"
-      >
-        <moveto x="634"
-                y="675" />
-        <lineto x="732"
-                y="675" />
-      </path>
-      <text name="Fig11.5.2"
-        x="634"
-        y="676"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >PlainText</text>
-      <text name="Fig11.5.3"
-        x="634"
-        y="689"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >XHTML</text>
-    </group>
-  </group>
-  <group name="Fig12"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[152, 416, 113, 62]pathVisible=false;operationsVisible=true"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[16, 720, 113, 62]pathVisible=false;operationsVisible=true"
        href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085F"
        fill="1"
        fillcolor="white"
@@ -2038,18 +2215,18 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     <private>
     </private>
     
-    <rectangle name="Fig12.0"
-      x="152"
-      y="416"
+    <rectangle name="Fig11.0"
+      x="16"
+      y="720"
       width="113"
       height="62"
       fill="1"
       fillcolor="white"
       stroke="0"
-      strokecolor="0 255 255"
+      strokecolor="black"
     />
-    <group name="Fig12.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[152, 416, 113, 15]"
+    <group name="Fig11.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[16, 720, 113, 15]"
          href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085F"
          fill="1"
          fillcolor="white"
@@ -2059,9 +2236,9 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       <private>
       </private>
       
-      <rectangle name="Fig12.1.0"
-        x="152"
-        y="416"
+      <rectangle name="Fig11.1.0"
+        x="16"
+        y="720"
         width="113"
         height="15"
         fill="1"
@@ -2069,9 +2246,116 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       />
+      <text name="Fig11.1.1"
+        x="17"
+        y="721"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig11.2"
+      x="16"
+      y="735"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >ContentRenderer</text>
+    <group name="Fig11.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[17, 758, 112, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig11.3.0"
+        x="17"
+        y="758"
+        width="112"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig11.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="17"
+                y="758" />
+        <lineto x="129"
+                y="758" />
+      </path>
+    </group>
+    <rectangle name="Fig11.4"
+      x="16"
+      y="720"
+      width="113"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig12"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[8, 208, 253, 192]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig12.0"
+      x="8"
+      y="208"
+      width="253"
+      height="192"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig12.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[8, 208, 253, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig12.1.0"
+        x="8"
+        y="208"
+        width="253"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
       <text name="Fig12.1.1"
-        x="153"
-        y="417"
+        x="9"
+        y="209"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -2081,17 +2365,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig12.2"
-      x="152"
-      y="431"
+      x="8"
+      y="223"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="red"
       font="Dialog"
       textsize="12"
-    >ContentRenderer</text>
+    >BookMetaData</text>
     <group name="Fig12.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[153, 454, 112, 23]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[9, 246, 252, 153]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -2101,10 +2385,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig12.3.0"
-        x="153"
-        y="454"
-        width="112"
-        height="23"
+        x="9"
+        y="246"
+        width="252"
+        height="153"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -2117,17 +2401,117 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="153"
-                y="454" />
-        <lineto x="265"
-                y="454" />
+        <moveto x="9"
+                y="246" />
+        <lineto x="261"
+                y="246" />
       </path>
+      <text name="Fig12.3.2"
+        x="9"
+        y="247"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+isRightToLeft() : bool</text>
+      <text name="Fig12.3.3"
+        x="9"
+        y="260"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+availableRenderTypes() : RenderType</text>
+      <text name="Fig12.3.4"
+        x="9"
+        y="273"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+name() : QString</text>
+      <text name="Fig12.3.5"
+        x="9"
+        y="286"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+aboutText() : QString</text>
+      <text name="Fig12.3.6"
+        x="9"
+        y="299"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+copyrightNote() : QString</text>
+      <text name="Fig12.3.7"
+        x="9"
+        y="312"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+copyrightShortNote() : QString</text>
+      <text name="Fig12.3.8"
+        x="9"
+        y="325"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+copyrightDate() : QString</text>
+      <text name="Fig12.3.9"
+        x="9"
+        y="338"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+copyrightType() : CopyrightType</text>
+      <text name="Fig12.3.10"
+        x="9"
+        y="351"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >#driver() : BookDriver</text>
+      <text name="Fig12.3.11"
+        x="9"
+        y="364"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+language() : Language</text>
     </group>
     <rectangle name="Fig12.4"
-      x="152"
-      y="416"
-      width="113"
-      height="62"
+      x="8"
+      y="208"
+      width="253"
+      height="192"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -2135,8 +2519,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig13"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[376, 232, 253, 192]pathVisible=false;operationsVisible=true"
-       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[312, 8, 272, 102]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961"
        fill="1"
        fillcolor="white"
        stroke="1"
@@ -2146,18 +2530,18 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig13.0"
-      x="376"
-      y="232"
-      width="253"
-      height="192"
+      x="312"
+      y="8"
+      width="272"
+      height="102"
       fill="1"
       fillcolor="white"
       stroke="0"
-      strokecolor="0 255 255"
+      strokecolor="black"
     />
     <group name="Fig13.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[376, 232, 253, 15]"
-         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[312, 8, 272, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961"
          fill="1"
          fillcolor="white"
          stroke="1"
@@ -2167,9 +2551,9 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig13.1.0"
-        x="376"
-        y="232"
-        width="253"
+        x="312"
+        y="8"
+        width="272"
         height="15"
         fill="1"
         fillcolor="white"
@@ -2177,8 +2561,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig13.1.1"
-        x="377"
-        y="233"
+        x="313"
+        y="9"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -2188,17 +2572,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig13.2"
-      x="376"
-      y="247"
+      x="312"
+      y="23"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="red"
       font="Dialog"
       textsize="12"
-    >BookMetaData</text>
+    >BookDriver</text>
     <group name="Fig13.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[377, 270, 252, 153]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[313, 46, 271, 63]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -2208,10 +2592,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig13.3.0"
-        x="377"
-        y="270"
-        width="252"
-        height="153"
+        x="313"
+        y="46"
+        width="271"
+        height="63"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -2224,107 +2608,57 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="377"
-                y="270" />
-        <lineto x="629"
-                y="270" />
+        <moveto x="313"
+                y="46" />
+        <lineto x="584"
+                y="46" />
       </path>
       <text name="Fig13.3.2"
-        x="377"
-        y="271"
+        x="313"
+        y="47"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >+isRightToLeft() : bool</text>
+      >+availableBooks() : BookList</text>
       <text name="Fig13.3.3"
-        x="377"
-        y="284"
+        x="313"
+        y="60"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >+availableRenderTypes() : RenderType</text>
+      >+searcher(Book : void) : Searcher</text>
       <text name="Fig13.3.4"
-        x="377"
-        y="297"
+        x="313"
+        y="73"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >+name() : QString</text>
+      >+searchIndex(BookMetaData : void) : SearchIndex</text>
       <text name="Fig13.3.5"
-        x="377"
-        y="310"
+        x="313"
+        y="86"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >+aboutText() : QString</text>
-      <text name="Fig13.3.6"
-        x="377"
-        y="323"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >+copyrightNote() : QString</text>
-      <text name="Fig13.3.7"
-        x="377"
-        y="336"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >+copyrightShortNote() : QString</text>
-      <text name="Fig13.3.8"
-        x="377"
-        y="349"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >+copyrightDate() : QString</text>
-      <text name="Fig13.3.9"
-        x="377"
-        y="362"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >+copyrightType() : CopyrightType</text>
-      <text name="Fig13.3.10"
-        x="377"
-        y="375"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >#driver() : BookDriver</text>
+      >+book(metaData : BookMetaData) : Book</text>
     </group>
     <rectangle name="Fig13.4"
-      x="376"
-      y="232"
-      width="253"
-      height="192"
+      x="312"
+      y="8"
+      width="272"
+      height="102"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -2332,8 +2666,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig14"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[504, 432, 317, 136]pathVisible=false;operationsVisible=true"
-       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[8, 8, 289, 64]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000971"
        fill="1"
        fillcolor="white"
        stroke="1"
@@ -2343,18 +2677,18 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig14.0"
-      x="504"
-      y="432"
-      width="317"
-      height="136"
+      x="8"
+      y="8"
+      width="289"
+      height="64"
       fill="1"
       fillcolor="white"
       stroke="0"
-      strokecolor="0 255 255"
+      strokecolor="black"
     />
     <group name="Fig14.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[504, 432, 317, 15]"
-         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[8, 8, 289, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000971"
          fill="1"
          fillcolor="white"
          stroke="1"
@@ -2364,9 +2698,9 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig14.1.0"
-        x="504"
-        y="432"
-        width="317"
+        x="8"
+        y="8"
+        width="289"
         height="15"
         fill="1"
         fillcolor="white"
@@ -2374,8 +2708,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig14.1.1"
-        x="505"
-        y="433"
+        x="9"
+        y="9"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -2385,17 +2719,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig14.2"
-      x="504"
-      y="447"
+      x="8"
+      y="23"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="red"
       font="Dialog"
       textsize="12"
-    >BookDrivers</text>
+    >PluginManagers</text>
     <group name="Fig14.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[505, 470, 316, 97]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[9, 46, 288, 25]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -2405,10 +2739,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig14.3.0"
-        x="505"
-        y="470"
-        width="316"
-        height="97"
+        x="9"
+        y="46"
+        width="288"
+        height="25"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -2421,57 +2755,27 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="505"
-                y="470" />
-        <lineto x="821"
-                y="470" />
+        <moveto x="9"
+                y="46" />
+        <lineto x="297"
+                y="46" />
       </path>
       <text name="Fig14.3.2"
-        x="505"
-        y="471"
+        x="9"
+        y="47"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >+availableBooks() : BookList</text>
-      <text name="Fig14.3.3"
-        x="505"
-        y="484"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >+searcher(Book : void) : Searcher</text>
-      <text name="Fig14.3.4"
-        x="505"
-        y="497"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >+searchIndex(BookMetaData : void) : SearchIndex</text>
-      <text name="Fig14.3.5"
-        x="505"
-        y="510"
-        fill="0"
-        fillcolor="white"
-        stroke="0"
-        strokecolor="black"
-        font="Dialog"
-        textsize="10"
-      >+book(metaData : BookMetaData) : Book</text>
+      >+availableBookDrivers() : QList&lt;BookDriver*&gt;</text>
     </group>
     <rectangle name="Fig14.4"
-      x="504"
-      y="432"
-      width="317"
-      height="136"
+      x="8"
+      y="8"
+      width="289"
+      height="64"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -2479,8 +2783,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     />
   </group>
   <group name="Fig15"
-       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[40, 637, 289, 64]pathVisible=false;operationsVisible=true"
-       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000971"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[240, 577, 128, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000848"
        fill="1"
        fillcolor="white"
        stroke="1"
@@ -2490,18 +2794,18 @@ This is a singleton object.</UML:TaggedValue.dataValue>
     </private>
     
     <rectangle name="Fig15.0"
-      x="40"
-      y="637"
-      width="289"
-      height="64"
+      x="240"
+      y="577"
+      width="128"
+      height="62"
       fill="1"
       fillcolor="white"
       stroke="0"
-      strokecolor="0 255 255"
+      strokecolor="black"
     />
     <group name="Fig15.1"
-         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[40, 637, 289, 15]"
-         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000971"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[240, 577, 128, 15]"
+         href="127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000848"
          fill="1"
          fillcolor="white"
          stroke="1"
@@ -2511,9 +2815,9 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig15.1.0"
-        x="40"
-        y="637"
-        width="289"
+        x="240"
+        y="577"
+        width="128"
         height="15"
         fill="1"
         fillcolor="white"
@@ -2521,8 +2825,8 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         strokecolor="black"
       />
       <text name="Fig15.1.1"
-        x="41"
-        y="638"
+        x="241"
+        y="578"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -2532,17 +2836,17 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       >«interface»</text>
     </group>
     <text name="Fig15.2"
-      x="40"
-      y="652"
+      x="240"
+      y="592"
       fill="1"
       fillcolor="white"
       stroke="0"
       strokecolor="red"
       font="Dialog"
       textsize="12"
-    >PluginManager</text>
+    >SearchQuery</text>
     <group name="Fig15.3"
-         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[41, 675, 288, 25]"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[241, 615, 127, 23]"
          fill="1"
          fillcolor="white"
          stroke="0"
@@ -2552,10 +2856,10 @@ This is a singleton object.</UML:TaggedValue.dataValue>
       </private>
       
       <rectangle name="Fig15.3.0"
-        x="41"
-        y="675"
-        width="288"
-        height="25"
+        x="241"
+        y="615"
+        width="127"
+        height="23"
         fill="1"
         fillcolor="white"
         stroke="0"
@@ -2568,27 +2872,1442 @@ This is a singleton object.</UML:TaggedValue.dataValue>
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="41"
-                y="675" />
-        <lineto x="329"
-                y="675" />
+        <moveto x="241"
+                y="615" />
+        <lineto x="368"
+                y="615" />
       </path>
-      <text name="Fig15.3.2"
-        x="41"
-        y="676"
+    </group>
+    <rectangle name="Fig15.4"
+      x="240"
+      y="577"
+      width="128"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig16"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[376, 577, 119, 63]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000084E"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig16.0"
+      x="376"
+      y="577"
+      width="119"
+      height="63"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig16.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[376, 577, 119, 15]"
+         href="127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000084E"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig16.1.0"
+        x="376"
+        y="577"
+        width="119"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig16.1.1"
+        x="377"
+        y="578"
         fill="0"
         fillcolor="white"
         stroke="0"
         strokecolor="black"
         font="Dialog"
         textsize="10"
-      >+availableBookDrivers() : QList&lt;BookDriver*&gt;</text>
+      >«interface»</text>
     </group>
-    <rectangle name="Fig15.4"
-      x="40"
-      y="637"
-      width="289"
-      height="64"
+    <text name="Fig16.2"
+      x="376"
+      y="592"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >SearchResult</text>
+    <group name="Fig16.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[377, 615, 118, 24]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig16.3.0"
+        x="377"
+        y="615"
+        width="118"
+        height="24"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig16.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="377"
+                y="615" />
+        <lineto x="495"
+                y="615" />
+      </path>
+    </group>
+    <rectangle name="Fig16.4"
+      x="376"
+      y="577"
+      width="119"
+      height="63"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig17"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[831, 480, 184, 96]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000086B"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig17.0"
+      x="831"
+      y="480"
+      width="184"
+      height="96"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig17.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[831, 480, 184, 15]"
+         href="127-0-1-1-4a13f94a:111c44e90b0:-8000:000000000000086B"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig17.1.0"
+        x="831"
+        y="480"
+        width="184"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig17.1.1"
+        x="832"
+        y="481"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig17.2"
+      x="831"
+      y="495"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >SearchIndexManager</text>
+    <group name="Fig17.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[832, 518, 183, 57]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig17.3.0"
+        x="832"
+        y="518"
+        width="183"
+        height="57"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig17.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="832"
+                y="518" />
+        <lineto x="1015"
+                y="518" />
+      </path>
+    </group>
+    <rectangle name="Fig17.4"
+      x="831"
+      y="480"
+      width="184"
+      height="96"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+</pgml>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009B5"
+      name="Book plugin interfaces"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[112, 184, 256, 102]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="112"
+      y="184"
+      width="256"
+      height="102"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig0.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[112, 184, 256, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.1.0"
+        x="112"
+        y="184"
+        width="256"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig0.1.1"
+        x="113"
+        y="185"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig0.2"
+      x="112"
+      y="199"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookDriver</text>
+    <group name="Fig0.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[113, 222, 255, 63]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.3.0"
+        x="113"
+        y="222"
+        width="255"
+        height="63"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig0.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="113"
+                y="222" />
+        <lineto x="368"
+                y="222" />
+      </path>
+      <text name="Fig0.3.2"
+        x="113"
+        y="223"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+availableBooks() : BookList</text>
+      <text name="Fig0.3.3"
+        x="113"
+        y="236"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+searcher(Book : void) : Searcher</text>
+      <text name="Fig0.3.4"
+        x="113"
+        y="249"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+searchIndex(BookMetaData : void) : SearchIndex</text>
+      <text name="Fig0.3.5"
+        x="113"
+        y="262"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+book(metaData : BookMetaData) : Book</text>
+    </group>
+    <rectangle name="Fig0.4"
+      x="112"
+      y="184"
+      width="256"
+      height="102"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[560, 184, 192, 104]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085F"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="560"
+      y="184"
+      width="192"
+      height="104"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig1.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[560, 184, 192, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085F"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.1.0"
+        x="560"
+        y="184"
+        width="192"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig1.1.1"
+        x="561"
+        y="185"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig1.2"
+      x="560"
+      y="199"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >ContentRenderer</text>
+    <group name="Fig1.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[561, 222, 191, 65]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.3.0"
+        x="561"
+        y="222"
+        width="191"
+        height="65"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig1.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="561"
+                y="222" />
+        <lineto x="752"
+                y="222" />
+      </path>
+    </group>
+    <rectangle name="Fig1.4"
+      x="560"
+      y="184"
+      width="192"
+      height="104"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig2"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[376, 184, 176, 104]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig2.0"
+      x="376"
+      y="184"
+      width="176"
+      height="104"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig2.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[376, 184, 176, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig2.1.0"
+        x="376"
+        y="184"
+        width="176"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig2.1.1"
+        x="377"
+        y="185"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig2.2"
+      x="376"
+      y="199"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >Book</text>
+    <group name="Fig2.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[377, 222, 175, 65]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig2.3.0"
+        x="377"
+        y="222"
+        width="175"
+        height="65"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig2.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="377"
+                y="222" />
+        <lineto x="552"
+                y="222" />
+      </path>
+      <text name="Fig2.3.2"
+        x="377"
+        y="223"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+metaData() : BookMetaData</text>
+    </group>
+    <rectangle name="Fig2.4"
+      x="376"
+      y="184"
+      width="176"
+      height="104"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig3"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[112, 304, 256, 80]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DD"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig3.0"
+      x="112"
+      y="304"
+      width="256"
+      height="80"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig3.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[112, 304, 256, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DD"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig3.1.0"
+        x="112"
+        y="304"
+        width="256"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig3.1.1"
+        x="113"
+        y="305"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig3.2"
+      x="112"
+      y="319"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookNavigationModel</text>
+    <group name="Fig3.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[113, 342, 255, 41]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig3.3.0"
+        x="113"
+        y="342"
+        width="255"
+        height="41"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig3.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="113"
+                y="342" />
+        <lineto x="368"
+                y="342" />
+      </path>
+    </group>
+    <rectangle name="Fig3.4"
+      x="112"
+      y="304"
+      width="256"
+      height="80"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+</pgml>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009B5"
+      name="Search plugin interfaces"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[160, 264, 272, 63]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="160"
+      y="264"
+      width="272"
+      height="63"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig0.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[160, 264, 272, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.1.0"
+        x="160"
+        y="264"
+        width="272"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig0.1.1"
+        x="161"
+        y="265"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig0.2"
+      x="160"
+      y="279"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >SearchIndex</text>
+    <group name="Fig0.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[161, 302, 271, 24]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.3.0"
+        x="161"
+        y="302"
+        width="271"
+        height="24"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig0.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="161"
+                y="302" />
+        <lineto x="432"
+                y="302" />
+      </path>
+      <text name="Fig0.3.2"
+        x="161"
+        y="303"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+book() : Book</text>
+    </group>
+    <rectangle name="Fig0.4"
+      x="160"
+      y="264"
+      width="272"
+      height="63"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[160, 136, 272, 112]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="160"
+      y="136"
+      width="272"
+      height="112"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig1.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[160, 136, 272, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.1.0"
+        x="160"
+        y="136"
+        width="272"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig1.1.1"
+        x="161"
+        y="137"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig1.2"
+      x="160"
+      y="151"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >Searcher</text>
+    <group name="Fig1.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[161, 174, 271, 73]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.3.0"
+        x="161"
+        y="174"
+        width="271"
+        height="73"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig1.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="161"
+                y="174" />
+        <lineto x="432"
+                y="174" />
+      </path>
+      <text name="Fig1.3.2"
+        x="161"
+        y="175"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+search(SearchQuery : void) : QList&lt;SearchResult&gt;</text>
+      <text name="Fig1.3.3"
+        x="161"
+        y="188"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+searchIndex() : SearchIndex</text>
+      <text name="Fig1.3.4"
+        x="161"
+        y="201"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+setSearchIndex(index : SearchIndex) : void</text>
+    </group>
+    <rectangle name="Fig1.4"
+      x="160"
+      y="136"
+      width="272"
+      height="112"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig2"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[160, 344, 272, 89]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E9"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig2.0"
+      x="160"
+      y="344"
+      width="272"
+      height="89"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig2.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[160, 344, 272, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E9"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig2.1.0"
+        x="160"
+        y="344"
+        width="272"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig2.1.1"
+        x="161"
+        y="345"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig2.2"
+      x="160"
+      y="359"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >SearchIndexDriver</text>
+    <group name="Fig2.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[161, 382, 271, 50]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig2.3.0"
+        x="161"
+        y="382"
+        width="271"
+        height="50"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig2.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="161"
+                y="382" />
+        <lineto x="432"
+                y="382" />
+      </path>
+      <text name="Fig2.3.2"
+        x="161"
+        y="383"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+searchIndex(Book : void) : SearchIndex</text>
+      <text name="Fig2.3.3"
+        x="161"
+        y="396"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+isIndexAvailable(Book : void) : SearchIndex</text>
+      <text name="Fig2.3.4"
+        x="161"
+        y="409"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+deleteIndex(Book : void) : bool</text>
+    </group>
+    <rectangle name="Fig2.4"
+      x="160"
+      y="344"
+      width="272"
+      height="89"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+</pgml>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009B5"
+      name="Abstract classes"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[72, 104, 136, 160]pathVisible=false;operationsVisible=true;attributesVisible=true"
+       href="127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000871"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="72"
+      y="104"
+      width="136"
+      height="160"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig0.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[72, 104, 136, 2]"
+         href="127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000871"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.1.0"
+        x="72"
+        y="104"
+        width="136"
+        height="2"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig0.2"
+      x="72"
+      y="106"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >Language</text>
+    <group name="Fig0.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[73, 210, 135, 53]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.3.0"
+        x="73"
+        y="210"
+        width="135"
+        height="53"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig0.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="73"
+                y="210" />
+        <lineto x="208"
+                y="210" />
+      </path>
+    </group>
+    <group name="Fig0.4"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[73, 129, 135, 80]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.4.0"
+        x="73"
+        y="129"
+        width="135"
+        height="80"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig0.4.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="73"
+                y="129" />
+        <lineto x="208"
+                y="129" />
+      </path>
+      <text name="Fig0.4.2"
+        x="73"
+        y="130"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >-name : QString</text>
+      <text name="Fig0.4.3"
+        x="73"
+        y="143"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >-iso-1 : QString</text>
+      <text name="Fig0.4.4"
+        x="73"
+        y="156"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >-translated : QString</text>
+    </group>
+    <rectangle name="Fig0.5"
+      x="72"
+      y="104"
+      width="136"
+      height="160"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[224, 104, 243, 160]pathVisible=false;operationsVisible=true;attributesVisible=true"
+       href="127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000873"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="224"
+      y="104"
+      width="243"
+      height="160"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig1.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[224, 104, 243, 2]"
+         href="127-0-1-1-4a13f94a:111c44e90b0:-8000:0000000000000873"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.1.0"
+        x="224"
+        y="104"
+        width="243"
+        height="2"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig1.2"
+      x="224"
+      y="106"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >LanguageManager</text>
+    <group name="Fig1.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[225, 177, 242, 86]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.3.0"
+        x="225"
+        y="177"
+        width="242"
+        height="86"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig1.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="225"
+                y="177" />
+        <lineto x="467"
+                y="177" />
+      </path>
+      <text name="Fig1.3.2"
+        x="225"
+        y="178"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+languages() : QList&lt;Language&gt;</text>
+      <text name="Fig1.3.3"
+        x="225"
+        y="191"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+instance() : LanguageManager</text>
+      <text name="Fig1.3.4"
+        x="225"
+        y="204"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+languageForName(name : QString) : Language</text>
+      <text name="Fig1.3.5"
+        x="225"
+        y="217"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+languageForIso639(name : QString) : Language</text>
+    </group>
+    <group name="Fig1.4"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[225, 129, 242, 47]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.4.0"
+        x="225"
+        y="129"
+        width="242"
+        height="47"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig1.4.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="225"
+                y="129" />
+        <lineto x="467"
+                y="129" />
+      </path>
+    </group>
+    <rectangle name="Fig1.5"
+      x="224"
+      y="104"
+      width="243"
+      height="160"
       fill="0"
       fillcolor="white"
       stroke="1"
