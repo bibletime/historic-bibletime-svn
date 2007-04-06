@@ -1,0 +1,2605 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<uml version="5">
+  <argo version="5">
+    <documentation>
+      <authorname>Joachim Ansorg</authorname>
+      <authoremail>info@bibletime.info</authoremail>
+      <version>0.24</version>
+      <description>
+        BibleTime 2 is a redesign of the BibleTime application.
+      </description>
+    </documentation>
+    <settings>
+      <notationlanguage>UML 1.4</notationlanguage>
+      <useguillemots>true</useguillemots>
+      <showvisibility>true</showvisibility>
+      <showmultiplicity>false</showmultiplicity>
+      <showinitialvalue>false</showinitialvalue>
+      <showproperties>false</showproperties>
+      <showtypes>true</showtypes>
+      <showstereotypes>true</showstereotypes>
+      <showsingularmultiplicities>true</showsingularmultiplicities>
+      <defaultshadowwidth>1</defaultshadowwidth>
+    </settings>
+    
+    <searchpath href="PROJECT_DIR" />
+    <member type="xmi"
+            name="backend.xmi" />
+    <member type="pgml"
+            name="backend_Interfaces.pgml"
+            diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+            diagramname="Interfaces" />
+    <member type="todo"
+            name="backend.todo" />
+    <historyfile name="" />
+  </argo>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Fri Apr 06 02:28:21 CEST 2007'>
+  <XMI.header>    <XMI.documentation>
+      <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
+      <XMI.exporterVersion>0.24(5) revised on $Date: 2006-11-06 19:55:22 +0100 (Mon, 06 Nov 2006) $ </XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
+  <XMI.content>
+    <UML:Model xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000008F8'
+      name = 'BibleTime 2.0' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+      isAbstract = 'false'>
+      <UML:Namespace.ownedElement>
+        <UML:Package xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009B5'
+          name = 'backend' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'>
+          <UML:Namespace.ownedElement>
+            <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3'
+              name = 'Book' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'>
+              <UML:ModelElement.taggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C5'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>Book is the interface to interact with all kinds of books in BibleTime.
+All content objects are books, there may be specialized forms of them, but all follow the same pattern as this interface.</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+              </UML:ModelElement.taggedValue>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000094B'
+                  name = 'metaData' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000094C'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Interface>
+            <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D7'
+              name = 'BookManager' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000955'
+                  name = 'availableBooks' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:ModelElement.taggedValue>
+                    <UML:TaggedValue xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000977'
+                      isSpecification = 'false'>
+                      <UML:TaggedValue.dataValue>BookManager is the first class to use in the fronend. It provides access to the installed books and offers possibilities to work with them. 
+This is a singleton object.</UML:TaggedValue.dataValue>
+                      <UML:TaggedValue.type>
+                        <UML:TagDefinition xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'/>
+                      </UML:TaggedValue.type>
+                    </UML:TaggedValue>
+                  </UML:ModelElement.taggedValue>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000956'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D9'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000958'
+                  name = 'book' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000959'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000095A'
+                      name = 'bookMetaData' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000095E'
+                  name = 'instance' visibility = 'public' isSpecification = 'false' ownerScope = 'classifier'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000095F'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D7'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Interface>
+            <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D9'
+              name = 'BookList' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DD'
+              name = 'BookNavigationModel' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Enumeration xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E1'
+              name = 'BookNavigationTypes' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'>
+              <UML:ModelElement.taggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000094A'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>There are several ways in which navigation in a module can be done. At the moment we just have the traditional navigation using book. chapters and verses and the more advanced navigation using the content structure of a book (= Passatges).</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+              </UML:ModelElement.taggedValue>
+              <UML:Enumeration.literal>
+                <UML:EnumerationLiteral xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E2'
+                  name = 'Passages' isSpecification = 'false'>
+                  <UML:ModelElement.taggedValue>
+                    <UML:TaggedValue xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000949'
+                      isSpecification = 'false'>
+                      <UML:TaggedValue.dataValue>Navigation by Passages means that the model displays the different levels of headlines. An example would be
+1. The book of Genesis
+1.1 The creation
+1.1.1 Creation of ...
+1.2 Fall of man ...</UML:TaggedValue.dataValue>
+                      <UML:TaggedValue.type>
+                        <UML:TagDefinition xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'/>
+                      </UML:TaggedValue.type>
+                    </UML:TaggedValue>
+                  </UML:ModelElement.taggedValue>
+                </UML:EnumerationLiteral>
+                <UML:EnumerationLiteral xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E3'
+                  name = 'BookChapterVerse' isSpecification = 'false'>
+                  <UML:ModelElement.taggedValue>
+                    <UML:TaggedValue xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009ED'
+                      isSpecification = 'false'>
+                      <UML:TaggedValue.dataValue>The available types of BookNavigationModel.</UML:TaggedValue.dataValue>
+                      <UML:TaggedValue.type>
+                        <UML:TagDefinition xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'/>
+                      </UML:TaggedValue.type>
+                    </UML:TaggedValue>
+                  </UML:ModelElement.taggedValue>
+                </UML:EnumerationLiteral>
+              </UML:Enumeration.literal>
+            </UML:Enumeration>
+            <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4'
+              name = 'Searcher' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'>
+              <UML:Classifier.feature>
+                <UML:Reception xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E6'
+                  isSpecification = 'false' isQuery = 'false' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'/>
+              </UML:Classifier.feature>
+            </UML:Interface>
+            <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7'
+              name = 'SearchIndex' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E9'
+              name = 'SearchIndexManager' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009EB'
+              name = 'SearcherFactory' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000952'
+                  name = 'create' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000953'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000954'
+                      name = 'book' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000978'
+                  name = 'instance' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000979'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097A'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Interface>
+            <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000856'
+              name = 'BookListFilter' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000858'
+              name = 'BookListGroup' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085A'
+              name = 'RenderType' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'/>
+            <UML:Enumeration xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085C'
+              name = 'RenderType' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+              isAbstract = 'false'>
+              <UML:Enumeration.literal>
+                <UML:EnumerationLiteral xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085D'
+                  name = 'PlainText' isSpecification = 'false'/>
+                <UML:EnumerationLiteral xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085E'
+                  name = 'XHTML' isSpecification = 'false'/>
+              </UML:Enumeration.literal>
+            </UML:Enumeration>
+            <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085F'
+              name = 'ContentRenderer' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+              <UML:ModelElement.taggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000094D'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>Using this interface content provided by a module can be turned into one of the formats available (see RenderType).</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+              </UML:ModelElement.taggedValue>
+            </UML:Interface>
+            <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F'
+              name = 'BookMetaData' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000931'
+                  name = 'isRightToLeft' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000932'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000936'
+                  name = 'availableRenderTypes' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000937'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085A'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000938'
+                  name = 'name' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000939'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000093A'
+                  name = 'aboutText' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000093B'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000093C'
+                  name = 'copyrightNote' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000093D'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000093E'
+                  name = 'copyrightShortNote' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000093F'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000940'
+                  name = 'copyrightDate' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000941'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000942'
+                  name = 'copyrightType' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000943'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000944'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097B'
+                  name = 'driver' visibility = 'protected' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097C'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097D'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Interface>
+            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000944'
+              name = 'CopyrightType' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+            <UML:Enumeration xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000946'
+              name = 'CopyrightType' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+              isAbstract = 'false'>
+              <UML:Enumeration.literal>
+                <UML:EnumerationLiteral xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000947'
+                  name = 'PublicDomain' isSpecification = 'false'/>
+                <UML:EnumerationLiteral xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000948'
+                  name = 'Licenced' isSpecification = 'false'/>
+              </UML:Enumeration.literal>
+            </UML:Enumeration>
+            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000095B'
+              name = 'BookMetaData*' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000960'
+              name = 'BookManager*' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961'
+              name = 'BookDrivers' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000963'
+                  name = 'availableBooks' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000964'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D9'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000965'
+                  name = 'searcher' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000966'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000967'
+                      name = 'Book' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000091E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000968'
+                  name = 'searchIndex' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000969'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000096A'
+                      name = 'BookMetaData' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:DataType xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000091E'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000096D'
+                  name = 'book' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                  isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000096E'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000096F'
+                      name = 'metaData' isSpecification = 'false'>
+                      <UML:Parameter.type>
+                        <UML:Interface xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Interface>
+            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000096B'
+              name = 'SearchIndex*' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000096C'
+              name = 'Searcher*' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+            <UML:Interface xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000971'
+              name = 'PluginManager' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false'>
+              <UML:ModelElement.taggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000976'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>This class is just visible inside of the backend and must not be exposed to the outside. It manages the plugins and gives access to the different interface implementations to help the factory and manager classes to do their work.</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition xmi.idref = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+              </UML:ModelElement.taggedValue>
+              <UML:Classifier.feature>
+                <UML:Operation xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000973'
+                  name = 'availableBookDrivers' visibility = 'public' isSpecification = 'false'
+                  ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:BehavioralFeature.parameter>
+                    <UML:Parameter xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000974'
+                      name = 'return' isSpecification = 'false' kind = 'return'>
+                      <UML:Parameter.type>
+                        <UML:Class xmi.idref = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000975'/>
+                      </UML:Parameter.type>
+                    </UML:Parameter>
+                  </UML:BehavioralFeature.parameter>
+                </UML:Operation>
+              </UML:Classifier.feature>
+            </UML:Interface>
+            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097A'
+              name = 'SearcherFactory*' visibility = 'public' isSpecification = 'false'
+              isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+            <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000097D'
+              name = 'BookDriver' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+              isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+          </UML:Namespace.ownedElement>
+        </UML:Package>
+        <UML:TagDefinition xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C6'
+          name = 'documentation' isSpecification = 'false' tagType = 'String'>
+          <UML:TagDefinition.multiplicity>
+            <UML:Multiplicity xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DC'>
+              <UML:Multiplicity.range>
+                <UML:MultiplicityRange xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DB'
+                  lower = '0' upper = '1'/>
+              </UML:Multiplicity.range>
+            </UML:Multiplicity>
+          </UML:TagDefinition.multiplicity>
+        </UML:TagDefinition>
+        <UML:DataType xmi.id = '127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009CD'
+          name = 'int' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000091E'
+          name = 'void' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092E'
+          name = 'bool' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000921'
+          name = 'QString' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+        <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000095D'
+          name = 'QList&lt;BookMetaData*&gt;' visibility = 'public' isSpecification = 'false'
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+        <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000975'
+          name = 'QList&lt;BookDriver*&gt;' visibility = 'public' isSpecification = 'false'
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+        <UML:Class xmi.id = '127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000957'
+          name = 'QList&lt;BookMetaData&gt;' visibility = 'public' isSpecification = 'false'
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </XMI.content>
+</XMI>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009B5"
+      name="Interfaces"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[40, 40, 217, 63]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="40"
+      y="40"
+      width="217"
+      height="63"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig0.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[40, 40, 217, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009C3"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.1.0"
+        x="40"
+        y="40"
+        width="217"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig0.1.1"
+        x="41"
+        y="41"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig0.2"
+      x="40"
+      y="55"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >Book</text>
+    <group name="Fig0.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[41, 78, 216, 24]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.3.0"
+        x="41"
+        y="78"
+        width="216"
+        height="24"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig0.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="41"
+                y="78" />
+        <lineto x="257"
+                y="78" />
+      </path>
+      <text name="Fig0.3.2"
+        x="41"
+        y="79"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+metaData() : BookMetaData</text>
+    </group>
+    <rectangle name="Fig0.4"
+      x="40"
+      y="40"
+      width="217"
+      height="63"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[337, 40, 297, 89]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D7"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="337"
+      y="40"
+      width="297"
+      height="89"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig1.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[337, 40, 297, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D7"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.1.0"
+        x="337"
+        y="40"
+        width="297"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig1.1.1"
+        x="338"
+        y="41"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig1.2"
+      x="337"
+      y="55"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookManager</text>
+    <group name="Fig1.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[338, 78, 296, 50]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.3.0"
+        x="338"
+        y="78"
+        width="296"
+        height="50"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig1.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="338"
+                y="78" />
+        <lineto x="634"
+                y="78" />
+      </path>
+      <text name="Fig1.3.2"
+        x="338"
+        y="79"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+availableBooks() : BookList</text>
+      <text name="Fig1.3.3"
+        x="338"
+        y="92"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+book(bookMetaData : BookMetaData) : Book</text>
+      <text name="Fig1.3.4"
+        x="338"
+        y="105"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+instance() : BookManager</text>
+    </group>
+    <rectangle name="Fig1.4"
+      x="337"
+      y="40"
+      width="297"
+      height="89"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig2"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[376, 152, 82, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D9"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig2.0"
+      x="376"
+      y="152"
+      width="82"
+      height="62"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig2.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[376, 152, 82, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009D9"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig2.1.0"
+        x="376"
+        y="152"
+        width="82"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig2.1.1"
+        x="377"
+        y="153"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig2.2"
+      x="376"
+      y="167"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookList</text>
+    <group name="Fig2.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[377, 190, 81, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig2.3.0"
+        x="377"
+        y="190"
+        width="81"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig2.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="377"
+                y="190" />
+        <lineto x="458"
+                y="190" />
+      </path>
+    </group>
+    <rectangle name="Fig2.4"
+      x="376"
+      y="152"
+      width="82"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig3"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[296, 496, 145, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DD"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig3.0"
+      x="296"
+      y="496"
+      width="145"
+      height="62"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig3.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[296, 496, 145, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009DD"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig3.1.0"
+        x="296"
+        y="496"
+        width="145"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig3.1.1"
+        x="297"
+        y="497"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig3.2"
+      x="296"
+      y="511"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookNavigationModel</text>
+    <group name="Fig3.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[297, 534, 144, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig3.3.0"
+        x="297"
+        y="534"
+        width="144"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig3.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="297"
+                y="534" />
+        <lineto x="441"
+                y="534" />
+      </path>
+    </group>
+    <rectangle name="Fig3.4"
+      x="296"
+      y="496"
+      width="145"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig4"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEnumeration[409, 637, 144, 76]pathVisible=false;operationsVisible=false"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E1"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig4.0"
+      x="409"
+      y="637"
+      width="144"
+      height="76"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig4.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[409, 637, 144, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E1"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig4.1.0"
+        x="409"
+        y="637"
+        width="144"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig4.1.1"
+        x="410"
+        y="638"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«enumeration»</text>
+    </group>
+    <text name="Fig4.2"
+      x="409"
+      y="652"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      font="Dialog"
+      textsize="12"
+    >BookNavigationTypes</text>
+    <group name="Fig4.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[364, 387, 59, 20]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig4.3.0"
+        x="364"
+        y="387"
+        width="59"
+        height="20"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+      <path name="Fig4.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+        visibility="0"
+      >
+        <moveto x="364"
+                y="387" />
+        <lineto x="423"
+                y="387" />
+      </path>
+    </group>
+    <rectangle name="Fig4.4"
+      x="409"
+      y="637"
+      width="144"
+      height="76"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <group name="Fig4.5"
+         description="org.argouml.uml.diagram.ui.FigEnumLiteralsCompartment[410, 675, 143, 34]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig4.5.0"
+        x="410"
+        y="675"
+        width="143"
+        height="34"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig4.5.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="410"
+                y="675" />
+        <lineto x="553"
+                y="675" />
+      </path>
+      <text name="Fig4.5.2"
+        x="410"
+        y="676"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >Passages</text>
+      <text name="Fig4.5.3"
+        x="410"
+        y="689"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >BookChapterVerse</text>
+    </group>
+  </group>
+  <group name="Fig5"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[24, 216, 82, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig5.0"
+      x="24"
+      y="216"
+      width="82"
+      height="62"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig5.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[24, 216, 82, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E4"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig5.1.0"
+        x="24"
+        y="216"
+        width="82"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig5.1.1"
+        x="25"
+        y="217"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig5.2"
+      x="24"
+      y="231"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >Searcher</text>
+    <group name="Fig5.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[25, 254, 81, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig5.3.0"
+        x="25"
+        y="254"
+        width="81"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig5.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="25"
+                y="254" />
+        <lineto x="106"
+                y="254" />
+      </path>
+    </group>
+    <rectangle name="Fig5.4"
+      x="24"
+      y="216"
+      width="82"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig6"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[24, 312, 91, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig6.0"
+      x="24"
+      y="312"
+      width="91"
+      height="62"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig6.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[24, 312, 91, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E7"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig6.1.0"
+        x="24"
+        y="312"
+        width="91"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig6.1.1"
+        x="25"
+        y="313"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig6.2"
+      x="24"
+      y="327"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >SearchIndex</text>
+    <group name="Fig6.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[25, 350, 90, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig6.3.0"
+        x="25"
+        y="350"
+        width="90"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig6.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="25"
+                y="350" />
+        <lineto x="115"
+                y="350" />
+      </path>
+    </group>
+    <rectangle name="Fig6.4"
+      x="24"
+      y="312"
+      width="91"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig7"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[128, 312, 135, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E9"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig7.0"
+      x="128"
+      y="312"
+      width="135"
+      height="62"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig7.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[128, 312, 135, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009E9"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig7.1.0"
+        x="128"
+        y="312"
+        width="135"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig7.1.1"
+        x="129"
+        y="313"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig7.2"
+      x="128"
+      y="327"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >SearchIndexManager</text>
+    <group name="Fig7.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[129, 350, 134, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig7.3.0"
+        x="129"
+        y="350"
+        width="134"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig7.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="129"
+                y="350" />
+        <lineto x="263"
+                y="350" />
+      </path>
+    </group>
+    <rectangle name="Fig7.4"
+      x="128"
+      y="312"
+      width="135"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig8"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[120, 216, 224, 76]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009EB"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig8.0"
+      x="120"
+      y="216"
+      width="224"
+      height="76"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <group name="Fig8.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[120, 216, 224, 15]"
+         href="127-0-1-1--4cd34e08:111c3c5aa73:-8000:00000000000009EB"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig8.1.0"
+        x="120"
+        y="216"
+        width="224"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig8.1.1"
+        x="121"
+        y="217"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig8.2"
+      x="120"
+      y="231"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >SearcherFactory</text>
+    <group name="Fig8.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[121, 254, 223, 37]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig8.3.0"
+        x="121"
+        y="254"
+        width="223"
+        height="37"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig8.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="121"
+                y="254" />
+        <lineto x="344"
+                y="254" />
+      </path>
+      <text name="Fig8.3.2"
+        x="121"
+        y="255"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+create(book : Books) : Searcher</text>
+      <text name="Fig8.3.3"
+        x="121"
+        y="268"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+instance() : SearcherFactory*</text>
+    </group>
+    <rectangle name="Fig8.4"
+      x="120"
+      y="216"
+      width="224"
+      height="76"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig9"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[464, 152, 95, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000856"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig9.0"
+      x="464"
+      y="152"
+      width="95"
+      height="62"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="0 255 255"
+    />
+    <group name="Fig9.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[464, 152, 95, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000856"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig9.1.0"
+        x="464"
+        y="152"
+        width="95"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig9.1.1"
+        x="465"
+        y="153"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig9.2"
+      x="464"
+      y="167"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookListFilter</text>
+    <group name="Fig9.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[465, 190, 94, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig9.3.0"
+        x="465"
+        y="190"
+        width="94"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig9.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="465"
+                y="190" />
+        <lineto x="559"
+                y="190" />
+      </path>
+    </group>
+    <rectangle name="Fig9.4"
+      x="464"
+      y="152"
+      width="95"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig10"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[40, 416, 101, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000858"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig10.0"
+      x="40"
+      y="416"
+      width="101"
+      height="62"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="0 255 255"
+    />
+    <group name="Fig10.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[40, 416, 101, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000858"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig10.1.0"
+        x="40"
+        y="416"
+        width="101"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig10.1.1"
+        x="41"
+        y="417"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig10.2"
+      x="40"
+      y="431"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookListGroup</text>
+    <group name="Fig10.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[41, 454, 100, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig10.3.0"
+        x="41"
+        y="454"
+        width="100"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig10.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="41"
+                y="454" />
+        <lineto x="141"
+                y="454" />
+      </path>
+    </group>
+    <rectangle name="Fig10.4"
+      x="40"
+      y="416"
+      width="101"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig11"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEnumeration[633, 637, 99, 76]pathVisible=false;operationsVisible=false"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085C"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig11.0"
+      x="633"
+      y="637"
+      width="99"
+      height="76"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="0 255 255"
+    />
+    <group name="Fig11.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[633, 637, 99, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085C"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig11.1.0"
+        x="633"
+        y="637"
+        width="99"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig11.1.1"
+        x="634"
+        y="638"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«enumeration»</text>
+    </group>
+    <text name="Fig11.2"
+      x="633"
+      y="652"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      font="Dialog"
+      textsize="12"
+    >RenderType</text>
+    <group name="Fig11.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[634, 708, 99, 20]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig11.3.0"
+        x="634"
+        y="708"
+        width="99"
+        height="20"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+      <path name="Fig11.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+        visibility="0"
+      >
+        <moveto x="634"
+                y="708" />
+        <lineto x="733"
+                y="708" />
+      </path>
+    </group>
+    <rectangle name="Fig11.4"
+      x="633"
+      y="637"
+      width="99"
+      height="76"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <group name="Fig11.5"
+         description="org.argouml.uml.diagram.ui.FigEnumLiteralsCompartment[634, 675, 98, 34]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig11.5.0"
+        x="634"
+        y="675"
+        width="98"
+        height="34"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig11.5.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="634"
+                y="675" />
+        <lineto x="732"
+                y="675" />
+      </path>
+      <text name="Fig11.5.2"
+        x="634"
+        y="676"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >PlainText</text>
+      <text name="Fig11.5.3"
+        x="634"
+        y="689"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >XHTML</text>
+    </group>
+  </group>
+  <group name="Fig12"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[152, 416, 113, 62]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085F"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig12.0"
+      x="152"
+      y="416"
+      width="113"
+      height="62"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="0 255 255"
+    />
+    <group name="Fig12.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[152, 416, 113, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000085F"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig12.1.0"
+        x="152"
+        y="416"
+        width="113"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig12.1.1"
+        x="153"
+        y="417"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig12.2"
+      x="152"
+      y="431"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >ContentRenderer</text>
+    <group name="Fig12.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[153, 454, 112, 23]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig12.3.0"
+        x="153"
+        y="454"
+        width="112"
+        height="23"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig12.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="153"
+                y="454" />
+        <lineto x="265"
+                y="454" />
+      </path>
+    </group>
+    <rectangle name="Fig12.4"
+      x="152"
+      y="416"
+      width="113"
+      height="62"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig13"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[376, 232, 253, 192]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig13.0"
+      x="376"
+      y="232"
+      width="253"
+      height="192"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="0 255 255"
+    />
+    <group name="Fig13.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[376, 232, 253, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:000000000000092F"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig13.1.0"
+        x="376"
+        y="232"
+        width="253"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig13.1.1"
+        x="377"
+        y="233"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig13.2"
+      x="376"
+      y="247"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookMetaData</text>
+    <group name="Fig13.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[377, 270, 252, 153]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig13.3.0"
+        x="377"
+        y="270"
+        width="252"
+        height="153"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig13.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="377"
+                y="270" />
+        <lineto x="629"
+                y="270" />
+      </path>
+      <text name="Fig13.3.2"
+        x="377"
+        y="271"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+isRightToLeft() : bool</text>
+      <text name="Fig13.3.3"
+        x="377"
+        y="284"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+availableRenderTypes() : RenderType</text>
+      <text name="Fig13.3.4"
+        x="377"
+        y="297"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+name() : QString</text>
+      <text name="Fig13.3.5"
+        x="377"
+        y="310"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+aboutText() : QString</text>
+      <text name="Fig13.3.6"
+        x="377"
+        y="323"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+copyrightNote() : QString</text>
+      <text name="Fig13.3.7"
+        x="377"
+        y="336"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+copyrightShortNote() : QString</text>
+      <text name="Fig13.3.8"
+        x="377"
+        y="349"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+copyrightDate() : QString</text>
+      <text name="Fig13.3.9"
+        x="377"
+        y="362"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+copyrightType() : CopyrightType</text>
+      <text name="Fig13.3.10"
+        x="377"
+        y="375"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >#driver() : BookDriver</text>
+    </group>
+    <rectangle name="Fig13.4"
+      x="376"
+      y="232"
+      width="253"
+      height="192"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig14"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[504, 432, 317, 136]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig14.0"
+      x="504"
+      y="432"
+      width="317"
+      height="136"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="0 255 255"
+    />
+    <group name="Fig14.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[504, 432, 317, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000961"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig14.1.0"
+        x="504"
+        y="432"
+        width="317"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig14.1.1"
+        x="505"
+        y="433"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig14.2"
+      x="504"
+      y="447"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >BookDrivers</text>
+    <group name="Fig14.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[505, 470, 316, 97]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig14.3.0"
+        x="505"
+        y="470"
+        width="316"
+        height="97"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig14.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="505"
+                y="470" />
+        <lineto x="821"
+                y="470" />
+      </path>
+      <text name="Fig14.3.2"
+        x="505"
+        y="471"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+availableBooks() : BookList</text>
+      <text name="Fig14.3.3"
+        x="505"
+        y="484"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+searcher(Book : void) : Searcher</text>
+      <text name="Fig14.3.4"
+        x="505"
+        y="497"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+searchIndex(BookMetaData : void) : SearchIndex</text>
+      <text name="Fig14.3.5"
+        x="505"
+        y="510"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+book(metaData : BookMetaData) : Book</text>
+    </group>
+    <rectangle name="Fig14.4"
+      x="504"
+      y="432"
+      width="317"
+      height="136"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+  <group name="Fig15"
+       description="org.argouml.uml.diagram.static_structure.ui.FigInterface[40, 637, 289, 64]pathVisible=false;operationsVisible=true"
+       href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000971"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig15.0"
+      x="40"
+      y="637"
+      width="289"
+      height="64"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="0 255 255"
+    />
+    <group name="Fig15.1"
+         description="org.argouml.uml.diagram.ui.FigStereotypesCompartment[40, 637, 289, 15]"
+         href="127-0-1-1--63ece11c:111c3fc4e66:-8000:0000000000000971"
+         fill="1"
+         fillcolor="white"
+         stroke="1"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig15.1.0"
+        x="40"
+        y="637"
+        width="289"
+        height="15"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      />
+      <text name="Fig15.1.1"
+        x="41"
+        y="638"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >«interface»</text>
+    </group>
+    <text name="Fig15.2"
+      x="40"
+      y="652"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="red"
+      font="Dialog"
+      textsize="12"
+    >PluginManager</text>
+    <group name="Fig15.3"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[41, 675, 288, 25]"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig15.3.0"
+        x="41"
+        y="675"
+        width="288"
+        height="25"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+      <path name="Fig15.3.1"
+        description="org.argouml.uml.diagram.ui.FigFeaturesCompartment$FigSeperator"
+        fill="1"
+        fillcolor="white"
+        stroke="1"
+        strokecolor="black"
+      >
+        <moveto x="41"
+                y="675" />
+        <lineto x="329"
+                y="675" />
+      </path>
+      <text name="Fig15.3.2"
+        x="41"
+        y="676"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        font="Dialog"
+        textsize="10"
+      >+availableBookDrivers() : QList&lt;BookDriver*&gt;</text>
+    </group>
+    <rectangle name="Fig15.4"
+      x="40"
+      y="637"
+      width="289"
+      height="64"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+  </group>
+</pgml>
+<todo>
+<todolist>
+</todolist>
+<resolvedcritics>
+</resolvedcritics>
+</todo>
+</uml>
