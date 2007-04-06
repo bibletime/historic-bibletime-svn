@@ -1,11 +1,13 @@
 PROJECT(bibletime CXX C)
 
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin) 
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+
 SET(DEBUG true)
 
-
 SET(bibletime_SOURCES
-	src/backend/osisparser.cpp
-	src/main.cpp
+	backend/osisparser.cpp
+	main.cpp
 )
 
 ADD_EXECUTABLE(bibletime ${bibletime_SOURCES})
