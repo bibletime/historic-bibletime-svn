@@ -1,0 +1,1271 @@
+<ui version="4.0" >
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>783</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTip" >
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QVBoxLayout" >
+    <property name="spacing" >
+     <number>6</number>
+    </property>
+    <property name="leftMargin" >
+     <number>9</number>
+    </property>
+    <property name="topMargin" >
+     <number>9</number>
+    </property>
+    <property name="rightMargin" >
+     <number>9</number>
+    </property>
+    <property name="bottomMargin" >
+     <number>9</number>
+    </property>
+    <item>
+     <widget class="QTabWidget" name="mainViewTabWidget" >
+      <property name="whatsThis" >
+       <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>&lt;/body>&lt;/html></string>
+      </property>
+      <property name="currentIndex" >
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="mainViewHelpTab" >
+       <attribute name="title" >
+        <string/>
+       </attribute>
+       <attribute name="icon" >
+        <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/help_index.png</iconset>
+       </attribute>
+       <layout class="QVBoxLayout" >
+        <item>
+         <widget class="QTextEdit" name="textEdit_2" >
+          <property name="html" >
+           <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">This is a Help tab.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">User can see context sensitive help by choosing a help tab or maybe from context menu. Help is shown in the help tab. In main view help tab there should be help for main views. In other help tabs it could show info for choosen module or tool (which was active last), help for showing/hiding modules etc. Main toolbar Help opens this main view help tab.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Each text view tabbar has Help as the leftmost tab. Help can't be hidden or moved.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">In Main View tabbar each tab includes toolbar and (four) text view tab widgets.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">There are four text views inside two splitter layouts. Views can be hidden with Qt4 by dragging splitter. Therefore the user can get 1, 2, 3 or 4 text views (but not all theoretically possible layouts, e.g. not 3 horizontally arranged text views). Each main view works separately so there can be e.g. a main view with for text views and another main view with only one text view.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">There is common toolbar inside main view tab on top of text views:  back/fw, navigation widget.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Navigation widget is Bible navigation if any Bible or commentary window is visible (meaning that any Bible module name is visible, not necessarily selected), otherwise treeview if any genbook is visible, otherwise list if dict is visible. Or it should be disabled if there is no Bible/commentary visible.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Context menu for main view tabbar:&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Rename&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Add&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Remove&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">(move left, right)&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Rename: &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Tab name by default is  mod:verse, mod:bookchapter, mod:dictentry, depending on which kind of view is "dominating" (see above).&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Or rename dialog:&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">X modulename:contents (KJV: Joh 1:1; Parallel: Joh 1:1)&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">__________________ where %m %c&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">User can add and remove views. Adding a view creates a new view with default settings (like current sword for windows has: Bibles, Commentaries/general books, Dictionaries. Also tools act like other views.)&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">What user can do with main views?&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">- group modules conveniently, e.g:&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">	- English modules in one, others in another&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">	- General books in one view alone&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">	- Favourite modules in one view&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">- leave one view in certain place in Bible, go to another view to see other places&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>&lt;/body>&lt;/html></string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="mainViewDefaultTab" >
+       <attribute name="title" >
+        <string>John 1:1</string>
+       </attribute>
+       <layout class="QVBoxLayout" >
+        <item>
+         <widget class="QWidget" native="1" name="widget_2" >
+          <layout class="QHBoxLayout" >
+           <property name="spacing" >
+            <number>6</number>
+           </property>
+           <property name="leftMargin" >
+            <number>0</number>
+           </property>
+           <property name="topMargin" >
+            <number>0</number>
+           </property>
+           <property name="rightMargin" >
+            <number>0</number>
+           </property>
+           <property name="bottomMargin" >
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QToolButton" name="toolButton_13" >
+             <property name="toolTip" >
+              <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">History back.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Includes drop-down list.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>&lt;/body>&lt;/html></string>
+             </property>
+             <property name="text" >
+              <string>...</string>
+             </property>
+             <property name="arrowType" >
+              <enum>Qt::LeftArrow</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="toolButton_14" >
+             <property name="toolTip" >
+              <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">History forward.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Includes drop-down list.&lt;/p>&lt;/body>&lt;/html></string>
+             </property>
+             <property name="text" >
+              <string>...</string>
+             </property>
+             <property name="arrowType" >
+              <enum>Qt::RightArrow</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" >
+             <property name="spacing" >
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QToolButton" name="toolButton_15" >
+               <property name="sizePolicy" >
+                <sizepolicy vsizetype="Fixed" hsizetype="Maximum" >
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="toolTip" >
+                <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Previous book&lt;/p>&lt;/body>&lt;/html></string>
+               </property>
+               <property name="text" >
+                <string>...</string>
+               </property>
+               <property name="arrowType" >
+                <enum>Qt::LeftArrow</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_5" >
+               <property name="toolTip" >
+                <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Select book.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This should work as described in BibleTime wiki discussion.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This could have possibility to select a range. Normally one verse is selected and the whole chapter (or better yet, the surrounding passage) is shown. If a range is selected then only those verses would be shown. The navigator would show the first verse and the last one could be shown in text label after it, like |Gen 1:1|Buttons| &lt;span style=" font-style:italic;">- Gen 2:4&lt;/span> &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>&lt;/body>&lt;/html></string>
+               </property>
+               <property name="editable" >
+                <bool>true</bool>
+               </property>
+               <item>
+                <property name="text" >
+                 <string>John                                   </string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_16" >
+               <property name="sizePolicy" >
+                <sizepolicy vsizetype="Fixed" hsizetype="Maximum" >
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="toolTip" >
+                <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Next book&lt;/p>&lt;/body>&lt;/html></string>
+               </property>
+               <property name="text" >
+                <string>...</string>
+               </property>
+               <property name="arrowType" >
+                <enum>Qt::RightArrow</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" >
+             <property name="spacing" >
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QToolButton" name="toolButton_17" >
+               <property name="text" >
+                <string>...</string>
+               </property>
+               <property name="arrowType" >
+                <enum>Qt::LeftArrow</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_6" >
+               <property name="editable" >
+                <bool>true</bool>
+               </property>
+               <item>
+                <property name="text" >
+                 <string>1   </string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_18" >
+               <property name="text" >
+                <string>...</string>
+               </property>
+               <property name="arrowType" >
+                <enum>Qt::RightArrow</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" >
+             <property name="spacing" >
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QToolButton" name="toolButton_19" >
+               <property name="text" >
+                <string>...</string>
+               </property>
+               <property name="arrowType" >
+                <enum>Qt::LeftArrow</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_7" >
+               <property name="editable" >
+                <bool>true</bool>
+               </property>
+               <item>
+                <property name="text" >
+                 <string>1   </string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton_20" >
+               <property name="text" >
+                <string>...</string>
+               </property>
+               <property name="arrowType" >
+                <enum>Qt::RightArrow</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer>
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" >
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSplitter" name="verticallMainSplitter" >
+          <property name="orientation" >
+           <enum>Qt::Vertical</enum>
+          </property>
+          <widget class="QSplitter" name="horizontalUpperSplitter" >
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QTabWidget" name="upperLeftTabWidget" >
+            <property name="currentIndex" >
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="upperLeftHelpTab" >
+             <attribute name="title" >
+              <string/>
+             </attribute>
+             <attribute name="icon" >
+              <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/help_index.png</iconset>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QTextEdit" name="upperLeftHelpTextView" >
+                <property name="html" >
+                 <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Bible window (shows Bibles by default but any module/tool can be viewed here)&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;span style=" font-size:12pt;">Context menu:&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">-dictionary lookup (take first word from selection, open a dictionary view), Maybe not necessary if Links tool includes links to dictionary entries from selected word.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">-search (show beginning of selection), disabled if nothing selected, search opens for the selected module in Search tool. (Maybe not necessary - if search tool were selected it could automatically include selected text? But then, if it already is open, it would change the text with any selection changes - not good).&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">-Independent view (gives this bible/commentary module view independence from the main navigation toolbar, opens a new navigation toolbar inside the view and a X(Close) button&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">-Dependent view, see above, works also with a close button, returns back to the main navigation book/ch/v&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">	- maybe configurable: make all views independent?&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Independent view navigation bar should be smaller, the main one is too wide. Or the main one should be made narrower. Like one text box and three dropdown arrows under it, like in BibleTime wiki discussion.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;span style=" font-size:12pt;">All text view tabs:&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Show/Hide modules:&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;span style=" font-style:italic;">-Bibles                     X    All Bibles, including later installed&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt; font-style:italic;">---English                 X   All English Bibles, including...&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt; font-style:italic;">&lt;span style=" font-style:normal;">-----KJV                    X   King James...&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">-----ESV                    X  English Standard...&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">+&lt;span style=" font-style:italic;">All Commentaries&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt; font-style:italic;">...&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt; font-style:italic;">+All tools&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt; font-style:italic;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Similar tree view could be used elswhere, like when choosing modules in advanced search, or even installing modules.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">A module/works view is not necessary because all works can be selected by this way: first choosing it to be shown in tabs, then choosing the tab.&lt;/p>&lt;/body>&lt;/html></string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="upperLeftParallelTab" >
+             <attribute name="title" >
+              <string>Parallel</string>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QTextEdit" name="upperLeftParallelTextView" >
+                <property name="html" >
+                 <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Parallel Bible window.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Header above view which has names of modules, does not scroll.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Context menu: Add, (Bible1, bible2... -&amp;gt; change, remove).&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Or text in Header:" No Bible selected, use context menu to add", Maybe toolbutton "+/-" in the right corner of Header.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">The Parallel context menu could be only in Header so that the text view context menu would be the same with other views.&lt;/p>&lt;/body>&lt;/html></string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="exampleBibleTab" >
+             <attribute name="title" >
+              <string>KJV</string>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QTextEdit" name="textEdit_3" >
+                <property name="html" >
+                 <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">John 1:1&lt;/p>&lt;/body>&lt;/html></string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab" >
+             <attribute name="title" >
+              <string>WHNU</string>
+             </attribute>
+            </widget>
+           </widget>
+           <widget class="QTabWidget" name="upperRightTabWidget" >
+            <property name="toolTip" >
+             <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">One quarter-view&lt;/p>&lt;/body>&lt;/html></string>
+            </property>
+            <property name="currentIndex" >
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="upperRightHelpTab" >
+             <attribute name="title" >
+              <string/>
+             </attribute>
+             <attribute name="icon" >
+              <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/help_index.png</iconset>
+             </attribute>
+             <layout class="QHBoxLayout" >
+              <property name="spacing" >
+               <number>4</number>
+              </property>
+              <property name="leftMargin" >
+               <number>4</number>
+              </property>
+              <property name="topMargin" >
+               <number>4</number>
+              </property>
+              <property name="rightMargin" >
+               <number>4</number>
+              </property>
+              <property name="bottomMargin" >
+               <number>4</number>
+              </property>
+              <item>
+               <widget class="QTextEdit" name="upperRightHelpTextView" >
+                <property name="html" >
+                 <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">By default this window shows commentaries, general books.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Commentaries use the main view tab toolbar (navigation).&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Commentaries should have possibility to have links to other places in which this verse is commented (e.g. to "john 1" from "john 1:2"). Also possibility to show a range, not just one verse.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Genbooks have inside tab: back/fw, combobox with treeview. Unless there are no bibles/commentaries in this main view, when genbooks could have the main navigator?&lt;/p>&lt;/body>&lt;/html></string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab_2" >
+             <attribute name="title" >
+              <string>Barnes</string>
+             </attribute>
+            </widget>
+           </widget>
+          </widget>
+          <widget class="QSplitter" name="lowerHorizontalSplitter" >
+           <property name="toolTip" >
+            <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>&lt;/body>&lt;/html></string>
+           </property>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QTabWidget" name="lowerLeftTabWidget" >
+            <property name="toolTip" >
+             <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Lower left view - tools&lt;/p>&lt;/body>&lt;/html></string>
+            </property>
+            <property name="currentIndex" >
+             <number>3</number>
+            </property>
+            <widget class="QWidget" name="lowerLeftHelpTab" >
+             <attribute name="title" >
+              <string/>
+             </attribute>
+             <attribute name="icon" >
+              <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/help_index.png</iconset>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QTextEdit" name="lowerLeftHelpTextView" >
+                <property name="html" >
+                 <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Tools view. Includes:&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Search&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Details ("mag")&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Editable Notes&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">Links to other works&lt;/p>&lt;/body>&lt;/html></string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="exampleNotesTab" >
+             <attribute name="title" >
+              <string/>
+             </attribute>
+             <attribute name="icon" >
+              <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/abiword.png</iconset>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QWidget" native="1" name="notesWidget" >
+                <layout class="QVBoxLayout" >
+                 <property name="leftMargin" >
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin" >
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin" >
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin" >
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <layout class="QVBoxLayout" >
+                   <item>
+                    <layout class="QHBoxLayout" >
+                     <item>
+                      <widget class="QToolButton" name="toolButton" >
+                       <property name="text" >
+                        <string>i</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QToolButton" name="toolButton_2" >
+                       <property name="text" >
+                        <string>b</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QToolButton" name="toolButton_7" >
+                       <property name="text" >
+                        <string>_</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer>
+                       <property name="orientation" >
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeHint" >
+                        <size>
+                         <width>40</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" >
+                     <item>
+                      <widget class="QLabel" name="label" >
+                       <property name="text" >
+                        <string>John 1:1</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QComboBox" name="comboBox" >
+                       <item>
+                        <property name="text" >
+                         <string>My notes</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text" >
+                         <string>New...</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text" >
+                         <string>Rename...</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text" >
+                         <string>Delete...</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text" >
+                         <string>notes2</string>
+                        </property>
+                       </item>
+                       <item>
+                        <property name="text" >
+                         <string>older commentary</string>
+                        </property>
+                       </item>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <widget class="QTextEdit" name="textEdit" />
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="lowerLeftDetailsTab" >
+             <attribute name="title" >
+              <string/>
+             </attribute>
+             <attribute name="icon" >
+              <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/xmag.png</iconset>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QTextBrowser" name="textBrowser" >
+                <property name="html" >
+                 <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Details view.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Works like BibleTime "mag" or GnomeSword "previewer".&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">There could be several Details views open. Normally all contents would be affected, but if one view is under cursor, only the others would change.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Details view could be lockable so that it could be changed only by mouse click, dragdrop or other explicit command. It could also have history.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">I would like to see a bit more information here than BT or GS have. Example:&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-weight:600; font-style:italic;">From KJV John 1:1: the Word,&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;">Gk. &lt;span style=" font-style:normal;">ho&lt;/span> (T-NSM of ho) &lt;span style=" font-style:normal;">logos&lt;/span> (N-NSM of &lt;span style=" font-style:normal;">logos&lt;/span>)&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;">detailed Strong information&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; font-style:italic;">detailed Morphology information&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Or:&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Links from ESV Genesis 1:1 (In the ** beginning...):&lt;/p>&lt;/body>&lt;/html></string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="lowerLeftSearchTab" >
+             <attribute name="title" >
+              <string/>
+             </attribute>
+             <attribute name="icon" >
+              <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/edit-find.png</iconset>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QWidget" native="1" name="quickSearchWidget" >
+                <layout class="QVBoxLayout" >
+                 <item>
+                  <layout class="QHBoxLayout" >
+                   <item>
+                    <widget class="QComboBox" name="comboBox_8" >
+                     <property name="sizePolicy" >
+                      <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="toolTip" >
+                      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Type in search terms.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Uses indexed quick search.&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Combobox has history.&lt;/p>&lt;/body>&lt;/html></string>
+                     </property>
+                     <property name="editable" >
+                      <bool>true</bool>
+                     </property>
+                     <item>
+                      <property name="text" >
+                       <string>earth</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_3" >
+                     <property name="text" >
+                      <string>Search</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" >
+                   <item>
+                    <widget class="QComboBox" name="comboBox_9" >
+                     <property name="sizePolicy" >
+                      <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="toolTip" >
+                      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Select works to search. More detailed selection can be made in Advanced search window.&lt;/p>&lt;/body>&lt;/html></string>
+                     </property>
+                     <item>
+                      <property name="text" >
+                       <string>open Bible (KJV)</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text" >
+                       <string>another opened module</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text" >
+                       <string> opened dictionary or something</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text" >
+                       <string> All Bibles in this view</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text" >
+                       <string>Module from which we came</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="comboBox_10" >
+                     <property name="toolTip" >
+                      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Select search range. New ranges can be defined in Advanced search window.&lt;/p>&lt;/body>&lt;/html></string>
+                     </property>
+                     <item>
+                      <property name="text" >
+                       <string>Whole Bible</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text" >
+                       <string>Old Testament</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text" >
+                       <string>New Testament</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text" >
+                       <string>Gospels</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QTableWidget" name="tableWidget_2" >
+                   <property name="toolTip" >
+                    <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Search results.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Headers are not necessary, tooltips could be used instead.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">verse preview is important. Here it is simple. More detailed preview could be in advanced search window. If a Details tab is open in another quarter-view the preview could be opened there for the row which is hovered over. Details tab in another quarter view could even be opened automatically. If there is no Details view, then tooltip could be shown.&lt;/p>&lt;/body>&lt;/html></string>
+                   </property>
+                   <property name="alternatingRowColors" >
+                    <bool>true</bool>
+                   </property>
+                   <property name="selectionMode" >
+                    <enum>QAbstractItemView::NoSelection</enum>
+                   </property>
+                   <property name="columnCount" >
+                    <number>3</number>
+                   </property>
+                   <row>
+                    <property name="text" >
+                     <string>0</string>
+                    </property>
+                   </row>
+                   <row>
+                    <property name="text" >
+                     <string>1</string>
+                    </property>
+                   </row>
+                   <column>
+                    <property name="text" >
+                     <string>verse</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text" >
+                     <string>module</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text" >
+                     <string>preview</string>
+                    </property>
+                   </column>
+                   <item row="0" column="0" >
+                    <property name="text" >
+                     <string>Gen 1:1-2</string>
+                    </property>
+                   </item>
+                   <item row="0" column="1" >
+                    <property name="text" >
+                     <string>KJV</string>
+                    </property>
+                   </item>
+                   <item row="0" column="2" >
+                    <property name="text" >
+                     <string>...and the earth. And the earth was without...</string>
+                    </property>
+                   </item>
+                   <item row="1" column="0" >
+                    <property name="text" >
+                     <string>Gen 1:10-12</string>
+                    </property>
+                   </item>
+                   <item row="1" column="1" >
+                    <property name="text" >
+                     <string>KJV</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer>
+                   <property name="orientation" >
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" >
+                    <size>
+                     <width>318</width>
+                     <height>16</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" >
+                   <item>
+                    <spacer>
+                     <property name="orientation" >
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" >
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_4" >
+                     <property name="toolTip" >
+                      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Open advanced search window with more options.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Current results and options are moved there if opened from here.&lt;/p>&lt;/body>&lt;/html></string>
+                     </property>
+                     <property name="text" >
+                      <string>Advanced...</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="l" >
+             <attribute name="title" >
+              <string/>
+             </attribute>
+             <attribute name="icon" >
+              <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/forward.png</iconset>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QListWidget" name="linksWidget" >
+                <property name="toolTip" >
+                 <string>Lower left view - tools</string>
+                </property>
+                <property name="alternatingRowColors" >
+                 <bool>true</bool>
+                </property>
+                <item>
+                 <property name="text" >
+                  <string>Link from current verse to another resource</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text" >
+                  <string>another link</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text" >
+                  <string>this could also be a link to</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text" >
+                  <string>dictionary entry from a selected word</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QTabWidget" name="lowerRightTabWidget" >
+            <property name="currentIndex" >
+             <number>1</number>
+            </property>
+            <widget class="QWidget" name="lowerRightHelpTab" >
+             <attribute name="title" >
+              <string/>
+             </attribute>
+             <attribute name="icon" >
+              <iconset resource="../mydocs/flamehammer/icons.qrc" >:/new/prefix1/help_index.png</iconset>
+             </attribute>
+             <layout class="QHBoxLayout" >
+              <item>
+               <widget class="QTextEdit" name="textEdit_6" >
+                <property name="html" >
+                 <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">By default this window shows dictionaries, daily readings&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">inside tab: back/fw, combobox with list.&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">combobox lets user write any "key" and shows possible completions. If the written key does not exist, the background will be colored and the contents will not be changed. &lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8pt;">When another module is chosen, the key remains and content is changed only if the key exists in that module.&lt;/p>&lt;/body>&lt;/html></string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="lowerRightExampleDictionary" >
+             <attribute name="title" >
+              <string>a dictionary</string>
+             </attribute>
+             <layout class="QVBoxLayout" >
+              <item>
+               <widget class="QWidget" native="1" name="dictionaryWidget" >
+                <layout class="QVBoxLayout" >
+                 <item>
+                  <layout class="QHBoxLayout" >
+                   <item>
+                    <widget class="QToolButton" name="toolButton_5" >
+                     <property name="text" >
+                      <string>...</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QToolButton" name="toolButton_6" >
+                     <property name="text" >
+                      <string>...</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QComboBox" name="comboBox_3" />
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QTextEdit" name="textEdit_9" />
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>783</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile" >
+    <property name="title" >
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_view" />
+    <addaction name="separator" />
+    <addaction name="actionPrint" />
+    <addaction name="separator" />
+    <addaction name="actionQuit" />
+   </widget>
+   <widget class="QMenu" name="menuHelp" >
+    <property name="title" >
+     <string>Help</string>
+    </property>
+    <widget class="QMenu" name="menuHelp_for" >
+     <property name="title" >
+      <string>Help for...</string>
+     </property>
+     <addaction name="actionMain_view_tabs" />
+     <addaction name="actionText_module_views" />
+     <addaction name="actionSearch_2" />
+     <addaction name="actionText_module_management" />
+     <addaction name="actionNavigating_inside_Bible" />
+     <addaction name="actionCo_operation_between_modules" />
+    </widget>
+    <addaction name="actionHelp_contents" />
+    <addaction name="menuHelp_for" />
+    <addaction name="separator" />
+    <addaction name="actionAbout" />
+    <addaction name="actionWhat_s_this" />
+   </widget>
+   <widget class="QMenu" name="menuTools" >
+    <property name="title" >
+     <string>Tools</string>
+    </property>
+    <addaction name="actionSearch" />
+    <addaction name="actionModule_manager" />
+   </widget>
+   <widget class="QMenu" name="menuEdit" >
+    <property name="title" >
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCopy" />
+    <addaction name="actionPaste" />
+    <addaction name="actionSelect_all" />
+   </widget>
+   <widget class="QMenu" name="menuOptions" >
+    <property name="title" >
+     <string>Options</string>
+    </property>
+    <widget class="QMenu" name="menuTranslitteration" >
+     <property name="title" >
+      <string>Translitteration</string>
+     </property>
+     <addaction name="actionOff" />
+    </widget>
+    <addaction name="actionPreferences" />
+    <addaction name="menuTranslitteration" />
+   </widget>
+   <widget class="QMenu" name="menuBookmarks" >
+    <property name="title" >
+     <string>Bookmarks</string>
+    </property>
+    <addaction name="actionAdd_bookmark" />
+   </widget>
+   <addaction name="menuFile" />
+   <addaction name="menuEdit" />
+   <addaction name="menuBookmarks" />
+   <addaction name="menuTools" />
+   <addaction name="menuOptions" />
+   <addaction name="menuHelp" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+  <action name="actionQuit" >
+   <property name="text" >
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionBack" >
+   <property name="text" >
+    <string>Back</string>
+   </property>
+  </action>
+  <action name="actionSearch" >
+   <property name="text" >
+    <string>Advanced Search</string>
+   </property>
+  </action>
+  <action name="actionToggleLemma" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>Show lemmas</string>
+   </property>
+   <property name="iconText" >
+    <string>Lemma</string>
+   </property>
+  </action>
+  <action name="actionToggleMorphology" >
+   <property name="text" >
+    <string>Show morphology</string>
+   </property>
+   <property name="iconText" >
+    <string>Morph</string>
+   </property>
+  </action>
+  <action name="actionModule_manager" >
+   <property name="text" >
+    <string>Module manager</string>
+   </property>
+  </action>
+  <action name="actionCopy" >
+   <property name="text" >
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPreferences" >
+   <property name="text" >
+    <string>Preferences...</string>
+   </property>
+  </action>
+  <action name="actionAdd_bookmark" >
+   <property name="text" >
+    <string>Add bookmark</string>
+   </property>
+  </action>
+  <action name="actionOff" >
+   <property name="text" >
+    <string>Off</string>
+   </property>
+  </action>
+  <action name="actionHelp_contents" >
+   <property name="text" >
+    <string>Help contents</string>
+   </property>
+  </action>
+  <action name="actionMain_view_tabs" >
+   <property name="text" >
+    <string>Main view</string>
+   </property>
+  </action>
+  <action name="actionText_module_views" >
+   <property name="text" >
+    <string>Text module views</string>
+   </property>
+  </action>
+  <action name="actionSearch_2" >
+   <property name="text" >
+    <string>Search</string>
+   </property>
+  </action>
+  <action name="actionText_module_management" >
+   <property name="text" >
+    <string>Text module installation</string>
+   </property>
+  </action>
+  <action name="actionAbout" >
+   <property name="text" >
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionPaste" >
+   <property name="text" >
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionSelect_all" >
+   <property name="text" >
+    <string>Select all</string>
+   </property>
+  </action>
+  <action name="actionNew_view" >
+   <property name="text" >
+    <string>New view</string>
+   </property>
+  </action>
+  <action name="actionNavigating_inside_Bible" >
+   <property name="text" >
+    <string>Navigating inside Bible</string>
+   </property>
+  </action>
+  <action name="actionPrint" >
+   <property name="text" >
+    <string>Print</string>
+   </property>
+  </action>
+  <action name="actionCo_operation_between_modules" >
+   <property name="text" >
+    <string>Co-operation between modules</string>
+   </property>
+  </action>
+  <action name="actionWhat_s_this" >
+   <property name="text" >
+    <string>What's this?</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../mydocs/flamehammer/icons.qrc" />
+  <include location="icons.qrc" />
+ </resources>
+ <connections/>
+</ui>
