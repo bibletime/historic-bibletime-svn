@@ -1,13 +1,13 @@
 # translation of bibletime_website_fi.po to finnish
-# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2005, 2006, 2007 Free Software Foundation, Inc.
 #
-# Ilpo Kantonen <ilpo@iki.fi>, 2005, 2006.
+# Ilpo Kantonen <ilpo@iki.fi>, 2005, 2006, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_fi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-03-31 09:49+0000\n"
-"PO-Revision-Date: 2006-12-20 16:38+0200\n"
+"POT-Creation-Date: 2007-11-13 18:52+0000\n"
+"PO-Revision-Date: 2007-07-25 12:51+0300\n"
 "Last-Translator: Ilpo Kantonen <ilpo@iki.fi>\n"
 "Language-Team: finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -150,9 +150,9 @@ msgstr "Postituslistat"
 
 #. Tag: title
 #: autolayout.xml:87 layout.xml:67
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Development wiki"
-msgstr "Kehitys"
+msgstr "Wiki-kehitys"
 
 #. Tag: title
 #: autolayout.xml:91 translation.xml:9
@@ -1985,245 +1985,269 @@ msgstr "Uutiset BibleTimestä"
 #. Tag: title
 #: software.xml:52
 #, fuzzy, no-c-format
-msgid "2007-01-29: BibleTime 1.6.3"
-msgstr "26.10.2006: BibleTime 1.6.1"
+msgid "2007-11-04: BibleTime 1.6.5"
+msgstr "18.4.2007: BibleTime 1.6.4"
 
 #. Tag: para
 #: software.xml:53
-#, fuzzy, no-c-format
-msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linu distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
-msgstr "Tänään on asetettu saataville uusi versio BibleTime-ohjelmistosta. BibleTime 1.6.1 sisältää useita ohjelmavirheiden korjauksia version 1.6 julkistuksen jälkeen. Lue lisätietoja yksityiskohdista osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Kielipaketit bibletime-i18n on myös päivitetty. Sword 1.5.9 ja CLucene 0.9.15 tarvitaan ennen lähdekoodeista asennusta. Toivomme voivamme julkaista pian binääripaketit asennuksiin."
+#, no-c-format
+msgid "A new bugfix version of BibleTime is now available. It contains several important fixes in the bookshelfmanager, the sessionmanagement and in the text-display windows. It also ships with updated translations. The source code can be downloaded from our SourceForge page. Binary packages will be made available soon."
+msgstr ""
 
 #. Tag: title
+#: software.xml:58
+#, no-c-format
+msgid "2007-04-18: BibleTime 1.6.4"
+msgstr "18.4.2007: BibleTime 1.6.4"
+
+#. Tag: para
 #: software.xml:59
+#, no-c-format
+msgid "A new bugfix release of BibleTime has been released today. Version 1.6.4 fixes issues with the NETfree Bible module, the search and also contains several smaller improvements. The bibletime-i18n translations contains updated Polish and Chinese translation files."
+msgstr "Uusi BibleTimen korjattu versio on julkistettu tänään. Versio 1.6.4 korjaa NETfree Bible -moduulin käyttövirheitä. Etsintään on tullut myös useita pieniä parannuksia. Käännöksiä on päivitetty puolan ja kiinan kielillä."
+
+#. Tag: title
+#: software.xml:64
+#, no-c-format
+msgid "2007-01-29: BibleTime 1.6.3"
+msgstr "29.1.2007: BibleTime 1.6.3"
+
+#. Tag: para
+#: software.xml:65
+#, no-c-format
+msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linux distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
+msgstr "Versio 1.6.3 on julkistettu tänään. Useiden pienten virheenkorjausten lisäksi etsiminen unicode-moduuleissa toimii jälleen. Käännöksiä on päivitetty myös. Katso yksityiskohtaisia lisätietoja osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Toivomme voivamme tarjota asennuspaketit tärkeimmille Linux-distribuutioille pian. Asentaaksesi ohjelman lähdekoodeilla tarvitset Sword 1.5.9 ja CLucene 0.9.16a ohjelmat asennettuina. Näiden kahden asennuspaketit ovat ladattavissa lataussivullamme."
+
+#. Tag: title
+#: software.xml:71
 #, no-c-format
 msgid "2006-12-10: BibleTime 1.6.2"
 msgstr "10.12.2006: BibleTime 1.6.2"
 
 #. Tag: para
-#: software.xml:60
+#: software.xml:72
 #, no-c-format
 msgid "A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. The translation package bibletime-i18n has been updated, as well."
 msgstr "Tänään on julkistettu uusi versio. Se sisältää useita tärkeitä virheenkorjauksia. Muutosten yhteenveto on nähtävillä osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Kielipaketti bibletime-i18n on päivitetty myös."
 
 #. Tag: title
-#: software.xml:66
+#: software.xml:78
 #, no-c-format
 msgid "2006-10-26: BibleTime 1.6.1"
 msgstr "26.10.2006: BibleTime 1.6.1"
 
 #. Tag: para
-#: software.xml:67
+#: software.xml:79
 #, no-c-format
 msgid "A new version of the BibleTime software has been made available today. BibleTime 1.6.1 contains several fixes for bugs which have been found in version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for details. The translation package bibletime-i18n has also been updated. Sword 1.5.9 and CLucene 0.9.15 are required before installing from source code. But we hope to provide binary packages soon."
 msgstr "Tänään on asetettu saataville uusi versio BibleTime-ohjelmistosta. BibleTime 1.6.1 sisältää useita ohjelmavirheiden korjauksia version 1.6 julkistuksen jälkeen. Lue lisätietoja yksityiskohdista osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Kielipaketit bibletime-i18n on myös päivitetty. Sword 1.5.9 ja CLucene 0.9.15 tarvitaan ennen lähdekoodeista asennusta. Toivomme voivamme julkaista pian binääripaketit asennuksiin."
 
 #. Tag: title
-#: software.xml:74
+#: software.xml:86
 #, no-c-format
 msgid "2006-09-22: BibleTime 1.6"
 msgstr "22.9.2006: BibleTime 1.6"
 
 #. Tag: para
-#: software.xml:75
+#: software.xml:87
 #, no-c-format
 msgid "A new version of BibleTime has been made available today. It includes many fixes and several new features like the instant search in the installed works."
 msgstr "Tänään on julkistettu uusi versio BibleTime-ohjelmasta. Se sisältää monia virheenkorjauksia ja lukuisia uusia ominaisuuksia kuten lisättyjen teosten pikahaku."
 
 #. Tag: para
-#: software.xml:78
+#: software.xml:90
 #, no-c-format
 msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">here</ulink>"
 msgstr "Sinun tulee asentaa Sword 1.5.9 ja CLucene 0.9.15, ennen tämän BibleTime-version asennusta. Yksityiskohtainen muutosten lista on saatavilla <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">täältä</ulink>"
 
 #. Tag: title
-#: software.xml:84
+#: software.xml:96
 #, no-c-format
 msgid "2006-06-17: BibleTime 1.6beta3"
 msgstr "17.6.2006: BibleTime 1.6 beta 3"
 
 #. Tag: para
-#: software.xml:85
+#: software.xml:97
 #, no-c-format
 msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for the list of changes."
 msgstr "BibleTime 1.6 kolmas beta-versio on julkistettu nyt. Katso <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> saadaksesi luettelon muutoksista."
 
 #. Tag: para
-#: software.xml:89
+#: software.xml:101
 #, no-c-format
 msgid "You need to install CLucene 0.9.12 before installing this preview release."
 msgstr "Sinun tulee asentaa ensin CLucene 0.9.12 ennen tämän esijulkistuksen (BibleTime) asentamista."
 
 #. Tag: title
-#: software.xml:95
+#: software.xml:107
 #, no-c-format
 msgid "2006-04-26: BibleTime 1.6beta2"
 msgstr "26.4.2006: BibleTime 1.6 beta 2"
 
 #. Tag: para
-#: software.xml:96
+#: software.xml:108
 #, no-c-format
 msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for more details."
 msgstr "BibleTime 1.6 toinen esiversio on julkistettu nyt. Katso <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> saadaksesi luettelon muutoksista."
 
 #. Tag: para
-#: software.xml:100
+#: software.xml:112
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
 msgstr "Sinun tulee asentaa ensin CLucene 0.9.10 ennen tämän esijulkistuksen (BibleTime) asentamista."
 
 #. Tag: title
-#: software.xml:106
+#: software.xml:118
 #, no-c-format
 msgid "2006-03-18: BibleTime 1.6beta1"
 msgstr "18.3.2006: BibleTime 1.6 beta 1"
 
 #. Tag: para
-#: software.xml:107
+#: software.xml:119
 #, no-c-format
 msgid "The first beta release of the upcoming version 1.6 has been released today."
 msgstr "Ensimmäinen beta-julkaisu tulevasta versiosta 1.6 on julkistettu tänään."
 
 #. Tag: para
-#: software.xml:111
+#: software.xml:123
 #, no-c-format
 msgid "Among many bug fixes it includes a new instant search feature, which enabled BibleTime to search in your installed works in a fraction of a second."
 msgstr "Monien bugikorjausten seaassa se sisältää uuden pikahakuominaisuuden, joka mahdollistaa haun sekunnin murto-osissa BibleTimeen asennetuista teoksista."
 
 #. Tag: para
-#: software.xml:116
+#: software.xml:128
 #, no-c-format
 msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
 msgstr "CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) tarvitaan BibleTime 1.6 beta 1:n kääntämiseen ja asentamiseen. Ole hyvä, raportoi kaikista löydetyistä bugeista ja parannusehdotuksesi käyttäen meidän sivustoamme osoitteessa <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
 
 #. Tag: title
-#: software.xml:131
+#: software.xml:143
 #, no-c-format
 msgid "2006-03-17: Locked German Bible"
 msgstr "17.3.2006: Lukittu saksalainen Raamattu"
 
 #. Tag: para
-#: software.xml:132
+#: software.xml:144
 #, no-c-format
 msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decided to release their excellent, modern translation \"Hoffnung für Alle\" (GerHfa2002) for use by the Sword community."
 msgstr "Saksalainen julkaisia <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> päätti julkaista heidän erinomaisen uudenaikaisen käännöksensä \"Hoffnung für Alle\" (GerHfa2002) Sword-yhteisön käyttöön."
 
 #. Tag: para
-#: software.xml:141
+#: software.xml:153
 #, no-c-format
 msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here </ulink> . This module is locked. If you want to use it, you can buy an unlock key for 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen </ulink> . CrossWire is not involved in the financial transaction and receives no share of the money."
 msgstr "Tekstit sisältävät otsikoita, alaviitteitä, ... ja on ladattavissa <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\">täältä</ulink>. Tämä moduuli on lukittu. Jos haluat käyttää sitä, voit ostaa avaimen 22 &euro; hintaan <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\">suoraan Brunnen-yhtiöltä</ulink>. CrossWire ei välitä rahasiirtoja, eikä saa palkkioita."
 
 #. Tag: para
-#: software.xml:157
+#: software.xml:169
 #, no-c-format
 msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> will make use of this possibility </ulink> to distribute their copyrighted material for use with The SWORD Project."
 msgstr "Toivomme, että tulevaisuudessa yhä useampi julkaisija <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\">käyttää hyväkseen tätä mahdollisuutta</ulink> jakaakseen heidän tekijänoikeuksiltaan suojattua materiaalia SWORD-projektin käyttöön."
 
 #. Tag: para
-#: software.xml:166
+#: software.xml:178
 #, no-c-format
 msgid "This will ultimately increase the recent material available through The SWORD Project and help users with studying God's word. Stay tuned for more module updates soon!"
 msgstr "Tämä lisää lopulta SWORD-projektin kautta saatavillaolevaa uutta materiaalia ja auttaa ihmisiä lukemaan Jumalan Sanaa. Seuraa tätä saadaksesi lisää moduulien päivityksiä pian!"
 
 #. Tag: title
-#: software.xml:175
+#: software.xml:187
 #, no-c-format
 msgid "2005-12-18: Translations, packages, FAQ"
 msgstr "18.12.2005: Käännöspaketit, FAQ"
 
 #. Tag: para
-#: software.xml:176
+#: software.xml:188
 #, no-c-format
 msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
 msgstr "Käännöspaketeistamme on tullut uusi julkistus on nyt saatavilla latausalueeltamme (download). Se sisältää monta päivitystä käyttöliittymäkäännöksiin. Toivomme tarjoavamme binääripaketteja pian."
 
 #. Tag: para
-#: software.xml:182
+#: software.xml:194
 #, no-c-format
 msgid "Perhaps you noticed all the package updates in the last few months. Jeremy Erickson is working on it and is a great blessing for our team."
 msgstr "Huomasit ehkä kaikki pakettipäivitykset viimeisten kuukausien aikana. Jeremy Erickson työskentelee niiden kanssa ja se on suuri siunaus meidän työryhmällemme."
 
 #. Tag: para
-#: software.xml:187
+#: software.xml:199
 #, no-c-format
 msgid "The FAQ received some minor updates."
 msgstr "Usein kysyttyihin kysymyksiin (FAQ) tuli muutamia pieniä päivityksiä."
 
 #. Tag: title
-#: software.xml:191
+#: software.xml:203
 #, no-c-format
 msgid "2005-11-13: BibleTime 1.5.3"
 msgstr "13.11.2005: BibleTime 1.5.3"
 
 #. Tag: para
-#: software.xml:192
+#: software.xml:204
 #, no-c-format
 msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
 msgstr "Uusi virheenkorjausversio on julkaistu. Verio 1.5.3 sisältää vain muutamia korjauksia, pääasiassa valmiisiin moduuleihin ja KDE 3.0 - 3.3 -käännöksiin."
 
 #. Tag: para
-#: software.xml:197
+#: software.xml:209
 #, no-c-format
 msgid "Get the new release in the download section. Binary packages should be available soon."
 msgstr "Hae uusi ohjelmaversio lataussivulta. Binääripaketit tulevat pian."
 
 #. Tag: title
-#: software.xml:204
+#: software.xml:216
 #, no-c-format
 msgid "2005-10-16: BibleTime 1.5.2"
 msgstr "16.10.2005: BibleTime 1.5.2"
 
 #. Tag: para
-#: software.xml:205
+#: software.xml:217
 #, no-c-format
 msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
 msgstr "Uusi virheenkorjausversio on julkaistu tänään. Versio 1.5.2 sisältää korjaukset suurimpaan osaan version 1.5.1 virheistä. Se sisältää muutamia pienempiä parannuksia käyttöliittymään. Katso tiedostoa Chengelog lähdekoodipaketissa saadaksesi lisätietoja."
 
 #. Tag: para
-#: software.xml:212
+#: software.xml:224
 #, no-c-format
 msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
 msgstr "BibleTime 1.5.2 on saatavilla tavallisista lähteistä. Olisimme iloisia, jos binääripaketteja valmistettaisiin yksinkertaistamaan BibleTimen asennusta."
 
 #. Tag: title
-#: software.xml:220
+#: software.xml:232
 #, no-c-format
 msgid "2005-09-28: New forums"
 msgstr "28.9.2005: Uusi foorumi"
 
 #. Tag: para
-#: software.xml:221
+#: software.xml:233
 #, no-c-format
 msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
 msgstr "Koska vanhan foorumin ohjelmisto alkoi olla turvaton, asensimme uuden foorumiohjelmiston tänään. Toivomme, että jatkatte foorumin käyttämistä."
 
 #. Tag: title
-#: software.xml:229
+#: software.xml:241
 #, no-c-format
 msgid "2005-09-12: BibleTime 1.5.1 and translations"
 msgstr "12.9.2005: BibleTime 1.5.1 ja käännökset"
 
 #. Tag: para
-#: software.xml:230
+#: software.xml:242
 #, no-c-format
 msgid "The bugfix release 1.5.1 is available now at our download location. A first version of BibleTime's translation files has been released, too."
 msgstr "Virheenkorjausjulkaisu 1.5.1 on saatavilla nyt latausalueellamme. Ensimmäinen BibleTimen käännöstiedostojen versio on julkaistu myös."
 
 #. Tag: title
-#: software.xml:238
+#: software.xml:250
 #, no-c-format
 msgid "2005-07-16: BibleTime 1.5"
 msgstr "16.7.2005: BibleTime 1.5"
 
 #. Tag: para
-#: software.xml:239
+#: software.xml:251
 #, no-c-format
 msgid "BibleTime 1.5 is available now. It contains many new features and improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available in the download section. We hope to provide binary and translation packages for the most important Linux distributions in the next few weeks."
 msgstr "BibleTime 1.5 on saatavilla nyt. Siinä on monta uutta omainisuutta ja parannusta. BibleTime 1.5:n ja Sword 1.5.8:n lähdekoodit ovat saatavilla latausosiosta. Toivomme voivamme tarjota binääri- ja käännöspaketit tärkeimmille Linux-distribuutiolle lähiviikkojen aikana."
 
 #. Tag: para
-#: software.xml:247
+#: software.xml:259
 #, no-c-format
 msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
 msgstr "Ole hyvä, käytä uutta keskustelufoorumiamme keskustellaksesi tästä uudesta julkistuksesta. Kääntäjiä rohkaistaan päivittämään käännöksensä."
@@ -2585,8 +2609,8 @@ msgstr "Lähdekoodi ja paketit tärkeimpiin Linux-distribuutioihin ovat ladattav
 #. Tag: para
 #: software_installation.xml:26
 #, no-c-format
-msgid "Debian packages are available for <ulink url=\"http://packages.debian.org/unstable/kde/bibletime\">Debian Unstable</ulink> and <ulink url=\"http://packages.debian.org/stable/kde/bibletime\">Debian Stable</ulink>."
-msgstr "Debian-paketit ovat saatavilla <ulink url=\"http://packages.debian.org/unstable/kde/bibletime\">Debian Unstableen</ulink> ja <ulink url=\"http://packages.debian.org/stable/kde/bibletime\">Debian Stableen</ulink> ko. osotteista."
+msgid "Debian packages are available <ulink url=\"http://packages.debian.org/bibletime\">here</ulink>."
+msgstr "Debian -paketit ovat saatavilla <ulink url=\"http://packages.debian.org/bibletime\">tässä</ulink> osoitteessa."
 
 #. Tag: para
 #: software_installation.xml:31
@@ -2626,9 +2650,9 @@ msgstr "Käännetty binääripaketti"
 
 #. Tag: para
 #: software_installation.xml:54
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "With the help of great volunteers, we try to provide packages for the most important Linux distributions. Before installing BibleTime, however, you need to find and install packages for <ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.16a</ulink> and Sword (Sword binaries are available at the BibleTime download site)."
-msgstr "Monien vapaaehtoisten avustuksella yritämme tarjota paketteja tärkeimmille Linux-distribuutioille. Ennen BibleTimen asennusta sinun tulee löytää ja asentaa <ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink> ja Sword -paketit (Sword binääripaketit ovat saatavilla aBibleTimen lataussivulla)."
+msgstr "Monien vapaaehtoisten avustuksella yritämme tarjota paketteja tärkeimmille Linux-distribuutioille. Ennen BibleTimen asennusta sinun tulee löytää ja asentaa <ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.16a</ulink> ja Sword -paketit (Sword binääripaketit ovat saatavilla BibleTimen lataussivulla)."
 
 #. Tag: para
 #: software_installation.xml:57
@@ -3859,32 +3883,32 @@ msgstr "Pääikkuna"
 #. Tag: para
 #: software_screenshots.xml:33
 #, no-c-format
-msgid "Here you can see a typical BibleTime session. On the left pane, you see the \"bookshelf\" which offers quick access to all installed electronic works as well as facilities to create and manage your own bookmarks. Below is the \"mag(nifying glass)\", which can display additional information about a word or piece of text. In this example it shows details about the greek word that the KJV translates as \"God\". The main part of the BibleTime window (called \"desk\") offers space to read works such as Bibles, commentaries, lexicons or other books. The <ulink url=\"software_gallery.html\">gallery</ulink> has some nice examples of BibleTime's powerful language handling capabilities."
-msgstr "Tässä näet tyypillisen BibleTime-isunnon. Vasemmassa paneelissa näet \"kirjahyllyn\", joka antaa nopeasti kaikki asennetut elektroniset teokset kuten myös apuvälineet omien kirjanmerkkien hallintaan. Alla on \"suurennuslasi\", joka voi näyttää lisätietoja sanasta tai tekstinpätkästä. Tässä esimerkissä näytetään yksityiskohtia kreikkalaisesta sanasta, jonka KJV kääntää sanaksi \"Godn\".  BibleTimen pääikkuna (nimitetään  \"työpöydäksi\") tarjoaa tilaa lukea teoksia kuten Raamattuja, kommentaareja, sanakirjoja ja muita kirjoja. <ulink url=\"software_gallery.html\">Galleriassa</ulink> on muutamia kauniita esimerkkejä BibleTimen tehokkaista kielenkäsittelyominaisuuksista."
+msgid "Here you can see a typical BibleTime session. On the left pane, you see the \"bookshelf\" which offers quick access to all installed electronic works as well as facilities to create and manage your own bookmarks. Below is the \"mag(nifying glass)\", which can display additional information about a word or piece of text. In this example it shows details about the hebrew word that the KJV translates as \"God\". The main part of the BibleTime window (called \"desk\") offers space to read works such as Bibles, commentaries, lexicons or other books."
+msgstr "Tässä näet tyypillisen BibleTime-isunnon. Vasemmassa paneelissa näet \"kirjahyllyn\", joka antaa nopeasti kaikki asennetut sähköiset teokset kuten myös apuvälineet omien kirjanmerkkien hallintaan. Alla on \"suurennuslasi\", joka voi näyttää lisätietoja sanasta tai tekstinpätkästä. Tässä esimerkissä näytetään yksityiskohtia kreikkalaisesta sanasta, jonka KJV kääntää sanaksi \"God\".  BibleTimen pääikkuna (nimitetään  \"työpöydäksi\") tarjoaa tilaa lukea teoksia kuten Raamattuja, kommentaareja, sanakirjoja ja muita kirjoja."
 
 #. Tag: title
-#: software_screenshots.xml:54
+#: software_screenshots.xml:49
 #, no-c-format
 msgid "The Bookshelf Manager"
 msgstr "Kirjahyllyn hallinta"
 
 #. Tag: para
-#: software_screenshots.xml:66
+#: software_screenshots.xml:61
 #, no-c-format
 msgid "BibleTime offers a dialog to automatically download and manage electronic works. You simply define a library (a remote collection of works, such as <ulink url=\"http://www.crosswire.org/sword/\"> Crosswire </ulink> ), and then you can transfer works from this library to your local bookshelf to use them. Easy, huh?"
 msgstr "BibleTimessä on elektronisten teosten automaattisen lataamisen ja hallinnan ikkuna. Määrittele yksinkertaisesti kirjasto (etäkokoelma teoksia, kuten  <ulink url=\"http://www.crosswire.org/sword/\">Crosswire</ulink>), ja sitten voit siirtää ne tästä kirjastosta käyttöösi paikalliseen kirjahyllyysi. Helppoa, eikö totta?"
 
 #. Tag: title
-#: software_screenshots.xml:79
+#: software_screenshots.xml:74
 #, no-c-format
 msgid "The search dialog"
 msgstr "Etsintäikkuna"
 
 #. Tag: para
-#: software_screenshots.xml:90
+#: software_screenshots.xml:85
 #, no-c-format
-msgid "BibleTime offers a powerful search dialog. You can choose between different search algorithms (from simple AND to regular expressions), and even limit your search to certain kinds of text, such as footnotes."
-msgstr "BibleTimessä on tehokas etsintäikkuna. Voit valita erilaisista hakutavoista (yksinkertaisesta JA-hausta säännöllisiin lausekkeisiin), ja jopa rajoittaa etsintääsi tiettyihin tekstilajeihin, kuten alaviitteet."
+msgid "BibleTime offers a powerful search dialog. You can search in several works at a time, limit your search to text scopes or also to certain kinds of text, such as footnotes."
+msgstr "BibleTimessä on tehokas etsintäikkuna. Voit hakea samalla kertaa useista teoksista, rajoittaa etsintää jollekin tekstialueelle tai rajoittaa etsintääsi tiettyihin tekstilajeihin kuten alaviitteisiin."
 
 #. Tag: title
 #: software_swordcd.xml:16
@@ -3993,99 +4017,3 @@ msgstr "<title>Käännä ohjelman käsikirja.</title>"
 #, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Jos käsikirjaa ei ole saatavana omalla kielelläsi, voit ladata ja kääntää sen <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> käsikirjan käännösmallipohjasta</ulink>. Jos haluat päivittää olemassaolevaa käännöstä, käytä linkkiä allaolevassa taulukossa ladataksesi vastaavan tiedoston."
-
-#~ msgid "Gallery"
-#~ msgstr "Galleria"
-
-#~ msgid "You can find some nice screenshots of BibleTime here, showing one or two text module(s) each. They demonstrate the powerful Unicode handling mechanisms of <ulink url=\"http://www.trolltech.com\">Trolltech's</ulink> Qt 3. Some of the screenshots are really impressive."
-#~ msgstr "Löydät muutaman hienon kuvankaappauksen BibleTimestä täällä. Kukin kuva näyttää yhden tai kaksi tekstimoduulia. Ne esittelevät  <ulink url=\"http://www.trolltech.com\">Trolltechin</ulink> QT 3:a. Muutamat kuvaruudunkaappaukset ovat todella vaikuttavia."
-
-#~ msgid "Most of the screenshots were created using the superb <ulink url=\"http://home.att.net/~jameskass/CODE2000.ZIP\"> Code2000 </ulink> Unicode font. Click on the preview images to see a large and detailed version of each screenshot."
-#~ msgstr "Suurin osa kuvankaappauksista on luotu käyttäen erinomaista <ulink url=\"http://home.att.net/~jameskass/CODE2000.ZIP\">Code2000</ulink> Unicode-kirjasinta. Napsauta hiirellä esikatselukuvia nähdäksesi suuren yksityiskohtia sisältävän version kustakin kuvaruudunkaappauksesta."
-
-#~ msgid "WLC - hebrew rendering"
-#~ msgstr "WLC - heprealainen renderöinti"
-
-#~ msgid "BHS - hebrew rendering"
-#~ msgstr "BHS - heprealainen renderöinti"
-
-#~ msgid "The <emphasis>WLC</emphasis> (short for <emphasis>Westminster Leningrad Codex</emphasis> ), the best available text of the Hebrew Old Testament."
-#~ msgstr "<emphasis>WLC</emphasis> (lyhenne sanoista <emphasis>Westminster Leningrad Codex</emphasis>), paras saatavillaoleva hepreankielinen Vanha Testamentti."
-
-#~ msgid "As you can see, BibleTime renders the text correctly from right to left. Those of you who can read Hebrew will notice that the Vowel Points and the Cantillation Marks (you can switch both of them on and off) are displayed correctly."
-#~ msgstr "Kuten voit nähdä, BibleTime renderöi tekstit oikein oikealta vasemmalle. Ne, jotka teistä osaavat lukea hepreaa, huomaavat, että ääntämiskohdat ja Cantillation-merkit (voit vaihtaa kummatkin niistä näkyviksi ja pois) näytetään oikein."
-
-#~ msgid "<title>Peshitta - early syrian translation</title>"
-#~ msgstr "<title>Peshitta - varhainen syyrialainen käännös</title>"
-
-#~ msgid "<phrase>Peshitta - early syrian translation</phrase>"
-#~ msgstr "<phrase>Peshitta - varhainen syyrialainen käännös</phrase>"
-
-#~ msgid "The <emphasis>Peshitta</emphasis> contains an early Syrian text, running from right to left."
-#~ msgstr "<emphasis>Peshitta</emphasis> sisältää aikaisia Syyrialaisia tekstejä, lukeminen oikelta vasemmalle."
-
-#~ msgid "Qt renders this text very nice with Code2000, which is one of the very few fonts that support syrian characters."
-#~ msgstr "QT renderöi tämän tekstin erittäin kauniisti Code2000:lla, joka on yksi erittäin harvoista kirjasimista, jossa on syyrialaiset merkit."
-
-#~ msgid "<title>The Arabic Bible</title>"
-#~ msgstr "<title>Arabialainen Raamattu</title>"
-
-#~ msgid "<phrase>The Arabic Bible</phrase>"
-#~ msgstr "<phrase>Arabialainen Raamattu</phrase>"
-
-#~ msgid "<emphasis>AraSVD</emphasis> : The Arabic Bible. Very nice example for right-to-left rendering of a complex script - Arabic is probably one of the most complicated scripts of the world. This screenshot was taken after linebreaks were switched off, providing a more readable text view."
-#~ msgstr "<emphasis>AraSVD</emphasis>: Arabialainen Raamattu. Erittäin hieno esimerkki monimutkaisen tekstin oikealta vasemmalle -renderöinnistä - Arabia on ehkä yksi kaikkein monimutkaisimmista kielistä maailmassa. Tämä kuvankaappaus on otettu kun rivinvaihdot on poistettu käytöstä, sallien luettavamman tekstinäytön."
-
-#~ msgid "<title>Chinese rendering</title>"
-#~ msgstr "<title>Kiinalainen renderöinti</title>"
-
-#~ msgid "<phrase>Chinese rendering</phrase>"
-#~ msgstr "<phrase>Kiinalainen renderöinti</phrase>"
-
-#~ msgid "<emphasis>ChiGU</emphasis> : Chinese Bible text. Since QT 3 BibleTime can correctly break the paragraphs (as you may know, there are no spaces between words)."
-#~ msgstr "<emphasis>ChiGU</emphasis>: Kiinalainen Raamatun teksti. QT 3:sta lähtien BibleTime osaa katkaista oikein kappaleet (kuten ehkä tiedät, sanojen välissä ei ole tyhjä-merkkiä)."
-
-#~ msgid "<title>Greek rendering with Strong's numbers and morphological tags</title>"
-#~ msgstr "<title>Kreikkalainen renderöinti Strongin numeroilla ja muototunnisteilla</title>"
-
-#~ msgid "<phrase>Greek rendering with Strong's numbers and morphological tags</phrase>"
-#~ msgstr "<phrase>Kreikkalainen renderöinti Strongin numeroilla ja muotoisilla tägeillä</phrase>"
-
-#~ msgid "<emphasis>IGNT</emphasis> : The Interlinear Greek New Testament. The green numbers in \"&lt; &gt;\" brackets are Strongnumbers, whereas the numbers in \"( )\" brackets are Morphologic Tags. Both of them can displayed in a tooltip using a predefined Strong's and Morphology dictionary, as you can see in the example."
-#~ msgstr "<emphasis>IGNT</emphasis>: Interlinear Greek New Testament. Vihreät numerot \"&lt; &gt;\" -lohkossa ovat Strong-numeroita, kun taas numerot \"( )\" lohkossa ovat muoto-opillisia tunnisteita. Kummatkin voidaan näyttää työkaluohjeissa käyttämällä ennaltamääriteltyä Strongin ja muoto-opin sanakirjaa, kuten voit esimerkistä nähdä."
-
-#~ msgid "<title>Korean and Thai</title>"
-#~ msgstr "<title>Korea ja thai</title>"
-
-#~ msgid "<phrase>Korean and Thai</phrase>"
-#~ msgstr "<phrase>Korea ja thai</phrase>"
-
-#~ msgid "<emphasis>Kor</emphasis> and <emphasis>ThaiKJV</emphasis> . Korean and Thai are very good Unicode examples covered by an amount of Unicode scripts already. They are displayed in a parallel view in one window. The first line of Thai text is of a little smaller pointsize. It is a section heading, and those can be turned on and off using the first toolbutton in the display window."
-#~ msgstr "<emphasis>Kor</emphasis> ja <emphasis>ThaiKJV</emphasis>. Korea ja Thai ovat erittäin hyviä Unicode-esimerkkejä kattaen joukon Unicode-tekstejä jo. Ne näytetään rinnakkaisnäytössä yhdessä ikkunassa. Ensimmäinen rivi thai-tekstiä on hieman pienemmällä pistekoolla. Se on osion otsikko ja ne voidaan asettaa päälle tai pois käyttäen ensimmäistä työkalupainiketta näytön ikkunassa."
-
-#~ msgid "<title>Bulgarian and footnotes</title>"
-#~ msgstr "<title>Bulgaria ja alaviitteet</title>"
-
-#~ msgid "<phrase>Bulgarian and footnotes</phrase>"
-#~ msgstr "<phrase>Bulgaria ja alaviitteet</phrase>"
-
-#~ msgid "<emphasis>Bulgarian</emphasis> : The Bible in Bulgarian language. Bulgarian uses the Kyrillic script, which is also used in other languages like Russian. Notice the marked text - it is a \"footnote\". The popup menu shows how those can be turned on and off."
-#~ msgstr "<emphasis>Bulgaria</emphasis>: Raamattu Bulgarian kielellä. Bulgaria käyttää kyrillistä kirjasinta, jota käytetään myös muissa kielissä kuten venäjässä. Huomaa merkitty teksti - se on \"alaviite\". Ponnahdusvalikko näyttää kuinka ne asetetaan aktiivisiksi ja pois."
-
-#~ msgid "<title>Vietnamese and Romanian</title>"
-#~ msgstr "<title>Vietnam ja Romania</title>"
-
-#~ msgid "<phrase>Vietnamese and Romanian</phrase>"
-#~ msgstr "<phrase>Vietnam ja Romania</phrase>"
-
-#~ msgid "<emphasis>Viet</emphasis> and <emphasis>RomCor</emphasis> . East Europe meets East Asia! Vietnamese and Romanian are not geographically linked, though they look somehow similar in this screenshot."
-#~ msgstr "<emphasis>Viet</emphasis> ja <emphasis>RomCor</emphasis>. Itä-Eurooppa kohtaa Itä-Aasian! Vietnam and Romania eivät ole maantieteellisesti yhteydessä, vaikka ne näyttävät tässä kuvankaappauksessa samankaltaisilta."
-
-#~ msgid "<title>Esperanto without verse numbers and linebreaks</title>"
-#~ msgstr "<title>Esperanto ilman jaenumeroita ja rivinvaihtoja</title>"
-
-#~ msgid "<phrase>Esperanto without verse numbers and linebreaks</phrase>"
-#~ msgstr "<phrase>Esperanto ilman jaenumeroita ja rivinvaihtoja</phrase>"
-
-#~ msgid "YES, there is a Bible for those of you who prefer to speak Esperanto. This is not really a Unicode example, since the displayed characters come from the iso 8859-1 charset. But this shows how text looks like after switching off versenumbers and linebreaks."
-#~ msgstr "KYLLÄ, on olemassa Raamattu esperantoa puhuville. Tämä ei ole oie varsinainen Unicode-esimerkki, koska näytetyt merkit tulevat iso 8859-1 -merkistöstä. Mutta tämä esimerkki näyttää, miltä tekstit näyttävät kun jaenumerot ja rivinvaihdot on poistettu."

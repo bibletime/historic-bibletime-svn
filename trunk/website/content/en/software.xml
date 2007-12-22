@@ -49,9 +49,21 @@
 		  <section>
 			  <title>News about BibleTime</title>
 			  <formalpara>
+				  <title>2007-11-04: BibleTime 1.6.5</title>
+				  <para>A new bugfix version of BibleTime is now available. It contains several important fixes in the bookshelfmanager, the sessionmanagement and in the text-display windows. It also ships with updated translations. The source code can be downloaded from our SourceForge page. Binary packages will be made available soon.
+				  </para>
+			  </formalpara>
+			  
+			  <formalpara>
+				  <title>2007-04-18: BibleTime 1.6.4</title>
+				  <para>A new bugfix release of BibleTime has been released today. Version 1.6.4 fixes issues with the NETfree Bible module, the search and also contains several smaller improvements. The bibletime-i18n translations contains updated Polish and Chinese translation files.
+				  </para>
+			  </formalpara>
+
+			  <formalpara>
 				  <title>2007-01-29: BibleTime 1.6.3</title>
 				  <para>
-					Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url="http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954">Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linu distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location.
+					Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url="http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954">Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linux distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location.
 				  </para>
 			  </formalpara>
 			  
