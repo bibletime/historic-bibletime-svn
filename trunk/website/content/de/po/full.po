@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 21:02+0000\n"
+"POT-Creation-Date: 2008-02-24 22:11+0000\n"
 "PO-Revision-Date: 2007-02-17 13:06+0200\n"
 "Last-Translator: Joachim Ansorg <mail@joachim-ansorg.de>\n"
 "Language-Team:  <de@li.org>\n"
@@ -4022,12 +4022,24 @@ msgstr "Wenn eine Übersetzung der Benutzeroberfläche in ihrer Sprache noch nic
 
 #. Tag: title
 #: translation.xml:65
+#, fuzzy, no-c-format
+msgid "Translate the Bible study howto."
+msgstr "Die Anleitung zum Bibelstudium"
+
+#. Tag: para
+#: translation.xml:66
+#, fuzzy, no-c-format
+msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgstr "Wenn eine Übersetzung des Handbuches in ihrer Sprache noch nicht existiert, können Sie <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\">Handbuch Übersetzungsvorlage</ulink> herunterladen und übersetzen. Wenn Sie eine bestehende Übersetzung weiterübersetzen möchten, benutzen Sie die Verweise in der unten stehenden Tabelle um die entsprechende Datei zum Übersetzen herunterzuladen."
+
+#. Tag: title
+#: translation.xml:77
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
 msgstr "<title>Übersetzung des Programm-Handbuchs.</title>"
 
 #. Tag: para
-#: translation.xml:66
+#: translation.xml:78
 #, fuzzy, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Wenn eine Übersetzung des Handbuches in ihrer Sprache noch nicht existiert, können Sie <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\">Handbuch Übersetzungsvorlage</ulink> herunterladen und übersetzen. Wenn Sie eine bestehende Übersetzung weiterübersetzen möchten, benutzen Sie die Verweise in der unten stehenden Tabelle um die entsprechende Datei zum Übersetzen herunterzuladen."

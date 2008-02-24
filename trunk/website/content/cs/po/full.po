@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 21:02+0000\n"
+"POT-Creation-Date: 2008-02-24 22:11+0000\n"
 "PO-Revision-Date: 2006-11-01 20:38+0100\n"
 "Last-Translator: Pavel Lauko <pavel.lauko@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -3984,14 +3984,27 @@ msgstr ""
 msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/messages.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
+#
 #. Tag: title
 #: translation.xml:65
+#, fuzzy, no-c-format
+msgid "Translate the Bible study howto."
+msgstr "Jak studovat Bibli"
+
+#. Tag: para
+#: translation.xml:66
+#, no-c-format
+msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgstr ""
+
+#. Tag: title
+#: translation.xml:77
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
 msgstr "<title>Přeložte příročku k programu</title>"
 
 #. Tag: para
-#: translation.xml:66
+#: translation.xml:78
 #, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""

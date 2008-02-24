@@ -274,5 +274,6 @@ while (my $lang = shift(@langs)) {
 #Now update the statistics. At the end so we get all changed to the PO files.
 
 
-`(cd $TARGET/postats && perl make_postats.pl > /dev/null 2>&1; cd ..)`;
 
+#`(cd $TARGET/postats && perl make_postats.pl > /dev/null 2>&1; cd ..)`;
+`(./update_postats.sh > /dev/null 2>&1; cd ..)`;

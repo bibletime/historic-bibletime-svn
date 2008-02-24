@@ -43,6 +43,7 @@ sub show_stats() {
 
 	my $file = shift || die "No filename given";
 	my $link_template = shift || die "No URL template given";
+	my $langlink_template = shift || '$lang';	# The link to be put on the language name in the stats
 
 	open(IN, "< $file");
 
@@ -75,6 +76,9 @@ sub show_stats() {
 		my $url = $link_template;
 		$url =~ s/\$lang/$lang/g;
 
+		my $lang_url = $langlink_template;
+		$lang_url =~ s/\$lang/$lang/g;
+
 		my $colspan = 3;
 		--$colspan if ($translatedWidth == 0);
 		--$colspan if ($fuzzyWidth == 0);
@@ -83,7 +87,7 @@ sub show_stats() {
 		$ret .= $q->table({-class=>"language", -cellspacing=>"0", -cellpadding=>'0'},
 			$q->Tr(
 				$q->td({-colspan=>"$colspan"},
-					"$lang [" . $q->a({-href=>"$url"}, "Download as PO file") . "]:", "$translatedPerc% translated, $fuzzyPerc% need revision, $untranslatedPerc% untranslated"
+					"$lang_url [" . $q->a({-href=>"$url"}, "Download") . "]:", "$translatedPerc% translated, $fuzzyPerc% need revision, $untranslatedPerc% untranslated"
 				)
 			),
 			$q->Tr(

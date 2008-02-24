@@ -131,8 +131,6 @@ foreach my $lang (@langs){
 }
 close(OUT);
 
-#&qt_stats( "$BT_HOME/bibletime-2.0/i18n/messages", "i18n.txt" );
+&bibletime_stats( "$BT_HOME/bibletime-2.0/i18n/handbook", "handbook_stats.txt" );
+&bibletime_stats( "$BT_HOME/bibletime-2.0/i18n/howto", "howto_stats.txt" );
 
-#&bibletime_stats( "$BT_HOME/bibletime-i18n/po", 	 "messages_stats.txt" );
-#&bibletime_stats( "$BT_HOME/bibletime-i18n/po/howto", 	 "howto_stats.txt" );
-#&bibletime_stats( "$BT_HOME/bibletime-i18n/po/handbook", "handbook_stats.txt" );

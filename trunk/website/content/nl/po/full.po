@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_nl\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 21:02+0000\n"
+"POT-Creation-Date: 2008-02-24 22:11+0000\n"
 "PO-Revision-Date: 2008-01-17 17:13+0100\n"
 "Last-Translator: Johan van der Lingen <JohanLingen@hotmail.com>\n"
 "Language-Team: Nederlands\n"
@@ -4026,12 +4026,24 @@ msgstr "Als een vertaling van de gebruikersinterface nog niet in uw taal bestaat
 
 #. Tag: title
 #: translation.xml:65
+#, fuzzy, no-c-format
+msgid "Translate the Bible study howto."
+msgstr "Bijbelstudie HowTo"
+
+#. Tag: para
+#: translation.xml:66
+#, fuzzy, no-c-format
+msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgstr "Als een vertaling van het handboek nog niet in uw taal bestaat, kunt u, kunt u het <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> sjabloon voor vertaling van het handboek</ulink> downloaden en vertalen. Als u een bestaande vertaling wilt verbeteren, gebruik dan de links in onderstaande tabel om het bijbehorende bestand te downloaden."
+
+#. Tag: title
+#: translation.xml:77
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
 msgstr "<title>Vertaal het programma handboek.</title>"
 
 #. Tag: para
-#: translation.xml:66
+#: translation.xml:78
 #, fuzzy, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Als een vertaling van het handboek nog niet in uw taal bestaat, kunt u, kunt u het <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> sjabloon voor vertaling van het handboek</ulink> downloaden en vertalen. Als u een bestaande vertaling wilt verbeteren, gebruik dan de links in onderstaande tabel om het bijbehorende bestand te downloaden."

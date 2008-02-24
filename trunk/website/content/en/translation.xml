@@ -62,6 +62,18 @@ download the corresponding file.
 	<ssi mode="exec" cgi="/postats/messages_stats.pl"/>
 </section>
 
+<section><title>Translate the Bible study howto.</title>
+<para>
+If a translation of the Bible study howto to your language does not yet exist, you can download and translate
+the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot">
+howto translation template</ulink>.
+If you want to update an existing translation, use the links in the table below to download the corresponding file.
+</para>
+	<ssi mode="exec" cgi="/postats/howto_stats.pl"/>
+</section>
+
+
+
 <section><title>Translate the program's handbook.</title>
 <para>
 If a translation of the handbook to your language does not yet exist, you can download and translate

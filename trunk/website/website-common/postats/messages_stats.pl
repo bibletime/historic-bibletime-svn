@@ -19,5 +19,6 @@ my $stats = SSI::POStats->new( $cgi );
 print $cgi->header();
 
 print $cgi->start_div({-class=>'postats'});
-print $stats->show_stats("messages_stats.txt", 'http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime-i18n/po/$lang.po?rev=HEAD');
+print $stats->show_stats("messages_stats.txt", 'http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/$lang.ts');
+#print $stats->show_stats("messages_stats.txt", 'http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime-i18n/po/$lang.po?rev=HEAD');
 print $cgi->end_div();

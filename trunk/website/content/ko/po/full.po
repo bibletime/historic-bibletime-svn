@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 21:02+0000\n"
+"POT-Creation-Date: 2008-02-24 22:11+0000\n"
 "PO-Revision-Date: 2004-02-04 11:05+0545\n"
 "Last-Translator:  <s970501@ku.edu.np>\n"
 "Language-Team:  <ko@li.org>\n"
@@ -4002,12 +4002,24 @@ msgstr "사용자 인터페이스의 번역이 아직 존재하지 않는다면,
 
 #. Tag: title
 #: translation.xml:65
+#, fuzzy, no-c-format
+msgid "Translate the Bible study howto."
+msgstr "바이블스터디 하우투"
+
+#. Tag: para
+#: translation.xml:66
+#, fuzzy, no-c-format
+msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgstr "당신의 언어로 된 핸드북이 존재하지 않는다면, <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> 핸드북 번역 템플릿</ulink>에서 템플릿을 다운로드하여 번역하실 수 있습니다. 기존의 번역을 업데이트하고 싶으시면, 아래의 테이블에서 필요한 파일을 다운로드하실 수 있습니다."
+
+#. Tag: title
+#: translation.xml:77
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
 msgstr "<title>프로그램 핸드북의 번역.</title>"
 
 #. Tag: para
-#: translation.xml:66
+#: translation.xml:78
 #, fuzzy, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "당신의 언어로 된 핸드북이 존재하지 않는다면, <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> 핸드북 번역 템플릿</ulink>에서 템플릿을 다운로드하여 번역하실 수 있습니다. 기존의 번역을 업데이트하고 싶으시면, 아래의 테이블에서 필요한 파일을 다운로드하실 수 있습니다."

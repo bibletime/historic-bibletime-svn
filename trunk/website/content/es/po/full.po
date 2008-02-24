@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 21:02+0000\n"
+"POT-Creation-Date: 2008-02-24 22:11+0000\n"
 "PO-Revision-Date: 2006-12-25 16:20+0200\n"
 "Last-Translator: Joachim Ansorg <mail@joachim-ansorg.de>\n"
 "Language-Team:  <de@li.org>\n"
@@ -3677,12 +3677,24 @@ msgstr "Si la traducción de la interfaz del programa todavía no existe en tu i
 
 #. Tag: title
 #: translation.xml:65
+#, fuzzy, no-c-format
+msgid "Translate the Bible study howto."
+msgstr "El HowTo Cómo estudiar la biblia"
+
+#. Tag: para
+#: translation.xml:66
+#, fuzzy, no-c-format
+msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgstr "Si la traducción del manual no existe todavía en tu idioma, puedes descargar y traducir la <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\">plantilla de traducción del manual</ulink>. Si deseas mejorar una traducción existente, usa los enlaces de la tabla a continuación para descargar el archivo correspondiente."
+
+#. Tag: title
+#: translation.xml:77
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
 msgstr "<title> Traducción del manual del programa. </title>"
 
 #. Tag: para
-#: translation.xml:66
+#: translation.xml:78
 #, fuzzy, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Si la traducción del manual no existe todavía en tu idioma, puedes descargar y traducir la <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\">plantilla de traducción del manual</ulink>. Si deseas mejorar una traducción existente, usa los enlaces de la tabla a continuación para descargar el archivo correspondiente."
