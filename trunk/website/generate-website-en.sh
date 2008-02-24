@@ -6,4 +6,5 @@ rm content/$POLANG/autolayout.xml
 xsltproc --output content/$POLANG/autolayout.xml docbook-xsl/website/xsl/autolayout.xsl content/$POLANG/layout.xml 
 xsltproc --nonet --path "content/$POLANG/" --stringparam output-root website-generated/$POLANG/ bibletime-xsl/bibletime.xsl content/$POLANG/autolayout.xml
 cp -Raf website-common/* website-generated/
-$(cd website-generated/postats && ./make_postats.pl)
+#$(cd website-generated/postats && ./make_postats.pl)
+$(./update_postats.sh)

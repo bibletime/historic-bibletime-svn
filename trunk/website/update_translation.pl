@@ -265,7 +265,7 @@ while (my $lang = shift(@langs)) {
 `cp -raf website-common/* website-common/.htaccess  $TARGET`;
 
 #Copy all language po file
-`mkdir website-generated/po;`;
+`test -d website-generated/po || mkdir website-generated/po;`;
 `for d in \$(cat config/language.conf); do echo "\$d"; cp -Rf content/\$d/po/full.po website-generated/po/bibletime_website_\$d.po; done;`;
 `cp content/en/pot/full.pot website-generated/po/bibletime_website_template.pot`;
 

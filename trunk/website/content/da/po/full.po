@@ -1,198 +1,199 @@
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# translation of BibletimeWStrans.po to dansk
 #
-#, fuzzy
+# FIRST AUTHOR <Hsonesson@gmail.com>, 2007.
+# Henrik Sonesson <Hsonesson@gmail.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: BibletimeWStrans\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 21:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2007-07-28 18:45+0000\n"
+"PO-Revision-Date: 2007-12-28 01:26+0100\n"
+"Last-Translator: Henrik Sonesson <Hsonesson@gmail.com>\n"
+"Language-Team: dansk <da@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: application/x-xml2pot; charset=UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #. Tag: holder
 #: autolayout.xml:4 layout.xml:17
 #, no-c-format
 msgid "The BibleTime developers"
-msgstr ""
+msgstr "Bibeltimes udviklere"
 
 #. Tag: title
 #: autolayout.xml:5 error404.xml:9
 #, no-c-format
 msgid "Error 404: File not found"
-msgstr ""
+msgstr "Fejl 404: Fil ikke fundet"
 
 #. Tag: title
 #: autolayout.xml:9 devotional.xml:9
 #, no-c-format
 msgid "Devotional"
-msgstr ""
+msgstr "Andagt"
 
 #. Tag: title
 #: autolayout.xml:13 sidebar_tips.xml:11
 #, no-c-format
 msgid "Sidebar tips"
-msgstr ""
+msgstr "Sidepanel tips"
 
 #. Tag: title
 #: autolayout.xml:17 software_swordcd.xml:10
 #, no-c-format
 msgid "Sword CD"
-msgstr ""
+msgstr "Sword CD"
 
 #. Tag: title
 #: autolayout.xml:21 index.xml:9
 #, no-c-format
 msgid "BibleTime"
-msgstr ""
+msgstr "BibleTime"
 
 #. Tag: title
 #: autolayout.xml:24 software.xml:10
 #, no-c-format
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #. Tag: title
 #: autolayout.xml:27 software_about.xml:9
 #, no-c-format
 msgid "About BibleTime"
-msgstr ""
+msgstr "Om BibleTime"
 
 #. Tag: title
 #: autolayout.xml:31 software_screenshots.xml:9
 #, no-c-format
 msgid "Screenshots"
-msgstr ""
+msgstr "Skærmbilleder"
 
 #. Tag: title
 #: autolayout.xml:35 software_installation.xml:11
 #, no-c-format
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #. Tag: title
 #: autolayout.xml:39 software_faq.xml:11
 #, no-c-format
 msgid "<title>FAQ</title>"
-msgstr ""
+msgstr "<title>OSS/FAQ</title>"
 
 #. Tag: title
 #: autolayout.xml:43 software_links.xml:9
 #, no-c-format
 msgid "Links"
-msgstr ""
+msgstr "Links"
 
 #. Tag: title
 #: autolayout.xml:47 software_linkus.xml:9
 #, no-c-format
 msgid "Link to us"
-msgstr ""
+msgstr "Link til os"
 
 #. Tag: title
 #: autolayout.xml:51 software_guestbook.xml:9
 #, no-c-format
 msgid "Guestbook"
-msgstr ""
+msgstr "Gæstebog"
 
 #. Tag: title
 #: autolayout.xml:55 software_press.xml:10 software_press.xml:15
 #, no-c-format
 msgid "In the press"
-msgstr ""
+msgstr "I pressen"
 
 #. Tag: title
 #: autolayout.xml:59 software_contact.xml:10
 #, no-c-format
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #. Tag: title
 #: autolayout.xml:63 software_license.xml:9 software_license.xml:14
 #, no-c-format
 msgid "License"
-msgstr ""
+msgstr "Licens"
 
 #. Tag: title
 #: autolayout.xml:67 software_imprint.xml:10
 #, no-c-format
 msgid "Imprint"
-msgstr ""
+msgstr "Ansvar for siderne"
 
 #. Tag: title
 #: autolayout.xml:72 development.xml:10
 #, no-c-format
 msgid "Development"
-msgstr ""
+msgstr "Udvikling"
 
 #. Tag: title
 #: autolayout.xml:75 development_help.xml:12
 #, no-c-format
 msgid "Help us"
-msgstr ""
+msgstr "Hjælp os"
 
 #. Tag: title
 #: autolayout.xml:79 development_join.xml:10
 #, no-c-format
 msgid "Join us"
-msgstr ""
+msgstr "Slut dig til os"
 
 #. Tag: title
 #: autolayout.xml:83 development_mailinglists.xml:10
 #, no-c-format
 msgid "Mailinglists"
-msgstr ""
+msgstr "Mailinglister"
 
 #. Tag: title
 #: autolayout.xml:87 layout.xml:67
 #, no-c-format
 msgid "Development wiki"
-msgstr ""
+msgstr "Udviklings wiki"
 
 #. Tag: title
 #: autolayout.xml:91 translation.xml:9
 #, no-c-format
 msgid "Translation"
-msgstr ""
+msgstr "Oversættelse"
 
 #. Tag: title
 #: autolayout.xml:95 biblehowto.docbook:17
 #, no-c-format
 msgid "Biblestudy HowTo"
-msgstr ""
+msgstr "Bibelstudie vejledning"
 
 #. Tag: title
 #: biblehowto.docbook:25
 #, no-c-format
 msgid "The Biblestudy HowTo"
-msgstr ""
+msgstr "Bibelstudie vejledningen"
 
 #. Tag: author
 #: biblehowto.docbook:28
 #, no-c-format
 msgid "<firstname>Bob</firstname> <surname>Harman</surname>"
-msgstr ""
+msgstr "<firstname>Bob</firstname> <surname>Harman</surname>"
 
 #. Tag: trans_comment
 #: biblehowto.docbook:34
 #, no-c-format
 msgid "ROLES_OF_TRANSLATORS"
-msgstr ""
+msgstr "ROLES_OF_TRANSLATORS"
 
 #. Tag: holder
 #: biblehowto.docbook:38
 #, no-c-format
 msgid "The team of &bibletime;, info@bibletime.info"
-msgstr ""
+msgstr "Holdet bag &bibletime;, info@bibletime.info"
 
 #. Tag: holder
 #: biblehowto.docbook:41
 #, no-c-format
 msgid "Bob Harman"
-msgstr ""
+msgstr "Bob Harman"
 
 #. Tag: para
 #: biblehowto.docbook:44
@@ -200,7 +201,7 @@ msgstr ""
 msgid ""
 "The copyright of this text is held by the author Bob Harman. The text was "
 "adapted for publication with BibleTime by Fred Saalbach."
-msgstr ""
+msgstr "Ophavsretten til denne tekst tilhører Bob Harman. Teksten er tilpasset til publikation med BibleTime af Fred Saalbach."
 
 #. Tag: para
 #: biblehowto.docbook:48
@@ -219,7 +220,7 @@ msgid ""
 "For questions regarding the use of this material contact Bob Harman c/o New "
 "Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA "
 "<email>ncc@ncchampton.org</email>."
-msgstr ""
+msgstr "For spørgsmål omhandlende brugen af dette materiale, kontakt Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
 
 #. Tag: para
 #: biblehowto.docbook:58
@@ -227,13 +228,13 @@ msgstr ""
 msgid ""
 "Scripture quotes are from the New American Standard Bible unless otherwise "
 "indicated"
-msgstr ""
+msgstr "Bibel citater er fra New American Standard Bible medmindre andet er indikeret"
 
 #. Tag: title
 #: biblehowto.docbook:67
 #, no-c-format
 msgid "Abstract"
-msgstr ""
+msgstr "Abstrakt"
 
 #. Tag: para
 #: biblehowto.docbook:68
@@ -241,7 +242,7 @@ msgstr ""
 msgid ""
 "The <application>Biblestudy HowTo</application> is a guide for studying the "
 "Bible."
-msgstr ""
+msgstr "<application>Bibelstudieguiden</application> er en guide til at studere bibelen."
 
 #. Tag: para
 #: biblehowto.docbook:71
@@ -253,13 +254,13 @@ msgid ""
 "denominational doctrine. We expect you to read and study the scriptures to "
 "understand what they say. If you start with the attitude that you want to "
 "have the Lord sow his word in your heart He will not disappoint you."
-msgstr ""
+msgstr "&bibletime; teamet håber at denne guide vil opfordre læsere til at studere skriftstederne for at se hvad Bibelen har at sige til dem. Akkurat denne bibelguide er valgt fordi den ikke prøver at favorisere nogen bestemt kirkelig retning. Vi regner med at du vil læse og studere skriftstederne for at forstå hvad de har at sige. Hvis du starter med den indstilling at du vil have Herren til at så sit ord i dit hjerte, vil han ikke skuffe dig."
 
 #. Tag: keyword
 #: biblehowto.docbook:81
 #, no-c-format
 msgid "Bible"
-msgstr ""
+msgstr "Bibel"
 
 #. #-#-#-#-#  biblehowto.pot (PACKAGE VERSION)  #-#-#-#-#
 #. Tag: keyword
@@ -268,19 +269,19 @@ msgstr ""
 #: biblehowto.docbook:82 how2-basics.docbook:47
 #, no-c-format
 msgid "Study"
-msgstr ""
+msgstr "Studere"
 
 #. Tag: keyword
 #: biblehowto.docbook:83
 #, no-c-format
 msgid "HowTo"
-msgstr ""
+msgstr "HowTo"
 
 #. Tag: title
 #: development.xml:15
 #, no-c-format
 msgid "BibleTime's development"
-msgstr ""
+msgstr "BibelTimes udvikling"
 
 #. Tag: para
 #: development.xml:16
@@ -289,7 +290,7 @@ msgid ""
 "These pages describe how to join in the development of BibleTime and which "
 "ways exist to help us! BibleTime's quality and usefulness depends on the "
 "help of others to a large degree."
-msgstr ""
+msgstr "De her sider beskriver hvordan man kan slutte sig til udviklingen af BibleTime og hvilke måder man kan hjælpe os på! BibleTimes kvalitet og brugervenlighed afhænger i høj grad af hjælp fra andre."
 
 #. Tag: para
 #: development.xml:20
@@ -297,13 +298,13 @@ msgstr ""
 msgid ""
 "Please read the following pages very carefully to see whether you can help "
 "us with the development!"
-msgstr ""
+msgstr "Vær venlig at læse de følgende sider meget grundigt for at se om du kan hjælpe os med udvikling!"
 
 #. Tag: title
 #: development_help.xml:17
 #, no-c-format
 msgid "Please help us ..."
-msgstr ""
+msgstr "Vær venlig at hjælp os..."
 
 #. Tag: para
 #: development_help.xml:18
@@ -312,13 +313,13 @@ msgid ""
 "Our aim is to develop BibleTime into a really mature Bible study application "
 "that can by everyone. To ahieve this, we need your help. There are different "
 "possibilities for supporting the BibleTime project directly and indirectly:"
-msgstr ""
+msgstr "Vores mål er at udvikle BibleTime til et modent Bibelstudie program, som kan bruges af hvem som helst. For at opnå det har vi brug for din hjælp. Der er forskellige måder du kan hjælpe BibleTime-projektet både direkte og indirekte:"
 
 #. Tag: title
 #: development_help.xml:24
 #, no-c-format
 msgid "Do you want to pray?"
-msgstr ""
+msgstr "Ønsker du at bede?"
 
 #. Tag: para
 #: development_help.xml:25
@@ -327,13 +328,13 @@ msgid ""
 "Praying is something everybody can do. If you are praying for the Sword and "
 "BibleTime projects you are helping us as much as the other team members of "
 "the BibleTime project."
-msgstr ""
+msgstr "At bede er noget alle kan gøre. Hvis du beder for Sword og BibelTimes projekter hjælper du os lige så meget som de andre medlemmer af BibleTime-prjektets teamet."
 
 #. Tag: title
 #: development_help.xml:30
 #, no-c-format
 msgid "Do you want to report a bug or suggest a new feature?"
-msgstr ""
+msgstr "Vil du repportere en fejl eller foreslå en ny feature?"
 
 #. Tag: para
 #: development_help.xml:31
@@ -348,6 +349,11 @@ msgid ""
 "similar bug has already been handled (and is therefore alredy in status "
 "\"closed\")."
 msgstr ""
+"Du kan bruge <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;"
+"atid=100954\">BibleTime's fejl finder</ulink> til at reportere problemer med BibleTime, som du oplever. Vær sikker på at du inkluderer den version af BibleTime, som du bruger, din Sword version, information omkring QT/KDE og "
+"dit styresystem, og alt andet der er nødvendigt for at genskabe fejlen. Før du indsender fejlen, kig databasen igennem for at se om en "
+"lignende fejl allerede er blevet håndteret (og derfor allerede har statussen "
+"\"closed\")."
 
 #. Tag: para
 #: development_help.xml:34
@@ -364,7 +370,7 @@ msgstr ""
 #: development_help.xml:39
 #, no-c-format
 msgid "Do you know how to program software?"
-msgstr ""
+msgstr "Ved du hvordan man programmerer software?"
 
 #. Tag: para
 #: development_help.xml:40
@@ -376,12 +382,14 @@ msgid ""
 "so, please read the page <olink targetdocent=\"development_join\"> Join us</"
 "olink>."
 msgstr ""
+"Kan du finde ud af at programmere i C ++? Er du vant til eller villig til at lære KDE programmerings grænsefladen? Hvis du har tid til at arbejde med BibleTimes kildekode regelmæssigt, vil vi bede dig om at slutte dig til vores team. Hvis du gerne vil det, så vær venlig at læs den her side <olink targetdocent=\"development_join\"> Slut dig til os</"
+"olink>."
 
 #. Tag: title
 #: development_help.xml:49
 #, no-c-format
 msgid "Do you know how to write documentation?"
-msgstr ""
+msgstr "Ved du hvordan man skriver dokumentation?"
 
 #. Tag: para
 #: development_help.xml:50
@@ -396,7 +404,7 @@ msgstr ""
 #: development_help.xml:57
 #, no-c-format
 msgid "Are you good in translating english into another language?"
-msgstr ""
+msgstr "Er du god til at oversætte engelsk til et andet sprog?"
 
 #. Tag: para
 #: development_help.xml:58
@@ -415,13 +423,13 @@ msgstr ""
 msgid ""
 "You can find more information about the translation process on the page "
 "<olink targetdocent=\"translations\"> translation</olink>."
-msgstr ""
+msgstr "Du kan finde flere informationer om oversættelses processen på den her side <olink targetdocent=\"translations\"> translation</olink>. "
 
 #. Tag: title
 #: development_join.xml:15
 #, no-c-format
 msgid "Join the BibleTime team"
-msgstr ""
+msgstr "Slut dig til BibleTime holdet"
 
 #. Tag: para
 #: development_join.xml:16
@@ -429,20 +437,19 @@ msgstr ""
 msgid ""
 "We are glad for everybody who helps us improving the BibleTime software, "
 "it's documentation and it's translations."
-msgstr ""
+msgstr "Vi er glade for alle som hjælper os med at forbedre BibelTimes software, dens dokumentation og dens oversættelse."
 
 #. Tag: title
 #: development_join.xml:20
 #, no-c-format
 msgid "The basic steps.."
-msgstr ""
+msgstr "De grundlæggende skridt.."
 
 #. Tag: para
 #: development_join.xml:21
 #, no-c-format
-msgid ""
-"The following are necessary for each type of team member. Please follow them!"
-msgstr ""
+msgid "The following are necessary for each type of team member. Please follow them!"
+msgstr "Det følgende er nødvendigt for en hver type af holdmedlem. Vær venlig at følge dem!"
 
 #. Tag: para
 #: development_join.xml:27
@@ -452,6 +459,8 @@ msgid ""
 "ulink>, please sign up for one. It's free. We need your username to add you "
 "to the team members, to assign tasks to you, etc."
 msgstr ""
+"Hvis du ikke har en konto på <ulink url=\"https://sf.net\">SourceForge</"
+"ulink>, så vær venlig at anskaffe dig dig en. Det er gratis. Vi har brug for dit brugernavn til at tilføje dig til teammedlemmerne, så de kan give dig opgaver, osv."
 
 #. Tag: para
 #: development_join.xml:32
@@ -470,13 +479,13 @@ msgstr ""
 msgid ""
 "Get the development version of BibleTime and install it. If you need help "
 "with this ask on the mailing list or look into the documentation section."
-msgstr ""
+msgstr "Få fat i udviklings versionen af BibleTime og installer den. Hvis du har brug for hjælp med det, så spørg over mailinglisten eller kig i dokumentations sektionen."
 
 #. Tag: title
 #: development_join.xml:44
 #, no-c-format
 msgid "The next steps for software developers..."
-msgstr ""
+msgstr "De næste skridt for software udviklere"
 
 #. Tag: para
 #: development_join.xml:48
@@ -484,7 +493,7 @@ msgstr ""
 msgid ""
 "Work through some of the Qt 3 and KDE 3 tuorials to get used to programming "
 "with the things BibleTime uses."
-msgstr ""
+msgstr "Arbejd dig gennem nogle af Qt 3 og KDE 3 øvelserne for at blive vant til at programmere med de ting BibleTime bruger."
 
 #. Tag: para
 #: development_join.xml:52
@@ -492,13 +501,13 @@ msgstr ""
 msgid ""
 "If you don't know what to do please ask on the mailing list for some tasks. "
 "Don't forget to add how difficult it should be."
-msgstr ""
+msgstr "Hvis du ikke ved hvad du skal gøre så spørg nogle over mailinglisten for nogle opgaver. Glem ikke at tilføje hvor svært skal være."
 
 #. Tag: title
 #: development_join.xml:59
 #, no-c-format
 msgid "The next steps for documentation authors..."
-msgstr ""
+msgstr "De næste skridt for dokumentations forfattere..."
 
 #. Tag: para
 #: development_join.xml:63
@@ -506,7 +515,7 @@ msgstr ""
 msgid ""
 "Read the existing english documentation. It's located in the docs/ directory "
 "of the bibletime cvs directory."
-msgstr ""
+msgstr "Læs den eksisterende engelske dokumentation. Den ligger i mappen docs/ i BibleTimes cvs mappe."
 
 #. Tag: para
 #: development_join.xml:67
@@ -523,7 +532,7 @@ msgstr ""
 #: development_join.xml:76
 #, no-c-format
 msgid "The next steps for translators..."
-msgstr ""
+msgstr "De næste skridt for oversættere"
 
 #. Tag: para
 #: development_join.xml:80
@@ -531,7 +540,7 @@ msgstr ""
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They're "
 "located at <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>."
-msgstr ""
+msgstr "Ta' et kig på internationaliserings siderne til KDE projektet. Disse sider ligger på <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>."
 
 #. Tag: para
 #: development_join.xml:84
@@ -539,7 +548,7 @@ msgstr ""
 msgid ""
 "Install the program KBabel, if it's not yet installed on your system. It "
 "will help you a lot with the translation process."
-msgstr ""
+msgstr "Installer programmet KBabel, hvis det ikke allerede er installeret på dit system. Det vil hjælpe dig med meget af oversættelses procesen."
 
 #. Tag: para
 #: development_join.xml:88
@@ -548,12 +557,14 @@ msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
 "BibleTime</olink>."
 msgstr ""
+"Læs siden om <olink targetdocent=\"translation\">oversættelse af "
+"BibleTime</olink>."
 
 #. Tag: title
 #: development_mailinglists.xml:15
 #, no-c-format
 msgid "BibleTime development mailing list"
-msgstr ""
+msgstr "BibleTimes udviklings mailingliste"
 
 #. Tag: para
 #: development_mailinglists.xml:16
@@ -603,7 +614,7 @@ msgstr ""
 #: devotional.xml:14
 #, no-c-format
 msgid "Did you know..."
-msgstr ""
+msgstr "Vidste du at..."
 
 #. Tag: para
 #: devotional.xml:15
@@ -618,6 +629,9 @@ msgid ""
 "regions worldwide. These pages are from Open Doors, an independent "
 "organization trat tries to help persecuted Christians."
 msgstr ""
+"Vidste du at i dag 2006, at mere end 200.000.000 kristne bliver dårligt behandlet, forfulgt og endda dræbt på grund af deres tro? <ulink url="
+"\"http://www.opendoors-de.org/downloads/persecde.pdf\"> Det her kort</ulink> (Tysk) viser de lande hvor folk er nødt til at &quot;betale&quot; for deres tro, og <ulink url=\"http://www.opendoorsusa.org/Display.asp?Page=Map"
+"\">her er et engelsk et</ulink> der har noget information om hovedregionerne. De her sider er fra Åbne Døre, en uafhængig organisation der prøver at hjælpe forfulgte kristne. Deres danske hjemmeside kan findes <ulink url=\"http://www.forfulgt.dk\">her</ulink>."
 
 #. Tag: para
 #: devotional.xml:17
@@ -626,13 +640,13 @@ msgid ""
 "1Cor 12:26.27: &quot;If one part of the body suffers, all the other parts "
 "share its suffering... You are Christ's body and each of you is an "
 "individual part of it.&quot;"
-msgstr ""
+msgstr "1.Kor.12:26-27: &quot;Hvis et lem på kroppen lider, lider alle de andre lemmer også... I er Kristis krop og hver af jer er en individuel del af den.&quot;"
 
 #. Tag: title
 #: error404.xml:14
 #, no-c-format
 msgid "The document is not available"
-msgstr ""
+msgstr "Dette dokument er ikke tilgængeligt"
 
 #. Tag: para
 #: error404.xml:15
@@ -642,6 +656,8 @@ msgid ""
 "bibletime.info/\">www.bibletime.info</ulink>. Please use the navigation tree "
 "on the left to see if the document was moved."
 msgstr ""
+"Dokumentet du ønskede er ikke til rådighed på <ulink url=\"http://www."
+"bibletime.info/\">www.bibletime.info</ulink>. Vær venlig at bruge navigationsmenuen til venstre for at se om dokumentet er blevet flyttet."
 
 #. Tag: para
 #: error404.xml:19
@@ -649,19 +665,19 @@ msgstr ""
 msgid ""
 "If you can't solve the problem please report the URL which failed to "
 "<email>info@bibletime.info</email>. Thank you very much!"
-msgstr ""
+msgstr "Hvis du ikke kan løse problemet, så reporter URL'et der fejlede til <email>info@bibletime.info</email>. Mange tak!"
 
 #. Tag: title
 #: how2-basics.docbook:1
 #, no-c-format
 msgid "Bible Study Basics"
-msgstr ""
+msgstr "Grundlæggende Bibelstudie"
 
 #. Tag: title
 #: how2-basics.docbook:4
 #, no-c-format
 msgid "Our Purpose as we Approach the Bible"
-msgstr ""
+msgstr "Vores formål når vi nærmer os Bibelen"
 
 #. Tag: para
 #: how2-basics.docbook:5
@@ -688,6 +704,8 @@ msgid ""
 "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, "
 "InterVarsity Press 1978, pp.97, 104."
 msgstr ""
+"John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, "
+"InterVarsity Press 1978, pp.97, 104."
 
 #. Tag: para
 #: how2-basics.docbook:17
@@ -714,7 +732,7 @@ msgstr ""
 #: how2-basics.docbook:29
 #, no-c-format
 msgid "Approaches to God's Word"
-msgstr ""
+msgstr "Tilgange til Guds Ord"
 
 #. Tag: para
 #: how2-basics.docbook:30
@@ -724,13 +742,13 @@ msgid ""
 "and memorization provide a microscopic view of scripture. Meditating on the "
 "scriptures brings hearing, reading, studying and memorization together and "
 "cements the word in our minds."
-msgstr ""
+msgstr "Lytning og læsning giver et teleskopisk syn af skriften, mens studie og udenadlære giver et microskopisk syn på skriften. Meditation på skriften samler lytning, læsning, studie og udenadlære og grundfæster det i vores hjerter."
 
 #. Tag: title
 #: how2-basics.docbook:35
 #, no-c-format
 msgid "Hear"
-msgstr ""
+msgstr "Hør"
 
 #. Tag: para
 #: how2-basics.docbook:36
@@ -744,7 +762,7 @@ msgstr ""
 #: how2-basics.docbook:40
 #, no-c-format
 msgid "Read"
-msgstr ""
+msgstr "Læs"
 
 #. Tag: para
 #: how2-basics.docbook:41
@@ -784,7 +802,7 @@ msgstr ""
 #: how2-basics.docbook:57
 #, no-c-format
 msgid "Memorize"
-msgstr ""
+msgstr "Lær uden ad"
 
 #. Tag: para
 #: how2-basics.docbook:58
@@ -798,7 +816,7 @@ msgstr ""
 #: how2-basics.docbook:62
 #, no-c-format
 msgid "Meditate"
-msgstr ""
+msgstr "Meditér"
 
 #. Tag: para
 #: how2-basics.docbook:63
@@ -825,13 +843,13 @@ msgstr ""
 #: how2-basics.docbook:77
 #, no-c-format
 msgid "Types of Bible Studies"
-msgstr ""
+msgstr "Typer af Bibelstudier"
 
 #. Tag: title
 #: how2-basics.docbook:78
 #, no-c-format
 msgid "Topical Study"
-msgstr ""
+msgstr "Emnestudie"
 
 #. Tag: para
 #: how2-basics.docbook:79
@@ -839,20 +857,19 @@ msgstr ""
 msgid ""
 "Pick out a certain topic and follow it through, using cross-references or a "
 "concordance."
-msgstr ""
+msgstr "Vælg et særligt emne og følg det ved hjælp af kryds-referencer eller en ordforklaring."
 
 #. Tag: title
 #: how2-basics.docbook:83
 #, no-c-format
 msgid "Character Study"
-msgstr ""
+msgstr "Studie af en person"
 
 #. Tag: para
 #: how2-basics.docbook:84
 #, no-c-format
-msgid ""
-"Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
-msgstr ""
+msgid "Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
+msgstr "Studie af en person fra Bibelens liv, f.eks. Josefs liv i 1.Mos.37-50."
 
 #. Tag: title
 #: how2-basics.docbook:86
@@ -876,7 +893,7 @@ msgstr ""
 #: how2-basics.docbook:93
 #, no-c-format
 msgid "Content"
-msgstr ""
+msgstr "Indhold"
 
 #. Tag: para
 #: how2-basics.docbook:94
@@ -905,7 +922,7 @@ msgstr ""
 #: how2-basics.docbook:103 how2-interpretation.docbook:26
 #, no-c-format
 msgid "Cross-reference"
-msgstr ""
+msgstr "Krydsreference"
 
 #. Tag: para
 #: how2-basics.docbook:104
@@ -937,7 +954,7 @@ msgstr ""
 #: how2-basics.docbook:115
 #, no-c-format
 msgid "Beware of practicing your righteousness before men to be noticed"
-msgstr ""
+msgstr "Pas på med at udøve din retfærdighed foran mennesker, bare for at blive lagt mærke til"
 
 #. Tag: para
 #: how2-basics.docbook:118
@@ -952,19 +969,19 @@ msgstr ""
 #: how2-basics.docbook:122 how2-basics.docbook:131
 #, no-c-format
 msgid "When you give"
-msgstr ""
+msgstr "Når du giver"
 
 #. Tag: listitem
 #: how2-basics.docbook:123
 #, no-c-format
 msgid "When you fast"
-msgstr ""
+msgstr "Når du faster"
 
 #. Tag: listitem
 #: how2-basics.docbook:124
 #, no-c-format
 msgid "When you pray"
-msgstr ""
+msgstr "Når du beder"
 
 #. Tag: para
 #: how2-basics.docbook:127
@@ -992,7 +1009,7 @@ msgstr ""
 #: how2-basics.docbook:135
 #, no-c-format
 msgid "etc."
-msgstr ""
+msgstr "osv."
 
 #. Tag: title
 #: how2-basics.docbook:141
@@ -1004,13 +1021,13 @@ msgstr ""
 #: how2-basics.docbook:143
 #, no-c-format
 msgid "To Find a Particular Verse"
-msgstr ""
+msgstr "For at finde et bestemt vers"
 
 #. Tag: listitem
 #: how2-basics.docbook:145
 #, no-c-format
 msgid "Pick out a key word or most-unusual word of the verse."
-msgstr ""
+msgstr "Tag et nøgleord eller det mest usædvanlige ord i verset."
 
 #. Tag: listitem
 #: how2-basics.docbook:146
@@ -1028,31 +1045,31 @@ msgstr ""
 #: how2-basics.docbook:150
 #, no-c-format
 msgid "Find these verses:"
-msgstr ""
+msgstr "Find de her vers:"
 
 #. Tag: quote
 #: how2-basics.docbook:152
 #, no-c-format
 msgid "Faithful are the wounds of a friend"
-msgstr ""
+msgstr "Trofaste er sårene af en ven"
 
 #. Tag: quote
 #: how2-basics.docbook:153
 #, no-c-format
 msgid "We are ambassadors of Christ."
-msgstr ""
+msgstr "Vi er Kristi udsendinge."
 
 #. Tag: listitem
 #: how2-basics.docbook:154
 #, no-c-format
 msgid "The story of the rich man and Lazarus."
-msgstr ""
+msgstr "Historien om den rige mand og Lazarus."
 
 #. Tag: title
 #: how2-basics.docbook:160
 #, no-c-format
 msgid "To Do a Topical Study"
-msgstr ""
+msgstr "Lav et emnestudie"
 
 #. Tag: para
 #: how2-basics.docbook:161
@@ -1063,7 +1080,7 @@ msgid ""
 "for it. Then you could look up related words and references listed for them, "
 "e.g. &quot;redeem, redeemed, ransom,&quot; even &quot;buy&quot; or &quot;"
 "bought.&quot;"
-msgstr ""
+msgstr "Lad os sige at du ville studere ordet &quot;fordømmelse.&quot; Først ville du slå ordet op i ordforklaringen og slå de skriftsteder op, som står ud for. Så kunne du slå beslægtede ord op, og slå op på de skriftsteder, f.eks. &quot;fordømme, fordømt, løsesum,&quot; endda &quot;købe&quot; eller &quot;købte.&quot;"
 
 #. Tag: title
 #: how2-basics.docbook:167
@@ -1121,50 +1138,49 @@ msgstr ""
 #: how2-basics.docbook:182
 #, no-c-format
 msgid "To Find Meanings of Names"
-msgstr ""
+msgstr "At finde betydningen af navne"
 
 #. Tag: para
 #: how2-basics.docbook:183
 #, no-c-format
-msgid ""
-"By the same process we can find the meaning of a name in the Greek or Hebrew."
+msgid "By the same process we can find the meaning of a name in the Greek or Hebrew."
 msgstr ""
 
 #. Tag: para
 #: how2-basics.docbook:184
 #, no-c-format
 msgid "Look up these names and write down their meaning:"
-msgstr ""
+msgstr "Slå de har navne op og nedskriv deres betydning:"
 
 #. Tag: listitem
 #: how2-basics.docbook:186
 #, no-c-format
 msgid "Nabal"
-msgstr ""
+msgstr "Nabal"
 
 #. Tag: listitem
 #: how2-basics.docbook:187
 #, no-c-format
 msgid "Abigail"
-msgstr ""
+msgstr "Abigajil"
 
 #. Tag: listitem
 #: how2-basics.docbook:188
 #, no-c-format
 msgid "Joshua"
-msgstr ""
+msgstr "Josva"
 
 #. Tag: listitem
 #: how2-basics.docbook:189
 #, no-c-format
 msgid "Barnabus"
-msgstr ""
+msgstr "Barnabas"
 
 #. Tag: title
 #: how2-importance.docbook:1
 #, no-c-format
 msgid "Importance of God's Word"
-msgstr ""
+msgstr "Vigtigheden af Guds ord"
 
 #. Tag: para
 #: how2-importance.docbook:2
@@ -1173,19 +1189,19 @@ msgid ""
 "Understanding God's word is of great importance to all who call on God's "
 "name. Study of the Bible is one of the primary ways that we learn to "
 "communicate with God."
-msgstr ""
+msgstr "Forståelse af Guds ord er vigtigt for alle som kalder på Guds navn. At studere Bibelen er en af de primære måder hvorpå vi lærer at kommunikere med Gud."
 
 #. Tag: title
 #: how2-importance.docbook:6
 #, no-c-format
 msgid "A Book that is Unique"
-msgstr ""
+msgstr "En bog der er unik"
 
 #. Tag: para
 #: how2-importance.docbook:7
 #, no-c-format
 msgid "The Bible stands alone in many ways. It is unique in:"
-msgstr ""
+msgstr "Bibelen skiller sig ud på mange måder. Den skiller sig ud med hensyn til:"
 
 #. Tag: para
 #: how2-importance.docbook:12
@@ -1193,7 +1209,7 @@ msgstr ""
 msgid ""
 "popularity. Bible sales in North America: more than $500 million per year. "
 "The Bible is both the the all-time and year-to-year best seller!"
-msgstr ""
+msgstr "popularitet. Bibel salget i Nordamerika er mere end 500 millioner dollars om året. Bibelen er den mest solgte bog nogen sinde og fra år til år."
 
 #. Tag: para
 #: how2-importance.docbook:18
@@ -1201,7 +1217,7 @@ msgstr ""
 msgid ""
 "authorship. It was written over a period of 1600 years by 40 different "
 "authors from different backgrounds, yet reads as if written by one."
-msgstr ""
+msgstr "forfatterskab. Den blev skrevet i en periode på over 1600 år af 40 forskellige forfattere fra forskellige baggrunde, og alligevel læst som om den er skrevet af en."
 
 #. Tag: para
 #: how2-importance.docbook:24
@@ -1215,170 +1231,170 @@ msgstr ""
 #: how2-importance.docbook:31
 #, no-c-format
 msgid "Comparison of New Testament manuscripts with other ancient texts."
-msgstr ""
+msgstr "Sammenligning af det nye testamentes manuskripter med andre gamle tekster."
 
 #. Tag: entry
 #: how2-importance.docbook:35
 #, no-c-format
 msgid "Work"
-msgstr ""
+msgstr "Arbejde"
 
 #. Tag: entry
 #: how2-importance.docbook:36
 #, no-c-format
 msgid "When Written"
-msgstr ""
+msgstr "Skrevet "
 
 #. Tag: entry
 #: how2-importance.docbook:37
 #, no-c-format
 msgid "Earliest Copy"
-msgstr ""
+msgstr "Første kopi"
 
 #. Tag: entry
 #: how2-importance.docbook:38
 #, no-c-format
 msgid "Time Lapse"
-msgstr ""
+msgstr "Tidsperiode"
 
 #. Tag: entry
 #: how2-importance.docbook:38
 #, no-c-format
 msgid "Number of Copies"
-msgstr ""
+msgstr "Antal kopier"
 
 #. Tag: entry
 #: how2-importance.docbook:42
 #, no-c-format
 msgid "Herodotus"
-msgstr ""
+msgstr "Herodotus"
 
 #. Tag: entry
 #: how2-importance.docbook:43
 #, no-c-format
 msgid "448-428 B.C."
-msgstr ""
+msgstr "448-428 f.kr."
 
 #. Tag: entry
 #: how2-importance.docbook:43 how2-importance.docbook:53
 #: how2-importance.docbook:58
 #, no-c-format
 msgid "900 A.D."
-msgstr ""
+msgstr "900 e.kr."
 
 #. Tag: entry
 #: how2-importance.docbook:44
 #, no-c-format
 msgid "1300 years"
-msgstr ""
+msgstr "1300 år"
 
 #. Tag: entry
 #: how2-importance.docbook:44
 #, no-c-format
 msgid "<entry>8</entry>"
-msgstr ""
+msgstr "<entry>8</entry>"
 
 #. Tag: entry
 #: how2-importance.docbook:47
 #, no-c-format
 msgid "Tacitus"
-msgstr ""
+msgstr "Tacitus"
 
 #. Tag: entry
 #: how2-importance.docbook:48
 #, no-c-format
 msgid "100 A.D."
-msgstr ""
+msgstr "100 e.kr."
 
 #. Tag: entry
 #: how2-importance.docbook:48
 #, no-c-format
 msgid "1100 A.D."
-msgstr ""
+msgstr "1100 e.kr."
 
 #. Tag: entry
 #: how2-importance.docbook:49
 #, no-c-format
 msgid "1000 years"
-msgstr ""
+msgstr "1000 år"
 
 #. Tag: entry
 #: how2-importance.docbook:49 how2-importance.docbook:59
 #, no-c-format
 msgid "<entry>20</entry>"
-msgstr ""
+msgstr "<entry>20</entry>"
 
 #. Tag: entry
 #: how2-importance.docbook:52
 #, no-c-format
 msgid "Caesar's <emphasis>Gallic War</emphasis>"
-msgstr ""
+msgstr "Caesar's <emphasis>Galliske krig</emphasis>"
 
 #. Tag: entry
 #: how2-importance.docbook:53
 #, no-c-format
 msgid "50-58 B.C."
-msgstr ""
+msgstr "50-58 f.kr."
 
 #. Tag: entry
 #: how2-importance.docbook:54
 #, no-c-format
 msgid "950 years"
-msgstr ""
+msgstr "950 år"
 
 #. Tag: entry
 #: how2-importance.docbook:54
 #, no-c-format
 msgid "<entry>10</entry>"
-msgstr ""
+msgstr "<entry>10</entry>"
 
 #. Tag: entry
 #: how2-importance.docbook:57
 #, no-c-format
 msgid "Livy's <emphasis>Roman History</emphasis>"
-msgstr ""
+msgstr "Livius' <emphasis>Romerske Historie</emphasis>"
 
 #. Tag: entry
 #: how2-importance.docbook:58
 #, no-c-format
 msgid "59 B.C. - 17 A.D."
-msgstr ""
+msgstr "59 f.kr. - 17 e.kr."
 
 #. Tag: entry
 #: how2-importance.docbook:59
 #, no-c-format
 msgid "900 years"
-msgstr ""
+msgstr "900 år"
 
 #. Tag: entry
 #: how2-importance.docbook:62
 #, no-c-format
 msgid "New Testament"
-msgstr ""
+msgstr "Nye Testamente"
 
 #. Tag: entry
 #: how2-importance.docbook:63
 #, no-c-format
 msgid "40 A.D. - 100 A.D."
-msgstr ""
+msgstr "40 e.kr. - 100 e.kr."
 
 #. Tag: entry
 #: how2-importance.docbook:63
 #, no-c-format
 msgid "130 A.D. Partial manuscripts 350 A.D. Full manuscripts"
-msgstr ""
+msgstr "130 e.kr. Delvise manuskripter 350 e.kr. Hele manuskripter"
 
 #. Tag: entry
 #: how2-importance.docbook:64
 #, no-c-format
 msgid "30 - 310 years"
-msgstr ""
+msgstr "30 - 310 år"
 
 #. Tag: entry
 #: how2-importance.docbook:64
 #, no-c-format
 msgid "5000 Greek &amp; 10,000 Latin"
-msgstr ""
+msgstr "5000 græske &amp; 10.000 latinske"
 
 #. Tag: para
 #: how2-importance.docbook:67
@@ -1414,7 +1430,7 @@ msgstr ""
 #: how2-importance.docbook:80
 #, no-c-format
 msgid "A Book that God Breathed"
-msgstr ""
+msgstr "En bog inspireret af Gud"
 
 #. Tag: para
 #: how2-importance.docbook:81
@@ -1490,7 +1506,7 @@ msgstr ""
 #: how2-importance.docbook:117
 #, no-c-format
 msgid "A Book that Works"
-msgstr ""
+msgstr "En bog der virker"
 
 #. Tag: para
 #: how2-importance.docbook:118
@@ -1505,38 +1521,37 @@ msgstr ""
 #: how2-importance.docbook:125
 #, no-c-format
 msgid "What does Bible study do for Christians?"
-msgstr ""
+msgstr "Hvad gør bibel studie for kristne?"
 
 #. Tag: entry
 #: how2-importance.docbook:129
 #, no-c-format
 msgid "Reference"
-msgstr ""
+msgstr "Reference"
 
 #. Tag: entry
 #: how2-importance.docbook:130
 #, no-c-format
 msgid "Action"
-msgstr ""
+msgstr "Aktion"
 
 #. Tag: entry
 #: how2-importance.docbook:135
 #, no-c-format
 msgid "Eph. 5:26"
-msgstr ""
+msgstr "Ef. 5:26"
 
 #. Tag: entry
 #: how2-importance.docbook:137
 #, no-c-format
-msgid ""
-"cleanses -- \"...having cleansed her by the washing of water with the word.\""
+msgid "cleanses -- \"...having cleansed her by the washing of water with the word.\""
 msgstr ""
 
 #. Tag: entry
 #: how2-importance.docbook:141
 #, no-c-format
 msgid "Acts 20:32"
-msgstr ""
+msgstr "Apg. 20:32"
 
 #. Tag: entry
 #: how2-importance.docbook:144
@@ -1550,7 +1565,7 @@ msgstr ""
 #: how2-importance.docbook:153
 #, no-c-format
 msgid "Rom. 15:4"
-msgstr ""
+msgstr "Rom. 15:4"
 
 #. Tag: entry
 #: how2-importance.docbook:156
@@ -1564,7 +1579,7 @@ msgstr ""
 #: how2-importance.docbook:163
 #, no-c-format
 msgid "Rom. 10:17"
-msgstr ""
+msgstr "Rom. 10:17"
 
 #. Tag: entry
 #: how2-importance.docbook:166
@@ -1578,7 +1593,7 @@ msgstr ""
 #: how2-importance.docbook:174
 #, no-c-format
 msgid "1 Cor. 10:11"
-msgstr ""
+msgstr "1 Kor. 10:11"
 
 #. Tag: entry
 #: how2-importance.docbook:177
@@ -1607,7 +1622,7 @@ msgstr ""
 #: how2-importance.docbook:200
 #, no-c-format
 msgid "A Book that Liberates"
-msgstr ""
+msgstr "En bog der befrier"
 
 #. Tag: para
 #: how2-importance.docbook:201
@@ -1659,19 +1674,19 @@ msgstr ""
 #: how2-importance.docbook:220
 #, no-c-format
 msgid "God's word"
-msgstr ""
+msgstr "Guds ord"
 
 #. Tag: para
 #: how2-importance.docbook:221
 #, no-c-format
 msgid "God's power"
-msgstr ""
+msgstr "Guds kraft"
 
 #. Tag: title
 #: how2-importance.docbook:224
 #, no-c-format
 msgid "A Book that Wars"
-msgstr ""
+msgstr "En bog der bekriger"
 
 #. Tag: para
 #: how2-importance.docbook:225
@@ -1683,55 +1698,55 @@ msgstr ""
 #: how2-importance.docbook:228
 #, no-c-format
 msgid "Spiritual Armor"
-msgstr ""
+msgstr "Åndelig rustning"
 
 #. Tag: entry
 #: how2-importance.docbook:232
 #, no-c-format
 msgid "Question"
-msgstr ""
+msgstr "Spørgsmål"
 
 #. Tag: entry
 #: how2-importance.docbook:233
 #, no-c-format
 msgid "Answer"
-msgstr ""
+msgstr "Svar"
 
 #. Tag: entry
 #: how2-importance.docbook:236
 #, no-c-format
 msgid "How many of the weapons listed here are defensive weapons?"
-msgstr ""
+msgstr "Hvor mange af våbenene her er våben til forsvar?"
 
 #. Tag: entry
 #: how2-importance.docbook:236
 #, no-c-format
 msgid "<entry>5</entry>"
-msgstr ""
+msgstr "<entry>5</entry>"
 
 #. Tag: entry
 #: how2-importance.docbook:237
 #, no-c-format
 msgid "How many are offensive?"
-msgstr ""
+msgstr "Hvor mange er våben til angreb?"
 
 #. Tag: entry
 #: how2-importance.docbook:237
 #, no-c-format
 msgid "<entry>One</entry>"
-msgstr ""
+msgstr "<entry>En</entry>"
 
 #. Tag: entry
 #: how2-importance.docbook:238
 #, no-c-format
 msgid "Which one(s)?"
-msgstr ""
+msgstr "Hvilke(t)?"
 
 #. Tag: entry
 #: how2-importance.docbook:238
 #, no-c-format
 msgid "the word - <foreignphrase>rhema</foreignphrase>"
-msgstr ""
+msgstr "ordet - <foreignphrase>rhema</foreignphrase>"
 
 #. Tag: title
 #: how2-importance.docbook:241
@@ -1762,13 +1777,13 @@ msgstr ""
 #: how2-importance.docbook:251
 #, no-c-format
 msgid "If you're rich in something, how much of it do you have?"
-msgstr ""
+msgstr "Hvis du er rig på noget, hvor meget af det har du så?"
 
 #. Tag: para
 #: how2-importance.docbook:253
 #, no-c-format
 msgid "Not a little!"
-msgstr ""
+msgstr "Ikke kun en smule!"
 
 #. Tag: para
 #: how2-importance.docbook:256
@@ -1844,7 +1859,7 @@ msgstr ""
 #: how2-importance.docbook:294
 #, no-c-format
 msgid "New Testament in a Year: read one chapter each day, 5 days a week."
-msgstr ""
+msgstr "Nye Testamente på et år: Læs et kapitel hver dag, 5 dage om ugen."
 
 #. Tag: para
 #: how2-importance.docbook:296
@@ -1860,7 +1875,7 @@ msgstr ""
 msgid ""
 "Psalms in a Month: read 5 Psalms at intervals of 30 each day, for instance "
 "on the 20th you read Ps.20, 50, 80, 110, &amp; 140."
-msgstr ""
+msgstr "Salmernes bog på en måned: Læs 5 salmer om dagen med et interval på 30, for eksempel på den 20. læser du Salm.20, 50, 80, 110, &amp; 140."
 
 #. Tag: para
 #: how2-importance.docbook:300
@@ -1931,7 +1946,7 @@ msgstr ""
 #: how2-interpretation.docbook:20
 #, no-c-format
 msgid "Definition"
-msgstr ""
+msgstr "Definition"
 
 #. Tag: para
 #: how2-interpretation.docbook:21
@@ -1959,7 +1974,7 @@ msgstr ""
 #: how2-interpretation.docbook:37
 #, no-c-format
 msgid "Example 1A"
-msgstr ""
+msgstr "Eksempel 1A"
 
 #. Tag: para
 #: how2-interpretation.docbook:38
@@ -1994,15 +2009,14 @@ msgstr ""
 #. Tag: emphasis
 #: how2-interpretation.docbook:50
 #, no-c-format
-msgid ""
-"Mary is already clinging to Jesus, and he is saying to stop holding him!"
-msgstr ""
+msgid "Mary is already clinging to Jesus, and he is saying to stop holding him!"
+msgstr "Mary klynger sig allerede til Jesus, og han siger lad være med at holde mig!"
 
 #. Tag: title
 #: how2-interpretation.docbook:53
 #, no-c-format
 msgid "Example 1B"
-msgstr ""
+msgstr "Eksempel 1B"
 
 #. Tag: para
 #: how2-interpretation.docbook:54
@@ -2046,8 +2060,7 @@ msgstr ""
 #. Tag: listitem
 #: how2-interpretation.docbook:66
 #, no-c-format
-msgid ""
-"Mk.6:13 And they were...anointing with oil many sick people and healing them."
+msgid "Mk.6:13 And they were...anointing with oil many sick people and healing them."
 msgstr ""
 
 #. Tag: listitem
@@ -2059,8 +2072,7 @@ msgstr ""
 #. Tag: listitem
 #: how2-interpretation.docbook:68
 #, no-c-format
-msgid ""
-"Jn.12:3 Mary [...] anointed the feet of Jesus, and wiped them with her hair"
+msgid "Jn.12:3 Mary [...] anointed the feet of Jesus, and wiped them with her hair"
 msgstr ""
 
 #. Tag: listitem
@@ -2159,7 +2171,7 @@ msgstr ""
 #: how2-interpretation.docbook:109
 #, no-c-format
 msgid "Example 2A"
-msgstr ""
+msgstr "Eksempel 2A"
 
 #. Tag: para
 #: how2-interpretation.docbook:110
@@ -2183,7 +2195,7 @@ msgstr ""
 #: how2-interpretation.docbook:116
 #, no-c-format
 msgid "Example 2B"
-msgstr ""
+msgstr "Eksempel 2B"
 
 #. Tag: para
 #: how2-interpretation.docbook:117
@@ -2198,7 +2210,7 @@ msgstr ""
 #: how2-interpretation.docbook:120
 #, no-c-format
 msgid "Example 2C"
-msgstr ""
+msgstr "Eksempel 2C"
 
 #. Tag: para
 #: how2-interpretation.docbook:121
@@ -2235,7 +2247,7 @@ msgstr ""
 #: how2-interpretation.docbook:138
 #, no-c-format
 msgid "Example 3A"
-msgstr ""
+msgstr "Eksempel 3A"
 
 #. Tag: para
 #: how2-interpretation.docbook:138
@@ -2266,7 +2278,7 @@ msgstr ""
 #: how2-interpretation.docbook:150
 #, no-c-format
 msgid "Example 3B"
-msgstr ""
+msgstr "Eksempel 3B"
 
 #. Tag: para
 #: how2-interpretation.docbook:150
@@ -2298,7 +2310,7 @@ msgstr ""
 #: how2-interpretation.docbook:162
 #, no-c-format
 msgid "Example 4A"
-msgstr ""
+msgstr "Eksempel 4A"
 
 #. Tag: para
 #: how2-interpretation.docbook:163
@@ -2331,7 +2343,7 @@ msgstr ""
 #: how2-interpretation.docbook:173
 #, no-c-format
 msgid "Example 4B"
-msgstr ""
+msgstr "Eksempel 4B"
 
 #. Tag: para
 #: how2-interpretation.docbook:174
@@ -2400,7 +2412,7 @@ msgstr ""
 #: how2-interpretation.docbook:197
 #, no-c-format
 msgid "Example 5A"
-msgstr ""
+msgstr "Eksempel 5A"
 
 #. Tag: para
 #: how2-interpretation.docbook:198
@@ -2423,7 +2435,7 @@ msgstr ""
 #: how2-interpretation.docbook:203
 #, no-c-format
 msgid "Example 5B"
-msgstr ""
+msgstr "Eksempel 5B"
 
 #. Tag: para
 #: how2-interpretation.docbook:204
@@ -2446,7 +2458,7 @@ msgstr ""
 #: sidebar_tips.xml:16 software_faq.xml:138
 #, no-c-format
 msgid "Translations"
-msgstr ""
+msgstr "Oversættelser"
 
 #. Tag: para
 #: sidebar_tips.xml:17
@@ -2463,13 +2475,13 @@ msgstr ""
 #: software.xml:16
 #, no-c-format
 msgid "The BibleTime team"
-msgstr ""
+msgstr "BibleTime teamet"
 
 #. Tag: title
 #: software.xml:20
 #, no-c-format
 msgid "Welcome to the BibleTime project."
-msgstr ""
+msgstr "Velkommen til BibleTime projektet."
 
 #. Tag: para
 #: software.xml:21
@@ -2489,49 +2501,16 @@ msgstr ""
 #: software.xml:50
 #, no-c-format
 msgid "News about BibleTime"
-msgstr ""
+msgstr "Nyheder om BibleTime"
 
 #. Tag: title
 #: software.xml:52
 #, no-c-format
-msgid "2008-01-12: BibleTime 1.7alpha1"
-msgstr ""
+msgid "2007-04-18: BibleTime 1.6.4"
+msgstr "2007-04-18: BibleTime 1.6.4"
 
 #. Tag: para
 #: software.xml:53
-#, no-c-format
-msgid ""
-"The new alpha (testing) version for the KDE 4.0 environment is available. "
-"<ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:"
-"_1.7alpha1_release\">Read the announcement</ulink> to know more about the "
-"current status and the future of BibleTime."
-msgstr ""
-
-#. Tag: title
-#: software.xml:58
-#, no-c-format
-msgid "2007-11-04: BibleTime 1.6.5"
-msgstr ""
-
-#. Tag: para
-#: software.xml:59
-#, no-c-format
-msgid ""
-"A new bugfix version of BibleTime is now available. It contains several "
-"important fixes in the bookshelfmanager, the sessionmanagement and in the "
-"text-display windows. It also ships with updated translations. The source "
-"code can be downloaded from our SourceForge page. Binary packages will be "
-"made available soon."
-msgstr ""
-
-#. Tag: title
-#: software.xml:64
-#, no-c-format
-msgid "2007-04-18: BibleTime 1.6.4"
-msgstr ""
-
-#. Tag: para
-#: software.xml:65
 #, no-c-format
 msgid ""
 "A new bugfix release of BibleTime has been released today. Version 1.6.4 "
@@ -2541,13 +2520,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:70
+#: software.xml:58
 #, no-c-format
 msgid "2007-01-29: BibleTime 1.6.3"
-msgstr ""
+msgstr "2007-01-29: BibleTime 1.6.3"
 
 #. Tag: para
-#: software.xml:71
+#: software.xml:59
 #, no-c-format
 msgid ""
 "Version 1.6.3 has been released today. Besides several minor bugfixes the "
@@ -2561,13 +2540,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:77
+#: software.xml:65
 #, no-c-format
 msgid "2006-12-10: BibleTime 1.6.2"
-msgstr ""
+msgstr "2006-12-10: BibleTime 1.6.2"
 
 #. Tag: para
-#: software.xml:78
+#: software.xml:66
 #, no-c-format
 msgid ""
 "A new version has been released today. It contains several important "
@@ -2578,13 +2557,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:84
+#: software.xml:72
 #, no-c-format
 msgid "2006-10-26: BibleTime 1.6.1"
-msgstr ""
+msgstr "2006-10-26: BibleTime 1.6.1"
 
 #. Tag: para
-#: software.xml:85
+#: software.xml:73
 #, no-c-format
 msgid ""
 "A new version of the BibleTime software has been made available today. "
@@ -2597,13 +2576,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:92
+#: software.xml:80
 #, no-c-format
 msgid "2006-09-22: BibleTime 1.6"
-msgstr ""
+msgstr "2006-09-22: BibleTime 1.6"
 
 #. Tag: para
-#: software.xml:93
+#: software.xml:81
 #, no-c-format
 msgid ""
 "A new version of BibleTime has been made available today. It includes many "
@@ -2612,7 +2591,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:96
+#: software.xml:84
 #, no-c-format
 msgid ""
 "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this "
@@ -2621,13 +2600,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:102
+#: software.xml:90
 #, no-c-format
 msgid "2006-06-17: BibleTime 1.6beta3"
-msgstr ""
+msgstr "2006-06-17: BibleTime 1.6beta3"
 
 #. Tag: para
-#: software.xml:103
+#: software.xml:91
 #, no-c-format
 msgid ""
 "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://"
@@ -2636,20 +2615,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:107
+#: software.xml:95
 #, no-c-format
-msgid ""
-"You need to install CLucene 0.9.12 before installing this preview release."
+msgid "You need to install CLucene 0.9.12 before installing this preview release."
 msgstr ""
 
 #. Tag: title
-#: software.xml:113
+#: software.xml:101
 #, no-c-format
 msgid "2006-04-26: BibleTime 1.6beta2"
-msgstr ""
+msgstr "2006-04-26: BibleTime 1.6beta2"
 
 #. Tag: para
-#: software.xml:114
+#: software.xml:102
 #, no-c-format
 msgid ""
 "The second preview release of BibleTime 1.6 is out now. See <ulink url="
@@ -2658,26 +2636,25 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:118
+#: software.xml:106
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
 msgstr ""
 
 #. Tag: title
-#: software.xml:124
+#: software.xml:112
 #, no-c-format
 msgid "2006-03-18: BibleTime 1.6beta1"
-msgstr ""
+msgstr "2006-03-18: BibleTime 1.6beta1"
 
 #. Tag: para
-#: software.xml:125
+#: software.xml:113
 #, no-c-format
-msgid ""
-"The first beta release of the upcoming version 1.6 has been released today."
+msgid "The first beta release of the upcoming version 1.6 has been released today."
 msgstr ""
 
 #. Tag: para
-#: software.xml:129
+#: software.xml:117
 #, no-c-format
 msgid ""
 "Among many bug fixes it includes a new instant search feature, which enabled "
@@ -2685,7 +2662,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:134
+#: software.xml:122
 #, no-c-format
 msgid ""
 "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> "
@@ -2696,22 +2673,22 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:149
+#: software.xml:137
 #, no-c-format
 msgid "2006-03-17: Locked German Bible"
-msgstr ""
+msgstr "2006-03-17: Låst tysk Bibel"
 
 #. Tag: para
-#: software.xml:150
+#: software.xml:138
 #, no-c-format
 msgid ""
 "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </"
-"ulink> decided to release their excellent, modern translation \"Hoffnung für "
+"ulink> decided to release their excellent, modern translation \"Hoffnung fÃ¼r "
 "Alle\" (GerHfa2002) for use by the Sword community."
 msgstr ""
 
 #. Tag: para
-#: software.xml:159
+#: software.xml:147
 #, no-c-format
 msgid ""
 "The text contains headings, footnotes, ... and can be downloaded <ulink url="
@@ -2723,7 +2700,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:175
+#: software.xml:163
 #, no-c-format
 msgid ""
 "We hope that in future, more publishers <ulink url=\"http://crosswire.org/"
@@ -2732,7 +2709,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:184
+#: software.xml:172
 #, no-c-format
 msgid ""
 "This will ultimately increase the recent material available through The "
@@ -2741,13 +2718,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:193
+#: software.xml:181
 #, no-c-format
 msgid "2005-12-18: Translations, packages, FAQ"
-msgstr ""
+msgstr "2005-12-18: Oversættelser, pakker, FAQ"
 
 #. Tag: para
-#: software.xml:194
+#: software.xml:182
 #, no-c-format
 msgid ""
 "A new release of our translations package is now available at our download "
@@ -2756,7 +2733,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:200
+#: software.xml:188
 #, no-c-format
 msgid ""
 "Perhaps you noticed all the package updates in the last few months. Jeremy "
@@ -2764,19 +2741,19 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:205
+#: software.xml:193
 #, no-c-format
 msgid "The FAQ received some minor updates."
 msgstr ""
 
 #. Tag: title
-#: software.xml:209
+#: software.xml:197
 #, no-c-format
 msgid "2005-11-13: BibleTime 1.5.3"
-msgstr ""
+msgstr "2005-11-13: BibleTime 1.5.3"
 
 #. Tag: para
-#: software.xml:210
+#: software.xml:198
 #, no-c-format
 msgid ""
 "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, "
@@ -2784,7 +2761,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:215
+#: software.xml:203
 #, no-c-format
 msgid ""
 "Get the new release in the download section. Binary packages should be "
@@ -2792,13 +2769,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:222
+#: software.xml:210
 #, no-c-format
 msgid "2005-10-16: BibleTime 1.5.2"
-msgstr ""
+msgstr "2005-10-16: BibleTime 1.5.2"
 
 #. Tag: para
-#: software.xml:223
+#: software.xml:211
 #, no-c-format
 msgid ""
 "A new bugfix release has been released today. Version 1.5.2 contains fixes "
@@ -2808,7 +2785,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:230
+#: software.xml:218
 #, no-c-format
 msgid ""
 "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary "
@@ -2816,27 +2793,27 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:238
+#: software.xml:226
 #, no-c-format
 msgid "2005-09-28: New forums"
-msgstr ""
+msgstr "2005-09-28: Nye forumer"
 
 #. Tag: para
-#: software.xml:239
+#: software.xml:227
 #, no-c-format
 msgid ""
 "Because the old forum software turned out to be insecure we installed a new "
 "forum software today. We hope that you will continue to use the forums."
-msgstr ""
+msgstr "Fordi den gamle forum software viste sig at være for usikker, installerede vi en ny forum software i dag. Vi håber at I vil fortsætte med at bruge vores forumer."
 
 #. Tag: title
-#: software.xml:247
+#: software.xml:235
 #, no-c-format
 msgid "2005-09-12: BibleTime 1.5.1 and translations"
-msgstr ""
+msgstr "2005-09-12: BibleTime 1.5.1 og oversættelser"
 
 #. Tag: para
-#: software.xml:248
+#: software.xml:236
 #, no-c-format
 msgid ""
 "The bugfix release 1.5.1 is available now at our download location. A first "
@@ -2844,13 +2821,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: software.xml:256
+#: software.xml:244
 #, no-c-format
 msgid "2005-07-16: BibleTime 1.5"
-msgstr ""
+msgstr "2005-07-16: BibleTime 1.5"
 
 #. Tag: para
-#: software.xml:257
+#: software.xml:245
 #, no-c-format
 msgid ""
 "BibleTime 1.5 is available now. It contains many new features and "
@@ -2860,18 +2837,18 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software.xml:265
+#: software.xml:253
 #, no-c-format
 msgid ""
 "Please use our new forums to discuss about this new release. Translators are "
 "encouraged to update their translations."
-msgstr ""
+msgstr "Brug endelig vores nye forumer til at diskutere denne nye udgivelse. Oversættere er opfordret til at opdatere deres oversættelser."
 
 #. Tag: title
 #: software_about.xml:14
 #, no-c-format
 msgid "Introduction"
-msgstr ""
+msgstr "Introduktion"
 
 #. Tag: para
 #: software_about.xml:15
@@ -2889,7 +2866,7 @@ msgstr ""
 #: software_about.xml:24
 #, no-c-format
 msgid "The history of BibleTime"
-msgstr ""
+msgstr "BibleTimes historie"
 
 #. Tag: para
 #: software_about.xml:25
@@ -2947,19 +2924,19 @@ msgstr ""
 msgid ""
 "BibleTime version 1.5 has been released in july 2005 after a long time of "
 "development."
-msgstr ""
+msgstr "BibleTime version 1.5 er blevet udgivet i juli 2005 efter lang tids udvikling."
 
 #. Tag: title
 #: software_contact.xml:15
 #, no-c-format
 msgid "How to contact us"
-msgstr ""
+msgstr "Hvordan man kan kontakte os"
 
 #. Tag: ulink
 #: software_contact.xml:16
 #, no-c-format
 msgid "The BibleTime user forum."
-msgstr ""
+msgstr "BibelTimes bruger forum"
 
 #. Tag: para
 #: software_contact.xml:17
@@ -2984,7 +2961,7 @@ msgstr ""
 #: software_contact.xml:28
 #, no-c-format
 msgid "Send a Bug report"
-msgstr ""
+msgstr "Send en fejl rapport"
 
 #. Tag: para
 #: software_contact.xml:29
@@ -2999,7 +2976,7 @@ msgstr ""
 #: software_contact.xml:35
 #, no-c-format
 msgid "Send a feature suggestion"
-msgstr ""
+msgstr "Send et foreslag til nye egenskaber"
 
 #. Tag: para
 #: software_contact.xml:36
@@ -3007,13 +2984,13 @@ msgstr ""
 msgid ""
 "If you have an idea how to improve BibleTime please use this link to tell "
 "the developers about it."
-msgstr ""
+msgstr "Hvis du har en idé omkring hvordan vi kan forbedre BibleTime, så vær venlig at bruge det her link til at fortælle vores udviklere omkring det."
 
 #. Tag: ulink
 #: software_contact.xml:41
 #, no-c-format
 msgid "Report a website problem"
-msgstr ""
+msgstr "Reporter et hjemmeside problem"
 
 #. Tag: para
 #: software_contact.xml:42
@@ -3021,25 +2998,25 @@ msgstr ""
 msgid ""
 "If you found a problem with the website or have a suggestion how it could be "
 "improved, please use this link to tell the webmaster about it."
-msgstr ""
+msgstr "Hvis du har fundet et problem med hjemmesiden eller har et forslag til hvordan den kan forbedres, så brug det her link til at fortælle vores webmaster omkring det."
 
 #. Tag: title
 #: software_faq.xml:16
 #, no-c-format
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Ofte Stillede Spørgsmål"
 
 #. Tag: title
 #: software_faq.xml:19
 #, no-c-format
 msgid "Installation problems"
-msgstr ""
+msgstr "Installations problemer"
 
 #. Tag: para
 #: software_faq.xml:22
 #, no-c-format
 msgid "Why is the toolbar missing?"
-msgstr ""
+msgstr "Hvofor mangler værktøjslinien?"
 
 #. Tag: para
 #: software_faq.xml:25
@@ -3057,25 +3034,25 @@ msgstr ""
 #: software_faq.xml:38
 #, no-c-format
 msgid "./configure --prefix=&lt;your KDE directory&gt;"
-msgstr ""
+msgstr "./configure --prefix=&lt;your KDE directory&gt;"
 
 #. Tag: listitem
 #: software_faq.xml:39
 #, no-c-format
 msgid "make"
-msgstr ""
+msgstr "make"
 
 #. Tag: listitem
 #: software_faq.xml:40
 #, no-c-format
 msgid "make install"
-msgstr ""
+msgstr "make install"
 
 #. Tag: para
 #: software_faq.xml:48
 #, no-c-format
 msgid "The translations are missing!"
-msgstr ""
+msgstr "Oversættelserne mangler!"
 
 #. Tag: para
 #: software_faq.xml:51
@@ -3117,7 +3094,7 @@ msgstr ""
 #: software_faq.xml:73
 #, no-c-format
 msgid "Using BibleTime 1.5 or later"
-msgstr ""
+msgstr "Brug af BibleTime 1.5 eller senere"
 
 #. Tag: para
 #: software_faq.xml:74
@@ -3157,7 +3134,7 @@ msgstr ""
 #: software_faq.xml:98
 #, no-c-format
 msgid "Modules"
-msgstr ""
+msgstr "Moduler"
 
 #. Tag: para
 #: software_faq.xml:101
@@ -3177,7 +3154,7 @@ msgstr ""
 #: software_faq.xml:113
 #, no-c-format
 msgid "Where can I write down my personal notes?"
-msgstr ""
+msgstr "Hvor kan jeg skrive mine personlige noter?"
 
 #. Tag: para
 #: software_faq.xml:117
@@ -3193,7 +3170,7 @@ msgstr ""
 #: software_faq.xml:126
 #, no-c-format
 msgid "Why is one of the two testaments of a Bible module empty?"
-msgstr ""
+msgstr "Hvorfor er en af de to testamenter i et bibel-modul tomt?"
 
 #. Tag: para
 #: software_faq.xml:130
@@ -3208,7 +3185,7 @@ msgstr ""
 #: software_faq.xml:141
 #, no-c-format
 msgid "Is BibleTime available in my native language?"
-msgstr ""
+msgstr "Er BibleTime til rådighed i mit oprindelige sprog?"
 
 #. Tag: para
 #: software_faq.xml:145
@@ -3232,7 +3209,7 @@ msgstr ""
 #: software_guestbook.xml:14
 #, no-c-format
 msgid "BibleTime's Guestbook"
-msgstr ""
+msgstr "BibelTimes Gæstebog"
 
 #. Tag: para
 #: software_guestbook.xml:15
@@ -3249,19 +3226,19 @@ msgstr ""
 msgid ""
 "Please write in English, if possible. HTML is not allowed and will be "
 "removed, but you may use normal line breaks to divide into paragraphs."
-msgstr ""
+msgstr "Vær venlig at skrive på engelsk, hvis det er muligt. HTML er ikke tilladt og vil blive fjernet, men du må godt bruge normale linie brud for at dele det op i afsnit."
 
 #. Tag: title
 #: software_guestbook.xml:24
 #, no-c-format
 msgid "Please add your comments here:"
-msgstr ""
+msgstr "Vær venlig at tilføje dine kommentarer her:"
 
 #. Tag: title
 #: software_imprint.xml:15
 #, no-c-format
 msgid "Responsibility"
-msgstr ""
+msgstr "Ansvar"
 
 #. Tag: para
 #: software_imprint.xml:16
@@ -3273,7 +3250,7 @@ msgstr ""
 #: software_imprint.xml:17
 #, no-c-format
 msgid "The person who responsible for these webpages is:"
-msgstr ""
+msgstr "Personen som er ansvarlig for de her hjemmesider er:"
 
 #. Tag: address
 #: software_imprint.xml:20
@@ -3289,7 +3266,7 @@ msgstr ""
 #: software_installation.xml:16
 #, no-c-format
 msgid "Download BibleTime"
-msgstr ""
+msgstr "Download BibleTime"
 
 #. Tag: para
 #: software_installation.xml:17
@@ -3316,6 +3293,8 @@ msgid ""
 "Debian packages are available <ulink url=\"http://packages.debian.org/"
 "bibletime\">here</ulink>."
 msgstr ""
+"Debian pakker er til rådighed <ulink url=\"http://packages.debian.org/"
+"bibletime\">her</ulink>."
 
 #. Tag: para
 #: software_installation.xml:31
@@ -3339,12 +3318,14 @@ msgid ""
 "PC-BSD packages are available <ulink url=\"http://www.pbidir.com/search.php?"
 "str=bibletime\">here</ulink>."
 msgstr ""
+"PC-BSD pakker er til rådighed <ulink url=\"http://www.pbidir.com/search.php?"
+"str=bibletime\">her</ulink>."
 
 #. Tag: title
 #: software_installation.xml:48
 #, no-c-format
 msgid "Installation of BibleTime"
-msgstr ""
+msgstr "Installation af BibleTime"
 
 #. Tag: para
 #: software_installation.xml:49
@@ -3360,7 +3341,7 @@ msgstr ""
 #: software_installation.xml:53
 #, no-c-format
 msgid "Prebuilt binary packages"
-msgstr ""
+msgstr "Forudbyggede binære pakker"
 
 #. Tag: para
 #: software_installation.xml:54
@@ -3398,7 +3379,7 @@ msgstr ""
 #: software_installation.xml:64
 #, no-c-format
 msgid "Installation from source code"
-msgstr ""
+msgstr "Installation fra kildekode "
 
 #. Tag: para
 #: software_installation.xml:65
@@ -3422,7 +3403,7 @@ msgstr ""
 #: software_installation.xml:75
 #, no-c-format
 msgid "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
 
 #. Tag: para
 #: software_installation.xml:76
@@ -3435,9 +3416,8 @@ msgstr ""
 #. Tag: para
 #: software_installation.xml:80
 #, no-c-format
-msgid ""
-"<ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink>."
-msgstr ""
+msgid "<ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink>."
+msgstr "<ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink>."
 
 #. Tag: para
 #: software_installation.xml:81
@@ -3452,6 +3432,8 @@ msgid ""
 "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword "
 "1.5.9</ulink>."
 msgstr ""
+"<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword "
+"1.5.9</ulink>."
 
 #. Tag: para
 #: software_installation.xml:86
@@ -3474,6 +3456,13 @@ msgid ""
 "                                                                <command>make "
 "install_config</command>"
 msgstr ""
+"<command>./usrinst.sh --enable-shared --without-clucene</command>\n"
+"                                                                <command>make</"
+"command>\n"
+"                                                                <command>make "
+"install</command>\n"
+"                                                                <command>make "
+"install_config</command>"
 
 #. Tag: para
 #: software_installation.xml:92
@@ -3487,7 +3476,7 @@ msgstr ""
 #: software_installation.xml:97
 #, no-c-format
 msgid "Compile and install BibleTime:"
-msgstr ""
+msgstr "Kompiler og installer BibleTime:"
 
 #. Tag: screen
 #: software_installation.xml:98
@@ -3561,6 +3550,9 @@ msgid ""
 "crosswire.org/sword/modules/moduleinstall.jsp\">www.crosswire.org/sword/"
 "modules</ulink>."
 msgstr ""
+"Instruktion for manuel installation er til rådighed på <ulink url=\"http://www."
+"crosswire.org/sword/modules/moduleinstall.jsp\">www.crosswire.org/sword/"
+"modules</ulink>."
 
 #. Tag: title
 #: software_installation.xml:134
@@ -3571,15 +3563,14 @@ msgstr ""
 #. Tag: para
 #: software_installation.xml:135
 #, no-c-format
-msgid ""
-"Here is a list of available types of works and where to get more information:"
+msgid "Here is a list of available types of works and where to get more information:"
 msgstr ""
 
 #. Tag: ulink
 #: software_installation.xml:139
 #, no-c-format
 msgid "Bibles"
-msgstr ""
+msgstr "Bibler"
 
 #. Tag: ulink
 #: software_installation.xml:140
@@ -3591,13 +3582,13 @@ msgstr ""
 #: software_installation.xml:141
 #, no-c-format
 msgid "Lexicons / Dictionaries"
-msgstr ""
+msgstr "Leksikoner / Ordbøger"
 
 #. Tag: ulink
 #: software_installation.xml:142
 #, no-c-format
 msgid "Books"
-msgstr ""
+msgstr "Bøger"
 
 #. Tag: literallayout
 #: software_license.xml:15
@@ -3955,7 +3946,7 @@ msgstr ""
 #: software_links.xml:15
 #, no-c-format
 msgid "List of important christian pages"
-msgstr ""
+msgstr "Liste af vigtige kristne sider"
 
 #. Tag: para
 #: software_links.xml:16
@@ -3965,6 +3956,8 @@ msgid ""
 "others are less important. We collected a list of pages which are important "
 "in our opinion."
 msgstr ""
+"Der er mange andre kristne hjemmesider på internettet. Nogle er mere, "
+"andre er mindre vigtige. Vi har samlet en liste af sider som vi syntes er vigtige."
 
 #. Tag: para
 #: software_links.xml:21
@@ -3981,7 +3974,7 @@ msgstr ""
 #: software_links.xml:25
 #, no-c-format
 msgid "General christian pages"
-msgstr ""
+msgstr "Generelle kristne sider"
 
 #. Tag: title
 #: software_links.xml:26
@@ -3990,6 +3983,8 @@ msgid ""
 "<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies Group</"
 "ulink>."
 msgstr ""
+"<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies Group</"
+"ulink>."
 
 #. Tag: para
 #: software_links.xml:27
@@ -4002,9 +3997,8 @@ msgstr ""
 #. Tag: title
 #: software_links.xml:32
 #, no-c-format
-msgid ""
-"<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>."
-msgstr ""
+msgid "<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>."
+msgstr "<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>."
 
 #. Tag: para
 #: software_links.xml:33
@@ -4019,13 +4013,13 @@ msgstr ""
 #: software_links.xml:39
 #, no-c-format
 msgid "Biblesoftware for Linux"
-msgstr ""
+msgstr "Bibelsoftware til Linux"
 
 #. Tag: title
 #: software_links.xml:40
 #, no-c-format
 msgid "<ulink url=\"http://gnomesword.sf.net/\">Gnomesword</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://gnomesword.sf.net/\">Gnomesword</ulink>."
 
 #. Tag: para
 #: software_links.xml:41
@@ -4039,13 +4033,13 @@ msgstr ""
 #: software_links.xml:48
 #, no-c-format
 msgid "Biblesoftware for Windows"
-msgstr ""
+msgstr "Bibelsoftware til Windows"
 
 #. Tag: title
 #: software_links.xml:49
 #, no-c-format
 msgid "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
 
 #. Tag: para
 #: software_links.xml:50
@@ -4059,7 +4053,7 @@ msgstr ""
 #: software_links.xml:55
 #, no-c-format
 msgid "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
 
 #. Tag: para
 #: software_links.xml:56
@@ -4074,7 +4068,7 @@ msgstr ""
 #: software_links.xml:61
 #, no-c-format
 msgid "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
 
 #. Tag: para
 #: software_links.xml:62
@@ -4088,7 +4082,7 @@ msgstr ""
 #: software_links.xml:67
 #, no-c-format
 msgid "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
 
 #. Tag: para
 #: software_links.xml:68
@@ -4102,20 +4096,19 @@ msgstr ""
 #: software_links.xml:73
 #, no-c-format
 msgid "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
 
 #. Tag: para
 #: software_links.xml:74
 #, no-c-format
 msgid "The Online Bible is a powerful Bible study application for Windows."
-msgstr ""
+msgstr "The Online Bible er et kraftfuldt bibelstudie program til Windows."
 
 #. Tag: title
 #: software_links.xml:79
 #, no-c-format
-msgid ""
-"<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
-msgstr ""
+msgid "<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
+msgstr "<ulink url=\"http://www.crosswire.org/sword/\">Sword til Windows</ulink>."
 
 #. Tag: para
 #: software_links.xml:80
@@ -4128,9 +4121,8 @@ msgstr ""
 #. Tag: title
 #: software_links.xml:85
 #, no-c-format
-msgid ""
-"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
-msgstr ""
+msgid "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
+msgstr "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
 
 #. Tag: para
 #: software_links.xml:86
@@ -4144,7 +4136,7 @@ msgstr ""
 #: software_links.xml:91
 #, no-c-format
 msgid "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
 
 #. Tag: para
 #: software_links.xml:92
@@ -4160,13 +4152,13 @@ msgstr ""
 #: software_links.xml:99
 #, no-c-format
 msgid "Biblesoftware for Mac"
-msgstr ""
+msgstr "Bibelsoftware til Mac"
 
 #. Tag: title
 #: software_links.xml:100
 #, no-c-format
 msgid "<ulink url=\"http://www.macsword.com/\">MacSword for OS X</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.macsword.com/\">MacSword til OS X</ulink>."
 
 #. Tag: para
 #: software_links.xml:101
@@ -4175,18 +4167,20 @@ msgid ""
 "MacSword is a new Bible study application for the new Macintosh OS X system. "
 "The screenshots look very promising!"
 msgstr ""
+"MacSword er et nyt bibelstudie program til det nye Macintosh OS X system. "
+"Skærmbillederne ser meget lovende ud!"
 
 #. Tag: title
 #: software_links.xml:108
 #, no-c-format
 msgid "Development tools"
-msgstr ""
+msgstr "Udviklingsværktøjer"
 
 #. Tag: title
 #: software_links.xml:109
 #, no-c-format
 msgid "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
-msgstr ""
+msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 
 #. Tag: para
 #: software_links.xml:110
@@ -4207,13 +4201,13 @@ msgstr ""
 #: software_linkus.xml:15
 #, no-c-format
 msgid "Please do not copy the images because they may change their design."
-msgstr ""
+msgstr "Vær venlig ikke at kopiere billederne fordi de måske ændrer design."
 
 #. Tag: title
 #: software_linkus.xml:19
 #, no-c-format
 msgid "Larger banner"
-msgstr ""
+msgstr "Stort banner"
 
 #. Tag: para
 #: software_linkus.xml:20
@@ -4235,7 +4229,7 @@ msgstr ""
 #: software_linkus.xml:36
 #, no-c-format
 msgid "Smaller banner"
-msgstr ""
+msgstr "Mindre banner"
 
 #. Tag: para
 #: software_linkus.xml:37
@@ -4257,7 +4251,7 @@ msgstr ""
 #: software_linkus.xml:54
 #, no-c-format
 msgid "Text link"
-msgstr ""
+msgstr "Tekst link"
 
 #. Tag: para
 #: software_linkus.xml:55
@@ -4307,23 +4301,26 @@ msgid ""
 "which also covers BibleTime among \"Gnomesword\" and \"Volksbibel 2000\". "
 "Their conclusion in german for BibleTime:"
 msgstr ""
+"Det tyske magasin \"Pfarrer &amp; PC\" testede Bibel software til Linux "
+"hvilket også indlemmer BibleTime blandt \"Gnomesword\" og \"Volksbibel 2000\". "
+"Deres konklusion på tysk for BibleTime:"
 
 #. Tag: attribution
 #: software_press.xml:38
 #, no-c-format
 msgid "Pfarrer &amp; PC 2002 (&copy; Pfarrer &amp; PC 2002)"
-msgstr ""
+msgstr "Pfarrer &amp; PC 2002 (&copy; Pfarrer &amp; PC 2002)"
 
 #. Tag: para
 #: software_press.xml:39
 #, no-c-format
 msgid ""
 "Trotzdem: Alles dran, alles drin - BibleTime ist ein funktional wie optisch "
-"gelungenes Bibel-Programm, dem man unter Linux große Verbreitung wünschen "
-"darf. Ein wenig bedauerlich ist das copyrightbedingte Fehlen der »großen« "
-"zeitgenössischen Bibelübersetzungen. Dafür beschert BibleTime dem Nutzer "
-"Einblicke in selten genutzte Übersetzungen und ein gutes Handling "
-"griechischer und hebräischer Originaltexte."
+"gelungenes Bibel-Programm, dem man unter Linux groÃŸe Verbreitung wÃ¼nschen "
+"darf. Ein wenig bedauerlich ist das copyrightbedingte Fehlen der Â»groÃŸenÂ« "
+"zeitgenÃ¶ssischen BibelÃ¼bersetzungen. DafÃ¼r beschert BibleTime dem Nutzer "
+"Einblicke in selten genutzte Ãœbersetzungen und ein gutes Handling "
+"griechischer und hebrÃ¤ischer Originaltexte."
 msgstr ""
 
 #. Tag: para
@@ -4338,13 +4335,13 @@ msgstr ""
 #: software_screenshots.xml:19
 #, no-c-format
 msgid "Screenshots of BibleTime 1.5"
-msgstr ""
+msgstr "Skærmbilleder fra BibleTime 1.5"
 
 #. Tag: title
 #: software_screenshots.xml:22
 #, no-c-format
 msgid "The main window"
-msgstr ""
+msgstr "Hoved vinduet"
 
 #. Tag: para
 #: software_screenshots.xml:33
@@ -4381,7 +4378,7 @@ msgstr ""
 #: software_screenshots.xml:74
 #, no-c-format
 msgid "The search dialog"
-msgstr ""
+msgstr "Søgedialogen "
 
 #. Tag: para
 #: software_screenshots.xml:85
@@ -4412,19 +4409,19 @@ msgstr ""
 #: software_swordcdsend.xml:10
 #, no-c-format
 msgid "Sword CD order"
-msgstr ""
+msgstr "Sword CD bestilling"
 
 #. Tag: title
 #: software_swordcdsend.xml:15
 #, no-c-format
 msgid "CD order sent"
-msgstr ""
+msgstr "CD bestilling sendt"
 
 #. Tag: title
 #: translation.xml:14
 #, no-c-format
 msgid "Help translate BibleTime into your language"
-msgstr ""
+msgstr "Hjælp med at oversætte BibleTime til dit sprog"
 
 #. Tag: para
 #: translation.xml:15
@@ -4433,25 +4430,25 @@ msgid ""
 "This is a part of software development where the help of many individals is "
 "needed. It is our desire to offer BibleTime to users in as many languages as "
 "possible. The following areas are open for your contributions:"
-msgstr ""
+msgstr "Det her er en del af software udvikling, hvor der er brug for mange frivillige. Det er vores ønske at kunne tilbyde BibleTime til brugere i så mange sprog som muligt. De følgende områder er åbne for dine bidragelser."
 
 #. Tag: para
 #: translation.xml:21
 #, no-c-format
 msgid "<para>Translate the www.bibletime.info website.</para>"
-msgstr ""
+msgstr "<para>Oversæt www.bibletime.info hjemmesiden.</para>"
 
 #. Tag: para
 #: translation.xml:22
 #, no-c-format
 msgid "<para>Translate the program's User Interface.</para>"
-msgstr ""
+msgstr "<para>Oversæt programmets brugerflade.</para>"
 
 #. Tag: para
 #: translation.xml:23
 #, no-c-format
 msgid "<para>Translate the program's handbook.</para>"
-msgstr ""
+msgstr "<para>Oversæt programmets manual.</para>"
 
 #. Tag: para
 #: translation.xml:27
@@ -4476,6 +4473,8 @@ msgid ""
 "mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</"
 "ulink>. It has many advanced features and is a great aid."
 msgstr ""
+"Til oversættelses processen anbefaler vi at man bruget dette fantastiske og modne program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</"
+"ulink>. Det har mange avancerede funktioner og er til stor hjælp."
 
 #. Tag: para
 #: translation.xml:39
@@ -4490,7 +4489,7 @@ msgstr ""
 #: translation.xml:44
 #, no-c-format
 msgid "<title>Translate the www.bibletime.info website.</title>"
-msgstr ""
+msgstr "<title>Oversæt www.bibletime.info's hjemmeside.</title>"
 
 #. Tag: para
 #: translation.xml:45
@@ -4508,34 +4507,34 @@ msgstr ""
 #: translation.xml:54
 #, no-c-format
 msgid "<title>Translate the program's User Interface.</title>"
-msgstr ""
+msgstr "<title>Oversæt programmets brugerflade.</title>"
 
 #. Tag: para
 #: translation.xml:55
 #, no-c-format
 msgid ""
 "If a translation of the User Interface to your language does not yet exist, "
-"you can download and translate the <ulink url=\"http://bibletime.svn."
-"sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/"
-"messages.ts\"> User Interface translation template</ulink>. If you want to "
-"update an existing translation, use the links in the table below to download "
-"the corresponding file."
+"you can download and translate the <ulink url=\"http://bibletime.cvs."
+"sourceforge.net/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\"> "
+"User Interface translation template</ulink>. If you want to update an "
+"existing translation, use the links in the table below to download the "
+"corresponding file."
 msgstr ""
 
 #. Tag: title
 #: translation.xml:65
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
-msgstr ""
+msgstr "<title>Oversæt programmets manual.</title>"
 
 #. Tag: para
 #: translation.xml:66
 #, no-c-format
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
-"can download and translate the <ulink url=\"http://bibletime.svn.sourceforge."
-"net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot"
-"\"> handbook translation template</ulink>. If you want to update an existing "
-"translation, use the links in the table below to download the corresponding "
-"file."
+"can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge."
+"net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> handbook "
+"translation template</ulink>. If you want to update an existing translation, "
+"use the links in the table below to download the corresponding file."
 msgstr ""
+

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_fi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-19 17:12+0000\n"
+"POT-Creation-Date: 2008-02-24 21:02+0000\n"
 "PO-Revision-Date: 2007-07-25 12:51+0300\n"
 "Last-Translator: Ilpo Kantonen <ilpo@iki.fi>\n"
 "Language-Team: finnish <fi@li.org>\n"
@@ -4014,8 +4014,8 @@ msgstr "<title>Käännä ohjelman käyttöliittymä.</title>"
 
 #. Tag: para
 #: translation.xml:55
-#, no-c-format
-msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+#, fuzzy, no-c-format
+msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/messages.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Jos ohjelman käyttöliittymää ei ole saatavilla vielä omalla kielelläsi, voit ladata ja kääntää sen <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\"> käyttöliittymän käännöspohjasta</ulink>. Jos haluat päivittää olemassaolevaa käännöstä, käytä linkkiä allaolevassa taulukossa ladataksesi vastaavan tiedoston."
 
 #. Tag: title
@@ -4026,6 +4026,6 @@ msgstr "<title>Käännä ohjelman käsikirja.</title>"
 
 #. Tag: para
 #: translation.xml:66
-#, no-c-format
-msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+#, fuzzy, no-c-format
+msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Jos käsikirjaa ei ole saatavana omalla kielelläsi, voit ladata ja kääntää sen <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> käsikirjan käännösmallipohjasta</ulink>. Jos haluat päivittää olemassaolevaa käännöstä, käytä linkkiä allaolevassa taulukossa ladataksesi vastaavan tiedoston."

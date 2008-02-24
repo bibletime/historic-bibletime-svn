@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_nl\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-19 17:12+0000\n"
+"POT-Creation-Date: 2008-02-24 21:02+0000\n"
 "PO-Revision-Date: 2008-01-17 17:13+0100\n"
 "Last-Translator: Johan van der Lingen <JohanLingen@hotmail.com>\n"
 "Language-Team: Nederlands\n"
@@ -4020,8 +4020,8 @@ msgstr "<title>Vertaal de gebruikersinterface van het programma.</title>"
 
 #. Tag: para
 #: translation.xml:55
-#, no-c-format
-msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+#, fuzzy, no-c-format
+msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/messages.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Als een vertaling van de gebruikersinterface nog niet in uw taal bestaat, kunt u, kunt u het <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\"> sjabloon voor vertaling van de gebruikersinterface</ulink> downloaden en vertalen. Als u een bestaande vertaling wilt verbeteren, gebruik dan de links in onderstaande tabel om het bijbehorende bestand te downloaden."
 
 #. Tag: title
@@ -4032,6 +4032,6 @@ msgstr "<title>Vertaal het programma handboek.</title>"
 
 #. Tag: para
 #: translation.xml:66
-#, no-c-format
-msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+#, fuzzy, no-c-format
+msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Als een vertaling van het handboek nog niet in uw taal bestaat, kunt u, kunt u het <ulink url=\"http://bibletime.cvs.sourceforge.net/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> sjabloon voor vertaling van het handboek</ulink> downloaden en vertalen. Als u een bestaande vertaling wilt verbeteren, gebruik dan de links in onderstaande tabel om het bijbehorende bestand te downloaden."
