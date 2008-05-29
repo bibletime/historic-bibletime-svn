@@ -8,36 +8,44 @@
 <head>
 	<title>Translation</title>
 	<summary>BibleTime translation statistics</summary>
-	<keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, tramslation, webpage</keywords>
+	<keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE, Qt, God, Religion, Bible, devotional, crosswire, sword, translation, webpage</keywords>
 </head>
 
 <section><title>Help translate BibleTime into your language</title>
 <para>
-This is a part of software development where the help of many individals is needed.
+This is a part of software development where the help of many individuals is needed.
 It is our desire to offer BibleTime to users in as many languages as possible.
 The following areas are open for your contributions:
 
 <orderedlist numeration="arabic">
 	<listitem><para>Translate the www.bibletime.info website.</para></listitem>
 	<listitem><para>Translate the program's User Interface.</para></listitem>
+	<listitem><para>Translate the Bible Study Howto.</para></listitem>
 	<listitem><para>Translate the program's handbook.</para></listitem>
+	<listitem><para>Translate the biblical booknames.</para></listitem>
 </orderedlist>
 </para>
 
 <para>
 On this page you can find statistics about the completeness of existing translations for each of these areas, as well
 as links to translation templates that you can use to submit new translations which do not yet exist. If a translation
-into your language does not yet exist, just download the templates, translate them and send them to <email>info@bibletime.info</email>.
-If you are not satisfied with the status of your language's translation, you can directly download the corresponding file,
-update the translation and send it in. In both cases we'll be sure to integrate your work as soon as possible.
+into your language does not yet exist or you want to work on an existing translation, follow these steps:
+<orderedlist numeration="arabic">
+	<listitem><para>Subscribe to <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-translations">the translators' mailing list bibletime-translations at lists.sourceforge.net</ulink>. You will receive information relevant for translators and can communicate with the developers and the other translators. Use this list if you have questions or comments.</para></listitem>
+	<listitem><para>Download a template you want to translate or an existing translation you want to enhance.</para></listitem>
+	<listitem><para>Use one of the recommended programs mentioned below or some other program and edit the translation.</para></listitem>
+	<listitem><para>Send the translation to the translators' mailing list.</para></listitem>
+	<listitem><para>Developers will integrate your work as soon as possible. The statistics will be updated after that.</para></listitem>
+</orderedlist>
 </para>
 
 <para>
 For the translation process we recommend that you use the excellent and mature program
-<ulink url="http://i18n.kde.org/tools/kbabel/">KBabel</ulink>. It has many advanced features and is a great aid.
+<ulink url="http://i18n.kde.org/tools/kbabel/">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid.
+<ulink url="http://trolltech.com/products/qt/features/tools/linguist">Qt Linguist</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format. <ulink url="http://www.poedit.net/">Poedit</ulink> is a cross-platform .po file editor suitable for our documentation and website translations.
 </para>
 <para>
-A list of the language abbreviations is avalable at <ulink url="http://www.w3.org/WAI/ER/IG/ert/iso639.htm">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>.</para>
+A list of the language abbreviations is available at <ulink url="http://www.w3.org/WAI/ER/IG/ert/iso639.htm">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>.</para>
 </section>
 
 
@@ -58,6 +66,9 @@ the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime
 User Interface translation template</ulink>.
 If you want to update an existing translation, use the links in the table below to
 download the corresponding file.
+</para>
+<para>
+(We are preparing the BibleTime 1.7/2.0 series and have moved to the Qt's .ts file format from the 1.6 series .po format. Due the changes the translations need thorough rewrite.)
 </para>
 	<ssi mode="exec" cgi="/postats/messages_stats.pl"/>
 </section>
@@ -84,5 +95,12 @@ download the corresponding file.
 </para>
 	<ssi mode="exec" cgi="/postats/handbook_stats.pl"/>
 </section>
+
+<section><title>Translate the biblical booknames.</title>
+<para>
+Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url="ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d">the locales.d directory</ulink> of the Sword library and using <ulink url="ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf">the template</ulink>.
+</para>
+</section>
+
 
 </webpage>
