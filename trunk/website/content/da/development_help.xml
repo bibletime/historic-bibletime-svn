@@ -1,0 +1,78 @@
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!NOTATION XML SYSTEM "xml">
+<!ENTITY software_intro_page SYSTEM "software_intro.xml" NDATA XML>
+<!ENTITY development_join SYSTEM "development_join.xml" NDATA XML>
+<!ENTITY translations SYSTEM "translation.xml" NDATA XML>
+]>
+
+<webpage id="development_help">
+<config param="desc" value="Help us"
+></config>
+<config param="rcsdate" value="$Date: 2006/03/24 18:01:41 $"
+></config>
+<head>
+<title
+>Hjælp os</title>
+<summary
+>Direct and indirect support for the development of BibleTime</summary>
+<keywords
+>BibleTime, Help us, Help BibleTime, Software</keywords>
+</head>
+
+<section
+><title
+>Vær venlig at hjælp os...</title>
+<para
+>Vores mål er at udvikle BibleTime til et modent Bibelstudie program, som kan bruges af hvem som helst. For at opnå det har vi brug for din hjælp. Der er forskellige måder du kan hjælpe BibleTime-projektet både direkte og indirekte: </para>
+
+<section
+><title
+>Ønsker du at bede?</title>
+<para
+>At bede er noget alle kan gøre. Hvis du beder for Sword og BibelTimes projekter hjælper du os lige så meget som de andre medlemmer af BibleTime-prjektets teamet. </para>
+</section>
+
+<section
+><title
+>Vil du repportere en fejl eller foreslå en ny feature?</title>
+<para
+>Du kan bruge <ulink url="https://sourceforge.net/tracker/?group_id=954&amp;atid=100954"
+>BibleTime's fejl finder</ulink
+> til at reportere problemer med BibleTime, som du oplever. Vær sikker på at du inkluderer den version af BibleTime, som du bruger, din Sword version, information omkring QT/KDE og dit styresystem, og alt andet der er nødvendigt for at genskabe fejlen. Før du indsender fejlen, kig databasen igennem for at se om en lignende fejl allerede er blevet håndteret (og derfor allerede har statussen "closed"). </para>
+<para
+>There is also <ulink url="http://sourceforge.net/tracker/?group_id=954&amp;atid=350954"
+>a place</ulink
+> where you can make suggestions for features you'd like to see in BibleTime. We ask for your understanding that due to our limited time and to our own plans for BibleTime we cannot always comply with all wishes. </para>
+</section>
+
+<section
+><title
+>Ved du hvordan man programmerer software?</title>
+<para
+>Kan du finde ud af at programmere i C ++? Er du vant til eller villig til at lære KDE programmerings grænsefladen? Hvis du har tid til at arbejde med BibleTimes kildekode regelmæssigt, vil vi bede dig om at slutte dig til vores team. Hvis du gerne vil det, så vær venlig at læs den her side <olink targetdocent="development_join"
+> Slut dig til os</olink
+>. </para>
+</section>
+
+<section
+><title
+>Ved du hvordan man skriver dokumentation?</title>
+<para
+>Do you think you would be good in working on BibleTime's english documentation? If you think you are, please read the page <olink targetdocent="development_join"
+> Join us</olink
+>. </para>
+</section>
+
+<section
+><title
+>Er du god til at oversætte engelsk til et andet sprog?</title>
+<para
+>BibleTime should be useable for everyone. That's why we need a translation into your language, if it's not yet available. If you decide to start working on a translation please contact us at info@bibletime.info to see whether the translation was not yet started by another team member. We will provide you with the files which should be translated. </para>
+<para
+>Du kan finde flere informationer om oversættelses processen på den her side <olink targetdocent="translations"
+> translation</olink
+>.  </para>
+</section>
+</section>
+
+</webpage>

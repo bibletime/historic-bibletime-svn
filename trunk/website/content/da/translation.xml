@@ -1,0 +1,101 @@
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!NOTATION XML SYSTEM "xml">
+]>
+
+<webpage id="translation">
+<config param="desc" value="Software page"
+></config>
+<config param="rcsdate" value="$Date: 2005/10/17 18:25:18 $"
+></config>
+<head>
+	<title
+>Oversættelse</title>
+	<summary
+>BibleTime translation statistics</summary>
+	<keywords
+>BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, tramslation, webpage</keywords>
+</head>
+
+<section
+><title
+>Hjælp med at oversætte BibleTime til dit sprog</title>
+<para
+>Det her er en del af software udvikling, hvor der er brug for mange frivillige. Det er vores ønske at kunne tilbyde BibleTime til brugere i så mange sprog som muligt. De følgende områder er åbne for dine bidragelser. <orderedlist numeration="arabic">
+	<listitem
+><para
+>Oversæt www.bibletime.info hjemmesiden.</para
+></listitem>
+	<listitem
+><para
+>Oversæt programmets brugerflade.</para
+></listitem>
+	<listitem
+><para
+>Oversæt programmets manual.</para
+></listitem>
+</orderedlist>
+</para>
+
+<para
+>On this page you can find statistics about the completeness of existing translations for each of these areas, as well as links to translation templates that you can use to submit new translations which do not yet exist. If a translation into your language does not yet exist, just download the templates, translate them and send them to <email
+>info@bibletime.info</email
+>. If you are not satisfied with the status of your language's translation, you can directly download the corresponding file, update the translation and send it in. In both cases we'll be sure to integrate your work as soon as possible. </para>
+
+<para
+>Til oversættelses processen anbefaler vi at man bruget dette fantastiske og modne program <ulink url="http://i18n.kde.org/tools/kbabel/"
+>KBabel</ulink
+>. Det har mange avancerede funktioner og er til stor hjælp. </para>
+<para
+>A list of the language abbreviations is avalable at <ulink url="http://www.w3.org/WAI/ER/IG/ert/iso639.htm"
+>www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink
+>.</para>
+</section>
+
+
+<section
+><title
+>Oversæt www.bibletime.info's hjemmeside.</title>
+<para
+>If a translation of the website to your language does not yet exist, you can download and translate the <ulink url="/po/bibletime_website_template.pot"
+>Webpage translation template</ulink
+>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete. </para>
+	<ssi mode="exec" cgi="/postats/website_stats.pl"
+></ssi>
+</section>
+
+<section
+><title
+>Oversæt programmets brugerflade.</title>
+<para
+>If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/messages.ts"
+> User Interface translation template</ulink
+>. If you want to update an existing translation, use the links in the table below to download the corresponding file. </para>
+	<ssi mode="exec" cgi="/postats/messages_stats.pl"
+></ssi>
+</section>
+
+<section
+><title
+>Translate the Bible study howto.</title>
+<para
+>If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot"
+> howto translation template</ulink
+>. If you want to update an existing translation, use the links in the table below to download the corresponding file. </para>
+	<ssi mode="exec" cgi="/postats/howto_stats.pl"
+></ssi>
+</section>
+
+
+
+<section
+><title
+>Oversæt programmets manual.</title>
+<para
+>If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot"
+> handbook translation template</ulink
+>. If you want to update an existing translation, use the links in the table below to download the corresponding file. </para>
+	<ssi mode="exec" cgi="/postats/handbook_stats.pl"
+></ssi>
+</section>
+
+</webpage>

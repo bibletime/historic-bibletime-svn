@@ -1,0 +1,30 @@
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!NOTATION XML SYSTEM "xml">
+<!ENTITY software_intro_page SYSTEM "software_intro.xml" NDATA XML>
+]>
+
+<webpage id="development">
+<config param="desc" value="Development"
+></config>
+<config param="rcsdate" value="$Date: 2004/03/09 16:02:16 $"
+></config>
+<head>
+	<title
+>Udvikling</title>
+	<summary
+>BibleTime's development</summary>
+	<keywords
+>BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, support, developmen</keywords>
+</head>
+
+<section
+><title
+>BibelTimes udvikling</title>
+<para
+>De her sider beskriver hvordan man kan slutte sig til udviklingen af BibleTime og hvilke måder man kan hjælpe os på! BibleTimes kvalitet og brugervenlighed afhænger i høj grad af hjælp fra andre. </para>
+
+<para
+>Vær venlig at læse de følgende sider meget grundigt for at se om du kan hjælpe os med udvikling! </para>
+</section>
+
+</webpage>

@@ -1,0 +1,119 @@
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!NOTATION XML SYSTEM "xml">
+<!ENTITY translation SYSTEM "translation.xml" NDATA XML>
+]>
+
+<webpage id="development_join">
+<config param="desc" value="Join us"
+></config>
+<config param="rcsdate" value="$Date: 2006/03/24 18:01:41 $"
+></config>
+<head>
+	<title
+>Slut dig til os</title>
+	<summary
+>BibleTime's development</summary>
+	<keywords
+>BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, development team, join</keywords>
+</head>
+
+<section
+><title
+>Slut dig til BibleTime holdet</title>
+<para
+>Vi er glade for alle som hjælper os med at forbedre BibelTimes software, dens dokumentation og dens oversættelse. </para>
+
+<section
+><title
+>De grundlæggende skridt..</title>
+<para
+>Det følgende er nødvendigt for en hver type af holdmedlem. Vær venlig at følge dem! </para>
+<para>
+	<orderedlist>
+		<listitem>
+			<para
+>Hvis du ikke har en konto på <ulink url="https://sf.net"
+>SourceForge</ulink
+>, så vær venlig at anskaffe dig dig en. Det er gratis. Vi har brug for dit brugernavn til at tilføje dig til teammedlemmerne, så de kan give dig opgaver, osv. </para>
+		</listitem>
+
+		<listitem>
+			<para
+>Subscribe to the <ulink url="http://www.crosswire.org/mailman/listinfo/bt-devel"
+>BibleTime development mailing list</ulink
+>. All developers read this mailing list, so everybody knows what's hapenning. There is also a mailing list for the <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-cvs"
+>commit messages</ulink
+> of the ongoing development process. </para>
+		</listitem>
+
+		<listitem>
+			<para
+>Få fat i udviklings versionen af BibleTime og installer den. Hvis du har brug for hjælp med det, så spørg over mailinglisten eller kig i dokumentations sektionen. </para>
+		</listitem>
+	</orderedlist>
+</para>
+</section>
+
+<section
+><title
+>De næste skridt for software udviklere</title>
+<para>
+	<orderedlist>
+		<listitem>
+			<para
+>Arbejd dig gennem nogle af Qt 3 og KDE 3 øvelserne for at blive vant til at programmere med de ting BibleTime bruger. </para>
+		</listitem>
+		<listitem>
+			<para
+>Hvis du ikke ved hvad du skal gøre så spørg nogle over mailinglisten for nogle opgaver. Glem ikke at tilføje hvor svært skal være. </para>
+		</listitem>
+	</orderedlist>
+</para>
+</section>
+
+<section
+><title
+>De næste skridt for dokumentations forfattere...</title>
+<para>
+	<orderedlist>
+		<listitem>
+			<para
+>Læs den eksisterende engelske dokumentation. Den ligger i mappen docs/ i BibleTimes cvs mappe. </para>
+		</listitem>
+		<listitem>
+			<para
+>The documentation is stored in docbook files in the unicode subdirectories of each documentation part (handbook, Bible study howto, installation, helpdialog). Please don't edit the HTML files directly because they're generated from the docbook files. The translation file are also generated from the docbook data. </para>
+		</listitem>
+	</orderedlist>
+</para>
+</section>
+
+
+<section
+><title
+>De næste skridt for oversættere</title>
+<para>
+	<orderedlist>
+		<listitem>
+			<para
+>Ta' et kig på internationaliserings siderne til KDE projektet. Disse sider ligger på <ulink url="http://i18n.kde.org/"
+>i18n.kde.org</ulink
+>. </para>
+		</listitem>
+		<listitem>
+			<para
+>Installer programmet KBabel, hvis det ikke allerede er installeret på dit system. Det vil hjælpe dig med meget af oversættelses procesen. </para>
+		</listitem>
+		<listitem>
+			<para
+>Læs siden om <olink targetdocent="translation"
+>oversættelse af BibleTime</olink
+>. </para>
+		</listitem>
+	</orderedlist>
+</para>
+</section>
+
+</section>
+
+</webpage>

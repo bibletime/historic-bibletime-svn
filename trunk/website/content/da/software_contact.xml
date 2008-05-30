@@ -1,0 +1,63 @@
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!NOTATION XML SYSTEM "xml">
+<!ENTITY software_intro_page SYSTEM "software_intro.xml" NDATA XML>
+]>
+
+<webpage id="contact">
+<config param="desc" value="Contact"
+></config>
+<config param="rcsdate" value="$Date: 2005/06/18 09:00:57 $"
+></config>
+<head>
+	<title
+>Kontakt</title>
+	<summary
+>How to contact us</summary>
+	<keywords
+>BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, contact</keywords>
+</head>
+
+<section
+><title
+>Hvordan man kan kontakte os</title>
+	<formalpara
+><title
+><ulink url="http://forum.bibletime.info/"
+>BibelTimes bruger forum</ulink
+></title>
+	<para
+>This is the place to ask questions about BibleTime. If you have trouble with installing and/or using BibleTime post a message in the forum, and hopefully you'll have an answer in time. </para>
+	<para
+>If you are an experienced BibleTime user and can spare some time, please regularly check out the forum and answer questions of people who have less experience than you. Thereby you would also help the developers to concentrate on the work of development instead of user support. </para>
+	</formalpara>
+	
+	<formalpara
+><title
+><ulink url="http://sourceforge.net/tracker/?group_id=954&amp;atid=100954"
+>Send en fejl rapport</ulink
+></title>
+	<para
+>If you find a bug in BibleTime use this link to report it so it can be fixed in later versions. Please include detailed descriptions of your setup and how the developers can reproduce the bug. </para>
+	</formalpara>
+	
+	<formalpara
+><title
+><ulink url="http://sourceforge.net/tracker/?atid=350954&amp;group_id=954&amp;func=browse"
+>Send et foreslag til nye egenskaber</ulink
+></title>
+	<para
+>Hvis du har en idé omkring hvordan vi kan forbedre BibleTime, så vær venlig at bruge det her link til at fortælle vores udviklere omkring det. </para>
+	</formalpara>
+
+	<formalpara
+><title
+><ulink url="http://sourceforge.net/tracker/?atid=511478&amp;group_id=954&amp;func=browse"
+>Reporter et hjemmeside problem</ulink
+></title>
+	<para
+>Hvis du har fundet et problem med hjemmesiden eller har et forslag til hvordan den kan forbedres, så brug det her link til at fortælle vores webmaster omkring det. </para>
+	</formalpara>
+
+</section>
+
+</webpage>
