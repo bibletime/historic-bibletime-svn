@@ -18,3 +18,7 @@ RewriteBase   /
 #Rewrite the pages on / into the corresponding .var file on /
 RewriteCond     %{DOCUMENT_ROOT}/$1.var  -f
 RewriteRule     ^([^/]*)\.(s?html|php4|php)$    /$1.var  [L]
+
+RewriteRule     ^Perl.+$        /index.html [F,L]
+RewriteRule     ^.+\.pm$        /index.html [F,L]
+

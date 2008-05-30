@@ -5,10 +5,8 @@
 	xmlns:sweb="http://nwalsh.com/xslt/ext/com.nwalsh.saxon.Website"
 	exclude-result-prefixes="sweb xweb" version="1.0">
 
-
 	<xsl:import href="../docbook-xsl/website/xsl/website.xsl" />
-	<xsl:import
-		href="http://docbook.sourceforge.net/release/xsl/current/xhtml/chunker.xsl" />
+	<xsl:import href="http://docbook.sourceforge.net/release/xsl/current/xhtml/chunker.xsl" />
 	<xsl:include href="../docbook-xsl/website/xsl/chunk-common.xsl" />
 
 	<xsl:include href="bibletime-common.xsl" />
@@ -16,8 +14,7 @@
 	<xsl:include href="bibletime-toc.xsl" />
 	<xsl:include href="bibletime-footer.xsl" />
 
-	<xsl:output method="xml" indent="no" omit-xml-declaration="no"
-		encoding="UTF-8" />
+	<xsl:output method="xml" indent="no" omit-xml-declaration="no" encoding="UTF-8" />
 
 	<!-- Customisation layer -->
 
@@ -41,7 +38,6 @@
 	<xsl:param name="make.year.ranges" select="1" />
 
 	<xsl:param name="nav.graphics">0</xsl:param>
-
 
 	<xsl:param name="page-language" select="'.'" />
 
@@ -100,11 +96,8 @@
 					<xsl:text>Page</xsl:text>
 				</xsl:attribute>
 				
-
-
 				<div id="header">
-					<a href="http://www.bibletime.info/"><img src="/images/header-logo.png" id="headerlogo"
-						alt="headerlogo" /></a>
+					<a href="http://www.bibletime.info/"><img src="/images/header-logo.png" id="headerlogo" alt="headerlogo" /></a>
 					<div id="flags">
 						<xsl:call-template name="output-flags">
 							<xsl:with-param name="langs">
@@ -164,8 +157,7 @@
 								alt="Valid CSS" />
 						</a>
 						<br />
-						<img alt="counter"
-							src="http://www.bibletime.info/cgi-sys/Count.cgi?df=bibletime.dat|display=Counter|ft=0|md=6|frgb=100;139;216|dd=B" />
+						<img alt="counter" src="http://www.bibletime.info/cgi-sys/Count.cgi?df=bibletime.dat|display=Counter|ft=0|md=6|frgb=100;139;216|dd=B" />
 					</div>
 					
 					<div id="footer">
@@ -174,14 +166,16 @@
 					</div>
 					
 				<!-- Google analytics tracking -->				
-				<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+				<script type="text/javascript">
+					var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+					document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 				</script>
 				<script type="text/javascript">
-				_uacct = "UA-1186927-1";
-				urchinTracker();
-				</script>
+					var pageTracker = _gat._getTracker("UA-1186927-1");
+					pageTracker._initData();
+					pageTracker._trackPageview();
+				</script>		
 			</body>
 		</html>
 	</xsl:template>
-
 </xsl:stylesheet>

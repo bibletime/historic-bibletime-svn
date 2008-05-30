@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_ru\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-24 22:11+0000\n"
+"POT-Creation-Date: 2008-05-30 19:37+0000\n"
 "PO-Revision-Date: 2006-12-26 15:17+0300\n"
 "Last-Translator: Igor Plisco <igor@plisco.ru>\n"
 "Language-Team: русский <ru@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.1\n"
 
 #. Tag: holder
-#: autolayout.xml:4 layout.xml:17
+#: autolayout.xml:4 layout.xml:18
 #, no-c-format
 msgid "The BibleTime developers"
 msgstr "Разработчики BibleTime"
@@ -44,127 +44,115 @@ msgid "Sidebar tips"
 msgstr "Подсказки Sidebar"
 
 #. Tag: title
-#: autolayout.xml:17 software_swordcd.xml:10
-#, no-c-format
-msgid "Sword CD"
-msgstr "Sword CD"
-
-#. Tag: title
-#: autolayout.xml:21 index.xml:9
+#: autolayout.xml:17 index.xml:9
 #, no-c-format
 msgid "BibleTime"
 msgstr "BibleTime"
 
 #. Tag: title
-#: autolayout.xml:24 software.xml:10
+#: autolayout.xml:20 software.xml:10
 #, no-c-format
 msgid "Software"
 msgstr "Программы"
 
 #. Tag: title
-#: autolayout.xml:27 software_about.xml:9
+#: autolayout.xml:23 software_about.xml:9
 #, no-c-format
 msgid "About BibleTime"
 msgstr "О BibleTime"
 
 #. Tag: title
-#: autolayout.xml:31 software_screenshots.xml:9
+#: autolayout.xml:27 software_screenshots.xml:9
 #, no-c-format
 msgid "Screenshots"
 msgstr "Скриншоты"
 
 #. Tag: title
-#: autolayout.xml:35 software_installation.xml:11
-#, no-c-format
-msgid "Download"
-msgstr "Загрузить"
+#: autolayout.xml:31 software_installation.xml:11
+#, fuzzy, no-c-format
+msgid "Download of BibleTime"
+msgstr "Загрузка BibleTime"
 
 #. Tag: title
-#: autolayout.xml:39 software_faq.xml:11
+#: autolayout.xml:35 software_faq.xml:11
 #, no-c-format
 msgid "<title>FAQ</title>"
 msgstr "<title>ЧаВо</title>"
 
 #. Tag: title
-#: autolayout.xml:43 software_links.xml:9
+#: autolayout.xml:39 software_links.xml:9
 #, no-c-format
 msgid "Links"
 msgstr "Ссылки"
 
 #. Tag: title
-#: autolayout.xml:47 software_linkus.xml:9
+#: autolayout.xml:43 software_linkus.xml:9
 #, no-c-format
 msgid "Link to us"
 msgstr "Ссылка на нас"
 
 #. Tag: title
-#: autolayout.xml:51 software_guestbook.xml:9
-#, no-c-format
-msgid "Guestbook"
-msgstr "Гостевая книга"
-
-#. Tag: title
-#: autolayout.xml:55 software_press.xml:10 software_press.xml:15
+#: autolayout.xml:47 software_press.xml:10 software_press.xml:15
 #, no-c-format
 msgid "In the press"
 msgstr "Пресса о нас"
 
 #. Tag: title
-#: autolayout.xml:59 software_contact.xml:10
+#: autolayout.xml:51 software_contact.xml:10
 #, no-c-format
 msgid "Contact"
 msgstr "Контакт"
 
 #. Tag: title
-#: autolayout.xml:63 software_license.xml:9 software_license.xml:14
+#: autolayout.xml:55 software_license.xml:9 software_license.xml:14
 #, no-c-format
 msgid "License"
 msgstr "Лицензия"
 
 #. Tag: title
-#: autolayout.xml:67 software_imprint.xml:10
+#: autolayout.xml:59 software_imprint.xml:10
 #, no-c-format
 msgid "Imprint"
 msgstr "Отпечатка"
 
 #. Tag: title
-#: autolayout.xml:72 development.xml:10
+#: autolayout.xml:64 development.xml:10
 #, no-c-format
 msgid "Development"
 msgstr "Разработка"
 
 #. Tag: title
-#: autolayout.xml:75 development_help.xml:12
+#: autolayout.xml:67 development_help.xml:12
 #, no-c-format
 msgid "Help us"
 msgstr "Нужна помощь"
 
 #. Tag: title
-#: autolayout.xml:79 development_join.xml:10
+#: autolayout.xml:71 development_join.xml:10
 #, no-c-format
 msgid "Join us"
 msgstr "Присоединяйтесь к нам"
 
 #. Tag: title
-#: autolayout.xml:83 development_mailinglists.xml:10
+#: autolayout.xml:75 development_mailinglists.xml:10
 #, no-c-format
 msgid "Mailinglists"
 msgstr "Списки рассылки"
 
 #. Tag: title
-#: autolayout.xml:87 layout.xml:67
+#: autolayout.xml:79 layout.xml:63
 #, fuzzy, no-c-format
 msgid "Development wiki"
 msgstr "Разработка"
 
 #. Tag: title
-#: autolayout.xml:91 translation.xml:9
+#: autolayout.xml:83 translation.xml:9
 #, no-c-format
 msgid "Translation"
 msgstr "Перевод"
 
 #. Tag: title
-#: autolayout.xml:95 biblehowto.docbook:17
+#: autolayout.xml:87 biblehowto.docbook:17
 #, no-c-format
 msgid "Biblestudy HowTo"
 msgstr "Как изучать Библию"
@@ -224,25 +212,25 @@ msgid "Scripture quotes are from the New American Standard Bible unless otherwis
 msgstr "Цитаты из Писания взяты из Синодального перевода Библии, если иное не указано."
 
 #. Tag: title
-#: biblehowto.docbook:67
+#: biblehowto.docbook:66
 #, no-c-format
 msgid "Abstract"
 msgstr "Резюме"
 
 #. Tag: para
-#: biblehowto.docbook:68
+#: biblehowto.docbook:67
 #, no-c-format
 msgid "The <application>Biblestudy HowTo</application> is a guide for studying the Bible."
 msgstr "<application>\"Как изучать Библию\"</application> - это помощь в изучении Библии."
 
 #. Tag: para
-#: biblehowto.docbook:71
+#: biblehowto.docbook:70
 #, no-c-format
 msgid "It is the hope of the &bibletime; team that this HowTo will provoke the readers to study the scriptures to see what they say. This particular study guide has been chosen as it takes care not to advocate any particular denominational doctrine. We expect you to read and study the scriptures to understand what they say. If you start with the attitude that you want to have the Lord sow his word in your heart He will not disappoint you."
 msgstr "Команда &bibletime; надеется, что это руководство побудит читателей изучать Писание, чтобы узнать, о чём в нём говорится. Было выбрано именно это обучающее руководство, поскольку оно не защищает никакую определённую деноминационную доктрину. Мы ожидаем, что вы сами будете читать и изучать Писания, чтобы понять, о чём в них говорится. Если вы начнёте с желанием, чтобы Господь сеял Своё слово в ваше сердце, - Он не разочарует вас."
 
 #. Tag: keyword
-#: biblehowto.docbook:81
+#: biblehowto.docbook:80
 #, no-c-format
 msgid "Bible"
 msgstr "Библию"
@@ -251,13 +239,13 @@ msgstr "Библию"
 #. Tag: keyword
 #. #-#-#-#-#  how2-basics.pot (PACKAGE VERSION)  #-#-#-#-#
 #. Tag: title
-#: biblehowto.docbook:82 how2-basics.docbook:47
+#: biblehowto.docbook:81 how2-basics.docbook:47
 #, no-c-format
 msgid "Study"
 msgstr "Изучать"
 
 #. Tag: keyword
-#: biblehowto.docbook:83
+#: biblehowto.docbook:82
 #, no-c-format
 msgid "HowTo"
 msgstr "Как"
@@ -510,8 +498,8 @@ msgstr "Знаете ли Вы..."
 
 #. Tag: para
 #: devotional.xml:15
-#, no-c-format
-msgid "Did you know that today, 2006, more than 200,000,000 Christians are being disadvantaged, persecuted and even killed because of their faith? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">This map</ulink> (German) shows the countries where people have to &quot;pay&quot; for their faith, and <ulink url=\"http://www.opendoorsusa.org/Display.asp?Page=Map\">here is an English one</ulink> that has some information about the main regions worldwide. These pages are from Open Doors, an independent organization trat tries to help persecuted Christians."
+#, fuzzy, no-c-format
+msgid "Did you know that today, 2008, more than 200,000,000 Christians are being disadvantaged, persecuted and even killed because of their faith? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">This map</ulink> (German) shows the countries where people have to &quot;pay&quot; for their faith, and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\">here is an English one</ulink> that has some information about the main regions worldwide. These pages are from Open Doors, an independent organization trat tries to help persecuted Christians."
 msgstr "Знаете ли вы, что сегодня, 2006, более 200 миллионов христиан бедствуют,преследуются и даже убиваются за их веру? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">Данная карта</ulink> (немецкий) указывает страны где люди &quot;платят&quot; за их веру, а здесь<ulink url=\"http://www.opendoorsusa.org/Display.asp?Page=Map\">на английском</ulink> дана некоторая информация по всему миру. Это данные независимой организации Open Doors, которая старается помочь преследуемым христианам."
 
 #. Tag: para
@@ -1981,14 +1969,32 @@ msgstr "Проект BibleTime приветствует вас!"
 #. Tag: para
 #: software.xml:21
 #, fuzzy, no-c-format
-msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\"> K Desktop Environment </ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\"> Crosswire Bible Society </ulink> ."
+msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr "BibleTime это программа для изучения Библии под Линукс. Она основана на <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> и использует программные библиотеки <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> для работы с текстами Библии, комментариями, словарями и книгами предоставленными <ulink url=\"http://www.crosswire.org/\">Библейским Обществом Crosswire</ulink>."
 
 #. Tag: title
-#: software.xml:50
+#: software.xml:40
 #, no-c-format
 msgid "News about BibleTime"
 msgstr "Новости о BibleTime"
+
+#. Tag: title
+#: software.xml:42
+#, fuzzy, no-c-format
+msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
+msgstr "2003-08-23: BibleTime 1.3"
+
+#. Tag: para
+#: software.xml:43
+#, no-c-format
+msgid "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</ulink> how to setup your Linux to get the new packages."
+msgstr ""
+
+#. Tag: para
+#: software.xml:46
+#, no-c-format
+msgid "Version 1.6.5.1 has been released. It contains fixes so it can be installed on current versions of Linux."
+msgstr ""
 
 #. Tag: title
 #: software.xml:52
@@ -2561,30 +2567,6 @@ msgid "If a translation into your language is not available, please consider to 
 msgstr "Если перевода на Ваш язык еще нет, пожалуйста помогите нам в этом. Больше информации об этом на нашей странице <olink targetdocent=\"translation\">переводов</olink>."
 
 #. Tag: title
-#: software_guestbook.xml:14
-#, no-c-format
-msgid "BibleTime's Guestbook"
-msgstr "Гостевая книга BibleTime"
-
-#. Tag: para
-#: software_guestbook.xml:15
-#, fuzzy, no-c-format
-msgid "This is the place to leave positive or negative comments about the BibleTime project. This is not the place to ask questions, please use <ulink url=\"http://forum.bibletime.info/\">the BibleTime forum</ulink> instead."
-msgstr "Здесь вы можете оставить положительные или отрицательные отклики о проекте BibleTime. Здесь не нужно задавать вопросы, пожалуйста используйте для этого <ulink url=\"http://www.crosswire.org/forums/mvnforum/listthreads?forum=2\">форум BibleTime</ulink>."
-
-#. Tag: para
-#: software_guestbook.xml:19
-#, no-c-format
-msgid "Please write in English, if possible. HTML is not allowed and will be removed, but you may use normal line breaks to divide into paragraphs."
-msgstr "Пожалуйста, если возможно, пишите по-английски. HTML не допускается и будет удалён, но вы можете использовать обычные разрывы строк для деления на абзацы."
-
-#. Tag: title
-#: software_guestbook.xml:24
-#, no-c-format
-msgid "Please add your comments here:"
-msgstr "Пожалуйста, добавьте ваш комментарий:"
-
-#. Tag: title
 #: software_imprint.xml:15
 #, no-c-format
 msgid "Responsibility"
@@ -2628,120 +2610,126 @@ msgstr "Исходный код и пакеты для основных дист
 
 #. Tag: para
 #: software_installation.xml:26
-#, fuzzy, no-c-format
-msgid "Debian packages are available <ulink url=\"http://packages.debian.org/bibletime\">here</ulink>."
-msgstr "Есть пакеты Gentoo на <ulink url=\"http://packages.gentoo.org/search/?sstring=bibletime\">www.gentoo.org</ulink>."
+#, no-c-format
+msgid "Ubuntu packages are available in the repository and <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\">here</ulink>. Updated packages for Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url=\"https://launchpad.net/~txwikinger/+archive\">here</ulink>."
+msgstr ""
 
 #. Tag: para
 #: software_installation.xml:31
+#, fuzzy, no-c-format
+msgid "Debian packages are available in the repository and <ulink url=\"http://packages.debian.org/bibletime\">here</ulink>."
+msgstr "Есть пакеты Gentoo на <ulink url=\"http://packages.gentoo.org/search/?sstring=bibletime\">www.gentoo.org</ulink>."
+
+#. Tag: para
+#: software_installation.xml:36
 #, no-c-format
 msgid "Gentoo packages are in Portage. Just call \"emerge bibletime\"."
 msgstr ""
 
 #. Tag: para
-#: software_installation.xml:36
+#: software_installation.xml:41
 #, no-c-format
 msgid "A FreeBSD application port of BibleTime can be found on <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
 msgstr "FreeBSD версию BibleTime можно найти на <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
 
 #. Tag: para
-#: software_installation.xml:41
+#: software_installation.xml:46
 #, fuzzy, no-c-format
 msgid "PC-BSD packages are available <ulink url=\"http://www.pbidir.com/search.php?str=bibletime\">here</ulink>."
 msgstr "Есть пакеты Gentoo на <ulink url=\"http://packages.gentoo.org/search/?sstring=bibletime\">www.gentoo.org</ulink>."
 
 #. Tag: title
-#: software_installation.xml:48
+#: software_installation.xml:53
 #, no-c-format
 msgid "Installation of BibleTime"
 msgstr "Установка BibleTime"
 
 #. Tag: para
-#: software_installation.xml:49
+#: software_installation.xml:54
 #, no-c-format
 msgid "This section explains how to install BibleTime on your system. Basically there are two ways to install it: Either by using prebuilt binary packages or by compiling from source code. Installing BibleTime using prebuilt packages is the easiest way."
 msgstr "Этот раздел поясняет как установить BibleTime на вашей системе. Есть два способа установки: Или с помощью предварительно собранных бинарных пакетов, или выполнив компиляцию из исходного кода Установка с помощью предварительно собранных бинарных пакетов самый простой путь. "
 
 #. Tag: title
-#: software_installation.xml:53
+#: software_installation.xml:58
 #, no-c-format
 msgid "Prebuilt binary packages"
 msgstr "Предварительно собранные бинарные пакеты"
 
 #. Tag: para
-#: software_installation.xml:54
+#: software_installation.xml:59
 #, no-c-format
 msgid "With the help of great volunteers, we try to provide packages for the most important Linux distributions. Before installing BibleTime, however, you need to find and install packages for <ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.16a</ulink> and Sword (Sword binaries are available at the BibleTime download site)."
 msgstr ""
 
 #. Tag: para
-#: software_installation.xml:57
+#: software_installation.xml:62
 #, no-c-format
 msgid "First download the binary package for your Linux distribution. For example: You want to download <application>BibleTime 1.4</application> for <productname>SuSE Linux 9.0</productname>. In this case you have to download the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please download the package &quot;bibletime-i18n&quot; package, too. This package contains the available translations of the BibleTime user interface and handbook."
 msgstr "Сначала загрузите бинарный пакет для вашего дистрибутива Линукс. Например: Вы хотите загрузить <application>BibleTime 1.4</application> для <productname>SuSE Linux 9.0</productname>. В этом случае вам нужно загрузить пакет <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Пожалуйста, не забудьте также загрузить пакет &quot;bibletime-i18n&quot;. Этот пакет содержит существующие переводы интерфейса пользователя и руководства для BibleTime. "
 
 #. Tag: para
-#: software_installation.xml:60
+#: software_installation.xml:65
 #, no-c-format
 msgid "If there are no packages for your version of Linux you have to install from source code. Please see below how to do that."
 msgstr "Если здесь нет пакета для вашей версии Линукс, вам нужно делать установку из исходного кода. Пожалуйста, прочтите ниже как это сделать."
 
 #. Tag: title
-#: software_installation.xml:64
+#: software_installation.xml:69
 #, no-c-format
 msgid "Installation from source code"
 msgstr "Установка из исходного кода"
 
 #. Tag: para
-#: software_installation.xml:65
+#: software_installation.xml:70
 #, no-c-format
 msgid "Installation using BibleTime's source code is more difficult than using binary packages. Please follow the steps below if you decided to install BibleTime from sources:"
 msgstr "Установка с использованием исходного кода BibleTime более сложна по сравнению с использованием бинарных пакетов. Installation using BibleTime's source code is more difficult than using binary packages. Пожалуйста следуйте указаниям, приведённым ниже, если вы решили устанавливать BibleTime из исходного кода:"
 
 #. Tag: para
-#: software_installation.xml:70
+#: software_installation.xml:75
 #, no-c-format
 msgid "At first make sure the required software is installed on your system. Depending on your Linux distribution you have to install the development packages of the required software, too."
 msgstr "Для начала убедитесь, что необходимое программное обеспечение (ПО) установлено в вашей системе. В зависимости от вашего дистрибутива Линукс вам также нужно установить пакеты для разработки (development packages) необходимого ПО."
 
 #. Tag: para
-#: software_installation.xml:75
+#: software_installation.xml:80
 #, no-c-format
 msgid "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
 msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
 
 #. Tag: para
-#: software_installation.xml:76
+#: software_installation.xml:81
 #, no-c-format
 msgid "At least the libraries and the base package. KDE 3 is shipped with many Linux distributions. Very often it's installed by default."
 msgstr "Как минимум библиотеки и базовый пакет. KDE 3 поставляется со многими дистрибутивами Линукс. И очень часто устанавливается по умолчанию."
 
 #. Tag: para
-#: software_installation.xml:80
+#: software_installation.xml:85
 #, fuzzy, no-c-format
 msgid "<ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink>."
 msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 
 #. Tag: para
-#: software_installation.xml:81
+#: software_installation.xml:86
 #, no-c-format
 msgid "This is necessary for the new instant search feature."
 msgstr ""
 
 #. Tag: para
-#: software_installation.xml:85
+#: software_installation.xml:90
 #, fuzzy, no-c-format
 msgid "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword 1.5.9</ulink>."
 msgstr "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword 1.5.7</ulink>."
 
 #. Tag: para
-#: software_installation.xml:86
+#: software_installation.xml:91
 #, no-c-format
 msgid "Installation instructions are available on <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\">www.crosswire.org/sword/software</ulink>. Basically the installation steps are"
 msgstr "Инструкции по установке есть на <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\">www.crosswire.org/sword/software</ulink>. Основные шаги при установке"
 
 #. Tag: screen
-#: software_installation.xml:87
+#: software_installation.xml:92
 #, fuzzy, no-c-format
 msgid ""
 "<command>./usrinst.sh --enable-shared --without-clucene</command>\n"
@@ -2755,19 +2743,19 @@ msgstr ""
 "                                                                <command>make install_config</command>"
 
 #. Tag: para
-#: software_installation.xml:92
+#: software_installation.xml:97
 #, no-c-format
 msgid "Please note that this list is only valid for the latest version of BibleTime, older versions may require other software."
 msgstr "Пожалуйста, обратите внимание, что этот список годится только для последней версии BibleTime. Старые версии могут требовать другого программного обеспечения. "
 
 #. Tag: para
-#: software_installation.xml:97
+#: software_installation.xml:102
 #, no-c-format
 msgid "Compile and install BibleTime:"
 msgstr "Компиляция и установка BibleTime:"
 
 #. Tag: screen
-#: software_installation.xml:98
+#: software_installation.xml:103
 #, no-c-format
 msgid ""
 "<command>./configure --prefix=&lt;your KDE directory&gt;</command>\n"
@@ -2779,13 +2767,13 @@ msgstr ""
 "                                                <command>make install</command>"
 
 #. Tag: para
-#: software_installation.xml:101
+#: software_installation.xml:106
 #, no-c-format
 msgid "You can get your KDE directory by running the command <command>kde-config --prefix</command>. If you get problems please read our <olink targetdocent=\"software_faq\">FAQ</olink>. If there's no solution of your problem, please contact us at <email>info@bibletime.info</email>."
 msgstr "Вы можете узнать ваш каталог KDE выполнив команду <command>kde-config --prefix</command>. Если у вас возникли проблемы, прочтите наш раздел <olink targetdocent=\"software_faq\">ЧаВо</olink>. Если там нет решения вашей проблемы, пожалуйста напишите нам на <email>info@bibletime.info</email>."
 
 #. Tag: para
-#: software_installation.xml:104
+#: software_installation.xml:109
 #, no-c-format
 msgid ""
 "Debian (and possibly derived distros as well) use a non-standard path to store the documentation of KDE programs. Therefore the ./configure line above in this case needs to be changed to: <screen>\n"
@@ -2794,7 +2782,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: software_installation.xml:113
+#: software_installation.xml:118
 #, fuzzy, no-c-format
 msgid ""
 "Compile and install the translations of BibleTime's user interface (bibletime-i18n): <screen>\n"
@@ -2808,55 +2796,55 @@ msgstr ""
 "                                                <command>make install</command>"
 
 #. Tag: title
-#: software_installation.xml:125
+#: software_installation.xml:130
 #, fuzzy, no-c-format
 msgid "Install works"
 msgstr "Установка модулей Sword"
 
 #. Tag: para
-#: software_installation.xml:126
+#: software_installation.xml:131
 #, fuzzy, no-c-format
 msgid "You need Sword modules to work with BibleTime. Since version 1.4 BibleTime offers a userfriendly dialog (the Bookshelf Manager) to install/update/remove works. We strongly recommend this way to install works on your computer."
 msgstr "Для работы с BibleTime вам понадобятся модули Sword. Начиная с версии 1.4 BibleTime предлагает дружелюбный диалог управления модулями Sword. Мы настоятельно рекомендуем этот способ установки модулей на ваш компьютер. "
 
 #. Tag: para
-#: software_installation.xml:130
+#: software_installation.xml:135
 #, fuzzy, no-c-format
 msgid "Instructions for manual installation is available on <ulink url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\">www.crosswire.org/sword/modules</ulink>."
 msgstr "Инструкции для установки модулей вручную находятся на <ulink url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\">www.crosswire.org/sword/modules</ulink>."
 
 #. Tag: title
-#: software_installation.xml:134
+#: software_installation.xml:139
 #, fuzzy, no-c-format
 msgid "Available types of works"
 msgstr "Доступные типы модулей"
 
 #. Tag: para
-#: software_installation.xml:135
+#: software_installation.xml:140
 #, fuzzy, no-c-format
 msgid "Here is a list of available types of works and where to get more information:"
 msgstr "Это список существующих типов модулей и где можно получить больше информации о них:"
 
 #. Tag: ulink
-#: software_installation.xml:139
+#: software_installation.xml:144
 #, no-c-format
 msgid "Bibles"
 msgstr "Библии"
 
 #. Tag: ulink
-#: software_installation.xml:140
+#: software_installation.xml:145
 #, no-c-format
 msgid "Commentaries"
 msgstr "Комментарии"
 
 #. Tag: ulink
-#: software_installation.xml:141
+#: software_installation.xml:146
 #, no-c-format
 msgid "Lexicons / Dictionaries"
 msgstr "Словари"
 
 #. Tag: ulink
-#: software_installation.xml:142
+#: software_installation.xml:147
 #, no-c-format
 msgid "Books"
 msgstr "Книги"
@@ -3982,6 +3970,12 @@ msgid "BibleTime offers a powerful search dialog. You can search in several work
 msgstr "BibleTime предлагает мощный поиск. Вы можете выбрать различные поисковые алгоритмы (от простого И до регулярных выражений), и даже ограничить Ваш поиск определенным текстом, например сносками. <ulink url=\"/images//screenshots/3-large.jpg\">Увеличить</ulink>"
 
 #. Tag: title
+#: software_swordcd.xml:10
+#, no-c-format
+msgid "Sword CD"
+msgstr "Sword CD"
+
+#. Tag: title
 #: software_swordcd.xml:16
 #, no-c-format
 msgid "Sword CD order form not available"
@@ -4013,8 +4007,8 @@ msgstr "Помогите перевести BibleTime на ваш язык"
 
 #. Tag: para
 #: translation.xml:15
-#, no-c-format
-msgid "This is a part of software development where the help of many individals is needed. It is our desire to offer BibleTime to users in as many languages as possible. The following areas are open for your contributions:"
+#, fuzzy, no-c-format
+msgid "This is a part of software development where the help of many individuals is needed. It is our desire to offer BibleTime to users in as many languages as possible. The following areas are open for your contributions:"
 msgstr "Это та часть разработки программ, в которой помощь многих отдельных личностей очень нужна. Наше желание в том, чтобы предложить пользователям BibleTime на как можно большем количестве языков. Эти области открыты для ваших вкладов:"
 
 #. Tag: para
@@ -4031,75 +4025,157 @@ msgstr "<para>Перевести Интерфейс пользователя (UI
 
 #. Tag: para
 #: translation.xml:23
+#, fuzzy, no-c-format
+msgid "Translate the Bible Study Howto."
+msgstr "Как изучать Библию"
+
+#. Tag: para
+#: translation.xml:24
 #, no-c-format
 msgid "<para>Translate the program's handbook.</para>"
 msgstr "<para>Перевести руководство к программе.</para>"
 
 #. Tag: para
-#: translation.xml:27
-#, no-c-format
-msgid "On this page you can find statistics about the completeness of existing translations for each of these areas, as well as links to translation templates that you can use to submit new translations which do not yet exist. If a translation into your language does not yet exist, just download the templates, translate them and send them to <email>info@bibletime.info</email>. If you are not satisfied with the status of your language's translation, you can directly download the corresponding file, update the translation and send it in. In both cases we'll be sure to integrate your work as soon as possible."
+#: translation.xml:25
+#, fuzzy, no-c-format
+msgid "<para>Translate the biblical booknames.</para>"
+msgstr "<para>Перевести руководство к программе.</para>"
+
+#. Tag: para
+#: translation.xml:29
+#, fuzzy, no-c-format
+msgid "On this page you can find statistics about the completeness of existing translations for each of these areas, as well as links to translation templates that you can use to submit new translations which do not yet exist. If a translation into your language does not yet exist or you want to work on an existing translation, follow these steps:"
 msgstr "На этой странице вы сможете найти статистику завершённости существующих переводов для каждой из областей, также как и ссылки на шаблоны для перевода, которые вы можете использовать, чтобы начать делать перевод, которого ещё нет. Если перевод на ваш язык ещё не существует, просто загрузите шаблоны, переведите их и отошлите нам на <email>info@bibletime.info</email>. Если вы неудовлетворены состоянием перевода на ваш язык, то можете прямо загрузить соответствующий файл, обновить перевод и отослать его нам. В любом случае мы постараемся внедрить вашу работу в проект как можно скорее. "
+
+#. Tag: para
+#: translation.xml:34
+#, no-c-format
+msgid "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\">the translators' mailing list bibletime-translations at lists.sourceforge.net</ulink>. You will receive information relevant for translators and can communicate with the developers and the other translators. Use this list if you have questions or comments."
+msgstr ""
 
 #. Tag: para
 #: translation.xml:35
 #, no-c-format
-msgid "For the translation process we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. It has many advanced features and is a great aid."
-msgstr "Для процесса перевода мы рекомендуем, чтобы вы использовали замечательную и зрелую программу <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. Она имеет множество расширенных возможностей и будет огромной помощью. "
+msgid "Download a template you want to translate or an existing translation you want to enhance."
+msgstr ""
 
 #. Tag: para
-#: translation.xml:39
+#: translation.xml:36
 #, no-c-format
-msgid "A list of the language abbreviations is avalable at <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
+msgid "Use one of the recommended programs mentioned below or some other program and edit the translation."
+msgstr ""
+
+#. Tag: para
+#: translation.xml:37
+#, no-c-format
+msgid "Send the translation to the translators' mailing list."
+msgstr ""
+
+#. Tag: para
+#: translation.xml:38
+#, no-c-format
+msgid "Developers will integrate your work as soon as possible. The statistics will be updated after that."
+msgstr ""
+
+#. Tag: para
+#: translation.xml:42
+#, no-c-format
+msgid "For the translation process we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://trolltech.com/products/qt/features/tools/linguist\">Qt Linguist</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform .po file editor suitable for our documentation and website translations."
+msgstr ""
+
+#. Tag: para
+#: translation.xml:47
+#, no-c-format
+msgid "A list of the language abbreviations is available at <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 msgstr ""
 
 #. Tag: title
-#: translation.xml:44
+#: translation.xml:52
 #, no-c-format
 msgid "<title>Translate the www.bibletime.info website.</title>"
 msgstr "<title>Перевести сайт www.bibletime.info.</title>"
 
 #. Tag: para
-#: translation.xml:45
+#: translation.xml:53
 #, fuzzy, no-c-format
 msgid "If a translation of the website to your language does not yet exist, you can download and translate the <ulink url=\"/po/bibletime_website_template.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
 msgstr "Если перевод сайта на ваш язык ещё не существует, то вы можете загрузить и перевести <ulink url=\"/en/pot/full.pot\">Шаблон для перевода сайта</ulink>. Если вы хотите обновить существующий перевод, то используйте ссылки в таблице снизу, чтобы загрузить соответствующий файл. "
 
 #. Tag: title
-#: translation.xml:54
+#: translation.xml:62
 #, no-c-format
 msgid "<title>Translate the program's User Interface.</title>"
 msgstr "<title>Перевести Интерфейс пользователя (UI) программы.</title>"
 
 #. Tag: para
-#: translation.xml:55
+#: translation.xml:63
 #, fuzzy, no-c-format
-msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/messages.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Если перевод Интерфейса Пользователя на ваш язык ещё не существует, то вы можете загрузить и перевести <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\"> Шаблон для перевода Интерфейса Пользователя</ulink>. Если вы хотите обновить существующий перевод, то используйте ссылки в таблице снизу, чтобы загрузить соответствующий файл. "
 
+#. Tag: para
+#: translation.xml:70
+#, no-c-format
+msgid "(We are preparing the BibleTime 1.7/2.0 series and have moved to the Qt's .ts file format from the 1.6 series .po format. Due the changes the translations need thorough rewrite.)"
+msgstr ""
+
 #. Tag: title
-#: translation.xml:65
+#: translation.xml:77
 #, fuzzy, no-c-format
 msgid "Translate the Bible study howto."
 msgstr "Как изучать Библию"
 
 #. Tag: para
-#: translation.xml:66
+#: translation.xml:78
 #, fuzzy, no-c-format
 msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Если перевод Руководства на ваш язык ещё не существует, то вы можете загрузить и перевести <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> Шаблон для перевода руководства</ulink>. Если вы хотите обновить существующий перевод, то используйте ссылки в таблице снизу, чтобы загрузить соответствующий файл. "
 
 #. Tag: title
-#: translation.xml:77
+#: translation.xml:89
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
 msgstr "<title>Перевести руководство к программе.</title>"
 
 #. Tag: para
-#: translation.xml:78
+#: translation.xml:90
 #, fuzzy, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Если перевод Руководства на ваш язык ещё не существует, то вы можете загрузить и перевести <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\"> Шаблон для перевода руководства</ulink>. Если вы хотите обновить существующий перевод, то используйте ссылки в таблице снизу, чтобы загрузить соответствующий файл. "
+
+#. Tag: title
+#: translation.xml:100
+#, fuzzy, no-c-format
+msgid "<title>Translate the biblical booknames.</title>"
+msgstr "<title>Перевести руководство к программе.</title>"
+
+#. Tag: para
+#: translation.xml:101
+#, no-c-format
+msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\">the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\">the template</ulink>."
+msgstr ""
+
+#~ msgid "For the translation process we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. It has many advanced features and is a great aid."
+#~ msgstr "Для процесса перевода мы рекомендуем, чтобы вы использовали замечательную и зрелую программу <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. Она имеет множество расширенных возможностей и будет огромной помощью. "
+
+#~ msgid "Download"
+#~ msgstr "Загрузить"
+
+#~ msgid "Guestbook"
+#~ msgstr "Гостевая книга"
+
+#~ msgid "BibleTime's Guestbook"
+#~ msgstr "Гостевая книга BibleTime"
+
+#, fuzzy
+#~ msgid "This is the place to leave positive or negative comments about the BibleTime project. This is not the place to ask questions, please use <ulink url=\"http://forum.bibletime.info/\">the BibleTime forum</ulink> instead."
+#~ msgstr "Здесь вы можете оставить положительные или отрицательные отклики о проекте BibleTime. Здесь не нужно задавать вопросы, пожалуйста используйте для этого <ulink url=\"http://www.crosswire.org/forums/mvnforum/listthreads?forum=2\">форум BibleTime</ulink>."
+
+#~ msgid "Please write in English, if possible. HTML is not allowed and will be removed, but you may use normal line breaks to divide into paragraphs."
+#~ msgstr "Пожалуйста, если возможно, пишите по-английски. HTML не допускается и будет удалён, но вы можете использовать обычные разрывы строк для деления на абзацы."
+
+#~ msgid "Please add your comments here:"
+#~ msgstr "Пожалуйста, добавьте ваш комментарий:"
 
 #, fuzzy
 #~ msgid "Debian packages are available for <ulink url=\"http://packages.debian.org/unstable/kde/bibletime\">Debian Unstable</ulink> and <ulink url=\"http://packages.debian.org/stable/kde/bibletime\">Debian Stable</ulink>."

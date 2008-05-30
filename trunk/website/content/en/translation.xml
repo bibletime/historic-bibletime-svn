@@ -62,7 +62,7 @@ download the corresponding file. We usually add the translated pages and the fla
 <section><title>Translate the program's User Interface.</title>
 <para>
 If a translation of the User Interface to your language does not yet exist, you can download and translate
-the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/messages.ts">
+the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts">
 User Interface translation template</ulink>.
 If you want to update an existing translation, use the links in the table below to
 download the corresponding file.
@@ -72,6 +72,7 @@ download the corresponding file.
 </para>
 	<ssi mode="exec" cgi="/postats/messages_stats.pl"/>
 </section>
+
 
 <section><title>Translate the Bible study howto.</title>
 <para>

@@ -33,7 +33,7 @@ sub create_apache_files() {
 	#Create the robots.txt file
 	open(OUT, "> $dest/robots.txt");
 	print OUT "# Robots file for www.bibletime.info. Created by update_translation.pl\n";
-	print OUT "User-agent *\n";
+	print OUT "User-agent: *\n";
 	foreach my $lang (sort @langs) {
 		print OUT "Allow: /$lang/\n";
 	}

@@ -6,8 +6,7 @@
 	exclude-result-prefixes="sweb xweb" version="1.0">
 
 	<xsl:template match="title" mode="head.mode">
-		<title>BibleTime: <xsl:value-of select="." />
-		</title>
+		<title>BibleTime: <xsl:value-of select="." /> - Bible study software for Linux / KDE</title>
 	</xsl:template>
 
 </xsl:stylesheet>

@@ -10,8 +10,8 @@
 			  <title>Software</title>
 			  <summary>Welcome to BibleTime</summary>
 			  <keywords>
-				  BibleTime, Linux, Software, biblestudy, bible study, KDE,
-				  God, Religion, Bible, devotional, crosswire, sword, webpage
+				  BibleTime, bibletime, Linux, Software, biblestudy, bible study, KDE,
+				  God, Religion, Bible, devotional, crosswire, sword, Ubuntu, Debian
 			  </keywords>
 			  <author>The BibleTime team</author>
 		  </head>
@@ -22,25 +22,15 @@
 				  <ulink url="/images/screenshots/1-large.jpg">
 					  <inlinemediaobject>
 						  <imageobject>
-							  <imagedata
-								    fileref="/images/screenshots/1-small.jpg" format="JPG" />
+							  <imagedata fileref="/images/screenshots/1-small.jpg" format="JPG" />
 						  </imageobject>
 					  </inlinemediaobject>
 				  </ulink>
-				  
-				  BibleTime is a Bible study application for Linux. It is
-				  based on the
-				  <ulink url="http://www.kde.org/">
-					  K Desktop Environment
-				  </ulink>
-				  and uses the
-				  <ulink url="http://www.crosswire.org/sword/">Sword</ulink>
+				  BibleTime is a Bible study application for Linux. 
+				  It is based on the <ulink url="http://www.kde.org/" >K Desktop Environment</ulink>
+				  and uses the <ulink url="http://www.crosswire.org/sword/">Sword</ulink>
 				  programming library to work with Bible texts, commentaries,
-				  dictionaries and books provided by the
-				  <ulink url="http://www.crosswire.org/">
-					  Crosswire Bible Society
-				  </ulink>
-				  .
+				  dictionaries and books provided by the <ulink url="http://www.crosswire.org/">Crosswire Bible Society</ulink>.
 			  </para>
 			  
 			  
@@ -49,6 +39,16 @@
 		  <section>
 			  <title>News about BibleTime</title>
 			  <formalpara>
+				  <title>2008-05-10: Ubuntu packages, BibleTime 1.6.5.1</title>
+				  <para>
+					  Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url="https://launchpad.net/~txwikinger/+archive">R. Janke describes here</ulink> how to setup your Linux to get the new packages.
+				  </para>
+				  <para>
+					  Version 1.6.5.1 has been released. It contains fixes so it can be installed on current versions of Linux.
+				  </para>
+				  </formalpara>
+			  
+			<formalpara>
 				  <title>2008-01-12:  BibleTime 1.7alpha1</title>
 				  <para>The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url="http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release">Read the announcement</ulink> to know more about the current status and the future of BibleTime.
                                   </para>

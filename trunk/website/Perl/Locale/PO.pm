@@ -128,8 +128,8 @@ sub quote {
 sub dequote {
   my $self = shift;
   my $string = shift;
-  $string =~ s/^"(.*)"/$1/;
-  $string =~ s/\\"/"/g;
+  $string =~ s/^"(.*)"/$1/ unless ($string eq "");
+  $string =~ s/\\"/"/g unless ($string eq "");
   return $string;
 }
 
@@ -204,10 +204,10 @@ sub load_file {
     } elsif (/^# (.*)/ or /^#$/) {
       # Translator comments
       $po = new Locale::PO unless defined($po);
-      if (defined($po->comment)) {
+      if (defined($po->comment) && defined($1)) {
         $po->comment($po->comment . "\n$1");
       } else {
-        $po->comment($1);
+        $po->comment($1) if defined($1);
       }
     } elsif (/^#\. (.*)/) {
       # Automatic comments
