@@ -1,4 +1,5 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
+use strict;
 
 
 # This is a guestbook application for te XML docbook-xml-website based pages

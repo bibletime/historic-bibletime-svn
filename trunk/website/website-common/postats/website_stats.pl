@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
 
 
 # This is a guestbook application for te XML docbook-xml-website based pages
@@ -8,6 +8,7 @@
 
 # Copyright by Joachim Ansorg <joachim@ansorgs.de>
 
+use strict;
 use lib '../Perl';
 use CGI;
 use SSI::POStats;

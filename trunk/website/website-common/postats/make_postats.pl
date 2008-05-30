@@ -57,25 +57,6 @@ sub parse_pofile {
 	return "$lang \t$translated \t$untranslated \t$fuzzy\n";
 }
 
-sub parse_tsfile {
-	print "WOrking on ts file...\n";
-	my $file = shift;
-	my $lang = shift;
-
-	my ($translated, $untranslated) = (0,0);
-
-	open(IN, "< $file") || return "$lang \t0 \t0 \t0\n";
-
-	while (<IN>) {
-		$untranslated++ if ($_ =~ /<translation><\/translation>||<translation type="unfinished">/);	
-		$translated++ if ($_ =~ /<translation>.+<\/translation>$/);	
-	}
-
-	close(IN);
-
-	return "$lang \t$translated $untranslated \t0\n";
-}
-
 # Create statistics for the given language
 sub bibletime_stats {
 	my $sourcedir = shift;
@@ -92,34 +73,10 @@ sub bibletime_stats {
 	open(FILE, "> $targetfile");
 	foreach my $file (sort(@files)) {
 		my $lang = $file;
-		$lang =~ s/(\.po)$//;
+		$lang =~ s/\.po|howto-|handbook-//g;
 		print FILE &parse_pofile("$sourcedir/$file", "$lang");
 	}
 	close(FILE);
-}
-
-sub qt_stats {
-	my $sourcedir = shift;
-	my $targetfile = shift;
-	my @files;
-
-	print "$sourcedir\n";
-
-        opendir(DIR, $sourcedir) || die "Can't open dir $sourcedir";
-        while (my $pofile = readdir(DIR)) {
-                next unless ($pofile =~ /(\.ts)$/);
-                push (@files, $pofile);
-        }
-        closedir(DIR);
-
-        open(FILE, "> $targetfile") || die "Can't open $targetfile for writing";
-        foreach my $pofile (sort(@files)) {
-                my $lang = $pofile;
-                $lang =~ s/(\.ts)$//;
-                print FILE &parse_tsfile("$sourcedir/$pofile", "$lang");
-        }
-        close(FILE);
-	
 }
 
 #website stats
