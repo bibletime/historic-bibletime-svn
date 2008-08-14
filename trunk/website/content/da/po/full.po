@@ -1,15 +1,15 @@
-# translation of BibletimeWStrans.po to dansk
+# translation of bibletime_website_da.po to Dansk
 #
 # FIRST AUTHOR <Hsonesson@gmail.com>, 2007.
-# Henrik Sonesson <Hsonesson@gmail.com>, 2007.
+# Henrik Sonesson <Hsonesson@gmail.com>, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: BibletimeWStrans\n"
+"Project-Id-Version: bibletime_website_da\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-30 19:37+0000\n"
-"PO-Revision-Date: 2007-12-28 01:26+0100\n"
+"POT-Creation-Date: 2008-06-19 18:05+0000\n"
+"PO-Revision-Date: 2008-08-14 15:29+0200\n"
 "Last-Translator: Henrik Sonesson <Hsonesson@gmail.com>\n"
-"Language-Team: dansk <da@li.org>\n"
+"Language-Team: Dansk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -65,9 +65,9 @@ msgstr "Skærmbilleder"
 
 #. Tag: title
 #: autolayout.xml:31 software_installation.xml:11
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Download of BibleTime"
-msgstr "Download BibleTime"
+msgstr "Download af BibleTime"
 
 #. Tag: title
 #: autolayout.xml:35 software_faq.xml:11
@@ -133,7 +133,7 @@ msgstr "Slut dig til os"
 #: autolayout.xml:75 development_mailinglists.xml:10
 #, no-c-format
 msgid "Mailinglists"
-msgstr "Mailinglister"
+msgstr "Mailing-lister"
 
 #. Tag: title
 #: autolayout.xml:79 layout.xml:63
@@ -148,103 +148,10 @@ msgid "Translation"
 msgstr "Oversættelse"
 
 #. Tag: title
-#: autolayout.xml:87 biblehowto.docbook:17
+#: autolayout.xml:87
 #, no-c-format
 msgid "Biblestudy HowTo"
 msgstr "Bibelstudie vejledning"
-
-#. Tag: title
-#: biblehowto.docbook:25
-#, no-c-format
-msgid "The Biblestudy HowTo"
-msgstr "Bibelstudie vejledningen"
-
-#. Tag: author
-#: biblehowto.docbook:28
-#, no-c-format
-msgid "<firstname>Bob</firstname> <surname>Harman</surname>"
-msgstr "<firstname>Bob</firstname> <surname>Harman</surname>"
-
-#. Tag: trans_comment
-#: biblehowto.docbook:34
-#, no-c-format
-msgid "ROLES_OF_TRANSLATORS"
-msgstr "ROLES_OF_TRANSLATORS"
-
-#. Tag: holder
-#: biblehowto.docbook:38
-#, no-c-format
-msgid "The team of &bibletime;, info@bibletime.info"
-msgstr "Holdet bag &bibletime;, info@bibletime.info"
-
-#. Tag: holder
-#: biblehowto.docbook:41
-#, no-c-format
-msgid "Bob Harman"
-msgstr "Bob Harman"
-
-#. Tag: para
-#: biblehowto.docbook:44
-#, no-c-format
-msgid "The copyright of this text is held by the author Bob Harman. The text was adapted for publication with BibleTime by Fred Saalbach."
-msgstr "Ophavsretten til denne tekst tilhører Bob Harman. Teksten er tilpasset til publikation med BibleTime af Fred Saalbach."
-
-#. Tag: para
-#: biblehowto.docbook:48
-#, no-c-format
-msgid "Non exclusive serial rights for this distribution of this document with the &bibletime; Software have been made. Redistribution as part of the Bibletime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
-msgstr ""
-
-#. Tag: para
-#: biblehowto.docbook:54
-#, no-c-format
-msgid "For questions regarding the use of this material contact Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-msgstr "For spørgsmål omhandlende brugen af dette materiale, kontakt Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-
-#. Tag: para
-#: biblehowto.docbook:58
-#, no-c-format
-msgid "Scripture quotes are from the New American Standard Bible unless otherwise indicated"
-msgstr "Bibel citater er fra New American Standard Bible medmindre andet er indikeret"
-
-#. Tag: title
-#: biblehowto.docbook:66
-#, no-c-format
-msgid "Abstract"
-msgstr "Abstrakt"
-
-#. Tag: para
-#: biblehowto.docbook:67
-#, no-c-format
-msgid "The <application>Biblestudy HowTo</application> is a guide for studying the Bible."
-msgstr "<application>Bibelstudieguiden</application> er en guide til at studere bibelen."
-
-#. Tag: para
-#: biblehowto.docbook:70
-#, no-c-format
-msgid "It is the hope of the &bibletime; team that this HowTo will provoke the readers to study the scriptures to see what they say. This particular study guide has been chosen as it takes care not to advocate any particular denominational doctrine. We expect you to read and study the scriptures to understand what they say. If you start with the attitude that you want to have the Lord sow his word in your heart He will not disappoint you."
-msgstr "&bibletime; teamet håber at denne guide vil opfordre læsere til at studere skriftstederne for at se hvad Bibelen har at sige til dem. Akkurat denne bibelguide er valgt fordi den ikke prøver at favorisere nogen bestemt kirkelig retning. Vi regner med at du vil læse og studere skriftstederne for at forstå hvad de har at sige. Hvis du starter med den indstilling at du vil have Herren til at så sit ord i dit hjerte, vil han ikke skuffe dig."
-
-#. Tag: keyword
-#: biblehowto.docbook:80
-#, no-c-format
-msgid "Bible"
-msgstr "Bibel"
-
-#. #-#-#-#-#  biblehowto.pot (PACKAGE VERSION)  #-#-#-#-#
-#. Tag: keyword
-#. #-#-#-#-#  how2-basics.pot (PACKAGE VERSION)  #-#-#-#-#
-#. Tag: title
-#: biblehowto.docbook:81 how2-basics.docbook:47
-#, no-c-format
-msgid "Study"
-msgstr "Studere"
-
-#. Tag: keyword
-#: biblehowto.docbook:82
-#, no-c-format
-msgid "HowTo"
-msgstr "HowTo"
 
 #. Tag: title
 #: development.xml:15
@@ -286,7 +193,7 @@ msgstr "Ønsker du at bede?"
 #: development_help.xml:25
 #, no-c-format
 msgid "Praying is something everybody can do. If you are praying for the Sword and BibleTime projects you are helping us as much as the other team members of the BibleTime project."
-msgstr "At bede er noget alle kan gøre. Hvis du beder for Sword og BibelTimes projekter hjælper du os lige så meget som de andre medlemmer af BibleTime-prjektets teamet."
+msgstr "At bede er noget alle kan gøre. Hvis du beder for Sword og BibelTimes projekter hjælper du os lige så meget, som de andre medlemmer af BibleTime-projektets team."
 
 #. Tag: title
 #: development_help.xml:30
@@ -304,7 +211,7 @@ msgstr "Du kan bruge <ulink url=\"https://sourceforge.net/tracker/?group_id=954&
 #: development_help.xml:34
 #, no-c-format
 msgid "There is also <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\">a place</ulink> where you can make suggestions for features you'd like to see in BibleTime. We ask for your understanding that due to our limited time and to our own plans for BibleTime we cannot always comply with all wishes."
-msgstr ""
+msgstr "Der er også <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\">dette sted</ulink> hvor du kan foreslå nye funktioner som du gerne vil se i BibleTime. Vi beder dig om forståelse med, at vi har begrænset tid og vores egne planer for BibleTime, så vi kan desværre ikke opfylde alle ønsker."
 
 #. Tag: title
 #: development_help.xml:39
@@ -328,7 +235,7 @@ msgstr "Ved du hvordan man skriver dokumentation?"
 #: development_help.xml:50
 #, no-c-format
 msgid "Do you think you would be good in working on BibleTime's english documentation? If you think you are, please read the page <olink targetdocent=\"development_join\"> Join us</olink>."
-msgstr ""
+msgstr "Syntes du, at du ville være god til at arbejde på BibleTimes engelske dokumentation? Hvis du føler at du er, så vær venlig at læse denne side <olink targetdocent=\"development_join\"> Slut dig til os </olink>."
 
 #. Tag: title
 #: development_help.xml:57
@@ -340,7 +247,7 @@ msgstr "Er du god til at oversætte engelsk til et andet sprog?"
 #: development_help.xml:58
 #, no-c-format
 msgid "BibleTime should be useable for everyone. That's why we need a translation into your language, if it's not yet available. If you decide to start working on a translation please contact us at info@bibletime.info to see whether the translation was not yet started by another team member. We will provide you with the files which should be translated."
-msgstr ""
+msgstr "BibleTime skal være brugbart for alle. Det er derfor at vi behøver en oversættelse til dit sprog, hvis den ikke er tilgængelig. Ønsker du at begynde på arbejdet med at oversætte, så kontakt os på info@bibletime.info for at se, om oversættelsen ikke allerede er blevet startet på af et andet medlem at teamet. Vi vil forsyne dig med de filer der skal oversættes."
 
 #. Tag: para
 #: development_help.xml:64
@@ -382,13 +289,13 @@ msgstr "Hvis du ikke har en konto på <ulink url=\"https://sf.net\">SourceForge<
 #: development_join.xml:32
 #, no-c-format
 msgid "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">BibleTime development mailing list</ulink>. All developers read this mailing list, so everybody knows what's hapenning. There is also a mailing list for the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\">commit messages</ulink> of the ongoing development process."
-msgstr ""
+msgstr "Tilmeld dig <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">BibleTimes udvikler mailing-liste </ulink>. Alle udviklere læser denne mailing-liste, så alle ved hvad der sker. Der er også en mailing-liste for <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\">commit messages</ulink> den igangværende udviklings process."
 
 #. Tag: para
 #: development_join.xml:37
 #, no-c-format
 msgid "Get the development version of BibleTime and install it. If you need help with this ask on the mailing list or look into the documentation section."
-msgstr "Få fat i udviklings versionen af BibleTime og installer den. Hvis du har brug for hjælp med det, så spørg over mailinglisten eller kig i dokumentations sektionen."
+msgstr "Få fat i udviklings versionen af BibleTime og installer den. Hvis du har brug for hjælp med det, så spørg over mailing-listen eller kig i dokumentations sektionen."
 
 #. Tag: title
 #: development_join.xml:44
@@ -424,7 +331,7 @@ msgstr "Læs den eksisterende engelske dokumentation. Den ligger i mappen docs/ 
 #: development_join.xml:67
 #, no-c-format
 msgid "The documentation is stored in docbook files in the unicode subdirectories of each documentation part (handbook, Bible study howto, installation, helpdialog). Please don't edit the HTML files directly because they're generated from the docbook files. The translation file are also generated from the docbook data."
-msgstr ""
+msgstr "Dokumentationen er opbevaret i docbooc-filer i unicode-undermapperne til hver dokumentations del(håndbog, Bibelstudie-vejledning, installation, hjælpedialog). Vær venlig at lade være med at redigere HTML-filerne direkte, fordi de er genereret af docbook-filer. Oversættelses-filen er også genereret af docbook-data."
 
 #. Tag: title
 #: development_join.xml:76
@@ -460,31 +367,31 @@ msgstr "BibleTimes udviklings mailingliste"
 #: development_mailinglists.xml:16
 #, no-c-format
 msgid "To subscribe to the development mailing list of the BibleTime project please visit the following web page and enter your eMail address there: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
-msgstr ""
+msgstr "For at tilmelde dig udviker mailing-listen fra BibleTime projektet, så besøg den følgende hjemmeside og indtast din e-mail adresse der: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
 
 #. Tag: para
 #: development_mailinglists.xml:20
 #, no-c-format
 msgid "Archives of the BibleTime development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/\">www.crosswire.org/pipermail/bt-devel</ulink>."
-msgstr ""
+msgstr "Arkiverne af BibleTimes udvikler mailing-liste er tilgængelige på <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/\">www.crosswire.org/pipermail/bt-devel</ulink>."
 
 #. Tag: title
 #: development_mailinglists.xml:25
 #, no-c-format
 msgid "Sword development mailing list"
-msgstr ""
+msgstr "Swords mailing-liste til udviklere"
 
 #. Tag: para
 #: development_mailinglists.xml:26
 #, no-c-format
 msgid "To subscribe to the development mailing list of the Sword project please visit the following web page and enter your eMail address there: <ulink url=\"http://www.crosswire.org/mailman/listinfo/sword-devel\">www.crosswire.org/mailman/listinfo/sword-devel</ulink>."
-msgstr ""
+msgstr "For at tilmelde dig Sword-projektets mailing-liste, så besøg denne hjemmeside og indtast din e-mail adresse der: <ulink url=\"http://www.crosswire.org/mailman/listinfo/sword-devel\">www.crosswire.org/mailman/listinfo/sword-devel</ulink>."
 
 #. Tag: para
 #: development_mailinglists.xml:29
 #, no-c-format
 msgid "Archives of the Sword development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/pipermail/sword-devel</ulink>."
-msgstr ""
+msgstr "Arkiverne af Swords udvikler mailing-liste er tilgængelige på <ulink url=\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/pipermail/sword-devel</ulink>."
 
 #. Tag: title
 #: devotional.xml:14
@@ -494,9 +401,9 @@ msgstr "Vidste du at..."
 
 #. Tag: para
 #: devotional.xml:15
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Did you know that today, 2008, more than 200,000,000 Christians are being disadvantaged, persecuted and even killed because of their faith? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">This map</ulink> (German) shows the countries where people have to &quot;pay&quot; for their faith, and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\">here is an English one</ulink> that has some information about the main regions worldwide. These pages are from Open Doors, an independent organization trat tries to help persecuted Christians."
-msgstr "Vidste du at i dag 2006, at mere end 200.000.000 kristne bliver dårligt behandlet, forfulgt og endda dræbt på grund af deres tro? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\"> Det her kort</ulink> (Tysk) viser de lande hvor folk er nødt til at &quot;betale&quot; for deres tro, og <ulink url=\"http://www.opendoorsusa.org/Display.asp?Page=Map\">her er et engelsk et</ulink> der har noget information om hovedregionerne. De her sider er fra Åbne Døre, en uafhængig organisation der prøver at hjælpe forfulgte kristne. Deres danske hjemmeside kan findes <ulink url=\"http://www.forfulgt.dk\">her</ulink>."
+msgstr "Vidste du at i dag 2008, at mere end 200.000.000 kristne bliver dårligt behandlet, forfulgt og endda dræbt på grund af deres tro? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\"> Det her kort</ulink> (Tysk) viser de lande hvor folk er nødt til at &quot;betale&quot; for deres tro, og <ulink url=\"http://www.opendoorsusa.org/Display.asp?Page=Map\">her er et engelsk et</ulink> der har noget information om hovedregionerne. De her sider er fra Åbne Døre, en uafhængig organisation der prøver at hjælpe forfulgte kristne. Deres danske hjemmeside kan findes <ulink url=\"http://www.forfulgt.dk\">her</ulink>."
 
 #. Tag: para
 #: devotional.xml:17
@@ -523,1417 +430,6 @@ msgid "If you can't solve the problem please report the URL which failed to <ema
 msgstr "Hvis du ikke kan løse problemet, så reporter URL'et der fejlede til <email>info@bibletime.info</email>. Mange tak!"
 
 #. Tag: title
-#: how2-basics.docbook:1
-#, no-c-format
-msgid "Bible Study Basics"
-msgstr "Grundlæggende Bibelstudie"
-
-#. Tag: title
-#: how2-basics.docbook:4
-#, no-c-format
-msgid "Our Purpose as we Approach the Bible"
-msgstr "Vores formål når vi nærmer os Bibelen"
-
-#. Tag: para
-#: how2-basics.docbook:5
-#, no-c-format
-msgid "Jn.5:39-40<quote>You search the Scriptures, because you think that in them you have eternal life; and it is these that bear witness of Me; and you are unwilling to come to Me, that you may have life.</quote>"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:11
-#, no-c-format
-msgid "The chief purpose of the book is to bring us to the Person. Martin Luther said <quote>we go to the cradle only for the sake of the baby</quote>; just so in Bible study, we do it not for its own sake but for fellowship with God."
-msgstr ""
-
-#. Tag: attribution
-#: how2-basics.docbook:15
-#, no-c-format
-msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.97, 104."
-msgstr "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.97, 104."
-
-#. Tag: para
-#: how2-basics.docbook:17
-#, no-c-format
-msgid "The Jews to whom Jesus spoke [...] imagined that to possess Scripture was tantamount to possessing life. Hillel used to say, &quot;He who has gotten to himself words of Torah has gotten to himself the life of the world to come.&quot; Their study was an end in itself. In this they were grievously deceived. [...]"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:22
-#, no-c-format
-msgid "There is neither merit nor profit in the reading of Scripture for its own sake, but only if it effectively introduces us to Jesus Christ. Whenever the Bible is read, what is needed is an eager expectation that through it we may meet Christ."
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:29
-#, no-c-format
-msgid "Approaches to God's Word"
-msgstr "Tilgange til Guds Ord"
-
-#. Tag: para
-#: how2-basics.docbook:30
-#, no-c-format
-msgid "Hearing and reading provide a telescopic view of the scripture while study and memorization provide a microscopic view of scripture. Meditating on the scriptures brings hearing, reading, studying and memorization together and cements the word in our minds."
-msgstr "Lytning og læsning giver et teleskopisk syn af skriften, mens studie og udenadlære giver et microskopisk syn på skriften. Meditation på skriften samler lytning, læsning, studie og udenadlære og grundfæster det i vores hjerter."
-
-#. Tag: title
-#: how2-basics.docbook:35
-#, no-c-format
-msgid "Hear"
-msgstr "Hør"
-
-#. Tag: para
-#: how2-basics.docbook:36
-#, no-c-format
-msgid "Lk.11:28 <quote>blessed are those who hear the word of God, and observe it.</quote>"
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:40
-#, no-c-format
-msgid "Read"
-msgstr "Læs"
-
-#. Tag: para
-#: how2-basics.docbook:41
-#, no-c-format
-msgid "Rev.1:3 <quote>Blessed is he who reads and those who hear the words of this prophecy [...]</quote>"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:43
-#, no-c-format
-msgid "1 Tim.4:13 <quote>give attention to the public reading of Scripture [...]</quote>"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:48
-#, no-c-format
-msgid "Acts 17:11 <quote>Now these were more noble-minded than those in Thessalonica, for they received the word with great eagerness, examining the Scriptures daily, to see whether these things were so.</quote>"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:52
-#, no-c-format
-msgid "2 Tim.2:15 <quote>Be diligent [KJV `Study'] to present yourself approved to God as a workman who does not need to be ashamed, handling accurately the word of truth.</quote>"
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:57
-#, no-c-format
-msgid "Memorize"
-msgstr "Lær uden ad"
-
-#. Tag: para
-#: how2-basics.docbook:58
-#, no-c-format
-msgid "Ps.119:11 <quote>Thy word I have hid in my heart, that I may not sin against Thee.</quote>"
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:62
-#, no-c-format
-msgid "Meditate"
-msgstr "Meditér"
-
-#. Tag: para
-#: how2-basics.docbook:63
-#, no-c-format
-msgid "Ps.1:2-3 <quote>But his delight is in the law of the Lord, And in His law he meditates day and night. And he will be like a tree firmly planted by streams of water, Which yields its fruit in its season, And its leaf does not wither; And in whatever he does, he prospers.</quote>"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:69
-#, no-c-format
-msgid "The Navigators illustrate this by saying that as the thumb can touch all the fingers, we can meditate on the Word as we do any of the first four. Meditation is a key to revelation. A new Christian needs to hear and read the Bible more than they need to study and memorize it. This is so that they become familiar with the overall message of the Bible."
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:77
-#, no-c-format
-msgid "Types of Bible Studies"
-msgstr "Typer af Bibelstudier"
-
-#. Tag: title
-#: how2-basics.docbook:78
-#, no-c-format
-msgid "Topical Study"
-msgstr "Emnestudie"
-
-#. Tag: para
-#: how2-basics.docbook:79
-#, no-c-format
-msgid "Pick out a certain topic and follow it through, using cross-references or a concordance."
-msgstr "Vælg et særligt emne og følg det ved hjælp af kryds-referencer eller en ordforklaring."
-
-#. Tag: title
-#: how2-basics.docbook:83
-#, no-c-format
-msgid "Character Study"
-msgstr "Studie af en person"
-
-#. Tag: para
-#: how2-basics.docbook:84
-#, no-c-format
-msgid "Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
-msgstr "Studie af en person fra Bibelens liv, f.eks. Josefs liv i 1.Mos.37-50."
-
-#. Tag: title
-#: how2-basics.docbook:86
-#, no-c-format
-msgid "Expository Study"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:87
-#, no-c-format
-msgid "Studying a certain passage: paragraph, chapter, or book."
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:91
-#, no-c-format
-msgid "Basics of Correct Interpretation"
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:93
-#, no-c-format
-msgid "Content"
-msgstr "Indhold"
-
-#. Tag: para
-#: how2-basics.docbook:94
-#, no-c-format
-msgid "What does it say? What does it say in the original language? Be careful with definitions. Don't read into it what it doesn't say."
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:98
-#, no-c-format
-msgid "Context"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:99
-#, no-c-format
-msgid "What do the verses around it say? &quot;Context is king&quot; is the rule -- the passage must make sense within the structure of the entire passage and book."
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:103 how2-interpretation.docbook:26
-#, no-c-format
-msgid "Cross-reference"
-msgstr "Krydsreference"
-
-#. Tag: para
-#: how2-basics.docbook:104
-#, no-c-format
-msgid "What do other verses about this subject say through the rest of the Bible? God doesn't contradict Himself, so our interpretation needs to stand the test of other scriptures."
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:109
-#, no-c-format
-msgid "An Expository Study of Matthew 6:1-18"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:110
-#, no-c-format
-msgid "Let's study together Mt.6:1-18. Read it to yourself, first looking for the key verse, the verse that sums up the whole passage. Think you have it? Test it by picking different places in the passage and asking yourself if they relate to the thought of the key verse. Once you find it, write it as Roman numeral One of your outline:"
-msgstr ""
-
-#. Tag: listitem
-#: how2-basics.docbook:115
-#, no-c-format
-msgid "Beware of practicing your righteousness before men to be noticed"
-msgstr "Pas på med at udøve din retfærdighed foran mennesker, bare for at blive lagt mærke til"
-
-#. Tag: para
-#: how2-basics.docbook:118
-#, no-c-format
-msgid "What does <quote>practicing your righteousness</quote> mean? Does the passage give any examples? What area of our lives is being addressed? <emphasis>Our motives!</emphasis> What sub-headings develop this thought?"
-msgstr ""
-
-#. Tag: listitem
-#: how2-basics.docbook:122 how2-basics.docbook:131
-#, no-c-format
-msgid "When you give"
-msgstr "Når du giver"
-
-#. Tag: listitem
-#: how2-basics.docbook:123
-#, no-c-format
-msgid "When you fast"
-msgstr "Når du faster"
-
-#. Tag: listitem
-#: how2-basics.docbook:124
-#, no-c-format
-msgid "When you pray"
-msgstr "Når du beder"
-
-#. Tag: para
-#: how2-basics.docbook:127
-#, no-c-format
-msgid "Now fill in the outline with specific instructions of how to avoid wrong ways of practicing our righteousness:"
-msgstr ""
-
-#. Tag: listitem
-#: how2-basics.docbook:133
-#, no-c-format
-msgid "don't sound a trumpet. (how might someone <quote>sound a trumpet</quote> today?)"
-msgstr ""
-
-#. Tag: listitem
-#: how2-basics.docbook:134
-#, no-c-format
-msgid "do it secretly."
-msgstr ""
-
-#. Tag: listitem
-#: how2-basics.docbook:135
-#, no-c-format
-msgid "etc."
-msgstr "osv."
-
-#. Tag: title
-#: how2-basics.docbook:141
-#, no-c-format
-msgid "Worksheet: How to Use a Concordance"
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:143
-#, no-c-format
-msgid "To Find a Particular Verse"
-msgstr "For at finde et bestemt vers"
-
-#. Tag: listitem
-#: how2-basics.docbook:145
-#, no-c-format
-msgid "Pick out a key word or most-unusual word of the verse."
-msgstr "Tag et nøgleord eller det mest usædvanlige ord i verset."
-
-#. Tag: listitem
-#: how2-basics.docbook:146
-#, no-c-format
-msgid "Turn to this word alphabetically."
-msgstr ""
-
-#. Tag: listitem
-#: how2-basics.docbook:147
-#, no-c-format
-msgid "Go down the column of listings until you find your verse."
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:150
-#, no-c-format
-msgid "Find these verses:"
-msgstr "Find de her vers:"
-
-#. Tag: quote
-#: how2-basics.docbook:152
-#, no-c-format
-msgid "Faithful are the wounds of a friend"
-msgstr "Trofaste er sårene af en ven"
-
-#. Tag: quote
-#: how2-basics.docbook:153
-#, no-c-format
-msgid "We are ambassadors of Christ."
-msgstr "Vi er Kristi udsendinge."
-
-#. Tag: listitem
-#: how2-basics.docbook:154
-#, no-c-format
-msgid "The story of the rich man and Lazarus."
-msgstr "Historien om den rige mand og Lazarus."
-
-#. Tag: title
-#: how2-basics.docbook:160
-#, no-c-format
-msgid "To Do a Topical Study"
-msgstr "Lav et emnestudie"
-
-#. Tag: para
-#: how2-basics.docbook:161
-#, no-c-format
-msgid "Let's say you wanted to do a study of the word &quot;redemption.&quot; First you would look up that word in the concordance and look up references listed for it. Then you could look up related words and references listed for them, e.g. &quot;redeem, redeemed, ransom,&quot; even &quot;buy&quot; or &quot;bought.&quot;"
-msgstr "Lad os sige at du ville studere ordet &quot;fordømmelse.&quot; Først ville du slå ordet op i ordforklaringen og slå de skriftsteder op, som står ud for. Så kunne du slå beslægtede ord op, og slå op på de skriftsteder, f.eks. &quot;fordømme, fordømt, løsesum,&quot; endda &quot;købe&quot; eller &quot;købte.&quot;"
-
-#. Tag: title
-#: how2-basics.docbook:167
-#, no-c-format
-msgid "To Clarify Word Meanings in the Greek and Hebrew"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:168
-#, no-c-format
-msgid "What if you noticed a contradiction in the KJV between Mt.7:1 <quote>Judge not lest you be judged</quote> and 1 Cor.2:15 <quote>He that is spiritual judgeth all things.</quote> Maybe there are two different Greek words here, both being translated &quot;judge&quot; in English? (We're using Strong's from here out.)"
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:172
-#, no-c-format
-msgid "Look up &quot;judge&quot;."
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:173
-#, no-c-format
-msgid "Go down the column of entries to Mt.7:1. To the right is a number, 2919. This refers to the Greek word used. Write it down."
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:175
-#, no-c-format
-msgid "Now look up &quot;judgeth&quot;."
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:176
-#, no-c-format
-msgid "Go down the column to 1 Cor.2:15 . . . . . 350."
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:177
-#, no-c-format
-msgid "Turn in the back to the Greek dictionary. (Remember, you're in the NT so the language is Greek, while the OT is Hebrew.) Compare the meaning of 2919 with the meaning of 350 and you have your answer!"
-msgstr ""
-
-#. Tag: title
-#: how2-basics.docbook:182
-#, no-c-format
-msgid "To Find Meanings of Names"
-msgstr "At finde betydningen af navne"
-
-#. Tag: para
-#: how2-basics.docbook:183
-#, no-c-format
-msgid "By the same process we can find the meaning of a name in the Greek or Hebrew."
-msgstr ""
-
-#. Tag: para
-#: how2-basics.docbook:184
-#, no-c-format
-msgid "Look up these names and write down their meaning:"
-msgstr "Slå de har navne op og nedskriv deres betydning:"
-
-#. Tag: listitem
-#: how2-basics.docbook:186
-#, no-c-format
-msgid "Nabal"
-msgstr "Nabal"
-
-#. Tag: listitem
-#: how2-basics.docbook:187
-#, no-c-format
-msgid "Abigail"
-msgstr "Abigajil"
-
-#. Tag: listitem
-#: how2-basics.docbook:188
-#, no-c-format
-msgid "Joshua"
-msgstr "Josva"
-
-#. Tag: listitem
-#: how2-basics.docbook:189
-#, no-c-format
-msgid "Barnabus"
-msgstr "Barnabas"
-
-#. Tag: title
-#: how2-importance.docbook:1
-#, no-c-format
-msgid "Importance of God's Word"
-msgstr "Vigtigheden af Guds ord"
-
-#. Tag: para
-#: how2-importance.docbook:2
-#, no-c-format
-msgid "Understanding God's word is of great importance to all who call on God's name. Study of the Bible is one of the primary ways that we learn to communicate with God."
-msgstr "Forståelse af Guds ord er vigtigt for alle som kalder på Guds navn. At studere Bibelen er en af de primære måder hvorpå vi lærer at kommunikere med Gud."
-
-#. Tag: title
-#: how2-importance.docbook:6
-#, no-c-format
-msgid "A Book that is Unique"
-msgstr "En bog der er unik"
-
-#. Tag: para
-#: how2-importance.docbook:7
-#, no-c-format
-msgid "The Bible stands alone in many ways. It is unique in:"
-msgstr "Bibelen skiller sig ud på mange måder. Den skiller sig ud med hensyn til:"
-
-#. Tag: para
-#: how2-importance.docbook:12
-#, no-c-format
-msgid "popularity. Bible sales in North America: more than $500 million per year. The Bible is both the the all-time and year-to-year best seller!"
-msgstr "popularitet. Bibel salget i Nordamerika er mere end 500 millioner dollars om året. Bibelen er den mest solgte bog nogen sinde og fra år til år."
-
-#. Tag: para
-#: how2-importance.docbook:18
-#, no-c-format
-msgid "authorship. It was written over a period of 1600 years by 40 different authors from different backgrounds, yet reads as if written by one."
-msgstr "forfatterskab. Den blev skrevet i en periode på over 1600 år af 40 forskellige forfattere fra forskellige baggrunde, og alligevel læst som om den er skrevet af en."
-
-#. Tag: para
-#: how2-importance.docbook:24
-#, no-c-format
-msgid "preservation. F. F. Bruce in <emphasis>Are New Testament Documents Reliable?</emphasis> compares New Testament manuscripts with other ancient texts:"
-msgstr ""
-
-#. Tag: title
-#: how2-importance.docbook:31
-#, no-c-format
-msgid "Comparison of New Testament manuscripts with other ancient texts."
-msgstr "Sammenligning af det nye testamentes manuskripter med andre gamle tekster."
-
-#. Tag: entry
-#: how2-importance.docbook:35
-#, no-c-format
-msgid "Work"
-msgstr "Arbejde"
-
-#. Tag: entry
-#: how2-importance.docbook:36
-#, no-c-format
-msgid "When Written"
-msgstr "Skrevet "
-
-#. Tag: entry
-#: how2-importance.docbook:37
-#, no-c-format
-msgid "Earliest Copy"
-msgstr "Første kopi"
-
-#. Tag: entry
-#: how2-importance.docbook:38
-#, no-c-format
-msgid "Time Lapse"
-msgstr "Tidsperiode"
-
-#. Tag: entry
-#: how2-importance.docbook:38
-#, no-c-format
-msgid "Number of Copies"
-msgstr "Antal kopier"
-
-#. Tag: entry
-#: how2-importance.docbook:42
-#, no-c-format
-msgid "Herodotus"
-msgstr "Herodotus"
-
-#. Tag: entry
-#: how2-importance.docbook:43
-#, no-c-format
-msgid "448-428 B.C."
-msgstr "448-428 f.kr."
-
-#. Tag: entry
-#: how2-importance.docbook:43 how2-importance.docbook:53
-#: how2-importance.docbook:58
-#, no-c-format
-msgid "900 A.D."
-msgstr "900 e.kr."
-
-#. Tag: entry
-#: how2-importance.docbook:44
-#, no-c-format
-msgid "1300 years"
-msgstr "1300 år"
-
-#. Tag: entry
-#: how2-importance.docbook:44
-#, no-c-format
-msgid "<entry>8</entry>"
-msgstr "<entry>8</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:47
-#, no-c-format
-msgid "Tacitus"
-msgstr "Tacitus"
-
-#. Tag: entry
-#: how2-importance.docbook:48
-#, no-c-format
-msgid "100 A.D."
-msgstr "100 e.kr."
-
-#. Tag: entry
-#: how2-importance.docbook:48
-#, no-c-format
-msgid "1100 A.D."
-msgstr "1100 e.kr."
-
-#. Tag: entry
-#: how2-importance.docbook:49
-#, no-c-format
-msgid "1000 years"
-msgstr "1000 år"
-
-#. Tag: entry
-#: how2-importance.docbook:49 how2-importance.docbook:59
-#, no-c-format
-msgid "<entry>20</entry>"
-msgstr "<entry>20</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:52
-#, no-c-format
-msgid "Caesar's <emphasis>Gallic War</emphasis>"
-msgstr "Caesar's <emphasis>Galliske krig</emphasis>"
-
-#. Tag: entry
-#: how2-importance.docbook:53
-#, no-c-format
-msgid "50-58 B.C."
-msgstr "50-58 f.kr."
-
-#. Tag: entry
-#: how2-importance.docbook:54
-#, no-c-format
-msgid "950 years"
-msgstr "950 år"
-
-#. Tag: entry
-#: how2-importance.docbook:54
-#, no-c-format
-msgid "<entry>10</entry>"
-msgstr "<entry>10</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:57
-#, no-c-format
-msgid "Livy's <emphasis>Roman History</emphasis>"
-msgstr "Livius' <emphasis>Romerske Historie</emphasis>"
-
-#. Tag: entry
-#: how2-importance.docbook:58
-#, no-c-format
-msgid "59 B.C. - 17 A.D."
-msgstr "59 f.kr. - 17 e.kr."
-
-#. Tag: entry
-#: how2-importance.docbook:59
-#, no-c-format
-msgid "900 years"
-msgstr "900 år"
-
-#. Tag: entry
-#: how2-importance.docbook:62
-#, no-c-format
-msgid "New Testament"
-msgstr "Nye Testamente"
-
-#. Tag: entry
-#: how2-importance.docbook:63
-#, no-c-format
-msgid "40 A.D. - 100 A.D."
-msgstr "40 e.kr. - 100 e.kr."
-
-#. Tag: entry
-#: how2-importance.docbook:63
-#, no-c-format
-msgid "130 A.D. Partial manuscripts 350 A.D. Full manuscripts"
-msgstr "130 e.kr. Delvise manuskripter 350 e.kr. Hele manuskripter"
-
-#. Tag: entry
-#: how2-importance.docbook:64
-#, no-c-format
-msgid "30 - 310 years"
-msgstr "30 - 310 år"
-
-#. Tag: entry
-#: how2-importance.docbook:64
-#, no-c-format
-msgid "5000 Greek &amp; 10,000 Latin"
-msgstr "5000 græske &amp; 10.000 latinske"
-
-#. Tag: para
-#: how2-importance.docbook:67
-#, no-c-format
-msgid "Ten copies of Caesar's <emphasis>Gallic War</emphasis> exist, the earliest of which was copied 900 years after Caesar wrote the original, etc. For the New Testament we have full manuscripts dating to 350 A. D., papyri containing most of the New Testament from the 200s, and a fragment of John's gospel from 130 A. D. How many manuscripts do we have to compare to each other? 5,000 in Greek and 10,000 in Latin!"
-msgstr ""
-
-#. Tag: attribution
-#: how2-importance.docbook:73
-#, no-c-format
-msgid "Textual critic F. J. A. Hort, \"The New Testament in the Original Greek\", vol. 1 p561, Macmillan Co., quoted in <emphasis>Questions of Life</emphasis> p. 25-26"
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:75
-#, no-c-format
-msgid "\"In the verity and fullness of the evidence on which it rests, the text of the New Testament stands absolutely and unapproachably alone among other ancient prose writings.\""
-msgstr ""
-
-#. Tag: title
-#: how2-importance.docbook:80
-#, no-c-format
-msgid "A Book that God Breathed"
-msgstr "En bog inspireret af Gud"
-
-#. Tag: para
-#: how2-importance.docbook:81
-#, no-c-format
-msgid "<emphasis>Heb.4:12 </emphasis>\"<emphasis>For the word of God is living and active... </emphasis>\" Jesus said <emphasis>(Mt.4:4),</emphasis> \"<emphasis>It is written, Man shall not live on bread alone, but on every word that proceeds [lit., is proceeding] from the mouth of God.</emphasis>\" As we read the Bible, God's Spirit is there to speak it to our hearts in a continually-fresh way."
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:87
-#, no-c-format
-msgid "2 Tim.3:16 declares, \"<emphasis>All scripture is inspired by God [lit., God-breathed].</emphasis>\" Do you believe this? Before you answer, consider Jesus' attitude toward the Scriptures."
-msgstr ""
-
-#. Tag: attribution
-#: how2-importance.docbook:90
-#, no-c-format
-msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.93-95"
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:91
-#, no-c-format
-msgid "He referred to the human authors, but took it for granted that behind them all was a single divine Author. He could equally say 'Moses said' or 'God said' (Mk.7:10). He could quote a comment of the narrator in Genesis 2:24 as an utterance of the Creator Himself (Mt.19:4-5). Similarly He said, 'Well did Isaiah prophesy of you hypocrites, as it is written', when what He went on to quote is the direct speech of the Lord God (Mk.7:6 &amp; Is.29:13). It is from Jesus Himself that the New Testament authors have gained their conviction of the dual authorship of Scripture. For them it was just as true to say that 'God spoke of old to our fathers by the prophets' (Heb.1:1) as it was to say that 'men moved by the Holy Spirit spoke from God' (2 Pe.1:21). God did not speak in such a way as to obliterate the personality of the human authors, nor did men speak in such a way as to corrupt the Word of the divine Author. God spoke. Men spoke. Neither truth must be allowed to detract from the other. ..."
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:105
-#, no-c-format
-msgid "This, then, was Christ's view of the Scriptures. Their witness was God's witness. The testimony of the Bible is the testimony of God. And the chief reason why the Christian believes in the divine origin of the Bible is that Jesus Christ Himself taught it."
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:111
-#, no-c-format
-msgid "2 Tim.3:16 goes on, \"<emphasis>and profitable for teaching, for correction, for training in righteousness, that the man of God may be adequate, equipped for every good work.</emphasis>\" If we accept that the Bible really is God speaking to us, it follows that it will be our authority in all matters of faith and conduct."
-msgstr ""
-
-#. Tag: title
-#: how2-importance.docbook:117
-#, no-c-format
-msgid "A Book that Works"
-msgstr "En bog der virker"
-
-#. Tag: para
-#: how2-importance.docbook:118
-#, no-c-format
-msgid "What will studying the Bible do for you? 1 Thess.2:13 says that the Bible \"<emphasis>performs its work in you who believe.</emphasis>\" Beside each scripture, write down the work the Word performs."
-msgstr ""
-
-#. Tag: title
-#: how2-importance.docbook:125
-#, no-c-format
-msgid "What does Bible study do for Christians?"
-msgstr "Hvad gør bibel studie for kristne?"
-
-#. Tag: entry
-#: how2-importance.docbook:129
-#, no-c-format
-msgid "Reference"
-msgstr "Reference"
-
-#. Tag: entry
-#: how2-importance.docbook:130
-#, no-c-format
-msgid "Action"
-msgstr "Aktion"
-
-#. Tag: entry
-#: how2-importance.docbook:135
-#, no-c-format
-msgid "Eph. 5:26"
-msgstr "Ef. 5:26"
-
-#. Tag: entry
-#: how2-importance.docbook:137
-#, no-c-format
-msgid "cleanses -- \"...having cleansed her by the washing of water with the word.\""
-msgstr ""
-
-#. Tag: entry
-#: how2-importance.docbook:141
-#, no-c-format
-msgid "Acts 20:32"
-msgstr "Apg. 20:32"
-
-#. Tag: entry
-#: how2-importance.docbook:144
-#, no-c-format
-msgid "builds up -- \" ...the word of His grace, which is able to build you up and to give you the inheritance among all those who are sanctified. \""
-msgstr ""
-
-#. Tag: entry
-#: how2-importance.docbook:153
-#, no-c-format
-msgid "Rom. 15:4"
-msgstr "Rom. 15:4"
-
-#. Tag: entry
-#: how2-importance.docbook:156
-#, no-c-format
-msgid "encourages -- \"that through perseverance and the encouragement of the Scriptures we might have hope.\""
-msgstr ""
-
-#. Tag: entry
-#: how2-importance.docbook:163
-#, no-c-format
-msgid "Rom. 10:17"
-msgstr "Rom. 10:17"
-
-#. Tag: entry
-#: how2-importance.docbook:166
-#, no-c-format
-msgid "gives faith -- \"So faith comes from hearing, and hearing by the word of Christ.\""
-msgstr ""
-
-#. Tag: entry
-#: how2-importance.docbook:174
-#, no-c-format
-msgid "1 Cor. 10:11"
-msgstr "1 Kor. 10:11"
-
-#. Tag: entry
-#: how2-importance.docbook:177
-#, no-c-format
-msgid "instructs -- \"Now these things happened to them for an example, and they were written for our instruction\""
-msgstr ""
-
-#. Tag: entry
-#: how2-importance.docbook:185
-#, no-c-format
-msgid "Mt. 4:4"
-msgstr ""
-
-#. Tag: entry
-#: how2-importance.docbook:188
-#, no-c-format
-msgid "nourishment -- \"But He answered and said, 'It is written, Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.'\""
-msgstr ""
-
-#. Tag: title
-#: how2-importance.docbook:200
-#, no-c-format
-msgid "A Book that Liberates"
-msgstr "En bog der befrier"
-
-#. Tag: para
-#: how2-importance.docbook:201
-#, no-c-format
-msgid "Jn.8:32 \"<emphasis>and you shall know the truth, and the truth shall make you free.</emphasis>\"This is usually quoted by itself. Is this a conditional or unconditional promise? Would it apply to all kinds of knowledge? Find the answers by examining the first half of the sentence, in v.31. \"<emphasis>If you abide in My word, then you are truly disciples of Mine... </emphasis>\""
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:208
-#, no-c-format
-msgid "We see that this is a conditional promice, specifically speaking of the truth of God's word."
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:210
-#, no-c-format
-msgid "The Greek word for \"wind\" used in Eph.4:14 means a <emphasis>violent wind.</emphasis> \"<emphasis>As a result, we are no longer to be children, tossed here and there by waves, and carried about by every wind of doctrine...</emphasis>\"One thing studying the Bible does for us is to ground us in the truth, with the result that we won't be easily \"blown away.\""
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:216
-#, no-c-format
-msgid "<emphasis>But Jesus answered and said to them, </emphasis>\"<emphasis>You are mistaken [KJV Ye do err], not understanding the Scriptures, or the power of God.</emphasis>\"Mt.22:29"
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:218
-#, no-c-format
-msgid "What 2 things do we need to know to be kept from error?"
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:220
-#, no-c-format
-msgid "God's word"
-msgstr "Guds ord"
-
-#. Tag: para
-#: how2-importance.docbook:221
-#, no-c-format
-msgid "God's power"
-msgstr "Guds kraft"
-
-#. Tag: title
-#: how2-importance.docbook:224
-#, no-c-format
-msgid "A Book that Wars"
-msgstr "En bog der bekriger"
-
-#. Tag: para
-#: how2-importance.docbook:225
-#, no-c-format
-msgid "Eph.6:10-18 is one picture of our spiritual armament."
-msgstr ""
-
-#. Tag: title
-#: how2-importance.docbook:228
-#, no-c-format
-msgid "Spiritual Armor"
-msgstr "Åndelig rustning"
-
-#. Tag: entry
-#: how2-importance.docbook:232
-#, no-c-format
-msgid "Question"
-msgstr "Spørgsmål"
-
-#. Tag: entry
-#: how2-importance.docbook:233
-#, no-c-format
-msgid "Answer"
-msgstr "Svar"
-
-#. Tag: entry
-#: how2-importance.docbook:236
-#, no-c-format
-msgid "How many of the weapons listed here are defensive weapons?"
-msgstr "Hvor mange af våbenene her er våben til forsvar?"
-
-#. Tag: entry
-#: how2-importance.docbook:236
-#, no-c-format
-msgid "<entry>5</entry>"
-msgstr "<entry>5</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:237
-#, no-c-format
-msgid "How many are offensive?"
-msgstr "Hvor mange er våben til angreb?"
-
-#. Tag: entry
-#: how2-importance.docbook:237
-#, no-c-format
-msgid "<entry>One</entry>"
-msgstr "<entry>En</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:238
-#, no-c-format
-msgid "Which one(s)?"
-msgstr "Hvilke(t)?"
-
-#. Tag: entry
-#: how2-importance.docbook:238
-#, no-c-format
-msgid "the word - <foreignphrase>rhema</foreignphrase>"
-msgstr "ordet - <foreignphrase>rhema</foreignphrase>"
-
-#. Tag: title
-#: how2-importance.docbook:241
-#, no-c-format
-msgid "Exhortations"
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:242
-#, no-c-format
-msgid "2 Tim.2:15 (KJV) \"<emphasis>Study to show thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.</emphasis>\""
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:246
-#, no-c-format
-msgid "Col.3:16 \"<emphasis>Let the word of Christ richly dwell within you; with all wisdom teaching and admonishing one another with psalms and hymns and spiritual songs, singing with thankfulness in your hearts to God.</emphasis>\""
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:251
-#, no-c-format
-msgid "If you're rich in something, how much of it do you have?"
-msgstr "Hvis du er rig på noget, hvor meget af det har du så?"
-
-#. Tag: para
-#: how2-importance.docbook:253
-#, no-c-format
-msgid "Not a little!"
-msgstr "Ikke kun en smule!"
-
-#. Tag: para
-#: how2-importance.docbook:256
-#, no-c-format
-msgid "Eccl.12:11-12 \"<emphasis>The words of wise men are like goads, and masters of these collections are like well-driven nails; they are given by one Shepherd. But beyond this, my son, be warned: the writing of many books is endless, and excessive devotion to books is wearying to the body.</emphasis>\""
-msgstr ""
-
-#. Tag: title
-#: how2-importance.docbook:263
-#, no-c-format
-msgid "Appendix: \"Once for All\""
-msgstr ""
-
-#. Tag: attribution
-#: how2-importance.docbook:266
-#, no-c-format
-msgid "John R. W. Stott, <emphasis>Christ the Controversialist,</emphasis> InterVarsity Press 1978, pp.106-107"
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:267
-#, no-c-format
-msgid "The truth regarding the finality of God's initiative in Christ is conveyed by one word of the Greek Testament, namely the adverb <foreignphrase>hapax</foreignphrase> and <foreignphrase>ephapax</foreignphrase>. It is usually translated in the Authorized Version once, meaning once for all. It is used of what is so done as to be of perpetual validity and never need repetition, and is applied in the NT to both revelation and redemption. Thus, Jude refers to the faith which was once for all delivered to the saints (Jude 3), and Romans says, \"<emphasis>Christ also died for sins once for all</emphasis>\" (Rom.6:10, see also 1 Pe.3:18; Heb.9:26-28)."
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:276
-#, no-c-format
-msgid "Thus we may say that God has spoken once for all and Christ has suffered once for all. This means that the Christian revelation and the Christian redemption are both alike in Christ complete. Nothing can be added to either without being derogatory to Christ... These are the two rocks on which the Protestant Reformation was built -- Gods revealed word without the addition of human traditions and Christ's finished work without the addition of human merits. The Reformers great watchwords were <foreignphrase>sola scriptura</foreignphrase> for our authority and <foreignphrase>sola gratia</foreignphrase> for our salvation."
-msgstr ""
-
-#. Tag: title
-#: how2-importance.docbook:288
-#, no-c-format
-msgid "Supplement: Bible Reading Programs"
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:289
-#, no-c-format
-msgid "Here are some easy programs to systematically read your Bible. You can do more than one at a time if you like, for instance #1 with #4, or #2 with #5. Vary the program from year to year to keep it fresh!"
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:294
-#, no-c-format
-msgid "New Testament in a Year: read one chapter each day, 5 days a week."
-msgstr "Nye Testamente på et år: Læs et kapitel hver dag, 5 dage om ugen."
-
-#. Tag: para
-#: how2-importance.docbook:296
-#, no-c-format
-msgid "Proverbs in a Month: read one chapter of Proverbs each day, corresponding to the day of the month."
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:298
-#, no-c-format
-msgid "Psalms in a Month: read 5 Psalms at intervals of 30 each day, for instance on the 20th you read Ps.20, 50, 80, 110, &amp; 140."
-msgstr "Salmernes bog på en måned: Læs 5 salmer om dagen med et interval på 30, for eksempel på den 20. læser du Salm.20, 50, 80, 110, &amp; 140."
-
-#. Tag: para
-#: how2-importance.docbook:300
-#, no-c-format
-msgid "Psalms &amp; Proverbs in 6 months: read through Psalms and Proverbs one chapter per day."
-msgstr ""
-
-#. Tag: para
-#: how2-importance.docbook:302
-#, no-c-format
-msgid "Old Testament without Psalms &amp; Proverbs in 2 years: if you read one chapter a day of the Old Testament, skipping over Psalms &amp; Proverbs, you will read the Old Testament in 2 years and 2 weeks."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:1
-#, no-c-format
-msgid "Rules of Bible Interpretation (Hermeneutics)"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:2
-#, no-c-format
-msgid "We already learned about the \"3 Cs\": content, context, cross-reference. We want to expand that now by delving briefly into biblical hermeneutics, whose goal is to discover the meaning intended by the original author (and Author!). While many applications of a passage are valid, only one interpretation is valid. The scripture itself says this by saying that no scripture is of any private interpretation (2 Pe.1:20 KJV <quote>Knowing this first, that no prophesy of scripture is of any private interpretation.</quote>). Certain rules are helps toward discovering the correct meaning; by ignoring these rules people have brought much trouble on themselves and their followers. 2 Pe.3:16 <quote>...in which are some things hard to understand, which the untaught and unstable distort, as they do also the rest of the Scriptures, to their own destruction.</quote>"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:11
-#, no-c-format
-msgid "How do we go about discovering the intended meaning of a passage? Let's say your attention has been drawn to a particular verse whose meaning is not clear to you. How do you study it out? Keep these rules in mind:"
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:14
-#, no-c-format
-msgid "Rule 1 - Interpret according to the exact meaning of the words."
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:15
-#, no-c-format
-msgid "The more precise we can be with the exact, original meaning of the words the better our interpretation will be. Try to find the exact meaning of the key words by following these steps:"
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:20
-#, no-c-format
-msgid "Definition"
-msgstr "Definition"
-
-#. Tag: para
-#: how2-interpretation.docbook:21
-#, no-c-format
-msgid "Look up the definition in a Greek or Hebrew dictionary. For verbs, the verb tense is also crucial."
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:27
-#, no-c-format
-msgid "Compare scripture with scripture. Seeing how the same Greek or Hebrew word (not the English word) is used in scripture may clarify or throw new light on the definition. How does the same author use this word elsewhere? Other authors? Your reference tools may give you uses of the word in non-biblical documents, as well. Why do we have to go to the original languages; why isn't the English word good enough? <emphasis>Because more than one greek word may be translated into the same english word, and the greek words may have different shades of meaning.</emphasis>"
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:37
-#, no-c-format
-msgid "Example 1A"
-msgstr "Eksempel 1A"
-
-#. Tag: para
-#: how2-interpretation.docbook:38
-#, no-c-format
-msgid "Jn.20:17 <emphasis>\"Touch me not\"</emphasis> (KJV) sounds harsh, doesn't it? Sounds like Jesus doesn't want to be touched now that He is risen, that He is too holy or something. But that doesn't seem right, so let's look it up in Spiros Zodhiates' <emphasis>The Complete Word Study New Testament</emphasis> (AMG Publishers, 1991)."
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:42
-#, no-c-format
-msgid "Definition: Turning to John 20:17, above the word \"Touch\" we see \"pim680.\" The letters give us a code for the part of speech, and the number refers to Strong's dictionary reference. Let's look up the definition (p. 879). \"680. Haptomai; from hapto (681), touch. Refers to such handling of an object as to exert a modifying influence upon it... Distinguished from pselaphao (5584), which actually only means to touch the surface of something. \" Now look up \"pim.\" The grammar codes in Zodhiates come right after Revelation; on p. 849 we see that pim stands for \"present imperative active (80)\". On p.857, \"Present Imperative. In the active voice, it may indicate a command to do something in the future which involves continuous or repeated action or, when it is negated, a command to stop doing something. \" This is a negative command, so it is to stop doing something that is already occuring. So, what have we found?"
-msgstr ""
-
-#. Tag: emphasis
-#: how2-interpretation.docbook:50
-#, no-c-format
-msgid "Mary is already clinging to Jesus, and he is saying to stop holding him!"
-msgstr "Mary klynger sig allerede til Jesus, og han siger lad være med at holde mig!"
-
-#. Tag: title
-#: how2-interpretation.docbook:53
-#, no-c-format
-msgid "Example 1B"
-msgstr "Eksempel 1B"
-
-#. Tag: para
-#: how2-interpretation.docbook:54
-#, no-c-format
-msgid "In James 5:14, <emphasis>Elders are told to pray and anoint someone who is sick</emphasis>. What is this anointing?"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:55
-#, no-c-format
-msgid "Definition of aleipho (218) - \"to oil\" (Strong's); but we also have another Greek word translated \"anoint\", chrio (5548) - \"to smear or rub with oil, i.e. to consecrate to an office or religious service\" (Strong's). Since it's a verb, consider the tense also, \"apta\" aorist participle active. \"The aorist participle expresses simple action, as opposed to continuous action...When its relaitonship to the main verb is temporal, it usually signifies action prior to that of the main verb.\" (Zodhiates p.851)"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:62
-#, no-c-format
-msgid "Cross-references for aleipho:"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:64
-#, no-c-format
-msgid "Mt.6:17 But you, when you fast, anoint your head"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:65
-#, no-c-format
-msgid "Mk.16:1 [the women] brought spices that they might come and anoint Him."
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:66
-#, no-c-format
-msgid "Mk.6:13 And they were...anointing with oil many sick people and healing them."
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:67
-#, no-c-format
-msgid "Lk.7:38 [...] kissing His feet and anointing them with the perfume"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:68
-#, no-c-format
-msgid "Jn.12:3 Mary [...] anointed the feet of Jesus, and wiped them with her hair"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:71
-#, no-c-format
-msgid "Cross-references of chrio:"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:73
-#, no-c-format
-msgid "Lk.4:18 <quote>The Spirit of the Lord is upon me, because He has anointed me to preach [...]</quote>"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:74
-#, no-c-format
-msgid "Acts 4:27 Jesus, whom Thou hast anointed"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:75
-#, no-c-format
-msgid "Acts 10:38 God anointed Jesus with the Holy Ghost and power"
-msgstr ""
-
-#. Tag: listitem
-#: how2-interpretation.docbook:76
-#, no-c-format
-msgid "2 Cor.1:21 Now He who...anointed us is God"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:81
-#, no-c-format
-msgid "So what's the difference between aleipho and chrio? Look back over the cross-references and the definitions, and sum up the difference: <emphasis>&quot;aleipho&quot; is a practical use of oil and &quot;chrio&quot; is a spiritual</emphasis>"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:84
-#, no-c-format
-msgid "As an illustration (although the word is not used) of the practical use of oil at that time, when the good Samaritan cared for the man beat up by robbers he poured oil and wine in the wound. So oil had a medicinal use in Jesus' day."
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:88
-#, no-c-format
-msgid "Now let's apply what we just learned by this word study to James 5:14 <emphasis>\"Is any among you sick? Let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord.\"</emphasis> Is \"anointing\" spiritual or practical? Practical!"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:91
-#, no-c-format
-msgid "And the tense in Greek, the aorist participle, would be better translated \"having anointed,\" so the order is the anointing first, then the prayer (\"in the name of the Lord\"refers to the prayer, not the anointing). James 5 is saying that the elders should give the sick person medicine and pray for him in the name of the Lord. Doesn't that express a beautiful balance of practical and spiritual in our God!"
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:102
-#, no-c-format
-msgid "Rule 2 - Interpret within the biblical context"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:104
-#, no-c-format
-msgid "Interpret scripture in harmony with other scripture. What do the verses on each side say? What is the theme of the chapter? the book? Does your interpretation fit with these? If not, it is flawed. Usually, the context supplies what we need to correctly interpret the passage. Context is key. If confusion remains as to the meaning after we have interpreted the text within its context, we have to look further."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:109
-#, no-c-format
-msgid "Example 2A"
-msgstr "Eksempel 2A"
-
-#. Tag: para
-#: how2-interpretation.docbook:110
-#, no-c-format
-msgid "In a previous lesson we considered Jn.3:5 <emphasis>\"born of water and the Spirit.\"</emphasis> In context, what is the water under discussion here?"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:112
-#, no-c-format
-msgid "Water baptism is not under discussion here, which would be a big switch from the subject being discussed by Jesus and Nicodemus. Watch out for a sudden change of topic, it may be a clue that your interpretation has been derailed! The water is the amniotic fluid, \"born of water\" = natural birth."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:116
-#, no-c-format
-msgid "Example 2B"
-msgstr "Eksempel 2B"
-
-#. Tag: para
-#: how2-interpretation.docbook:117
-#, no-c-format
-msgid "1 Cor.14:34 <quote>Let the women keep silent in the churches</quote> has to be taken within the biblical context of 1 Cor.11:5 <quote>every woman [...] while praying or prophesying [...]</quote>"
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:120
-#, no-c-format
-msgid "Example 2C"
-msgstr "Eksempel 2C"
-
-#. Tag: para
-#: how2-interpretation.docbook:121
-#, no-c-format
-msgid "Acts 2:38 <quote>And Peter said to them, &quot;Repent, and let each of you be baptized in the name of Jesus Christ for the forgiveness of your sins [...]&quot;</quote>. Is this teaching baptismal regeneration? If this was the only verse of scripture we had, we would have to conclude that. But in the light of the clear teaching elsewhere that regeneration happens by faith in Christ, we have to interpret it otherwise. Peter is urging baptism as a way for his hearers to respond to the gospel. If baptism were the pathway to being born again, how could Paul write 1 Cor.1:17 <emphasis>\"For Christ did not send me to baptize, but to preach the gospel\"</emphasis>?"
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:133
-#, no-c-format
-msgid "Rule 3 - Interpret within the historical and cultural context"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:134
-#, no-c-format
-msgid "At first we are not asking <quote>What does it mean to me?</quote> but <quote>What did it mean to the original readers?</quote>; later we can ask, <quote>What does it mean to me?</quote>. We have to take into account the historical and cultural background of the author and the recipients."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:138
-#, no-c-format
-msgid "Example 3A"
-msgstr "Eksempel 3A"
-
-#. Tag: para
-#: how2-interpretation.docbook:138
-#, no-c-format
-msgid "<quote>3 days &amp; 3 nights</quote> (Mt.12:40) have led some to come up with a \"Wednesday crucifixion theory,\" esp. the cult of Armstrongism. How could Jesus die on Friday afternoon and rise Sunday morning yet \"be raised on the third day\" (Mt.16:21)? Exact meanings of \"three\" or \"days\" won't help explain the apparent contradiction."
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:143
-#, no-c-format
-msgid "We need an historical tidbit: Jews counted any part of a day as a full day, as we would count buckets of water (if there were six and one-half buckets of water, we would say there were 7 buckets of water even if one was only partly full). So to the Jewish mind, any part of a day counted as a full day, and days started at 6 p.m. and ended at 6 p.m. Friday from 3 p.m. to 6 p.m. = day 1. Friday 6 p.m. to Saturday 6 p.m. = day 2. Saturday 6 p.m. to Sunday 5 or so a.m. = day 3. Interpreting within the cultural context keeps us out of trouble."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:150
-#, no-c-format
-msgid "Example 3B"
-msgstr "Eksempel 3B"
-
-#. Tag: para
-#: how2-interpretation.docbook:150
-#, no-c-format
-msgid "Gen.15:7-21. The historical context is that cutting animals in two and then walking between the pieces was the normal way of entering a contract in Abraham's day. Both parties walked between, taking the pledge that dismemberment would happen to them if they didn't live up to their part of the contract. But in this case only God goes thru, making it a unilateral covenant."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:158
-#, no-c-format
-msgid "Rule 4 - Interpret according to the normal usage of words in language"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:159
-#, no-c-format
-msgid "Let literal language be literal and figurative language be figurative. And watch out for idioms, which have special meanings."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:162
-#, no-c-format
-msgid "Example 4A"
-msgstr "Eksempel 4A"
-
-#. Tag: para
-#: how2-interpretation.docbook:163
-#, no-c-format
-msgid "<quote>evil eye</quote> in Mt.6:23."
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:164
-#, no-c-format
-msgid "Rule 1, definition of \"evil\" and \"eye\" - no help here. Rule 2, context: seems to confuse us even more. It doesn't seem to fit with what goes before and after! This should tip us off that we aren't understanding it rightly!!"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:167
-#, no-c-format
-msgid "What we have here is a Hebrew idiom, <quote>evil eye</quote>. Let's look up other uses of this idiom: Mt.20:15 \"<emphasis>Is it not lawful for me to do what I wish with what is my own? Or is your eye envious [lit.\"evil\"] because I am generous [lit. \"good\"]?</emphasis>\" We find that having an \"evil eye\" is a Hebrew idiom for being stingy or envious. Now go back to Mt.6 and notice how this understanding ties in so perfectly to the context."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:173
-#, no-c-format
-msgid "Example 4B"
-msgstr "Eksempel 4B"
-
-#. Tag: para
-#: how2-interpretation.docbook:174
-#, no-c-format
-msgid "Is.59:1 <quote>The Lord's hand is not short;</quote>"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:175
-#, no-c-format
-msgid "Deut.33:27 <quote>Underneath are the everlasting arms.</quote>"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:176
-#, no-c-format
-msgid "References to body parts of God are used by Latter-Day Saints to prove that God was once a man just as we are. Once they convince people of that, they go on to teach that we can become God just like He is! At a lecture he was giving, a group of Mormon elders challenged Walter Martin (author of <emphasis>Kingdom of the Cults</emphasis>) with an enumeration of verses like these. Dr. Martin then asked the Mormons to read one more scripture: Ps.91:4 <quote>He will cover you with His feathers; And under His wings shalt thou trust</quote>. W.M. said, <quote>By the same rules of interpretation that you just proved God to be a man, you just proved that He is a bird</quote>. The Mormons had to laugh as they realised the ridiculousness of their position."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:188
-#, no-c-format
-msgid "Rule 5 - Understand the purpose of parables and the difference between a parable and an allegory"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:189
-#, no-c-format
-msgid "An allegory is: <emphasis>A story where each element has a meaning.</emphasis>"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:190
-#, no-c-format
-msgid "Every parable is an allegory, true or false?"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:192
-#, no-c-format
-msgid "Some parables are allegories, for instance, the parable of the sower is an allegory: the seed is the word of God, the thorns are worries and greed, etc. But most parables are not allegories but simply stories to illustrate one point. It's dangerous to get our doctrine from parables; they can be twisted to say all sorts of things. We need to get our doctrine from clear scriptures that lay it out; then if a parable illustrates that, fine."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:197
-#, no-c-format
-msgid "Example 5A"
-msgstr "Eksempel 5A"
-
-#. Tag: para
-#: how2-interpretation.docbook:198
-#, no-c-format
-msgid "The parable of the widow with the unrighteous judge in Lk.18:1-8. This story illustrates one lesson: boldness in prayer. If we draw it into an allegory, what do we have?"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:200
-#, no-c-format
-msgid "All sorts of violence happens to the meanings: God is reluctant to protect the rights of widows, prayer \"bothers\" Him, etc."
-msgstr ""
-
-#. Tag: title
-#: how2-interpretation.docbook:203
-#, no-c-format
-msgid "Example 5B"
-msgstr "Eksempel 5B"
-
-#. Tag: para
-#: how2-interpretation.docbook:204
-#, no-c-format
-msgid "The parable of the unrighteous steward in Lk.16:1-9. What is the point of the parable? Is it an allegory?"
-msgstr ""
-
-#. Tag: para
-#: how2-interpretation.docbook:206
-#, no-c-format
-msgid "The steward is commended for only one thing, his shrewdness in using what he had to prepare for a time when he wouldn't have it. But he is not commended for his unethical behavior in cheating his master."
-msgstr ""
-
-#. Tag: title
 #: sidebar_tips.xml:16 software_faq.xml:138
 #, no-c-format
 msgid "Translations"
@@ -1943,7 +439,7 @@ msgstr "Oversættelser"
 #: sidebar_tips.xml:17
 #, no-c-format
 msgid "It will cost you just a few minutes to update the webpage translation in your language. Help with the translations is something all users can do and which help all users. If you want to help us keeping the translations up to date, please read the page about <olink targetdocent=\"translations\">making translations</olink> and update the translation file of your own language."
-msgstr ""
+msgstr "Det vil kun koste dig få minutter at opdatere oversættelsen af hjemmesiden til dit sprog. At hjælpe med at oversætte er noget alle brugere kan gøre, og det er noget som vil hjælpe alle brugere. Hvis du gerne vil hjælpe os med at holde oversættelserne opdateret, så læs siden om <olink targetdocent=\"translations\">at oversætte</olink> og opdater oversættelses-filen af af dit eget sprog."
 
 #. Tag: author
 #: software.xml:16
@@ -1961,7 +457,7 @@ msgstr "Velkommen til BibleTime projektet."
 #: software.xml:21
 #, no-c-format
 msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
-msgstr ""
+msgstr "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime er et program til at studere Bibelen, med til Linux. Det er baseret på <ulink url=\"http://www.kde.org/\">The K Desktop Environment</ulink> og det bruger <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programmerings-biblioteket til at arbejde med Bibeltekster, komentarere, ordbøger og bøger er forsynet  af <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 
 #. Tag: title
 #: software.xml:40
@@ -1971,39 +467,39 @@ msgstr "Nyheder om BibleTime"
 
 #. Tag: title
 #: software.xml:42
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
-msgstr "2007-04-18: BibleTime 1.6.4"
+msgstr "2008-05-10: Ubuntu pakker, BibleTime 1.6.5.1"
 
 #. Tag: para
 #: software.xml:43
 #, no-c-format
 msgid "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</ulink> how to setup your Linux to get the new packages."
-msgstr ""
+msgstr "Endelig er der pakker tilgængelige for Ubuntu 8.04 og 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke beskriver her</ulink> hvordan du skal opsætte din Linux til at få de nye pakker."
 
 #. Tag: para
 #: software.xml:46
 #, no-c-format
 msgid "Version 1.6.5.1 has been released. It contains fixes so it can be installed on current versions of Linux."
-msgstr ""
+msgstr "Version 1.6.5.1 er blevet udgivet. Den indeholder rettelser, så at den kan blive installeret på de nuværende versioner af Linux."
 
 #. Tag: title
 #: software.xml:52
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2008-01-12: BibleTime 1.7alpha1"
-msgstr "2007-01-29: BibleTime 1.6.3"
+msgstr "2008-01-12: BibleTime 1.7alpha1"
 
 #. Tag: para
 #: software.xml:53
 #, no-c-format
 msgid "The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\">Read the announcement</ulink> to know more about the current status and the future of BibleTime."
-msgstr ""
+msgstr "Den nye alpha (testing) version til KDE 4.0 miljøet er tilgængelig. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\">Læs bekendtgørelsen</ulink> for at vide mere om den nuværende status og fremtiden for BibleTime."
 
 #. Tag: title
 #: software.xml:58
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2007-11-04: BibleTime 1.6.5"
-msgstr "2007-04-18: BibleTime 1.6.4"
+msgstr "2007-11-04: BibleTime 1.6.5"
 
 #. Tag: para
 #: software.xml:59
@@ -2021,7 +517,7 @@ msgstr "2007-04-18: BibleTime 1.6.4"
 #: software.xml:65
 #, no-c-format
 msgid "A new bugfix release of BibleTime has been released today. Version 1.6.4 fixes issues with the NETfree Bible module, the search and also contains several smaller improvements. The bibletime-i18n translations contains updated Polish and Chinese translation files."
-msgstr ""
+msgstr "En ny fejlrettelses udgivelse er blevet udgivet i dag. Version 1.6.4 retter problemer med NETfree Bibel modulet, søgningen indeholder også flere mindre forbedringer. Bibletime-i18n's oversættelser indeholder opdaterede polske og kinesiske oversættelses filer."
 
 #. Tag: title
 #: software.xml:70
@@ -2111,7 +607,7 @@ msgstr ""
 #: software.xml:118
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
-msgstr ""
+msgstr "Du er nødt til at installere CLucene 0.9.10 før du installerer denne beta udgivelse."
 
 #. Tag: title
 #: software.xml:124
@@ -2123,7 +619,7 @@ msgstr "2006-03-18: BibleTime 1.6beta1"
 #: software.xml:125
 #, no-c-format
 msgid "The first beta release of the upcoming version 1.6 has been released today."
-msgstr ""
+msgstr "Den første beta-udgivelse af den kommende version 1.6 er blevet udgivet i dag."
 
 #. Tag: para
 #: software.xml:129
@@ -2147,7 +643,7 @@ msgstr "2006-03-17: Låst tysk Bibel"
 #: software.xml:150
 #, no-c-format
 msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decided to release their excellent, modern translation \"Hoffnung für Alle\" (GerHfa2002) for use by the Sword community."
-msgstr ""
+msgstr "Den tyske udgiver <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> besluttede at udgive deres fantastiske, moderne oversættelse \"Hoffnung für Alle\" (GerHfa2002) til brug af Sword-fællesskabet."
 
 #. Tag: para
 #: software.xml:159
@@ -2159,7 +655,7 @@ msgstr ""
 #: software.xml:175
 #, no-c-format
 msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> will make use of this possibility </ulink> to distribute their copyrighted material for use with The SWORD Project."
-msgstr ""
+msgstr "Vi håber at flere udgivere i fremtiden <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> vil gøre brug af denne mulighed </ulink> til at udgive deres kopibeskyttede materiale til brug med SWORD-Projektet."
 
 #. Tag: para
 #: software.xml:184
@@ -2207,7 +703,7 @@ msgstr ""
 #: software.xml:215
 #, no-c-format
 msgid "Get the new release in the download section. Binary packages should be available soon."
-msgstr ""
+msgstr "Få den nye udgivelse af BibleTime i download sektionen. Binære pakker skulle gerne snart være tilgængelige."
 
 #. Tag: title
 #: software.xml:222
@@ -2237,7 +733,7 @@ msgstr "2005-09-28: Nye forumer"
 #: software.xml:239
 #, no-c-format
 msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
-msgstr "Fordi den gamle forum software viste sig at være for usikker, installerede vi en ny forum software i dag. Vi håber at I vil fortsætte med at bruge vores forumer."
+msgstr "Fordi den gamle forum software viste sig at være for usikker, installerede vi en ny forum software i dag. Vi håber at I vil fortsætte med at bruge vores forummer."
 
 #. Tag: title
 #: software.xml:247
@@ -2279,7 +775,7 @@ msgstr "Introduktion"
 #: software_about.xml:15
 #, no-c-format
 msgid "BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
-msgstr ""
+msgstr "BibleTime er et program til at studere Bibelen, med til Linux. Det er baseret på <ulink url=\"http://www.kde.org/\">The K Desktop Environment</ulink> og det bruger <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programmerings-biblioteket til at arbejde med Bibeltekster, kommentarere, ordbøger og bøger forsynet af <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 
 #. Tag: title
 #: software_about.xml:24
@@ -2291,37 +787,37 @@ msgstr "BibleTimes historie"
 #: software_about.xml:25
 #, no-c-format
 msgid "Back in June of 1999 Thomas Hagedorn, Thorsten Uhlmann and Joachim Ansorg started to work on a Bible study application for KDE 1.0."
-msgstr ""
+msgstr "Tilbage i juni 1999, begyndte Thomas Hagedorn, Thorsten Uhlmann og Joachim Ansorg på at udvikle et Bibelstudie-program til KDE 1.0."
 
 #. Tag: para
 #: software_about.xml:29
 #, no-c-format
 msgid "The first version was released two months later as version 0.1. This version was very simple and supported only the most basic things."
-msgstr ""
+msgstr "Den første version blev udgivet to måneder senere som version 0.1. Denne version var meget simpel og understøttede kun de mest basale ting."
 
 #. Tag: para
 #: software_about.xml:33
 #, no-c-format
 msgid "After three months of hard work version 0.2 was released to the public. This version was usable, it supported basic printing, searching and offered a simple editor for personal notes."
-msgstr ""
+msgstr "Efter tre måneders hårdt arbejde blev version 0.2 udgivet til offentligheden. Denne version var brugbar. Den understøttede basal udskrivning, søgning, og tilbød en simpel editor til personlige noter."
 
 #. Tag: para
 #: software_about.xml:37
 #, no-c-format
 msgid "BibleTime 0.2 was later ported to KDE 2 and totally redesigned with a more powerful interface, better printing and a lot of internal changes. This version was called BibleTime 0.3"
-msgstr ""
+msgstr "BibleTime 0.2 blev omskrevet til KDE 2 og totalt omdesignet med en mere kraftfuld brugerflade, bedre udskrivning og en masse indre forandringer. Denne version blev kaldt BibleTime 0.3."
 
 #. Tag: para
 #: software_about.xml:41
 #, no-c-format
 msgid "BibleTime 1.0, which was released almost one year after version 0.3 and was the first version we considered as stable."
-msgstr ""
+msgstr "BibleTime 1.0, som blev udgivet næsten et år efter version 0.3 og var den første version der blev regnet som stabil."
 
 #. Tag: para
 #: software_about.xml:45
 #, no-c-format
 msgid "BibleTime 1.1 and 1.2 followed later on. BibleTime 1.2 is the first version of BibleTime for version 3.0 of KDE."
-msgstr ""
+msgstr "BibleTime 1.1 og 1.2 fulgte efter. BibleTime 1.2 er den første version af BibleTime til verson 3 af KDE."
 
 #. Tag: para
 #: software_about.xml:49
@@ -2345,13 +841,13 @@ msgstr "BibelTimes bruger forum"
 #: software_contact.xml:17
 #, no-c-format
 msgid "This is the place to ask questions about BibleTime. If you have trouble with installing and/or using BibleTime post a message in the forum, and hopefully you'll have an answer in time."
-msgstr ""
+msgstr "Det her er stedet hvor du kan stille spørgsmål omkring BibleTime. Hvis du har problemer med at installere og/eller at bruge BibleTime, så skriv en meddelelse i forummet, og så vil du forhåbentligt få et svar i tide."
 
 #. Tag: para
 #: software_contact.xml:21
 #, no-c-format
 msgid "If you are an experienced BibleTime user and can spare some time, please regularly check out the forum and answer questions of people who have less experience than you. Thereby you would also help the developers to concentrate on the work of development instead of user support."
-msgstr ""
+msgstr "Hvis du er en erfaren BibleTime-bruger og har lidt tid til overs, så vær venlig at tjekke forummet regelmæssigt og svar på spørgsmålene fra dem der har mindre erfaring end dig. Dermed vil du også hjælpe udviklerne til at koncentrere sig om udviklingsarbejdet i stedet for brugerstøtte."
 
 #. Tag: ulink
 #: software_contact.xml:28
@@ -2363,7 +859,7 @@ msgstr "Send en fejl rapport"
 #: software_contact.xml:29
 #, no-c-format
 msgid "If you find a bug in BibleTime use this link to report it so it can be fixed in later versions. Please include detailed descriptions of your setup and how the developers can reproduce the bug."
-msgstr ""
+msgstr "Hvis du finder en fejl i BibleTime, så brug det her link til at rapportere den, så at den kan blive rettet i senere udgivelser. Vær venlig at inkludere en detaljeret beskrivelse af din opsætning og hvordan udviklerne kan genskabe fejlen."
 
 #. Tag: ulink
 #: software_contact.xml:35
@@ -2411,7 +907,7 @@ msgstr "Hvofor mangler værktøjslinien?"
 #: software_faq.xml:25
 #, no-c-format
 msgid "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. Then run make and make install as usual. The KDE directories for the widely used Linux distributions are: <orderedlist> <listitem>RedHat: /usr</listitem> <listitem>SuSE: /opt/kde3</listitem> <listitem>Mandrake: /usr</listitem> </orderedlist> Alternatively you can run the command \"kde-config --prefix\" to get your KDE directory. The commands are:"
-msgstr ""
+msgstr "Prøv at kør \"configure\" med parameteret --prefix=&lt;din KDE mappe&gt;. Derefter kør \"make install\" som sædvaneligt. KDE mapperne for de mest udbredte Linux distributioner er: <orderedlist> <listitem>RedHat: /usr</listitem> <listitem>SuSE: /opt/kde3</listitem> <listitem>Mandrake: /usr</listitem> </orderedlist> Alternativt kan du prøve at køre kommandoen \"kde-config --prefix\" for at se din KDE mappe. Kommandoerne er:"
 
 #. Tag: listitem
 #: software_faq.xml:38
@@ -2441,25 +937,25 @@ msgstr "Oversættelserne mangler!"
 #: software_faq.xml:51
 #, no-c-format
 msgid "Please install the package bibletime-i18n which contains the translations of the daily tips, the handbook, the installation instructions and the Bible study howto."
-msgstr ""
+msgstr "Vær venlig at installere pakken bibletime-i18n som indeholder oversættelser af de daglige tips, håndbogen, installations instruktioner og Bibelstudie howto."
 
 #. Tag: title
 #: software_faq.xml:59
 #, no-c-format
 msgid "Usage problems"
-msgstr ""
+msgstr "Brugbarheds-problemer"
 
 #. Tag: para
 #: software_faq.xml:62
 #, no-c-format
 msgid "Is it possible to search for a specific Strong number?"
-msgstr ""
+msgstr "Er det muligt at søge efter et specifikt Strong-nummer?"
 
 #. Tag: title
 #: software_faq.xml:68
 #, no-c-format
 msgid "Using BibleTime 1.1 - 1.4.x"
-msgstr ""
+msgstr "Brug af BibleTime 1.1 - 1.4.x"
 
 #. Tag: para
 #: software_faq.xml:69
@@ -2477,19 +973,19 @@ msgstr "Brug af BibleTime 1.5 eller senere"
 #: software_faq.xml:74
 #, no-c-format
 msgid "The search interface now offers to set the type of your search. You can choose between headings, footnotes, Strongs numbers and morphological numbers."
-msgstr ""
+msgstr "Den nye søge-interface gør det nu muligt at indstille typen af din søgning. Du kan vælge mellem overskrifter, fodnoter, Strong-tal og morphologiske tal."
 
 #. Tag: para
 #: software_faq.xml:82
 #, no-c-format
 msgid "Why do I see only question marks instead of Unicode text?"
-msgstr ""
+msgstr "Hvorfor er der spørgsmålstegn i stedet for Unicode-tekst?"
 
 #. Tag: para
 #: software_faq.xml:88
 #, no-c-format
 msgid "First make sure you have the latest version of the module which has the problems! Check <ulink url=\"http://www.crosswire.org/sword\">www.crosswire.org/sword</ulink> for this."
-msgstr ""
+msgstr "Tjek først at du har den seneste version af modulet som har problemer! Tjek på <ulink url=\"http://www.crosswire.org/sword\">www.crosswire.org/sword</ulink> for at gøre dette."
 
 #. Tag: para
 #: software_faq.xml:91
@@ -2507,13 +1003,13 @@ msgstr "Moduler"
 #: software_faq.xml:101
 #, no-c-format
 msgid "The KJV shows no Strong numbers in the NT"
-msgstr ""
+msgstr "KJV viser ingen Strong-tal i NT"
 
 #. Tag: para
 #: software_faq.xml:105
 #, no-c-format
 msgid "You're probably using an outdated version of the KJV module. Please update the module."
-msgstr ""
+msgstr "Du bruger højst sandsynligt en uddateret version af KJV-modulet. Vær venlig at opdatere dette modul."
 
 #. Tag: para
 #: software_faq.xml:113
@@ -2525,7 +1021,7 @@ msgstr "Hvor kan jeg skrive mine personlige noter?"
 #: software_faq.xml:117
 #, no-c-format
 msgid "You have to install the module \"Personal\", which is available as a commentary on <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Personal\">Crosswire</ulink>. Please refer to BibleTime's handbook for more information about the personal commentary."
-msgstr ""
+msgstr "Du er nødt til at installere modulet \"personlig\", som er tilgængelig som en kommentar på <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Personal\">Crosswire</ulink>. Se i BibleTimes håndbog for mere information om den personlige kommentar."
 
 #. Tag: para
 #: software_faq.xml:126
@@ -2537,7 +1033,7 @@ msgstr "Hvorfor er en af de to testamenter i et bibel-modul tomt?"
 #: software_faq.xml:130
 #, no-c-format
 msgid "Some modules only contain the text of the old or new testament. Recent versions of BibleTime should only offer the testament which has some content in it."
-msgstr ""
+msgstr "Nogle moduler indeholder kun tekst for det gamle eller nye testamente. Senere versioner af BibleTime skulle kun indeholde testamentet med indhold i."
 
 #. Tag: para
 #: software_faq.xml:141
@@ -2549,13 +1045,13 @@ msgstr "Er BibleTime til rådighed i mit oprindelige sprog?"
 #: software_faq.xml:145
 #, no-c-format
 msgid "BibleTime is available in several languages, which are all listed on our <olink targetdocent=\"translation\">translations page</olink>. The translations are available in the package bibletime-i18n."
-msgstr ""
+msgstr "BibleTime er til rådighed på flere sprog, de kan alle ses på vores <olink targetdocent=\"translation\">oversættelser side</olink>. Oversættelserne er til rådighed i pakken bibletime-i18n."
 
 #. Tag: para
 #: software_faq.xml:148
 #, no-c-format
 msgid "If a translation into your language is not available, please consider to help to make it available. More information is available on out <olink targetdocent=\"translation\">translations page.</olink>."
-msgstr ""
+msgstr "Hvis der ikke er en oversættelse til dit sprog, så vær venlig at overvej at hjælpe med at gøre det tilgængeligt. Mere information er til rådighed på vores <olink targetdocent=\"translation\">oversættelses side.</olink>."
 
 #. Tag: title
 #: software_imprint.xml:15
@@ -2567,7 +1063,7 @@ msgstr "Ansvar"
 #: software_imprint.xml:16
 #, no-c-format
 msgid "This imprint is required in Germany for all webpages."
-msgstr ""
+msgstr "Der skal stå hvem der har ansvar for siderne på alle tyske hjemmesider."
 
 #. Tag: para
 #: software_imprint.xml:17
@@ -2579,7 +1075,7 @@ msgstr "Personen som er ansvarlig for de her hjemmesider er:"
 #: software_imprint.xml:20
 #, no-c-format
 msgid "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
-msgstr ""
+msgstr "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: information på bibletime dot info</otheraddr>"
 
 #. Tag: title
 #: software_installation.xml:16
@@ -2591,25 +1087,25 @@ msgstr "Download BibleTime"
 #: software_installation.xml:17
 #, no-c-format
 msgid "This is a short list of available download locations. Packages which are not provided on our SourceForge pages might be outdated. Please see below for detailed download and installation instructions."
-msgstr ""
+msgstr "Dette er en kort liste over steder der kan hentes fra. Pakker der ikke er opgivet på vores SourceForge-sider er sandsynligtvis uddateret. Vær venlig at se herunder for detaljerede nedhentning og installation."
 
 #. Tag: para
 #: software_installation.xml:21
 #, no-c-format
 msgid "Sourcecode and packages for major Linux distributions can be downloaded from <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\">SourceForge</ulink>."
-msgstr ""
+msgstr "Kildekode og pakker til de større Linux-distrubitioner kan hentes ned fra <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\">SourceForge</ulink>."
 
 #. Tag: para
 #: software_installation.xml:26
 #, no-c-format
 msgid "Ubuntu packages are available in the repository and <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\">here</ulink>. Updated packages for Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url=\"https://launchpad.net/~txwikinger/+archive\">here</ulink>."
-msgstr ""
+msgstr "Ubuntu pakker er tilgængelige i arkivet og  <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\">her</ulink>. Opdaterede pakker til Ubuntu 8.04 (Hardy Heron) og 7.10 (Gutsy Gibbon) kan man få fat i <ulink url=\"https://launchpad.net/~txwikinger/+archive\">her</ulink>."
 
 #. Tag: para
 #: software_installation.xml:31
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Debian packages are available in the repository and <ulink url=\"http://packages.debian.org/bibletime\">here</ulink>."
-msgstr "Debian pakker er til rådighed <ulink url=\"http://packages.debian.org/bibletime\">her</ulink>."
+msgstr "Debian pakker er til rådighed  i arkivet og her <ulink url=\"http://packages.debian.org/bibletime\">her</ulink>."
 
 #. Tag: para
 #: software_installation.xml:36
@@ -2621,7 +1117,7 @@ msgstr ""
 #: software_installation.xml:41
 #, no-c-format
 msgid "A FreeBSD application port of BibleTime can be found on <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
-msgstr ""
+msgstr "En FreeBSD-version af BibleTime kan findes på <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
 
 #. Tag: para
 #: software_installation.xml:46
@@ -2639,7 +1135,7 @@ msgstr "Installation af BibleTime"
 #: software_installation.xml:54
 #, no-c-format
 msgid "This section explains how to install BibleTime on your system. Basically there are two ways to install it: Either by using prebuilt binary packages or by compiling from source code. Installing BibleTime using prebuilt packages is the easiest way."
-msgstr ""
+msgstr "Denne sektion forklarer hvordan man installerer BibleTime på dit system. Der er to måder at installere det på: Enten ved at bruge forudbyggede binære pakker eller ved at kompilere det fra kildkode. Det er nemmest at installere BibleTime med forudbyggede pakker."
 
 #. Tag: title
 #: software_installation.xml:58
@@ -2651,19 +1147,19 @@ msgstr "Forudbyggede binære pakker"
 #: software_installation.xml:59
 #, no-c-format
 msgid "With the help of great volunteers, we try to provide packages for the most important Linux distributions. Before installing BibleTime, however, you need to find and install packages for <ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.16a</ulink> and Sword (Sword binaries are available at the BibleTime download site)."
-msgstr ""
+msgstr "Med hjælp fra fantastiske frivillige, prøver vi at forsyne med pakker til de mest vigtige Linux-distributioner. Før du installerer BibleTime, er du nødt til at indstallere pakker for <ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.16a</ulink> og Sword (Binære Sword pakker er tilgængelige på BibleTimes downloadside)"
 
 #. Tag: para
 #: software_installation.xml:62
 #, no-c-format
 msgid "First download the binary package for your Linux distribution. For example: You want to download <application>BibleTime 1.4</application> for <productname>SuSE Linux 9.0</productname>. In this case you have to download the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please download the package &quot;bibletime-i18n&quot; package, too. This package contains the available translations of the BibleTime user interface and handbook."
-msgstr ""
+msgstr "Hent først den binære pakke til din Linux distrubition. For eksempel: Du ønsker at hente <application>BibleTime 1.4</application> til <productname>SuSE Linux 9.0</productname>. I dette tilfælde skal du hente denne pakke <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Hent også &quot;bibletime-i18n&quot; pakken. Denne pakke indeholder alle de tilgængelige oversættelser af BibleTimes brugerflade og håndbog."
 
 #. Tag: para
 #: software_installation.xml:65
 #, no-c-format
 msgid "If there are no packages for your version of Linux you have to install from source code. Please see below how to do that."
-msgstr ""
+msgstr "Hvis der ikke er nogle pakker til din version af Linux, så er du nødt til at installere fra kildekode. Se her under hvordan man gør."
 
 #. Tag: title
 #: software_installation.xml:69
@@ -2675,13 +1171,13 @@ msgstr "Installation fra kildekode "
 #: software_installation.xml:70
 #, no-c-format
 msgid "Installation using BibleTime's source code is more difficult than using binary packages. Please follow the steps below if you decided to install BibleTime from sources:"
-msgstr ""
+msgstr "Det er sværere at installere BibleTime fra kildekode end med forudlavede binære pakker. Følg trinene herunder hvis du beslutter at installere BibleTime fra kildekoden:"
 
 #. Tag: para
 #: software_installation.xml:75
 #, no-c-format
 msgid "At first make sure the required software is installed on your system. Depending on your Linux distribution you have to install the development packages of the required software, too."
-msgstr ""
+msgstr "Forsikr dig først at du har det nødvendige software installeret på dit system. Afhængig af din Linux distrubition er du også nødt til at installere udviklingspakkerne af den nødvendige software."
 
 #. Tag: para
 #: software_installation.xml:80
@@ -2693,7 +1189,7 @@ msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
 #: software_installation.xml:81
 #, no-c-format
 msgid "At least the libraries and the base package. KDE 3 is shipped with many Linux distributions. Very often it's installed by default."
-msgstr ""
+msgstr "I hvert fald bibliotekerne og basispakkerne. KDE 3 kommer med mange Linux distributioner. Meget ofte er det forudinstalleret."
 
 #. Tag: para
 #: software_installation.xml:85
@@ -2705,7 +1201,7 @@ msgstr "<ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink>
 #: software_installation.xml:86
 #, no-c-format
 msgid "This is necessary for the new instant search feature."
-msgstr ""
+msgstr "Denne er nødvendig for den nye \"instant search\" egenskab."
 
 #. Tag: para
 #: software_installation.xml:90
@@ -2717,7 +1213,7 @@ msgstr "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Swor
 #: software_installation.xml:91
 #, no-c-format
 msgid "Installation instructions are available on <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\">www.crosswire.org/sword/software</ulink>. Basically the installation steps are"
-msgstr ""
+msgstr "Installations instruktioner er tilgænglige på <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\">www.crosswire.org/sword/software</ulink>. I korte træk skal man gøre følgende"
 
 #. Tag: screen
 #: software_installation.xml:92
@@ -2737,7 +1233,7 @@ msgstr ""
 #: software_installation.xml:97
 #, no-c-format
 msgid "Please note that this list is only valid for the latest version of BibleTime, older versions may require other software."
-msgstr ""
+msgstr "Bemærk at denne liste er kun gyldig for den seneste version af BibleTime, ældre versioner kræver muligvis anden software."
 
 #. Tag: para
 #: software_installation.xml:102
@@ -2753,12 +1249,15 @@ msgid ""
 "                                                <command>make</command>\n"
 "                                                <command>make install</command>"
 msgstr ""
+"<command>./configure --prefix=&lt;din KDE mappe&gt;</command>\n"
+"                                                <command>make</command>\n"
+"                                                <command>make install</command>"
 
 #. Tag: para
 #: software_installation.xml:106
 #, no-c-format
 msgid "You can get your KDE directory by running the command <command>kde-config --prefix</command>. If you get problems please read our <olink targetdocent=\"software_faq\">FAQ</olink>. If there's no solution of your problem, please contact us at <email>info@bibletime.info</email>."
-msgstr ""
+msgstr "Du kan se din KDE mappe ved at køre kommandoen <command>kde-config --prefix</command>. Hvis du løber ind i problemer, så læs vores <olink targetdocent=\"software_faq\">FAQ</olink>. Hvis der ikke er en løsning på problemet, så hver venlig at kontakte os på <email>info@bibletime.info</email>."
 
 #. Tag: para
 #: software_installation.xml:109
@@ -2768,6 +1267,9 @@ msgid ""
 "                                                <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure --prefix=/usr</command>\n"
 "                                        </screen> If you forget this, you'll likely not be able to access the handbook and the BibleStudy HowTo."
 msgstr ""
+"Debian (og muligvis beslægtede distributioner ligeledes) bruger en ikke-standard sti til at gemme dokumentation af KDE programmer. Derfor skal ./configure linien herover i dette tilfælde ændres til: <screen>\n"
+"                                                <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure --prefix=/usr</command>\n"
+"                                        </screen> Hvis du glemmer det, kan du muligvis ikke få adgang til håndbogen og Bibelstudie guiden."
 
 #. Tag: para
 #: software_installation.xml:118
@@ -2779,18 +1281,23 @@ msgid ""
 "                                                <command>make install</command>\n"
 "                                        </screen> Please see the warning regarding nonstandard paths in the previous paragraph."
 msgstr ""
+"Kompiler og installer oversættelserne til BibleTimes brugerflade (bibletime-i18n): <screen>\n"
+"                                                <command>./configure --prefix=&lt;din KDE mappe&gt;</command>\n"
+"                                                <command>make</command>\n"
+"                                                <command>make install</command>\n"
+"                                        </screen> Se advarslen angående ualmindelige steder i den foregående paragraf."
 
 #. Tag: title
 #: software_installation.xml:130
 #, no-c-format
 msgid "Install works"
-msgstr ""
+msgstr "Installer værker"
 
 #. Tag: para
 #: software_installation.xml:131
 #, no-c-format
 msgid "You need Sword modules to work with BibleTime. Since version 1.4 BibleTime offers a userfriendly dialog (the Bookshelf Manager) to install/update/remove works. We strongly recommend this way to install works on your computer."
-msgstr ""
+msgstr "Du har brug for Sword-moduler for at arbejde med BibleTime. Siden version 1.4 har BibleTime tilbudt en brugervenlig dialog (Boghylde Manageren) til at installere/opdatere/fjerne værker. Vi foreslår kraftigt at du bruger den til at installere værker på din computer."
 
 #. Tag: para
 #: software_installation.xml:135
@@ -2802,13 +1309,13 @@ msgstr "Instruktion for manuel installation er til rådighed på <ulink url=\"ht
 #: software_installation.xml:139
 #, no-c-format
 msgid "Available types of works"
-msgstr ""
+msgstr "Tilgængelige typer af værker"
 
 #. Tag: para
 #: software_installation.xml:140
 #, no-c-format
 msgid "Here is a list of available types of works and where to get more information:"
-msgstr ""
+msgstr "Her er en liste over tilgængelige værker og hvor man kan få flere informationer:"
 
 #. Tag: ulink
 #: software_installation.xml:144
@@ -2820,7 +1327,7 @@ msgstr "Bibler"
 #: software_installation.xml:145
 #, no-c-format
 msgid "Commentaries"
-msgstr ""
+msgstr "Kommentarer"
 
 #. Tag: ulink
 #: software_installation.xml:146
@@ -3196,7 +1703,7 @@ msgstr "Der er mange andre kristne hjemmesider på internettet. Nogle er mere, a
 #: software_links.xml:21
 #, no-c-format
 msgid "Since we're not author of the linked pages we're not responsible for their content, we explicitely dissociate ourself from the content of the linked pages! This is required because german law says you're responsible for the content of the linked pages unless you explicitely dissociate yourself from these pages."
-msgstr ""
+msgstr "Siden vi ikke er forfatteren af de følgende sider, er vi ikke ansvarlige for deres indhold. Vi har ingen ting at gøre med indholdet på de sider vi linker til! Dette er påkrævet fordi at man i Tyskland er ansvarlig for ansvarlig for indholdet af alle sider man linker til med mindre man frasiger sig alt ansvar og gør det tydeligt at man ikke har noget at gøre med disse sider."
 
 #. Tag: title
 #: software_links.xml:25
@@ -3214,7 +1721,7 @@ msgstr "<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies Grou
 #: software_links.xml:27
 #, no-c-format
 msgid "The home of the new common exchange Text format OSIS, which will hopefully be used by many Bible societies and publishers of the world."
-msgstr ""
+msgstr "Hjemmet til det nye tekstudvekslingsformat OSIS, som forhåbentligt vil blive brugt af mange Bibelselskaber og udgivere over hele verden."
 
 #. Tag: title
 #: software_links.xml:32
@@ -3226,7 +1733,7 @@ msgstr "<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>
 #: software_links.xml:33
 #, no-c-format
 msgid "The Crosswire Bible society is one of the few christian organizations in the world providing everything they make free for all! Crosswire supports the Sword project, the KJV2003 project and some other cool things."
-msgstr ""
+msgstr "Crosswire Bible foreningen er en af de få kristne organizationer i verden, som tilbyder alt de laver gratis til alle! Crosswire støtter Sword-projektet, KJV2003-projektet og nogle andre seje ting."
 
 #. Tag: title
 #: software_links.xml:39
@@ -3244,7 +1751,7 @@ msgstr "<ulink url=\"http://gnomesword.sf.net/\">Gnomesword</ulink>."
 #: software_links.xml:41
 #, no-c-format
 msgid "Gnomesword is a Sword frontend using the Gnome toolkit. A really good application. Be sure to check it out!"
-msgstr ""
+msgstr "Gnomesword er en Sword-grænseflade der bruger Gnome værktøjskassen. Et rigtigt godt program. Se at få tjekket det ud!"
 
 #. Tag: title
 #: software_links.xml:48
@@ -3262,7 +1769,7 @@ msgstr "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
 #: software_links.xml:50
 #, no-c-format
 msgid "BibleWorks is one of the best commercial Bible study applications for Windows! Very good but very expensive, too. Only useful for Bible scholars."
-msgstr ""
+msgstr "BibleWorks er at af de bedste kommercielle Bibelstudie programmer til Windows! Rigtigt godt, men også meget dyrt. Det er kun brugbart for Bibel lærde."
 
 #. Tag: title
 #: software_links.xml:55
@@ -3274,7 +1781,7 @@ msgstr "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
 #: software_links.xml:56
 #, no-c-format
 msgid "The Bible Workshop program is a powerful, commercial Bible study application for Windows, which is available in english, german and french. It's possible to enhance the Bible Workshop using Text libraries you can buy."
-msgstr ""
+msgstr "The Bible Workshop er et kraftfuldt, kommercielt Bibelstudieprogram til Windows, som er tilgængeligt på engelsk, tysk og fransk. Det er muligt at udvide The Bible Workshop med tekstbiblioteker som du kan købe."
 
 #. Tag: title
 #: software_links.xml:61
@@ -3286,7 +1793,7 @@ msgstr "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
 #: software_links.xml:62
 #, no-c-format
 msgid "e-Sword is a great and easy to use Bible study application for Windows systems."
-msgstr ""
+msgstr "e-Sword er et godt og brugervenligt Bibelstudieprogram til Windows systemer."
 
 #. Tag: title
 #: software_links.xml:67
@@ -3298,7 +1805,7 @@ msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
 #: software_links.xml:68
 #, no-c-format
 msgid "Logos is one of the best commercial Bible study applications for Windows. You can buy a lot of texts to enhance it."
-msgstr ""
+msgstr "Logos er et af de bedste kommercielle Bibelstudie programmer til Windows. Man kan købe en masse tekster til at udvide det."
 
 #. Tag: title
 #: software_links.xml:73
@@ -3322,7 +1829,7 @@ msgstr "<ulink url=\"http://www.crosswire.org/sword/\">Sword til Windows</ulink>
 #: software_links.xml:80
 #, no-c-format
 msgid "This is the Windows Bible study application made by the Sword team! Sword is supported by the Crosswire Bible Society."
-msgstr ""
+msgstr "Dette er et Bibelstudieprogram til Windows lavet af Sword teamet! Sword bliver støttet af The Crosswire Bible Society."
 
 #. Tag: title
 #: software_links.xml:85
@@ -3334,7 +1841,7 @@ msgstr "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulin
 #: software_links.xml:86
 #, no-c-format
 msgid "Tnach is a free, advanced software tool for anyone dealing with Hebrew and Greek. It can be downloaded for a donation."
-msgstr ""
+msgstr "Tnach er et gratis , avanceret softwareværktøj for alle der har noget at gøre med hebraisk og græsk. Det kan blive nedhentet gratis mod en donation."
 
 #. Tag: title
 #: software_links.xml:91
@@ -3346,7 +1853,7 @@ msgstr "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
 #: software_links.xml:92
 #, no-c-format
 msgid "Volksbibel 2000.2 is a German, metacard based software Bible study tool for Windows, Linux and Mac. Althouth there are not so many texts as other software packages have, it has some cool things like basic map support included. If you are german try it out!"
-msgstr ""
+msgstr "Volksbibel 2000.2 er et tysk metacard-baseret software Bibelstudieværktøj til Windows, Linux og Mac. Selvom det ikke har så mange tekster som mange andre software-pakker har, så har det nogle seje ting som en grundlæggende kort-funktion. Hvis du er tysker så prøv tjek det ud!"
 
 #. Tag: title
 #: software_links.xml:99
@@ -3382,13 +1889,13 @@ msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 #: software_links.xml:110
 #, no-c-format
 msgid "SourceForge provides us with the tools to develop BibleTime with many team members at the same time! We save a lot of time and money by using their services."
-msgstr ""
+msgstr "SourceForge forsørger os med værktøjerne til at udvikle BibleTime med mange team-medlemmer på samme tid! Vi sparer en masse tid og penge ved at bruger deres tjenester."
 
 #. Tag: title
 #: software_linkus.xml:14
 #, no-c-format
 msgid "How to link to www.bibletime.info"
-msgstr ""
+msgstr "Hvordan du kan linke til www.bibletime.info"
 
 #. Tag: para
 #: software_linkus.xml:15
@@ -3414,6 +1921,13 @@ msgid ""
 "]]>\n"
 "</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/big.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 msgstr ""
+"Indsæt den følgende HTML-kode i dine sider: <programlisting>\n"
+"<![CDATA[\n"
+" <a href=\"http://www.bibletime.info/\" target=\"_blank\">\n"
+" <img src=\"http://www.bibletime.info/images/banner/big.jpg\" width=\"312\" height=\"60\" border=\"0\"/>\n"
+" </a>\n"
+"]]>\n"
+"</programlisting> Det vil komme til at se sådan her ud: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/big.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 
 #. Tag: title
 #: software_linkus.xml:36
@@ -3433,6 +1947,13 @@ msgid ""
 "]]>\n"
 "</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/small.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 msgstr ""
+"Indsæt den følgende HTML-kode i dine sider: <programlisting>\n"
+"<![CDATA[\n"
+" <a href=\"http://www.bibletime.info/\" target=\"_blank\">\n"
+" <img src=\"http://www.bibletime.info/images/banner/small.jpg\" width=\"88\" height=\"31\" border=\"0\"/>\n"
+" </a>\n"
+"]]>\n"
+"</programlisting> Det vil komme til at se sådan her ud: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/small.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 
 #. Tag: title
 #: software_linkus.xml:54
@@ -3452,24 +1973,31 @@ msgid ""
 "]]>\n"
 "</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\">BibleTime - Bible study software for KDE</ulink>"
 msgstr ""
+"For at indsætte et simpelt tekstlink, så vær venlig at brug den følgende HTML kode på jeres sider: <programlisting>\n"
+"<![CDATA[\n"
+" <a href=\"http://www.bibletime.info/\" TARGET=\"_blank\">\n"
+" BibleTime - Bibelstudiesoftware til KDE\n"
+" </a>\n"
+"]]>\n"
+"</programlisting> Det vil se sådan her ud: <ulink url=\"http://www.bibletime.info/\">BibleTime - Bibelstudiesoftware til KDE</ulink>"
 
 #. Tag: para
 #: software_press.xml:16
 #, no-c-format
 msgid "On <ulink url=\"http://dot.kde.org/995302757\">dot.kde.org</ulink> Andreas Pour draws the following conclusion in his review:"
-msgstr ""
+msgstr "På <ulink url=\"http://dot.kde.org/995302757\">dot.kde.org</ulink> kommer Andreas Pour til den følgende konklusion i hans anmeldelse:"
 
 #. Tag: attribution
 #: software_press.xml:23
 #, no-c-format
 msgid "Andreas Pour (&copy; 2001 Andreas \"Dre\" Pour. All rights reserved)"
-msgstr ""
+msgstr "Andreas Pour (&copy; 2001 Andreas \"Dre\" Pour. Alle rettigheder reserveret)"
 
 #. Tag: para
 #: software_press.xml:24
 #, no-c-format
 msgid "Bibletime is already a true godsend for religious KDE users. It is easily useable though it may take a bit of time to learn some quirks. I think the next release will make it even better, particularly by providing a GUI for the difficult Sword installation/configuration. Besides this, my personal wishlist item is to use KHTML for its advanced navigation features."
-msgstr ""
+msgstr "Bibletime is already a true godsend for religious KDE users. It is easily useable though it may take a bit of time to learn some quirks. I think the next release will make it even better, particularly by providing a GUI for the difficult Sword installation/configuration. Besides this, my personal wishlist item is to use KHTML for its advanced navigation features."
 
 #. Tag: para
 #: software_press.xml:32
@@ -3487,13 +2015,13 @@ msgstr "Pfarrer &amp; PC 2002 (&copy; Pfarrer &amp; PC 2002)"
 #: software_press.xml:39
 #, no-c-format
 msgid "Trotzdem: Alles dran, alles drin - BibleTime ist ein funktional wie optisch gelungenes Bibel-Programm, dem man unter Linux große Verbreitung wünschen darf. Ein wenig bedauerlich ist das copyrightbedingte Fehlen der »großen« zeitgenössischen Bibelübersetzungen. Dafür beschert BibleTime dem Nutzer Einblicke in selten genutzte Übersetzungen und ein gutes Handling griechischer und hebräischer Originaltexte."
-msgstr ""
+msgstr "Trotzdem: Alles dran, alles drin - BibleTime ist ein funktional wie optisch gelungenes Bibel-Programm, dem man unter Linux große Verbreitung wünschen darf. Ein wenig bedauerlich ist das copyrightbedingte Fehlen der »großen« zeitgenössischen Bibelübersetzungen. Dafür beschert BibleTime dem Nutzer Einblicke in selten genutzte Übersetzungen und ein gutes Handling griechischer und hebräischer Originaltexte."
 
 #. Tag: para
 #: software_press.xml:45
 #, no-c-format
 msgid "The review is online at: <ulink url=\"http://www.pfarrer-pc.de/magazin/2-02/art02-02-bibli.php\">www.pfarrer-pc.de</ulink>"
-msgstr ""
+msgstr "Anmeldelsen er tilgængelig online på: <ulink url=\"http://www.pfarrer-pc.de/magazin/2-02/art02-02-bibli.php\">www.pfarrer-pc.de</ulink>"
 
 #. Tag: title
 #: software_screenshots.xml:19
@@ -3511,19 +2039,19 @@ msgstr "Hoved vinduet"
 #: software_screenshots.xml:33
 #, no-c-format
 msgid "Here you can see a typical BibleTime session. On the left pane, you see the \"bookshelf\" which offers quick access to all installed electronic works as well as facilities to create and manage your own bookmarks. Below is the \"mag(nifying glass)\", which can display additional information about a word or piece of text. In this example it shows details about the hebrew word that the KJV translates as \"God\". The main part of the BibleTime window (called \"desk\") offers space to read works such as Bibles, commentaries, lexicons or other books."
-msgstr ""
+msgstr "Her kan du se en typisk BibleTime-session. På den venstre bjælke, kan du se \"boghylden\" der giver hurtig adgang til alle installerede elektroniske værker, så vel som faciliteter til at skabe og administrere dine egne bogmærker. Derunder er \"forstørrelsesglasset\", der kan vise uddybende information om et ord, eller et stykke tekst. I dette eksempel viser det detaljer om det hebraiske ord som KJV oversætter som \"Gud\". I hoveddelen af BibleTime-vinduet /kaldt \"skrivebordet\") er der plads til at læse værker som Bibler, kommentarer, leksikoner eller andre bøger."
 
 #. Tag: title
 #: software_screenshots.xml:49
 #, no-c-format
 msgid "The Bookshelf Manager"
-msgstr ""
+msgstr "Boghylde Manageren"
 
 #. Tag: para
 #: software_screenshots.xml:61
 #, no-c-format
 msgid "BibleTime offers a dialog to automatically download and manage electronic works. You simply define a library (a remote collection of works, such as <ulink url=\"http://www.crosswire.org/sword/\"> Crosswire </ulink> ), and then you can transfer works from this library to your local bookshelf to use them. Easy, huh?"
-msgstr ""
+msgstr "BibleTime tilbyder en dialog der kan automatisk downloade og ordne dine elektroniske værker. Du vælger bare et bibliotek (en samling af værker, som <ulink url=\"http://www.crosswire.org/sword/\"> Crosswire </ulink> ), og så kan du overføre de ønskede værker fra dette bibliotek til din egen boghylde for at bruge dem. Nemt, ikke?"
 
 #. Tag: title
 #: software_screenshots.xml:74
@@ -3535,7 +2063,7 @@ msgstr "Søgedialogen "
 #: software_screenshots.xml:85
 #, no-c-format
 msgid "BibleTime offers a powerful search dialog. You can search in several works at a time, limit your search to text scopes or also to certain kinds of text, such as footnotes."
-msgstr ""
+msgstr "BibleTime tilbyder en kraftfuld søgedialog. Du kan søge i flere Bibler på samme tid, begrænse din søgning til mindre områder af teksten eller også bestemte typer tekst, som for eksempel fodnoter."
 
 #. Tag: title
 #: software_swordcd.xml:10
@@ -3547,13 +2075,13 @@ msgstr "Sword CD"
 #: software_swordcd.xml:16
 #, no-c-format
 msgid "Sword CD order form not available"
-msgstr ""
+msgstr "Sword CD bestillings udfyldningen er ikke tilgængelig."
 
 #. Tag: para
 #: software_swordcd.xml:17
 #, no-c-format
 msgid "Because it's impossible for the BibleTime team to fullfill all the Sword CD orders with the limited financial ressources the CD order form is currently not available. Please note that the CD still is available as a download from ftp://ftp.crosswire.org/pub/sword/iso/."
-msgstr ""
+msgstr "Fordi det er umuligt for BibleTime teamet at udfylde alle Sword CD-bestillingerne med de begrænsede financielle ressourcer, så er CD-bestillingsskemaet ikke tilgængeligt på nuværende tidspunkt. Læg mærke til at det stadig er muligt at hente CD'en fra ftp://ftp.crosswire.org/pub/sword/iso/."
 
 #. Tag: title
 #: software_swordcdsend.xml:10
@@ -3575,9 +2103,9 @@ msgstr "Hjælp med at oversætte BibleTime til dit sprog"
 
 #. Tag: para
 #: translation.xml:15
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "This is a part of software development where the help of many individuals is needed. It is our desire to offer BibleTime to users in as many languages as possible. The following areas are open for your contributions:"
-msgstr "Det her er en del af software udvikling, hvor der er brug for mange frivillige. Det er vores ønske at kunne tilbyde BibleTime til brugere i så mange sprog som muligt. De følgende områder er åbne for dine bidragelser."
+msgstr "Det her er en del af software udvikling, hvor der er brug for mange frivillige. Det er vores ønske at kunne tilbyde BibleTime til brugere i så mange sprog som muligt. De følgende områder er åbne for dine bidragelser:"
 
 #. Tag: para
 #: translation.xml:21
@@ -3593,69 +2121,69 @@ msgstr "<para>Oversæt programmets brugerflade.</para>"
 
 #. Tag: para
 #: translation.xml:23
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Translate the Bible Study Howto."
-msgstr "Bibelstudie vejledningen"
+msgstr "Oversæt Bibelstudie vejledningen"
 
 #. Tag: para
 #: translation.xml:24
 #, no-c-format
 msgid "<para>Translate the program's handbook.</para>"
-msgstr "<para>Oversæt programmets manual.</para>"
+msgstr "<para>Oversæt programmets håndbog.</para>"
 
 #. Tag: para
 #: translation.xml:25
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<para>Translate the biblical booknames.</para>"
-msgstr "<para>Oversæt programmets manual.</para>"
+msgstr "<para>Oversæt de Bibelske bøgers navne.</para>"
 
 #. Tag: para
 #: translation.xml:29
 #, no-c-format
 msgid "On this page you can find statistics about the completeness of existing translations for each of these areas, as well as links to translation templates that you can use to submit new translations which do not yet exist. If a translation into your language does not yet exist or you want to work on an existing translation, follow these steps:"
-msgstr ""
+msgstr "På denne side kan du finde statistikker om færdigheden af de eksisterende oversættelser for hvert af disse områder, så vel som links til oversættelses-skabeloner, som du kan bruge til at lave nye oversættelser der endnu ikke eksisterer. Hvis en oversættelse til dit sprog endnu ikke eksisterer, eller at du vil arbejde på en eksisterende oversættelse, så følg disse trin:"
 
 #. Tag: para
 #: translation.xml:34
 #, no-c-format
 msgid "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\">the translators' mailing list bibletime-translations at lists.sourceforge.net</ulink>. You will receive information relevant for translators and can communicate with the developers and the other translators. Use this list if you have questions or comments."
-msgstr ""
+msgstr "Tilmeld dig <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> oversætternes mailing-liste bibletime-translators på lists.sourceforge.net</ulink>. Du vil modtage information relevant for oversættere og kan kommunikere med udviklere og andre oversættere. Brug denne liste hvis du har spørgsmål eller kommentarer."
 
 #. Tag: para
 #: translation.xml:35
 #, no-c-format
 msgid "Download a template you want to translate or an existing translation you want to enhance."
-msgstr ""
+msgstr "Download en skabelon du gerne vil oversætte, eller en eksisterende oversættelse du vil forbedre."
 
 #. Tag: para
 #: translation.xml:36
 #, no-c-format
 msgid "Use one of the recommended programs mentioned below or some other program and edit the translation."
-msgstr ""
+msgstr "Brug et af de anbefalede programmer, der er nævnt herunder, eller et andet program, til at redigere oversættelserne."
 
 #. Tag: para
 #: translation.xml:37
 #, no-c-format
 msgid "Send the translation to the translators' mailing list."
-msgstr ""
+msgstr "Send oversættelsen til oversætternes mailing-liste."
 
 #. Tag: para
 #: translation.xml:38
 #, no-c-format
 msgid "Developers will integrate your work as soon as possible. The statistics will be updated after that."
-msgstr ""
+msgstr "Udviklere vil integrere dit arbejde så snart som muligt. Derefter vil statistikkerne blive opdateret."
 
 #. Tag: para
 #: translation.xml:42
 #, no-c-format
 msgid "For the translation process we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://trolltech.com/products/qt/features/tools/linguist\">Qt Linguist</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform .po file editor suitable for our documentation and website translations."
-msgstr ""
+msgstr "Til oversættelses processen anbefaler vi at du bruger dette fantastiske og modne program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> der virker med KDE. Det har mange avancerede egenskaber og er til stor hjælp. <ulink url=\"http://trolltech.com/products/qt/features/tools/linguist\">Qt Linguist</ulink> (en del af multi-platform Qt udviklings pakken) er ligeså til at oversætte brugerfladen der er i .ts formatet. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> er en multi-platform .po fil editor brugbar for vores dokumentation og hjemmeside oversættelser."
 
 #. Tag: para
 #: translation.xml:47
 #, no-c-format
 msgid "A list of the language abbreviations is available at <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
-msgstr ""
+msgstr "En liste over de forskellige sprog-forkortelser er tilgængelig på <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 
 #. Tag: title
 #: translation.xml:52
@@ -3667,7 +2195,7 @@ msgstr "<title>Oversæt www.bibletime.info's hjemmeside.</title>"
 #: translation.xml:53
 #, no-c-format
 msgid "If a translation of the website to your language does not yet exist, you can download and translate the <ulink url=\"/po/bibletime_website_template.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
-msgstr ""
+msgstr "Hvis oversættelsen af hjemmesiden til dit sprog endnu ikke eksisterer, så kan du downloade og oversætte <ulink url=\"/po/bibletime_website_template.pot\">Hjemmeside oversættelses-skabelonen</ulink>. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne herunder i tabellen til at downloade den tilsvarende fil. Vi tilføjer normalt de oversatte sider og flaget i toppen når oversættelsen er omkring 80% færdig."
 
 #. Tag: title
 #: translation.xml:62
@@ -3679,64 +2207,47 @@ msgstr "<title>Oversæt programmets brugerflade.</title>"
 #: translation.xml:63
 #, no-c-format
 msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
-msgstr ""
+msgstr "Hvis oversættelsen af hjemmesiden til dit sprog endnu ikke eksisterer, så kan du downloade og oversætte <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> Brugerflade oversættelses-skabelonen</ulink>. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne i tabellen herunder til at downloade den tilsvarende fil."
 
 #. Tag: para
 #: translation.xml:70
 #, no-c-format
 msgid "(We are preparing the BibleTime 1.7/2.0 series and have moved to the Qt's .ts file format from the 1.6 series .po format. Due the changes the translations need thorough rewrite.)"
-msgstr ""
+msgstr "(Vi er ved at gøre klar til BibleTime 1.7/2.0 serierne og har flyttet til Qts .ts fil format fra 1.6 seriens .po format. På grund af ændringerne har oversættelserne brug for en grundig genskrivning.)"
 
 #. Tag: title
 #: translation.xml:77
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Translate the Bible study howto."
-msgstr "Bibelstudie vejledningen"
+msgstr "Oversæt Bibelstudie vejledningen"
 
 #. Tag: para
 #: translation.xml:78
 #, no-c-format
 msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
-msgstr ""
+msgstr "Hvis der ikke er eksisterer en oversættelse af Bibelstudie guiden til dit sprog, så kan du downloade og oversætte <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> Bibelstudie guide oversættelses-skabelonen</ulink>. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne i tabellen herunder til at downloade den tilsvarende fil."
 
 #. Tag: title
 #: translation.xml:89
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
-msgstr "<title>Oversæt programmets manual.</title>"
+msgstr "<title>Oversæt programmets håndbog.</title>"
 
 #. Tag: para
 #: translation.xml:90
 #, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
-msgstr ""
+msgstr "Hvis der ikke er eksisterer en oversættelse af håndbogen til dit sprog, så kan du downloade og oversætte <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> håndbog oversættelses-skabelon</ulink>. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne i tabellen herunder til at downloade den tilsvarende fil."
 
 #. Tag: title
 #: translation.xml:100
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<title>Translate the biblical booknames.</title>"
-msgstr "<title>Oversæt programmets manual.</title>"
+msgstr "<title>Oversæt de bibelske bognavne.</title>"
 
 #. Tag: para
 #: translation.xml:101
 #, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\">the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\">the template</ulink>."
-msgstr ""
+msgstr "Oversatte Bibelske bog navne stammer fra Sword-projektet. Der er ingen gode instruktioner i øjeblikket, men du kan finde noget information og eksempler ved at kigge på <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\">locales.d mappen</ulink> af Sword biblioteket og bruge <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\">skabelonen</ulink>."
 
-#~ msgid "For the translation process we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. It has many advanced features and is a great aid."
-#~ msgstr "Til oversættelses processen anbefaler vi at man bruget dette fantastiske og modne program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. Det har mange avancerede funktioner og er til stor hjælp."
-
-#~ msgid "Download"
-#~ msgstr "Download"
-
-#~ msgid "Guestbook"
-#~ msgstr "Gæstebog"
-
-#~ msgid "BibleTime's Guestbook"
-#~ msgstr "BibelTimes Gæstebog"
-
-#~ msgid "Please write in English, if possible. HTML is not allowed and will be removed, but you may use normal line breaks to divide into paragraphs."
-#~ msgstr "Vær venlig at skrive på engelsk, hvis det er muligt. HTML er ikke tilladt og vil blive fjernet, men du må godt bruge normale linie brud for at dele det op i afsnit."
-
-#~ msgid "Please add your comments here:"
-#~ msgstr "Vær venlig at tilføje dine kommentarer her:"
