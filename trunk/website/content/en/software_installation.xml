@@ -1,169 +1,215 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 <!ENTITY software_about SYSTEM "software_about.xml" NDATA XML>
 <!ENTITY software_faq SYSTEM "software_faq.xml" NDATA XML>
 ]>
-
 <webpage id="documentation_installation_bibletime">
-<config param="desc" value="Installation of the BibleTime software"/>
-<config param="rcsdate" value="$Date: 2006/04/19 18:57:26 $"/>
-<head>
-	<title>Download of BibleTime</title>
-	<summary>Installation to the BibleTime software</summary>
-	<keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, installation, download, ubuntu, mandrake, suse, debian</keywords>
-</head>
+  <config param="desc"
+  value="Installation of the BibleTime software" />
+  <config param="rcsdate" value="$Date$" />
+  <head>
+    <title>Download of BibleTime</title>
+    <summary>Installation of the BibleTime software</summary>
+    <keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    God, Religion, Bible, devotional, crosswire, sword, installation,
+    download, ubuntu, mandrake, suse, debian, freebsd, pcbsd</keywords>
+  </head>
+  <section>
+    <title>Download BibleTime</title>
+    <para>This is a short list of available download locations.
+    Packages which are not provided on our SourceForge pages might be
+    outdated. Please see below for detailed download and installation
+    instructions. 
+    <itemizedlist>
+      <listitem>
+        <para>Sourcecode and packages for major Linux distributions can
+        be downloaded from 
+        <ulink url="http://sourceforge.net/project/showfiles.php?group_id=954">
+        SourceForge</ulink>.</para>
+      </listitem>
+      <listitem>
+        <para>Ubuntu packages are available in the repository and 
+        <ulink url="http://packages.ubuntu.com/hardy/bibletime">
+        here</ulink>. Updated packages for Ubuntu 8.04 (Hardy Heron)
+        and 7.10 (Gutsy Gibbon) are offered 
+        <ulink url="https://launchpad.net/~txwikinger/+archive">
+        here</ulink>.</para>
+      </listitem>
+      <listitem>
+        <para>Debian packages are available in the repository and 
+        <ulink url="http://packages.debian.org/bibletime">
+        here</ulink>.</para>
+      </listitem>
+      <listitem>
+        <para>Gentoo packages are in Portage. Just call "emerge
+        bibletime".</para>
+      </listitem>
+      <listitem>
+        <para>A FreeBSD application port of BibleTime can be found at 
+        <ulink url="http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all">
+        www.freebsd.org</ulink>.</para>
+      </listitem>
+      <listitem>
+        <para>PC-BSD packages are available 
+        <ulink url="http://www.pbidir.com/bt/pbi/149/bibletime">
+        here</ulink>.</para>
+      </listitem>
+    </itemizedlist></para>
+  </section>
+  <section>
+    <title>Installation of BibleTime</title>
+    <para>This section explains how to install BibleTime on your
+    system. Basically there are two ways to install it: Either by using
+    prebuilt binary packages or by compiling from source code.
+    Installing BibleTime using prebuilt packages is the easiest
+    way.</para>
+    <section>
+      <title>Prebuilt binary packages</title>
 
-<section><title>Download BibleTime</title>
-<para>
-	This is a short list of available download locations. Packages which are not provided on our SourceForge pages might be outdated. Please see below for detailed download and installation instructions.
-	<itemizedlist>
-		<listitem>
-		<para>Sourcecode and packages for major Linux distributions can be downloaded from <ulink url="http://sourceforge.net/project/showfiles.php?group_id=954">SourceForge</ulink>.
-		</para>
-		</listitem>
+      <para>With the help of great volunteers, we try to provide
+      packages for the most important Linux distributions. Before
+      installing BibleTime, however, you need to find and install
+      packages for 
+      <ulink url="http://clucene.sourceforge.net/">CLucene &gt;=
+      0.9.16a</ulink> and Sword (Sword binaries are available at the
+      BibleTime download site).</para>
 
-		<listitem>
-			<para>Ubuntu packages are available in the repository and <ulink url="http://packages.ubuntu.com/hardy/bibletime">here</ulink>. Updated packages for Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url="https://launchpad.net/~txwikinger/+archive">here</ulink>.
-			</para>
-		</listitem>
+      <para>First download the binary package for your Linux
+      distribution. For example: You want to download 
+      <application>BibleTime 1.4</application>for 
+      <productname>SuSE Linux 9.0</productname>. In this case you have
+      to download the package 
+      <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please
+      download the package "bibletime-i18n" package, too. This package
+      contains the available translations of the BibleTime user
+      interface and handbook.</para>
 
-		<listitem>
-		<para>Debian packages are available in the repository and <ulink url="http://packages.debian.org/bibletime">here</ulink>.
-		</para>
-		</listitem>
-	
-		<listitem>
-		<para>Gentoo packages are in Portage. Just call "emerge bibletime".
-		</para>
-		</listitem>
+      <para>If there are no packages for your version of Linux you have
+      to install from source code. Please see below how to do
+      that.</para>
+    </section>
+    <section>
+      <title>Installation from source code</title>
+      <para>Installation using BibleTime's source code is more
+      difficult than using binary packages. Please follow the steps
+      below if you decided to install BibleTime from sources: 
+      <orderedlist>
+        <listitem>
+          <para>At first make sure the required software is installed
+          on your system. Depending on your Linux distribution you have
+          to install the development packages of the required software,
+          too.</para>
+          <itemizedlist>
+            <listitem>
+              <para>
+              <ulink url="http://www.kde.org/">KDE 3</ulink>.</para>
+              <para>At least the libraries and the base package. KDE 3
+              is shipped with many Linux distributions. Very often it's
+              installed by default.</para>
+            </listitem>
+            <listitem>
+              <para>
+              <ulink url="http://clucene.sourceforge.net/">CLucene
+              &gt;= 0.9.16a</ulink>.</para>
 
-		<listitem>
-		<para>A FreeBSD application port of BibleTime can be found on <ulink url="http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all">www.freebsd.org</ulink>.
-		</para>
-		</listitem>
+              <para>This is necessary for the new instant search
+              feature.</para>
+            </listitem>
+            <listitem>
+              <para>
+              <ulink url="http://www.crosswire.org/sword/software/swordapi.jsp">
+              Sword 1.5.9</ulink>.</para>
 
-		<listitem>
-		<para>PC-BSD packages are available <ulink url="http://www.pbidir.com/search.php?str=bibletime">here</ulink>.
-		</para>
-		</listitem>
-	</itemizedlist>
-</para>
-</section>
+              <para>Installation instructions are available on 
+              <ulink url="http://www.crosswire.org/sword/software/index.jsp">
+              www.crosswire.org/sword/software</ulink>. Basically the
+              installation steps are 
+              <screen>
+                <command>./usrinst.sh --enable-shared
+                --without-clucene</command>
+                <command>make</command>
+                <command>make install</command>
+                <command>make install_config</command>
+              </screen></para>
+            </listitem>
+          </itemizedlist>
+          <para>Please note that this list is only valid for the latest
+          version of BibleTime, older versions may require other
+          software.</para>
+        </listitem>
+        <listitem>
+          <para>Compile and install BibleTime: 
+          <screen>
+            <command>./configure --prefix=&lt;your KDE
+            directory&gt;</command>
+            <command>make</command>
+            <command>make install</command>
+          </screen></para>
+          <para>You can get your KDE directory by running the command 
+          <command>kde-config --prefix</command>. If you get problems
+          please read our 
+          <olink targetdocent="software_faq">FAQ</olink>. If there's no
+          solution of your problem, please contact us at 
+          <email>info@bibletime.info</email>.</para>
+          <para>Debian (and possibly derived distros as well) use a
+          non-standard path to store the documentation of KDE programs.
+          Therefore the ./configure line above in this case needs to be
+          changed to: 
+          <screen>
+            <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure
+            --prefix=/usr</command>
+          </screen>If you forget this, you'll likely not be able to
+          access the handbook and the BibleStudy HowTo.</para>
+        </listitem>
+        <listitem>
+          <para>Compile and install the translations of BibleTime's
+          user interface (bibletime-i18n): 
+          <screen>
+            <command>./configure --prefix=&lt;your KDE
+            directory&gt;</command>
+            <command>make</command>
+            <command>make install</command>
+          </screen>Please see the warning regarding nonstandard paths
+          in the previous paragraph.</para>
+        </listitem>
+      </orderedlist></para>
+    </section>
+  </section>
+  <section>
+    <title>Install works</title>
+    <para>You need Sword modules to work with BibleTime. Since version
+    1.4 BibleTime offers a userfriendly dialog (the Bookshelf Manager)
+    to install/update/remove works. We strongly recommend this way to
+    install works on your computer.</para>
 
-<section><title>Installation of BibleTime</title>
-<para>
-This section explains how to install BibleTime on your system. Basically there are two ways to install it: Either by using prebuilt binary packages or by compiling from source code. Installing BibleTime using prebuilt packages is the easiest way.
-</para>
-
-	<section><title>Prebuilt binary packages</title>
-		<para>With the help of great volunteers, we try to provide packages for the most important Linux distributions. Before installing BibleTime, however, you need to find and install packages for <ulink url="http://clucene.sourceforge.net/">CLucene >= 0.9.16a</ulink> and Sword (Sword binaries are available at the BibleTime download site).
-		</para>
-
-		<para>First download the binary package for your Linux distribution. For example: You want to download <application>BibleTime 1.4</application> for <productname>SuSE Linux 9.0</productname>. In this case you have to download the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>.
-		Please download the package &quot;bibletime-i18n&quot; package, too. This package contains the available translations of the BibleTime user interface and handbook.
-		</para>
-		<para>If there are no packages for your version of Linux you have to install from source code. Please see below how to do that.
-		</para>
-	</section>
-
-	<section><title>Installation from source code</title>
-		<para>
-		Installation using BibleTime's source code is more difficult than using binary packages. Please follow the steps below if you decided to install BibleTime from sources:
-
-		<orderedlist>
-			<listitem>
-				<para>At first make sure the required software is installed on your system. Depending on your Linux distribution you have to install the development packages of the required software, too.
-				</para>
-
-				<itemizedlist>
-					<listitem>
-						<para><ulink url="http://www.kde.org/">KDE 3</ulink>.</para>
-						<para>At least the libraries and the base package. KDE 3 is shipped with many Linux distributions. Very often it's installed by default.
-						</para>
-					</listitem>
-					<listitem>
-						<para><ulink url="http://clucene.sourceforge.net/">CLucene >= 0.9.15</ulink>.</para>
-						<para>This is necessary for the new instant search feature.
-						</para>
-					</listitem>
-					<listitem>
-						<para><ulink url="http://www.crosswire.org/sword/software/swordapi.jsp">Sword 1.5.9</ulink>.</para>
-						<para>Installation instructions are available on <ulink url="http://www.crosswire.org/sword/software/index.jsp">www.crosswire.org/sword/software</ulink>. Basically the installation steps are
-							<screen>
-								<command>./usrinst.sh --enable-shared --without-clucene</command>
-								<command>make</command>
-								<command>make install</command>
-								<command>make install_config</command>
-							</screen>
-						</para>
-					</listitem>
-				</itemizedlist>
-
-				<para>Please note that this list is only valid for the latest version of BibleTime, older versions may require other software.
-				</para>
-			</listitem>
-
-			<listitem>
-				<para>Compile and install BibleTime:
-					<screen>
-						<command>./configure --prefix=&lt;your KDE directory&gt;</command>
-						<command>make</command>
-						<command>make install</command>
-					</screen>
-				</para>
-
-				<para>You can get your KDE directory by running the command <command>kde-config --prefix</command>. If you get problems please read our <olink targetdocent="software_faq">FAQ</olink>. If there's no solution of your problem, please contact us at <email>info@bibletime.info</email>.
-				</para>
-				
-				<para>Debian (and possibly derived distros as well) use a non-standard path to
-				store the documentation of KDE programs. Therefore the ./configure line above in
-				this case needs to be changed to:
-					<screen>
-						<command>kde_htmldir=/usr/share/doc/kde/HTML ./configure --prefix=/usr</command>
-					</screen>
-				If you forget this, you'll likely not be able to access the handbook and the BibleStudy HowTo.
-				</para>
-			</listitem>
-			
-			<listitem>
-				<para>Compile and install the translations of BibleTime's user interface (bibletime-i18n):
-					<screen>
-						<command>./configure --prefix=&lt;your KDE directory&gt;</command>
-						<command>make</command>
-						<command>make install</command>
-					</screen>
-				Please see the warning regarding nonstandard paths in the previous paragraph.
-				</para>
-			</listitem>
-
-		</orderedlist>
-
-		</para>
-	</section>
-</section>
-
-<section><title>Install works</title>
-	<para>
-	You need Sword modules to work with BibleTime. Since version 1.4 BibleTime offers a userfriendly dialog (the Bookshelf Manager) to install/update/remove works. We strongly recommend this way to install works on your computer.
-	</para>
-
-	<para>
-	Instructions for manual installation is available on <ulink url="http://www.crosswire.org/sword/modules/moduleinstall.jsp">www.crosswire.org/sword/modules</ulink>.
-	</para>
-
-	<section><title>Available types of works</title>
-		<para>Here is a list of available types of works and where to get more information:
-		</para>
-		<para>
-			<orderedlist>
-				<listitem><ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles">Bibles</ulink></listitem>
-				<listitem><ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Commentaries">Commentaries</ulink></listitem>
-				<listitem><ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Dictionaries">Lexicons / Dictionaries</ulink></listitem>
-				<listitem><ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Books">Books</ulink></listitem>
-			</orderedlist>
-		</para>
-	</section>
-
-</section>
-
+    <para>Instructions for manual installation is available on 
+    <ulink url="http://www.crosswire.org/sword/modules/moduleinstall.jsp">
+    www.crosswire.org/sword/modules</ulink>.</para>
+    <section>
+      <title>Available types of works</title>
+      <para>Here is a list of available types of works and where to get
+      more information:</para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles">
+            Bibles</ulink>
+          </listitem>
+          <listitem>
+            <ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Commentaries">
+            Commentaries</ulink>
+          </listitem>
+          <listitem>
+            <ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Dictionaries">
+            Lexicons / Dictionaries</ulink>
+          </listitem>
+          <listitem>
+            <ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Books">
+            Books</ulink>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+  </section>
 </webpage>
