@@ -21,7 +21,7 @@
 ><title
 >Slut dig til BibleTime holdet</title>
 <para
->Vi er glade for alle som hjælper os med at forbedre BibelTimes software, dens dokumentation og dens oversættelse. </para>
+>Vi er glade for alle som hjælper os med at forbedre BibelTimes software, dens dokumentation og dens oversættelser. </para>
 
 <section
 ><title
@@ -34,21 +34,21 @@
 			<para
 >Hvis du ikke har en konto på <ulink url="https://sf.net"
 >SourceForge</ulink
->, så vær venlig at anskaffe dig dig en. Det er gratis. Vi har brug for dit brugernavn til at tilføje dig til teammedlemmerne, så de kan give dig opgaver, osv. </para>
+>, så vær venlig at anskaffe dig dig en. Det er gratis. Vi har brug for dit brugernavn til at tilføje dig til holdmedlemmerne, så de kan give dig opgaver, osv. </para>
 		</listitem>
 
 		<listitem>
 			<para
->Subscribe to the <ulink url="http://www.crosswire.org/mailman/listinfo/bt-devel"
->BibleTime development mailing list</ulink
->. All developers read this mailing list, so everybody knows what's hapenning. There is also a mailing list for the <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-cvs"
->commit messages</ulink
-> of the ongoing development process. </para>
+>Tilmeld dig <ulink url="http://www.crosswire.org/mailman/listinfo/bt-devel"
+>BibleTimes udvikler postliste </ulink
+>. Alle udviklere læser denne postliste, så alle ved hvad der sker. Der er også en postliste for <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-cvs"
+>udgivelse af meddelelser</ulink
+> om den igangværende udviklings process. </para>
 		</listitem>
 
 		<listitem>
 			<para
->Få fat i udviklings versionen af BibleTime og installer den. Hvis du har brug for hjælp med det, så spørg over mailinglisten eller kig i dokumentations sektionen. </para>
+>Få fat i udviklings versionen af BibleTime og installer den. Hvis du har brug for hjælp med det, så spørg over postlisten eller kig i dokumentations sektionen. </para>
 		</listitem>
 	</orderedlist>
 </para>
@@ -56,7 +56,7 @@
 
 <section
 ><title
->De næste skridt for software udviklere</title>
+>De næste skridt for software udviklere...</title>
 <para>
 	<orderedlist>
 		<listitem>
@@ -65,7 +65,7 @@
 		</listitem>
 		<listitem>
 			<para
->Hvis du ikke ved hvad du skal gøre så spørg nogle over mailinglisten for nogle opgaver. Glem ikke at tilføje hvor svært skal være. </para>
+>Hvis du ikke ved hvad du skal gøre, så spørg nogle over postlisten om nogle opgaver. Glem ikke at tilføje hvor svært det skal være. </para>
 		</listitem>
 	</orderedlist>
 </para>
@@ -82,7 +82,7 @@
 		</listitem>
 		<listitem>
 			<para
->The documentation is stored in docbook files in the unicode subdirectories of each documentation part (handbook, Bible study howto, installation, helpdialog). Please don't edit the HTML files directly because they're generated from the docbook files. The translation file are also generated from the docbook data. </para>
+>Dokumentationen er opbevaret i docbooc-filer i unicode-undermapperne til hver dokumentations del (håndbog, Bibelstudie-vejledning, installation, hjælpedialog). Vær venlig at lade være med at redigere HTML-filerne direkte, fordi de er genereret af docbook-filer. Oversættelses-filen er også genereret af docbook-data. </para>
 		</listitem>
 	</orderedlist>
 </para>
@@ -91,18 +91,18 @@
 
 <section
 ><title
->De næste skridt for oversættere</title>
+>De næste skridt for oversættere...</title>
 <para>
 	<orderedlist>
 		<listitem>
 			<para
->Ta' et kig på internationaliserings siderne til KDE projektet. Disse sider ligger på <ulink url="http://i18n.kde.org/"
+>Ta' et kig på internationaliserings siderne fra KDE projektet. Disse sider ligger på <ulink url="http://i18n.kde.org/"
 >i18n.kde.org</ulink
 >. </para>
 		</listitem>
 		<listitem>
 			<para
->Installer programmet KBabel, hvis det ikke allerede er installeret på dit system. Det vil hjælpe dig med meget af oversættelses procesen. </para>
+>Installer programmet KBabel, hvis det ikke allerede er installeret på dit system. Det vil hjælpe dig med meget af oversættelses processen. </para>
 		</listitem>
 		<listitem>
 			<para

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_nl\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-30 19:37+0000\n"
+"POT-Creation-Date: 2008-09-30 17:32+0000\n"
 "PO-Revision-Date: 2008-01-17 17:13+0100\n"
 "Last-Translator: Johan van der Lingen <JohanLingen@hotmail.com>\n"
 "Language-Team: Nederlands\n"
@@ -155,103 +155,10 @@ msgid "Translation"
 msgstr "Vertaling"
 
 #. Tag: title
-#: autolayout.xml:87 biblehowto.docbook:17
+#: autolayout.xml:87
 #, no-c-format
 msgid "Biblestudy HowTo"
 msgstr "Bijbelstudie HowTo"
-
-#. Tag: title
-#: biblehowto.docbook:25
-#, no-c-format
-msgid "The Biblestudy HowTo"
-msgstr "Bijbelstudie HowTo"
-
-#. Tag: author
-#: biblehowto.docbook:28
-#, no-c-format
-msgid "<firstname>Bob</firstname> <surname>Harman</surname>"
-msgstr "<firstname>Bob</firstname> <surname>Harman</surname>"
-
-#. Tag: trans_comment
-#: biblehowto.docbook:34
-#, no-c-format
-msgid "ROLES_OF_TRANSLATORS"
-msgstr "<othercredit role=\"translator\"><firstname>Harry</firstname><surname>Vennik</surname><affiliation><address><email>htvennik@zonnet.nl</email></address></affiliation><contrib></contrib></othercredit>"
-
-#. Tag: holder
-#: biblehowto.docbook:38
-#, no-c-format
-msgid "The team of &bibletime;, info@bibletime.info"
-msgstr "Het &bibletime; team, info@bibletime.info"
-
-#. Tag: holder
-#: biblehowto.docbook:41
-#, no-c-format
-msgid "Bob Harman"
-msgstr "Bob Harman"
-
-#. Tag: para
-#: biblehowto.docbook:44
-#, no-c-format
-msgid "The copyright of this text is held by the author Bob Harman. The text was adapted for publication with BibleTime by Fred Saalbach."
-msgstr "Het auteursrecht voor deze tekst is van Bob Harman. De tekst is door Fred Saalbach aangepast voor publicatie met BibleTime."
-
-#. Tag: para
-#: biblehowto.docbook:48
-#, no-c-format
-msgid "Non exclusive serial rights for this distribution of this document with the &bibletime; Software have been made. Redistribution as part of the Bibletime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
-msgstr "Non exclusive serial rights for this distribution of this document with the &bibletime; Software have been made. Redistribution as part of the BibleTime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
-
-#. Tag: para
-#: biblehowto.docbook:54
-#, no-c-format
-msgid "For questions regarding the use of this material contact Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-msgstr "Voor vragen over het gebruik van dit materiaal kunt u contact opnemen met Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-
-#. Tag: para
-#: biblehowto.docbook:58
-#, no-c-format
-msgid "Scripture quotes are from the New American Standard Bible unless otherwise indicated"
-msgstr "Schriftgedeelten zijn geciteerd uit de vertaling van het Nederlands Bijbelgenootschap (NBG 1951), tenzij anders vermeld "
-
-#. Tag: title
-#: biblehowto.docbook:66
-#, no-c-format
-msgid "Abstract"
-msgstr "Overzicht"
-
-#. Tag: para
-#: biblehowto.docbook:67
-#, no-c-format
-msgid "The <application>Biblestudy HowTo</application> is a guide for studying the Bible."
-msgstr "De <application>Bijbelstudie HowTo</application> is een gids bij het bestuderen van de Bijbel."
-
-#. Tag: para
-#: biblehowto.docbook:70
-#, no-c-format
-msgid "It is the hope of the &bibletime; team that this HowTo will provoke the readers to study the scriptures to see what they say. This particular study guide has been chosen as it takes care not to advocate any particular denominational doctrine. We expect you to read and study the scriptures to understand what they say. If you start with the attitude that you want to have the Lord sow his word in your heart He will not disappoint you."
-msgstr "Het &bibletime; team hoopt dat deze HowTo de lezers uitdaagt om de schriften te bestuderen om erachter te komen wat ze te zeggen hebben. Er is gekozen voor deze bijbelstudie-gids omdat die niet de doctrine van een bepaalde denominatie verdedigt. We verwachten dat je de schriften bestudeert om erachter te komen wat ze zeggen. Als je eraan begint met het verlangen dat de Heer Zijn woord in je hart zaait, zal Hij je zeker niet teleurstellen!"
-
-#. Tag: keyword
-#: biblehowto.docbook:80
-#, no-c-format
-msgid "Bible"
-msgstr "Bijbel"
-
-#. #-#-#-#-#  biblehowto.pot (PACKAGE VERSION)  #-#-#-#-#
-#. Tag: keyword
-#. #-#-#-#-#  how2-basics.pot (PACKAGE VERSION)  #-#-#-#-#
-#. Tag: title
-#: biblehowto.docbook:81 how2-basics.docbook:47
-#, no-c-format
-msgid "Study"
-msgstr "Bestuderen"
-
-#. Tag: keyword
-#: biblehowto.docbook:82
-#, no-c-format
-msgid "HowTo"
-msgstr "HowTo"
 
 #. Tag: title
 #: development.xml:15
@@ -530,1417 +437,6 @@ msgid "If you can't solve the problem please report the URL which failed to <ema
 msgstr "Als u het probleem niet kunt verhelpen meld dan de niet-werkende URL aan <email>info@bibletime.info</email>. Dank u!"
 
 #. Tag: title
-#: how2-basics.docbook:1
-#, no-c-format
-msgid "Bible Study Basics"
-msgstr "Basisprincipes van bijbelstudie"
-
-#. Tag: title
-#: how2-basics.docbook:4
-#, no-c-format
-msgid "Our Purpose as we Approach the Bible"
-msgstr "Ons doel als we de bijbel benaderen "
-
-#. Tag: para
-#: how2-basics.docbook:5
-#, no-c-format
-msgid "Jn.5:39-40<quote>You search the Scriptures, because you think that in them you have eternal life; and it is these that bear witness of Me; and you are unwilling to come to Me, that you may have life.</quote>"
-msgstr "Joh.5:39-40<quote>Gij onderzoekt de schriften, want gij meent daarin eeuwig leven te hebben, en deze zijn het die van Mij getuigen, en toch wilt gij niet tot Mij komen om leven te hebben.</quote>"
-
-#. Tag: para
-#: how2-basics.docbook:11
-#, no-c-format
-msgid "The chief purpose of the book is to bring us to the Person. Martin Luther said <quote>we go to the cradle only for the sake of the baby</quote>; just so in Bible study, we do it not for its own sake but for fellowship with God."
-msgstr "Het hoofddoel van het boek is om ons bij de Persoon te brengen. Maarten Luther zei eens <quote>wij gaan alleen naar de wieg voor de baby</quote>; Met de bijbel is het net zo: we bestuderen de bijbel, niet als doel op zich, maar om in contact te komen met God."
-
-#. Tag: attribution
-#: how2-basics.docbook:15
-#, no-c-format
-msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.97, 104."
-msgstr "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, blz.97, 104."
-
-#. Tag: para
-#: how2-basics.docbook:17
-#, no-c-format
-msgid "The Jews to whom Jesus spoke [...] imagined that to possess Scripture was tantamount to possessing life. Hillel used to say, &quot;He who has gotten to himself words of Torah has gotten to himself the life of the world to come.&quot; Their study was an end in itself. In this they were grievously deceived. [...]"
-msgstr "De Joden waartegen Jezus sprak [...] verbeeldden zich dat het bezit van de Schrift gelijkstond met het bezit van het Leven. Hillel zei het zo: &quot;Degene die de woorden van de Torah in zich heeft gekregen, heeft het leven in de toekomende wereld in zich gekregen.&quot; Hun studie was een doel op zichzelf. Hierin waren ze pijnlijk misleid. [...]"
-
-#. Tag: para
-#: how2-basics.docbook:22
-#, no-c-format
-msgid "There is neither merit nor profit in the reading of Scripture for its own sake, but only if it effectively introduces us to Jesus Christ. Whenever the Bible is read, what is needed is an eager expectation that through it we may meet Christ."
-msgstr "De bijbel op zich bestuderen baat noch schaadt, behalve dan wanneer dat ons bekend maakt met Jezus Christus. Telkens als de bijbel gelezen wordt, is een sterk verlangen nodig om daardoor Christus te ontmoeten."
-
-#. Tag: title
-#: how2-basics.docbook:29
-#, no-c-format
-msgid "Approaches to God's Word"
-msgstr "Manieren om Gods woord te benaderen"
-
-#. Tag: para
-#: how2-basics.docbook:30
-#, no-c-format
-msgid "Hearing and reading provide a telescopic view of the scripture while study and memorization provide a microscopic view of scripture. Meditating on the scriptures brings hearing, reading, studying and memorization together and cements the word in our minds."
-msgstr "Horen en lezen geven een telescoop-beeld van de schrift, terwijl studie en het uit het hoofd leren van teksten een microscoop-beeld geven. Overdenking van de schriften brengt horen, lezen, studie en memorisatie bij elkaar en bevestigt het woord in onze gedachten."
-
-#. Tag: title
-#: how2-basics.docbook:35
-#, no-c-format
-msgid "Hear"
-msgstr "Horen"
-
-#. Tag: para
-#: how2-basics.docbook:36
-#, no-c-format
-msgid "Lk.11:28 <quote>blessed are those who hear the word of God, and observe it.</quote>"
-msgstr "Luc.11:28 <quote>Maar Hij zeide: Zeker, zalig, die het woord van God horen en het bewaren.</quote>"
-
-#. Tag: title
-#: how2-basics.docbook:40
-#, no-c-format
-msgid "Read"
-msgstr "Lezen"
-
-#. Tag: para
-#: how2-basics.docbook:41
-#, no-c-format
-msgid "Rev.1:3 <quote>Blessed is he who reads and those who hear the words of this prophecy [...]</quote>"
-msgstr "Opb.1:3<quote>Zalig is hij, die voorleest, en zij, die horen de woorden der profetie, en bewaren, hetgeen daarin geschreven staat [...]</quote>"
-
-#. Tag: para
-#: how2-basics.docbook:43
-#, no-c-format
-msgid "1 Tim.4:13 <quote>give attention to the public reading of Scripture [...]</quote>"
-msgstr "1 Tim.4:13 <quote>[...] moet gij u toeleggen op het voorlezen [...]</quote>"
-
-#. Tag: para
-#: how2-basics.docbook:48
-#, no-c-format
-msgid "Acts 17:11 <quote>Now these were more noble-minded than those in Thessalonica, for they received the word with great eagerness, examining the Scriptures daily, to see whether these things were so.</quote>"
-msgstr "Hand.17:11 <quote>en dezen onderscheidden zich gunstig van die te Tessalonica, daar zij het woord met alle bereidwilligheid aannamen en dagelijks de schriften nagingen, of deze dingen zo waren.</quote>"
-
-#. Tag: para
-#: how2-basics.docbook:52
-#, no-c-format
-msgid "2 Tim.2:15 <quote>Be diligent [KJV `Study'] to present yourself approved to God as a workman who does not need to be ashamed, handling accurately the word of truth.</quote>"
-msgstr "2 Tim.2:15 <quote>Maak er ernst mee u w&eacute;l beproefd ten dienste van God te stellen, als een arbeider, die zich niet behoeft te schamen, doch rechte voren trekt bij het brengen van het woord der waarheid.</quote>"
-
-#. Tag: title
-#: how2-basics.docbook:57
-#, no-c-format
-msgid "Memorize"
-msgstr "Memoriseren "
-
-#. Tag: para
-#: how2-basics.docbook:58
-#, no-c-format
-msgid "Ps.119:11 <quote>Thy word I have hid in my heart, that I may not sin against Thee.</quote>"
-msgstr "Ps.119:11 <quote>Ik berg uw woord in mijn hart, opdat ik tegen U niet zondige.</quote>"
-
-#. Tag: title
-#: how2-basics.docbook:62
-#, no-c-format
-msgid "Meditate"
-msgstr "Overdenken"
-
-#. Tag: para
-#: how2-basics.docbook:63
-#, no-c-format
-msgid "Ps.1:2-3 <quote>But his delight is in the law of the Lord, And in His law he meditates day and night. And he will be like a tree firmly planted by streams of water, Which yields its fruit in its season, And its leaf does not wither; And in whatever he does, he prospers.</quote>"
-msgstr "Ps.1:1-3<quote>Welzalig de man die [...] aan des HEREN wet zijn welgevallen heeft, en diens wet overpeinst bij dag en bij nacht. Want hij is als een boom, geplant aan waterstromen, die zijn vrucht geeft op zijn tijd, welks loof niet verwelkt; al wat hij onderneemt gelukt.</quote>"
-
-#. Tag: para
-#: how2-basics.docbook:69
-#, no-c-format
-msgid "The Navigators illustrate this by saying that as the thumb can touch all the fingers, we can meditate on the Word as we do any of the first four. Meditation is a key to revelation. A new Christian needs to hear and read the Bible more than they need to study and memorize it. This is so that they become familiar with the overall message of the Bible."
-msgstr "De Navigators illustreren dit door te zeggen dat zoals de duim alle andere vingers kan aanraken, we het Woord kunnen overdenken terwijl we bezig zijn met een van de eerste vier dingen. Overdenking is een sleutel tot openbaring. Iemand die nog maar pas Christen is, heeft meer behoefte aan het horen en lezen van de bijbel dan aan studie en memorisatie van teksten. Dit is om bekend te worden met de globale boodschap van de bijbel. "
-
-#. Tag: title
-#: how2-basics.docbook:77
-#, no-c-format
-msgid "Types of Bible Studies"
-msgstr "Verschillende soorten van bijbelstudie"
-
-#. Tag: title
-#: how2-basics.docbook:78
-#, no-c-format
-msgid "Topical Study"
-msgstr "Thematische studie"
-
-#. Tag: para
-#: how2-basics.docbook:79
-#, no-c-format
-msgid "Pick out a certain topic and follow it through, using cross-references or a concordance."
-msgstr "Kies een bepaald onderwerp en ga het na door het volgen van tekstverwijzingen of door een concordantie te gebruiken."
-
-#. Tag: title
-#: how2-basics.docbook:83
-#, no-c-format
-msgid "Character Study"
-msgstr "Karakterstudie"
-
-#. Tag: para
-#: how2-basics.docbook:84
-#, no-c-format
-msgid "Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
-msgstr "Het bestuderen van het leven van een persoon in de bijbel, bijvoorbeeld het leven van Jozef in Gen.37-50."
-
-#. Tag: title
-#: how2-basics.docbook:86
-#, no-c-format
-msgid "Expository Study"
-msgstr "Studie vanuit een bijbelgedeelte"
-
-#. Tag: para
-#: how2-basics.docbook:87
-#, no-c-format
-msgid "Studying a certain passage: paragraph, chapter, or book."
-msgstr "Het bestuderen van een bepaalde passage, of een alinea, hoofdstuk of boek."
-
-#. Tag: title
-#: how2-basics.docbook:91
-#, no-c-format
-msgid "Basics of Correct Interpretation"
-msgstr "Basisprincipes voor juiste interpretatie"
-
-#. Tag: title
-#: how2-basics.docbook:93
-#, no-c-format
-msgid "Content"
-msgstr "Inhoud"
-
-#. Tag: para
-#: how2-basics.docbook:94
-#, no-c-format
-msgid "What does it say? What does it say in the original language? Be careful with definitions. Don't read into it what it doesn't say."
-msgstr "Wat staat er? Wat staat er in de grondtekst? Wees voorzichtig met definities. Lees er niets in, wat er niet echt staat."
-
-#. Tag: title
-#: how2-basics.docbook:98
-#, no-c-format
-msgid "Context"
-msgstr "Context"
-
-#. Tag: para
-#: how2-basics.docbook:99
-#, no-c-format
-msgid "What do the verses around it say? &quot;Context is king&quot; is the rule -- the passage must make sense within the structure of the entire passage and book."
-msgstr "Wat staat er in de verzen eromheen? &quot;De context is koning&quot; is de regel -- de passage moet betekenis hebben in de structuur van de hele passage en het hele boek."
-
-#. Tag: title
-#: how2-basics.docbook:103 how2-interpretation.docbook:26
-#, no-c-format
-msgid "Cross-reference"
-msgstr "Tekstverwijzingen"
-
-#. Tag: para
-#: how2-basics.docbook:104
-#, no-c-format
-msgid "What do other verses about this subject say through the rest of the Bible? God doesn't contradict Himself, so our interpretation needs to stand the test of other scriptures."
-msgstr "Wat staat er in andere verzen over hetzelfde onderwerp, in de rest van de bijbel? God spreekt zichzelf niet tegen, dus zal onze interpretatie de test van vergelijking met ander schriftgedeelten moeten kunnen doorstaan."
-
-#. Tag: title
-#: how2-basics.docbook:109
-#, no-c-format
-msgid "An Expository Study of Matthew 6:1-18"
-msgstr "Een studie van een bijbelgedeelte: Matte&uuml;s 6:1-18"
-
-#. Tag: para
-#: how2-basics.docbook:110
-#, no-c-format
-msgid "Let's study together Mt.6:1-18. Read it to yourself, first looking for the key verse, the verse that sums up the whole passage. Think you have it? Test it by picking different places in the passage and asking yourself if they relate to the thought of the key verse. Once you find it, write it as Roman numeral One of your outline:"
-msgstr "Laten we samen Matt.6:1-18 bestuderen. Lees het voor jezelf, zoekend naar het kernvers, het vers dat gezien kan worden als een samenvatting van het hele gedeelte. Denk je dat je die te pakken hebt? Test je vermoeden door verschillende plaatsen in het gedeelte eruit te lichten, en jezelf af te vragen of ze in verband staan met het vermoedelijke kernvers. Heb je het kernvers eenmaal gevonden, geef dat vers dan het Romeinse cijfer I in je overzicht:"
-
-#. Tag: listitem
-#: how2-basics.docbook:115
-#, no-c-format
-msgid "Beware of practicing your righteousness before men to be noticed"
-msgstr "Ziet toe, dat gij uw gerechtigheid niet doet voor de mensen, om door hen opgemerkt te worden;"
-
-#. Tag: para
-#: how2-basics.docbook:118
-#, no-c-format
-msgid "What does <quote>practicing your righteousness</quote> mean? Does the passage give any examples? What area of our lives is being addressed? <emphasis>Our motives!</emphasis> What sub-headings develop this thought?"
-msgstr "Wat betekent <quote>uw gerechtigheid doen</quote>? Geeft het gelezen gedeelte daar voorbeelden van? Over welk aspect van ons leven gaat het hier? <emphasis>Onze motieven!</emphasis> Welke ondertitels ontwikkelen deze gedachte?"
-
-#. Tag: listitem
-#: how2-basics.docbook:122 how2-basics.docbook:131
-#, no-c-format
-msgid "When you give"
-msgstr "Wanneer gij aalmoezen geeft"
-
-#. Tag: listitem
-#: how2-basics.docbook:123
-#, no-c-format
-msgid "When you fast"
-msgstr "Wanneer gij vast"
-
-#. Tag: listitem
-#: how2-basics.docbook:124
-#, no-c-format
-msgid "When you pray"
-msgstr "Wanneer gij bidt"
-
-#. Tag: para
-#: how2-basics.docbook:127
-#, no-c-format
-msgid "Now fill in the outline with specific instructions of how to avoid wrong ways of practicing our righteousness:"
-msgstr "Vul nu het overzicht in met specifieke aanwijzingen over hoe je kunt voorkomen op verkeerde manieren gerechtigheid te beoefenen:"
-
-#. Tag: listitem
-#: how2-basics.docbook:133
-#, no-c-format
-msgid "don't sound a trumpet. (how might someone <quote>sound a trumpet</quote> today?)"
-msgstr "blaas niet de bazuin. (hoe zou iemand tegenwoordig op <quote>de bazuin blazen</quote>?; Let ook op het gezegde: <quote>iets rondbazuinen</quote>)"
-
-#. Tag: listitem
-#: how2-basics.docbook:134
-#, no-c-format
-msgid "do it secretly."
-msgstr "geef uw aalmoes in het verborgene"
-
-#. Tag: listitem
-#: how2-basics.docbook:135
-#, no-c-format
-msgid "etc."
-msgstr "etc."
-
-#. Tag: title
-#: how2-basics.docbook:141
-#, no-c-format
-msgid "Worksheet: How to Use a Concordance"
-msgstr "Werkblad: Hoe gebruik je een concordantie?"
-
-#. Tag: title
-#: how2-basics.docbook:143
-#, no-c-format
-msgid "To Find a Particular Verse"
-msgstr "Om een bepaald vers te vinden"
-
-#. Tag: listitem
-#: how2-basics.docbook:145
-#, no-c-format
-msgid "Pick out a key word or most-unusual word of the verse."
-msgstr "Neem het kernwoord, of het meest ongebruikelijke woord uit het vers."
-
-#. Tag: listitem
-#: how2-basics.docbook:146
-#, no-c-format
-msgid "Turn to this word alphabetically."
-msgstr "Zoek dit woord op in de concordantie."
-
-#. Tag: listitem
-#: how2-basics.docbook:147
-#, no-c-format
-msgid "Go down the column of listings until you find your verse."
-msgstr "Loop de lijst van teksten bij dat woord na, totdat je je tekst gevonden hebt."
-
-#. Tag: para
-#: how2-basics.docbook:150
-#, no-c-format
-msgid "Find these verses:"
-msgstr "Vind deze verzen:"
-
-#. Tag: quote
-#: how2-basics.docbook:152
-#, no-c-format
-msgid "Faithful are the wounds of a friend"
-msgstr "Oprecht gemeend zijn de wonden door een vriend geslagen"
-
-#. Tag: quote
-#: how2-basics.docbook:153
-#, no-c-format
-msgid "We are ambassadors of Christ."
-msgstr "Wij zijn dus gezanten van Christus."
-
-#. Tag: listitem
-#: how2-basics.docbook:154
-#, no-c-format
-msgid "The story of the rich man and Lazarus."
-msgstr "De rijke man en de arme Lazarus."
-
-#. Tag: title
-#: how2-basics.docbook:160
-#, no-c-format
-msgid "To Do a Topical Study"
-msgstr "Een thematische studie doen"
-
-#. Tag: para
-#: how2-basics.docbook:161
-#, no-c-format
-msgid "Let's say you wanted to do a study of the word &quot;redemption.&quot; First you would look up that word in the concordance and look up references listed for it. Then you could look up related words and references listed for them, e.g. &quot;redeem, redeemed, ransom,&quot; even &quot;buy&quot; or &quot;bought.&quot;"
-msgstr "Stel dat je een studie wilt doen over het woord &quot;verlossing&quot; Als eerste zou je dat woord opzoeken in een concordantie, en de daarbij genoemde teksten opzoeken. Dan zou je verwante woorden kunnen gaan opzoeken, en de daarbij genoemde teksten. Bijvoorbeeld de woorden &quot;verlossen, verlost, losgeld,&quot; en zelfs &quot;vrijkopen&quot; of &quot;vrijgekocht.&quot;"
-
-#. Tag: title
-#: how2-basics.docbook:167
-#, no-c-format
-msgid "To Clarify Word Meanings in the Greek and Hebrew"
-msgstr "Om de betekenis van Hebreeuwse en Griekse woorden duidelijk maken"
-
-#. Tag: para
-#: how2-basics.docbook:168
-#, no-c-format
-msgid "What if you noticed a contradiction in the KJV between Mt.7:1 <quote>Judge not lest you be judged</quote> and 1 Cor.2:15 <quote>He that is spiritual judgeth all things.</quote> Maybe there are two different Greek words here, both being translated &quot;judge&quot; in English? (We're using Strong's from here out.)"
-msgstr "Wat nu als je een tegenstelling ontdekt? Zoals in Matt.7:1 <quote>Oordeelt niet opdat gij niet geoordeeld wordt</quote> en 1 Cor.2:15 <quote>Maar de geestelijke mens beoordeelt alle dingen</quote> Misschien staan hier twee verschillende Griekse woorden, die beide met hetzelfde woord vertaald worden. [in het Engels is deze tegenstelling nog scherper, omdat &quot;oordelen&quot; en &quot;beoordelen&quot; in de KJV beiden zijn weergegeven als een vorm van &quot;to judge&quot;] (Vanaf hier gebruiken wij Strong-nummers.)"
-
-#. Tag: para
-#: how2-basics.docbook:172
-#, no-c-format
-msgid "Look up &quot;judge&quot;."
-msgstr "Zoek op &quot;oordeelt&quot;."
-
-#. Tag: para
-#: how2-basics.docbook:173
-#, no-c-format
-msgid "Go down the column of entries to Mt.7:1. To the right is a number, 2919. This refers to the Greek word used. Write it down."
-msgstr "Loop de kolom door tot Matt.7:1. Rechts van het woord 'oordeelt' staat het (Strong-)nummer 2919. Dit verwijst naar het Griekse woord. Schrijf het op."
-
-#. Tag: para
-#: how2-basics.docbook:175
-#, no-c-format
-msgid "Now look up &quot;judgeth&quot;."
-msgstr "Zoek nu &quot;beoordeelt&quot; op."
-
-#. Tag: para
-#: how2-basics.docbook:176
-#, no-c-format
-msgid "Go down the column to 1 Cor.2:15 . . . . . 350."
-msgstr "Loop de kolom door tot 1 Cor.2:15 . . . . . 350."
-
-#. Tag: para
-#: how2-basics.docbook:177
-#, no-c-format
-msgid "Turn in the back to the Greek dictionary. (Remember, you're in the NT so the language is Greek, while the OT is Hebrew.) Compare the meaning of 2919 with the meaning of 350 and you have your answer!"
-msgstr "Ga naar het Griekse woordenboek. (We zijn bezig in het Nieuwe testament, dus de grondtaal is Grieks, terwijl het Oude Testament oorspronkelijk in het Hebreeuws is.) Vergelijk de betekenis van 2919 met de betekenis van 350, en je hebt het antwoord!"
-
-#. Tag: title
-#: how2-basics.docbook:182
-#, no-c-format
-msgid "To Find Meanings of Names"
-msgstr "Om de betekenis van een naam te vinden"
-
-#. Tag: para
-#: how2-basics.docbook:183
-#, no-c-format
-msgid "By the same process we can find the meaning of a name in the Greek or Hebrew."
-msgstr "Op dezelfde manier kunnen we de betekenis van een naam in het Grieks of Hebreeuws vinden."
-
-#. Tag: para
-#: how2-basics.docbook:184
-#, no-c-format
-msgid "Look up these names and write down their meaning:"
-msgstr "Zoek de volgende namen op en schrijf hun betekenis erbij:"
-
-#. Tag: listitem
-#: how2-basics.docbook:186
-#, no-c-format
-msgid "Nabal"
-msgstr "Nabal"
-
-#. Tag: listitem
-#: how2-basics.docbook:187
-#, no-c-format
-msgid "Abigail"
-msgstr "Abigail"
-
-#. Tag: listitem
-#: how2-basics.docbook:188
-#, no-c-format
-msgid "Joshua"
-msgstr "Jozua"
-
-#. Tag: listitem
-#: how2-basics.docbook:189
-#, no-c-format
-msgid "Barnabus"
-msgstr "Barnabas"
-
-#. Tag: title
-#: how2-importance.docbook:1
-#, no-c-format
-msgid "Importance of God's Word"
-msgstr "Het belang van Gods Woord"
-
-#. Tag: para
-#: how2-importance.docbook:2
-#, no-c-format
-msgid "Understanding God's word is of great importance to all who call on God's name. Study of the Bible is one of the primary ways that we learn to communicate with God."
-msgstr "Voor iedereen wie Gods naam aanroept, is het belangrijk om Gods woord te begrijpen. Het bestuderen van de bijbel is een van de belangrijkste manieren om te leren communiceren met God."
-
-#. Tag: title
-#: how2-importance.docbook:6
-#, no-c-format
-msgid "A Book that is Unique"
-msgstr "Een uniek boek"
-
-#. Tag: para
-#: how2-importance.docbook:7
-#, no-c-format
-msgid "The Bible stands alone in many ways. It is unique in:"
-msgstr "De bijbel is de enige in veel dingen. Hij is uniek in:"
-
-#. Tag: para
-#: how2-importance.docbook:12
-#, no-c-format
-msgid "popularity. Bible sales in North America: more than $500 million per year. The Bible is both the the all-time and year-to-year best seller!"
-msgstr "populariteit. De bijbelverkoop in Noord-Amerika bedraagt meer dan $500 miljoen per jaar. De bijbel is zowel het best verkochte boek ooit, als de jaarlijkse bestseller!"
-
-#. Tag: para
-#: how2-importance.docbook:18
-#, no-c-format
-msgid "authorship. It was written over a period of 1600 years by 40 different authors from different backgrounds, yet reads as if written by one."
-msgstr "auteurs. De bijbel is geschreven in een periode van 1600 jaren door 40 verschillende auteurs, met verschillende achtergronden, maar leest alsof hij geschreven is door &eacute;&eacute;n persoon."
-
-#. Tag: para
-#: how2-importance.docbook:24
-#, no-c-format
-msgid "preservation. F. F. Bruce in <emphasis>Are New Testament Documents Reliable?</emphasis> compares New Testament manuscripts with other ancient texts:"
-msgstr "bewaring. F.F. Bruce vergelijkt in <emphasis>Are New Testament Documents Reliable?</emphasis> handschriften van het Nieuwe Testament met andere oude teksten:"
-
-#. Tag: title
-#: how2-importance.docbook:31
-#, no-c-format
-msgid "Comparison of New Testament manuscripts with other ancient texts."
-msgstr "Vergelijking van handschriften van het Nieuwe Testament met andere oude teksten."
-
-#. Tag: entry
-#: how2-importance.docbook:35
-#, no-c-format
-msgid "Work"
-msgstr "Werk"
-
-#. Tag: entry
-#: how2-importance.docbook:36
-#, no-c-format
-msgid "When Written"
-msgstr "Wanneer geschreven"
-
-#. Tag: entry
-#: how2-importance.docbook:37
-#, no-c-format
-msgid "Earliest Copy"
-msgstr "Oudste kopie"
-
-#. Tag: entry
-#: how2-importance.docbook:38
-#, no-c-format
-msgid "Time Lapse"
-msgstr "Tijdsduur"
-
-#. Tag: entry
-#: how2-importance.docbook:38
-#, no-c-format
-msgid "Number of Copies"
-msgstr "Aantal exemplaren"
-
-#. Tag: entry
-#: how2-importance.docbook:42
-#, no-c-format
-msgid "Herodotus"
-msgstr "Herodotus"
-
-#. Tag: entry
-#: how2-importance.docbook:43
-#, no-c-format
-msgid "448-428 B.C."
-msgstr "448-428 v. Chr."
-
-#. Tag: entry
-#: how2-importance.docbook:43 how2-importance.docbook:53
-#: how2-importance.docbook:58
-#, no-c-format
-msgid "900 A.D."
-msgstr "900 na Chr."
-
-#. Tag: entry
-#: how2-importance.docbook:44
-#, no-c-format
-msgid "1300 years"
-msgstr "1300 jaar"
-
-#. Tag: entry
-#: how2-importance.docbook:44
-#, no-c-format
-msgid "<entry>8</entry>"
-msgstr "<entry>8</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:47
-#, no-c-format
-msgid "Tacitus"
-msgstr "Tacitus"
-
-#. Tag: entry
-#: how2-importance.docbook:48
-#, no-c-format
-msgid "100 A.D."
-msgstr "100 na Chr."
-
-#. Tag: entry
-#: how2-importance.docbook:48
-#, no-c-format
-msgid "1100 A.D."
-msgstr "1100 na Chr."
-
-#. Tag: entry
-#: how2-importance.docbook:49
-#, no-c-format
-msgid "1000 years"
-msgstr "1000 jaar"
-
-#. Tag: entry
-#: how2-importance.docbook:49 how2-importance.docbook:59
-#, no-c-format
-msgid "<entry>20</entry>"
-msgstr "<entry>20</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:52
-#, no-c-format
-msgid "Caesar's <emphasis>Gallic War</emphasis>"
-msgstr "Caesar's <emphasis>Gallic War</emphasis>"
-
-#. Tag: entry
-#: how2-importance.docbook:53
-#, no-c-format
-msgid "50-58 B.C."
-msgstr "50-58 v. Chr."
-
-#. Tag: entry
-#: how2-importance.docbook:54
-#, no-c-format
-msgid "950 years"
-msgstr "950 jaar"
-
-#. Tag: entry
-#: how2-importance.docbook:54
-#, no-c-format
-msgid "<entry>10</entry>"
-msgstr "<entry>10</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:57
-#, no-c-format
-msgid "Livy's <emphasis>Roman History</emphasis>"
-msgstr "<emphasis>Roman History</emphasis> van Livy"
-
-#. Tag: entry
-#: how2-importance.docbook:58
-#, no-c-format
-msgid "59 B.C. - 17 A.D."
-msgstr "59 v. Chr. - 17 na Chr."
-
-#. Tag: entry
-#: how2-importance.docbook:59
-#, no-c-format
-msgid "900 years"
-msgstr "900 jaar"
-
-#. Tag: entry
-#: how2-importance.docbook:62
-#, no-c-format
-msgid "New Testament"
-msgstr "Nieuwe Testament"
-
-#. Tag: entry
-#: how2-importance.docbook:63
-#, no-c-format
-msgid "40 A.D. - 100 A.D."
-msgstr "40 - 100 n. Chr."
-
-#. Tag: entry
-#: how2-importance.docbook:63
-#, no-c-format
-msgid "130 A.D. Partial manuscripts 350 A.D. Full manuscripts"
-msgstr "130 na Chr. Gedeeltelijke handschriften 350 na Chr. Complete handschriften"
-
-#. Tag: entry
-#: how2-importance.docbook:64
-#, no-c-format
-msgid "30 - 310 years"
-msgstr "30 - 310 jaar"
-
-#. Tag: entry
-#: how2-importance.docbook:64
-#, no-c-format
-msgid "5000 Greek &amp; 10,000 Latin"
-msgstr "5000 Grieks &amp; 10.000 Latijn"
-
-#. Tag: para
-#: how2-importance.docbook:67
-#, no-c-format
-msgid "Ten copies of Caesar's <emphasis>Gallic War</emphasis> exist, the earliest of which was copied 900 years after Caesar wrote the original, etc. For the New Testament we have full manuscripts dating to 350 A. D., papyri containing most of the New Testament from the 200s, and a fragment of John's gospel from 130 A. D. How many manuscripts do we have to compare to each other? 5,000 in Greek and 10,000 in Latin!"
-msgstr "Er bestaan tien kopie&euml;n van Caesar's <emphasis>Gallic War</emphasis>, de oudste daarvan is van 900 jaar nadat Caesar het origineel schreef, etc. Van het Nieuwe Testament hebben we complete handschriften van 350 na Chr., papyrusrollen die een groot deel van het Niewe Testament bevatten uit de jaren 200, en een deel van het Johannes evangelie uit het jaar 130. Hoeveel handschriften hebben we om onderling te kunnen vergelijken? 5.000 in het Grieks en 10.000 in het Latijn!"
-
-#. Tag: attribution
-#: how2-importance.docbook:73
-#, no-c-format
-msgid "Textual critic F. J. A. Hort, \"The New Testament in the Original Greek\", vol. 1 p561, Macmillan Co., quoted in <emphasis>Questions of Life</emphasis> p. 25-26"
-msgstr "Schriftcriticus F. J. A. Hort, \"The New Testament in the Original Greek\", vol. 1 blz. 561, Macmillan Co., geciteerd in <emphasis>Questions of Life</emphasis> blz. 25-26"
-
-#. Tag: para
-#: how2-importance.docbook:75
-#, no-c-format
-msgid "\"In the verity and fullness of the evidence on which it rests, the text of the New Testament stands absolutely and unapproachably alone among other ancient prose writings.\""
-msgstr "\"In de waarheid an compleetheid van het bewijs waarop het rust, staat de tekst van het Nieuwe Testament absoluut en onbenaderbaar alleen tussen alle andere antieke proza.\""
-
-#. Tag: title
-#: how2-importance.docbook:80
-#, no-c-format
-msgid "A Book that God Breathed"
-msgstr "Een boek met de adem van God"
-
-#. Tag: para
-#: how2-importance.docbook:81
-#, no-c-format
-msgid "<emphasis>Heb.4:12 </emphasis>\"<emphasis>For the word of God is living and active... </emphasis>\" Jesus said <emphasis>(Mt.4:4),</emphasis> \"<emphasis>It is written, Man shall not live on bread alone, but on every word that proceeds [lit., is proceeding] from the mouth of God.</emphasis>\" As we read the Bible, God's Spirit is there to speak it to our hearts in a continually-fresh way."
-msgstr "<emphasis>Heb.4:12</emphasis>\"<emphasis>Want het woord Gods is levend en krachtig...</emphasis>\" Jezus zei <emphasis>(Matt.4:4),</emphasis> \"<emphasis>Er staat geschreven: Niet alleen van brood zal de mens leven, maar van alle woord, dat uit de mond Gods uitgaat.</emphasis>\" Terwijl we de bijbel lezen, is Gods Geest er om het tot onze harten te spreken op een altijd nieuwe manier."
-
-#. Tag: para
-#: how2-importance.docbook:87
-#, no-c-format
-msgid "2 Tim.3:16 declares, \"<emphasis>All scripture is inspired by God [lit., God-breathed].</emphasis>\" Do you believe this? Before you answer, consider Jesus' attitude toward the Scriptures."
-msgstr "2 Tim.3:16 (SV) zegt, \"<emphasis>Al de Schrift is van God ingegeven [lett., die God ademde].</emphasis>\" Geloof je dit? Bedenk, voordat je antwoord geeft, hoe Jezus' houding tegenover de Schriften was."
-
-#. Tag: attribution
-#: how2-importance.docbook:90
-#, no-c-format
-msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.93-95"
-msgstr "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, blz. 93-95"
-
-#. Tag: para
-#: how2-importance.docbook:91
-#, no-c-format
-msgid "He referred to the human authors, but took it for granted that behind them all was a single divine Author. He could equally say 'Moses said' or 'God said' (Mk.7:10). He could quote a comment of the narrator in Genesis 2:24 as an utterance of the Creator Himself (Mt.19:4-5). Similarly He said, 'Well did Isaiah prophesy of you hypocrites, as it is written', when what He went on to quote is the direct speech of the Lord God (Mk.7:6 &amp; Is.29:13). It is from Jesus Himself that the New Testament authors have gained their conviction of the dual authorship of Scripture. For them it was just as true to say that 'God spoke of old to our fathers by the prophets' (Heb.1:1) as it was to say that 'men moved by the Holy Spirit spoke from God' (2 Pe.1:21). God did not speak in such a way as to obliterate the personality of the human authors, nor did men speak in such a way as to corrupt the Word of the divine Author. God spoke. Men spoke. Neither truth must be allowed to detract from the other. ..."
-msgstr "Hij verwees naar de menselijke schrijvers, maar nam zondermeer aan dat achter hen een enkele goddelijke Schrijver zat. Hij kon, zonder verschil te maken, zeggen  'Mozes zei' of 'God zei' (Mar.7:10). Hij kon een opmerking van de verteller in Genesis 2:24 aanhalen als een uiting van de Schepper zelf (Matt. 19:4-5). Op dezelfde manier zei Hij, 'Terecht heeft Jesaja van u, huichelaars, geprofeteerd, zoals er geschreven staat', terwijl wat Hij daarna citeerd het directe woord van de Here God is (Mar.7:6 &amp; Jes 29:13). Hun overtuiging van het dubbele auteurschap van de Schriften hebben de auteurs van het Nieuwe Testament overgenomen van Jesus zelf. Het was voor hen net zo terecht om te zeggen dat 'God sprak tot onze vaderen door de profeten '(Heb.1:1) als het was om te zeggen 'door de Heilige Geest gedreven, hebben mensen van Godswege gesproken' (2 Pe 1:21). God sprak niet zodanig dat Hij aan de persoonlijkheid van de menselijke schrijvers voorbijging, net zo min spraken mensen zodanig dat zij het woord van de goddelijke Schrijver aantastten. God sprak. Mensen spraken. Geen van die twee waarheden mag iets van de andere afdoen."
-
-#. Tag: para
-#: how2-importance.docbook:105
-#, no-c-format
-msgid "This, then, was Christ's view of the Scriptures. Their witness was God's witness. The testimony of the Bible is the testimony of God. And the chief reason why the Christian believes in the divine origin of the Bible is that Jesus Christ Himself taught it."
-msgstr "Christus zag de Schriften als volgt: Hun getuigenis was Gods getuigenis. Het getuigenis van de bijbel is het getuigenis van God. En de voornaamste reden waarom de Christen gelooft  in de goddelijke oorsprong van de bijbel is dat Jezus Christus zelf dat leerde."
-
-#. Tag: para
-#: how2-importance.docbook:111
-#, no-c-format
-msgid "2 Tim.3:16 goes on, \"<emphasis>and profitable for teaching, for correction, for training in righteousness, that the man of God may be adequate, equipped for every good work.</emphasis>\" If we accept that the Bible really is God speaking to us, it follows that it will be our authority in all matters of faith and conduct."
-msgstr "2 Tim 3:16 gaat verder, \"<emphasis>is ook nuttig om te onderrichten, te weerleggen, te verbeteren en op te voeden in de gerechtigheid, opdat de mens Gods volkomen zij, tot alle goed werk volkomen toegerust.</emphasis>\" Als wij accepteren dat de bijbel in feite God is die tot ons spreekt, dan volgt daaruit dat de bijbel voor ons autoriteit heeft in alle zaken van geloof en gedrag."
-
-#. Tag: title
-#: how2-importance.docbook:117
-#, no-c-format
-msgid "A Book that Works"
-msgstr "Een boek dat werkt"
-
-#. Tag: para
-#: how2-importance.docbook:118
-#, no-c-format
-msgid "What will studying the Bible do for you? 1 Thess.2:13 says that the Bible \"<emphasis>performs its work in you who believe.</emphasis>\" Beside each scripture, write down the work the Word performs."
-msgstr "Wat doet bijbelstudie met je? 1 Thess.2:13 zegt dat de bijbel \"<emphasis>werkzaam is in u, die gelooft</emphasis>\" Schrijf naast elk schriftgedeelte, het werk dat het Woord doet."
-
-#. Tag: title
-#: how2-importance.docbook:125
-#, no-c-format
-msgid "What does Bible study do for Christians?"
-msgstr "Wat doet bijbelstudie voor Christenen?"
-
-#. Tag: entry
-#: how2-importance.docbook:129
-#, no-c-format
-msgid "Reference"
-msgstr "Naslag"
-
-#. Tag: entry
-#: how2-importance.docbook:130
-#, no-c-format
-msgid "Action"
-msgstr "Actie"
-
-#. Tag: entry
-#: how2-importance.docbook:135
-#, no-c-format
-msgid "Eph. 5:26"
-msgstr "Ef. 5:26"
-
-#. Tag: entry
-#: how2-importance.docbook:137
-#, no-c-format
-msgid "cleanses -- \"...having cleansed her by the washing of water with the word.\""
-msgstr "reinigt -- \"...haar reinigende door het waterbad met het woord.\""
-
-#. Tag: entry
-#: how2-importance.docbook:141
-#, no-c-format
-msgid "Acts 20:32"
-msgstr "Hand.20:32"
-
-#. Tag: entry
-#: how2-importance.docbook:144
-#, no-c-format
-msgid "builds up -- \" ...the word of His grace, which is able to build you up and to give you the inheritance among all those who are sanctified. \""
-msgstr "bouwt op -- \"En nu, ik draag u op aan de Here en het woord zijner genade, aan Hem, die bij machte is te bouwen en het erfdeel te geven onder alle geheiligden\""
-
-#. Tag: entry
-#: how2-importance.docbook:153
-#, no-c-format
-msgid "Rom. 15:4"
-msgstr "Rom.15:4"
-
-#. Tag: entry
-#: how2-importance.docbook:156
-#, no-c-format
-msgid "encourages -- \"that through perseverance and the encouragement of the Scriptures we might have hope.\""
-msgstr "bemoedigd -- \"opdat wij  in de weg der volharding en van de vertroosting der Schriften de hope zouden vasthouden.\""
-
-#. Tag: entry
-#: how2-importance.docbook:163
-#, no-c-format
-msgid "Rom. 10:17"
-msgstr "Rom.10:17"
-
-#. Tag: entry
-#: how2-importance.docbook:166
-#, no-c-format
-msgid "gives faith -- \"So faith comes from hearing, and hearing by the word of Christ.\""
-msgstr "geeft geloof -- \"Zo is dan het geloof uit het horen, en het horen door het woord van Christus.\""
-
-#. Tag: entry
-#: how2-importance.docbook:174
-#, no-c-format
-msgid "1 Cor. 10:11"
-msgstr "1 Cor.10:11"
-
-#. Tag: entry
-#: how2-importance.docbook:177
-#, no-c-format
-msgid "instructs -- \"Now these things happened to them for an example, and they were written for our instruction\""
-msgstr "onderwijst -- \"Dit is hun overkomen tot een voorbeeld (voor ons) en het is opgetekend ter waarschuwing voor ons\""
-
-#. Tag: entry
-#: how2-importance.docbook:185
-#, no-c-format
-msgid "Mt. 4:4"
-msgstr "Matt.4:4"
-
-#. Tag: entry
-#: how2-importance.docbook:188
-#, no-c-format
-msgid "nourishment -- \"But He answered and said, 'It is written, Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.'\""
-msgstr "voeding -- \"Maar Hij antwoordde en zeide: Er staat geschreven, niet alleen van brood zal de mens leven, maar van alle woord, dat uit de mond Gods gaat.\""
-
-#. Tag: title
-#: how2-importance.docbook:200
-#, no-c-format
-msgid "A Book that Liberates"
-msgstr "Een bevrijdend boek"
-
-#. Tag: para
-#: how2-importance.docbook:201
-#, no-c-format
-msgid "Jn.8:32 \"<emphasis>and you shall know the truth, and the truth shall make you free.</emphasis>\"This is usually quoted by itself. Is this a conditional or unconditional promise? Would it apply to all kinds of knowledge? Find the answers by examining the first half of the sentence, in v.31. \"<emphasis>If you abide in My word, then you are truly disciples of Mine... </emphasis>\""
-msgstr "Joh.8:32 \"<emphasis>en gij zult de waarheid verstaan, en de waarheid zal u vrijmaken</emphasis>\" Dit wordt vaak door zichzelf aangehaald. Is dit een voorwaardelijke of onvoorwaardelijke belofte? Is het toe te passen op elke vorm van kennis? Vind de antwoorden door de eerste helft van de zin onder de loep te nemen, in vs.31. \"<emphasis>Als gij in Mijn woord blijft, zijt gij waarlijk discipelen van Mij... </emphasis>\""
-
-#. Tag: para
-#: how2-importance.docbook:208
-#, no-c-format
-msgid "We see that this is a conditional promice, specifically speaking of the truth of God's word."
-msgstr "We zien dat het gaat om een voorwaardelijke belofte, specifiek sprekend over de waarheid van Gods woord."
-
-#. Tag: para
-#: how2-importance.docbook:210
-#, no-c-format
-msgid "The Greek word for \"wind\" used in Eph.4:14 means a <emphasis>violent wind.</emphasis> \"<emphasis>As a result, we are no longer to be children, tossed here and there by waves, and carried about by every wind of doctrine...</emphasis>\"One thing studying the Bible does for us is to ground us in the truth, with the result that we won't be easily \"blown away.\""
-msgstr "Het Griekse woord voor \"wind\", wat wordt gebruikt in Ef.4:14 betekent een <emphasis>geweldige wind</emphasis> \"<emphasis>Dan zijn wij niet langer onmondig, op en neder, heen en weder geslingerd onder invloed van allerlei wind van leer...</emphasis>\"Een ding dat bijbelstudie voor ons doet, is dat het ons een vaste grond geeft in de waarheid, met als resultaat dat we niet zo eenvoudig \"weggeblazen\" worden."
-
-#. Tag: para
-#: how2-importance.docbook:216
-#, no-c-format
-msgid "<emphasis>But Jesus answered and said to them, </emphasis>\"<emphasis>You are mistaken [KJV Ye do err], not understanding the Scriptures, or the power of God.</emphasis>\"Mt.22:29"
-msgstr "<emphasis>Jezus antwoordde en zeide tot hen: Gij dwaalt, want gij kent de Schriften niet noch de kracht Gods.</emphasis>\" Matt.22:29"
-
-#. Tag: para
-#: how2-importance.docbook:218
-#, no-c-format
-msgid "What 2 things do we need to know to be kept from error?"
-msgstr "Welke 2 dingen moeten wij kennen om dwaling te voorkomen?"
-
-#. Tag: para
-#: how2-importance.docbook:220
-#, no-c-format
-msgid "God's word"
-msgstr "Gods woord"
-
-#. Tag: para
-#: how2-importance.docbook:221
-#, no-c-format
-msgid "God's power"
-msgstr "Gods kracht"
-
-#. Tag: title
-#: how2-importance.docbook:224
-#, no-c-format
-msgid "A Book that Wars"
-msgstr "Een boek dat strijdt"
-
-#. Tag: para
-#: how2-importance.docbook:225
-#, no-c-format
-msgid "Eph.6:10-18 is one picture of our spiritual armament."
-msgstr "Ef.6:10-18 is een mogelijke afbeelding van onze geestelijke wapenrusting."
-
-#. Tag: title
-#: how2-importance.docbook:228
-#, no-c-format
-msgid "Spiritual Armor"
-msgstr "Geestelijke wapenrusting"
-
-#. Tag: entry
-#: how2-importance.docbook:232
-#, no-c-format
-msgid "Question"
-msgstr "Vraag"
-
-#. Tag: entry
-#: how2-importance.docbook:233
-#, no-c-format
-msgid "Answer"
-msgstr "Antwoord"
-
-#. Tag: entry
-#: how2-importance.docbook:236
-#, no-c-format
-msgid "How many of the weapons listed here are defensive weapons?"
-msgstr "Hoeveel van de hier opgenoemde wapens zijn verdedigingswapens?"
-
-#. Tag: entry
-#: how2-importance.docbook:236
-#, no-c-format
-msgid "<entry>5</entry>"
-msgstr "<entry>5</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:237
-#, no-c-format
-msgid "How many are offensive?"
-msgstr "En hoeveel aanvalswapens?"
-
-#. Tag: entry
-#: how2-importance.docbook:237
-#, no-c-format
-msgid "<entry>One</entry>"
-msgstr "<entry>1</entry>"
-
-#. Tag: entry
-#: how2-importance.docbook:238
-#, no-c-format
-msgid "Which one(s)?"
-msgstr "Welke?"
-
-#. Tag: entry
-#: how2-importance.docbook:238
-#, no-c-format
-msgid "the word - <foreignphrase>rhema</foreignphrase>"
-msgstr "het woord - <foreignphrase>rhema</foreignphrase>"
-
-#. Tag: title
-#: how2-importance.docbook:241
-#, no-c-format
-msgid "Exhortations"
-msgstr "Vermaningen"
-
-#. Tag: para
-#: how2-importance.docbook:242
-#, no-c-format
-msgid "2 Tim.2:15 (KJV) \"<emphasis>Study to show thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.</emphasis>\""
-msgstr "2 Tim 2:15 (SV) \"<emphasis>Benaarstig u, om uzelven Gode beproefd voor te stellen, een arbeider, die niet beschaamd wordt, die het Woord der waarheid recht snijdt.</emphasis>\""
-
-#. Tag: para
-#: how2-importance.docbook:246
-#, no-c-format
-msgid "Col.3:16 \"<emphasis>Let the word of Christ richly dwell within you; with all wisdom teaching and admonishing one another with psalms and hymns and spiritual songs, singing with thankfulness in your hearts to God.</emphasis>\""
-msgstr "Kol.3:16 \"<emphasis>Het woord van Christus wone rijkelijk in u, zodat gij in alle wijsheid elkander leert en terechtwijst en met psalmen, lofzangen en geestelijke liederen zingende, Gode dank brengt in uw harten.</emphasis>\""
-
-#. Tag: para
-#: how2-importance.docbook:251
-#, no-c-format
-msgid "If you're rich in something, how much of it do you have?"
-msgstr "Als je ergens rijk in bent, hoeveel heb je er dan van?"
-
-#. Tag: para
-#: how2-importance.docbook:253
-#, no-c-format
-msgid "Not a little!"
-msgstr "Niet een beetje!"
-
-#. Tag: para
-#: how2-importance.docbook:256
-#, no-c-format
-msgid "Eccl.12:11-12 \"<emphasis>The words of wise men are like goads, and masters of these collections are like well-driven nails; they are given by one Shepherd. But beyond this, my son, be warned: the writing of many books is endless, and excessive devotion to books is wearying to the body.</emphasis>\""
-msgstr "Pred.12:11-12 \"<emphasis>De woorden der wijzen zijn als prikkelen; als ingeslagen nagelen zijn de verzamelingen daarvan; gegeven zijn zij door &eacute;&eacute;n herder. En overigens, mijn zoon, wees gewaarschuwd; er is geen einde aan het maken van veel boeken, en veel doorvorsen is afmatting voor het lichaam.</emphasis>\""
-
-#. Tag: title
-#: how2-importance.docbook:263
-#, no-c-format
-msgid "Appendix: \"Once for All\""
-msgstr "Bijlage: \"Eens voor altijd\""
-
-#. Tag: attribution
-#: how2-importance.docbook:266
-#, no-c-format
-msgid "John R. W. Stott, <emphasis>Christ the Controversialist,</emphasis> InterVarsity Press 1978, pp.106-107"
-msgstr "John R. W. Stott, <emphasis>Christ the Controversialist,</emphasis> InterVarsity Press 1978, blz. 106-107"
-
-#. Tag: para
-#: how2-importance.docbook:267
-#, no-c-format
-msgid "The truth regarding the finality of God's initiative in Christ is conveyed by one word of the Greek Testament, namely the adverb <foreignphrase>hapax</foreignphrase> and <foreignphrase>ephapax</foreignphrase>. It is usually translated in the Authorized Version once, meaning once for all. It is used of what is so done as to be of perpetual validity and never need repetition, and is applied in the NT to both revelation and redemption. Thus, Jude refers to the faith which was once for all delivered to the saints (Jude 3), and Romans says, \"<emphasis>Christ also died for sins once for all</emphasis>\" (Rom.6:10, see also 1 Pe.3:18; Heb.9:26-28)."
-msgstr "De waarheid omtrend het definitieve van God's initiatief in Christus, is gevat in een woord van het Griekse Testament, namelijk, het bijwoord <foreignphrase>hapax</foreignphrase> en <foreignphrase>ephapax</foreignphrase>, dit wordt veelal vertaald als eenmaal, in de betekenis van 'eens voor altijd'. Het wordt gebruikt voor wat wordt gedaan om van voortdurende betekenis te zijn, en nooit herhaald hoeft te worden, en wordt in het NT toegepast op zowel openbaring als verlossing. Op deze wijze verwijst Judas naar het geloof dat eenmaal  is gegeven aan de heiligen (Judas 3), en de brief aan de Romeinen zegt over Christus \"<emphasis>... is Hij voor de zonde eens voor altijd gestorven</emphasis>\" (Rom.6:10, zie ook 1 Petr.3:18; Hebr.9:26-28)."
-
-#. Tag: para
-#: how2-importance.docbook:276
-#, no-c-format
-msgid "Thus we may say that God has spoken once for all and Christ has suffered once for all. This means that the Christian revelation and the Christian redemption are both alike in Christ complete. Nothing can be added to either without being derogatory to Christ... These are the two rocks on which the Protestant Reformation was built -- Gods revealed word without the addition of human traditions and Christ's finished work without the addition of human merits. The Reformers great watchwords were <foreignphrase>sola scriptura</foreignphrase> for our authority and <foreignphrase>sola gratia</foreignphrase> for our salvation."
-msgstr "We kunnen dus zeggen dat God eens voor altijd heeft gesproken, en dat Christus eens voor altijd heeft geleden. Dit betekent dat de christelijke openbaring en de christelijke verlossing beiden voltooid zijn in Christus. Aan geen van beide kan iets worden toegevoegd, zonder afbreuk te doen aan Christus... Dit zijn de twee rotsen waar de Protestantse Reformatie gebouwd is. -- Gods geopenbaarde woord, zonder toevoeging van menselijke tradities, en het voltooide werk van Christus, zonder de toevoeging van menselijke verdiensten. De wachtwoorden van de reformatoren waren <foreignphrase>sola scriptura</foreignphrase> voor onze autoriteit en <foreignphrase>sola gratia</foreignphrase> voor onze redding."
-
-#. Tag: title
-#: how2-importance.docbook:288
-#, no-c-format
-msgid "Supplement: Bible Reading Programs"
-msgstr "Supplement: Bijbellees-programma's"
-
-#. Tag: para
-#: how2-importance.docbook:289
-#, no-c-format
-msgid "Here are some easy programs to systematically read your Bible. You can do more than one at a time if you like, for instance #1 with #4, or #2 with #5. Vary the program from year to year to keep it fresh!"
-msgstr "Hier zijn een aantal makkelijke programma's om je bijbel systematisch te lezen. Je kunt er meer dan een tegelijk gebruiken, als je wilt. Bijvoorbeeld #1 met #4, of #2 met #5. Varieer het programma van jaar tot jaar om het fris te houden!"
-
-#. Tag: para
-#: how2-importance.docbook:294
-#, no-c-format
-msgid "New Testament in a Year: read one chapter each day, 5 days a week."
-msgstr "Het Nieuwe Testament in een jaar: lees per dag een hoofdstuk, 5 dagen per week."
-
-#. Tag: para
-#: how2-importance.docbook:296
-#, no-c-format
-msgid "Proverbs in a Month: read one chapter of Proverbs each day, corresponding to the day of the month."
-msgstr "Spreuken in een maand: lees elke dag een hoofdstuk uit Spreuken, overeenkomstig de dag van de maand."
-
-#. Tag: para
-#: how2-importance.docbook:298
-#, no-c-format
-msgid "Psalms in a Month: read 5 Psalms at intervals of 30 each day, for instance on the 20th you read Ps.20, 50, 80, 110, &amp; 140."
-msgstr "De Psalmen in een maand: lees 5 Psalmen per dag, met een interval van 30. Lees bijvoorbeel op de 20e Ps. 20, 50, 80, 110 &amp; 140."
-
-#. Tag: para
-#: how2-importance.docbook:300
-#, no-c-format
-msgid "Psalms &amp; Proverbs in 6 months: read through Psalms and Proverbs one chapter per day."
-msgstr "Psalmen &amp; Spreuken in 6 maanden: lees Psalmen en Spreuken door, elke dag een hoofdstuk."
-
-#. Tag: para
-#: how2-importance.docbook:302
-#, no-c-format
-msgid "Old Testament without Psalms &amp; Proverbs in 2 years: if you read one chapter a day of the Old Testament, skipping over Psalms &amp; Proverbs, you will read the Old Testament in 2 years and 2 weeks."
-msgstr "Het Oude Testament (zonder Psalmen &amp; Spreuken) in 2 jaar: als je van het Oude Testament elke dag een hoofdstuk leest,  en daarbij Psalmen en Spreuken overslaat, lees je het Oude Testament in 2 jaar en 2 weken."
-
-#. Tag: title
-#: how2-interpretation.docbook:1
-#, no-c-format
-msgid "Rules of Bible Interpretation (Hermeneutics)"
-msgstr "Regels voor interpretatie van de bijbel (Hermeneutiek)"
-
-#. Tag: para
-#: how2-interpretation.docbook:2
-#, no-c-format
-msgid "We already learned about the \"3 Cs\": content, context, cross-reference. We want to expand that now by delving briefly into biblical hermeneutics, whose goal is to discover the meaning intended by the original author (and Author!). While many applications of a passage are valid, only one interpretation is valid. The scripture itself says this by saying that no scripture is of any private interpretation (2 Pe.1:20 KJV <quote>Knowing this first, that no prophesy of scripture is of any private interpretation.</quote>). Certain rules are helps toward discovering the correct meaning; by ignoring these rules people have brought much trouble on themselves and their followers. 2 Pe.3:16 <quote>...in which are some things hard to understand, which the untaught and unstable distort, as they do also the rest of the Scriptures, to their own destruction.</quote>"
-msgstr "We hebben het al gehad over de drie aspecten die van belang zijn bij het interpreteren van de bijbel: inhoud, context en tekstverwijzingen. We willen daar nu verder op in gaan door wat te graven in de bijbelse hermeneutiek, die zich tot doel stelt de bedoeling van de de oorspronkelijke schrijver (en Schrijver!) te ontdekken. Hoewel een tekstgedeelte op veel manieren goed toegepast kan worden, is het maar op &eacute;&eacute;n manier goed te interpreteren. De schrift zegt dit zelf door te stellen dat <quote>geen profetie der Schrift een eigenmachtige uitlegging toelaat</quote> (2 Petrus 1:20). Er zijn bepaalde regels die helpen om de juiste betekenis te ontdekken. Door die regels te negeren, hebben mensen veel moeilijkheden veroorzaakt voor zichzelf en voor hun volgelingen. 2 Petrus 3:16 <quote>...Daarin is een en ander moeilijk te verstaan, wat onkundige en onstandvastige lieden tot hun eigen verderf verdraaien, evenals trouwens de overige schriften.</quote>"
-
-#. Tag: para
-#: how2-interpretation.docbook:11
-#, no-c-format
-msgid "How do we go about discovering the intended meaning of a passage? Let's say your attention has been drawn to a particular verse whose meaning is not clear to you. How do you study it out? Keep these rules in mind:"
-msgstr "Hoe gaan we te werk als we de oorspronkelijk bedoelde betekenis van een passage willen ontdekken? Laten we stellen dat je een bepaald vers is opgevallen, wat je niet zo goed begrijpt. Hoe bestudeer je het dan? Houdt de volgende regels in gedachte:"
-
-#. Tag: title
-#: how2-interpretation.docbook:14
-#, no-c-format
-msgid "Rule 1 - Interpret according to the exact meaning of the words."
-msgstr "Regel 1 - Interpreteer de tekst volgens de precieze betekenis van de woorden."
-
-#. Tag: para
-#: how2-interpretation.docbook:15
-#, no-c-format
-msgid "The more precise we can be with the exact, original meaning of the words the better our interpretation will be. Try to find the exact meaning of the key words by following these steps:"
-msgstr "Hoe preciezer wij de oorspronkelijke betekenis van de woorden kunnen achterhalen, hoe beter we de tekst zullen kunnen interpreteren. Probeer de precieze betekenisvan kernwoorden te vinden aan de hand van de volgende stappen:"
-
-#. Tag: title
-#: how2-interpretation.docbook:20
-#, no-c-format
-msgid "Definition"
-msgstr "Definitie"
-
-#. Tag: para
-#: how2-interpretation.docbook:21
-#, no-c-format
-msgid "Look up the definition in a Greek or Hebrew dictionary. For verbs, the verb tense is also crucial."
-msgstr "Zoek de definitie op in een Grieks of Hebreeuws woordenboek. Bij werkwoorden is de gebruikte vorm ook cruciaal."
-
-#. Tag: para
-#: how2-interpretation.docbook:27
-#, no-c-format
-msgid "Compare scripture with scripture. Seeing how the same Greek or Hebrew word (not the English word) is used in scripture may clarify or throw new light on the definition. How does the same author use this word elsewhere? Other authors? Your reference tools may give you uses of the word in non-biblical documents, as well. Why do we have to go to the original languages; why isn't the English word good enough? <emphasis>Because more than one greek word may be translated into the same english word, and the greek words may have different shades of meaning.</emphasis>"
-msgstr "Vergelijk schrift met schrift. Zien hoe hetzelfde Griekse of Hebreeuwse woord (niet het Nederlandse woord) wordt gebruikt in de schrift kan de definitie verhelderen, of een nieuw licht werpen op de definitie. Hoe gebruikt dezelfde schrijver hetzelfde woord in andere schriftgedeelten? En andere schrijvers? Sommige naslagwerken geven ook informatie over het gebruik van hetzelfde woord in niet-bijbelse documenten. Waarom moeten we eigenlijk terug naar de oorspronkelijke taal; waarom is het Nederlandse woord niet goed genoeg? <emphasis>Omdat verschillende Griekse woorden vertaald kunnen zijn naar hetzelfde Nederlandse woord, en de Griekse woorden zouden een verschillende bijklank in de betekenis kunnen hebben.</emphasis>"
-
-#. Tag: title
-#: how2-interpretation.docbook:37
-#, no-c-format
-msgid "Example 1A"
-msgstr "Voorbeeld 1A"
-
-#. Tag: para
-#: how2-interpretation.docbook:38
-#, no-c-format
-msgid "Jn.20:17 <emphasis>\"Touch me not\"</emphasis> (KJV) sounds harsh, doesn't it? Sounds like Jesus doesn't want to be touched now that He is risen, that He is too holy or something. But that doesn't seem right, so let's look it up in Spiros Zodhiates' <emphasis>The Complete Word Study New Testament</emphasis> (AMG Publishers, 1991)."
-msgstr "Joh.20:17 (SV) <emphasis>\"Raak mij niet aan\"</emphasis> klinkt nogal hard, he? Net of Jezus na zijn opstanding niet meer aangeraakt wil worden, omdat Hij daarvoor te heilig is ofzo. Maar dat lijkt niet helemaal juist te zijn, dus laten we het opzoeken in <emphasis>The Complete Word Study New Testament</emphasis> van Spiros Zodhiates (AMG Publishers, 1991)."
-
-#. Tag: para
-#: how2-interpretation.docbook:42
-#, no-c-format
-msgid "Definition: Turning to John 20:17, above the word \"Touch\" we see \"pim680.\" The letters give us a code for the part of speech, and the number refers to Strong's dictionary reference. Let's look up the definition (p. 879). \"680. Haptomai; from hapto (681), touch. Refers to such handling of an object as to exert a modifying influence upon it... Distinguished from pselaphao (5584), which actually only means to touch the surface of something. \" Now look up \"pim.\" The grammar codes in Zodhiates come right after Revelation; on p. 849 we see that pim stands for \"present imperative active (80)\". On p.857, \"Present Imperative. In the active voice, it may indicate a command to do something in the future which involves continuous or repeated action or, when it is negated, a command to stop doing something. \" This is a negative command, so it is to stop doing something that is already occuring. So, what have we found?"
-msgstr "Definitie: Als we Joh.20:17 opzoeken, dan zien we dat boven het woord \"Raak ... aan\" staat \"pim680.\" De letters vormen een code die de vorm van spreken aangeeft, en het nummer verwijst naar Strongs woordenboek. Laten we de definitie opzoeken (p. 879) \"680. Haptomai; komt van hapto (681), aanraken. Verwijst naar het hanteren van een object om daar een veranderende invloed op uit te oefenen... Te ondersceiden van pselaphao (5584), wat alleen duidt op het aanraken van het oppervlak ergens van.\" Zoek nu de code \"pim\" op. In Zodhiates staan de grammatica-codes achter Openbaring; op p. 849 zien we dat pim staat voor \"tegenwoordig imperatief actief (80)\".Op p.857, \"Tegenwoordig Imperatief. In de actieve vorm, kan het een opdracht aanduiden, om iets te doen in de toekomst, wat een doorgaande of herhalende actie omvat of, als het negatief gebruikt wordt, een opdracht om ergens mee op te houden.\" In dit geval is er sprake van een negatieve opdracht, dus is het een opdracht om ergens mee op te houden. Wat hebben we dus ontdekt?"
-
-#. Tag: emphasis
-#: how2-interpretation.docbook:50
-#, no-c-format
-msgid "Mary is already clinging to Jesus, and he is saying to stop holding him!"
-msgstr "Maria klampt zich al aan Jezus vast, en Hij zegt haar om Hem niet langer vast te houden!"
-
-#. Tag: title
-#: how2-interpretation.docbook:53
-#, no-c-format
-msgid "Example 1B"
-msgstr "Voorbeeld 1B"
-
-#. Tag: para
-#: how2-interpretation.docbook:54
-#, no-c-format
-msgid "In James 5:14, <emphasis>Elders are told to pray and anoint someone who is sick</emphasis>. What is this anointing?"
-msgstr "In Jakobus 5:14 wordt zieken opgedragen <emphasis>zich te laten zalven door de oudsten van de gemeente</emphasis>. Wat houdt die zalving in?"
-
-#. Tag: para
-#: how2-interpretation.docbook:55
-#, no-c-format
-msgid "Definition of aleipho (218) - \"to oil\" (Strong's); but we also have another Greek word translated \"anoint\", chrio (5548) - \"to smear or rub with oil, i.e. to consecrate to an office or religious service\" (Strong's). Since it's a verb, consider the tense also, \"apta\" aorist participle active. \"The aorist participle expresses simple action, as opposed to continuous action...When its relaitonship to the main verb is temporal, it usually signifies action prior to that of the main verb.\" (Zodhiates p.851)"
-msgstr "Definitie van aleipho (218) - \"zalven met olie\" (Strong); maar er is ook een ander Grieks woord dat eveneens vertaald wordt als \"zalven\", chrio (5548) - \"insmeren of -wrijven met olie, d.w.z. heiligen voor een ambt of religieuze dienst\" (Strong). Gezien het feit dat het om een werkwoord gaat, moet er ook gelet worden op de gebruikte vorm, \"apta\". Deze vorm, de participium aoristus, duidt op een eenmalige handeling, dit in tegenstelling tot een voortdurende handeling... Als er een verhouding in tijd is met het hoofdwerkwoord, dan duidt het meestal op een actie die aan die van het hoofdwerkwoord vooraf gaat. (zie Zodhiates p.851)"
-
-#. Tag: listitem
-#: how2-interpretation.docbook:62
-#, no-c-format
-msgid "Cross-references for aleipho:"
-msgstr "Tekstverwijzingen voor aleipho:"
-
-#. Tag: listitem
-#: how2-interpretation.docbook:64
-#, no-c-format
-msgid "Mt.6:17 But you, when you fast, anoint your head"
-msgstr "Matt.6:17 En wanneer gij vast, toont dan niet, [...] een somber gelaat;"
-
-#. Tag: listitem
-#: how2-interpretation.docbook:65
-#, no-c-format
-msgid "Mk.16:1 [the women] brought spices that they might come and anoint Him."
-msgstr "Mar.16:1 [De vrouwen] kochten [...] specerijen om Hem te gaan zalven."
-
-#. Tag: listitem
-#: how2-interpretation.docbook:66
-#, no-c-format
-msgid "Mk.6:13 And they were...anointing with oil many sick people and healing them."
-msgstr "Mar.6:13 En zij [...] zalfden vele zieken met olie en genazen hen."
-
-#. Tag: listitem
-#: how2-interpretation.docbook:67
-#, no-c-format
-msgid "Lk.7:38 [...] kissing His feet and anointing them with the perfume"
-msgstr "Luc.7:38 en zij [...] kuste zijn voeten en zalfde ze met de mirre."
-
-#. Tag: listitem
-#: how2-interpretation.docbook:68
-#, no-c-format
-msgid "Jn.12:3 Mary [...] anointed the feet of Jesus, and wiped them with her hair"
-msgstr "Joh.12:3 Maria [...] zalfde de voeten van Jezus en droogde zijn voeten af met haar haren;"
-
-#. Tag: listitem
-#: how2-interpretation.docbook:71
-#, no-c-format
-msgid "Cross-references of chrio:"
-msgstr "Tekstverwijzingen van chrio:"
-
-#. Tag: listitem
-#: how2-interpretation.docbook:73
-#, no-c-format
-msgid "Lk.4:18 <quote>The Spirit of the Lord is upon me, because He has anointed me to preach [...]</quote>"
-msgstr "Luc.4:18 <quote>De Geest des Heren is op Mij, daarom, dat Hij Mij gezalfd heeft, om aan armen het evangelie te brengen;</quote>"
-
-#. Tag: listitem
-#: how2-interpretation.docbook:74
-#, no-c-format
-msgid "Acts 4:27 Jesus, whom Thou hast anointed"
-msgstr "Hand.4:27 [...] Jezus, die Gij gezalfd hebt [...]"
-
-#. Tag: listitem
-#: how2-interpretation.docbook:75
-#, no-c-format
-msgid "Acts 10:38 God anointed Jesus with the Holy Ghost and power"
-msgstr "Hand.10:38 [...] Jezus van Nazaret, hoe God Hem met de heilige Geest en met kracht heeft gezalfd."
-
-#. Tag: listitem
-#: how2-interpretation.docbook:76
-#, no-c-format
-msgid "2 Cor.1:21 Now He who...anointed us is God"
-msgstr "2 Kor.1:21 Hij nu, die ons [...] heeft gezalfd, is God"
-
-#. Tag: para
-#: how2-interpretation.docbook:81
-#, no-c-format
-msgid "So what's the difference between aleipho and chrio? Look back over the cross-references and the definitions, and sum up the difference: <emphasis>&quot;aleipho&quot; is a practical use of oil and &quot;chrio&quot; is a spiritual</emphasis>"
-msgstr "Wat is dus het verschil tussen aleipho en chrio? Kijk nog eens terug naar de tekstverwijzingen en de definities, en stel het verschil vast: <emphasis>&quot;aleipho&quot; is een praktisch gebruik van olie en &quot;chrio&quot; een geestelijk gebruik</emphasis>"
-
-#. Tag: para
-#: how2-interpretation.docbook:84
-#, no-c-format
-msgid "As an illustration (although the word is not used) of the practical use of oil at that time, when the good Samaritan cared for the man beat up by robbers he poured oil and wine in the wound. So oil had a medicinal use in Jesus' day."
-msgstr "Als illustratie (al wordt het woord hier niet gebruikt) van het praktisch gebruik van olie in die tijd, toen de barmhartige Samaritaan de beroofde en mishandelde man verzorgde, goot hij olie en wijn op de wond. Olie was dus ook in gebruik als medicijn in Jezus' tijd."
-
-#. Tag: para
-#: how2-interpretation.docbook:88
-#, no-c-format
-msgid "Now let's apply what we just learned by this word study to James 5:14 <emphasis>\"Is any among you sick? Let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord.\"</emphasis> Is \"anointing\" spiritual or practical? Practical!"
-msgstr "Laten we eens toepassen op wat we zojuist geleerd hebben door deze woordstudie n.a.v. Jakobus 5:14 <emphasis>\"Is er iemand bij u ziek? Laat hij dan de oudsten der gemeente tot zich roepen, opdat zij over hem een gebed uitspreken en hem met olie zalven in de naam des Heren.\"</emphasis> Is dat zalven geestelijk of praktisch? Het is praktisch! "
-
-#. Tag: para
-#: how2-interpretation.docbook:91
-#, no-c-format
-msgid "And the tense in Greek, the aorist participle, would be better translated \"having anointed,\" so the order is the anointing first, then the prayer (\"in the name of the Lord\"refers to the prayer, not the anointing). James 5 is saying that the elders should give the sick person medicine and pray for him in the name of the Lord. Doesn't that express a beautiful balance of practical and spiritual in our God!"
-msgstr "De vorm die in het Grieks wordt gebruikt is beter vertaald met \"hem met olie gezalfd hebbend\", zodat de volgorde wordt eerst zalven, dan bidden. (Het zinsdeel \"in de naam des Heren\" verwijst naar het gebed, niet naar de zalving). Jakobus 5 zegt dat de oudsten de zieke moeten verzorgen, en voor hem bidden in de naam van de Heer. Geeft dat niet iets weer van een prachtige balans tussen het praktische en het spirituele bij onze God?"
-
-#. Tag: title
-#: how2-interpretation.docbook:102
-#, no-c-format
-msgid "Rule 2 - Interpret within the biblical context"
-msgstr "Regel 2 - Interpreteer binnen the bijbelse context"
-
-#. Tag: para
-#: how2-interpretation.docbook:104
-#, no-c-format
-msgid "Interpret scripture in harmony with other scripture. What do the verses on each side say? What is the theme of the chapter? the book? Does your interpretation fit with these? If not, it is flawed. Usually, the context supplies what we need to correctly interpret the passage. Context is key. If confusion remains as to the meaning after we have interpreted the text within its context, we have to look further."
-msgstr "Interpreteer een bijbelgedeelte in harmonie met ander delen van de bijbel. Wat staat er in de verzen er omheen? Wat is het onderwerp van het hoofdstuk of van het boek? Past jouw interpretatie hierin? Zo niet, dan is er iets mis mee. Meestal geeft de context ons voldoende aanwijzingen voor een juiste interpretatie van het gedeelte. De context is de sleutel. Maar als er onzekerheid blijft over de betekenis na interpretatie in de context, dan moeten we verder kijken."
-
-#. Tag: title
-#: how2-interpretation.docbook:109
-#, no-c-format
-msgid "Example 2A"
-msgstr "Voorbeeld 2A "
-
-#. Tag: para
-#: how2-interpretation.docbook:110
-#, no-c-format
-msgid "In a previous lesson we considered Jn.3:5 <emphasis>\"born of water and the Spirit.\"</emphasis> In context, what is the water under discussion here?"
-msgstr "In een voorgaande les behandelden we Joh.3:5 <emphasis>\"geboren ...uit water en geest.\"</emphasis> Wat is volgens de context het water waarover het hier gaat?"
-
-#. Tag: para
-#: how2-interpretation.docbook:112
-#, no-c-format
-msgid "Water baptism is not under discussion here, which would be a big switch from the subject being discussed by Jesus and Nicodemus. Watch out for a sudden change of topic, it may be a clue that your interpretation has been derailed! The water is the amniotic fluid, \"born of water\" = natural birth."
-msgstr "Het gaat hier niet over de doop in water, dat zou een grote omschakeling zijn in het onderwerp waarover Jezus en Nikodemus spreken. Kijk uit voor een plotselinge verandering van onderwerp, het zou een aanwijzing kunnen zijn dat je interpretatie ontspoord is! Het bedoelde water is het vruchtwater. \"Geboren uit water\" is de natuurlijke geboorte."
-
-#. Tag: title
-#: how2-interpretation.docbook:116
-#, no-c-format
-msgid "Example 2B"
-msgstr "Voorbeeld 2B"
-
-#. Tag: para
-#: how2-interpretation.docbook:117
-#, no-c-format
-msgid "1 Cor.14:34 <quote>Let the women keep silent in the churches</quote> has to be taken within the biblical context of 1 Cor.11:5 <quote>every woman [...] while praying or prophesying [...]</quote>"
-msgstr "1 Kor.14:34 <quote>[...] moeten de vrouwen in de gemeente zwijgen</quote> moet gelezen worden binnen de bijbelse context van 1 Kor.11:5 <quote>maar iedere vrouw, die [...] bidt of profeteert [...]</quote>"
-
-#. Tag: title
-#: how2-interpretation.docbook:120
-#, no-c-format
-msgid "Example 2C"
-msgstr "Voorbeeld 2C"
-
-#. Tag: para
-#: how2-interpretation.docbook:121
-#, no-c-format
-msgid "Acts 2:38 <quote>And Peter said to them, &quot;Repent, and let each of you be baptized in the name of Jesus Christ for the forgiveness of your sins [...]&quot;</quote>. Is this teaching baptismal regeneration? If this was the only verse of scripture we had, we would have to conclude that. But in the light of the clear teaching elsewhere that regeneration happens by faith in Christ, we have to interpret it otherwise. Peter is urging baptism as a way for his hearers to respond to the gospel. If baptism were the pathway to being born again, how could Paul write 1 Cor.1:17 <emphasis>\"For Christ did not send me to baptize, but to preach the gospel\"</emphasis>?"
-msgstr "Hand.2:38 <quote>En Petrus antwoordde hun: &quot;Bekeert u en een ieder van u late zich dopen op de naam van Jezus Christus, tot vergeving van uw zonden [...]&quot;</quote> Is dit wedergeboorte door doop prediken? Als dit nu het enige vers van de bijbel was, hadden we deze conclusie getrokken, maar in het licht van de heldere boodschap elders, dat wedergeboorte voortkomt uit geloof in Christus, moeten we het op een andere manier interpreteren. Petrus brengt de doop naar voren als een manier voor zijn toehoorders om te antwoorden op het evangelie. Als de doop de weg was tot wedergeboorte, hoe zou Paulus dan kunnen schrijven in 1 Kor.1:17 <emphasis>\"Want Christus heeft mij niet gezonden om te dopen, maar om het evangelie te verkondigen\"</emphasis>?"
-
-#. Tag: title
-#: how2-interpretation.docbook:133
-#, no-c-format
-msgid "Rule 3 - Interpret within the historical and cultural context"
-msgstr "Regel 3 - Interpreteer binnen de historische en culturele context"
-
-#. Tag: para
-#: how2-interpretation.docbook:134
-#, no-c-format
-msgid "At first we are not asking <quote>What does it mean to me?</quote> but <quote>What did it mean to the original readers?</quote>; later we can ask, <quote>What does it mean to me?</quote>. We have to take into account the historical and cultural background of the author and the recipients."
-msgstr "Ten eerste vragen we niet <quote>Wat betekent het voor mij?</quote> maar <quote>Wat betekende het voor de oorspronkelijke lezers?</quote> Later kunnen we vragen <quote>Wat betekent het voor mij?</quote>. We moeten rekening houden met de historische en culturele achtergrond van de schrijver en de geadresseerden."
-
-#. Tag: title
-#: how2-interpretation.docbook:138
-#, no-c-format
-msgid "Example 3A"
-msgstr "Voorbeeld 3A"
-
-#. Tag: para
-#: how2-interpretation.docbook:138
-#, no-c-format
-msgid "<quote>3 days &amp; 3 nights</quote> (Mt.12:40) have led some to come up with a \"Wednesday crucifixion theory,\" esp. the cult of Armstrongism. How could Jesus die on Friday afternoon and rise Sunday morning yet \"be raised on the third day\" (Mt.16:21)? Exact meanings of \"three\" or \"days\" won't help explain the apparent contradiction."
-msgstr "<quote>3 dagen &amp; 3 nachten</quote> (Matt.12:40) heeft voor sommigen aanleiding gegeven tot een \"kruisiging-op-woensdag-theorie\", vooral het Armstrongisme. Hoe kon Jezus op vrijdagmiddag sterven en opstaan op Zondagmorgen, en toch zijn \"opgestaan ten derde dage\" (Matt.16:21)? De precieze betekenis van \"drie\" of \"dagen\" helpt niet om deze paradox te verklaren."
-
-#. Tag: para
-#: how2-interpretation.docbook:143
-#, no-c-format
-msgid "We need an historical tidbit: Jews counted any part of a day as a full day, as we would count buckets of water (if there were six and one-half buckets of water, we would say there were 7 buckets of water even if one was only partly full). So to the Jewish mind, any part of a day counted as a full day, and days started at 6 p.m. and ended at 6 p.m. Friday from 3 p.m. to 6 p.m. = day 1. Friday 6 p.m. to Saturday 6 p.m. = day 2. Saturday 6 p.m. to Sunday 5 or so a.m. = day 3. Interpreting within the cultural context keeps us out of trouble."
-msgstr "We hebben een historisch wetenswaardigheidje nodig: de Joden telden elk stukje van de dag mee, als was het een hele dag, net zoals wij emmers water tellen (als er 6 emmers vol zijn, en eentje half vol, dan zeggen we gerust dat er 7 emmers water staan). Volgens Joodse opvattingen telde elk deel van een dag dus als een hele dag, en startte een dag om 6 uur 's avonds en eindigde een dag om 6 uur 's morgens. Vrijdag van 15:00 tot 18:00 = dag 1. Vrijdag van 18:00 tot zaterdag 18:00 = dag 2 en Zaterdag 18:00 tot ongeveer Zondag 05:00 = dag 3. Interpretatie binnen de culturele context houdt ons uit de moeilijkheden."
-
-#. Tag: title
-#: how2-interpretation.docbook:150
-#, no-c-format
-msgid "Example 3B"
-msgstr "Voorbeeld 3B"
-
-#. Tag: para
-#: how2-interpretation.docbook:150
-#, no-c-format
-msgid "Gen.15:7-21. The historical context is that cutting animals in two and then walking between the pieces was the normal way of entering a contract in Abraham's day. Both parties walked between, taking the pledge that dismemberment would happen to them if they didn't live up to their part of the contract. But in this case only God goes thru, making it a unilateral covenant."
-msgstr "Gen.15:7-21. De historische context is dat het in twee stukken delen van dieren en dan tussen de stukken door lopen was een gebruikelijke manier om een belangrijke overeenkomst te sluiten. Beide partijen liepen er tussen, en deden zo de gelofte dat het degene die zich niet aan de overeenkomst hield net zo zou vergaan als die dieren. Maar in dit geval is God de enige die er tussendoor gaat, en zo een eenzijdig verbond sluit."
-
-#. Tag: title
-#: how2-interpretation.docbook:158
-#, no-c-format
-msgid "Rule 4 - Interpret according to the normal usage of words in language"
-msgstr "Regel 4 - Interpreteer volgens het normale gebruik van woorden in de taal"
-
-#. Tag: para
-#: how2-interpretation.docbook:159
-#, no-c-format
-msgid "Let literal language be literal and figurative language be figurative. And watch out for idioms, which have special meanings."
-msgstr "Laat literaire taal gewoon literaire taal zijn, en laat figuurlijke taal figuurlijk zijn. En kijk uit voor idioom met een speciale betekenis."
-
-#. Tag: title
-#: how2-interpretation.docbook:162
-#, no-c-format
-msgid "Example 4A"
-msgstr "Voorbeeld 4A"
-
-#. Tag: para
-#: how2-interpretation.docbook:163
-#, no-c-format
-msgid "<quote>evil eye</quote> in Mt.6:23."
-msgstr "<quote>slecht oog</quote> in Matt.6:23."
-
-#. Tag: para
-#: how2-interpretation.docbook:164
-#, no-c-format
-msgid "Rule 1, definition of \"evil\" and \"eye\" - no help here. Rule 2, context: seems to confuse us even more. It doesn't seem to fit with what goes before and after! This should tip us off that we aren't understanding it rightly!!"
-msgstr "Regel 1, definitie van \"slecht\" en \"oog\" - helpt niets. Regel 2, context: lijkt alleen maar meer onduidelijkheid te veroorzaken. Het lijkt niet te passen in wat er aan vooraf gaat, en wat er na komt. Dat zou ons erop moeten wijzen dat we het niet opvatten zoals het bedoeld is!!"
-
-#. Tag: para
-#: how2-interpretation.docbook:167
-#, no-c-format
-msgid "What we have here is a Hebrew idiom, <quote>evil eye</quote>. Let's look up other uses of this idiom: Mt.20:15 \"<emphasis>Is it not lawful for me to do what I wish with what is my own? Or is your eye envious [lit.\"evil\"] because I am generous [lit. \"good\"]?</emphasis>\" We find that having an \"evil eye\" is a Hebrew idiom for being stingy or envious. Now go back to Mt.6 and notice how this understanding ties in so perfectly to the context."
-msgstr "Waar we hier mee te maken hebben is een Hebreeuws idioom, <quote>slecht oog</quote>. Laten we andere plaatsen opzoeken waar dit idioom gebruikt wordt: Matt.20:15 \"<emphasis>Staat het mij niet vrij om met het mijne te doen wat ik wil? Of is uw oog boos, omdat ik goed ben?</emphasis>\" Een \"boos oog\" hebben, is een Hebreeuwse uitdrukking voor gierig of jaloers zijn. Nu terug naar Matt.6. Merk op hoe goed deze interpretatie past in de context."
-
-#. Tag: title
-#: how2-interpretation.docbook:173
-#, no-c-format
-msgid "Example 4B"
-msgstr "Voorbeeld 4B"
-
-#. Tag: para
-#: how2-interpretation.docbook:174
-#, no-c-format
-msgid "Is.59:1 <quote>The Lord's hand is not short;</quote>"
-msgstr "Jes.59:1 <quote>Zie, de hand des HEREN is niet te kort om te verlossen[...]</quote>"
-
-#. Tag: para
-#: how2-interpretation.docbook:175
-#, no-c-format
-msgid "Deut.33:27 <quote>Underneath are the everlasting arms.</quote>"
-msgstr "Deut.33:27 <quote>[De eeuwige God is u een woning en] onder u zijn eeuwige armen.</quote>"
-
-#. Tag: para
-#: how2-interpretation.docbook:176
-#, no-c-format
-msgid "References to body parts of God are used by Latter-Day Saints to prove that God was once a man just as we are. Once they convince people of that, they go on to teach that we can become God just like He is! At a lecture he was giving, a group of Mormon elders challenged Walter Martin (author of <emphasis>Kingdom of the Cults</emphasis>) with an enumeration of verses like these. Dr. Martin then asked the Mormons to read one more scripture: Ps.91:4 <quote>He will cover you with His feathers; And under His wings shalt thou trust</quote>. W.M. said, <quote>By the same rules of interpretation that you just proved God to be a man, you just proved that He is a bird</quote>. The Mormons had to laugh as they realised the ridiculousness of their position."
-msgstr "Verwijzingen naar delen van Gods lichaam worden door Heiligen van de Laatste Dagen (ook wel bekend als Mormonen) gebruikt om aan te tonen dat God ooit mens was net als wij. En als ze mensen daar eenmaal van hebben overtuigd, gaan ze verder door te leren dat wij God kunnen worden zoals Hij is! Bij een lezing die hij gaf, daagde een groep Mormoonse oudsten Walter Martin (schrijver van <emphasis>Kingdom of the Cults</emphasis>) uit met een opsomming van teksten zoals deze. Dr. Martin vroeg de Mormonen toen om nog een gedeelte te lezen uit de schrift: Ps91:4 <quote>Met zijn vlerken beschermt Hij u, en onder zijn vleugelen vindt gij een toevlucht.</quote> W.M. said, <quote>Door de manier van interpreteren waarmee jullie zojuist bewezen dat God een mens is, bewijzen jullie ook dat Hij een vogel is.</quote> De Mormonen moesten lachen toen zij zich realiseerden hoe belachelijk hun positie was."
-
-#. Tag: title
-#: how2-interpretation.docbook:188
-#, no-c-format
-msgid "Rule 5 - Understand the purpose of parables and the difference between a parable and an allegory"
-msgstr "Regel 5 - Begrijp de zin van gelijkenissen, en het verschil tussen een gelijkenis en een allegorie"
-
-#. Tag: para
-#: how2-interpretation.docbook:189
-#, no-c-format
-msgid "An allegory is: <emphasis>A story where each element has a meaning.</emphasis>"
-msgstr "Een allegorie is: <emphasis>Een verhaal waarin ieder element een betekenis heeft.</emphasis>"
-
-#. Tag: para
-#: how2-interpretation.docbook:190
-#, no-c-format
-msgid "Every parable is an allegory, true or false?"
-msgstr "Elke gelijkenis is een allegorie. Is dat juist of onjuist?"
-
-#. Tag: para
-#: how2-interpretation.docbook:192
-#, no-c-format
-msgid "Some parables are allegories, for instance, the parable of the sower is an allegory: the seed is the word of God, the thorns are worries and greed, etc. But most parables are not allegories but simply stories to illustrate one point. It's dangerous to get our doctrine from parables; they can be twisted to say all sorts of things. We need to get our doctrine from clear scriptures that lay it out; then if a parable illustrates that, fine."
-msgstr "Sommige gelijkenissen zijn allegorie&euml;n, bijvoorbeeld de gelijkenis van de zaaier: het zaad is het woord van God, de doornen zijn zorgen en hebzucht, enz. Maar de meeste gelijkenissen zijn geen allegorie&euml;n, maar slechts verhalen om een bepaald ding duidelijk te maken. Het is gevaarlijk om onze leer af te leiden van gelijkenissen; die zijn nogal makkelijk te verdraaien, zodat ze van alles kunnen zeggen. We moeten onze leer uit heldere schriftgedeelten halen, die het uiteenzetten, en als er dan een gelijkenis is die dat illustreert, dat is dan fijn."
-
-#. Tag: title
-#: how2-interpretation.docbook:197
-#, no-c-format
-msgid "Example 5A"
-msgstr "Voorbeeld 5A"
-
-#. Tag: para
-#: how2-interpretation.docbook:198
-#, no-c-format
-msgid "The parable of the widow with the unrighteous judge in Lk.18:1-8. This story illustrates one lesson: boldness in prayer. If we draw it into an allegory, what do we have?"
-msgstr "De gelijkenis van de weduwe met de onrechtvaardige rechter in Luc.18:1-8. Dit verhaal is een illustratie bij één les: volharding in gebed. Wat krijgen we als we er een allegorie van maken?"
-
-#. Tag: para
-#: how2-interpretation.docbook:200
-#, no-c-format
-msgid "All sorts of violence happens to the meanings: God is reluctant to protect the rights of widows, prayer \"bothers\" Him, etc."
-msgstr "De betekenis wordt op allerlei manieren geweld aangedaan: God is onwillig om de rechten van weduwen te beschermen, gebed \"kwelt\" Hem, enz."
-
-#. Tag: title
-#: how2-interpretation.docbook:203
-#, no-c-format
-msgid "Example 5B"
-msgstr "Voorbeeld 5B"
-
-#. Tag: para
-#: how2-interpretation.docbook:204
-#, no-c-format
-msgid "The parable of the unrighteous steward in Lk.16:1-9. What is the point of the parable? Is it an allegory?"
-msgstr "De gelijkenis van de onrechtvaardige rentmeester in Luc.16:1-9. Wat is het punt van vergelijking in deze gelijkenis? Is het een allegorie?"
-
-#. Tag: para
-#: how2-interpretation.docbook:206
-#, no-c-format
-msgid "The steward is commended for only one thing, his shrewdness in using what he had to prepare for a time when he wouldn't have it. But he is not commended for his unethical behavior in cheating his master."
-msgstr "De rentmeester wordt geloofd om zijn scherpzinnigheid betreffende het veiligstellen van zijn eigen hachje. Maar van zijn onethische gedrag (zijn heer oplichten) wordt niets gezegd."
-
-#. Tag: title
 #: sidebar_tips.xml:16 software_faq.xml:138
 #, no-c-format
 msgid "Translations"
@@ -1979,299 +475,311 @@ msgstr "Nieuws over BibleTime"
 #. Tag: title
 #: software.xml:42
 #, fuzzy, no-c-format
+msgid "2008-09-18:  BibleTime 1.7beta2"
+msgstr "2006-03-18: BibleTime 1.6beta1"
+
+#. Tag: para
+#: software.xml:43
+#, no-c-format
+msgid "BibleTime 1.7beta2 has been released. Though this version is labeled as beta it is completely usable and should be stable for daily work. Packagers and translators are encouraged to start their work. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\">More...</ulink>"
+msgstr ""
+
+#. Tag: title
+#: software.xml:51
+#, fuzzy, no-c-format
 msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
 msgstr "2007-11-04: BibleTime 1.6.5"
 
 #. Tag: para
-#: software.xml:43
+#: software.xml:52
 #, no-c-format
 msgid "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</ulink> how to setup your Linux to get the new packages."
 msgstr ""
 
 #. Tag: para
-#: software.xml:46
+#: software.xml:55
 #, no-c-format
 msgid "Version 1.6.5.1 has been released. It contains fixes so it can be installed on current versions of Linux."
 msgstr ""
 
 #. Tag: title
-#: software.xml:52
+#: software.xml:61
 #, no-c-format
 msgid "2008-01-12: BibleTime 1.7alpha1"
 msgstr "2008-01-12: BibleTime 1.7alpha1"
 
 #. Tag: para
-#: software.xml:53
+#: software.xml:62
 #, no-c-format
 msgid "The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\">Read the announcement</ulink> to know more about the current status and the future of BibleTime."
 msgstr "De nieuwe alpha-versie (=testversie) voor de KDE 4.0 omgeving is beschikbaar. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\">Lees deze aankondiging</ulink> om meer te weten te komen over de huidige status en de toekomst van BibleTime."
 
 #. Tag: title
-#: software.xml:58
+#: software.xml:67
 #, no-c-format
 msgid "2007-11-04: BibleTime 1.6.5"
 msgstr "2007-11-04: BibleTime 1.6.5"
 
 #. Tag: para
-#: software.xml:59
+#: software.xml:68
 #, no-c-format
 msgid "A new bugfix version of BibleTime is now available. It contains several important fixes in the bookshelfmanager, the sessionmanagement and in the text-display windows. It also ships with updated translations. The source code can be downloaded from our SourceForge page. Binary packages will be made available soon."
 msgstr "Er is een nieuwe versie van BibleTime beschikbaar met bugfixes. Deze bevat verscheidene belangrijke reparaties in de Boekenplank Manager, het sessiemanagement en de tekstweergavevensters. Ook zijn er vernieuwde vertalingen bijgevoegd. De broncode kan gedownload worden van onze SourceForge pagina. Binary packages zullen snel beschikbaar worden gemaakt."
 
 #. Tag: title
-#: software.xml:64
+#: software.xml:73
 #, no-c-format
 msgid "2007-04-18: BibleTime 1.6.4"
 msgstr "2007-04-18: BibleTime 1.6.4"
 
 #. Tag: para
-#: software.xml:65
+#: software.xml:74
 #, no-c-format
 msgid "A new bugfix release of BibleTime has been released today. Version 1.6.4 fixes issues with the NETfree Bible module, the search and also contains several smaller improvements. The bibletime-i18n translations contains updated Polish and Chinese translation files."
 msgstr "Er is vandaag een nieuwe versie van BibleTime vrijgegeven met reparaties (bugfixes). Versie 1.6.4 herstelt problemen met de NETfree Bijbel module en de zoekfunctie, maar bevat ook verscheidene kleinere verbeteringen. De bibletime-i18n vertalingen bevatten vernieuwde Poolse en Chinese vertaalbestanden."
 
 #. Tag: title
-#: software.xml:70
+#: software.xml:79
 #, no-c-format
 msgid "2007-01-29: BibleTime 1.6.3"
 msgstr "2007-01-29: BibleTime 1.6.3"
 
 #. Tag: para
-#: software.xml:71
+#: software.xml:80
 #, no-c-format
 msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linux distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
 msgstr "Versie 1.6.3 is vandaag vrijgegeven. Behalve verscheidene kleine reparaties, werkt de zoekfunctie in unicode modules nu weer. De vertalingen zijn ook vernieuwd. Zie de <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> voor een gedetailleerde lijst met veranderingen. We hopen snel packages aan te bieden voor de grotere linux distributies. Om vanuit de broncode te installeren, heb je Sword 1.5.9 en CLucene 0.9.16a nodig. Packages hiervan zijn verkrijgbaar op onze download locatie."
 
 #. Tag: title
-#: software.xml:77
+#: software.xml:86
 #, no-c-format
 msgid "2006-12-10: BibleTime 1.6.2"
 msgstr "2006-12-10: BibleTime 1.6.2"
 
 #. Tag: para
-#: software.xml:78
+#: software.xml:87
 #, no-c-format
 msgid "A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. The translation package bibletime-i18n has been updated, as well."
 msgstr "Er is vandaag een nieuwe versie vrijgegeven. Het bevat verscheidene reparaties (bugfixes), een samenvatting van deze wijzigingen is beschikbaar in de <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. De package met vertalingen, bibletime-i18n, is ook geüpdatet."
 
 #. Tag: title
-#: software.xml:84
+#: software.xml:93
 #, no-c-format
 msgid "2006-10-26: BibleTime 1.6.1"
 msgstr "2006-10-26: BibleTime 1.6.1"
 
 #. Tag: para
-#: software.xml:85
+#: software.xml:94
 #, no-c-format
 msgid "A new version of the BibleTime software has been made available today. BibleTime 1.6.1 contains several fixes for bugs which have been found in version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for details. The translation package bibletime-i18n has also been updated. Sword 1.5.9 and CLucene 0.9.15 are required before installing from source code. But we hope to provide binary packages soon."
 msgstr "Er is vandaag een nieuwe versie van BibleTime software beschikbaar gemaakt. BibleTime 1.6.1 bevat verscheidene reparaties voor fouten die aangetroffen werden in versie 1.6. Lees de <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> voor details. De package met vertalingen, bibletime-i18n, is ook vernieuwd. Sword 1.5.9 en CLucene 0.9.15 zijn benodigd alvorens te installeren vanuit de broncode. Maar we hopen snel binary packages aan te bieden."
 
 #. Tag: title
-#: software.xml:92
+#: software.xml:101
 #, no-c-format
 msgid "2006-09-22: BibleTime 1.6"
 msgstr "2006-09-22: BibleTime 1.6"
 
 #. Tag: para
-#: software.xml:93
+#: software.xml:102
 #, no-c-format
 msgid "A new version of BibleTime has been made available today. It includes many fixes and several new features like the instant search in the installed works."
 msgstr "Er is vandaag een nieuwe versie van BibleTime beschikbaar gemaakt. Het bevat vele reparaties en meerdere nieuwe functionaliteiten, zoals de instant zoekfunctie in ge&iuml;nstalleerde boekwerken."
 
 #. Tag: para
-#: software.xml:96
+#: software.xml:105
 #, no-c-format
 msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">here</ulink>"
 msgstr "U moet Sword 1.5.9 en CLucene 0.9.15 installeren alvorens deze uitgifte te installeren. Een gedetailleerde changelog is <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">hier</ulink> beschikbaar."
 
 #. Tag: title
-#: software.xml:102
+#: software.xml:111
 #, no-c-format
 msgid "2006-06-17: BibleTime 1.6beta3"
 msgstr "2006-06-17: BibleTime 1.6beta3"
 
 #. Tag: para
-#: software.xml:103
+#: software.xml:112
 #, no-c-format
 msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for the list of changes."
 msgstr "De derde beta release van BibleTime 1.6 is nu uit. Bekijk de <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> voor een lijst met veranderingen."
 
 #. Tag: para
-#: software.xml:107
+#: software.xml:116
 #, no-c-format
 msgid "You need to install CLucene 0.9.12 before installing this preview release."
 msgstr "U moet CLucene 0.9.12 installeren alvorens deze preview release te installeren."
 
 #. Tag: title
-#: software.xml:113
+#: software.xml:122
 #, no-c-format
 msgid "2006-04-26: BibleTime 1.6beta2"
 msgstr "2006-04-26: BibleTime 1.6beta2"
 
 #. Tag: para
-#: software.xml:114
+#: software.xml:123
 #, no-c-format
 msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for more details."
 msgstr "De tweede preview release van BibleTime 1.6 is nu uit. Bekijk de <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> voor meer details."
 
 #. Tag: para
-#: software.xml:118
+#: software.xml:127
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
 msgstr "U moet CLucene 0.9.10 installeren alvorens deze beta release te installeren."
 
 #. Tag: title
-#: software.xml:124
+#: software.xml:133
 #, no-c-format
 msgid "2006-03-18: BibleTime 1.6beta1"
 msgstr "2006-03-18: BibleTime 1.6beta1"
 
 #. Tag: para
-#: software.xml:125
+#: software.xml:134
 #, no-c-format
 msgid "The first beta release of the upcoming version 1.6 has been released today."
 msgstr "Deze eerste beta release van de ophanden zijnde versie 1.6 is vandaag vrijgegeven."
 
 #. Tag: para
-#: software.xml:129
+#: software.xml:138
 #, no-c-format
 msgid "Among many bug fixes it includes a new instant search feature, which enabled BibleTime to search in your installed works in a fraction of a second."
 msgstr "Onder de vele reparaties bevindt zich een nieuwe instant zoekfunctie, welke het BibleTime mogelijk maakt om uw ge&iuml;stalleerde boekwerken in een fractie van een seconde te doorzoeken."
 
 #. Tag: para
-#: software.xml:134
+#: software.xml:143
 #, no-c-format
 msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
 msgstr "De installatie van CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) is nodig om BibleTime 1.6beta1`te compileren en te installeren. Meldt alstublieft alle gevonden fouten en uw suggesties door gebruik te maken van onze trackers op <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
 
 #. Tag: title
-#: software.xml:149
+#: software.xml:158
 #, no-c-format
 msgid "2006-03-17: Locked German Bible"
 msgstr "2006-03-17: Vergrendelde Duitse Bijbel"
 
 #. Tag: para
-#: software.xml:150
+#: software.xml:159
 #, no-c-format
 msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decided to release their excellent, modern translation \"Hoffnung für Alle\" (GerHfa2002) for use by the Sword community."
 msgstr "De Duitse uitgever <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> heeft besloten om hun uitstekende, moderne vertaling \"Hoffnung f&uuml;r Alle\" (GerHfa2002) vrij te geven voor gebruik door de Sword gemeenschap."
 
 #. Tag: para
-#: software.xml:159
+#: software.xml:168
 #, no-c-format
 msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here </ulink> . This module is locked. If you want to use it, you can buy an unlock key for 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen </ulink> . CrossWire is not involved in the financial transaction and receives no share of the money."
 msgstr "De tekst bevat koppen, voetnoten, ... en kan <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> hier </ulink> gedownload worden. Deze module is vergrendeld. Als je hem wilt gebruiken, kun je direct bij <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> Brunnen </ulink> een sleutel kopen voor &euro;22,- om hem te ontgrendelen. CrossWire is niet betrokken in de financi&euml;le transactie en ontvangt niets van het geld."
 
 #. Tag: para
-#: software.xml:175
+#: software.xml:184
 #, no-c-format
 msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> will make use of this possibility </ulink> to distribute their copyrighted material for use with The SWORD Project."
 msgstr "We hopen dat in de toekomst meer uitgevers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> gebruikmaken van de mogelijkheid om </ulink> hun auteursrechtelijk beschermde materiaal te distribueren voor gebruik met het SWORD Project."
 
 #. Tag: para
-#: software.xml:184
+#: software.xml:193
 #, no-c-format
 msgid "This will ultimately increase the recent material available through The SWORD Project and help users with studying God's word. Stay tuned for more module updates soon!"
 msgstr "Dit zal uiteindelijk de hoeveelheid recent materiaal dat beschikbaar is via het SWORD Project doen toenemen, en zo gebruikers helpen om Gods Woord te bestuderen. Verlies ons niet uit het oog, want binnenkort volgen er meer vernieuwde modules!"
 
 #. Tag: title
-#: software.xml:193
+#: software.xml:202
 #, no-c-format
 msgid "2005-12-18: Translations, packages, FAQ"
 msgstr "2005-12-18: Vertalingen, packages, FAQ"
 
 #. Tag: para
-#: software.xml:194
+#: software.xml:203
 #, no-c-format
 msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
 msgstr "Een nieuwe uitgifte van onze vertaalpackage is nu beschikbaar op de download locatie. Het bevat vele updates van de vertalingen van de gebruikersinterface. We hopen binnenkort binary packages aan te bieden."
 
 #. Tag: para
-#: software.xml:200
+#: software.xml:209
 #, no-c-format
 msgid "Perhaps you noticed all the package updates in the last few months. Jeremy Erickson is working on it and is a great blessing for our team."
 msgstr "Misschien heb je alle vernieuwde packages opgemerkt in de laatste maanden. Jeremy Erickson werkt eraan en is een geweldige zegening voor ons team."
 
 #. Tag: para
-#: software.xml:205
+#: software.xml:214
 #, no-c-format
 msgid "The FAQ received some minor updates."
 msgstr "The FAQ is op enkele punten verbeterd."
 
 #. Tag: title
-#: software.xml:209
+#: software.xml:218
 #, no-c-format
 msgid "2005-11-13: BibleTime 1.5.3"
 msgstr "2005-11-13: BibleTime 1.5.3"
 
 #. Tag: para
-#: software.xml:210
+#: software.xml:219
 #, no-c-format
 msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
 msgstr "Er is nu een nieuwe bugfix release uit. Versie 1.5.3 bevat slechts een paar reparaties, hoofdzakelijk om vergrendelde modules volledig te ondersteunen en om te kunnen compileren met KDE 3.0 - 3.3."
 
 #. Tag: para
-#: software.xml:215
+#: software.xml:224
 #, no-c-format
 msgid "Get the new release in the download section. Binary packages should be available soon."
 msgstr "Deze nieuwe uitgifte is te verkrijgen in de download sectie. Binary packages zouden binnenkort beschikbaar moeten zijn."
 
 #. Tag: title
-#: software.xml:222
+#: software.xml:231
 #, no-c-format
 msgid "2005-10-16: BibleTime 1.5.2"
 msgstr "2005-10-16: BibleTime 1.5.2"
 
 #. Tag: para
-#: software.xml:223
+#: software.xml:232
 #, no-c-format
 msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
 msgstr "Een nieuwe bugfix release is vandaag uitgegeven. Versie 1.5.2 bevat reparaties voor de meeste fouten die naar voren kwamen in 1.5.1. Het bevat ook enkele kleine verbeteringen aan de gebruikersinterface. Kijk in het bestand Changelog in the broncode package voor meer details."
 
 #. Tag: para
-#: software.xml:230
+#: software.xml:239
 #, no-c-format
 msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
 msgstr "BibleTime 1.5.2 is beschikbaar van de gebruikelijke plaatsen. We zouden blij zijn als binary packages konden worden gemaakt om de installatie van BibleTime te vergemakkelijken."
 
 #. Tag: title
-#: software.xml:238
+#: software.xml:247
 #, no-c-format
 msgid "2005-09-28: New forums"
 msgstr "2005-09-28: Nieuwe fora"
 
 #. Tag: para
-#: software.xml:239
+#: software.xml:248
 #, no-c-format
 msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
 msgstr "Omdat de oude forum software onveilig bleek te zijn, hebben we vandaag nieuwe forum software ge&iuml;nstalleerd. We hopen dat jullie de fora blijven gebruiken."
 
 #. Tag: title
-#: software.xml:247
+#: software.xml:256
 #, no-c-format
 msgid "2005-09-12: BibleTime 1.5.1 and translations"
 msgstr "2005-09-12: BibleTime 1.5.1 en vertalingen"
 
 #. Tag: para
-#: software.xml:248
+#: software.xml:257
 #, no-c-format
 msgid "The bugfix release 1.5.1 is available now at our download location. A first version of BibleTime's translation files has been released, too."
 msgstr "De bugfix release 1.5.1 is nu beschikbaar op onze download locatie. Een eerste versie van BibleTime vertaalbestanden is ook uitgegeven."
 
 #. Tag: title
-#: software.xml:256
+#: software.xml:265
 #, no-c-format
 msgid "2005-07-16: BibleTime 1.5"
 msgstr "2005-07-16: BibleTime 1.5"
 
 #. Tag: para
-#: software.xml:257
+#: software.xml:266
 #, no-c-format
 msgid "BibleTime 1.5 is available now. It contains many new features and improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available in the download section. We hope to provide binary and translation packages for the most important Linux distributions in the next few weeks."
 msgstr "BibleTime 1.5 is nu beschikbaar. Het bevat veel nieuwe functionaliteiten en verbeteringen. De broncode van BibleTime 1.5 en Sword 1.5.8 is beschikbaar in de download sectie. We hopen in de komende paar weken te zorgen voor binary packages en vertaalpackages voor de belangrijkste Linux distributies."
 
 #. Tag: para
-#: software.xml:265
+#: software.xml:274
 #, no-c-format
 msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
 msgstr "Gebruik alstublieft onze nieuwe fora om deze over nieuwe uitgifte te discussi&euml;ren. Vertalers worden aangemoedigd om hun vertalingen te updaten."
@@ -4101,6 +2609,756 @@ msgstr "<title>Vertaal het programma handboek.</title>"
 #, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\">the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\">the template</ulink>."
 msgstr ""
+
+#~ msgid "The Biblestudy HowTo"
+#~ msgstr "Bijbelstudie HowTo"
+
+#~ msgid "<firstname>Bob</firstname> <surname>Harman</surname>"
+#~ msgstr "<firstname>Bob</firstname> <surname>Harman</surname>"
+
+#~ msgid "ROLES_OF_TRANSLATORS"
+#~ msgstr "<othercredit role=\"translator\"><firstname>Harry</firstname><surname>Vennik</surname><affiliation><address><email>htvennik@zonnet.nl</email></address></affiliation><contrib></contrib></othercredit>"
+
+#~ msgid "The team of &bibletime;, info@bibletime.info"
+#~ msgstr "Het &bibletime; team, info@bibletime.info"
+
+#~ msgid "Bob Harman"
+#~ msgstr "Bob Harman"
+
+#~ msgid "The copyright of this text is held by the author Bob Harman. The text was adapted for publication with BibleTime by Fred Saalbach."
+#~ msgstr "Het auteursrecht voor deze tekst is van Bob Harman. De tekst is door Fred Saalbach aangepast voor publicatie met BibleTime."
+
+#~ msgid "Non exclusive serial rights for this distribution of this document with the &bibletime; Software have been made. Redistribution as part of the Bibletime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
+#~ msgstr "Non exclusive serial rights for this distribution of this document with the &bibletime; Software have been made. Redistribution as part of the BibleTime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
+
+#~ msgid "For questions regarding the use of this material contact Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
+#~ msgstr "Voor vragen over het gebruik van dit materiaal kunt u contact opnemen met Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
+
+#~ msgid "Scripture quotes are from the New American Standard Bible unless otherwise indicated"
+#~ msgstr "Schriftgedeelten zijn geciteerd uit de vertaling van het Nederlands Bijbelgenootschap (NBG 1951), tenzij anders vermeld "
+
+#~ msgid "Abstract"
+#~ msgstr "Overzicht"
+
+#~ msgid "The <application>Biblestudy HowTo</application> is a guide for studying the Bible."
+#~ msgstr "De <application>Bijbelstudie HowTo</application> is een gids bij het bestuderen van de Bijbel."
+
+#~ msgid "It is the hope of the &bibletime; team that this HowTo will provoke the readers to study the scriptures to see what they say. This particular study guide has been chosen as it takes care not to advocate any particular denominational doctrine. We expect you to read and study the scriptures to understand what they say. If you start with the attitude that you want to have the Lord sow his word in your heart He will not disappoint you."
+#~ msgstr "Het &bibletime; team hoopt dat deze HowTo de lezers uitdaagt om de schriften te bestuderen om erachter te komen wat ze te zeggen hebben. Er is gekozen voor deze bijbelstudie-gids omdat die niet de doctrine van een bepaalde denominatie verdedigt. We verwachten dat je de schriften bestudeert om erachter te komen wat ze zeggen. Als je eraan begint met het verlangen dat de Heer Zijn woord in je hart zaait, zal Hij je zeker niet teleurstellen!"
+
+#~ msgid "Bible"
+#~ msgstr "Bijbel"
+
+#~ msgid "Study"
+#~ msgstr "Bestuderen"
+
+#~ msgid "HowTo"
+#~ msgstr "HowTo"
+
+#~ msgid "Bible Study Basics"
+#~ msgstr "Basisprincipes van bijbelstudie"
+
+#~ msgid "Our Purpose as we Approach the Bible"
+#~ msgstr "Ons doel als we de bijbel benaderen "
+
+#~ msgid "Jn.5:39-40<quote>You search the Scriptures, because you think that in them you have eternal life; and it is these that bear witness of Me; and you are unwilling to come to Me, that you may have life.</quote>"
+#~ msgstr "Joh.5:39-40<quote>Gij onderzoekt de schriften, want gij meent daarin eeuwig leven te hebben, en deze zijn het die van Mij getuigen, en toch wilt gij niet tot Mij komen om leven te hebben.</quote>"
+
+#~ msgid "The chief purpose of the book is to bring us to the Person. Martin Luther said <quote>we go to the cradle only for the sake of the baby</quote>; just so in Bible study, we do it not for its own sake but for fellowship with God."
+#~ msgstr "Het hoofddoel van het boek is om ons bij de Persoon te brengen. Maarten Luther zei eens <quote>wij gaan alleen naar de wieg voor de baby</quote>; Met de bijbel is het net zo: we bestuderen de bijbel, niet als doel op zich, maar om in contact te komen met God."
+
+#~ msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.97, 104."
+#~ msgstr "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, blz.97, 104."
+
+#~ msgid "The Jews to whom Jesus spoke [...] imagined that to possess Scripture was tantamount to possessing life. Hillel used to say, &quot;He who has gotten to himself words of Torah has gotten to himself the life of the world to come.&quot; Their study was an end in itself. In this they were grievously deceived. [...]"
+#~ msgstr "De Joden waartegen Jezus sprak [...] verbeeldden zich dat het bezit van de Schrift gelijkstond met het bezit van het Leven. Hillel zei het zo: &quot;Degene die de woorden van de Torah in zich heeft gekregen, heeft het leven in de toekomende wereld in zich gekregen.&quot; Hun studie was een doel op zichzelf. Hierin waren ze pijnlijk misleid. [...]"
+
+#~ msgid "There is neither merit nor profit in the reading of Scripture for its own sake, but only if it effectively introduces us to Jesus Christ. Whenever the Bible is read, what is needed is an eager expectation that through it we may meet Christ."
+#~ msgstr "De bijbel op zich bestuderen baat noch schaadt, behalve dan wanneer dat ons bekend maakt met Jezus Christus. Telkens als de bijbel gelezen wordt, is een sterk verlangen nodig om daardoor Christus te ontmoeten."
+
+#~ msgid "Approaches to God's Word"
+#~ msgstr "Manieren om Gods woord te benaderen"
+
+#~ msgid "Hearing and reading provide a telescopic view of the scripture while study and memorization provide a microscopic view of scripture. Meditating on the scriptures brings hearing, reading, studying and memorization together and cements the word in our minds."
+#~ msgstr "Horen en lezen geven een telescoop-beeld van de schrift, terwijl studie en het uit het hoofd leren van teksten een microscoop-beeld geven. Overdenking van de schriften brengt horen, lezen, studie en memorisatie bij elkaar en bevestigt het woord in onze gedachten."
+
+#~ msgid "Hear"
+#~ msgstr "Horen"
+
+#~ msgid "Lk.11:28 <quote>blessed are those who hear the word of God, and observe it.</quote>"
+#~ msgstr "Luc.11:28 <quote>Maar Hij zeide: Zeker, zalig, die het woord van God horen en het bewaren.</quote>"
+
+#~ msgid "Read"
+#~ msgstr "Lezen"
+
+#~ msgid "Rev.1:3 <quote>Blessed is he who reads and those who hear the words of this prophecy [...]</quote>"
+#~ msgstr "Opb.1:3<quote>Zalig is hij, die voorleest, en zij, die horen de woorden der profetie, en bewaren, hetgeen daarin geschreven staat [...]</quote>"
+
+#~ msgid "1 Tim.4:13 <quote>give attention to the public reading of Scripture [...]</quote>"
+#~ msgstr "1 Tim.4:13 <quote>[...] moet gij u toeleggen op het voorlezen [...]</quote>"
+
+#~ msgid "Acts 17:11 <quote>Now these were more noble-minded than those in Thessalonica, for they received the word with great eagerness, examining the Scriptures daily, to see whether these things were so.</quote>"
+#~ msgstr "Hand.17:11 <quote>en dezen onderscheidden zich gunstig van die te Tessalonica, daar zij het woord met alle bereidwilligheid aannamen en dagelijks de schriften nagingen, of deze dingen zo waren.</quote>"
+
+#~ msgid "2 Tim.2:15 <quote>Be diligent [KJV `Study'] to present yourself approved to God as a workman who does not need to be ashamed, handling accurately the word of truth.</quote>"
+#~ msgstr "2 Tim.2:15 <quote>Maak er ernst mee u w&eacute;l beproefd ten dienste van God te stellen, als een arbeider, die zich niet behoeft te schamen, doch rechte voren trekt bij het brengen van het woord der waarheid.</quote>"
+
+#~ msgid "Memorize"
+#~ msgstr "Memoriseren "
+
+#~ msgid "Ps.119:11 <quote>Thy word I have hid in my heart, that I may not sin against Thee.</quote>"
+#~ msgstr "Ps.119:11 <quote>Ik berg uw woord in mijn hart, opdat ik tegen U niet zondige.</quote>"
+
+#~ msgid "Meditate"
+#~ msgstr "Overdenken"
+
+#~ msgid "Ps.1:2-3 <quote>But his delight is in the law of the Lord, And in His law he meditates day and night. And he will be like a tree firmly planted by streams of water, Which yields its fruit in its season, And its leaf does not wither; And in whatever he does, he prospers.</quote>"
+#~ msgstr "Ps.1:1-3<quote>Welzalig de man die [...] aan des HEREN wet zijn welgevallen heeft, en diens wet overpeinst bij dag en bij nacht. Want hij is als een boom, geplant aan waterstromen, die zijn vrucht geeft op zijn tijd, welks loof niet verwelkt; al wat hij onderneemt gelukt.</quote>"
+
+#~ msgid "The Navigators illustrate this by saying that as the thumb can touch all the fingers, we can meditate on the Word as we do any of the first four. Meditation is a key to revelation. A new Christian needs to hear and read the Bible more than they need to study and memorize it. This is so that they become familiar with the overall message of the Bible."
+#~ msgstr "De Navigators illustreren dit door te zeggen dat zoals de duim alle andere vingers kan aanraken, we het Woord kunnen overdenken terwijl we bezig zijn met een van de eerste vier dingen. Overdenking is een sleutel tot openbaring. Iemand die nog maar pas Christen is, heeft meer behoefte aan het horen en lezen van de bijbel dan aan studie en memorisatie van teksten. Dit is om bekend te worden met de globale boodschap van de bijbel. "
+
+#~ msgid "Types of Bible Studies"
+#~ msgstr "Verschillende soorten van bijbelstudie"
+
+#~ msgid "Topical Study"
+#~ msgstr "Thematische studie"
+
+#~ msgid "Pick out a certain topic and follow it through, using cross-references or a concordance."
+#~ msgstr "Kies een bepaald onderwerp en ga het na door het volgen van tekstverwijzingen of door een concordantie te gebruiken."
+
+#~ msgid "Character Study"
+#~ msgstr "Karakterstudie"
+
+#~ msgid "Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
+#~ msgstr "Het bestuderen van het leven van een persoon in de bijbel, bijvoorbeeld het leven van Jozef in Gen.37-50."
+
+#~ msgid "Expository Study"
+#~ msgstr "Studie vanuit een bijbelgedeelte"
+
+#~ msgid "Studying a certain passage: paragraph, chapter, or book."
+#~ msgstr "Het bestuderen van een bepaalde passage, of een alinea, hoofdstuk of boek."
+
+#~ msgid "Basics of Correct Interpretation"
+#~ msgstr "Basisprincipes voor juiste interpretatie"
+
+#~ msgid "Content"
+#~ msgstr "Inhoud"
+
+#~ msgid "What does it say? What does it say in the original language? Be careful with definitions. Don't read into it what it doesn't say."
+#~ msgstr "Wat staat er? Wat staat er in de grondtekst? Wees voorzichtig met definities. Lees er niets in, wat er niet echt staat."
+
+#~ msgid "Context"
+#~ msgstr "Context"
+
+#~ msgid "What do the verses around it say? &quot;Context is king&quot; is the rule -- the passage must make sense within the structure of the entire passage and book."
+#~ msgstr "Wat staat er in de verzen eromheen? &quot;De context is koning&quot; is de regel -- de passage moet betekenis hebben in de structuur van de hele passage en het hele boek."
+
+#~ msgid "Cross-reference"
+#~ msgstr "Tekstverwijzingen"
+
+#~ msgid "What do other verses about this subject say through the rest of the Bible? God doesn't contradict Himself, so our interpretation needs to stand the test of other scriptures."
+#~ msgstr "Wat staat er in andere verzen over hetzelfde onderwerp, in de rest van de bijbel? God spreekt zichzelf niet tegen, dus zal onze interpretatie de test van vergelijking met ander schriftgedeelten moeten kunnen doorstaan."
+
+#~ msgid "An Expository Study of Matthew 6:1-18"
+#~ msgstr "Een studie van een bijbelgedeelte: Matte&uuml;s 6:1-18"
+
+#~ msgid "Let's study together Mt.6:1-18. Read it to yourself, first looking for the key verse, the verse that sums up the whole passage. Think you have it? Test it by picking different places in the passage and asking yourself if they relate to the thought of the key verse. Once you find it, write it as Roman numeral One of your outline:"
+#~ msgstr "Laten we samen Matt.6:1-18 bestuderen. Lees het voor jezelf, zoekend naar het kernvers, het vers dat gezien kan worden als een samenvatting van het hele gedeelte. Denk je dat je die te pakken hebt? Test je vermoeden door verschillende plaatsen in het gedeelte eruit te lichten, en jezelf af te vragen of ze in verband staan met het vermoedelijke kernvers. Heb je het kernvers eenmaal gevonden, geef dat vers dan het Romeinse cijfer I in je overzicht:"
+
+#~ msgid "Beware of practicing your righteousness before men to be noticed"
+#~ msgstr "Ziet toe, dat gij uw gerechtigheid niet doet voor de mensen, om door hen opgemerkt te worden;"
+
+#~ msgid "What does <quote>practicing your righteousness</quote> mean? Does the passage give any examples? What area of our lives is being addressed? <emphasis>Our motives!</emphasis> What sub-headings develop this thought?"
+#~ msgstr "Wat betekent <quote>uw gerechtigheid doen</quote>? Geeft het gelezen gedeelte daar voorbeelden van? Over welk aspect van ons leven gaat het hier? <emphasis>Onze motieven!</emphasis> Welke ondertitels ontwikkelen deze gedachte?"
+
+#~ msgid "When you give"
+#~ msgstr "Wanneer gij aalmoezen geeft"
+
+#~ msgid "When you fast"
+#~ msgstr "Wanneer gij vast"
+
+#~ msgid "When you pray"
+#~ msgstr "Wanneer gij bidt"
+
+#~ msgid "Now fill in the outline with specific instructions of how to avoid wrong ways of practicing our righteousness:"
+#~ msgstr "Vul nu het overzicht in met specifieke aanwijzingen over hoe je kunt voorkomen op verkeerde manieren gerechtigheid te beoefenen:"
+
+#~ msgid "don't sound a trumpet. (how might someone <quote>sound a trumpet</quote> today?)"
+#~ msgstr "blaas niet de bazuin. (hoe zou iemand tegenwoordig op <quote>de bazuin blazen</quote>?; Let ook op het gezegde: <quote>iets rondbazuinen</quote>)"
+
+#~ msgid "do it secretly."
+#~ msgstr "geef uw aalmoes in het verborgene"
+
+#~ msgid "etc."
+#~ msgstr "etc."
+
+#~ msgid "Worksheet: How to Use a Concordance"
+#~ msgstr "Werkblad: Hoe gebruik je een concordantie?"
+
+#~ msgid "To Find a Particular Verse"
+#~ msgstr "Om een bepaald vers te vinden"
+
+#~ msgid "Pick out a key word or most-unusual word of the verse."
+#~ msgstr "Neem het kernwoord, of het meest ongebruikelijke woord uit het vers."
+
+#~ msgid "Turn to this word alphabetically."
+#~ msgstr "Zoek dit woord op in de concordantie."
+
+#~ msgid "Go down the column of listings until you find your verse."
+#~ msgstr "Loop de lijst van teksten bij dat woord na, totdat je je tekst gevonden hebt."
+
+#~ msgid "Find these verses:"
+#~ msgstr "Vind deze verzen:"
+
+#~ msgid "Faithful are the wounds of a friend"
+#~ msgstr "Oprecht gemeend zijn de wonden door een vriend geslagen"
+
+#~ msgid "We are ambassadors of Christ."
+#~ msgstr "Wij zijn dus gezanten van Christus."
+
+#~ msgid "The story of the rich man and Lazarus."
+#~ msgstr "De rijke man en de arme Lazarus."
+
+#~ msgid "To Do a Topical Study"
+#~ msgstr "Een thematische studie doen"
+
+#~ msgid "Let's say you wanted to do a study of the word &quot;redemption.&quot; First you would look up that word in the concordance and look up references listed for it. Then you could look up related words and references listed for them, e.g. &quot;redeem, redeemed, ransom,&quot; even &quot;buy&quot; or &quot;bought.&quot;"
+#~ msgstr "Stel dat je een studie wilt doen over het woord &quot;verlossing&quot; Als eerste zou je dat woord opzoeken in een concordantie, en de daarbij genoemde teksten opzoeken. Dan zou je verwante woorden kunnen gaan opzoeken, en de daarbij genoemde teksten. Bijvoorbeeld de woorden &quot;verlossen, verlost, losgeld,&quot; en zelfs &quot;vrijkopen&quot; of &quot;vrijgekocht.&quot;"
+
+#~ msgid "To Clarify Word Meanings in the Greek and Hebrew"
+#~ msgstr "Om de betekenis van Hebreeuwse en Griekse woorden duidelijk maken"
+
+#~ msgid "What if you noticed a contradiction in the KJV between Mt.7:1 <quote>Judge not lest you be judged</quote> and 1 Cor.2:15 <quote>He that is spiritual judgeth all things.</quote> Maybe there are two different Greek words here, both being translated &quot;judge&quot; in English? (We're using Strong's from here out.)"
+#~ msgstr "Wat nu als je een tegenstelling ontdekt? Zoals in Matt.7:1 <quote>Oordeelt niet opdat gij niet geoordeeld wordt</quote> en 1 Cor.2:15 <quote>Maar de geestelijke mens beoordeelt alle dingen</quote> Misschien staan hier twee verschillende Griekse woorden, die beide met hetzelfde woord vertaald worden. [in het Engels is deze tegenstelling nog scherper, omdat &quot;oordelen&quot; en &quot;beoordelen&quot; in de KJV beiden zijn weergegeven als een vorm van &quot;to judge&quot;] (Vanaf hier gebruiken wij Strong-nummers.)"
+
+#~ msgid "Look up &quot;judge&quot;."
+#~ msgstr "Zoek op &quot;oordeelt&quot;."
+
+#~ msgid "Go down the column of entries to Mt.7:1. To the right is a number, 2919. This refers to the Greek word used. Write it down."
+#~ msgstr "Loop de kolom door tot Matt.7:1. Rechts van het woord 'oordeelt' staat het (Strong-)nummer 2919. Dit verwijst naar het Griekse woord. Schrijf het op."
+
+#~ msgid "Now look up &quot;judgeth&quot;."
+#~ msgstr "Zoek nu &quot;beoordeelt&quot; op."
+
+#~ msgid "Go down the column to 1 Cor.2:15 . . . . . 350."
+#~ msgstr "Loop de kolom door tot 1 Cor.2:15 . . . . . 350."
+
+#~ msgid "Turn in the back to the Greek dictionary. (Remember, you're in the NT so the language is Greek, while the OT is Hebrew.) Compare the meaning of 2919 with the meaning of 350 and you have your answer!"
+#~ msgstr "Ga naar het Griekse woordenboek. (We zijn bezig in het Nieuwe testament, dus de grondtaal is Grieks, terwijl het Oude Testament oorspronkelijk in het Hebreeuws is.) Vergelijk de betekenis van 2919 met de betekenis van 350, en je hebt het antwoord!"
+
+#~ msgid "To Find Meanings of Names"
+#~ msgstr "Om de betekenis van een naam te vinden"
+
+#~ msgid "By the same process we can find the meaning of a name in the Greek or Hebrew."
+#~ msgstr "Op dezelfde manier kunnen we de betekenis van een naam in het Grieks of Hebreeuws vinden."
+
+#~ msgid "Look up these names and write down their meaning:"
+#~ msgstr "Zoek de volgende namen op en schrijf hun betekenis erbij:"
+
+#~ msgid "Nabal"
+#~ msgstr "Nabal"
+
+#~ msgid "Abigail"
+#~ msgstr "Abigail"
+
+#~ msgid "Joshua"
+#~ msgstr "Jozua"
+
+#~ msgid "Barnabus"
+#~ msgstr "Barnabas"
+
+#~ msgid "Importance of God's Word"
+#~ msgstr "Het belang van Gods Woord"
+
+#~ msgid "Understanding God's word is of great importance to all who call on God's name. Study of the Bible is one of the primary ways that we learn to communicate with God."
+#~ msgstr "Voor iedereen wie Gods naam aanroept, is het belangrijk om Gods woord te begrijpen. Het bestuderen van de bijbel is een van de belangrijkste manieren om te leren communiceren met God."
+
+#~ msgid "A Book that is Unique"
+#~ msgstr "Een uniek boek"
+
+#~ msgid "The Bible stands alone in many ways. It is unique in:"
+#~ msgstr "De bijbel is de enige in veel dingen. Hij is uniek in:"
+
+#~ msgid "popularity. Bible sales in North America: more than $500 million per year. The Bible is both the the all-time and year-to-year best seller!"
+#~ msgstr "populariteit. De bijbelverkoop in Noord-Amerika bedraagt meer dan $500 miljoen per jaar. De bijbel is zowel het best verkochte boek ooit, als de jaarlijkse bestseller!"
+
+#~ msgid "authorship. It was written over a period of 1600 years by 40 different authors from different backgrounds, yet reads as if written by one."
+#~ msgstr "auteurs. De bijbel is geschreven in een periode van 1600 jaren door 40 verschillende auteurs, met verschillende achtergronden, maar leest alsof hij geschreven is door &eacute;&eacute;n persoon."
+
+#~ msgid "preservation. F. F. Bruce in <emphasis>Are New Testament Documents Reliable?</emphasis> compares New Testament manuscripts with other ancient texts:"
+#~ msgstr "bewaring. F.F. Bruce vergelijkt in <emphasis>Are New Testament Documents Reliable?</emphasis> handschriften van het Nieuwe Testament met andere oude teksten:"
+
+#~ msgid "Comparison of New Testament manuscripts with other ancient texts."
+#~ msgstr "Vergelijking van handschriften van het Nieuwe Testament met andere oude teksten."
+
+#~ msgid "Work"
+#~ msgstr "Werk"
+
+#~ msgid "When Written"
+#~ msgstr "Wanneer geschreven"
+
+#~ msgid "Earliest Copy"
+#~ msgstr "Oudste kopie"
+
+#~ msgid "Time Lapse"
+#~ msgstr "Tijdsduur"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Aantal exemplaren"
+
+#~ msgid "Herodotus"
+#~ msgstr "Herodotus"
+
+#~ msgid "448-428 B.C."
+#~ msgstr "448-428 v. Chr."
+
+#~ msgid "900 A.D."
+#~ msgstr "900 na Chr."
+
+#~ msgid "1300 years"
+#~ msgstr "1300 jaar"
+
+#~ msgid "<entry>8</entry>"
+#~ msgstr "<entry>8</entry>"
+
+#~ msgid "Tacitus"
+#~ msgstr "Tacitus"
+
+#~ msgid "100 A.D."
+#~ msgstr "100 na Chr."
+
+#~ msgid "1100 A.D."
+#~ msgstr "1100 na Chr."
+
+#~ msgid "1000 years"
+#~ msgstr "1000 jaar"
+
+#~ msgid "<entry>20</entry>"
+#~ msgstr "<entry>20</entry>"
+
+#~ msgid "Caesar's <emphasis>Gallic War</emphasis>"
+#~ msgstr "Caesar's <emphasis>Gallic War</emphasis>"
+
+#~ msgid "50-58 B.C."
+#~ msgstr "50-58 v. Chr."
+
+#~ msgid "950 years"
+#~ msgstr "950 jaar"
+
+#~ msgid "<entry>10</entry>"
+#~ msgstr "<entry>10</entry>"
+
+#~ msgid "Livy's <emphasis>Roman History</emphasis>"
+#~ msgstr "<emphasis>Roman History</emphasis> van Livy"
+
+#~ msgid "59 B.C. - 17 A.D."
+#~ msgstr "59 v. Chr. - 17 na Chr."
+
+#~ msgid "900 years"
+#~ msgstr "900 jaar"
+
+#~ msgid "New Testament"
+#~ msgstr "Nieuwe Testament"
+
+#~ msgid "40 A.D. - 100 A.D."
+#~ msgstr "40 - 100 n. Chr."
+
+#~ msgid "130 A.D. Partial manuscripts 350 A.D. Full manuscripts"
+#~ msgstr "130 na Chr. Gedeeltelijke handschriften 350 na Chr. Complete handschriften"
+
+#~ msgid "30 - 310 years"
+#~ msgstr "30 - 310 jaar"
+
+#~ msgid "5000 Greek &amp; 10,000 Latin"
+#~ msgstr "5000 Grieks &amp; 10.000 Latijn"
+
+#~ msgid "Ten copies of Caesar's <emphasis>Gallic War</emphasis> exist, the earliest of which was copied 900 years after Caesar wrote the original, etc. For the New Testament we have full manuscripts dating to 350 A. D., papyri containing most of the New Testament from the 200s, and a fragment of John's gospel from 130 A. D. How many manuscripts do we have to compare to each other? 5,000 in Greek and 10,000 in Latin!"
+#~ msgstr "Er bestaan tien kopie&euml;n van Caesar's <emphasis>Gallic War</emphasis>, de oudste daarvan is van 900 jaar nadat Caesar het origineel schreef, etc. Van het Nieuwe Testament hebben we complete handschriften van 350 na Chr., papyrusrollen die een groot deel van het Niewe Testament bevatten uit de jaren 200, en een deel van het Johannes evangelie uit het jaar 130. Hoeveel handschriften hebben we om onderling te kunnen vergelijken? 5.000 in het Grieks en 10.000 in het Latijn!"
+
+#~ msgid "Textual critic F. J. A. Hort, \"The New Testament in the Original Greek\", vol. 1 p561, Macmillan Co., quoted in <emphasis>Questions of Life</emphasis> p. 25-26"
+#~ msgstr "Schriftcriticus F. J. A. Hort, \"The New Testament in the Original Greek\", vol. 1 blz. 561, Macmillan Co., geciteerd in <emphasis>Questions of Life</emphasis> blz. 25-26"
+
+#~ msgid "\"In the verity and fullness of the evidence on which it rests, the text of the New Testament stands absolutely and unapproachably alone among other ancient prose writings.\""
+#~ msgstr "\"In de waarheid an compleetheid van het bewijs waarop het rust, staat de tekst van het Nieuwe Testament absoluut en onbenaderbaar alleen tussen alle andere antieke proza.\""
+
+#~ msgid "A Book that God Breathed"
+#~ msgstr "Een boek met de adem van God"
+
+#~ msgid "<emphasis>Heb.4:12 </emphasis>\"<emphasis>For the word of God is living and active... </emphasis>\" Jesus said <emphasis>(Mt.4:4),</emphasis> \"<emphasis>It is written, Man shall not live on bread alone, but on every word that proceeds [lit., is proceeding] from the mouth of God.</emphasis>\" As we read the Bible, God's Spirit is there to speak it to our hearts in a continually-fresh way."
+#~ msgstr "<emphasis>Heb.4:12</emphasis>\"<emphasis>Want het woord Gods is levend en krachtig...</emphasis>\" Jezus zei <emphasis>(Matt.4:4),</emphasis> \"<emphasis>Er staat geschreven: Niet alleen van brood zal de mens leven, maar van alle woord, dat uit de mond Gods uitgaat.</emphasis>\" Terwijl we de bijbel lezen, is Gods Geest er om het tot onze harten te spreken op een altijd nieuwe manier."
+
+#~ msgid "2 Tim.3:16 declares, \"<emphasis>All scripture is inspired by God [lit., God-breathed].</emphasis>\" Do you believe this? Before you answer, consider Jesus' attitude toward the Scriptures."
+#~ msgstr "2 Tim.3:16 (SV) zegt, \"<emphasis>Al de Schrift is van God ingegeven [lett., die God ademde].</emphasis>\" Geloof je dit? Bedenk, voordat je antwoord geeft, hoe Jezus' houding tegenover de Schriften was."
+
+#~ msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.93-95"
+#~ msgstr "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, blz. 93-95"
+
+#~ msgid "He referred to the human authors, but took it for granted that behind them all was a single divine Author. He could equally say 'Moses said' or 'God said' (Mk.7:10). He could quote a comment of the narrator in Genesis 2:24 as an utterance of the Creator Himself (Mt.19:4-5). Similarly He said, 'Well did Isaiah prophesy of you hypocrites, as it is written', when what He went on to quote is the direct speech of the Lord God (Mk.7:6 &amp; Is.29:13). It is from Jesus Himself that the New Testament authors have gained their conviction of the dual authorship of Scripture. For them it was just as true to say that 'God spoke of old to our fathers by the prophets' (Heb.1:1) as it was to say that 'men moved by the Holy Spirit spoke from God' (2 Pe.1:21). God did not speak in such a way as to obliterate the personality of the human authors, nor did men speak in such a way as to corrupt the Word of the divine Author. God spoke. Men spoke. Neither truth must be allowed to detract from the other. ..."
+#~ msgstr "Hij verwees naar de menselijke schrijvers, maar nam zondermeer aan dat achter hen een enkele goddelijke Schrijver zat. Hij kon, zonder verschil te maken, zeggen  'Mozes zei' of 'God zei' (Mar.7:10). Hij kon een opmerking van de verteller in Genesis 2:24 aanhalen als een uiting van de Schepper zelf (Matt. 19:4-5). Op dezelfde manier zei Hij, 'Terecht heeft Jesaja van u, huichelaars, geprofeteerd, zoals er geschreven staat', terwijl wat Hij daarna citeerd het directe woord van de Here God is (Mar.7:6 &amp; Jes 29:13). Hun overtuiging van het dubbele auteurschap van de Schriften hebben de auteurs van het Nieuwe Testament overgenomen van Jesus zelf. Het was voor hen net zo terecht om te zeggen dat 'God sprak tot onze vaderen door de profeten '(Heb.1:1) als het was om te zeggen 'door de Heilige Geest gedreven, hebben mensen van Godswege gesproken' (2 Pe 1:21). God sprak niet zodanig dat Hij aan de persoonlijkheid van de menselijke schrijvers voorbijging, net zo min spraken mensen zodanig dat zij het woord van de goddelijke Schrijver aantastten. God sprak. Mensen spraken. Geen van die twee waarheden mag iets van de andere afdoen."
+
+#~ msgid "This, then, was Christ's view of the Scriptures. Their witness was God's witness. The testimony of the Bible is the testimony of God. And the chief reason why the Christian believes in the divine origin of the Bible is that Jesus Christ Himself taught it."
+#~ msgstr "Christus zag de Schriften als volgt: Hun getuigenis was Gods getuigenis. Het getuigenis van de bijbel is het getuigenis van God. En de voornaamste reden waarom de Christen gelooft  in de goddelijke oorsprong van de bijbel is dat Jezus Christus zelf dat leerde."
+
+#~ msgid "2 Tim.3:16 goes on, \"<emphasis>and profitable for teaching, for correction, for training in righteousness, that the man of God may be adequate, equipped for every good work.</emphasis>\" If we accept that the Bible really is God speaking to us, it follows that it will be our authority in all matters of faith and conduct."
+#~ msgstr "2 Tim 3:16 gaat verder, \"<emphasis>is ook nuttig om te onderrichten, te weerleggen, te verbeteren en op te voeden in de gerechtigheid, opdat de mens Gods volkomen zij, tot alle goed werk volkomen toegerust.</emphasis>\" Als wij accepteren dat de bijbel in feite God is die tot ons spreekt, dan volgt daaruit dat de bijbel voor ons autoriteit heeft in alle zaken van geloof en gedrag."
+
+#~ msgid "A Book that Works"
+#~ msgstr "Een boek dat werkt"
+
+#~ msgid "What will studying the Bible do for you? 1 Thess.2:13 says that the Bible \"<emphasis>performs its work in you who believe.</emphasis>\" Beside each scripture, write down the work the Word performs."
+#~ msgstr "Wat doet bijbelstudie met je? 1 Thess.2:13 zegt dat de bijbel \"<emphasis>werkzaam is in u, die gelooft</emphasis>\" Schrijf naast elk schriftgedeelte, het werk dat het Woord doet."
+
+#~ msgid "What does Bible study do for Christians?"
+#~ msgstr "Wat doet bijbelstudie voor Christenen?"
+
+#~ msgid "Reference"
+#~ msgstr "Naslag"
+
+#~ msgid "Action"
+#~ msgstr "Actie"
+
+#~ msgid "Eph. 5:26"
+#~ msgstr "Ef. 5:26"
+
+#~ msgid "cleanses -- \"...having cleansed her by the washing of water with the word.\""
+#~ msgstr "reinigt -- \"...haar reinigende door het waterbad met het woord.\""
+
+#~ msgid "Acts 20:32"
+#~ msgstr "Hand.20:32"
+
+#~ msgid "builds up -- \" ...the word of His grace, which is able to build you up and to give you the inheritance among all those who are sanctified. \""
+#~ msgstr "bouwt op -- \"En nu, ik draag u op aan de Here en het woord zijner genade, aan Hem, die bij machte is te bouwen en het erfdeel te geven onder alle geheiligden\""
+
+#~ msgid "Rom. 15:4"
+#~ msgstr "Rom.15:4"
+
+#~ msgid "encourages -- \"that through perseverance and the encouragement of the Scriptures we might have hope.\""
+#~ msgstr "bemoedigd -- \"opdat wij  in de weg der volharding en van de vertroosting der Schriften de hope zouden vasthouden.\""
+
+#~ msgid "Rom. 10:17"
+#~ msgstr "Rom.10:17"
+
+#~ msgid "gives faith -- \"So faith comes from hearing, and hearing by the word of Christ.\""
+#~ msgstr "geeft geloof -- \"Zo is dan het geloof uit het horen, en het horen door het woord van Christus.\""
+
+#~ msgid "1 Cor. 10:11"
+#~ msgstr "1 Cor.10:11"
+
+#~ msgid "instructs -- \"Now these things happened to them for an example, and they were written for our instruction\""
+#~ msgstr "onderwijst -- \"Dit is hun overkomen tot een voorbeeld (voor ons) en het is opgetekend ter waarschuwing voor ons\""
+
+#~ msgid "Mt. 4:4"
+#~ msgstr "Matt.4:4"
+
+#~ msgid "nourishment -- \"But He answered and said, 'It is written, Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.'\""
+#~ msgstr "voeding -- \"Maar Hij antwoordde en zeide: Er staat geschreven, niet alleen van brood zal de mens leven, maar van alle woord, dat uit de mond Gods gaat.\""
+
+#~ msgid "A Book that Liberates"
+#~ msgstr "Een bevrijdend boek"
+
+#~ msgid "Jn.8:32 \"<emphasis>and you shall know the truth, and the truth shall make you free.</emphasis>\"This is usually quoted by itself. Is this a conditional or unconditional promise? Would it apply to all kinds of knowledge? Find the answers by examining the first half of the sentence, in v.31. \"<emphasis>If you abide in My word, then you are truly disciples of Mine... </emphasis>\""
+#~ msgstr "Joh.8:32 \"<emphasis>en gij zult de waarheid verstaan, en de waarheid zal u vrijmaken</emphasis>\" Dit wordt vaak door zichzelf aangehaald. Is dit een voorwaardelijke of onvoorwaardelijke belofte? Is het toe te passen op elke vorm van kennis? Vind de antwoorden door de eerste helft van de zin onder de loep te nemen, in vs.31. \"<emphasis>Als gij in Mijn woord blijft, zijt gij waarlijk discipelen van Mij... </emphasis>\""
+
+#~ msgid "We see that this is a conditional promice, specifically speaking of the truth of God's word."
+#~ msgstr "We zien dat het gaat om een voorwaardelijke belofte, specifiek sprekend over de waarheid van Gods woord."
+
+#~ msgid "The Greek word for \"wind\" used in Eph.4:14 means a <emphasis>violent wind.</emphasis> \"<emphasis>As a result, we are no longer to be children, tossed here and there by waves, and carried about by every wind of doctrine...</emphasis>\"One thing studying the Bible does for us is to ground us in the truth, with the result that we won't be easily \"blown away.\""
+#~ msgstr "Het Griekse woord voor \"wind\", wat wordt gebruikt in Ef.4:14 betekent een <emphasis>geweldige wind</emphasis> \"<emphasis>Dan zijn wij niet langer onmondig, op en neder, heen en weder geslingerd onder invloed van allerlei wind van leer...</emphasis>\"Een ding dat bijbelstudie voor ons doet, is dat het ons een vaste grond geeft in de waarheid, met als resultaat dat we niet zo eenvoudig \"weggeblazen\" worden."
+
+#~ msgid "<emphasis>But Jesus answered and said to them, </emphasis>\"<emphasis>You are mistaken [KJV Ye do err], not understanding the Scriptures, or the power of God.</emphasis>\"Mt.22:29"
+#~ msgstr "<emphasis>Jezus antwoordde en zeide tot hen: Gij dwaalt, want gij kent de Schriften niet noch de kracht Gods.</emphasis>\" Matt.22:29"
+
+#~ msgid "What 2 things do we need to know to be kept from error?"
+#~ msgstr "Welke 2 dingen moeten wij kennen om dwaling te voorkomen?"
+
+#~ msgid "God's word"
+#~ msgstr "Gods woord"
+
+#~ msgid "God's power"
+#~ msgstr "Gods kracht"
+
+#~ msgid "A Book that Wars"
+#~ msgstr "Een boek dat strijdt"
+
+#~ msgid "Eph.6:10-18 is one picture of our spiritual armament."
+#~ msgstr "Ef.6:10-18 is een mogelijke afbeelding van onze geestelijke wapenrusting."
+
+#~ msgid "Spiritual Armor"
+#~ msgstr "Geestelijke wapenrusting"
+
+#~ msgid "Question"
+#~ msgstr "Vraag"
+
+#~ msgid "Answer"
+#~ msgstr "Antwoord"
+
+#~ msgid "How many of the weapons listed here are defensive weapons?"
+#~ msgstr "Hoeveel van de hier opgenoemde wapens zijn verdedigingswapens?"
+
+#~ msgid "<entry>5</entry>"
+#~ msgstr "<entry>5</entry>"
+
+#~ msgid "How many are offensive?"
+#~ msgstr "En hoeveel aanvalswapens?"
+
+#~ msgid "<entry>One</entry>"
+#~ msgstr "<entry>1</entry>"
+
+#~ msgid "Which one(s)?"
+#~ msgstr "Welke?"
+
+#~ msgid "the word - <foreignphrase>rhema</foreignphrase>"
+#~ msgstr "het woord - <foreignphrase>rhema</foreignphrase>"
+
+#~ msgid "Exhortations"
+#~ msgstr "Vermaningen"
+
+#~ msgid "2 Tim.2:15 (KJV) \"<emphasis>Study to show thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.</emphasis>\""
+#~ msgstr "2 Tim 2:15 (SV) \"<emphasis>Benaarstig u, om uzelven Gode beproefd voor te stellen, een arbeider, die niet beschaamd wordt, die het Woord der waarheid recht snijdt.</emphasis>\""
+
+#~ msgid "Col.3:16 \"<emphasis>Let the word of Christ richly dwell within you; with all wisdom teaching and admonishing one another with psalms and hymns and spiritual songs, singing with thankfulness in your hearts to God.</emphasis>\""
+#~ msgstr "Kol.3:16 \"<emphasis>Het woord van Christus wone rijkelijk in u, zodat gij in alle wijsheid elkander leert en terechtwijst en met psalmen, lofzangen en geestelijke liederen zingende, Gode dank brengt in uw harten.</emphasis>\""
+
+#~ msgid "If you're rich in something, how much of it do you have?"
+#~ msgstr "Als je ergens rijk in bent, hoeveel heb je er dan van?"
+
+#~ msgid "Not a little!"
+#~ msgstr "Niet een beetje!"
+
+#~ msgid "Eccl.12:11-12 \"<emphasis>The words of wise men are like goads, and masters of these collections are like well-driven nails; they are given by one Shepherd. But beyond this, my son, be warned: the writing of many books is endless, and excessive devotion to books is wearying to the body.</emphasis>\""
+#~ msgstr "Pred.12:11-12 \"<emphasis>De woorden der wijzen zijn als prikkelen; als ingeslagen nagelen zijn de verzamelingen daarvan; gegeven zijn zij door &eacute;&eacute;n herder. En overigens, mijn zoon, wees gewaarschuwd; er is geen einde aan het maken van veel boeken, en veel doorvorsen is afmatting voor het lichaam.</emphasis>\""
+
+#~ msgid "Appendix: \"Once for All\""
+#~ msgstr "Bijlage: \"Eens voor altijd\""
+
+#~ msgid "John R. W. Stott, <emphasis>Christ the Controversialist,</emphasis> InterVarsity Press 1978, pp.106-107"
+#~ msgstr "John R. W. Stott, <emphasis>Christ the Controversialist,</emphasis> InterVarsity Press 1978, blz. 106-107"
+
+#~ msgid "The truth regarding the finality of God's initiative in Christ is conveyed by one word of the Greek Testament, namely the adverb <foreignphrase>hapax</foreignphrase> and <foreignphrase>ephapax</foreignphrase>. It is usually translated in the Authorized Version once, meaning once for all. It is used of what is so done as to be of perpetual validity and never need repetition, and is applied in the NT to both revelation and redemption. Thus, Jude refers to the faith which was once for all delivered to the saints (Jude 3), and Romans says, \"<emphasis>Christ also died for sins once for all</emphasis>\" (Rom.6:10, see also 1 Pe.3:18; Heb.9:26-28)."
+#~ msgstr "De waarheid omtrend het definitieve van God's initiatief in Christus, is gevat in een woord van het Griekse Testament, namelijk, het bijwoord <foreignphrase>hapax</foreignphrase> en <foreignphrase>ephapax</foreignphrase>, dit wordt veelal vertaald als eenmaal, in de betekenis van 'eens voor altijd'. Het wordt gebruikt voor wat wordt gedaan om van voortdurende betekenis te zijn, en nooit herhaald hoeft te worden, en wordt in het NT toegepast op zowel openbaring als verlossing. Op deze wijze verwijst Judas naar het geloof dat eenmaal  is gegeven aan de heiligen (Judas 3), en de brief aan de Romeinen zegt over Christus \"<emphasis>... is Hij voor de zonde eens voor altijd gestorven</emphasis>\" (Rom.6:10, zie ook 1 Petr.3:18; Hebr.9:26-28)."
+
+#~ msgid "Thus we may say that God has spoken once for all and Christ has suffered once for all. This means that the Christian revelation and the Christian redemption are both alike in Christ complete. Nothing can be added to either without being derogatory to Christ... These are the two rocks on which the Protestant Reformation was built -- Gods revealed word without the addition of human traditions and Christ's finished work without the addition of human merits. The Reformers great watchwords were <foreignphrase>sola scriptura</foreignphrase> for our authority and <foreignphrase>sola gratia</foreignphrase> for our salvation."
+#~ msgstr "We kunnen dus zeggen dat God eens voor altijd heeft gesproken, en dat Christus eens voor altijd heeft geleden. Dit betekent dat de christelijke openbaring en de christelijke verlossing beiden voltooid zijn in Christus. Aan geen van beide kan iets worden toegevoegd, zonder afbreuk te doen aan Christus... Dit zijn de twee rotsen waar de Protestantse Reformatie gebouwd is. -- Gods geopenbaarde woord, zonder toevoeging van menselijke tradities, en het voltooide werk van Christus, zonder de toevoeging van menselijke verdiensten. De wachtwoorden van de reformatoren waren <foreignphrase>sola scriptura</foreignphrase> voor onze autoriteit en <foreignphrase>sola gratia</foreignphrase> voor onze redding."
+
+#~ msgid "Supplement: Bible Reading Programs"
+#~ msgstr "Supplement: Bijbellees-programma's"
+
+#~ msgid "Here are some easy programs to systematically read your Bible. You can do more than one at a time if you like, for instance #1 with #4, or #2 with #5. Vary the program from year to year to keep it fresh!"
+#~ msgstr "Hier zijn een aantal makkelijke programma's om je bijbel systematisch te lezen. Je kunt er meer dan een tegelijk gebruiken, als je wilt. Bijvoorbeeld #1 met #4, of #2 met #5. Varieer het programma van jaar tot jaar om het fris te houden!"
+
+#~ msgid "New Testament in a Year: read one chapter each day, 5 days a week."
+#~ msgstr "Het Nieuwe Testament in een jaar: lees per dag een hoofdstuk, 5 dagen per week."
+
+#~ msgid "Proverbs in a Month: read one chapter of Proverbs each day, corresponding to the day of the month."
+#~ msgstr "Spreuken in een maand: lees elke dag een hoofdstuk uit Spreuken, overeenkomstig de dag van de maand."
+
+#~ msgid "Psalms in a Month: read 5 Psalms at intervals of 30 each day, for instance on the 20th you read Ps.20, 50, 80, 110, &amp; 140."
+#~ msgstr "De Psalmen in een maand: lees 5 Psalmen per dag, met een interval van 30. Lees bijvoorbeel op de 20e Ps. 20, 50, 80, 110 &amp; 140."
+
+#~ msgid "Psalms &amp; Proverbs in 6 months: read through Psalms and Proverbs one chapter per day."
+#~ msgstr "Psalmen &amp; Spreuken in 6 maanden: lees Psalmen en Spreuken door, elke dag een hoofdstuk."
+
+#~ msgid "Old Testament without Psalms &amp; Proverbs in 2 years: if you read one chapter a day of the Old Testament, skipping over Psalms &amp; Proverbs, you will read the Old Testament in 2 years and 2 weeks."
+#~ msgstr "Het Oude Testament (zonder Psalmen &amp; Spreuken) in 2 jaar: als je van het Oude Testament elke dag een hoofdstuk leest,  en daarbij Psalmen en Spreuken overslaat, lees je het Oude Testament in 2 jaar en 2 weken."
+
+#~ msgid "Rules of Bible Interpretation (Hermeneutics)"
+#~ msgstr "Regels voor interpretatie van de bijbel (Hermeneutiek)"
+
+#~ msgid "We already learned about the \"3 Cs\": content, context, cross-reference. We want to expand that now by delving briefly into biblical hermeneutics, whose goal is to discover the meaning intended by the original author (and Author!). While many applications of a passage are valid, only one interpretation is valid. The scripture itself says this by saying that no scripture is of any private interpretation (2 Pe.1:20 KJV <quote>Knowing this first, that no prophesy of scripture is of any private interpretation.</quote>). Certain rules are helps toward discovering the correct meaning; by ignoring these rules people have brought much trouble on themselves and their followers. 2 Pe.3:16 <quote>...in which are some things hard to understand, which the untaught and unstable distort, as they do also the rest of the Scriptures, to their own destruction.</quote>"
+#~ msgstr "We hebben het al gehad over de drie aspecten die van belang zijn bij het interpreteren van de bijbel: inhoud, context en tekstverwijzingen. We willen daar nu verder op in gaan door wat te graven in de bijbelse hermeneutiek, die zich tot doel stelt de bedoeling van de de oorspronkelijke schrijver (en Schrijver!) te ontdekken. Hoewel een tekstgedeelte op veel manieren goed toegepast kan worden, is het maar op &eacute;&eacute;n manier goed te interpreteren. De schrift zegt dit zelf door te stellen dat <quote>geen profetie der Schrift een eigenmachtige uitlegging toelaat</quote> (2 Petrus 1:20). Er zijn bepaalde regels die helpen om de juiste betekenis te ontdekken. Door die regels te negeren, hebben mensen veel moeilijkheden veroorzaakt voor zichzelf en voor hun volgelingen. 2 Petrus 3:16 <quote>...Daarin is een en ander moeilijk te verstaan, wat onkundige en onstandvastige lieden tot hun eigen verderf verdraaien, evenals trouwens de overige schriften.</quote>"
+
+#~ msgid "How do we go about discovering the intended meaning of a passage? Let's say your attention has been drawn to a particular verse whose meaning is not clear to you. How do you study it out? Keep these rules in mind:"
+#~ msgstr "Hoe gaan we te werk als we de oorspronkelijk bedoelde betekenis van een passage willen ontdekken? Laten we stellen dat je een bepaald vers is opgevallen, wat je niet zo goed begrijpt. Hoe bestudeer je het dan? Houdt de volgende regels in gedachte:"
+
+#~ msgid "Rule 1 - Interpret according to the exact meaning of the words."
+#~ msgstr "Regel 1 - Interpreteer de tekst volgens de precieze betekenis van de woorden."
+
+#~ msgid "The more precise we can be with the exact, original meaning of the words the better our interpretation will be. Try to find the exact meaning of the key words by following these steps:"
+#~ msgstr "Hoe preciezer wij de oorspronkelijke betekenis van de woorden kunnen achterhalen, hoe beter we de tekst zullen kunnen interpreteren. Probeer de precieze betekenisvan kernwoorden te vinden aan de hand van de volgende stappen:"
+
+#~ msgid "Definition"
+#~ msgstr "Definitie"
+
+#~ msgid "Look up the definition in a Greek or Hebrew dictionary. For verbs, the verb tense is also crucial."
+#~ msgstr "Zoek de definitie op in een Grieks of Hebreeuws woordenboek. Bij werkwoorden is de gebruikte vorm ook cruciaal."
+
+#~ msgid "Compare scripture with scripture. Seeing how the same Greek or Hebrew word (not the English word) is used in scripture may clarify or throw new light on the definition. How does the same author use this word elsewhere? Other authors? Your reference tools may give you uses of the word in non-biblical documents, as well. Why do we have to go to the original languages; why isn't the English word good enough? <emphasis>Because more than one greek word may be translated into the same english word, and the greek words may have different shades of meaning.</emphasis>"
+#~ msgstr "Vergelijk schrift met schrift. Zien hoe hetzelfde Griekse of Hebreeuwse woord (niet het Nederlandse woord) wordt gebruikt in de schrift kan de definitie verhelderen, of een nieuw licht werpen op de definitie. Hoe gebruikt dezelfde schrijver hetzelfde woord in andere schriftgedeelten? En andere schrijvers? Sommige naslagwerken geven ook informatie over het gebruik van hetzelfde woord in niet-bijbelse documenten. Waarom moeten we eigenlijk terug naar de oorspronkelijke taal; waarom is het Nederlandse woord niet goed genoeg? <emphasis>Omdat verschillende Griekse woorden vertaald kunnen zijn naar hetzelfde Nederlandse woord, en de Griekse woorden zouden een verschillende bijklank in de betekenis kunnen hebben.</emphasis>"
+
+#~ msgid "Example 1A"
+#~ msgstr "Voorbeeld 1A"
+
+#~ msgid "Jn.20:17 <emphasis>\"Touch me not\"</emphasis> (KJV) sounds harsh, doesn't it? Sounds like Jesus doesn't want to be touched now that He is risen, that He is too holy or something. But that doesn't seem right, so let's look it up in Spiros Zodhiates' <emphasis>The Complete Word Study New Testament</emphasis> (AMG Publishers, 1991)."
+#~ msgstr "Joh.20:17 (SV) <emphasis>\"Raak mij niet aan\"</emphasis> klinkt nogal hard, he? Net of Jezus na zijn opstanding niet meer aangeraakt wil worden, omdat Hij daarvoor te heilig is ofzo. Maar dat lijkt niet helemaal juist te zijn, dus laten we het opzoeken in <emphasis>The Complete Word Study New Testament</emphasis> van Spiros Zodhiates (AMG Publishers, 1991)."
+
+#~ msgid "Definition: Turning to John 20:17, above the word \"Touch\" we see \"pim680.\" The letters give us a code for the part of speech, and the number refers to Strong's dictionary reference. Let's look up the definition (p. 879). \"680. Haptomai; from hapto (681), touch. Refers to such handling of an object as to exert a modifying influence upon it... Distinguished from pselaphao (5584), which actually only means to touch the surface of something. \" Now look up \"pim.\" The grammar codes in Zodhiates come right after Revelation; on p. 849 we see that pim stands for \"present imperative active (80)\". On p.857, \"Present Imperative. In the active voice, it may indicate a command to do something in the future which involves continuous or repeated action or, when it is negated, a command to stop doing something. \" This is a negative command, so it is to stop doing something that is already occuring. So, what have we found?"
+#~ msgstr "Definitie: Als we Joh.20:17 opzoeken, dan zien we dat boven het woord \"Raak ... aan\" staat \"pim680.\" De letters vormen een code die de vorm van spreken aangeeft, en het nummer verwijst naar Strongs woordenboek. Laten we de definitie opzoeken (p. 879) \"680. Haptomai; komt van hapto (681), aanraken. Verwijst naar het hanteren van een object om daar een veranderende invloed op uit te oefenen... Te ondersceiden van pselaphao (5584), wat alleen duidt op het aanraken van het oppervlak ergens van.\" Zoek nu de code \"pim\" op. In Zodhiates staan de grammatica-codes achter Openbaring; op p. 849 zien we dat pim staat voor \"tegenwoordig imperatief actief (80)\".Op p.857, \"Tegenwoordig Imperatief. In de actieve vorm, kan het een opdracht aanduiden, om iets te doen in de toekomst, wat een doorgaande of herhalende actie omvat of, als het negatief gebruikt wordt, een opdracht om ergens mee op te houden.\" In dit geval is er sprake van een negatieve opdracht, dus is het een opdracht om ergens mee op te houden. Wat hebben we dus ontdekt?"
+
+#~ msgid "Mary is already clinging to Jesus, and he is saying to stop holding him!"
+#~ msgstr "Maria klampt zich al aan Jezus vast, en Hij zegt haar om Hem niet langer vast te houden!"
+
+#~ msgid "Example 1B"
+#~ msgstr "Voorbeeld 1B"
+
+#~ msgid "In James 5:14, <emphasis>Elders are told to pray and anoint someone who is sick</emphasis>. What is this anointing?"
+#~ msgstr "In Jakobus 5:14 wordt zieken opgedragen <emphasis>zich te laten zalven door de oudsten van de gemeente</emphasis>. Wat houdt die zalving in?"
+
+#~ msgid "Definition of aleipho (218) - \"to oil\" (Strong's); but we also have another Greek word translated \"anoint\", chrio (5548) - \"to smear or rub with oil, i.e. to consecrate to an office or religious service\" (Strong's). Since it's a verb, consider the tense also, \"apta\" aorist participle active. \"The aorist participle expresses simple action, as opposed to continuous action...When its relaitonship to the main verb is temporal, it usually signifies action prior to that of the main verb.\" (Zodhiates p.851)"
+#~ msgstr "Definitie van aleipho (218) - \"zalven met olie\" (Strong); maar er is ook een ander Grieks woord dat eveneens vertaald wordt als \"zalven\", chrio (5548) - \"insmeren of -wrijven met olie, d.w.z. heiligen voor een ambt of religieuze dienst\" (Strong). Gezien het feit dat het om een werkwoord gaat, moet er ook gelet worden op de gebruikte vorm, \"apta\". Deze vorm, de participium aoristus, duidt op een eenmalige handeling, dit in tegenstelling tot een voortdurende handeling... Als er een verhouding in tijd is met het hoofdwerkwoord, dan duidt het meestal op een actie die aan die van het hoofdwerkwoord vooraf gaat. (zie Zodhiates p.851)"
+
+#~ msgid "Cross-references for aleipho:"
+#~ msgstr "Tekstverwijzingen voor aleipho:"
+
+#~ msgid "Mt.6:17 But you, when you fast, anoint your head"
+#~ msgstr "Matt.6:17 En wanneer gij vast, toont dan niet, [...] een somber gelaat;"
+
+#~ msgid "Mk.16:1 [the women] brought spices that they might come and anoint Him."
+#~ msgstr "Mar.16:1 [De vrouwen] kochten [...] specerijen om Hem te gaan zalven."
+
+#~ msgid "Mk.6:13 And they were...anointing with oil many sick people and healing them."
+#~ msgstr "Mar.6:13 En zij [...] zalfden vele zieken met olie en genazen hen."
+
+#~ msgid "Lk.7:38 [...] kissing His feet and anointing them with the perfume"
+#~ msgstr "Luc.7:38 en zij [...] kuste zijn voeten en zalfde ze met de mirre."
+
+#~ msgid "Jn.12:3 Mary [...] anointed the feet of Jesus, and wiped them with her hair"
+#~ msgstr "Joh.12:3 Maria [...] zalfde de voeten van Jezus en droogde zijn voeten af met haar haren;"
+
+#~ msgid "Cross-references of chrio:"
+#~ msgstr "Tekstverwijzingen van chrio:"
+
+#~ msgid "Lk.4:18 <quote>The Spirit of the Lord is upon me, because He has anointed me to preach [...]</quote>"
+#~ msgstr "Luc.4:18 <quote>De Geest des Heren is op Mij, daarom, dat Hij Mij gezalfd heeft, om aan armen het evangelie te brengen;</quote>"
+
+#~ msgid "Acts 4:27 Jesus, whom Thou hast anointed"
+#~ msgstr "Hand.4:27 [...] Jezus, die Gij gezalfd hebt [...]"
+
+#~ msgid "Acts 10:38 God anointed Jesus with the Holy Ghost and power"
+#~ msgstr "Hand.10:38 [...] Jezus van Nazaret, hoe God Hem met de heilige Geest en met kracht heeft gezalfd."
+
+#~ msgid "2 Cor.1:21 Now He who...anointed us is God"
+#~ msgstr "2 Kor.1:21 Hij nu, die ons [...] heeft gezalfd, is God"
+
+#~ msgid "So what's the difference between aleipho and chrio? Look back over the cross-references and the definitions, and sum up the difference: <emphasis>&quot;aleipho&quot; is a practical use of oil and &quot;chrio&quot; is a spiritual</emphasis>"
+#~ msgstr "Wat is dus het verschil tussen aleipho en chrio? Kijk nog eens terug naar de tekstverwijzingen en de definities, en stel het verschil vast: <emphasis>&quot;aleipho&quot; is een praktisch gebruik van olie en &quot;chrio&quot; een geestelijk gebruik</emphasis>"
+
+#~ msgid "As an illustration (although the word is not used) of the practical use of oil at that time, when the good Samaritan cared for the man beat up by robbers he poured oil and wine in the wound. So oil had a medicinal use in Jesus' day."
+#~ msgstr "Als illustratie (al wordt het woord hier niet gebruikt) van het praktisch gebruik van olie in die tijd, toen de barmhartige Samaritaan de beroofde en mishandelde man verzorgde, goot hij olie en wijn op de wond. Olie was dus ook in gebruik als medicijn in Jezus' tijd."
+
+#~ msgid "Now let's apply what we just learned by this word study to James 5:14 <emphasis>\"Is any among you sick? Let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord.\"</emphasis> Is \"anointing\" spiritual or practical? Practical!"
+#~ msgstr "Laten we eens toepassen op wat we zojuist geleerd hebben door deze woordstudie n.a.v. Jakobus 5:14 <emphasis>\"Is er iemand bij u ziek? Laat hij dan de oudsten der gemeente tot zich roepen, opdat zij over hem een gebed uitspreken en hem met olie zalven in de naam des Heren.\"</emphasis> Is dat zalven geestelijk of praktisch? Het is praktisch! "
+
+#~ msgid "And the tense in Greek, the aorist participle, would be better translated \"having anointed,\" so the order is the anointing first, then the prayer (\"in the name of the Lord\"refers to the prayer, not the anointing). James 5 is saying that the elders should give the sick person medicine and pray for him in the name of the Lord. Doesn't that express a beautiful balance of practical and spiritual in our God!"
+#~ msgstr "De vorm die in het Grieks wordt gebruikt is beter vertaald met \"hem met olie gezalfd hebbend\", zodat de volgorde wordt eerst zalven, dan bidden. (Het zinsdeel \"in de naam des Heren\" verwijst naar het gebed, niet naar de zalving). Jakobus 5 zegt dat de oudsten de zieke moeten verzorgen, en voor hem bidden in de naam van de Heer. Geeft dat niet iets weer van een prachtige balans tussen het praktische en het spirituele bij onze God?"
+
+#~ msgid "Rule 2 - Interpret within the biblical context"
+#~ msgstr "Regel 2 - Interpreteer binnen the bijbelse context"
+
+#~ msgid "Interpret scripture in harmony with other scripture. What do the verses on each side say? What is the theme of the chapter? the book? Does your interpretation fit with these? If not, it is flawed. Usually, the context supplies what we need to correctly interpret the passage. Context is key. If confusion remains as to the meaning after we have interpreted the text within its context, we have to look further."
+#~ msgstr "Interpreteer een bijbelgedeelte in harmonie met ander delen van de bijbel. Wat staat er in de verzen er omheen? Wat is het onderwerp van het hoofdstuk of van het boek? Past jouw interpretatie hierin? Zo niet, dan is er iets mis mee. Meestal geeft de context ons voldoende aanwijzingen voor een juiste interpretatie van het gedeelte. De context is de sleutel. Maar als er onzekerheid blijft over de betekenis na interpretatie in de context, dan moeten we verder kijken."
+
+#~ msgid "Example 2A"
+#~ msgstr "Voorbeeld 2A "
+
+#~ msgid "In a previous lesson we considered Jn.3:5 <emphasis>\"born of water and the Spirit.\"</emphasis> In context, what is the water under discussion here?"
+#~ msgstr "In een voorgaande les behandelden we Joh.3:5 <emphasis>\"geboren ...uit water en geest.\"</emphasis> Wat is volgens de context het water waarover het hier gaat?"
+
+#~ msgid "Water baptism is not under discussion here, which would be a big switch from the subject being discussed by Jesus and Nicodemus. Watch out for a sudden change of topic, it may be a clue that your interpretation has been derailed! The water is the amniotic fluid, \"born of water\" = natural birth."
+#~ msgstr "Het gaat hier niet over de doop in water, dat zou een grote omschakeling zijn in het onderwerp waarover Jezus en Nikodemus spreken. Kijk uit voor een plotselinge verandering van onderwerp, het zou een aanwijzing kunnen zijn dat je interpretatie ontspoord is! Het bedoelde water is het vruchtwater. \"Geboren uit water\" is de natuurlijke geboorte."
+
+#~ msgid "Example 2B"
+#~ msgstr "Voorbeeld 2B"
+
+#~ msgid "1 Cor.14:34 <quote>Let the women keep silent in the churches</quote> has to be taken within the biblical context of 1 Cor.11:5 <quote>every woman [...] while praying or prophesying [...]</quote>"
+#~ msgstr "1 Kor.14:34 <quote>[...] moeten de vrouwen in de gemeente zwijgen</quote> moet gelezen worden binnen de bijbelse context van 1 Kor.11:5 <quote>maar iedere vrouw, die [...] bidt of profeteert [...]</quote>"
+
+#~ msgid "Example 2C"
+#~ msgstr "Voorbeeld 2C"
+
+#~ msgid "Acts 2:38 <quote>And Peter said to them, &quot;Repent, and let each of you be baptized in the name of Jesus Christ for the forgiveness of your sins [...]&quot;</quote>. Is this teaching baptismal regeneration? If this was the only verse of scripture we had, we would have to conclude that. But in the light of the clear teaching elsewhere that regeneration happens by faith in Christ, we have to interpret it otherwise. Peter is urging baptism as a way for his hearers to respond to the gospel. If baptism were the pathway to being born again, how could Paul write 1 Cor.1:17 <emphasis>\"For Christ did not send me to baptize, but to preach the gospel\"</emphasis>?"
+#~ msgstr "Hand.2:38 <quote>En Petrus antwoordde hun: &quot;Bekeert u en een ieder van u late zich dopen op de naam van Jezus Christus, tot vergeving van uw zonden [...]&quot;</quote> Is dit wedergeboorte door doop prediken? Als dit nu het enige vers van de bijbel was, hadden we deze conclusie getrokken, maar in het licht van de heldere boodschap elders, dat wedergeboorte voortkomt uit geloof in Christus, moeten we het op een andere manier interpreteren. Petrus brengt de doop naar voren als een manier voor zijn toehoorders om te antwoorden op het evangelie. Als de doop de weg was tot wedergeboorte, hoe zou Paulus dan kunnen schrijven in 1 Kor.1:17 <emphasis>\"Want Christus heeft mij niet gezonden om te dopen, maar om het evangelie te verkondigen\"</emphasis>?"
+
+#~ msgid "Rule 3 - Interpret within the historical and cultural context"
+#~ msgstr "Regel 3 - Interpreteer binnen de historische en culturele context"
+
+#~ msgid "At first we are not asking <quote>What does it mean to me?</quote> but <quote>What did it mean to the original readers?</quote>; later we can ask, <quote>What does it mean to me?</quote>. We have to take into account the historical and cultural background of the author and the recipients."
+#~ msgstr "Ten eerste vragen we niet <quote>Wat betekent het voor mij?</quote> maar <quote>Wat betekende het voor de oorspronkelijke lezers?</quote> Later kunnen we vragen <quote>Wat betekent het voor mij?</quote>. We moeten rekening houden met de historische en culturele achtergrond van de schrijver en de geadresseerden."
+
+#~ msgid "Example 3A"
+#~ msgstr "Voorbeeld 3A"
+
+#~ msgid "<quote>3 days &amp; 3 nights</quote> (Mt.12:40) have led some to come up with a \"Wednesday crucifixion theory,\" esp. the cult of Armstrongism. How could Jesus die on Friday afternoon and rise Sunday morning yet \"be raised on the third day\" (Mt.16:21)? Exact meanings of \"three\" or \"days\" won't help explain the apparent contradiction."
+#~ msgstr "<quote>3 dagen &amp; 3 nachten</quote> (Matt.12:40) heeft voor sommigen aanleiding gegeven tot een \"kruisiging-op-woensdag-theorie\", vooral het Armstrongisme. Hoe kon Jezus op vrijdagmiddag sterven en opstaan op Zondagmorgen, en toch zijn \"opgestaan ten derde dage\" (Matt.16:21)? De precieze betekenis van \"drie\" of \"dagen\" helpt niet om deze paradox te verklaren."
+
+#~ msgid "We need an historical tidbit: Jews counted any part of a day as a full day, as we would count buckets of water (if there were six and one-half buckets of water, we would say there were 7 buckets of water even if one was only partly full). So to the Jewish mind, any part of a day counted as a full day, and days started at 6 p.m. and ended at 6 p.m. Friday from 3 p.m. to 6 p.m. = day 1. Friday 6 p.m. to Saturday 6 p.m. = day 2. Saturday 6 p.m. to Sunday 5 or so a.m. = day 3. Interpreting within the cultural context keeps us out of trouble."
+#~ msgstr "We hebben een historisch wetenswaardigheidje nodig: de Joden telden elk stukje van de dag mee, als was het een hele dag, net zoals wij emmers water tellen (als er 6 emmers vol zijn, en eentje half vol, dan zeggen we gerust dat er 7 emmers water staan). Volgens Joodse opvattingen telde elk deel van een dag dus als een hele dag, en startte een dag om 6 uur 's avonds en eindigde een dag om 6 uur 's morgens. Vrijdag van 15:00 tot 18:00 = dag 1. Vrijdag van 18:00 tot zaterdag 18:00 = dag 2 en Zaterdag 18:00 tot ongeveer Zondag 05:00 = dag 3. Interpretatie binnen de culturele context houdt ons uit de moeilijkheden."
+
+#~ msgid "Example 3B"
+#~ msgstr "Voorbeeld 3B"
+
+#~ msgid "Gen.15:7-21. The historical context is that cutting animals in two and then walking between the pieces was the normal way of entering a contract in Abraham's day. Both parties walked between, taking the pledge that dismemberment would happen to them if they didn't live up to their part of the contract. But in this case only God goes thru, making it a unilateral covenant."
+#~ msgstr "Gen.15:7-21. De historische context is dat het in twee stukken delen van dieren en dan tussen de stukken door lopen was een gebruikelijke manier om een belangrijke overeenkomst te sluiten. Beide partijen liepen er tussen, en deden zo de gelofte dat het degene die zich niet aan de overeenkomst hield net zo zou vergaan als die dieren. Maar in dit geval is God de enige die er tussendoor gaat, en zo een eenzijdig verbond sluit."
+
+#~ msgid "Rule 4 - Interpret according to the normal usage of words in language"
+#~ msgstr "Regel 4 - Interpreteer volgens het normale gebruik van woorden in de taal"
+
+#~ msgid "Let literal language be literal and figurative language be figurative. And watch out for idioms, which have special meanings."
+#~ msgstr "Laat literaire taal gewoon literaire taal zijn, en laat figuurlijke taal figuurlijk zijn. En kijk uit voor idioom met een speciale betekenis."
+
+#~ msgid "Example 4A"
+#~ msgstr "Voorbeeld 4A"
+
+#~ msgid "<quote>evil eye</quote> in Mt.6:23."
+#~ msgstr "<quote>slecht oog</quote> in Matt.6:23."
+
+#~ msgid "Rule 1, definition of \"evil\" and \"eye\" - no help here. Rule 2, context: seems to confuse us even more. It doesn't seem to fit with what goes before and after! This should tip us off that we aren't understanding it rightly!!"
+#~ msgstr "Regel 1, definitie van \"slecht\" en \"oog\" - helpt niets. Regel 2, context: lijkt alleen maar meer onduidelijkheid te veroorzaken. Het lijkt niet te passen in wat er aan vooraf gaat, en wat er na komt. Dat zou ons erop moeten wijzen dat we het niet opvatten zoals het bedoeld is!!"
+
+#~ msgid "What we have here is a Hebrew idiom, <quote>evil eye</quote>. Let's look up other uses of this idiom: Mt.20:15 \"<emphasis>Is it not lawful for me to do what I wish with what is my own? Or is your eye envious [lit.\"evil\"] because I am generous [lit. \"good\"]?</emphasis>\" We find that having an \"evil eye\" is a Hebrew idiom for being stingy or envious. Now go back to Mt.6 and notice how this understanding ties in so perfectly to the context."
+#~ msgstr "Waar we hier mee te maken hebben is een Hebreeuws idioom, <quote>slecht oog</quote>. Laten we andere plaatsen opzoeken waar dit idioom gebruikt wordt: Matt.20:15 \"<emphasis>Staat het mij niet vrij om met het mijne te doen wat ik wil? Of is uw oog boos, omdat ik goed ben?</emphasis>\" Een \"boos oog\" hebben, is een Hebreeuwse uitdrukking voor gierig of jaloers zijn. Nu terug naar Matt.6. Merk op hoe goed deze interpretatie past in de context."
+
+#~ msgid "Example 4B"
+#~ msgstr "Voorbeeld 4B"
+
+#~ msgid "Is.59:1 <quote>The Lord's hand is not short;</quote>"
+#~ msgstr "Jes.59:1 <quote>Zie, de hand des HEREN is niet te kort om te verlossen[...]</quote>"
+
+#~ msgid "Deut.33:27 <quote>Underneath are the everlasting arms.</quote>"
+#~ msgstr "Deut.33:27 <quote>[De eeuwige God is u een woning en] onder u zijn eeuwige armen.</quote>"
+
+#~ msgid "References to body parts of God are used by Latter-Day Saints to prove that God was once a man just as we are. Once they convince people of that, they go on to teach that we can become God just like He is! At a lecture he was giving, a group of Mormon elders challenged Walter Martin (author of <emphasis>Kingdom of the Cults</emphasis>) with an enumeration of verses like these. Dr. Martin then asked the Mormons to read one more scripture: Ps.91:4 <quote>He will cover you with His feathers; And under His wings shalt thou trust</quote>. W.M. said, <quote>By the same rules of interpretation that you just proved God to be a man, you just proved that He is a bird</quote>. The Mormons had to laugh as they realised the ridiculousness of their position."
+#~ msgstr "Verwijzingen naar delen van Gods lichaam worden door Heiligen van de Laatste Dagen (ook wel bekend als Mormonen) gebruikt om aan te tonen dat God ooit mens was net als wij. En als ze mensen daar eenmaal van hebben overtuigd, gaan ze verder door te leren dat wij God kunnen worden zoals Hij is! Bij een lezing die hij gaf, daagde een groep Mormoonse oudsten Walter Martin (schrijver van <emphasis>Kingdom of the Cults</emphasis>) uit met een opsomming van teksten zoals deze. Dr. Martin vroeg de Mormonen toen om nog een gedeelte te lezen uit de schrift: Ps91:4 <quote>Met zijn vlerken beschermt Hij u, en onder zijn vleugelen vindt gij een toevlucht.</quote> W.M. said, <quote>Door de manier van interpreteren waarmee jullie zojuist bewezen dat God een mens is, bewijzen jullie ook dat Hij een vogel is.</quote> De Mormonen moesten lachen toen zij zich realiseerden hoe belachelijk hun positie was."
+
+#~ msgid "Rule 5 - Understand the purpose of parables and the difference between a parable and an allegory"
+#~ msgstr "Regel 5 - Begrijp de zin van gelijkenissen, en het verschil tussen een gelijkenis en een allegorie"
+
+#~ msgid "An allegory is: <emphasis>A story where each element has a meaning.</emphasis>"
+#~ msgstr "Een allegorie is: <emphasis>Een verhaal waarin ieder element een betekenis heeft.</emphasis>"
+
+#~ msgid "Every parable is an allegory, true or false?"
+#~ msgstr "Elke gelijkenis is een allegorie. Is dat juist of onjuist?"
+
+#~ msgid "Some parables are allegories, for instance, the parable of the sower is an allegory: the seed is the word of God, the thorns are worries and greed, etc. But most parables are not allegories but simply stories to illustrate one point. It's dangerous to get our doctrine from parables; they can be twisted to say all sorts of things. We need to get our doctrine from clear scriptures that lay it out; then if a parable illustrates that, fine."
+#~ msgstr "Sommige gelijkenissen zijn allegorie&euml;n, bijvoorbeeld de gelijkenis van de zaaier: het zaad is het woord van God, de doornen zijn zorgen en hebzucht, enz. Maar de meeste gelijkenissen zijn geen allegorie&euml;n, maar slechts verhalen om een bepaald ding duidelijk te maken. Het is gevaarlijk om onze leer af te leiden van gelijkenissen; die zijn nogal makkelijk te verdraaien, zodat ze van alles kunnen zeggen. We moeten onze leer uit heldere schriftgedeelten halen, die het uiteenzetten, en als er dan een gelijkenis is die dat illustreert, dat is dan fijn."
+
+#~ msgid "Example 5A"
+#~ msgstr "Voorbeeld 5A"
+
+#~ msgid "The parable of the widow with the unrighteous judge in Lk.18:1-8. This story illustrates one lesson: boldness in prayer. If we draw it into an allegory, what do we have?"
+#~ msgstr "De gelijkenis van de weduwe met de onrechtvaardige rechter in Luc.18:1-8. Dit verhaal is een illustratie bij één les: volharding in gebed. Wat krijgen we als we er een allegorie van maken?"
+
+#~ msgid "All sorts of violence happens to the meanings: God is reluctant to protect the rights of widows, prayer \"bothers\" Him, etc."
+#~ msgstr "De betekenis wordt op allerlei manieren geweld aangedaan: God is onwillig om de rechten van weduwen te beschermen, gebed \"kwelt\" Hem, enz."
+
+#~ msgid "Example 5B"
+#~ msgstr "Voorbeeld 5B"
+
+#~ msgid "The parable of the unrighteous steward in Lk.16:1-9. What is the point of the parable? Is it an allegory?"
+#~ msgstr "De gelijkenis van de onrechtvaardige rentmeester in Luc.16:1-9. Wat is het punt van vergelijking in deze gelijkenis? Is het een allegorie?"
+
+#~ msgid "The steward is commended for only one thing, his shrewdness in using what he had to prepare for a time when he wouldn't have it. But he is not commended for his unethical behavior in cheating his master."
+#~ msgstr "De rentmeester wordt geloofd om zijn scherpzinnigheid betreffende het veiligstellen van zijn eigen hachje. Maar van zijn onethische gedrag (zijn heer oplichten) wordt niets gezegd."
 
 #~ msgid "For the translation process we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. It has many advanced features and is a great aid."
 #~ msgstr "Voor het vertaalproces bevelen we aan dat u het uitstekende en volwassen programma <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> gebruikt. Het heeft vele geavanceerde functies en is een goede hulp."

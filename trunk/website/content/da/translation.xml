@@ -13,14 +13,14 @@
 	<summary
 >BibleTime translation statistics</summary>
 	<keywords
->BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, tramslation, webpage</keywords>
+>BibleTime, Linux, Software, biblestudy, bible study, KDE, Qt, God, Religion, Bible, devotional, crosswire, sword, translation, webpage</keywords>
 </head>
 
 <section
 ><title
 >Hjælp med at oversætte BibleTime til dit sprog</title>
 <para
->Det her er en del af software udvikling, hvor der er brug for mange frivillige. Det er vores ønske at kunne tilbyde BibleTime til brugere i så mange sprog som muligt. De følgende områder er åbne for dine bidragelser. <orderedlist numeration="arabic">
+>Det her er en del af software udvikling, hvor der er brug for mange frivillige. Det er vores ønske at kunne tilbyde BibleTime til brugere i så mange sprog som muligt. De følgende områder er åbne for dine bidragelser: <orderedlist numeration="arabic">
 	<listitem
 ><para
 >Oversæt www.bibletime.info hjemmesiden.</para
@@ -31,22 +31,56 @@
 ></listitem>
 	<listitem
 ><para
->Oversæt programmets manual.</para
+>Oversæt Bibelstudie vejledningen</para
+></listitem>
+	<listitem
+><para
+>Oversæt programmets håndbog.</para
+></listitem>
+	<listitem
+><para
+>Oversæt de Bibelske bøgers navne.</para
 ></listitem>
 </orderedlist>
 </para>
 
 <para
->On this page you can find statistics about the completeness of existing translations for each of these areas, as well as links to translation templates that you can use to submit new translations which do not yet exist. If a translation into your language does not yet exist, just download the templates, translate them and send them to <email
->info@bibletime.info</email
->. If you are not satisfied with the status of your language's translation, you can directly download the corresponding file, update the translation and send it in. In both cases we'll be sure to integrate your work as soon as possible. </para>
+>På denne side kan du finde statistikker om færdigheden af de eksisterende oversættelser for hvert af disse områder, så vel som links til oversættelses-skabeloner, som du kan bruge til at lave nye oversættelser der endnu ikke eksisterer. Hvis en oversættelse til dit sprog endnu ikke eksisterer, eller at du vil arbejde på en eksisterende oversættelse, så følg disse trin: <orderedlist numeration="arabic">
+	<listitem
+><para
+>Tilmeld dig <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-translations"
+> oversætternes postliste bibletime-translators på lists.sourceforge.net</ulink
+>. Du vil modtage information relevant for oversættere og kan kommunikere med udviklere og andre oversættere. Brug denne liste hvis du har spørgsmål eller kommentarer.</para
+></listitem>
+	<listitem
+><para
+>Download en skabelon du gerne vil oversætte, eller en eksisterende oversættelse du vil forbedre.</para
+></listitem>
+	<listitem
+><para
+>Brug et af de anbefalede programmer, der er nævnt herunder, eller et andet program, til at redigere oversættelserne.</para
+></listitem>
+	<listitem
+><para
+>Send oversættelsen til oversætternes postliste.</para
+></listitem>
+	<listitem
+><para
+>Udviklere vil integrere dit arbejde så snart som muligt. Derefter vil statistikkerne blive opdateret.</para
+></listitem>
+</orderedlist>
+</para>
 
 <para
->Til oversættelses processen anbefaler vi at man bruget dette fantastiske og modne program <ulink url="http://i18n.kde.org/tools/kbabel/"
+>Til oversættelses processen anbefaler vi at du bruger dette fantastiske og modne program <ulink url="http://i18n.kde.org/tools/kbabel/"
 >KBabel</ulink
->. Det har mange avancerede funktioner og er til stor hjælp. </para>
+> der virker med KDE. Det har mange avancerede egenskaber og er til stor hjælp. <ulink url="http://trolltech.com/products/qt/features/tools/linguist"
+>Qt Linguist</ulink
+> (en del af multi-platform Qt udviklings pakken) er ligeså til at oversætte brugerfladen der er i .ts formatet. <ulink url="http://www.poedit.net/"
+>Poedit</ulink
+> er en multi-platform .po fil editor brugbar for vores dokumentation og hjemmeside oversættelser. </para>
 <para
->A list of the language abbreviations is avalable at <ulink url="http://www.w3.org/WAI/ER/IG/ert/iso639.htm"
+>En liste over de forskellige sprog-forkortelser er tilgængelig på <ulink url="http://www.w3.org/WAI/ER/IG/ert/iso639.htm"
 >www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink
 >.</para>
 </section>
@@ -56,9 +90,9 @@
 ><title
 >Oversæt www.bibletime.info's hjemmeside.</title>
 <para
->If a translation of the website to your language does not yet exist, you can download and translate the <ulink url="/po/bibletime_website_template.pot"
->Webpage translation template</ulink
->. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete. </para>
+>Hvis oversættelsen af hjemmesiden til dit sprog endnu ikke eksisterer, så kan du downloade og oversætte <ulink url="/po/bibletime_website_template.pot"
+>Hjemmeside oversættelses-skabelonen</ulink
+>. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne herunder i tabellen til at downloade den tilsvarende fil. Vi tilføjer normalt de oversatte sider og flaget i toppen når oversættelsen er omkring 80% færdig. </para>
 	<ssi mode="exec" cgi="/postats/website_stats.pl"
 ></ssi>
 </section>
@@ -67,20 +101,23 @@
 ><title
 >Oversæt programmets brugerflade.</title>
 <para
->If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/messages.ts"
-> User Interface translation template</ulink
->. If you want to update an existing translation, use the links in the table below to download the corresponding file. </para>
+>Hvis oversættelsen af hjemmesiden til dit sprog endnu ikke eksisterer, så kan du downloade og oversætte <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts"
+> Brugerflade oversættelses-skabelonen</ulink
+>. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne i tabellen herunder til at downloade den tilsvarende fil. </para>
+<para
+>(Vi er ved at gøre klar til BibleTime 1.7/2.0 serierne og har flyttet til Qts .ts fil format fra 1.6 seriens .po format. På grund af ændringerne har oversættelserne brug for en grundig genskrivning.) </para>
 	<ssi mode="exec" cgi="/postats/messages_stats.pl"
 ></ssi>
 </section>
 
+
 <section
 ><title
->Translate the Bible study howto.</title>
+>Oversæt Bibelstudie vejledningen</title>
 <para
->If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot"
-> howto translation template</ulink
->. If you want to update an existing translation, use the links in the table below to download the corresponding file. </para>
+>Hvis der ikke er eksisterer en oversættelse af Bibelstudie guiden til dit sprog, så kan du downloade og oversætte <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot"
+> Bibelstudie guide oversættelses-skabelonen</ulink
+>. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne i tabellen herunder til at downloade den tilsvarende fil. </para>
 	<ssi mode="exec" cgi="/postats/howto_stats.pl"
 ></ssi>
 </section>
@@ -89,13 +126,25 @@
 
 <section
 ><title
->Oversæt programmets manual.</title>
+>Oversæt programmets håndbog.</title>
 <para
->If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot"
-> handbook translation template</ulink
->. If you want to update an existing translation, use the links in the table below to download the corresponding file. </para>
+>Hvis der ikke er eksisterer en oversættelse af håndbogen til dit sprog, så kan du downloade og oversætte <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot"
+> håndbog oversættelses-skabelon</ulink
+>. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne i tabellen herunder til at downloade den tilsvarende fil. </para>
 	<ssi mode="exec" cgi="/postats/handbook_stats.pl"
 ></ssi>
 </section>
+
+<section
+><title
+>Oversæt de bibelske bognavne.</title>
+<para
+>Oversatte Bibelske bog navne stammer fra Sword-projektet. Der er ingen gode instruktioner i øjeblikket, men du kan finde noget information og eksempler ved at kigge på <ulink url="ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d"
+>locales.d mappen</ulink
+> af Sword biblioteket og bruge <ulink url="ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf"
+>skabelonen</ulink
+>. </para>
+</section>
+
 
 </webpage>

@@ -18,7 +18,7 @@
 
 <section
 ><title
->How to link to www.bibletime.info</title>
+>Hvordan du kan linke til www.bibletime.info</title>
 <para
 >Vær venlig ikke at kopiere billederne fordi de måske ændrer design. </para>
 
@@ -26,14 +26,14 @@
 ><title
 >Stort banner</title>
 <para
->Put the following HTML code on your pages: <programlisting>
+>Indsæt den følgende HTML-kode i dine sider: <programlisting>
 <![CDATA[
  <a href="http://www.bibletime.info/" target="_blank">
  <img src="http://www.bibletime.info/images/banner/big.jpg" width="312" height="60" border="0"/>
  </a>
 ]]>
 </programlisting
-> This will look like this: <ulink url="http://www.bibletime.info/"
+> Det vil komme til at se sådan her ud: <ulink url="http://www.bibletime.info/"
 > <mediaobject
 > <imageobject
 > <imagedata fileref="/images/banner/big.jpg" format="JPG"/> </imageobject
@@ -46,14 +46,14 @@
 ><title
 >Mindre banner</title>
 <para
->Put the following HTML code on your pages: <programlisting>
+>Indsæt den følgende HTML-kode i dine sider: <programlisting>
 <![CDATA[
  <a href="http://www.bibletime.info/" target="_blank">
  <img src="http://www.bibletime.info/images/banner/small.jpg" width="88" height="31" border="0"/>
  </a>
 ]]>
 </programlisting
-> This will look like this: <ulink url="http://www.bibletime.info/"
+> Det vil komme til at se sådan her ud: <ulink url="http://www.bibletime.info/"
 > <mediaobject
 > <imageobject
 > <imagedata fileref="/images/banner/small.jpg" format="JPG"/> </imageobject
@@ -67,15 +67,15 @@
 ><title
 >Tekst link</title>
 <para
->To insert a simple text link please use the following HTML code on your pages: <programlisting>
+>For at indsætte et simpelt tekstlink, så vær venlig at brug den følgende HTML kode på jeres sider: <programlisting>
 <![CDATA[
  <a href="http://www.bibletime.info/" TARGET="_blank">
- BibleTime - Bible study software for KDE
+ BibleTime - Bibelstudiesoftware til KDE
  </a>
 ]]>
 </programlisting
-> This will look like this: <ulink url="http://www.bibletime.info/"
->BibleTime - Bible study software for KDE</ulink
+> Det vil se sådan her ud: <ulink url="http://www.bibletime.info/"
+>BibleTime - Bibelstudiesoftware til KDE</ulink
 > </para>
 </section>
 

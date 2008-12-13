@@ -44,7 +44,7 @@ sub update_pot_files() {
 	opendir(DIR, $source);
 
 	while (my $file = readdir(DIR)) {
-		next unless ($file =~ /(\.xml$/);
+		next unless ($file =~ /\.xml$/);
 		#next unless ($file =~ /(\.xml|\.docbook)$/);
 		next if ($file eq "catalog.xml");
 
