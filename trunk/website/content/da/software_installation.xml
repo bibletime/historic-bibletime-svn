@@ -1,241 +1,229 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 <!ENTITY software_about SYSTEM "software_about.xml" NDATA XML>
 <!ENTITY software_faq SYSTEM "software_faq.xml" NDATA XML>
 ]>
-
 <webpage id="documentation_installation_bibletime">
-<config param="desc" value="Installation of the BibleTime software"
+  <config param="desc"
+  value="Installation of the BibleTime software"
 ></config>
-<config param="rcsdate" value="$Date: 2006/04/19 18:57:26 $"
+  <config param="rcsdate" value="$Date: 2008-12-11 10:46:40 -0500 (Thu, 11 Dec 2008) $"
 ></config>
-<head>
-	<title
+  <head>
+    <title
 >Download af BibleTime</title>
-	<summary
->Installation to the BibleTime software</summary>
-	<keywords
->BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, installation, download, ubuntu, mandrake, suse, debian</keywords>
-</head>
-
-<section
-><title
+    <summary
+>Installation of the BibleTime software</summary>
+    <keywords
+>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    God, Religion, Bible, devotional, crosswire, sword, installation,
+    download, ubuntu, mandrake, suse, debian, freebsd, pcbsd</keywords>
+  </head>
+  <section>
+    <title
 >Download BibleTime</title>
-<para
+    <para
 >Dette er en kort liste over steder der kan downloades fra. Pakker der ikke er opgivet på vores SourceForge-sider er sandsynligtvis uddateret. Vær venlig at se herunder for detaljerede download og installations instruktioner. <itemizedlist>
-		<listitem>
-		<para
->Kildekode og pakker til de større Linux-distrubitioner kan downloades fra <ulink url="http://sourceforge.net/project/showfiles.php?group_id=954"
->SourceForge</ulink
->. </para>
-		</listitem>
-
-		<listitem>
-			<para
->Ubuntu pakker er tilgængelige i arkivet og  <ulink url="http://packages.ubuntu.com/hardy/bibletime"
->her</ulink
->. Opdaterede pakker til Ubuntu 8.04 (Hardy Heron) og 7.10 (Gutsy Gibbon) kan man få fat i <ulink url="https://launchpad.net/~txwikinger/+archive"
->her</ulink
->. </para>
-		</listitem>
-
-		<listitem>
-		<para
->Debian pakker er til rådighed  i arkivet og her <ulink url="http://packages.debian.org/bibletime"
->her</ulink
->. </para>
-		</listitem>
-	
-		<listitem>
-		<para
->Gentoo pakker er i portering. Bare kald "emerge bibletime". </para>
-		</listitem>
-
-		<listitem>
-		<para
->En FreeBSD-version af BibleTime kan findes på <ulink url="http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all"
->www.freebsd.org</ulink
->. </para>
-		</listitem>
-
-		<listitem>
-		<para
->PC-BSD pakker er til rådighed <ulink url="http://www.pbidir.com/search.php?str=bibletime"
->her</ulink
->. </para>
-		</listitem>
-	</itemizedlist>
-</para>
-</section>
-
-<section
-><title
+      <listitem>
+        <para
+>Sourcecode and packages for major Linux distributions can be downloaded from <ulink url="http://sourceforge.net/project/showfiles.php?group_id=954"
+> SourceForge</ulink
+>.</para>
+      </listitem>
+      <listitem>
+        <para
+>Ubuntu packages are available in the repository and <ulink url="http://packages.ubuntu.com/hardy/bibletime"
+> here</ulink
+>. Updated packages for Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url="https://launchpad.net/~txwikinger/+archive"
+> here</ulink
+>.</para>
+      </listitem>
+      <listitem>
+        <para
+>Debian packages are available in the repository and <ulink url="http://packages.debian.org/bibletime"
+> here</ulink
+>.</para>
+      </listitem>
+      <listitem>
+        <para
+>Gentoo pakker er i portering. Bare kald "emerge bibletime".</para>
+      </listitem>
+      <listitem>
+        <para
+>A FreeBSD application port of BibleTime can be found at <ulink url="http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all"
+> www.freebsd.org</ulink
+>.</para>
+      </listitem>
+      <listitem>
+        <para
+>PC-BSD packages are available <ulink url="http://www.pbidir.com/bt/pbi/149/bibletime"
+> here</ulink
+>.</para>
+      </listitem>
+    </itemizedlist
+></para>
+  </section>
+  <section>
+    <title
 >Installation af BibleTime</title>
-<para
->Denne sektion forklarer hvordan man installerer BibleTime på dit system. Der er to måder at installere det på: Enten ved at bruge forudbyggede binære pakker, eller ved at kompilere det fra kildkode. Det er nemmest at installere BibleTime med forudbyggede pakker. </para>
-
-	<section
-><title
+    <para
+>Denne sektion forklarer hvordan man installerer BibleTime på dit system. Der er to måder at installere det på: Enten ved at bruge forudbyggede binære pakker, eller ved at kompilere det fra kildkode. Det er nemmest at installere BibleTime med forudbyggede pakker.</para>
+    <section>
+      <title
 >Forudbyggede binære pakker</title>
-		<para
->Med hjælp fra fantastiske frivillige, prøver vi at forsyne med pakker til de mest vigtige Linux-distributioner. Før du installerer BibleTime, er du nødt til at indstallere pakker for <ulink url="http://clucene.sourceforge.net/"
->CLucene 
->= 0.9.16a</ulink
-> og Sword (Binære Sword pakker er tilgængelige på BibleTimes downloadside) </para>
 
-		<para
->Download først den binære pakke til din Linux distrubition. For eksempel: Du ønsker at downloade <application
+      <para
+>With the help of great volunteers, we try to provide packages for the most important Linux distributions. Before installing BibleTime, however, you need to find and install packages for <ulink url="http://clucene.sourceforge.net/"
+>CLucene &gt;= 0.9.16a</ulink
+> and Sword (Sword binaries are available at the BibleTime download site).</para>
+
+      <para
+>First download the binary package for your Linux distribution. For example: You want to download <application
 >BibleTime 1.4</application
-> til <productname
+>for <productname
 >SuSE Linux 9.0</productname
->. I dette tilfælde skal du downloade denne pakke <filename
+>. In this case you have to download the package <filename
 >bibletime-1.4-1.suse9.0.i586.rpm</filename
->. Download også &quot;bibletime-i18n&quot; pakken. Denne pakke indeholder alle de tilgængelige oversættelser af BibleTimes brugerflade og håndbog. </para>
-		<para
->Hvis der ikke er nogle pakker til din version af Linux, så er du nødt til at installere fra kildekode. Se her under hvordan man gør. </para>
-	</section>
+>. Please download the package "bibletime-i18n" package, too. This package contains the available translations of the BibleTime user interface and handbook.</para>
 
-	<section
-><title
+      <para
+>Hvis der ikke er nogle pakker til din version af Linux, så er du nødt til at installere fra kildekode. Se her under hvordan man gør.</para>
+    </section>
+    <section>
+      <title
 >Installation fra kildekode </title>
-		<para
+      <para
 >Det er sværere at installere BibleTime fra kildekode end med forudlavede binære pakker. Følg trinene herunder hvis du beslutter at installere BibleTime fra kildekoden: <orderedlist>
-			<listitem>
-				<para
->Forsikr dig først at du har det nødvendige software installeret på dit system. Afhængig af din Linux distrubition, er du også nødt til at installere udviklingspakkerne af den nødvendige software. </para>
-
-				<itemizedlist>
-					<listitem>
-						<para
+        <listitem>
+          <para
+>Forsikr dig først at du har det nødvendige software installeret på dit system. Afhængig af din Linux distrubition, er du også nødt til at installere udviklingspakkerne af den nødvendige software.</para>
+          <itemizedlist>
+            <listitem>
+              <para
 ><ulink url="http://www.kde.org/"
 >KDE 3</ulink
 >.</para>
-						<para
->I hvert fald bibliotekerne og basispakkerne. KDE 3 kommer med mange Linux distributioner. Meget ofte er det forudinstalleret. </para>
-					</listitem>
-					<listitem>
-						<para
+              <para
+>I hvert fald bibliotekerne og basispakkerne. KDE 3 kommer med mange Linux distributioner. Meget ofte er det forudinstalleret.</para>
+            </listitem>
+            <listitem>
+              <para
 ><ulink url="http://clucene.sourceforge.net/"
->CLucene 
->= 0.9.15</ulink
+>CLucene &gt;= 0.9.16a</ulink
 >.</para>
-						<para
->Denne er nødvendig for den nye "instant search" funktion. </para>
-					</listitem>
-					<listitem>
-						<para
+
+              <para
+>Denne er nødvendig for den nye "instant search" funktion.</para>
+            </listitem>
+            <listitem>
+              <para
 ><ulink url="http://www.crosswire.org/sword/software/swordapi.jsp"
->Sword 1.5.9</ulink
+> Sword 1.5.9</ulink
 >.</para>
-						<para
->Installations instruktioner er tilgænglige på <ulink url="http://www.crosswire.org/sword/software/index.jsp"
->www.crosswire.org/sword/software</ulink
->. I korte træk skal man gøre følgende <screen
+
+              <para
+>Installation instructions are available on <ulink url="http://www.crosswire.org/sword/software/index.jsp"
+> www.crosswire.org/sword/software</ulink
+>. Basically the installation steps are <screen
 ><command
->./usrinst.sh --enable-shared --without-clucene</command>
-                                                                <command
+>./usrinst.sh --enable-shared
+                --without-clucene</command>
+                <command
 >make</command>
-                                                                <command
+                <command
 >make install</command>
-                                                                <command
+                <command
 >make install_config</command
 >
-                                                        </screen>
-						</para>
-					</listitem>
-				</itemizedlist>
-
-				<para
->Bemærk at denne liste er kun gyldig for den seneste version af BibleTime, ældre versioner kræver muligvis anden software. </para>
-			</listitem>
-
-			<listitem>
-				<para
+              </screen
+></para>
+            </listitem>
+          </itemizedlist>
+          <para
+>Bemærk at denne liste er kun gyldig for den seneste version af BibleTime, ældre versioner kræver muligvis anden software.</para>
+        </listitem>
+        <listitem>
+          <para
 >Kompilér og installér BibleTime: <screen
 ><command
->./configure --prefix=&lt;din KDE mappe&gt;</command>
-                                                <command
+>./configure --prefix=&lt;your KDE
+            directory&gt;</command>
+            <command
 >make</command>
-                                                <command
+            <command
 >make install</command
 >
-                                        </screen>
-				</para>
-
-				<para
+          </screen
+></para>
+          <para
 >Du kan se din KDE mappe ved at køre kommandoen <command
 >kde-config --prefix</command
 >. Hvis du løber ind i problemer, så læs vores <olink targetdocent="software_faq"
 >OSS/FAQ</olink
 >. Hvis der ikke er en løsning på problemet, så hver venlig at kontakte os på <email
 >info@bibletime.info</email
->. </para>
-				
-				<para
->Debian (og muligvis beslægtede distributioner ligeledes) bruger en ikke-standard sti til at gemme dokumentation af KDE programmer. Derfor skal ./configure linien herover i dette tilfælde ændres til: <screen>
-                                                <command
->kde_htmldir=/usr/share/doc/kde/HTML ./configure --prefix=/usr</command>
-                                        </screen
-> Hvis du glemmer det, kan du muligvis ikke få adgang til håndbogen og Bibelstudie guiden. </para>
-			</listitem>
-			
-			<listitem>
-				<para
->Kompiler og installer oversættelserne til BibleTimes brugerflade (bibletime-i18n): <screen>
-                                                <command
->./configure --prefix=&lt;din KDE mappe&gt;</command>
-                                                <command
+>.</para>
+          <para
+>Debian (and possibly derived distros as well) use a non-standard path to store the documentation of KDE programs. Therefore the ./configure line above in this case needs to be changed to: <screen>
+            <command
+>kde_htmldir=/usr/share/doc/kde/HTML ./configure
+            --prefix=/usr</command>
+          </screen
+>If you forget this, you'll likely not be able to access the handbook and the BibleStudy HowTo.</para>
+        </listitem>
+        <listitem>
+          <para
+>Compile and install the translations of BibleTime's user interface (bibletime-i18n): <screen>
+            <command
+>./configure --prefix=&lt;your KDE
+            directory&gt;</command>
+            <command
 >make</command>
-                                                <command
+            <command
 >make install</command>
-                                        </screen
-> Se advarslen angående ualmindelige steder i den foregående paragraf. </para>
-			</listitem>
-
-		</orderedlist>
-
-		</para>
-	</section>
-</section>
-
-<section
-><title
+          </screen
+>Please see the warning regarding nonstandard paths in the previous paragraph.</para>
+        </listitem>
+      </orderedlist
+></para>
+    </section>
+  </section>
+  <section>
+    <title
 >Installér værker</title>
-	<para
->Du har brug for Sword-moduler for at arbejde med BibleTime. Siden version 1.4 har BibleTime tilbudt en brugervenlig dialog (Boghylde Manageren) til at installere/opdatere/fjerne værker. Vi foreslår kraftigt at du bruger den til at installere værker på din computer. </para>
+    <para
+>Du har brug for Sword-moduler for at arbejde med BibleTime. Siden version 1.4 har BibleTime tilbudt en brugervenlig dialog (Boghylde Manageren) til at installere/opdatere/fjerne værker. Vi foreslår kraftigt at du bruger den til at installere værker på din computer.</para>
 
-	<para
->Instruktion for manuel installation er til rådighed på <ulink url="http://www.crosswire.org/sword/modules/moduleinstall.jsp"
->www.crosswire.org/sword/modules</ulink
->. </para>
-
-	<section
-><title
+    <para
+>Instructions for manual installation is available on <ulink url="http://www.crosswire.org/sword/modules/moduleinstall.jsp"
+> www.crosswire.org/sword/modules</ulink
+>.</para>
+    <section>
+      <title
 >Tilgængelige typer af værker</title>
-		<para
->Her er en liste over tilgængelige værker og hvor man kan få flere informationer: </para>
-		<para>
-			<orderedlist>
-				<listitem
-><ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles"
->Bibler</ulink
-></listitem>
-				<listitem
-><ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Commentaries"
->Kommentarer</ulink
-></listitem>
-				<listitem
-><ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Dictionaries"
->Leksikoner / Ordbøger</ulink
-></listitem>
-				<listitem
-><ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Books"
->Bøger</ulink
-></listitem>
-			</orderedlist>
-		</para>
-	</section>
-
-</section>
-
+      <para
+>Her er en liste over tilgængelige værker og hvor man kan få flere informationer:</para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles"
+>Bibler</ulink>
+          </listitem>
+          <listitem>
+            <ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Commentaries"
+>Kommentarer</ulink>
+          </listitem>
+          <listitem>
+            <ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Dictionaries"
+>Leksikoner / Ordbøger</ulink>
+          </listitem>
+          <listitem>
+            <ulink url="http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Books"
+>Bøger</ulink>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+  </section>
 </webpage>

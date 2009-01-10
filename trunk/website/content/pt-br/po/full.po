@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-22 17:50+0000\n"
+"POT-Creation-Date: 2009-01-10 21:36+0000\n"
 "PO-Revision-Date: 2007-05-20 21:31-0300\n"
 "Last-Translator: Saulo Rodrigues e Silva <saulors@yahoo.com>\n"
 "Language-Team: Portugues Brasil <pt_BR@li.org>\n"
@@ -471,337 +471,349 @@ msgid "It will cost you just a few minutes to update the webpage translation in 
 msgstr "Isso vai custar-lhe apenas alguns poucos minutos para atualizar a tradução da página no seu idioma. Ajudar com as traduções é algo que todos os usuários podem fazer e que ajuda a todos os usuários. Se você quer ajudar-nos a manter a tradução atualizada, por favor, leia a página sobre <olink targetdocent=\"translations\">fazendo traduções</olink> e atualize o arquivo de tradução de seu próprio idioma."
 
 #. Tag: author
-#: software.xml:16
+#: software.xml:15
 #, fuzzy, no-c-format
 msgid "The BibleTime team"
 msgstr "Junte-se ao time do BibleTime"
 
 #. Tag: title
-#: software.xml:20
+#: software.xml:18
 #, no-c-format
 msgid "Welcome to the BibleTime project."
 msgstr "Bem vindo ao projeto BibleTime!"
 
 #. Tag: para
-#: software.xml:21
+#: software.xml:19
 #, fuzzy, no-c-format
-msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
+msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr "BibleTime é uma aplicação de Estudo Bíblico para Linux. Ele é baseado no <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> e usa a biblioteca de programação <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> para trabalhar com textos bíblicos, comentários, dicionários e livros providos pela <ulink url=\"http://www.crosswire.org/\">Sociedade Bíblia Crosswire</ulink>."
 
 #. Tag: title
-#: software.xml:40
+#: software.xml:38
 #, no-c-format
 msgid "News about BibleTime"
 msgstr "Notícias sobre o BibleTime"
 
 #. Tag: title
-#: software.xml:42
-#, fuzzy, no-c-format
-msgid "2008-09-18:  BibleTime 1.7beta2"
-msgstr "2006-03-18: BibleTime 1.6beta1"
+#: software.xml:40
+#, no-c-format
+msgid "2008-12-13: 1.7beta3 release"
+msgstr ""
 
 #. Tag: para
-#: software.xml:43
+#: software.xml:42
 #, no-c-format
-msgid "BibleTime 1.7beta2 has been released. Though this version is labeled as beta it is completely usable and should be stable for daily work. Packagers and translators are encouraged to start their work. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\">More...</ulink>"
+msgid "BibleTime 1.7.beta3 was just released. The Sword requirement was set back to 1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
 #. Tag: title
+#: software.xml:49
+#, fuzzy, no-c-format
+msgid "2008-09-18: BibleTime 1.7beta2"
+msgstr "2006-03-18: BibleTime 1.6beta1"
+
+#. Tag: para
 #: software.xml:51
+#, no-c-format
+msgid "BibleTime 1.7beta2 has been released. Though this version is labeled as beta it is completely usable and should be stable for daily work. Packagers and translators are encouraged to start their work. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
+msgstr ""
+
+#. Tag: title
+#: software.xml:59
 #, fuzzy, no-c-format
 msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
 msgstr "29/01/2004: BibleTime 1.4.1"
 
 #. Tag: para
-#: software.xml:52
+#: software.xml:60
 #, no-c-format
 msgid "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</ulink> how to setup your Linux to get the new packages."
 msgstr ""
 
 #. Tag: para
-#: software.xml:55
+#: software.xml:65
 #, no-c-format
 msgid "Version 1.6.5.1 has been released. It contains fixes so it can be installed on current versions of Linux."
 msgstr ""
 
 #. Tag: title
-#: software.xml:61
+#: software.xml:69
 #, fuzzy, no-c-format
 msgid "2008-01-12: BibleTime 1.7alpha1"
 msgstr "2007-01-29: BibleTime 1.6.3"
 
 #. Tag: para
-#: software.xml:62
+#: software.xml:70
 #, no-c-format
-msgid "The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\">Read the announcement</ulink> to know more about the current status and the future of BibleTime."
+msgid "The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\"> Read the announcement</ulink> to know more about the current status and the future of BibleTime."
 msgstr ""
 
 #. Tag: title
-#: software.xml:67
+#: software.xml:77
 #, fuzzy, no-c-format
 msgid "2007-11-04: BibleTime 1.6.5"
 msgstr "29/01/2004: BibleTime 1.4.1"
 
 #. Tag: para
-#: software.xml:68
+#: software.xml:78
 #, no-c-format
 msgid "A new bugfix version of BibleTime is now available. It contains several important fixes in the bookshelfmanager, the sessionmanagement and in the text-display windows. It also ships with updated translations. The source code can be downloaded from our SourceForge page. Binary packages will be made available soon."
 msgstr ""
 
 #. Tag: title
-#: software.xml:73
+#: software.xml:86
 #, fuzzy, no-c-format
 msgid "2007-04-18: BibleTime 1.6.4"
 msgstr "29/01/2004: BibleTime 1.4.1"
 
 #. Tag: para
-#: software.xml:74
+#: software.xml:87
 #, no-c-format
 msgid "A new bugfix release of BibleTime has been released today. Version 1.6.4 fixes issues with the NETfree Bible module, the search and also contains several smaller improvements. The bibletime-i18n translations contains updated Polish and Chinese translation files."
 msgstr "Uma nova versao de correçao de bugs foi liberada hoje. A versao 1.6.4 corrige problemas com o modulo NETfree Bible, a busca e tambem contem varias pequenas melhorias. As traduçoes bibletime-i18n contem arquivos de traducao Chines e Polonês atualizados."
 
 #. Tag: title
-#: software.xml:79
+#: software.xml:94
 #, no-c-format
 msgid "2007-01-29: BibleTime 1.6.3"
 msgstr "2007-01-29: BibleTime 1.6.3"
 
 #. Tag: para
-#: software.xml:80
-#, no-c-format
-msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linux distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
+#: software.xml:95
+#, fuzzy, no-c-format
+msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linux distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
 msgstr "A Versao 1.6.3 foi lançada hoje. Alem de correçoes de bugs menores a busca nos modulos unicode agora funciona novamente. As traduçoes foram atualizadas, tambem. Veja o <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> para uma lista detalhada das mudanças. Nos esperamos prover pacotes para a maioria das distribuiçoes Linux em breve. Para instalar do codigo fonte voce precisa do Sword 1.5.9 e CLucene 0.9.16a. Pacotes para estes dois estao disponiveis em nossa area de download."
 
 #. Tag: title
-#: software.xml:86
+#: software.xml:106
 #, no-c-format
 msgid "2006-12-10: BibleTime 1.6.2"
 msgstr "2006-12-10: BibleTime 1.6.2"
 
 #. Tag: para
-#: software.xml:87
-#, no-c-format
-msgid "A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. The translation package bibletime-i18n has been updated, as well."
+#: software.xml:107
+#, fuzzy, no-c-format
+msgid "A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink>. The translation package bibletime-i18n has been updated, as well."
 msgstr "Uma nova versao foi lançada hoje. Ela contem varias correçoes de bugs importantes, um sumario das mudanças esta disponivel no  <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Os pacotes de traduçao bibletime-i18n foram atualizados, igualmente."
 
 #. Tag: title
-#: software.xml:93
+#: software.xml:114
 #, no-c-format
 msgid "2006-10-26: BibleTime 1.6.1"
 msgstr "2006-10-26: BibleTime 1.6.1"
 
 #. Tag: para
-#: software.xml:94
-#, no-c-format
-msgid "A new version of the BibleTime software has been made available today. BibleTime 1.6.1 contains several fixes for bugs which have been found in version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> for details. The translation package bibletime-i18n has also been updated. Sword 1.5.9 and CLucene 0.9.15 are required before installing from source code. But we hope to provide binary packages soon."
+#: software.xml:115
+#, fuzzy, no-c-format
+msgid "A new version of the BibleTime software has been made available today. BibleTime 1.6.1 contains several fixes for bugs which have been found in version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for details. The translation package bibletime-i18n has also been updated. Sword 1.5.9 and CLucene 0.9.15 are required before installing from source code. But we hope to provide binary packages soon."
 msgstr "Uma nova versao do software Bible Time foi tornada disponivel hoje. Bible Time 1.6.1 contem varias correçoes para bugs  encontrados na versao 1.6. Leia o <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> para os detalhes. O pacote de traduçao bibletime-i18n tambem foi atualizado. Sword 1.5.9 e CLucene 0.9.15 sao requeridos antes de instalar do codigo fonte. Mas nos esperamos prover pacotes binarios logo."
 
 #. Tag: title
-#: software.xml:101
+#: software.xml:125
 #, no-c-format
 msgid "2006-09-22: BibleTime 1.6"
 msgstr "2006-09-22: BibleTime 1.6"
 
 #. Tag: para
-#: software.xml:102
+#: software.xml:126
 #, no-c-format
 msgid "A new version of BibleTime has been made available today. It includes many fixes and several new features like the instant search in the installed works."
 msgstr "Uma nova versao do Bible Time tornou-se disponivel hoje. Ela inclue muitas correcoes e varias funçoes novas como a busca instantanea nos trabalhos instalados."
 
 #. Tag: para
-#: software.xml:105
-#, no-c-format
-msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">here</ulink>"
+#: software.xml:129
+#, fuzzy, no-c-format
+msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> here</ulink>"
 msgstr "Voce precisa instalar o Sword 1.5.9 e CLucene 0.9.15 antes de instalar esta versao. Um changelog detalhado esta disponivel <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">aqui</ulink>"
 
 #. Tag: title
-#: software.xml:111
+#: software.xml:135
 #, no-c-format
 msgid "2006-06-17: BibleTime 1.6beta3"
 msgstr "2006-06-17: BibleTime 1.6beta3"
 
 #. Tag: para
-#: software.xml:112
-#, no-c-format
-msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for the list of changes."
+#: software.xml:136
+#, fuzzy, no-c-format
+msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\"> Changelog</ulink> for the list of changes."
 msgstr "A terceira versao beta do BibleTime 1.6 foi lançada. Veja o <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> para alista de mudanças."
 
 #. Tag: para
-#: software.xml:116
+#: software.xml:139
 #, no-c-format
 msgid "You need to install CLucene 0.9.12 before installing this preview release."
 msgstr "Voce precisa instalar CLucene 0.9.12 antes de instalar esta versao de pré-estreia."
 
 #. Tag: title
-#: software.xml:122
+#: software.xml:143
 #, no-c-format
 msgid "2006-04-26: BibleTime 1.6beta2"
 msgstr "2006-04-26: BibleTime 1.6beta2"
 
 #. Tag: para
-#: software.xml:123
-#, no-c-format
-msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> for more details."
+#: software.xml:144
+#, fuzzy, no-c-format
+msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\"> Changelog</ulink> for more details."
 msgstr "A segunda versao de pré-estreia do BibleTime 1.6 foi lançada agora. Veja o <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> para mais detalhes."
 
 #. Tag: para
-#: software.xml:127
+#: software.xml:148
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
 msgstr "Voce precisa instalar CLucene 0.9.10 antes de instalar esta versao beta."
 
 #. Tag: title
-#: software.xml:133
+#: software.xml:152
 #, no-c-format
 msgid "2006-03-18: BibleTime 1.6beta1"
 msgstr "2006-03-18: BibleTime 1.6beta1"
 
 #. Tag: para
-#: software.xml:134
+#: software.xml:153
 #, no-c-format
 msgid "The first beta release of the upcoming version 1.6 has been released today."
 msgstr "A primeira versao beta da futura versao 1.6 foi lançada hoje."
 
 #. Tag: para
-#: software.xml:138
+#: software.xml:155
 #, no-c-format
 msgid "Among many bug fixes it includes a new instant search feature, which enabled BibleTime to search in your installed works in a fraction of a second."
 msgstr "Entre muitas correçoes de bugs estao incluidas uma nova ccaracterística de procura, que habilita o  BibleTime a procurar nos seus trabalhos instalados numa fraçao de segundo."
 
 #. Tag: para
-#: software.xml:143
-#, no-c-format
-msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
+#: software.xml:158
+#, fuzzy, no-c-format
+msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\">clucene.sf.net</ulink>) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime.</ulink>"
 msgstr "A instalaçao de CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) e necessaria para compilar e instalar o BibleTime 1.6beta1. Por favor reporte todos os bugs encontrados e suas sugestoes usando nossos trackers em <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
 
 #. Tag: title
-#: software.xml:158
+#: software.xml:166
 #, no-c-format
 msgid "2006-03-17: Locked German Bible"
 msgstr "2006-03-17: Biblia Alema Trancada"
 
 #. Tag: para
-#: software.xml:159
-#, no-c-format
-msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decided to release their excellent, modern translation \"Hoffnung für Alle\" (GerHfa2002) for use by the Sword community."
+#: software.xml:167
+#, fuzzy, no-c-format
+msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\">Brunnen</ulink> decided to release their excellent, modern translation \"Hoffnung f&#195;&#188;r Alle\" (GerHfa2002) for use by the Sword community."
 msgstr "O editor Alemao <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decidiu lançar sua excelente, traduçao moderna \"Hoffnung für Alle\" (GerHfa2002) para uso na comunidade Sword."
 
 #. Tag: para
-#: software.xml:168
-#, no-c-format
-msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here </ulink> . This module is locked. If you want to use it, you can buy an unlock key for 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen </ulink> . CrossWire is not involved in the financial transaction and receives no share of the money."
+#: software.xml:172
+#, fuzzy, no-c-format
+msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here</ulink>. This module is locked. If you want to use it, you can buy an unlock key for 22 &#8364; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen</ulink>. CrossWire is not involved in the financial transaction and receives no share of the money."
 msgstr "O texto contem cabeçalhos, notas de rodape, ... e pode ser baixado <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> aqui </ulink> . Este modulo esta trancado. Se voce deseja usa-lo, voce pode comprar uma chave por 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> diretamente da Brunnen </ulink> . CrossWire nao esta envolvida na transaçao financeira e nao compartilha ou recebe parte do dinheiro."
 
 #. Tag: para
-#: software.xml:184
-#, no-c-format
-msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> will make use of this possibility </ulink> to distribute their copyrighted material for use with The SWORD Project."
+#: software.xml:180
+#, fuzzy, no-c-format
+msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\">will make use of this possibility</ulink> to distribute their copyrighted material for use with The SWORD Project."
 msgstr "Nos esperamos que no futuro, mais editores <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> farao uso desta possibilidade </ulink> para distribuir seus materiais protegidos para uso pelo Projeto SWORD."
 
 #. Tag: para
-#: software.xml:193
+#: software.xml:184
 #, no-c-format
 msgid "This will ultimately increase the recent material available through The SWORD Project and help users with studying God's word. Stay tuned for more module updates soon!"
 msgstr "Isto vai no final das contas aumentar o material recente disponivel pelo Projeto SWORD e ajudar os usuarios a estudar a palavra de Deus. Fique antenado para mais atualizacoes nos modulos em breve!"
 
 #. Tag: title
-#: software.xml:202
+#: software.xml:189
 #, no-c-format
 msgid "2005-12-18: Translations, packages, FAQ"
 msgstr "2005-12-18: Traduçoes, pacotes, FAQ"
 
 #. Tag: para
-#: software.xml:203
+#: software.xml:190
 #, no-c-format
 msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
 msgstr "Uma nova versao de nossos pacotes de traduçao esta disponivel agora em nossa area de download. Ela inclui muitas atualizaçoes das traduçoes de interface do usuario. Nos esperamos prover pacotes binarios em breve."
 
 #. Tag: para
-#: software.xml:209
+#: software.xml:194
 #, no-c-format
 msgid "Perhaps you noticed all the package updates in the last few months. Jeremy Erickson is working on it and is a great blessing for our team."
 msgstr "Talvez voce notou todas as atualizaçoes de pacotes nos ultimos meses. Jeremy Erickson esta trabalhando nisso e eh uma grande bençao para nosso time."
 
 #. Tag: para
-#: software.xml:214
+#: software.xml:197
 #, no-c-format
 msgid "The FAQ received some minor updates."
 msgstr "O FAQ recebeu pequenas atualizaçoes"
 
 #. Tag: title
-#: software.xml:218
+#: software.xml:200
 #, no-c-format
 msgid "2005-11-13: BibleTime 1.5.3"
 msgstr "2005-11-13: BibleTime 1.5.3"
 
 #. Tag: para
-#: software.xml:219
+#: software.xml:201
 #, no-c-format
 msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
 msgstr "Uma nova versao de correção de bugs esta disponivel agora. A versao 1.5.3 contem somente poucas correcoes, principalmente para suportar totalmente modulos trancados and para compilar com KDE 3.0 - 3.3."
 
 #. Tag: para
-#: software.xml:224
+#: software.xml:204
 #, no-c-format
 msgid "Get the new release in the download section. Binary packages should be available soon."
 msgstr "Peque a nova versao na seçao de download. Pacotes binarios devem estar disponiveis logo."
 
 #. Tag: title
-#: software.xml:231
+#: software.xml:208
 #, no-c-format
 msgid "2005-10-16: BibleTime 1.5.2"
 msgstr "2005-10-16: BibleTime 1.5.2"
 
 #. Tag: para
-#: software.xml:232
+#: software.xml:209
 #, no-c-format
 msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
 msgstr "Uma nova versao de correção de bugs foi lançada hoje. A versao 1.5.2 contem correçoes para a maioria dos bugs encontrados na 1.5.1. Existem ainda algumas poucas melhorias para a interface do usuario. Veja o arquivo Changelog no pacote do codigo fonte para mais detalhes."
 
 #. Tag: para
-#: software.xml:239
+#: software.xml:214
 #, no-c-format
 msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
 msgstr "O BibleTime 1.5.2 esta disponivel nos lugares usuais. Nos ficariamos gratos se pacotes binarios pudessem ser preparados para simplificar a instalaçao do BibleTime."
 
 #. Tag: title
-#: software.xml:247
+#: software.xml:219
 #, fuzzy, no-c-format
 msgid "2005-09-28: New forums"
 msgstr "26/01/2004: Forums de usuários online"
 
 #. Tag: para
-#: software.xml:248
+#: software.xml:220
 #, no-c-format
 msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
 msgstr "Porque o antigo software de fórum foi tirado do ar, por ser inseguro, nós instalamos um novo software para fórum hoje. Nós esperamos que você continue a usar os fóruns."
 
 #. Tag: title
-#: software.xml:256
+#: software.xml:225
 #, fuzzy, no-c-format
 msgid "2005-09-12: BibleTime 1.5.1 and translations"
 msgstr "2005-05-29: BibleTime 1.5 - candidato 1"
 
 #. Tag: para
-#: software.xml:257
+#: software.xml:226
 #, no-c-format
 msgid "The bugfix release 1.5.1 is available now at our download location. A first version of BibleTime's translation files has been released, too."
 msgstr "A versão 1.5.1 para correção de bugs está disponível em nossa seção de downloads. Uma primeira versão dos arquivos de tradução do  BibleTime também foi liberada."
 
 #. Tag: title
-#: software.xml:265
+#: software.xml:231
 #, no-c-format
 msgid "2005-07-16: BibleTime 1.5"
 msgstr "2005-07-16: BibleTime 1.5"
 
 #. Tag: para
-#: software.xml:266
+#: software.xml:232
 #, no-c-format
 msgid "BibleTime 1.5 is available now. It contains many new features and improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available in the download section. We hope to provide binary and translation packages for the most important Linux distributions in the next few weeks."
 msgstr "O BibleTime 1.5 já está disponível. Essa versão contêm muitas características novas e melhorias. O código fonte do BibleTime 1.5 e do Sword 1.5.8 está disponível na seção de download. Nós esperamos prover pacotes binários e de tradução para as distribuições Linux mais importantes nas próximas semanas."
 
 #. Tag: para
-#: software.xml:274
+#: software.xml:237
 #, no-c-format
 msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
 msgstr "Por favor usem nossos novos fóruns para discutor sobre esta nova versão. Tradutores são encorajados a atualizar suas traduções."

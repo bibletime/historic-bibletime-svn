@@ -1,58 +1,65 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 ]>
-
 <webpage id="software_about">
-<config param="desc" value="Software page"
+  <config param="desc" value="Software page"
 ></config>
-<config param="rcsdate" value="$Date: 2005/07/17 13:27:29 $"
+  <config param="rcsdate" value="$Date: 2008-12-09 09:04:21 -0500 (Tue, 09 Dec 2008) $"
 ></config>
-<head>
-	<title
+  <head>
+    <title
 >Om BibleTime</title>
-	<summary
+    <summary
 >Introduction to the BibleTime software</summary>
-	<keywords
->BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, about</keywords>
-</head>
-
-<section
-><title
+    <keywords
+>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    God, Religion, Bible, devotional, crosswire, sword,
+    about</keywords>
+  </head>
+  <section>
+    <title
 >Introduktion</title>
-<para
->BibleTime er et program til at studere Bibelen, med til Linux. Det er baseret på <ulink url="http://www.kde.org/"
->The K Desktop Environment</ulink
-> og det bruger <ulink url="http://www.crosswire.org/sword/"
->Sword</ulink
-> programmerings-biblioteket til at arbejde med Bibeltekster, kommentarer, ordbøger og bøger forsynet af <ulink url="http://www.crosswire.org/"
+    <para
+>BibleTime is a Bible study application for Linux. It is based on the <ulink url="http://www.kde.org/"
+>K Desktop Environment</ulink
+> and uses the <ulink url="http://www.crosswire.org/sword/"
+> Sword</ulink
+> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url="http://www.crosswire.org/"
 >Crosswire Bible Society</ulink
->. </para>
-</section>
-
-<section
-><title
+>.</para>
+  </section>
+  <section>
+    <title
 >BibleTimes historie</title>
-<para
->Tilbage i juni 1999, begyndte Thomas Hagedorn, Thorsten Uhlmann og Joachim Ansorg på at udvikle et Bibelstudie-program til KDE 1.0. </para>
 
-<para
->Den første version blev udgivet to måneder senere som version 0.1. Denne version var meget simpel og understøttede kun de mest basale ting. </para>
+    <para
+>Tilbage i juni 1999, begyndte Thomas Hagedorn, Thorsten Uhlmann og Joachim Ansorg på at udvikle et Bibelstudie-program til KDE 1.0.</para>
 
-<para
->Efter tre måneders hårdt arbejde blev version 0.2 udgivet til offentligheden. Denne version var brugbar. Den understøttede basal udskrivning, søgning, og tilbød en simpel editor til personlige noter. </para>
+    <para
+>Den første version blev udgivet to måneder senere som version 0.1. Denne version var meget simpel og understøttede kun de mest basale ting.</para>
 
-<para
->BibleTime 0.2 blev omskrevet til KDE 2 og totalt omdesignet med en mere kraftfuld brugerflade, bedre udskrivning og en masse indre forandringer. Denne version blev kaldt BibleTime 0.3. </para>
+    <para
+>Efter tre måneders hårdt arbejde blev version 0.2 udgivet til offentligheden. Denne version var brugbar. Den understøttede basal udskrivning, søgning, og tilbød en simpel editor til personlige noter.</para>
 
-<para
->BibleTime 1.0, som blev udgivet næsten et år efter version 0.3 og var den første version der blev regnet som stabil. </para>
+    <para
+>BibleTime 0.2 blev omskrevet til KDE 2 og totalt omdesignet med en mere kraftfuld brugerflade, bedre udskrivning og en masse indre forandringer. Denne version blev kaldt BibleTime 0.3.</para>
 
-<para
->BibleTime 1.1 og 1.2 fulgte efter. BibleTime 1.2 er den første version af BibleTime til verson 3 af KDE. </para>
+    <para
+>BibleTime 1.0, som blev udgivet næsten et år efter version 0.3 og var den første version der blev regnet som stabil.</para>
 
-<para
->BibleTime version 1.5 er blevet udgivet i juli 2005 efter lang tids udvikling. </para>
+    <para
+>BibleTime 1.1 og 1.2 fulgte efter. BibleTime 1.2 er den første version af BibleTime til verson 3 af KDE.</para>
 
-</section>
+    <para
+>BibleTime version 1.5 was released in July 2005 after a long time of development.</para>
 
+    <para
+>BibleTime version 1.6 was released in September 2006, and utilized <ulink url="http://clucene.sourceforge.net"
+>CLucene</ulink
+> as its search engine.</para>
+
+    <para
+>BibleTime version 1.7 was released in January 2008, it is the first version developed with QT4 for use with KDE4.</para>
+  </section>
 </webpage>

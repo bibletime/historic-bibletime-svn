@@ -1,78 +1,74 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 <!ENTITY software_intro_page SYSTEM "software_intro.xml" NDATA XML>
 <!ENTITY development_join SYSTEM "development_join.xml" NDATA XML>
 <!ENTITY translations SYSTEM "translation.xml" NDATA XML>
 ]>
-
 <webpage id="development_help">
-<config param="desc" value="Help us"
+  <config param="desc" value="Help us"
 ></config>
-<config param="rcsdate" value="$Date: 2006/03/24 18:01:41 $"
+  <config param="rcsdate" value="$Date: 2008-12-11 16:21:51 -0500 (Thu, 11 Dec 2008) $"
 ></config>
-<head>
-<title
+  <head>
+    <title
 >Hjælp os</title>
-<summary
->Direct and indirect support for the development of BibleTime</summary>
-<keywords
+    <summary
+>Direct and indirect support for the development of
+    BibleTime</summary>
+    <keywords
 >BibleTime, Help us, Help BibleTime, Software</keywords>
-</head>
-
-<section
-><title
+  </head>
+  <section>
+    <title
 >Vær venlig at hjælp os ...</title>
-<para
->Vores mål er at udvikle BibleTime til et modent Bibelstudie program, som kan bruges af hvem som helst. For at opnå det har vi brug for din hjælp. Der er forskellige måder hvorpå du kan hjælpe BibleTime-projektet, både direkte og indirekte: </para>
-
-<section
-><title
+    <para
+>Our aim is to develop BibleTime into a really mature Bible study application that can by used by everyone. To ahieve this, we need your help. There are different possibilities for supporting the BibleTime project directly and indirectly:</para>
+    <section>
+      <title
 >Ønsker du at bede?</title>
-<para
->At bede er noget alle kan gøre. Hvis du beder for Sword og BibelTimes projekter, hjælper du os lige så meget, som de andre medlemmer af BibleTime-projektets team. </para>
-</section>
-
-<section
-><title
+      <para
+>At bede er noget alle kan gøre. Hvis du beder for Sword og BibelTimes projekter, hjælper du os lige så meget, som de andre medlemmer af BibleTime-projektets team.</para>
+    </section>
+    <section>
+      <title
 >Vil du rapportere en fejl, eller foreslå en ny funktion?</title>
-<para
->Du kan bruge <ulink url="https://sourceforge.net/tracker/?group_id=954&amp;atid=100954"
->BibleTime's fejl-finder</ulink
-> til at reportere problemer med BibleTime som du oplever. Vær sikker på at du inkluderer den version af BibleTime, som du bruger, din Sword version, information omkring QT/KDE og dit styresystem, og alt andet der er nødvendigt for at genskabe fejlen. Før du indsender fejlen, så kig databasen igennem for at se om en lignende fejl allerede er blevet håndteret (og derfor allerede har statussen "lukket"). </para>
-<para
->Der er også <ulink url="http://sourceforge.net/tracker/?group_id=954&amp;atid=350954"
->dette sted</ulink
-> hvor du kan foreslå nye funktioner som du gerne vil se i BibleTime. Vi beder dig om forståelse med, at vi har begrænset tid og vores egne planer for BibleTime, så vi kan desværre ikke opfylde alle ønsker. </para>
-</section>
+      <para
+>You can use <ulink url="https://sourceforge.net/tracker/?group_id=954&amp;atid=100954"
+> BibleTime's bug tracker</ulink
+> to report problems with BibleTime that you are experiencing. Please be sure to include the version of BibleTime you are using, your Sword version, information about QT/KDE and your operating system, and everything else that is neccessary to reproduce the bug. Before you submit the bug, please query the database to see if a similar bug has already been handled (and is therefore alredy in status "closed").</para>
 
-<section
-><title
+      <para
+>There is also <ulink url="http://sourceforge.net/tracker/?group_id=954&amp;atid=350954"
+> a place</ulink
+> where you can make suggestions for features you'd like to see in BibleTime. We ask for your understanding that due to our limited time and to our own plans for BibleTime we cannot always comply with all wishes.</para>
+    </section>
+    <section>
+      <title
 >Ved du hvordan man programmerer software?</title>
-<para
->Kan du finde ud af at programmere i C++? Er du vant til eller villig til at lære KDE programmerings grænsefladen? Hvis du har tid til at arbejde med BibleTimes kildekode regelmæssigt, så vil vi spørge dig om du gerne vil slutte dig til vores team. Hvis du gerne vil det, så læs venligst den her side <olink targetdocent="development_join"
-> Slut dig til os</olink
->. </para>
-</section>
-
-<section
-><title
+      <para
+>Do you know how to program in C++? Are you familiar with the KDE programming interface or are motivated to learn it? If you have time to regularly work on the BibleTime source code we ask you to join our team. If you want to do so, please read the page <olink targetdocent="development_join"
+>Join us</olink
+>.</para>
+    </section>
+    <section>
+      <title
 >Ved du hvordan man skriver dokumentation?</title>
-<para
->Syntes du, at du ville være god til at arbejde på BibleTimes engelske dokumentation? Hvis du føler at du er, så vær venlig at læse denne side <olink targetdocent="development_join"
-> Slut dig til os </olink
->. </para>
-</section>
+      <para
+>Do you think you would be good in working on BibleTime's English documentation? If you think you are, please read the page <olink targetdocent="development_join"
+>Join us</olink
+>.</para>
+    </section>
+    <section>
+      <title
+>Are you good at translating English into another language?</title>
+      <para
+>BibleTime skal være brugbart for alle. Det er derfor at vi behøver en oversættelse til dit sprog, hvis denne ikke er tilgængelig. Ønsker du at begynde på arbejdet med at oversætte, så kontakt os på info@bibletime.info for at se, om oversættelsen ikke allerede er blevet startet på af et andet medlem at teamet. Vi vil forsyne dig med de filer der skal oversættes.</para>
 
-<section
-><title
->Er du god til at oversætte engelsk til et andet sprog?</title>
-<para
->BibleTime skal være brugbart for alle. Det er derfor at vi behøver en oversættelse til dit sprog, hvis denne ikke er tilgængelig. Ønsker du at begynde på arbejdet med at oversætte, så kontakt os på info@bibletime.info for at se, om oversættelsen ikke allerede er blevet startet på af et andet medlem at teamet. Vi vil forsyne dig med de filer der skal oversættes. </para>
-<para
->Du kan finde flere informationer om oversættelses processen på den her side <olink targetdocent="translations"
-> Oversættelse</olink
->.  </para>
-</section>
-</section>
-
+      <para
+>You can find more information about the translation process on the page <olink targetdocent="translations"
+>translation</olink
+>.</para>
+    </section>
+  </section>
 </webpage>
