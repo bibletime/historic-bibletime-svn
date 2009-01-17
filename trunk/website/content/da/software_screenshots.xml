@@ -1,81 +1,74 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 ]>
-
 <webpage id="software_screenshots">
-	<config param="desc" value="News"
+  <config param="desc" value="News"
 ></config>
-	<config param="rcsdate" value="$Date: 2005/10/03 20:04:57 $"
+  <config param="rcsdate" value="$Date$"
 ></config>
-	<head>
-		<title
+  <head>
+    <title
 >Skærmbilleder</title>
-		<summary
+    <summary
 >Screenshots of BibleTime</summary>
-		<keywords>
-			BibleTime, Linux, Software, biblestudy, bible study, KDE,
-			God, Religion, Bible, devotional, crosswire, sword,
-			screenshots, gallery
-		</keywords>
-	</head>
-
-	<section>
-		<title
+    <keywords
+>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    God, Religion, Bible, devotional, crosswire, sword, screenshots,
+    gallery</keywords>
+  </head>
+  <section>
+    <title
 >Skærmbilleder fra BibleTime 1.5</title>
-
-		<formalpara>
-			<title
+    <formalpara>
+      <title
 >Hoved vinduet</title>
-			<para>
-				<ulink url="/images/screenshots/1-large.jpg">
-					<inlinemediaobject>
-						<imageobject>
-							<imagedata
-								fileref="/images/screenshots/1.jpg" format="JPG"/>
-						</imageobject>
-					</inlinemediaobject>
-				</ulink>
-			</para>
-			<para
->Her kan du se en typisk BibleTime-session. På den venstre bjælke, kan du se "boghylden" der giver hurtig adgang til alle installerede elektroniske værker, så vel som faciliteter til at skabe og administrere dine egne bogmærker. Derunder er "forstørrelsesglasset", der kan vise uddybende information om et ord, eller et stykke tekst. I dette eksempel viser det detaljer om det hebraiske ord som KJV oversætter som "Gud". I hoveddelen af BibleTime-vinduet (kaldt "skrivebordet") er der plads til at læse værker som Bibler, kommentarer, leksikoner eller andre bøger. </para>
-		</formalpara>
-
-		<formalpara>
-			<title
+      <para>
+        <ulink url="/images/screenshots/1-large.jpg">
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="/images/screenshots/1.jpg"
+              format="JPG"/>
+            </imageobject>
+          </inlinemediaobject>
+        </ulink>
+      </para>
+      <para
+>Her kan du se en typisk BibleTime-session. På den venstre bjælke, kan du se "boghylden" der giver hurtig adgang til alle installerede elektroniske værker, så vel som faciliteter til at skabe og administrere dine egne bogmærker. Derunder er "forstørrelsesglasset", der kan vise uddybende information om et ord, eller et stykke tekst. I dette eksempel viser det detaljer om det hebraiske ord som KJV oversætter som "Gud". I hoveddelen af BibleTime-vinduet (kaldt "skrivebordet") er der plads til at læse værker som Bibler, kommentarer, leksikoner eller andre bøger.</para>
+    </formalpara>
+    <formalpara>
+      <title
 >Boghylde Manageren</title>
-
-			<para>
-				<ulink url="/images/screenshots/3-large.jpg">
-					<inlinemediaobject>
-						<imageobject>
-							<imagedata
-								fileref="/images/screenshots/3.jpg" format="JPG"/>
-						</imageobject>
-					</inlinemediaobject>
-				</ulink>
-			</para>
-			<para
->BibleTime tilbyder en dialog der kan automatisk downloade og ordne dine elektroniske værker. Du vælger bare et bibliotek (en samling af værker, som <ulink url="http://www.crosswire.org/sword/"
-> Crosswire </ulink
-> ), og så kan du overføre de ønskede værker fra dette bibliotek til din egen boghylde for at bruge dem. Nemt, ikke? </para>
-		</formalpara>
-
-		<formalpara>
-			<title
+      <para>
+        <ulink url="/images/screenshots/3-large.jpg">
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="/images/screenshots/3.jpg"
+              format="JPG"/>
+            </imageobject>
+          </inlinemediaobject>
+        </ulink>
+      </para>
+      <para
+>BibleTime offers a dialog to automatically download and manage electronic works. You simply define a library (a remote collection of works, such as <ulink url="http://www.crosswire.org/sword/"
+>Crosswire</ulink
+>), and then you can transfer works from this library to your local bookshelf to use them. Easy, huh?</para>
+    </formalpara>
+    <formalpara>
+      <title
 >Søgedialogen </title>
-			<para>
-				<ulink url="/images/screenshots/2-large.jpg">
-					<inlinemediaobject>
-						<imageobject>
-							<imagedata
-								fileref="/images/screenshots/2.jpg" format="JPG"/>
-						</imageobject>
-					</inlinemediaobject>
-				</ulink>
-			</para>
-			<para
->BibleTime tilbyder en kraftfuld søgedialog. Du kan søge i flere Bibler på samme tid, begrænse din søgning til mindre områder af teksten eller også bestemte typer tekst, som for eksempel fodnoter. </para>
-		</formalpara>
-	</section>
-
+      <para>
+        <ulink url="/images/screenshots/2-large.jpg">
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="/images/screenshots/2.jpg"
+              format="JPG"/>
+            </imageobject>
+          </inlinemediaobject>
+        </ulink>
+      </para>
+      <para
+>BibleTime tilbyder en kraftfuld søgedialog. Du kan søge i flere Bibler på samme tid, begrænse din søgning til mindre områder af teksten eller også bestemte typer tekst, som for eksempel fodnoter.</para>
+    </formalpara>
+  </section>
 </webpage>
