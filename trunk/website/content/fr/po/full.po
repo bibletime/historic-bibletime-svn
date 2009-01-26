@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-17 20:23+0000\n"
+"POT-Creation-Date: 2009-01-26 13:39+0000\n"
 "PO-Revision-Date: 2008-06-02 00:12+0200\n"
 "Last-Translator: Jean-Francois Paquin <eklezia@sympatico.ca>\n"
 "Language-Team:  <de@li.org>\n"
@@ -1209,14 +1209,14 @@ msgstr "Ces mentions légales sont nécessaires en Allemagne pour les pages Web.
 #. Tag: para
 #: software_imprint.xml:17
 #, no-c-format
-msgid "The person who responsible for these webpages is:"
-msgstr "La personne responsable de ce site web est : "
-
-#. Tag: address
-#: software_imprint.xml:20
-#, no-c-format
-msgid "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
-msgstr "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Allemagne</country> <phone>49.641.3605633</phone> <otheraddr>courriel: info chez bibletime point info</otheraddr>"
+msgid ""
+"The person who is responsible for these webpages is: <literallayout>\n"
+"Joachim Ansorg\n"
+"Poststraße 2\n"
+"56479 Salzburg\n"
+"Germany\n"
+"</literallayout> <ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
+msgstr ""
 
 #. Tag: title
 #: software_installation.xml:19
@@ -2817,6 +2817,12 @@ msgstr "<title>Traduire les noms des livres bibliques.</title>"
 #, fuzzy, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
 msgstr "Traduire les noms des livres de la Bible vient du Projet Sword. Il n'y a pas de bonnes instructions pour le  moment mais vous pouvez trouver quelques informations et exemples en regardant au <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\">répertoire locales.d</ulink> de la bibliothèque Sword et utiliser <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\">leur modèle</ulink>."
+
+#~ msgid "The person who responsible for these webpages is:"
+#~ msgstr "La personne responsable de ce site web est : "
+
+#~ msgid "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
+#~ msgstr "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Allemagne</country> <phone>49.641.3605633</phone> <otheraddr>courriel: info chez bibletime point info</otheraddr>"
 
 #
 #~ msgid "The BibleTime user forum."

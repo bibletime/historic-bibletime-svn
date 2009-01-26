@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-17 20:23+0000\n"
+"POT-Creation-Date: 2009-01-26 13:39+0000\n"
 "PO-Revision-Date: 2005-12-02 15:01+0100\n"
 "Last-Translator: Haavard Haugen <havard.haugen@gmail.com>\n"
 "Language-Team: nynorsk <nn@li.org>\n"
@@ -1110,14 +1110,14 @@ msgstr "Denne notisen er naudsynt på alle tyske nettsider."
 #. Tag: para
 #: software_imprint.xml:17
 #, no-c-format
-msgid "The person who responsible for these webpages is:"
-msgstr "Personen som er ansvarleg for desse nettsidene er:"
-
-#. Tag: address
-#: software_imprint.xml:20
-#, fuzzy, no-c-format
-msgid "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
-msgstr "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605122</phone> <otheraddr>epost: info at bibletime dot info</otheraddr>"
+msgid ""
+"The person who is responsible for these webpages is: <literallayout>\n"
+"Joachim Ansorg\n"
+"Poststraße 2\n"
+"56479 Salzburg\n"
+"Germany\n"
+"</literallayout> <ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
+msgstr ""
 
 #. Tag: title
 #: software_installation.xml:19
@@ -2631,6 +2631,13 @@ msgstr "<title>Oversett handboka til programmet.</title>"
 #, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
 msgstr ""
+
+#~ msgid "The person who responsible for these webpages is:"
+#~ msgstr "Personen som er ansvarleg for desse nettsidene er:"
+
+#, fuzzy
+#~ msgid "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
+#~ msgstr "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605122</phone> <otheraddr>epost: info at bibletime dot info</otheraddr>"
 
 #~ msgid "The BibleTime user forum."
 #~ msgstr "Brukarforumet til BibleTime."
