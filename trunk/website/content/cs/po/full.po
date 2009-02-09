@@ -1,13 +1,12 @@
 # translation of bibletime_website_cs.po to
 # Pavel Lauko <pavel.lauko@gmail.com>, 2006.
-# Tomasz Michalek, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-02-09 14:44+0000\n"
-"PO-Revision-Date: 2009-02-07 08:06+0100\n"
-"Last-Translator: Tomáš Michalek <michto01vgmail.com>\n"
+"PO-Revision-Date: 2009-02-09 19:22+0100\n"
+"Last-Translator: Tomáš Michalek <michto01@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -471,7 +470,7 @@ msgstr "Vděli jste, že v roce 2009, víc jak 200 000 000 křesťanů je proná
 #: devotional.xml:27
 #, no-c-format
 msgid "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share its suffering... You are Christ's body and each of you is an individual part of it.\""
-msgstr ""
+msgstr "1 Korintským 12:26.27: \"Trpí-li jeden úd, trpí spolu s ním všechny... Vy jste Kristovo tělo, a každý z vás je jedním z jeho údů."
 
 #
 #. Tag: title
@@ -577,9 +576,9 @@ msgstr "2008-09-18: BibleTime 1.7beta2"
 
 #. Tag: para
 #: software.xml:68
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "BibleTime 1.7beta2 has been released. Though this version is labeled as beta it is completely usable and should be stable for daily work. Packagers and translators are encouraged to start their work. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
-msgstr ""
+msgstr "Zveřejněna BibleTime verze 1.7beta2. Verze je označená jako beta a je nestabilní a může být dokončena během krátké doby. Baličkáři a překladatelé můžou začít jejich práci.  <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
 #. Tag: title
 #: software.xml:76
@@ -595,9 +594,9 @@ msgstr "Konečně jsou tu balíky pro Ubuntu 8.04 and 7.10. <ulink url=\"https:/
 
 #. Tag: para
 #: software.xml:82
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "Version 1.6.5.1 has been released. It contains fixes so it can be installed on current versions of Linux."
-msgstr ""
+msgstr "Verze1.6.5.1 byla zveřejněna. Obsahuje opravy, takže může být pohodlně nainstalována na aktuální verzi Linuxu."
 
 #. Tag: title
 #: software.xml:86
@@ -609,7 +608,7 @@ msgstr "2008-01-12: BibleTime 1.7alpha1"
 #: software.xml:87
 #, no-c-format
 msgid "The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\"> Read the announcement</ulink> to know more about the current status and the future of BibleTime."
-msgstr ""
+msgstr "Je dostupná alpha (testovací) verze pro prostředí KDE 4.0. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\"> Přečti si podrobnosti</ulink>, aby ses dozvěděl o změnách a plánech v BibleTime."
 
 #. Tag: title
 #: software.xml:94
@@ -844,7 +843,7 @@ msgstr ""
 #: software_about.xml:42
 #, no-c-format
 msgid "BibleTime 0.2 was later ported to KDE 2 and totally redesigned with a more powerful interface, better printing and a lot of internal changes. This version was called BibleTime 0.3"
-msgstr ""
+msgstr "BibleTime byla přenesena na platformu KDE verze 2 a byla totálně přdělána pro lepří interface, lepší tisk a mnoho vnitřních změn. Tato verze byla názvána BibleTime 0.3"
 
 #. Tag: para
 #: software_about.xml:47
@@ -947,7 +946,7 @@ msgstr "Proč chybí nástrojová lišta?"
 #: software_faq.xml:25
 #, no-c-format
 msgid "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. Then run make and make install as usual. The KDE directories for the widely used Linux distributions are: <orderedlist> <listitem>RedHat: /usr</listitem> <listitem>SuSE: /opt/kde3</listitem> <listitem>Mandrake: /usr</listitem> </orderedlist> Alternatively you can run the command \"kde-config --prefix\" to get your KDE directory. The commands are:"
-msgstr ""
+msgstr "Prosím spusťe příkaz --prefix=&lt;váš KDE adresář&gt;. Pak spusťte make and make install jako obvykle. KDE adresáře pro hlavní distribucí Linuxu se nalézají v: <orderedlist> <listitem>RedHat: /usr</listitem> <listitem>SuSE: /opt/kde3</listitem> <listitem>Mandrake: /usr</listitem> </orderedlist> Nebo můžete spustit \"kde-config --prefix\" v vašem domovském adresáři. Příkazy jsou:"
 
 #
 #. Tag: listitem
@@ -994,9 +993,9 @@ msgstr "Problémy s ovládáním"
 #
 #. Tag: para
 #: software_faq.xml:62
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "Is it possible to search for a specific Strong number?"
-msgstr ""
+msgstr "Je možné vyhledávat specifický řetězec Strong number?"
 
 #. Tag: title
 #: software_faq.xml:68
@@ -1009,7 +1008,7 @@ msgstr "Používání BibleTime 1.1 - 1.4.x"
 #: software_faq.xml:69
 #, no-c-format
 msgid "You need at least BibleTime 1.1 for this. Turn on the default usage of Strong's numbers in the optionsdialog (Sword-&gt;Filter settings). Then open the seachdialog and search for &lt;0120&gt; or any other Strong code."
-msgstr ""
+msgstr "Potřebujete minimálně BibleTime 1.1 pro toto. Zapněte defaultní použití Strong number dialogu nastavení (Sword-&gt;Filter settings). Následně otavřte vyhladávací dialog a hledejte &lt;0120&gt; nebo jiný Strong code."
 
 #. Tag: title
 #: software_faq.xml:73
@@ -1114,9 +1113,9 @@ msgstr "Zodpovědnost"
 
 #. Tag: para
 #: software_imprint.xml:16
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "This imprint is required in Germany for all webpages."
-msgstr ""
+msgstr "Tento tisk je vyžadovaný v němčině pro všechny webové stránky."
 
 #. Tag: para
 #: software_imprint.xml:17
@@ -1129,6 +1128,12 @@ msgid ""
 "Germany\n"
 "</literallayout> <ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
 msgstr ""
+"Osoba zodpovědna za tyto stránky: <literallayout>\n"
+"Joachim Ansorg\n"
+"Poststraße 2\n"
+"56479 Salzburg\n"
+"Germany\n"
+"</literallayout> <ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
 
 #. Tag: title
 #: software_installation.xml:19
@@ -1140,25 +1145,25 @@ msgstr "Stáhni si BibleTime"
 #: software_installation.xml:20
 #, no-c-format
 msgid "This is a short list of available download locations. Packages which are not provided on our SourceForge pages might be outdated. Please see below for detailed download and installation instructions."
-msgstr ""
+msgstr "Tady je krátký seznam dostupných lokalizací. Balíčky, které nejsou poskytovány na našem SourceForge stránkách mohou být zastaralé. Prosím sledujte následující detailní instalační instrukce a postup stahování."
 
 #. Tag: para
 #: software_installation.xml:26
 #, no-c-format
 msgid "Sourcecode and packages for major Linux distributions can be downloaded from <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\"> SourceForge</ulink>."
-msgstr ""
+msgstr "Zdrojové kódy a  balíčky pro hlavní distribuce Linuxu mužete stáhnou z <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\"> SourceForge</ulink>."
 
 #. Tag: para
 #: software_installation.xml:32
 #, no-c-format
 msgid "Ubuntu packages are available in the repository and <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\"> here</ulink>. Updated packages for Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url=\"https://launchpad.net/~txwikinger/+archive\"> here</ulink>."
-msgstr ""
+msgstr "Balíčky pro Ubuntu jsou dostupné z repozitáře a <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\"> tady</ulink>. Aktualizace balíčků pro Ubuntu 8.04 (Hardy Heron) a 7.10 (Gutsy Gibbon) jsou nabízeny <ulink url=\"https://launchpad.net/~txwikinger/+archive\"> zde</ulink>."
 
 #. Tag: para
 #: software_installation.xml:40
 #, no-c-format
 msgid "Debian packages are available in the repository and <ulink url=\"http://packages.debian.org/bibletime\"> here</ulink>."
-msgstr ""
+msgstr "Balíčky pro Debian jsou v repozitáři a <ulink url=\"http://packages.debian.org/bibletime\"> zde</ulink>."
 
 #. Tag: para
 #: software_installation.xml:45
@@ -1170,13 +1175,13 @@ msgstr "Gentoo balíčky jsou v Portag-u. Jen zadejte \"emerge bibletime\"."
 #: software_installation.xml:49
 #, no-c-format
 msgid "A FreeBSD application port of BibleTime can be found at <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd.org</ulink>."
-msgstr ""
+msgstr "Aplikační port pro FreeBSD můžete nalézt na <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd.org</ulink>."
 
 #. Tag: para
 #: software_installation.xml:54
 #, no-c-format
 msgid "PC-BSD packages are available <ulink url=\"http://www.pbidir.com/bt/pbi/149/bibletime\"> here</ulink>."
-msgstr ""
+msgstr "Balíčky pro PC-BSD jsou dostupné <ulink url=\"http://www.pbidir.com/bt/pbi/149/bibletime\"> zde</ulink>."
 
 #
 #. Tag: title
@@ -1189,7 +1194,7 @@ msgstr "Instalace BibleTime"
 #: software_installation.xml:62
 #, no-c-format
 msgid "This section explains how to install BibleTime on your system. Basically there are two ways to install it: Either by using prebuilt binary packages or by compiling from source code. Installing BibleTime using prebuilt packages is the easiest way."
-msgstr ""
+msgstr "Tato sejce vysvětluje jak nainstalovat BibleTime na váš systém. Jsou dvě základní cesty: použitím předkompilovavých balíčků nebo zkompilováním zdrojového kódu. Naislatovaní předkomlitovaných balíčku se doporučuje méně zkušeným uživatelům."
 
 #
 #. Tag: title
@@ -1202,19 +1207,19 @@ msgstr "Předkompilované binární balíčky"
 #: software_installation.xml:70
 #, no-c-format
 msgid "With the help of great volunteers, we try to provide packages for the most important Linux distributions. Before installing BibleTime, however, you need to find and install packages for <ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink> and Sword (Sword binaries are available at the BibleTime download site)."
-msgstr ""
+msgstr "S pomocí dobrovolniků se snažíme poskytovat balíčky pro nejdůležitější Linuxové distribuce. Před nainstalovaním BibleTime potřebujete najít a nainstalovat balíčky pro <ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink> a Sword (Balíčky Sword jsou dostupné na BibleTime download site)."
 
 #. Tag: para
 #: software_installation.xml:78
 #, no-c-format
 msgid "First download the binary package for your Linux distribution. For example: You want to download <application>BibleTime 1.4</application>for <productname>SuSE Linux 9.0</productname>. In this case you have to download the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please download the package \"bibletime-i18n\" package, too. This package contains the available translations of the BibleTime user interface and handbook."
-msgstr ""
+msgstr "Prvně stáhněte balíčky pro vaší Linux distribuci. Na příklad: budete chtít stáhnout <application>BibleTime 1.4</application>pro <productname>SuSE Linux 9.0</productname>.V tomto případě musíte stáhnout balíček<filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Prosíme stáhněte si i balíček \"bibletime-i18n\". Tento balíček obsahuje dostupné překlady programu a příruček."
 
 #. Tag: para
 #: software_installation.xml:88
 #, no-c-format
 msgid "If there are no packages for your version of Linux you have to install from source code. Please see below how to do that."
-msgstr ""
+msgstr "Jestli nejsou balíčky pro vši verzi Linuxu, budete ji muset nainstalovat prostřednictvím zdrojových kódu. Podívejte se jak na to."
 
 #. Tag: title
 #: software_installation.xml:93
@@ -1226,13 +1231,13 @@ msgstr "Instalace ze zdrojového kódu"
 #: software_installation.xml:94
 #, no-c-format
 msgid "Installation using BibleTime's source code is more difficult than using binary packages. Please follow the steps below if you decided to install BibleTime from sources:"
-msgstr ""
+msgstr "Instalace požitím zdrojových kódu BibleTime je složitější než použití balíčku. Prosíme postupujte podle následujicích kroků pokud chcete nainstalovat Bible time pomocí zdrojových kódu:"
 
 #. Tag: para
 #: software_installation.xml:99
 #, no-c-format
 msgid "At first make sure the required software is installed on your system. Depending on your Linux distribution you have to install the development packages of the required software, too."
-msgstr ""
+msgstr "Prvně se ujistěte, že máte potřebný software dostupný na vašem počítači. Podle distribuce Linuxu míte nainstalovat vyvojářské balíčky pro potřebný software."
 
 #. Tag: para
 #: software_installation.xml:105
@@ -1244,7 +1249,7 @@ msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
 #: software_installation.xml:107
 #, no-c-format
 msgid "At least the libraries and the base package. KDE 3 is shipped with many Linux distributions. Very often it's installed by default."
-msgstr ""
+msgstr "A nakonec knihovny a základní balíčky. KDE je dodávana v mnoha distribucích Linuxu. Velmi často je nainstalovano defaultně."
 
 #. Tag: para
 #: software_installation.xml:112
@@ -1254,9 +1259,9 @@ msgstr "<ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ul
 
 #. Tag: para
 #: software_installation.xml:116
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "This is necessary for the new instant search feature."
-msgstr ""
+msgstr "Toto je nezbytní pro nový vyhledavání."
 
 #. Tag: para
 #: software_installation.xml:120
@@ -1268,7 +1273,7 @@ msgstr "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\"> Swo
 #: software_installation.xml:124
 #, no-c-format
 msgid "Installation instructions are available on <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\"> www.crosswire.org/sword/software</ulink>. Basically the installation steps are"
-msgstr ""
+msgstr "Instalační instrukce jsou dostupné na  <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\"> www.crosswire.org/sword/software</ulink>. Základní instalační kroky jsou"
 
 #. Tag: screen
 #: software_installation.xml:128
@@ -1290,7 +1295,7 @@ msgstr ""
 #: software_installation.xml:131
 #, no-c-format
 msgid "Please note that this list is only valid for the latest version of BibleTime, older versions may require other software."
-msgstr ""
+msgstr "Upozorňujeme, že tento seznam je jen pro nejnovější verzi BibleTime. Starší verze mohou potřebovat jiný software."
 
 #. Tag: para
 #: software_installation.xml:136
@@ -1316,7 +1321,7 @@ msgstr ""
 #: software_installation.xml:138
 #, no-c-format
 msgid "You can get your KDE directory by running the command <command>kde-config --prefix</command>. If you get problems please read our <olink targetdocent=\"software_faq\">FAQ</olink>. If there's no solution of your problem, please contact us at <email>info@bibletime.info</email>."
-msgstr ""
+msgstr "Můžete se přepnou do vašeho KDE adresáře příkazem <command>kde-config --prefix</command>. Pokud máte problém přečtěte si naše <olink targetdocent=\"software_faq\">FAQ</olink>. Pokud zde nenaleznete řešení napište nám na <email>info@bibletime.info</email>."
 
 #. Tag: para
 #: software_installation.xml:144
@@ -1375,7 +1380,7 @@ msgstr "Tady je seznam dostupných typů prací s dodatečnými informacemi:"
 #: software_installation.xml:177
 #, no-c-format
 msgid "Bibles"
-msgstr "BIble"
+msgstr "Bible"
 
 #
 #. Tag: ulink
@@ -2337,6 +2342,13 @@ msgid ""
 "]]>\n"
 "</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/big.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 msgstr ""
+"Dejte následující HTML kód na své stránky: <programlisting>\n"
+"<![CDATA[\n"
+" <a href=\"http://www.bibletime.info/\" target=\"_blank\">\n"
+" <img src=\"http://www.bibletime.info/images/banner/big.jpg\" width=\"312\" height=\"60\" border=\"0\"/>\n"
+" </a>\n"
+"]]>\n"
+"</programlisting> Bude to vypadat jako toto: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/big.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 
 #
 #. Tag: title
@@ -2358,6 +2370,13 @@ msgid ""
 "]]>\n"
 "</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/small.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 msgstr ""
+"Dejte následující kód na své stránky: <programlisting>\n"
+"<![CDATA[\n"
+" <a href=\"http://www.bibletime.info/\" target=\"_blank\">\n"
+" <img src=\"http://www.bibletime.info/images/banner/small.jpg\" width=\"88\" height=\"31\" border=\"0\"/>\n"
+" </a>\n"
+"]]>\n"
+"</programlisting> Bude to vypadat jako toto: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/small.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 
 #
 #. Tag: title
@@ -2379,6 +2398,13 @@ msgid ""
 "]]>\n"
 "</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\">BibleTime - Bible study software for KDE</ulink>"
 msgstr ""
+"Vložte jednoduchý HTML kód na své stránky: <programlisting>\n"
+"<![CDATA[\n"
+" <a href=\"http://www.bibletime.info/\" TARGET=\"_blank\">\n"
+" BibleTime - software pro studium Bible (KDE)\n"
+" </a>\n"
+"]]>\n"
+"</programlisting> Může to vypadat jako toto: <ulink url=\"http://www.bibletime.info/\">BibleTime -  software pro studium Bible (KDE)</ulink>"
 
 #. Tag: para
 #: software_press.xml:18
@@ -2400,9 +2426,9 @@ msgstr ""
 
 #. Tag: para
 #: software_press.xml:34
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "On <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html\">dot.kde.org</ulink>, Andreas Pour draws the following conclusion in his review:"
-msgstr ""
+msgstr "Na <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html\">dot.kde.org</ulink>, Andreas Pour napsal následující postřehy pro svůj review:"
 
 #. Tag: attribution
 #: software_press.xml:38
@@ -2440,7 +2466,7 @@ msgstr ""
 #: software_screenshots.xml:40
 #, no-c-format
 msgid "The Bookshelf Manager"
-msgstr ""
+msgstr "Manažer záložek"
 
 #. Tag: para
 #: software_screenshots.xml:51
@@ -2562,7 +2588,7 @@ msgstr ""
 #: translation.xml:63
 #, no-c-format
 msgid "Send the translation to the translators' mailing list."
-msgstr ""
+msgstr "Pošlete překlad na miling list překladatelů."
 
 #. Tag: para
 #: translation.xml:67
@@ -2610,7 +2636,7 @@ msgstr ""
 #: translation.xml:105
 #, no-c-format
 msgid "(We are preparing the BibleTime 1.7/2.0 series and have moved to the Qt's .ts file format from the 1.6 series .po format. Due the changes the translations need thorough rewrite.)"
-msgstr ""
+msgstr "(Přesunuli jsme BibleTime  řadu 1.7/2.0 na Qt .ts formát  .po formátu série 1.6. Proto překlady potřebují přepsání.)"
 
 #
 #. Tag: title
