@@ -6,7 +6,7 @@
 <webpage id="software">
   <config param="desc" value="Software page"
 ></config>
-  <config param="rcsdate" value="$Date: 2008-12-23 15:08:50 -0500 (Tue, 23 Dec 2008) $"
+  <config param="rcsdate" value="$Date: 2009-02-09 14:57:11 +0100 (Mo, 09. Feb 2009) $"
 ></config>
   <head>
     <title
@@ -41,6 +41,17 @@
   <section>
     <title
 >Nyheder om BibleTime</title>
+
+    <formalpara>
+      <title
+>2009-02-07: 1.7 release</title>
+
+      <para
+>BibleTime 1.7 has been released. <ulink url="http://devel.bibletime.info/wiki/Release_announcements"
+> More...</ulink
+></para>
+    </formalpara>
+
     <formalpara>
       <title
 >2009-02-03: 1.7rc1 release</title>
@@ -197,42 +208,6 @@
 >Måske har du lagt mærke til alle pakke opdateringerne i de sidste par måneder. Jeremy Erickson arbejder på det og er til en stor velsignelse for teamet.</para>
       <para
 >OSS/FAQ modtog nogle mindre opdateringer.</para>
-    </formalpara>
-    <formalpara>
-      <title
->2005-11-13: BibleTime 1.5.3</title>
-      <para
->En ny fejlrettelses udgivelse er ude nu. Version 1.5.3 indeholder kun få rettelser, hovedsagelig til at fuldt understøtte låste moduler og til at kompilere med KDE 3.0 - 3.3.</para>
-      <para
->Få den nye udgivelse af BibleTime i download sektionen. Binære pakker skulle gerne snart være tilgængelige.</para>
-    </formalpara>
-    <formalpara>
-      <title
->2005-10-16: BibleTime 1.5.2</title>
-      <para
->En ny fejlrettelses udgivelse er blevet udgivet i dag. Version 1.5.2 indholder rettelser for de fleste af fejlene der var i 1.5.1. Den indeholder også nogle mindre forbedringer til brugerfladen. Se filen Ændringslog i kildekode pakken for flere detaljer.</para>
-      <para
->BibleTime 1.5.2 er tilgængelig fra de sædvanlige steder. Vi vil være glade hvis binære pakker kunne blive forberedt for at simpeltgøre BibleTimes installation.</para>
-    </formalpara>
-    <formalpara>
-      <title
->2005-09-28: Nye forummer</title>
-      <para
->Fordi den gamle forum software viste sig at være for usikker, installerede vi en ny forum software i dag. Vi håber at I vil fortsætte med at bruge vores forummer.</para>
-    </formalpara>
-    <formalpara>
-      <title
->2005-09-12: BibleTime 1.5.1 og oversættelser</title>
-      <para
->Fejlrettelses udgivelsen 1.5.1 er nu tilgængelig på vores download side. En første version af BibleTimes oversættelses filer er også blevet udgivet.</para>
-    </formalpara>
-    <formalpara>
-      <title
->2005-07-16: BibleTime 1.5</title>
-      <para
->BibleTime 1.5 er tilgængelig nu. Den indeholder mange nye funktioner og forbedringer. Kildekoden til BibleTime 1.5 og Sword 1.5.8 er tilgængelige i vores download sektion. Vi håber på snart at kunne tilbyde binære og oversættelses pakker til de vigtigste Linux distrubitioner i løbet af de næste par uger.</para>
-      <para
->Brug endelig vores nye forummer til at diskutere denne nye udgivelse. Oversættere er opfordret til at opdatere deres oversættelser.</para>
     </formalpara>
   </section>
 </webpage>
