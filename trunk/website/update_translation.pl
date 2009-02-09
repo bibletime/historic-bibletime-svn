@@ -222,7 +222,7 @@ sub create_html {
 
 	unlink "$dir/autolayout.xml";
 
-	my $command_layout = "XML_CATALOG_FILES='docbook-xsl/catalog.xml docbook-xsl/website/catalog.xml' xsltproc --output $dir/autolayout.xml docbook-xsl/website/xsl/autolayout.xsl --stringparam page-language $lang $dir/layout.xml";
+	my $command_layout = "XML_CATALOG_FILES='docbook-xsl/catalog.xml docbook-xsl/website/catalog.xml' xsltproc --output $dir/autolayout.xml docbook-xsl/website/xsl/autolayout.xsl --stringparam \"page-language\" \"$lang\" $dir/layout.xml";
 
 	my $command_create = "XML_CATALOG_FILES='docbook-xsl/catalog.xml docbook-xsl/website/catalog.xml' xsltproc --nonet --path $dir --stringparam output-root $dirOut --stringparam page-language $lang bibletime-xsl/bibletime.xsl $dir/autolayout.xml";
 
