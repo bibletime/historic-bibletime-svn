@@ -1,19 +1,20 @@
-# translation of bibletime_website_pt-br.po to Portugues Brasil
+# translation of bibletime_website_pt-br.po to Português do Brasil
 # translation of full.po to
 # translation of full.po to
-# Copyright (C) 2004, 2005, 2007 Free Software Foundation, Inc.
+# Copyright (C) 2004, 2005, 2007, 2009 Free Software Foundation, Inc.
 #
 # Joachim Ansorg, 2004.
 # Samuel Lucas Vaz de Mello <samuelm@estadao.com.br>, 2004.
 # Saulo Rodrigues e Silva <saulors@yahoo.com>, 2005, 2007.
+# Rafael Fagundes Rosa Campos <rafaelfrc@yahoo.com.br>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-03 20:25+0000\n"
-"PO-Revision-Date: 2007-05-20 21:31-0300\n"
-"Last-Translator: Saulo Rodrigues e Silva <saulors@yahoo.com>\n"
-"Language-Team: Portugues Brasil <pt_BR@li.org>\n"
+"POT-Creation-Date: 2009-02-03 23:07+0000\n"
+"PO-Revision-Date: 2009-02-08 00:52-0300\n"
+"Last-Translator: Rafael Fagundes Rosa Campos <rafaelfrc@yahoo.com.br>\n"
+"Language-Team: Português do Brasil <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -184,9 +185,9 @@ msgstr "Ajude-nos"
 
 #. Tag: para
 #: development_help.xml:19
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Our aim is to develop BibleTime into a really mature Bible study application that can by used by everyone. To ahieve this, we need your help. There are different possibilities for supporting the BibleTime project directly and indirectly:"
-msgstr "Nosso objetivo é desenvolver o BibleTime para que ele seja uma aplicação realmente boa de estudo bíblico. Para atingir isso, nós precisamos da sua ajuda. Existem diversas possibilidades para apoiar o projeto BibleTime diretamente e indiretamente."
+msgstr "Nossa meta é desenvolver o BibleTime para que ele seja uma aplicação realmente boa de estudo bíblico. Para atingir isso, nós precisamos da sua ajuda. Existem diversas possibilidades para apoiar o projeto BibleTime diretamente e indiretamente."
 
 #. Tag: title
 #: development_help.xml:24
@@ -204,19 +205,19 @@ msgstr "Orar é algo que todos podem fazer. Se você estiver orando pelo projeto
 #: development_help.xml:30
 #, no-c-format
 msgid "Do you want to report a bug or suggest a new feature?"
-msgstr "Voce deseja reportar um bug ou sugerir uma nova funçao?"
+msgstr "Você deseja reportar um bug ou sugerir uma nova funçao?"
 
 #. Tag: para
 #: development_help.xml:32
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "You can use <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;atid=100954\"> BibleTime's bug tracker</ulink> to report problems with BibleTime that you are experiencing. Please be sure to include the version of BibleTime you are using, your Sword version, information about QT/KDE and your operating system, and everything else that is neccessary to reproduce the bug. Before you submit the bug, please query the database to see if a similar bug has already been handled (and is therefore alredy in status \"closed\")."
-msgstr "Voce pode usar o <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;atid=100954\">BibleTime's caçador de bugs</ulink> para informar problemas com BibleTime que voce esta experimentando. Por favor tenha certeza de incluir a versao do BibleTime que voce esta usando, sua versao do Sword, informaçao sobre o QT/KDE e seu sistema operacional, e tudo o mais que for necessario para reproduzir o bug. Antes de enviar o bug, por favor busque no banco de dados para ver se um bug similar ja foi reportado (e se ja esta com status \"fechado\")."
+msgstr "Você pode usar o <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;atid=100954\">BibleTime's caçador de bugs</ulink> para informar problemas com BibleTime que voce esta experimentando. Por favor tenha certeza de incluir a versao do BibleTime que você esta usando, sua versao do Sword, informaçao sobre o QT/KDE e seu sistema operacional, e tudo o mais que for necessario para reproduzir o bug. Antes de enviar o bug, por favor busque no banco de dados para ver se um bug similar já foi reportado (e se já esta com status \"fechado\")."
 
 #. Tag: para
 #: development_help.xml:42
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "There is also <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\"> a place</ulink> where you can make suggestions for features you'd like to see in BibleTime. We ask for your understanding that due to our limited time and to our own plans for BibleTime we cannot always comply with all wishes."
-msgstr "Ha tambem <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\">um  lugar</ulink> onde voce pode fazer sugestoes para funçoes que voce gostaria de ver no BibleTime. Nos pedir a sua compreensao que, devido ao nosso tempo limitado e nossos proprios planos para o BibleTime nos nao podemos sempre cumprir com todos os desejos."
+msgstr "Também existe <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\">um  lugar</ulink> onde você pode fazer sugestões para funções que você gostaria de ver no BibleTime. Nos pedir a sua compreensão que, devido ao nosso tempo limitado e nossos próprios planos para o BibleTime nós não podemos sempre cumprir com todos os desejos."
 
 #. Tag: title
 #: development_help.xml:50
@@ -256,9 +257,9 @@ msgstr "O BibleTime deve ser usável por todos. Por isso nós precisamos de uma 
 
 #. Tag: para
 #: development_help.xml:75
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "You can find more information about the translation process on the page <olink targetdocent=\"translations\">translation</olink>."
-msgstr "Você pode encontrar mais informação sobre o processo de traduçãona página de <olink targetdocent=\"translation\">tradução do BibleTime</olink>."
+msgstr "Você pode encontrar mais informação sobre o processo de tradução na página de <olink targetdocent=\"translation\">tradução do BibleTime</olink>."
 
 #. Tag: title
 #: development_join.xml:17
@@ -292,9 +293,9 @@ msgstr "Se você não tem uma conta no SourceForge, por favor inscreva-se para u
 
 #. Tag: para
 #: development_join.xml:35
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> BibleTime development mailing list</ulink>. All developers read this mailing list, so everybody knows what is hapenning. There is also a mailing list for the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\"> commit messages</ulink> of the ongoing development process."
-msgstr "Inscreva-se na <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> lista de desenvolvimento do BibleTime</ulink>. Todos os desenvolvedores leem essa lista, entao todo mundo sabe o que esta acontecendo. Existe ainda uma lista de discussao para o <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\">enviar mensagens</ulink> do andamento do processo de desenvolvimento."
+msgstr "Inscreva-se na <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> lista de desenvolvimento do BibleTime</ulink>. Todos os desenvolvedores lêem essa lista, então todo mundo sabe o que esta acontecendo. Existe ainda uma lista de discussão para o <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\">enviar mensagens</ulink> do andamento do processo de desenvolvimento."
 
 #. Tag: para
 #: development_join.xml:45
@@ -366,25 +367,25 @@ msgstr "Por favor, leia a página sobre a <olink targetdocent=\"translation\">tr
 #: development_join.xml:111
 #, no-c-format
 msgid "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> Bibletime-translations mailing list</ulink>."
-msgstr ""
+msgstr "Inscreva-se na <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\">lista de e-mails traduções do Bibletime</ulink>"
 
 #. Tag: title
 #: development_join.xml:118
 #, no-c-format
 msgid "For everybody, regardless of participation level..."
-msgstr ""
+msgstr "Para todos, independente do nível de participação..."
 
 #. Tag: para
 #: development_join.xml:123
 #, no-c-format
 msgid "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net\">FreeNode Network</ulink>, in the #bibletime room."
-msgstr ""
+msgstr "Junte-se a nós no IRC! Nós podemos ser encontrados em <ulink url=\"http://www.freenode.net\">Rede Freenode</ulink>, na sala #bibletime ."
 
 #. Tag: para
 #: development_join.xml:128
 #, no-c-format
 msgid "Sign up for an account on our <ulink url=\"http://devel.bibletime.info\">wiki</ulink>, and make your contribution there."
-msgstr ""
+msgstr "Inscreva-se numa conta no nosso <ulink url=\"http://devel.bibletime.info\">wiki<ulink>, e faça lá sua contribuição "
 
 #. Tag: title
 #: development_mailinglists.xml:15
@@ -426,19 +427,19 @@ msgstr "Arquivos da lista de discussão de desenvolvimento do Sword disponíveis
 #: devotional.xml:15
 #, no-c-format
 msgid "Did you know..."
-msgstr "Voce sabia..."
+msgstr "Você sabia..."
 
 #. Tag: para
 #: devotional.xml:16
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Did you know that today in 2009, more than 200,000,000 Christians are being disadvantaged, persecuted and even killed because of their faith? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> (German) shows the countries where people have to \"pay\" for their faith, and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> here is an English one</ulink> that has some information about the main regions worldwide. These pages are from Open Doors, an independent organization trat tries to help persecuted Christians."
-msgstr "Voce sabia que hoje, 2006, mais de 200.000.000 Cristaos estao em disvantagem, perseguidos e ate mortos por causa da sua fe? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">Este mapa</ulink> (Alemao) mostra os paises onde as pessoas tem que &quot;pagar&quot; pela sua fe, e <ulink url=\"http://www.opendoorsusa.org/Display.asp?Page=Map\">aqui existe um em Ingles</ulink> que tem alguma informaçao sobre as principais regioes mundo afora. Estas paginas sao da Open Doors, uma organizaçao independente que tenta ajudar os Cristaos perseguidos."
+msgstr "Você sabia que hoje, 2006, mais de 200.000.000 Cristãos estão em disvantagem, perseguidos e ate mortos por causa da sua fé? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">Este mapa</ulink> (Alemao) mostra os paises onde as pessoas tem que &quot;pagar&quot; pela sua fé, e <ulink url=\"http://www.opendoorsusa.org/Display.asp?Page=Map\">aqui existe um em Ingles</ulink> que tem algumas informações sobre as principais regiões mundo afora. Estas paginas sao da Open Doors, uma organização independente que tenta ajudar os Cristãos perseguidos."
 
 #. Tag: para
 #: devotional.xml:27
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share its suffering... You are Christ's body and each of you is an individual part of it.\""
-msgstr "1Cor 12:26.27: &quot;se um membro padece, todos os membros padecem com ele... Vós sois corpo de Cristo, e individualmente seus membros.&quot;"
+msgstr "1Cor 12:26.27: &quot;se um membro padece, todos os membros padecem com ele... Vós sois corpo de Cristo, e individualmente membros desse corpo.&quot;"
 
 #. Tag: title
 #: error404.xml:14
@@ -462,7 +463,7 @@ msgstr "Se você não conseguir solucionar o problema, por favor, reporte a URL 
 #: sidebar_tips.xml:16 software_faq.xml:138
 #, no-c-format
 msgid "Translations"
-msgstr "Tradução"
+msgstr "Traduções"
 
 #. Tag: para
 #: sidebar_tips.xml:17
@@ -540,7 +541,7 @@ msgstr "29/01/2004: BibleTime 1.4.1"
 #: software.xml:68
 #, no-c-format
 msgid "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</ulink> how to setup your Linux to get the new packages."
-msgstr ""
+msgstr "Finalmente existem pacotes disponíveis para Ubuntu 8.04 e 7.10.  <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke descreve aqui como configurar seu Linux para obter os novos pacotes"
 
 #. Tag: para
 #: software.xml:73
@@ -550,39 +551,39 @@ msgstr ""
 
 #. Tag: title
 #: software.xml:77
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2008-01-12: BibleTime 1.7alpha1"
-msgstr "2007-01-29: BibleTime 1.6.3"
+msgstr "2008-01-12: BibleTime 1.7alfa1"
 
 #. Tag: para
 #: software.xml:78
 #, no-c-format
 msgid "The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\"> Read the announcement</ulink> to know more about the current status and the future of BibleTime."
-msgstr ""
+msgstr "A nova versão alfa (de teste) para o ambiente KDE 4.0 está disponível.<ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\"> Leia o anúncio</ulink>para saber mais sobre a atual situação e o futuro do BibleTime"
 
 #. Tag: title
 #: software.xml:85
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2007-11-04: BibleTime 1.6.5"
-msgstr "29/01/2004: BibleTime 1.4.1"
+msgstr "2007-11-04: BibleTime 1.6.5"
 
 #. Tag: para
 #: software.xml:86
 #, no-c-format
 msgid "A new bugfix version of BibleTime is now available. It contains several important fixes in the bookshelfmanager, the sessionmanagement and in the text-display windows. It also ships with updated translations. The source code can be downloaded from our SourceForge page. Binary packages will be made available soon."
-msgstr ""
+msgstr "Uma nova versão de correção de bugs do BibleTime está disponível. Ela contém diversas correções importantes no gerenciador de livros e na janela de exibição de texto. Além disso, traduções foram atualizadas. O código fonte pode ser baixado da nossa página no SourceForge. Pacotes binários logo estarão disponíveis. "
 
 #. Tag: title
 #: software.xml:94
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2007-04-18: BibleTime 1.6.4"
-msgstr "29/01/2004: BibleTime 1.4.1"
+msgstr "2007-04-18: BibleTime 1.6.4"
 
 #. Tag: para
 #: software.xml:95
 #, no-c-format
 msgid "A new bugfix release of BibleTime has been released today. Version 1.6.4 fixes issues with the NETfree Bible module, the search and also contains several smaller improvements. The bibletime-i18n translations contains updated Polish and Chinese translation files."
-msgstr "Uma nova versao de correçao de bugs foi liberada hoje. A versao 1.6.4 corrige problemas com o modulo NETfree Bible, a busca e tambem contem varias pequenas melhorias. As traduçoes bibletime-i18n contem arquivos de traducao Chines e Polonês atualizados."
+msgstr "Uma nova versao de correção de bugs foi liberada hoje. A versao 1.6.4 corrige problemas com o modulo NETfree Bible, a busca e tambem contem varias pequenas melhorias. As traduções bibletime-i18n contem arquivos de traducão Chinês e Polonês atualizados."
 
 #. Tag: title
 #: software.xml:102
@@ -592,9 +593,9 @@ msgstr "2007-01-29: BibleTime 1.6.3"
 
 #. Tag: para
 #: software.xml:103
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linux distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
-msgstr "A Versao 1.6.3 foi lançada hoje. Alem de correçoes de bugs menores a busca nos modulos unicode agora funciona novamente. As traduçoes foram atualizadas, tambem. Veja o <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> para uma lista detalhada das mudanças. Nos esperamos prover pacotes para a maioria das distribuiçoes Linux em breve. Para instalar do codigo fonte voce precisa do Sword 1.5.9 e CLucene 0.9.16a. Pacotes para estes dois estao disponiveis em nossa area de download."
+msgstr "A Versao 1.6.3 foi lançada hoje. Alem de correções de bugs menores a busca nos módulos unicode agora funciona novamente. As traduções foram atualizadas, tambem. Veja o <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> para uma lista detalhada das mudanças. Nos esperamos prover pacotes para a maioria das distribuições Linux em breve. Para instalar do código fonte você precisa do Sword 1.5.9 e CLucene 0.9.16a. Pacotes para estes dois estão disponíveis em nossa área de download."
 
 #. Tag: title
 #: software.xml:114
@@ -604,9 +605,9 @@ msgstr "2006-12-10: BibleTime 1.6.2"
 
 #. Tag: para
 #: software.xml:115
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink>. The translation package bibletime-i18n has been updated, as well."
-msgstr "Uma nova versao foi lançada hoje. Ela contem varias correçoes de bugs importantes, um sumario das mudanças esta disponivel no  <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Os pacotes de traduçao bibletime-i18n foram atualizados, igualmente."
+msgstr "Uma nova versao foi lançada hoje. Ela contem varias correções de bugs importantes, um sumario das mudanças esta disponível no  <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Os pacotes de tradução bibletime-i18n foram atualizados, igualmente."
 
 #. Tag: title
 #: software.xml:122
@@ -616,9 +617,9 @@ msgstr "2006-10-26: BibleTime 1.6.1"
 
 #. Tag: para
 #: software.xml:123
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A new version of the BibleTime software has been made available today. BibleTime 1.6.1 contains several fixes for bugs which have been found in version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for details. The translation package bibletime-i18n has also been updated. Sword 1.5.9 and CLucene 0.9.15 are required before installing from source code. But we hope to provide binary packages soon."
-msgstr "Uma nova versao do software Bible Time foi tornada disponivel hoje. Bible Time 1.6.1 contem varias correçoes para bugs  encontrados na versao 1.6. Leia o <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> para os detalhes. O pacote de traduçao bibletime-i18n tambem foi atualizado. Sword 1.5.9 e CLucene 0.9.15 sao requeridos antes de instalar do codigo fonte. Mas nos esperamos prover pacotes binarios logo."
+msgstr "Uma nova versao do software Bible Time foi tornada disponível hoje. Bible Time 1.6.1 contem varias correções para bugs  encontrados na versao 1.6. Leia o <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink> para os detalhes. O pacote de tradução bibletime-i18n tambem foi atualizado. Sword 1.5.9 e CLucene 0.9.15 sao requeridos antes de instalar do código fonte. Mas nos esperamos prover pacotes binarios logo."
 
 #. Tag: title
 #: software.xml:133
@@ -630,13 +631,13 @@ msgstr "2006-09-22: BibleTime 1.6"
 #: software.xml:134
 #, no-c-format
 msgid "A new version of BibleTime has been made available today. It includes many fixes and several new features like the instant search in the installed works."
-msgstr "Uma nova versao do Bible Time tornou-se disponivel hoje. Ela inclue muitas correcoes e varias funçoes novas como a busca instantanea nos trabalhos instalados."
+msgstr "Uma nova versao do Bible Time tornou-se disponível hoje. Ela inclue muitas correcoes e varias funções novas como a busca instantânea nos trabalhos instalados."
 
 #. Tag: para
 #: software.xml:137
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> here</ulink>"
-msgstr "Voce precisa instalar o Sword 1.5.9 e CLucene 0.9.15 antes de instalar esta versao. Um changelog detalhado esta disponivel <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">aqui</ulink>"
+msgstr "Você precisa instalar o Sword 1.5.9 e CLucene 0.9.15 antes de instalar esta versao. Um changelog detalhado esta disponível <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">aqui</ulink>"
 
 #. Tag: title
 #: software.xml:143
@@ -654,7 +655,7 @@ msgstr "A terceira versao beta do BibleTime 1.6 foi lançada. Veja o <ulink url=
 #: software.xml:147
 #, no-c-format
 msgid "You need to install CLucene 0.9.12 before installing this preview release."
-msgstr "Voce precisa instalar CLucene 0.9.12 antes de instalar esta versao de pré-estreia."
+msgstr "Você precisa instalar CLucene 0.9.12 antes de instalar esta versao de pré-estreia."
 
 #. Tag: title
 #: software.xml:151
@@ -672,7 +673,7 @@ msgstr "A segunda versao de pré-estreia do BibleTime 1.6 foi lançada agora. Ve
 #: software.xml:156
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
-msgstr "Voce precisa instalar CLucene 0.9.10 antes de instalar esta versao beta."
+msgstr "Vocêprecisa instalar CLucene 0.9.10 antes de instalar esta versao beta."
 
 #. Tag: title
 #: software.xml:160
@@ -690,67 +691,67 @@ msgstr "A primeira versao beta da futura versao 1.6 foi lançada hoje."
 #: software.xml:163
 #, no-c-format
 msgid "Among many bug fixes it includes a new instant search feature, which enabled BibleTime to search in your installed works in a fraction of a second."
-msgstr "Entre muitas correçoes de bugs estao incluidas uma nova ccaracterística de procura, que habilita o  BibleTime a procurar nos seus trabalhos instalados numa fraçao de segundo."
+msgstr "Entre muitas correçõs de bugs estão incluidas uma nova característica de procura, que habilita o  BibleTime a procurar nos seus trabalhos instalados numa fração de segundo."
 
 #. Tag: para
 #: software.xml:166
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\">clucene.sf.net</ulink>) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime.</ulink>"
-msgstr "A instalaçao de CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) e necessaria para compilar e instalar o BibleTime 1.6beta1. Por favor reporte todos os bugs encontrados e suas sugestoes usando nossos trackers em <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
+msgstr "A instalação de CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) e necessária para compilar e instalar o BibleTime 1.6beta1. Por favor reporte todos os bugs encontrados e suas sugestões usando nossos trackers em <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
 
 #. Tag: title
 #: software.xml:174
 #, no-c-format
 msgid "2006-03-17: Locked German Bible"
-msgstr "2006-03-17: Biblia Alema Trancada"
+msgstr "2006-03-17: Biblia Alemã Trancada"
 
 #. Tag: para
 #: software.xml:175
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\">Brunnen</ulink> decided to release their excellent, modern translation \"Hoffnung f&#195;&#188;r Alle\" (GerHfa2002) for use by the Sword community."
-msgstr "O editor Alemao <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decidiu lançar sua excelente, traduçao moderna \"Hoffnung für Alle\" (GerHfa2002) para uso na comunidade Sword."
+msgstr "O editor Alemão <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> decidiu lançar sua excelente, tradução moderna \"Hoffnung für Alle\" (GerHfa2002) para uso na comunidade Sword."
 
 #. Tag: para
 #: software.xml:180
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here</ulink>. This module is locked. If you want to use it, you can buy an unlock key for 22 &#8364; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen</ulink>. CrossWire is not involved in the financial transaction and receives no share of the money."
-msgstr "O texto contem cabeçalhos, notas de rodape, ... e pode ser baixado <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> aqui </ulink> . Este modulo esta trancado. Se voce deseja usa-lo, voce pode comprar uma chave por 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> diretamente da Brunnen </ulink> . CrossWire nao esta envolvida na transaçao financeira e nao compartilha ou recebe parte do dinheiro."
+msgstr "O texto contem cabeçalhos, notas de rodapé, ... e pode ser baixado <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> aqui </ulink> . Este modulo esta trancado. Se você deseja usa-lo, você pode comprar uma chave por 22 &euro; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> diretamente da Brunnen </ulink> . CrossWire não esta envolvida na transação financeira e não compartilha ou recebe parte do dinheiro."
 
 #. Tag: para
 #: software.xml:188
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\">will make use of this possibility</ulink> to distribute their copyrighted material for use with The SWORD Project."
-msgstr "Nos esperamos que no futuro, mais editores <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> farao uso desta possibilidade </ulink> para distribuir seus materiais protegidos para uso pelo Projeto SWORD."
+msgstr "Nos esperamos que no futuro, mais editores <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\"> farão uso desta possibilidade </ulink> para distribuir seus materiais protegidos para uso pelo Projeto SWORD."
 
 #. Tag: para
 #: software.xml:192
 #, no-c-format
 msgid "This will ultimately increase the recent material available through The SWORD Project and help users with studying God's word. Stay tuned for more module updates soon!"
-msgstr "Isto vai no final das contas aumentar o material recente disponivel pelo Projeto SWORD e ajudar os usuarios a estudar a palavra de Deus. Fique antenado para mais atualizacoes nos modulos em breve!"
+msgstr "Isto vai no final das contas aumentar o material recente disponível pelo Projeto SWORD e ajudar os usuários a estudar a palavra de Deus. Fique antenado para mais atualizações nos módulos em breve!"
 
 #. Tag: title
 #: software.xml:197
 #, no-c-format
 msgid "2005-12-18: Translations, packages, FAQ"
-msgstr "2005-12-18: Traduçoes, pacotes, FAQ"
+msgstr "2005-12-18: Traduções, pacotes, FAQ"
 
 #. Tag: para
 #: software.xml:198
 #, no-c-format
 msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
-msgstr "Uma nova versao de nossos pacotes de traduçao esta disponivel agora em nossa area de download. Ela inclui muitas atualizaçoes das traduçoes de interface do usuario. Nos esperamos prover pacotes binarios em breve."
+msgstr "Uma nova versao de nossos pacotes de tradução esta disponível agora em nossa área de download. Ela inclui muitas atualizações das traduções de interface do usuário. Nos esperamos prover pacotes binarios em breve."
 
 #. Tag: para
 #: software.xml:202
 #, no-c-format
 msgid "Perhaps you noticed all the package updates in the last few months. Jeremy Erickson is working on it and is a great blessing for our team."
-msgstr "Talvez voce notou todas as atualizaçoes de pacotes nos ultimos meses. Jeremy Erickson esta trabalhando nisso e eh uma grande bençao para nosso time."
+msgstr "Talvez você notou todas as atualizações de pacotes nos últimos meses. Jeremy Erickson esta trabalhando nisso e eh uma grande bênçao para nosso time."
 
 #. Tag: para
 #: software.xml:205
 #, no-c-format
 msgid "The FAQ received some minor updates."
-msgstr "O FAQ recebeu pequenas atualizaçoes"
+msgstr "O FAQ recebeu pequenas atualizações"
 
 #. Tag: title
 #: software.xml:208
@@ -762,13 +763,13 @@ msgstr "2005-11-13: BibleTime 1.5.3"
 #: software.xml:209
 #, no-c-format
 msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
-msgstr "Uma nova versao de correção de bugs esta disponivel agora. A versao 1.5.3 contem somente poucas correcoes, principalmente para suportar totalmente modulos trancados and para compilar com KDE 3.0 - 3.3."
+msgstr "Uma nova versao de correção de bugs esta disponível agora. A versao 1.5.3 contem somente algumas correções, principalmente para suportar totalmente módulos trancados e para compilar com KDE 3.0 - 3.3."
 
 #. Tag: para
 #: software.xml:212
 #, no-c-format
 msgid "Get the new release in the download section. Binary packages should be available soon."
-msgstr "Peque a nova versao na seçao de download. Pacotes binarios devem estar disponiveis logo."
+msgstr "Pegue a nova versao na seção de download. Pacotes binarios devem estar disponíveis logo."
 
 #. Tag: title
 #: software.xml:216
@@ -780,19 +781,19 @@ msgstr "2005-10-16: BibleTime 1.5.2"
 #: software.xml:217
 #, no-c-format
 msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
-msgstr "Uma nova versao de correção de bugs foi lançada hoje. A versao 1.5.2 contem correçoes para a maioria dos bugs encontrados na 1.5.1. Existem ainda algumas poucas melhorias para a interface do usuario. Veja o arquivo Changelog no pacote do codigo fonte para mais detalhes."
+msgstr "Uma nova versao de correção de bugs foi lançada hoje. A versao 1.5.2 contem correções para a maioria dos bugs encontrados na 1.5.1. Existem ainda algumas poucas melhorias para a interface do usuário. Veja o arquivo Changelog no pacote do código fonte para mais detalhes."
 
 #. Tag: para
 #: software.xml:222
 #, no-c-format
 msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
-msgstr "O BibleTime 1.5.2 esta disponivel nos lugares usuais. Nos ficariamos gratos se pacotes binarios pudessem ser preparados para simplificar a instalaçao do BibleTime."
+msgstr "O BibleTime 1.5.2 esta disponível nos lugares usuais. Nos ficariamos gratos se pacotes binarios pudessem ser preparados para simplificar a instalação do BibleTime."
 
 #. Tag: title
 #: software.xml:227
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2005-09-28: New forums"
-msgstr "26/01/2004: Forums de usuários online"
+msgstr "26/01/2004: Fórums de usuários online"
 
 #. Tag: para
 #: software.xml:228
@@ -828,7 +829,7 @@ msgstr "O BibleTime 1.5 já está disponível. Essa versão contêm muitas carac
 #: software.xml:245
 #, no-c-format
 msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
-msgstr "Por favor usem nossos novos fóruns para discutor sobre esta nova versão. Tradutores são encorajados a atualizar suas traduções."
+msgstr "Por favor usem nossos novos fóruns para discutir sobre esta nova versão. Tradutores são encorajados a atualizar suas traduções."
 
 #. Tag: title
 #: software_about.xml:16
@@ -898,9 +899,9 @@ msgstr ""
 
 #. Tag: para
 #: software_about.xml:62
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime version 1.7 was released in January 2008, it is the first version developed with QT4 for use with KDE4."
-msgstr "O BibleTime versão 1.5 foi lançado em julho de 2005 depois de um longo tempo de desenvolvimento."
+msgstr "A  versão 1.5 do BibleTime foi lançado em julho de 2005 depois de um longo tempo de desenvolvimento."
 
 #. Tag: title
 #: software_contact.xml:17
@@ -942,7 +943,7 @@ msgstr "Informe problemas no website"
 #: software_contact.xml:41
 #, no-c-format
 msgid "If you found a problem with the website or have a suggestion how it could be improved, please use this link to tell the webmaster about it."
-msgstr "Se você tiver um problema com o website ou tiver uma sugestão de como ele pode ser melhorado, por favor, use esse linke para dizê-lo ao webmaster."
+msgstr "Se você tiver um problema com o website ou tiver uma sugestão de como ele pode ser melhorado, por favor, use esse link para dizê-lo ao webmaster."
 
 #. Tag: title
 #: software_faq.xml:16
@@ -966,7 +967,7 @@ msgstr "Por que a barra de ferramentas está faltando?"
 #: software_faq.xml:25
 #, no-c-format
 msgid "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. Then run make and make install as usual. The KDE directories for the widely used Linux distributions are: <orderedlist> <listitem>RedHat: /usr</listitem> <listitem>SuSE: /opt/kde3</listitem> <listitem>Mandrake: /usr</listitem> </orderedlist> Alternatively you can run the command \"kde-config --prefix\" to get your KDE directory. The commands are:"
-msgstr "Por favor rode configure com o parâmetro --prefix=&lt;seu diretório KDE &gt;. Então rode make e make install. Os diretórios do KDE para a maioria das distribuições Linux são: <orderedlist> <listitem>RedHat: /usr</listitem><listitem>SuSE: /opt/kde3</listitem><listitem>Mandrake: /usr </listitem></orderedlist> Alternativamente você pode rodar o comando &raquo;kde-config --prefix&laquo; para saber qual o seu diretório KDE."
+msgstr "Por favor rode configure com o parâmetro --prefix=&lt;seu diretório KDE &gt;. Então rode make e make install. Os diretórios do KDE para a maioria das distribuições Linux são: <orderedlist> <listitem>Red Hat: /usr</listitem><listitem>SuSE: /opt/kde3</listitem><listitem>Mandrake: /usr </listitem></orderedlist> Alternativamente você pode rodar o comando &raquo;kde-config --prefix&laquo; para saber qual o seu diretório KDE."
 
 #. Tag: listitem
 #: software_faq.xml:38
@@ -1032,7 +1033,7 @@ msgstr "Usando BibleTime 1.5 ou maior"
 #: software_faq.xml:74
 #, no-c-format
 msgid "The search interface now offers to set the type of your search. You can choose between headings, footnotes, Strongs numbers and morphological numbers."
-msgstr "A interface de procura agora pode configurar o tipo de sua busca. Voce pode escolher entre cabeçalhos, notas de rodape, numeros Strong e numeros morfologicos."
+msgstr "A interface de procura agora pode configurar o tipo de sua busca. Você pode escolher entre cabeçalhos, notas de rodapé, números Strong e números morfológicos."
 
 #. Tag: para
 #: software_faq.xml:82
@@ -1068,7 +1069,7 @@ msgstr "A KJV não exibe números de Strong no NT!"
 #: software_faq.xml:105
 #, no-c-format
 msgid "You're probably using an outdated version of the KJV module. Please update the module."
-msgstr "Voce esta provavelmente usando uma versao desatualizada do modulo KJV. Por favor atualize o modulo."
+msgstr "Você esta provavelmente usando uma versao desatualizada do modulo KJV. Por favor atualize o modulo."
 
 #. Tag: para
 #: software_faq.xml:113
@@ -1086,7 +1087,7 @@ msgstr "Você tem que instalar o módulo \"Pessoal\", que está disponível como
 #: software_faq.xml:126
 #, no-c-format
 msgid "Why is one of the two testaments of a Bible module empty?"
-msgstr "Por que um dos dois testamentos de um módulo da Bíblia fazio?"
+msgstr "Por que um dos dois testamentos de um módulo da Bíblia está vazio?"
 
 #. Tag: para
 #: software_faq.xml:130
@@ -1098,25 +1099,25 @@ msgstr "Alguns módulos somente contêm textos do velho ou novo testamento. Vers
 #: software_faq.xml:141
 #, no-c-format
 msgid "Is BibleTime available in my native language?"
-msgstr "A Biblia esta disponivel em meu idioma nativo?"
+msgstr "A Biblia esta disponível em meu idioma nativo?"
 
 #. Tag: para
 #: software_faq.xml:145
 #, no-c-format
 msgid "BibleTime is available in several languages, which are all listed on our <olink targetdocent=\"translation\">translations page</olink>. The translations are available in the package bibletime-i18n."
-msgstr "O BibleTime esta disponivel em varios idiomas, que estao todos listados em nossa <olink targetdocent=\"translation\">pagina de traduçao</olink>. As traduçoes estao disponiveis no pacote bibletime-i18n."
+msgstr "O BibleTime esta disponível em varios idiomas, que estão todos listados em nossa <olink targetdocent=\"translation\">pagina de traduçao</olink>. As traduções estão disponíveis no pacote bibletime-i18n."
 
 #. Tag: para
 #: software_faq.xml:148
 #, no-c-format
 msgid "If a translation into your language is not available, please consider to help to make it available. More information is available on out <olink targetdocent=\"translation\">translations page.</olink>."
-msgstr "Se uma traduçao no seu idioma nao esta disponivel, por favor considere ajudar a faze-la disponivel. Mais informaçao esta disponivel em nossa <olink targetdocent=\"translation\">pagina de traduçao.</olink>."
+msgstr "Se uma tradução no seu idioma não esta disponível, por favor considere ajudar a faze-la disponível. Mais informação está disponível em nossa <olink targetdocent=\"translation\">página de traduçao.</olink>."
 
 #. Tag: title
 #: software_imprint.xml:15
 #, no-c-format
 msgid "Responsibility"
-msgstr "Responsibilidade"
+msgstr "Responsabilidade"
 
 #. Tag: para
 #: software_imprint.xml:16
@@ -1135,12 +1136,18 @@ msgid ""
 "Germany\n"
 "</literallayout> <ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
 msgstr ""
+"A pessoa que é responsável por estas páginas web é:<literallayout>\n"
+"Joachim Ansorg\n"
+"Poststraße 2\n"
+"56479 Salzburg\n"
+"Germany\n"
+"</literallayout> <ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
 
 #. Tag: title
 #: software_installation.xml:19
 #, no-c-format
 msgid "Download BibleTime"
-msgstr "Faça Download do BibleTime"
+msgstr "Download do BibleTime"
 
 #. Tag: para
 #: software_installation.xml:20
@@ -1158,7 +1165,7 @@ msgstr "Código fonte e pacotes para as maiores distribuições de Linux podem s
 #: software_installation.xml:32
 #, no-c-format
 msgid "Ubuntu packages are available in the repository and <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\"> here</ulink>. Updated packages for Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url=\"https://launchpad.net/~txwikinger/+archive\"> here</ulink>."
-msgstr ""
+msgstr "Pacotes Ubuntu estão disponíveis no repositório e  <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\"> aqui</ulink>. Atualizados pacotes para Ubuntu 8.04 (Hardy Heron) e 7.10 (Gutsy Gibbon) e oferecidos <ulink url=\"https://launchpad.net/~txwikinger/+archive\"> aqui</ulink>."
 
 #. Tag: para
 #: software_installation.xml:40
@@ -1174,9 +1181,9 @@ msgstr "Pacotes para Gentoo estao em Portage.Somente chame \"emerge bibletime\".
 
 #. Tag: para
 #: software_installation.xml:49
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A FreeBSD application port of BibleTime can be found at <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd.org</ulink>."
-msgstr "Um port de aplicação FreeBSD pode ser encontrado em <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
+msgstr "Uma aplicação portada para FreeBSD pode ser encontrada em <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
 
 #. Tag: para
 #: software_installation.xml:54
@@ -2386,19 +2393,19 @@ msgstr ""
 #: software_press.xml:18
 #, no-c-format
 msgid "<ulink url=\"http://christianoss.wordpress.com/2009/02/01/project-spotlight-bibletime/\"> Christian Open Source blog</ulink> recently interviewed BibleTime's Martin Gruner in their Project Spotlight, and drew the following conclusion:"
-msgstr ""
+msgstr "<ulink url=\"http://christianoss.wordpress.com/2009/02/01/project-spotlight-bibletime/\"> Blog Open Source Cristão</ulink> recentemente entrevistou Martin Gruner do BileTime em seu Projeto Spotlight, e chegou à seguinte conclusão:"
 
 #. Tag: attribution
 #: software_press.xml:25
 #, no-c-format
 msgid "Raoul Snyerman (&#169; 2009 Raoul Snyerman)"
-msgstr ""
+msgstr "Raoul Snyerman (&#169; 2009 Raoul Snyerman)"
 
 #. Tag: para
 #: software_press.xml:27
 #, no-c-format
 msgid "BibleTime is a handy resource for preparing Bible studies, sermons, or just looking up passages electronically. With more developers on board, and moving to use just Qt4, it looks like BibleTime will be going places in the near future."
-msgstr ""
+msgstr "BibleTime é um recurso que veio a calhar para prepara estudos bíblicos, sermões, ou apenas procurar passagens eletronicamente. Com mais desenvolvedores no quadro e caminhando para usar apenas Qt4, nós buscamos que o BibleTime esteja  conquistando lugares num futuro próximo."
 
 #. Tag: para
 #: software_press.xml:34
@@ -2426,9 +2433,9 @@ msgstr "Telas do BibleTime"
 
 #. Tag: title
 #: software_screenshots.xml:18
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The main window"
-msgstr "<title>Bíblia Árabe</title>"
+msgstr "A Janela Principal"
 
 #. Tag: para
 #: software_screenshots.xml:29
@@ -2542,37 +2549,37 @@ msgstr "Nessa página você pode encontrar estatísticas de quão completa está
 #: translation.xml:46
 #, no-c-format
 msgid "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> the translators' mailing list bibletime-translations at lists.sourceforge.net</ulink>. You will receive information relevant for translators and can communicate with the developers and the other translators. Use this list if you have questions or comments."
-msgstr ""
+msgstr "Inscreva-se <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\">os tradutores lista de tradução do BibleTime em lists.sourceforge.net </ulink> Você vai receber informações relevantes para tradutores e pode se comunicar com desenvolvedores e outros tradutores. Use esta lista se vopcê tem questões ou comentários"
 
 #. Tag: para
 #: translation.xml:55
 #, no-c-format
 msgid "Download a template you want to translate or an existing translation you want to enhance."
-msgstr ""
+msgstr "Baixe o modelo para você traduzir ou uma tradução existente para você melhorar."
 
 #. Tag: para
 #: translation.xml:59
 #, no-c-format
 msgid "Use one of the recommended programs mentioned below or some other program and edit the translation."
-msgstr ""
+msgstr "Use um dos programas mencionados abaixo ou algum outro programa e edite a tradução."
 
 #. Tag: para
 #: translation.xml:63
 #, no-c-format
 msgid "Send the translation to the translators' mailing list."
-msgstr ""
+msgstr "Envie sua tradução para a lista de e-mails dos tradutores."
 
 #. Tag: para
 #: translation.xml:67
 #, no-c-format
 msgid "Developers will integrate your work as soon as possible. The statistics will be updated after that."
-msgstr ""
+msgstr "Desenvolvedores vão integrar seu trabalho logo que for possível. As estatísticas serão atualizadas após isso."
 
 #. Tag: para
 #: translation.xml:71
 #, no-c-format
 msgid "For editing .po files we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file editor suitable for our documentation and website translations. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format."
-msgstr ""
+msgstr "Para editar arquivos .po nós recomendamos que você use o exelente e maduro programa  <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> que trabalha no KDE. Ele tem muitas características avançadas e é uma grande ajuda.<ulink url=\"http://www.poedit.net/\">Poedit</ulink> é um editor de arquivos de cross-platform, adequada para nossa documentação e traduções do website. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink>(parte da cross-platform pacote de desenvolvimento Qt ) é adequada para traduzir a interface com o usuário em com o formato .ts."
 
 #. Tag: para
 #: translation.xml:82
@@ -2608,7 +2615,7 @@ msgstr "Se a tradução da interface do programa no seu idioma não existe ainda
 #: translation.xml:105
 #, no-c-format
 msgid "(We are preparing the BibleTime 1.7/2.0 series and have moved to the Qt's .ts file format from the 1.6 series .po format. Due the changes the translations need thorough rewrite.)"
-msgstr ""
+msgstr "(Nós estamos preparando) a série BiblTime 1.70/2.0 e temos movido para o formato de arquivo .ts do Qt da série 1.6, que usa o formato .po. Devido a mudanças nas traduções há a necessidade de se reescrever."
 
 #. Tag: title
 #: translation.xml:111
@@ -2644,806 +2651,5 @@ msgstr "<title>Traduzir o Livro de Mão do programa.</title>"
 #: translation.xml:132
 #, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
-msgstr ""
+msgstr "Translated Bible book names come from the Sword project. Não Existem boas instruções no momento, mas você pode encontrar alguma informação e exemplos para procurar no<ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\">diretório locales.d</ulink>da biblioteca Sword e  usando <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> o modelo</ulink>."
 
-#~ msgid "The German magazine \"Pfarrer &amp; PC\" reviewed Bible software for Linux which also covers BibleTime among \"Gnomesword\" and \"Volksbibel 2000\". Their conclusion in german for BibleTime:"
-#~ msgstr "A revista alemã \"Pfarrer &amp; PC\" revisou softwares da Bíblia para Linux que também cobriu o BibleTime além do \"Gnomesword\" e \"Volksbibel 2000\". Sua conclusão em alemão para o BibleTime:"
-
-#~ msgid "Pfarrer &amp; PC 2002 (&copy; Pfarrer &amp; PC 2002)"
-#~ msgstr "Pfarrer &amp; PC 2002 (&copy; Pfarrer &amp; PC 2002)"
-
-#~ msgid "Trotzdem: Alles dran, alles drin - BibleTime ist ein funktional wie optisch gelungenes Bibel-Programm, dem man unter Linux große Verbreitung wünschen darf. Ein wenig bedauerlich ist das copyrightbedingte Fehlen der »großen« zeitgenössischen Bibelübersetzungen. Dafür beschert BibleTime dem Nutzer Einblicke in selten genutzte Übersetzungen und ein gutes Handling griechischer und hebräischer Originaltexte."
-#~ msgstr "Trotzdem: Alles dran, alles drin - BibleTime ist ein funktional wie optisch gelungenes Bibel-Programm, dem man unter Linux große Verbreitung wünschen darf. Ein wenig bedauerlich ist das copyrightbedingte Fehlen der »großen« zeitgenössischen Bibelübersetzungen. Dafür beschert BibleTime dem Nutzer Einblicke in selten genutzte Übersetzungen und ein gutes Handling griechischer und hebräischer Originaltexte."
-
-#~ msgid "The review is online at: <ulink url=\"http://www.pfarrer-pc.de/magazin/2-02/art02-02-bibli.php\">www.pfarrer-pc.de</ulink>"
-#~ msgstr "A análise está disponível online em: <ulink url=\"http://www.pfarrer-pc.de/magazin/2-02/art02-02-bibli.php\">www.pfarrer-pc.de</ulink>"
-
-#~ msgid "The person who responsible for these webpages is:"
-#~ msgstr "A pessoa responsável por estas páginas web é:"
-
-#, fuzzy
-#~ msgid "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
-#~ msgstr "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Alemanha</country> <phone>49.641.3605122</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
-
-#~ msgid "The BibleTime user forum."
-#~ msgstr "Forum de usuários do BibleTime"
-
-#~ msgid "This is the place to ask questions about BibleTime. If you have trouble with installing and/or using BibleTime post a message in the forum, and hopefully you'll have an answer in time."
-#~ msgstr "Este é o lugar para fazer perguntas sobre o BibleTime. Se você tiver problemas com a instalação e/ou uso do BibleTime poste uma mensagem no forum, e esperamos que alguém responda-a a tempo."
-
-#~ msgid "If you are an experienced BibleTime user and can spare some time, please regularly check out the forum and answer questions of people who have less experience than you. Thereby you would also help the developers to concentrate on the work of development instead of user support."
-#~ msgstr "Se você é um usuário experiente do BibleTime e dispõe de algum tempo, por favor verifique regularmente o forum e responda perguntas de pessoas que tem menos experiência que você. Isso também ajuda os desenvolvedores a concentrarem-se no trabalho de desenvolvimento ao invés de suporte aos usuários."
-
-#~ msgid "The Biblestudy HowTo"
-#~ msgstr "Estudo Bíblico HowTo"
-
-#~ msgid "<firstname>Bob</firstname> <surname>Harman</surname>"
-#~ msgstr "<firstname>Bob</firstname> <surname>Harman</surname>"
-
-#~ msgid "ROLES_OF_TRANSLATORS"
-#~ msgstr "ROLES_OF_TRANSLATORS"
-
-#~ msgid "The team of &bibletime;, info@bibletime.info"
-#~ msgstr "Time do &bibletime;, info@bibletime.info"
-
-#~ msgid "Bob Harman"
-#~ msgstr "Bob Harman"
-
-#~ msgid "The copyright of this text is held by the author Bob Harman. The text was adapted for publication with BibleTime by Fred Saalbach."
-#~ msgstr "O copyright desse texto pertence ao autor, Bob Harman. O texto foi adaptado para publicação no BIbleTime por Fred Saalbach."
-
-#~ msgid "Non exclusive serial rights for this distribution of this document with the &bibletime; Software have been made. Redistribution as part of the Bibletime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
-#~ msgstr "Os direitos de distribuição deste documento com o software &bibletime; foram feitos. Redistribuição como parte do software Bibletime sem modificação e reprodução limitada como provida pelo \"uso honesto\" que provém do código de direitos autorais dos EUA também são permitidas."
-
-#~ msgid "For questions regarding the use of this material contact Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-#~ msgstr "Para questões sobre o uso desse material contacte Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-
-#~ msgid "Scripture quotes are from the New American Standard Bible unless otherwise indicated"
-#~ msgstr "Citações das Escrituras no original em inglês são da New American Standard Bible.Na tradução em português foi usada a edição Atualizada de Almeida (PorAA)."
-
-#~ msgid "Abstract"
-#~ msgstr "Resumo"
-
-#~ msgid "The <application>Biblestudy HowTo</application> is a guide for studying the Bible."
-#~ msgstr "O <application>Estudo Bíblico HowTo</application> é um guia para estudo da Bíblia."
-
-#~ msgid "It is the hope of the &bibletime; team that this HowTo will provoke the readers to study the scriptures to see what they say. This particular study guide has been chosen as it takes care not to advocate any particular denominational doctrine. We expect you to read and study the scriptures to understand what they say. If you start with the attitude that you want to have the Lord sow his word in your heart He will not disappoint you."
-#~ msgstr "A esperança do time do &bibletime; é que esse HowTo incentive os leitores a estudar as escrituras e ver o que elas dizem. Esse guia de estudo particular foi escolhido porque não promove nenhuma doutrina denominacional em particular. Nós esperamos que você leia e estude as escrituras para entender o que elas dizem. Se você começar com a atitude de querer que o Senhor mostre sua Palavra em seu coração ele não desapontará você."
-
-#~ msgid "Bible"
-#~ msgstr "Bíblia"
-
-#~ msgid "Study"
-#~ msgstr "Estudo"
-
-#~ msgid "HowTo"
-#~ msgstr "HowTo"
-
-#~ msgid "Bible Study Basics"
-#~ msgstr "Bases do Estudo Bíblico"
-
-#~ msgid "Our Purpose as we Approach the Bible"
-#~ msgstr "Nosso prósito quando nos aproximamos da Bíblia"
-
-#~ msgid "Jn.5:39-40<quote>You search the Scriptures, because you think that in them you have eternal life; and it is these that bear witness of Me; and you are unwilling to come to Me, that you may have life.</quote>"
-#~ msgstr "Jo 5.39-40 <quote>Examinais as Escrituras, porque julgais ter nelas a vida eterna; e são elas que dão testemunho de mim; mas não quereis vir a mim para terdes vida!</quote>"
-
-#~ msgid "The chief purpose of the book is to bring us to the Person. Martin Luther said <quote>we go to the cradle only for the sake of the baby</quote>; just so in Bible study, we do it not for its own sake but for fellowship with God."
-#~ msgstr "O principal propósito do livro é trazer até nós a pessoa. Martinho Lutero disse <quote>nós vamos ao berço somente por causa do bebê</quote>, então no estudo bíblico nós não o fazemos por nós mesmo, mas pelo relacionamento com Deus."
-
-#~ msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.97, 104."
-#~ msgstr "John R.W. Stott, <emphasis>Cristo o Controverso</emphasis>, Editora InterVarsity 1978, pp.97, 104."
-
-#~ msgid "The Jews to whom Jesus spoke [...] imagined that to possess Scripture was tantamount to possessing life. Hillel used to say, &quot;He who has gotten to himself words of Torah has gotten to himself the life of the world to come.&quot; Their study was an end in itself. In this they were grievously deceived. [...]"
-#~ msgstr "Os judeus com quem Jesus falou.... imaginaram que possuir as Escrituras era o mesmo que possuir a vida. Hillel dizia, &quot;Aquele que tomou para si as palavras do Torah, tomou para si a vida e o mundo que há de vir.&quot; Seus estudos eram um fim em si mesmos. Com isto estavam magoados e decepcionados"
-
-#~ msgid "There is neither merit nor profit in the reading of Scripture for its own sake, but only if it effectively introduces us to Jesus Christ. Whenever the Bible is read, what is needed is an eager expectation that through it we may meet Christ."
-#~ msgstr "Não há nem mérito nem lucro em ler as escrituras por causa delas mesmo , mas apenas se isso te levar a Jesus Cristo. Quando a Bíblia é lida, é necessário que haja um ávido desejo de que assim possamos conhecer a Cristo."
-
-#~ msgid "Approaches to God's Word"
-#~ msgstr "Aproximando-se da Palavra de Deus"
-
-#~ msgid "Hearing and reading provide a telescopic view of the scripture while study and memorization provide a microscopic view of scripture. Meditating on the scriptures brings hearing, reading, studying and memorization together and cements the word in our minds."
-#~ msgstr "Ouvir e ler provêem uma visão geral das escrituras enquanto o estudo e a memorização provêem uma visão detalhada da escritura. A meditação nas escrituras unem o ouvir, o ler, o estudar e o memorizar e fixa a palavra em nossas mentes."
-
-#~ msgid "Hear"
-#~ msgstr "Ouvir"
-
-#~ msgid "Lk.11:28 <quote>blessed are those who hear the word of God, and observe it.</quote>"
-#~ msgstr "Lc 11.28 <quote>Mas ele respondeu: Antes bem-aventurados os que ouvem a palavra de Deus, e a observam.</quote>"
-
-#~ msgid "Read"
-#~ msgstr "Ler"
-
-#~ msgid "Rev.1:3 <quote>Blessed is he who reads and those who hear the words of this prophecy [...]</quote>"
-#~ msgstr "Ap 1.3 <quote>Bem-aventurado aquele que lê e bem-aventurados os que ouvem as palavras desta profecia.. </quote>"
-
-#~ msgid "1 Tim.4:13 <quote>give attention to the public reading of Scripture [...]</quote>"
-#~ msgstr "1 Tm 4.13 <quote>aplica-te à leitura, à exortação, e ao ensino</quote>"
-
-#~ msgid "Acts 17:11 <quote>Now these were more noble-minded than those in Thessalonica, for they received the word with great eagerness, examining the Scriptures daily, to see whether these things were so.</quote>"
-#~ msgstr "At 17.11 <quote>Ora, estes eram mais nobres do que os de Tessalônica, porque receberam a palavra com toda avidez, examinando diariamente as Escrituras para ver se estas coisas eram assim. </quote>"
-
-#~ msgid "2 Tim.2:15 <quote>Be diligent [KJV `Study'] to present yourself approved to God as a workman who does not need to be ashamed, handling accurately the word of truth.</quote>"
-#~ msgstr "2 Tm 2.15 <quote>Procura apresentar-te diante de Deus aprovado, como obreiro que não tem de que se envergonhar, que maneja bem a palavra da verdade.</quote>"
-
-#~ msgid "Memorize"
-#~ msgstr "Memorizar"
-
-#~ msgid "Ps.119:11 <quote>Thy word I have hid in my heart, that I may not sin against Thee.</quote>"
-#~ msgstr "Sl 119.11 <quote>Escondi a tua palavra no meu coração, para não pecar contra ti.</quote>"
-
-#~ msgid "Meditate"
-#~ msgstr "Meditar"
-
-#~ msgid "Ps.1:2-3 <quote>But his delight is in the law of the Lord, And in His law he meditates day and night. And he will be like a tree firmly planted by streams of water, Which yields its fruit in its season, And its leaf does not wither; And in whatever he does, he prospers.</quote>"
-#~ msgstr "Sl 1.2-3 <quote>Bem-aventurado o homem que não anda segundo o conselho dos ímpios, nem se detém no caminho dos pecadores, nem se assenta na roda dos escarnecedores; antes tem seu prazer na lei do Senhor, e na sua lei medita de dia e noite. </quote>"
-
-#~ msgid "The Navigators illustrate this by saying that as the thumb can touch all the fingers, we can meditate on the Word as we do any of the first four. Meditation is a key to revelation. A new Christian needs to hear and read the Bible more than they need to study and memorize it. This is so that they become familiar with the overall message of the Bible."
-#~ msgstr "Os navegadores ilustravam isso dizendo que assim como o polegar pode tocar todos os dedos, nós podemos meditar na Palavra como fazemos com qualquer dos quatro primeiros. Meditação é a chave para a revelação. Um cristão novo precisa ouvir e ler a Biblia mais do que ele precisa estudar e memorizá-la. Isso para que ele se torne familiar com toda a mensagem da Bíblia."
-
-#~ msgid "Types of Bible Studies"
-#~ msgstr "Tipos de Estudo Bíblico"
-
-#~ msgid "Topical Study"
-#~ msgstr "Estudo de Tópicos"
-
-#~ msgid "Pick out a certain topic and follow it through, using cross-references or a concordance."
-#~ msgstr "Escolha um certo tópico e siga-o, usando referencias cruzadas ou uma concordância."
-
-#~ msgid "Character Study"
-#~ msgstr "Estudo de Personagem"
-
-#~ msgid "Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
-#~ msgstr "Estudando a vida de um personagem da Bíblia, ex: Vida de José em Gn 37-50."
-
-#~ msgid "Expository Study"
-#~ msgstr "Estudo Expositivo"
-
-#~ msgid "Studying a certain passage: paragraph, chapter, or book."
-#~ msgstr "Estudando uma certa passagem: parágrafo, capítulo ou livro."
-
-#~ msgid "Basics of Correct Interpretation"
-#~ msgstr "Bases da Interpretação Correta"
-
-#~ msgid "Content"
-#~ msgstr "Conteúdo"
-
-#~ msgid "What does it say? What does it say in the original language? Be careful with definitions. Don't read into it what it doesn't say."
-#~ msgstr "O que ele diz? O que diz na língua original? Tome cuidado com definições. Não leia o que não é dito."
-
-#~ msgid "Context"
-#~ msgstr "Contexto"
-
-#~ msgid "What do the verses around it say? &quot;Context is king&quot; is the rule -- the passage must make sense within the structure of the entire passage and book."
-#~ msgstr "O que os versos vizinhos dizem? A regra é &quot;o contexto é muito importante&quot; -- A passagem precisa fazer sentido na estrutura de toda a passagem e livro."
-
-#~ msgid "Cross-reference"
-#~ msgstr "Referencia Cruzada"
-
-#~ msgid "What do other verses about this subject say through the rest of the Bible? God doesn't contradict Himself, so our interpretation needs to stand the test of other scriptures."
-#~ msgstr "O que outros versículos sobre esse assunto dizem pelo resto da Bíblia? Deus não se contradiz, entào nossa interpretação precisa passar pelo teste de outras escrituras."
-
-#~ msgid "An Expository Study of Matthew 6:1-18"
-#~ msgstr "Um Estudo Expositivo de Mateus 6.1-18"
-
-#~ msgid "Let's study together Mt.6:1-18. Read it to yourself, first looking for the key verse, the verse that sums up the whole passage. Think you have it? Test it by picking different places in the passage and asking yourself if they relate to the thought of the key verse. Once you find it, write it as Roman numeral One of your outline:"
-#~ msgstr "Vamos estudar juntos Mt. 6.1-18. Leia você mesmo, primeiro procurando pelo versículo-chave, o versículo que resume toda a passagem. Acha que encontrou? Teste-o pegando diversas partes na passagem e perguntando a você mesmo se está relacionado com o versículo-chave escolhido. Quando achar, escreva-o numerando-o com o numero um em algarismo romano:"
-
-#~ msgid "Beware of practicing your righteousness before men to be noticed"
-#~ msgstr "Cuidado para praticar o bem diante dos homens para ser notado"
-
-#~ msgid "What does <quote>practicing your righteousness</quote> mean? Does the passage give any examples? What area of our lives is being addressed? <emphasis>Our motives!</emphasis> What sub-headings develop this thought?"
-#~ msgstr "O que <quote>fazer as vossas boas obras</quote> significa? A passagem dá algum exemplo? Qual área de nossas vidas está sendo endereçada? <emphasis>Nossas motivações!</emphasis> Que tópicos desenvolvem isso?"
-
-#~ msgid "When you give"
-#~ msgstr "Quando você oferta"
-
-#~ msgid "When you fast"
-#~ msgstr "Quando você jejua"
-
-#~ msgid "When you pray"
-#~ msgstr "Quando você ora"
-
-#~ msgid "Now fill in the outline with specific instructions of how to avoid wrong ways of practicing our righteousness:"
-#~ msgstr "Agora preencha o esquema com intruções específicas sobre como evitar maneiras erradas fazermos nossas boas ações:"
-
-#~ msgid "don't sound a trumpet. (how might someone <quote>sound a trumpet</quote> today?)"
-#~ msgstr "não faça tocar a trombeta (como hoje alguem <quote>toca a trombeta</quote>?)"
-
-#~ msgid "do it secretly."
-#~ msgstr "faça-o em secreto"
-
-#~ msgid "etc."
-#~ msgstr "etc."
-
-#~ msgid "Worksheet: How to Use a Concordance"
-#~ msgstr "Como usar uma concordância"
-
-#~ msgid "To Find a Particular Verse"
-#~ msgstr "Para encontrar um versículo particular"
-
-#~ msgid "Pick out a key word or most-unusual word of the verse."
-#~ msgstr "Escolha a palavra-chave ou a palavra menos usual do versículo"
-
-#~ msgid "Turn to this word alphabetically."
-#~ msgstr "Procure essa palavra alfabaticamente"
-
-#~ msgid "Go down the column of listings until you find your verse."
-#~ msgstr "Desca a coluna da listagem até você achar o seu versículo"
-
-#~ msgid "Find these verses:"
-#~ msgstr "Encontre esses versículos:"
-
-#~ msgid "Faithful are the wounds of a friend"
-#~ msgstr "Fiéis são as feridas dum amigo"
-
-#~ msgid "We are ambassadors of Christ."
-#~ msgstr "Nós somos embaixadores de Cristo"
-
-#~ msgid "The story of the rich man and Lazarus."
-#~ msgstr "A história do rico e de Lázaro"
-
-#~ msgid "To Do a Topical Study"
-#~ msgstr "Fazer um Estudo de Tópicos"
-
-#~ msgid "Let's say you wanted to do a study of the word &quot;redemption.&quot; First you would look up that word in the concordance and look up references listed for it. Then you could look up related words and references listed for them, e.g. &quot;redeem, redeemed, ransom,&quot; even &quot;buy&quot; or &quot;bought.&quot;"
-#~ msgstr "Digamos que você quer fazer um estudo sobre a palavra &quot;redenção&quot;. Primeiro procure essa palavra na concordância e procure as referencias listadas para ela. Então você pode procurar palavras relacionadas e referencias listadas a partir dela, ex: &quot;remir, remido, resgate,&quot; até &quot;comprar&quot; ou &quot;comprado&quot;."
-
-#~ msgid "To Clarify Word Meanings in the Greek and Hebrew"
-#~ msgstr "Esclarecendo o significado da palavra no Grego e Hebraico"
-
-#~ msgid "What if you noticed a contradiction in the KJV between Mt.7:1 <quote>Judge not lest you be judged</quote> and 1 Cor.2:15 <quote>He that is spiritual judgeth all things.</quote> Maybe there are two different Greek words here, both being translated &quot;judge&quot; in English? (We're using Strong's from here out.)"
-#~ msgstr "Como encontramos uma contradição na Edição Revista e Atualizada de Almeida entre Mt 7.1 <quote>Não julgueis para que não sejais julgados</quote> e 1 Co 2.15 <quote>Porém o homem espiritual julga todas as coisas</quote>. Talvez sejam duas palavras gregas diferentes aqui, mas ambas traduzidas como &quot;julgar&quot; em português. (Usaremos Numeros de Strong a partir daqui)."
-
-#~ msgid "Look up &quot;judge&quot;."
-#~ msgstr "Procure &quot;julgar&quot; "
-
-#~ msgid "Go down the column of entries to Mt.7:1. To the right is a number, 2919. This refers to the Greek word used. Write it down."
-#~ msgstr "Desca até a coluna das entradas de Mt 7.1. A direita existe um número, 2919. Essa é a referencia para a palavra grega usada. Anote-a."
-
-#~ msgid "Now look up &quot;judgeth&quot;."
-#~ msgstr "Agora procure &quot;julgado&quot;"
-
-#~ msgid "Go down the column to 1 Cor.2:15 . . . . . 350."
-#~ msgstr "Desca até a coluna de 1 Co 2.15 . . . . . . 350"
-
-#~ msgid "Turn in the back to the Greek dictionary. (Remember, you're in the NT so the language is Greek, while the OT is Hebrew.) Compare the meaning of 2919 with the meaning of 350 and you have your answer!"
-#~ msgstr "Vá ao dicionário de Grego (lembre, você está no Novo Testamento, entào a língua é o grego, enquanto no Antigo Testamento é o hebraico). Compare o significado de 2919 com o significado de 350 e você terá a resposta!"
-
-#~ msgid "To Find Meanings of Names"
-#~ msgstr "Encontre o significado dos nomes"
-
-#~ msgid "By the same process we can find the meaning of a name in the Greek or Hebrew."
-#~ msgstr "Pelo mesmo processo nós podemos encontrar o significado de um nome e grego ou hebraico."
-
-#~ msgid "Look up these names and write down their meaning:"
-#~ msgstr "Procure esses nomes e escreva o seu significado:"
-
-#~ msgid "Nabal"
-#~ msgstr "Nabal"
-
-#~ msgid "Abigail"
-#~ msgstr "Abigail"
-
-#~ msgid "Joshua"
-#~ msgstr "Josué"
-
-#~ msgid "Barnabus"
-#~ msgstr "Barnabé"
-
-#~ msgid "Importance of God's Word"
-#~ msgstr "Importância da Palavra de Deus"
-
-#~ msgid "Understanding God's word is of great importance to all who call on God's name. Study of the Bible is one of the primary ways that we learn to communicate with God."
-#~ msgstr "Entender a palavra de Deus é muito importante para todo aquele que clama o nome de Deus. Estudar a Bíblia é uma das principais formas que nós aprendemos a nos comunicar com Deus."
-
-#~ msgid "A Book that is Unique"
-#~ msgstr "Um Livro que é Único"
-
-#~ msgid "The Bible stands alone in many ways. It is unique in:"
-#~ msgstr "A Bíblia não tem comparação em vários aspectos. Ela é unica em:"
-
-#~ msgid "popularity. Bible sales in North America: more than $500 million per year. The Bible is both the the all-time and year-to-year best seller!"
-#~ msgstr "Popularidade. Biblias vendem na América do Norte mais de US$500 milhões por ano. A Bíblia é tanto o best-seller tanto de todos os tempos quanto ano-a-ano."
-
-#~ msgid "authorship. It was written over a period of 1600 years by 40 different authors from different backgrounds, yet reads as if written by one."
-#~ msgstr "Autoria. Ela foi escrita em um período de 1600 anos por 40 diferentes autores em diferentes ocasiões, contudo é lida como se tivesse sido escrita por uma única pessoa."
-
-#~ msgid "preservation. F. F. Bruce in <emphasis>Are New Testament Documents Reliable?</emphasis> compares New Testament manuscripts with other ancient texts:"
-#~ msgstr "Preservação. F. F. Burce em <emphasis>Os documentos do Novo Testamento são confiáveis?</emphasis> compara os manuscritos do Novo Testamento com outros textos antigos:"
-
-#~ msgid "Comparison of New Testament manuscripts with other ancient texts."
-#~ msgstr "Comparação dos manuscritos do Novo Testamento com outros textos antigos."
-
-#~ msgid "Work"
-#~ msgstr "Texto"
-
-#~ msgid "When Written"
-#~ msgstr "Quando foi Escrito"
-
-#~ msgid "Earliest Copy"
-#~ msgstr "Cópia mais recente"
-
-#~ msgid "Time Lapse"
-#~ msgstr "Diferença de Tempo"
-
-#~ msgid "Number of Copies"
-#~ msgstr "Número de Cópias"
-
-#~ msgid "Herodotus"
-#~ msgstr "Herodotus"
-
-#~ msgid "448-428 B.C."
-#~ msgstr "448-428 A.C."
-
-#~ msgid "900 A.D."
-#~ msgstr "900 D.C."
-
-#~ msgid "1300 years"
-#~ msgstr "1300 anos"
-
-#~ msgid "<entry>8</entry>"
-#~ msgstr "<entry>8</entry>"
-
-#~ msgid "Tacitus"
-#~ msgstr "Tacitus"
-
-#~ msgid "100 A.D."
-#~ msgstr "100 D.C."
-
-#~ msgid "1100 A.D."
-#~ msgstr "1100 D.C."
-
-#~ msgid "1000 years"
-#~ msgstr "1000 anos"
-
-#~ msgid "<entry>20</entry>"
-#~ msgstr "<entry>20</entry>"
-
-#~ msgid "Caesar's <emphasis>Gallic War</emphasis>"
-#~ msgstr "Caesar's <emphasis>Gallic War</emphasis>"
-
-#~ msgid "50-58 B.C."
-#~ msgstr "50-58 A.C."
-
-#~ msgid "950 years"
-#~ msgstr "950 anos"
-
-#~ msgid "<entry>10</entry>"
-#~ msgstr "<entry>10</entry>"
-
-#~ msgid "Livy's <emphasis>Roman History</emphasis>"
-#~ msgstr "Livy's <emphasis>História Romana</emphasis>"
-
-#~ msgid "59 B.C. - 17 A.D."
-#~ msgstr "59 A.C. - 17 D.C."
-
-#~ msgid "900 years"
-#~ msgstr "900 anos"
-
-#~ msgid "New Testament"
-#~ msgstr "Novo Testamento"
-
-#~ msgid "40 A.D. - 100 A.D."
-#~ msgstr "40 D.C. - 100 D.C."
-
-#~ msgid "130 A.D. Partial manuscripts 350 A.D. Full manuscripts"
-#~ msgstr "130 D.C Manuscritos parciais - 350 D.C. Manuscritos completos"
-
-#~ msgid "30 - 310 years"
-#~ msgstr "30 - 310 anos"
-
-#~ msgid "5000 Greek &amp; 10,000 Latin"
-#~ msgstr "5000 em Grego &amp; 10.000 em Latim"
-
-#~ msgid "Ten copies of Caesar's <emphasis>Gallic War</emphasis> exist, the earliest of which was copied 900 years after Caesar wrote the original, etc. For the New Testament we have full manuscripts dating to 350 A. D., papyri containing most of the New Testament from the 200s, and a fragment of John's gospel from 130 A. D. How many manuscripts do we have to compare to each other? 5,000 in Greek and 10,000 in Latin!"
-#~ msgstr "Existem dez copias de Caesar's <emphasis>Gallaic War</emphasis>, a mais nova foi copiada 900 anos depois que Caesar escreveu o original, etc. Para o Novo Testamento nós temos manuscritos completos datando 350 D.C., papiro contendo a maior parte do Novo Testamento de 200 D.C. e fragmentos do evangelho de João de 130 D.C. Quantos manuscritos nós temos para comparar uns com os outros? 5.000 em grego e 10.000 em Latim!"
-
-#~ msgid "Textual critic F. J. A. Hort, \"The New Testament in the Original Greek\", vol. 1 p561, Macmillan Co., quoted in <emphasis>Questions of Life</emphasis> p. 25-26"
-#~ msgstr "Critica textual, F. J. A. Hort, \"O Novo Testamento no Original Grego\", vol. 1 p561, Macmillan Co., citado em <emphasis>Questões da Vida</emphasis> p. 25-26"
-
-#~ msgid "\"In the verity and fullness of the evidence on which it rests, the text of the New Testament stands absolutely and unapproachably alone among other ancient prose writings.\""
-#~ msgstr "\"Na verdade e plenitude das evidências e contexto, o Novo Testamento está em absoluta e inalcançável posição dentre outras escrituras antigas.\""
-
-#~ msgid "A Book that God Breathed"
-#~ msgstr "Um Livro Inpirado por Deus"
-
-#~ msgid "<emphasis>Heb.4:12 </emphasis>\"<emphasis>For the word of God is living and active... </emphasis>\" Jesus said <emphasis>(Mt.4:4),</emphasis> \"<emphasis>It is written, Man shall not live on bread alone, but on every word that proceeds [lit., is proceeding] from the mouth of God.</emphasis>\" As we read the Bible, God's Spirit is there to speak it to our hearts in a continually-fresh way."
-#~ msgstr "<emphasis>Hb 4.12</emphasis>\"<emphasis>Porque a palavra de Deus é viva e eficaz...</emphasis>\" Jesus disse <emphasis>(Mt 4.4)</emphasis>, \"<emphasis>Está escrito: Nem só de pão viverá o homem, mas de toda palavra que sai da boca de Deus</emphasis>\". Enquanto lemos a Bíblia, o Espírito de Deus está conosco para falar a nossos corações de uma forma sempre nova."
-
-#~ msgid "2 Tim.3:16 declares, \"<emphasis>All scripture is inspired by God [lit., God-breathed].</emphasis>\" Do you believe this? Before you answer, consider Jesus' attitude toward the Scriptures."
-#~ msgstr "2 Tm 3.16 declara \"<emphasis>Toda Escritura é divinamente inspirada</emphasis>\". Você acredita nisso? Antes de responder, considere a atitude de Jesus a respeito das Escrituras."
-
-#~ msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.93-95"
-#~ msgstr "John R.W. Stott, <emphasis>Cristo o Controverso</emphasis>, Editora InterVarsity 1978, pp.93-95"
-
-#~ msgid "He referred to the human authors, but took it for granted that behind them all was a single divine Author. He could equally say 'Moses said' or 'God said' (Mk.7:10). He could quote a comment of the narrator in Genesis 2:24 as an utterance of the Creator Himself (Mt.19:4-5). Similarly He said, 'Well did Isaiah prophesy of you hypocrites, as it is written', when what He went on to quote is the direct speech of the Lord God (Mk.7:6 &amp; Is.29:13). It is from Jesus Himself that the New Testament authors have gained their conviction of the dual authorship of Scripture. For them it was just as true to say that 'God spoke of old to our fathers by the prophets' (Heb.1:1) as it was to say that 'men moved by the Holy Spirit spoke from God' (2 Pe.1:21). God did not speak in such a way as to obliterate the personality of the human authors, nor did men speak in such a way as to corrupt the Word of the divine Author. God spoke. Men spoke. Neither truth must be allowed to detract from the other. ..."
-#~ msgstr "Ele se referiu aos autores humanos, mas tinha certeza de que por trás deles havia um único divino Autor. Ele podia igualmente dizer 'Moisés disse' ou 'Deus disse' (Mc 7.10). Ele pode citar um comentário do narrador em Genesis 2.24 como uma declaração do Próprio Criador (Mt 19.4-5). Do mesmo modo, ele disse, 'Bem profetizou Isaías acerca de vós, hipócritas, como está escrito:' quando Ele se referia a uma fala direta do Senhor Deus (Mc 7.6 &amp; Is 29.13). É de Jesus mesmo que os autores do Novo Testamento haviam ganhado convicção da dupla autoria das Escrituras. Para eles era verdade tanto dizer 'Havendo Deus antigamente falado muitas vezes, e de muitas maneiras, aos pais, pelos profetas' (Hb 1.1) quanto dizer que 'os homens da parte de Deus falaram movidos pelo Espírito Santo' (2 Pe 1.21). Deus não falou de uma forma que apagasse a personalidade do autor humano, nem os homens escreveram de uma forma que corrompesse a Palavra do Autor divino. Deus falou. Homens falaram. Nenhum dos dois prejudicou o outro..."
-
-#~ msgid "This, then, was Christ's view of the Scriptures. Their witness was God's witness. The testimony of the Bible is the testimony of God. And the chief reason why the Christian believes in the divine origin of the Bible is that Jesus Christ Himself taught it."
-#~ msgstr "Essa, então, era a visão de Cristo a respeito das Escrituras. O testemunho deles era o testemunho de Deus. O testemunho da Bíblia era o testemunho de Deus. E a principal razão pela qual os cristãos acreditam na origem divina da Bíblia é que o próprio Jesus Cristo acreditava nisso."
-
-#~ msgid "2 Tim.3:16 goes on, \"<emphasis>and profitable for teaching, for correction, for training in righteousness, that the man of God may be adequate, equipped for every good work.</emphasis>\" If we accept that the Bible really is God speaking to us, it follows that it will be our authority in all matters of faith and conduct."
-#~ msgstr "2 Tm 3.16 conitnua, \"<emphasis>e proveitosa para ensinar, para repreender, para corrigir, para instruir em justiça; para que o homem de Deus seja perfeito, e perfeitamente preparado para toda boa obra</emphasis>\". Se nós aceitamos que a Bíblia realmente é Deus falando conosco, consequentemente ela será nossa autoridade em toda questão de fé e conduta."
-
-#~ msgid "A Book that Works"
-#~ msgstr "Um Livro que Funciona"
-
-#~ msgid "What will studying the Bible do for you? 1 Thess.2:13 says that the Bible \"<emphasis>performs its work in you who believe.</emphasis>\" Beside each scripture, write down the work the Word performs."
-#~ msgstr "O que o Estudo Bíblico pode fazer por você? 1 Ts 2.13 diz que a Bíblia \"<emphasis>opera em vós que credes</emphasis>\". Do lado de cada escritura, escreva o que a Palavra faz:"
-
-#~ msgid "What does Bible study do for Christians?"
-#~ msgstr "O que o Estudo Bíblico faz para os cristãos?"
-
-#~ msgid "Reference"
-#~ msgstr "Referência"
-
-#~ msgid "Action"
-#~ msgstr "Ação"
-
-#~ msgid "Eph. 5:26"
-#~ msgstr "Ef 5.25"
-
-#~ msgid "cleanses -- \"...having cleansed her by the washing of water with the word.\""
-#~ msgstr "santificação -- \"..., tendo-a purificado com a lavagem da água, pela palavra\""
-
-#~ msgid "Acts 20:32"
-#~ msgstr "At 20.32"
-
-#~ msgid "builds up -- \" ...the word of His grace, which is able to build you up and to give you the inheritance among all those who are sanctified. \""
-#~ msgstr "edificação -- \"...e à palavra da sua graça, àquele que é poderoso para vos edificar e dar herança entre todos os que são santificados\""
-
-#~ msgid "Rom. 15:4"
-#~ msgstr "Rm 15.4"
-
-#~ msgid "encourages -- \"that through perseverance and the encouragement of the Scriptures we might have hope.\""
-#~ msgstr "Encoraja -- \"porquanto, tudo que dantes foi escrito, para nosso ensino foi escrito, para que, pela constância e pela consolação provenientes das Escrituras, tenhamos esperança\""
-
-#~ msgid "Rom. 10:17"
-#~ msgstr "Rm 10.17"
-
-#~ msgid "gives faith -- \"So faith comes from hearing, and hearing by the word of Christ.\""
-#~ msgstr "Dá fé -- \"Logo a fé é pelo ouvir, e o ouvir pela palavra de Cristo\""
-
-#~ msgid "1 Cor. 10:11"
-#~ msgstr "1 Co 10.11"
-
-#~ msgid "instructs -- \"Now these things happened to them for an example, and they were written for our instruction\""
-#~ msgstr "Instrui -- \"Ora, tudo isto lhes acontecia como exemplo, e foi escrito para aviso nosso...\""
-
-#~ msgid "Mt. 4:4"
-#~ msgstr "Mt 4.4"
-
-#~ msgid "nourishment -- \"But He answered and said, 'It is written, Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.'\""
-#~ msgstr "Nutre -- \"Mas Jesus lhe respondeu: Está escrito: Nem só de pão viverá o homem, mas de toda palavra que sai da boca de Deus\""
-
-#~ msgid "A Book that Liberates"
-#~ msgstr "Um Livro que Liberta"
-
-#~ msgid "Jn.8:32 \"<emphasis>and you shall know the truth, and the truth shall make you free.</emphasis>\"This is usually quoted by itself. Is this a conditional or unconditional promise? Would it apply to all kinds of knowledge? Find the answers by examining the first half of the sentence, in v.31. \"<emphasis>If you abide in My word, then you are truly disciples of Mine... </emphasis>\""
-#~ msgstr "Jo 8.32 \"<emphasis>e conhecereis a verdade, e a verdade vos libertará</emphasis>\" Isso normalmente é citado sozinho. Essa é uma promessa incodicional? Ela se aplica a todo o tipo de conhecimento? Encontramos a resposta examinando a primeira parte da frase, no v. 31 \"<emphasis>Se vós permanecerdes na minha palavra, verdadeiramente sois meus discípulos...</emphasis>\""
-
-#~ msgid "We see that this is a conditional promice, specifically speaking of the truth of God's word."
-#~ msgstr "Nós vemos que isso é uma promessa condicional, especificamente falando da verdade da Palavra de Deus."
-
-#~ msgid "The Greek word for \"wind\" used in Eph.4:14 means a <emphasis>violent wind.</emphasis> \"<emphasis>As a result, we are no longer to be children, tossed here and there by waves, and carried about by every wind of doctrine...</emphasis>\"One thing studying the Bible does for us is to ground us in the truth, with the result that we won't be easily \"blown away.\""
-#~ msgstr "A palavra grega para \"vento\" usada em Efésios 4,14 significa um <emphasis>vento violento</emphasis>. \"<emphasis> para que não mais sejamos meninos, inconstantes, levados ao redor por todo vento de doutrina...</emphasis>\". Uma coisa que estudar a Bíblia faz por nós é nos firmar na verdade, que não nos deixará sermos \"levados ao redor\". "
-
-#~ msgid "<emphasis>But Jesus answered and said to them, </emphasis>\"<emphasis>You are mistaken [KJV Ye do err], not understanding the Scriptures, or the power of God.</emphasis>\"Mt.22:29"
-#~ msgstr "<emphasis>\"Jesus, porém, lhes respondeu: Errais, não compreendendo as Escrituras nem o poder de Deus\"</emphasis> Mt 22.29"
-
-#~ msgid "What 2 things do we need to know to be kept from error?"
-#~ msgstr "Quais as duas coisas que nós precisamos para escapar do bug?"
-
-#~ msgid "God's word"
-#~ msgstr "Palavra de Deus"
-
-#~ msgid "God's power"
-#~ msgstr "Poder de Deus"
-
-#~ msgid "A Book that Wars"
-#~ msgstr "Um Livro que Luta"
-
-#~ msgid "Eph.6:10-18 is one picture of our spiritual armament."
-#~ msgstr "Ef. 6.10-18 é uma figura de nossa armadura espiritual."
-
-#~ msgid "Spiritual Armor"
-#~ msgstr "Armadura Espiritual"
-
-#~ msgid "Question"
-#~ msgstr "Pergunta"
-
-#~ msgid "Answer"
-#~ msgstr "Resposta"
-
-#~ msgid "How many of the weapons listed here are defensive weapons?"
-#~ msgstr "Quantas das armas listas são para defesa?"
-
-#~ msgid "<entry>5</entry>"
-#~ msgstr "<entry>5</entry>"
-
-#~ msgid "How many are offensive?"
-#~ msgstr "Quantas são para atacar?"
-
-#~ msgid "<entry>One</entry>"
-#~ msgstr "<entry>Uma</entry>"
-
-#~ msgid "Which one(s)?"
-#~ msgstr "Qual?"
-
-#~ msgid "the word - <foreignphrase>rhema</foreignphrase>"
-#~ msgstr "a palavra - <foreignphrase>rhema</foreignphrase>"
-
-#~ msgid "Exhortations"
-#~ msgstr "Exortações"
-
-#~ msgid "2 Tim.2:15 (KJV) \"<emphasis>Study to show thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.</emphasis>\""
-#~ msgstr "2 Tm 2.15 \"Procura apresentar-te diante de Deus aprovado, como obreiro que não tem de que se envergonhar, que maneja bem a palavra da verdade\""
-
-#~ msgid "Col.3:16 \"<emphasis>Let the word of Christ richly dwell within you; with all wisdom teaching and admonishing one another with psalms and hymns and spiritual songs, singing with thankfulness in your hearts to God.</emphasis>\""
-#~ msgstr "Cl 3.15 \"A palavra de Cristo habite em vós ricamente, em toda a sabedoria; ensinai-vos e admoestai-vos uns aos outros, com salmos, hinos e cânticos espirituais, louvando a Deus com gratidão em vossos corações\""
-
-#~ msgid "If you're rich in something, how much of it do you have?"
-#~ msgstr "Se você é rico em alguma coisa, quanto disso você tem?"
-
-#~ msgid "Not a little!"
-#~ msgstr "Não só um pouquinho!"
-
-#~ msgid "Eccl.12:11-12 \"<emphasis>The words of wise men are like goads, and masters of these collections are like well-driven nails; they are given by one Shepherd. But beyond this, my son, be warned: the writing of many books is endless, and excessive devotion to books is wearying to the body.</emphasis>\""
-#~ msgstr "Ec 12.11 \"<emphasis>As palavras dos sábios são como aguilhões; e como pregos bem fixados são as palavras coligidas dos mestres, as quais foram dadas pelo único pastor. Além disso, filho meu, sê avisado. De fazer muitos livros não há fim; e o muito estudar é enfado da carne.</emphasis>\""
-
-#~ msgid "Appendix: \"Once for All\""
-#~ msgstr "Apendice: \"De uma vez por todas\""
-
-#~ msgid "John R. W. Stott, <emphasis>Christ the Controversialist,</emphasis> InterVarsity Press 1978, pp.106-107"
-#~ msgstr "John R. W. Stott, <emphasis>Cristo o Controverso,</emphasis>Editora InterVarsity 1978, pp.106-107"
-
-#~ msgid "The truth regarding the finality of God's initiative in Christ is conveyed by one word of the Greek Testament, namely the adverb <foreignphrase>hapax</foreignphrase> and <foreignphrase>ephapax</foreignphrase>. It is usually translated in the Authorized Version once, meaning once for all. It is used of what is so done as to be of perpetual validity and never need repetition, and is applied in the NT to both revelation and redemption. Thus, Jude refers to the faith which was once for all delivered to the saints (Jude 3), and Romans says, \"<emphasis>Christ also died for sins once for all</emphasis>\" (Rom.6:10, see also 1 Pe.3:18; Heb.9:26-28)."
-#~ msgstr "A verdade a respeito do objetivo da iniciativa de Deus em Cristo é expressada em uma palavra presente no Testamento Grego, principalmente o advérbio <foreignphrase>hapax</foreignphrase> e <foreignphrase>ephapax</foreignphrase>. É comumente traduzida na Versão Autorizada como \"De uma vez por todas\". É usada no sentido de \"o que foi feito com validade perpétua, não necessitando de repetição\" e é usada no Novo Testamento, tanto em revelação e redenção. Portanto Judas refere-se a fé que foi de uma vez por todas entregue aos santos (Judas 3), e Romanos diz, \"<emphasis>Porque morrendo, ele morreu para o pecado de uma vez por todas</emphasis>\" (Rm 6.10, veja também 1Pe 3.18; Hb 9.26-28)."
-
-#~ msgid "Thus we may say that God has spoken once for all and Christ has suffered once for all. This means that the Christian revelation and the Christian redemption are both alike in Christ complete. Nothing can be added to either without being derogatory to Christ... These are the two rocks on which the Protestant Reformation was built -- Gods revealed word without the addition of human traditions and Christ's finished work without the addition of human merits. The Reformers great watchwords were <foreignphrase>sola scriptura</foreignphrase> for our authority and <foreignphrase>sola gratia</foreignphrase> for our salvation."
-#~ msgstr "Portanto, nós podemos dizer que Deus falou de uma vez por todas e Cristo sofreu de uma vez por todas. Isto sifnifica que a revelação Cristã e a redenção Cristã são indistinguíveis no Cristo completo. Nada pode ser adicionado sem ser depreciador de Cristo. Estas são as rochas em que a Reforma Protestante foi baseada -- Deus revelou a Palavra sem a adição das tradições humanas e Cristo terminou o trabalho sem adição de méritos humanos. As principais palavras dos Reformadores foram<foreignphrase>sola scriptura</foreignphrase> para nossa autoridade e <foreignphrase>sola gratia</foreignphrase> para nossa salvação."
-
-#~ msgid "Supplement: Bible Reading Programs"
-#~ msgstr "Suplemento: Programas de Leitura Bíblica"
-
-#~ msgid "Here are some easy programs to systematically read your Bible. You can do more than one at a time if you like, for instance #1 with #4, or #2 with #5. Vary the program from year to year to keep it fresh!"
-#~ msgstr "Aqui estão alguns programas fáceis para sistematicamente ler a sua Bíblia. Você pode fazer mais de um ao mesmo tempo se você quiser, por exemplo #1 com #4, ou #2 com #5. Varie o programada de ano para ano para mantê-lo novo."
-
-#~ msgid "New Testament in a Year: read one chapter each day, 5 days a week."
-#~ msgstr "Novo Testamento em um Ano: leia um capítulo por dia, 5 dias por semana."
-
-#~ msgid "Proverbs in a Month: read one chapter of Proverbs each day, corresponding to the day of the month."
-#~ msgstr "Provérbios em um Mês: leia um capítulo de Provérbios por dia, correspondente ao dia do mês."
-
-#~ msgid "Psalms in a Month: read 5 Psalms at intervals of 30 each day, for instance on the 20th you read Ps.20, 50, 80, 110, &amp; 140."
-#~ msgstr "Salmos em um mês: leia 5 salmos com intervalo de 30 entre eles por dia. Por exemplo, no vigésimo. dia você lerá Sl 20, 50, 80, 110 e 140."
-
-#~ msgid "Psalms &amp; Proverbs in 6 months: read through Psalms and Proverbs one chapter per day."
-#~ msgstr "Salmos e Provérbios em 6 meses: leia Salmos e Provérbios, um capítulo por dia."
-
-#~ msgid "Old Testament without Psalms &amp; Proverbs in 2 years: if you read one chapter a day of the Old Testament, skipping over Psalms &amp; Proverbs, you will read the Old Testament in 2 years and 2 weeks."
-#~ msgstr "Antigo Testamento sem Salmos e Provérbios em 2 anos: se você ler um capítulo por dia do Antigo Testamento, pulando Salmos e Provérbios, você lerá o Antigo Testamento em 2 anos e 2 semanas."
-
-#~ msgid "Rules of Bible Interpretation (Hermeneutics)"
-#~ msgstr "Regas de Interpretação Bíblica (Hermeneutica)"
-
-#~ msgid "We already learned about the \"3 Cs\": content, context, cross-reference. We want to expand that now by delving briefly into biblical hermeneutics, whose goal is to discover the meaning intended by the original author (and Author!). While many applications of a passage are valid, only one interpretation is valid. The scripture itself says this by saying that no scripture is of any private interpretation (2 Pe.1:20 KJV <quote>Knowing this first, that no prophesy of scripture is of any private interpretation.</quote>). Certain rules are helps toward discovering the correct meaning; by ignoring these rules people have brought much trouble on themselves and their followers. 2 Pe.3:16 <quote>...in which are some things hard to understand, which the untaught and unstable distort, as they do also the rest of the Scriptures, to their own destruction.</quote>"
-#~ msgstr "Nós já aprendemos sobre o \"CCR\" - Conteúdo, Contexto e Referencias Cruzadas. Nós queremos expandir isso examinando brevemente a hermeneutica bíblica, cujo objetivo é descobrir o significado pretendido pelo autor original (e Autor!). Enquanto muitas aplicações da passagem são válidas, somente uma interpretação é válida. A escritura mesmo diz isso dizendo que nenhuma escritura é de particular interpretação (2 Pe 1.20 <quote>sabendo primeiramente isto: que nenhuma profecia da Escritura é de particular interpretação</quote>) Certas regras são úteis para descobrimos o significado correto, ignorando essas regras pessoas trouxeram vários problemas para si e para seus seguidores. 2 Pe 3.16 <quote>...nas quais há pontos difíceis de entender, que os indoutos e inconstantes torcem, como o fazem também com as outras Escrituras, para sua própria perdição</quote>"
-
-#~ msgid "How do we go about discovering the intended meaning of a passage? Let's say your attention has been drawn to a particular verse whose meaning is not clear to you. How do you study it out? Keep these rules in mind:"
-#~ msgstr "Como nós descobrimos o significado pretendido para uma passagem? Digamos que nossa atenção voltou-se para um versículo particular, cujo significado não é claro para você. Como você o estuda? Tenha essas regras em mente:"
-
-#~ msgid "Rule 1 - Interpret according to the exact meaning of the words."
-#~ msgstr "Regra 1 - Interprete de acordo com o exato significado das palavras"
-
-#~ msgid "The more precise we can be with the exact, original meaning of the words the better our interpretation will be. Try to find the exact meaning of the key words by following these steps:"
-#~ msgstr "Quanto mais preciso nós conseguirmos ser com o exato significado original da palavra, melhor será nossa interpretação. Procure achar o exato significado das palavras chave seguindo os seguintes passos:"
-
-#~ msgid "Definition"
-#~ msgstr "Definição"
-
-#~ msgid "Look up the definition in a Greek or Hebrew dictionary. For verbs, the verb tense is also crucial."
-#~ msgstr "Procure a definição em um dicionário de Grego ou Hebraico. Para verbos, a conjugação do verbo também é crucial."
-
-#~ msgid "Compare scripture with scripture. Seeing how the same Greek or Hebrew word (not the English word) is used in scripture may clarify or throw new light on the definition. How does the same author use this word elsewhere? Other authors? Your reference tools may give you uses of the word in non-biblical documents, as well. Why do we have to go to the original languages; why isn't the English word good enough? <emphasis>Because more than one greek word may be translated into the same english word, and the greek words may have different shades of meaning.</emphasis>"
-#~ msgstr "Compare escritura com escritura. Vendo como a mesma palavra grega ou hebraica (não a palavra em português) é usada na escritura pode ajudar a esclarecer ou trazer alguma luz sobre a definição. Como o mesmo autor usou essa palavra em outros lugares? Outros autores? A sua ferramenta de referencia deve te dar usos da palavra em documentos não-bíblicos também. Porque nós vamos para as línguas originais, porque português não é bom o suficiente? <emphasis>Porque mais de uma palavra grega pode ser traduzida para a mesma palavra em português, e as palavras gregas podem ter significados diferentes.</emphasis>"
-
-#~ msgid "Example 1A"
-#~ msgstr "Exemplo 1A"
-
-#~ msgid "Jn.20:17 <emphasis>\"Touch me not\"</emphasis> (KJV) sounds harsh, doesn't it? Sounds like Jesus doesn't want to be touched now that He is risen, that He is too holy or something. But that doesn't seem right, so let's look it up in Spiros Zodhiates' <emphasis>The Complete Word Study New Testament</emphasis> (AMG Publishers, 1991)."
-#~ msgstr "Jo 20.17 <emphasis>\"Deixa de me tocar\"</emphasis> parece áspero, não? Parece que Jesus não queria ser tocado agora que ele havia ressucitado, que ele era muito santo ou algo do gênero. Mas não é bem isso, procuremos isso em <emphasis>The Complete Word Study New Testament</emphasis>, de Spiros Zodhiates (AMG Publishers, 1991)."
-
-#~ msgid "Definition: Turning to John 20:17, above the word \"Touch\" we see \"pim680.\" The letters give us a code for the part of speech, and the number refers to Strong's dictionary reference. Let's look up the definition (p. 879). \"680. Haptomai; from hapto (681), touch. Refers to such handling of an object as to exert a modifying influence upon it... Distinguished from pselaphao (5584), which actually only means to touch the surface of something. \" Now look up \"pim.\" The grammar codes in Zodhiates come right after Revelation; on p. 849 we see that pim stands for \"present imperative active (80)\". On p.857, \"Present Imperative. In the active voice, it may indicate a command to do something in the future which involves continuous or repeated action or, when it is negated, a command to stop doing something. \" This is a negative command, so it is to stop doing something that is already occuring. So, what have we found?"
-#~ msgstr "Definição: Indo até João 20.17, abaixo da palavra \"tocar\" nós vemos \"pim680\". As letras são um código para a parte da frase e o numero refere-se à referencia do dicionário de Strong. Vejamos a definição (pág. 879). \"680. Haptomai; de hapto (681), tocar. Refere-se ao manuseio de um objeto para exercer uma influencia modificadora sobre ele... Distinto de pselaphao (5584), que significa somente tocar a superfice de algo\". Agora vejamos \"pim\". Os códigos da gramática em Zodhiates ficam depois de Apocalipse, na pág 849 nós vemos que \"pim\" significa \"presente imperativo ativo (80)\". Na pág. 857, \"Presente Imperativo. Na voz ativa pode indicar um comando para fazer alguma coisa ou alguma coisa no futuro que envolve ação contínua ou repetida ou, quando negado, um comando para parar de fazer alguma coisa\". Esse é um comendo negativo, então é para parar de fazer alguma coisa que já está ocorrendo. Então, o que encontramos?"
-
-#~ msgid "Mary is already clinging to Jesus, and he is saying to stop holding him!"
-#~ msgstr "Maria já estava agarrada a Jesus, e ele lhe disse que parasse de segurá-lo!"
-
-#~ msgid "Example 1B"
-#~ msgstr "Exemplo 1B"
-
-#~ msgid "In James 5:14, <emphasis>Elders are told to pray and anoint someone who is sick</emphasis>. What is this anointing?"
-#~ msgstr "Em Tiago 5.14, <emphasis>\"Está doente algum de vós? Chame os anciãos da igreja, e estes orem sobre ele, ungido-o com óleo em nome do Senhor\"</emphasis>. Que unção é essa?"
-
-#~ msgid "Definition of aleipho (218) - \"to oil\" (Strong's); but we also have another Greek word translated \"anoint\", chrio (5548) - \"to smear or rub with oil, i.e. to consecrate to an office or religious service\" (Strong's). Since it's a verb, consider the tense also, \"apta\" aorist participle active. \"The aorist participle expresses simple action, as opposed to continuous action...When its relaitonship to the main verb is temporal, it usually signifies action prior to that of the main verb.\" (Zodhiates p.851)"
-#~ msgstr "Definição de aleipho (218) - \"passar oléo em\" (Strong's); mas também existe outra palavra grega traduzida como \"unção\", chrio (5548) - \"espalhar ou esfregar oléo em, ex: para consagrar para um cargo ou função religiosa\" (Strong's). Como é um verbo, considere também a conjugação, \"apta\" passado participativo aoristo. \"O passado paticipativo aoristo expressa uma ação simples, ao contrário de uma ação contínua... quando o relacionamento com o verbo principal é temporal, normalmente significa ação anterior ao verbo principal\" (Zodhiates, p 851)."
-
-#~ msgid "Cross-references for aleipho:"
-#~ msgstr "Referencia Cruzada para aleipho:"
-
-#~ msgid "Mt.6:17 But you, when you fast, anoint your head"
-#~ msgstr "Mt 6.17 Tu, porém, quando jejuares, unge a tua cabeça"
-
-#~ msgid "Mk.16:1 [the women] brought spices that they might come and anoint Him."
-#~ msgstr "Mc 16.1 [as mulheres] compraram aromas para irem ungi-lo"
-
-#~ msgid "Mk.6:13 And they were...anointing with oil many sick people and healing them."
-#~ msgstr "Mc 6,13 e expulsavam muitos demônios, e ungiam muitos enfermos com óleo, e os curavam"
-
-#~ msgid "Lk.7:38 [...] kissing His feet and anointing them with the perfume"
-#~ msgstr "Lc 7.28 [...] e beijava-lhe os pés e ungia-os com o bálsamo"
-
-#~ msgid "Jn.12:3 Mary [...] anointed the feet of Jesus, and wiped them with her hair"
-#~ msgstr "Jo 12.3 Então Maria, [...] ungiu os pés de Jesus, e os enxugou com os seus cabelos"
-
-#~ msgid "Cross-references of chrio:"
-#~ msgstr "Referencia Cruzada de chrio:"
-
-#~ msgid "Lk.4:18 <quote>The Spirit of the Lord is upon me, because He has anointed me to preach [...]</quote>"
-#~ msgstr "Lc 4.18 <quote> O Espírito do Senhor está sobre mim, porquanto me ungiu para anunciar boas novas aos pobres [...]</quote>"
-
-#~ msgid "Acts 4:27 Jesus, whom Thou hast anointed"
-#~ msgstr "At 4.27 [...] Servo Jesus, ao qual ungiste [...]"
-
-#~ msgid "Acts 10:38 God anointed Jesus with the Holy Ghost and power"
-#~ msgstr "At 10.28 como Deus o ungiu com o Espírito Santo e com poder"
-
-#~ msgid "2 Cor.1:21 Now He who...anointed us is God"
-#~ msgstr "2 Co 1.21 Mas aquele que nos confirma convosco em Cristo, e nos ungiu, é Deus"
-
-#~ msgid "So what's the difference between aleipho and chrio? Look back over the cross-references and the definitions, and sum up the difference: <emphasis>&quot;aleipho&quot; is a practical use of oil and &quot;chrio&quot; is a spiritual</emphasis>"
-#~ msgstr "Então qual a diferencá entre aleipho e chrio? Veja a referencia cruzada e as definições e note a diferença: <emphasis>&quot;Aleipho&quot; é o uso prático de óleo e &quot;Chrio&quot; é o uso espiritual</emphasis>."
-
-#~ msgid "As an illustration (although the word is not used) of the practical use of oil at that time, when the good Samaritan cared for the man beat up by robbers he poured oil and wine in the wound. So oil had a medicinal use in Jesus' day."
-#~ msgstr "Uma ilustração (embora a palavra não seja usada) do uso prático de óleo naquele tempo: quando o bom samaritano cuidou do homem espancado por ladrões ele passou óleo e vinho nas feridas. Então, óleo tinha um uso medicinal nos tempos de Jesus."
-
-#~ msgid "Now let's apply what we just learned by this word study to James 5:14 <emphasis>\"Is any among you sick? Let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord.\"</emphasis> Is \"anointing\" spiritual or practical? Practical!"
-#~ msgstr "Agora vamos aplicar o que nós acabamos de aprender a Tiago 5.14 <emphasis>\"Está doente algum de vós? Chame os anciãos da igreja, e estes orem sobre ele, ungido-o com óleo em nome do Senhor\"</emphasis>. Essa unção é espiritual ou prática? Prática!"
-
-#~ msgid "And the tense in Greek, the aorist participle, would be better translated \"having anointed,\" so the order is the anointing first, then the prayer (\"in the name of the Lord\"refers to the prayer, not the anointing). James 5 is saying that the elders should give the sick person medicine and pray for him in the name of the Lord. Doesn't that express a beautiful balance of practical and spiritual in our God!"
-#~ msgstr "A conjugação do verbo no grego, o passado participativo aoristo, seria melhor traduzido como \"tendo ungido\", então, a ordem é para ungir primeiro, então orar (\"no nome do Senhor\" refere-se a oração, não à unção). Tiago 5 está dizendo que os anciãos devem dar à pessoa doente medicina e então orar por ela no nome do Senhor. Isso expressa um belo balanço entre o prático e o espiritual em nosso Deus!"
-
-#~ msgid "Rule 2 - Interpret within the biblical context"
-#~ msgstr "Regra 2 - Intreprete o texto no contexto bíblico"
-
-#~ msgid "Interpret scripture in harmony with other scripture. What do the verses on each side say? What is the theme of the chapter? the book? Does your interpretation fit with these? If not, it is flawed. Usually, the context supplies what we need to correctly interpret the passage. Context is key. If confusion remains as to the meaning after we have interpreted the text within its context, we have to look further."
-#~ msgstr "Interprete a escritura em harmonia com o resto da escritura. O que os versos vizinhos dizem? Qual o tema do capítulo? do livro? A sua interpretação se adapta a isso? Se não, ela é imperfeita. Normalmente, o contexto fornece o que nós precisamos para interpretar corretamente a pssagem. Contexo é a chave. Se a confusão persistir quanto ao significado depois que nós interpretamos o texto em seu contexto então veremos mais adiante."
-
-#~ msgid "Example 2A"
-#~ msgstr "Exemplo 2A"
-
-#~ msgid "In a previous lesson we considered Jn.3:5 <emphasis>\"born of water and the Spirit.\"</emphasis> In context, what is the water under discussion here?"
-#~ msgstr "Em uma lição passada, nós consideramos Jo 3.5 <emphasis>\"nascer da água e do Espírito\"</emphasis>. Nesse contexto, qual é a água em questão aqui?"
-
-#~ msgid "Water baptism is not under discussion here, which would be a big switch from the subject being discussed by Jesus and Nicodemus. Watch out for a sudden change of topic, it may be a clue that your interpretation has been derailed! The water is the amniotic fluid, \"born of water\" = natural birth."
-#~ msgstr "Batismo em água não está em discussão aqui, logo seria uma grande mudança do tema que estava sendo discutido entre Jesus e Nicodemos. Procure por uma troca de tema repentina, e pode ser uma indicação que a sua interpretação está errada! A água é o líquido amniotico, \"nascer da água\" = nascimento natural."
-
-#~ msgid "Example 2B"
-#~ msgstr "Exemplo 2B"
-
-#~ msgid "1 Cor.14:34 <quote>Let the women keep silent in the churches</quote> has to be taken within the biblical context of 1 Cor.11:5 <quote>every woman [...] while praying or prophesying [...]</quote>"
-#~ msgstr "1 Co 14.34 <quote>as mulheres estejam caladas nas igrejas</quote> deve ser considerado com o contexo de 1 Co 11.5 <quote>Mas toda mulher que ora ou profetiza....</quote>"
-
-#~ msgid "Example 2C"
-#~ msgstr "Exemplo 2C"
-
-#~ msgid "Acts 2:38 <quote>And Peter said to them, &quot;Repent, and let each of you be baptized in the name of Jesus Christ for the forgiveness of your sins [...]&quot;</quote>. Is this teaching baptismal regeneration? If this was the only verse of scripture we had, we would have to conclude that. But in the light of the clear teaching elsewhere that regeneration happens by faith in Christ, we have to interpret it otherwise. Peter is urging baptism as a way for his hearers to respond to the gospel. If baptism were the pathway to being born again, how could Paul write 1 Cor.1:17 <emphasis>\"For Christ did not send me to baptize, but to preach the gospel\"</emphasis>?"
-#~ msgstr "Atos 2.38 <quote>Pedro então lhes respondeu: &quot;Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo, para remissão de vossos pecados...&quot;</quote> está ensinando regenração pelo batismo? Se esse fosse o único versículo que a escritura tivesse, nós poderíamos concluir isso. Mas à luz do claro ensinamento que a regeneração acontece pela fé em Cristo, nós quemos que interpretar de outra forma. Pedro está pedindo o batismo como uma forma de seus ouvintes responderem ao evangelho. Se o batismo fosse o caminho para o novo nascimento, como Paulo poderia ter escrito 1 Co 1.17 <emphasis>\"Porque Cristo não me enviou para batizar, mas para pregar o evangelho\"</emphasis>?"
-
-#~ msgid "Rule 3 - Interpret within the historical and cultural context"
-#~ msgstr "Regra 3 - Interprete dentro do contexo histórico e cultural"
-
-#~ msgid "At first we are not asking <quote>What does it mean to me?</quote> but <quote>What did it mean to the original readers?</quote>; later we can ask, <quote>What does it mean to me?</quote>. We have to take into account the historical and cultural background of the author and the recipients."
-#~ msgstr "Nós não começamos perguntando <quote>O que isso significa para mim?</quote>, mas <quote>O que isso significou para os leitores originais?</quote>; depois nós podemos nos perguntar <quote>O que isso significa para mim?</quote>. Nós devemos levar em conta o contexo histórico e cultural do autor e dos destinatários."
-
-#~ msgid "Example 3A"
-#~ msgstr "Exemplo 3A"
-
-#~ msgid "<quote>3 days &amp; 3 nights</quote> (Mt.12:40) have led some to come up with a \"Wednesday crucifixion theory,\" esp. the cult of Armstrongism. How could Jesus die on Friday afternoon and rise Sunday morning yet \"be raised on the third day\" (Mt.16:21)? Exact meanings of \"three\" or \"days\" won't help explain the apparent contradiction."
-#~ msgstr "<quote>3 dias e 3 noites</quote> (Mt 12.40) levou alguns a criarem a \"Teoria da Cruxificação na Quarta-Feira\". Como Jesus poderia morrer na sexta-feira à tarde e ressucitar domingo de manhã ainda \"que ao terceiro dia ressuscitasse\" (Mt 16.21)? O significado exato de \"três\" ou \"dias\" não ajudam a explicar essa aparente contradição."
-
-#~ msgid "We need an historical tidbit: Jews counted any part of a day as a full day, as we would count buckets of water (if there were six and one-half buckets of water, we would say there were 7 buckets of water even if one was only partly full). So to the Jewish mind, any part of a day counted as a full day, and days started at 6 p.m. and ended at 6 p.m. Friday from 3 p.m. to 6 p.m. = day 1. Friday 6 p.m. to Saturday 6 p.m. = day 2. Saturday 6 p.m. to Sunday 5 or so a.m. = day 3. Interpreting within the cultural context keeps us out of trouble."
-#~ msgstr "Nós precisamo de um detalhe histórico: Os judeus contavam qualquer parte de um dia como um dia completo, assim como nós contamos baldes d'água (se existem seis baldes e meio de água, nós dizemos que existem sete baldes, mesmo que um deles não esteja completamente cheio). Então, para os judeus, qualquer parte do dia contava como um dia completo, e os dias começavam as 6h e terminavam às 18h. Sexta de 15h até 18h = dia 1. Sexta 18h até Sábado 18h = dia 2. Sábado 18h até Domingo lá pelas 5h = dia 3. Interpretar o texto no contexto cultural ajuda-nos a livramo-nos de erros."
-
-#~ msgid "Example 3B"
-#~ msgstr "Exemplo 3B"
-
-#~ msgid "Gen.15:7-21. The historical context is that cutting animals in two and then walking between the pieces was the normal way of entering a contract in Abraham's day. Both parties walked between, taking the pledge that dismemberment would happen to them if they didn't live up to their part of the contract. But in this case only God goes thru, making it a unilateral covenant."
-#~ msgstr "Gn 15.7-21. O contexto histórico de cortar animais em dois e passar andando entre as medates era a forma normal de firmar um contrato nos dias de Abraão. Ambas as partes andavam juntas, prometendo que o desmembramento podia acontecer à eles se eles deixassem sua parte no contrato. Mas no caso, somente Deus passou, fazendo um contrato unilateral."
-
-#~ msgid "Rule 4 - Interpret according to the normal usage of words in language"
-#~ msgstr "Regra 4 - Interprete de acordo com o uso comum das palavras na linguagem"
-
-#~ msgid "Let literal language be literal and figurative language be figurative. And watch out for idioms, which have special meanings."
-#~ msgstr "Deixe linguagem literal ser literal e linguagem figurada ser figurada. E observe as expressões que tem significados especiais."
-
-#~ msgid "Example 4A"
-#~ msgstr "Exemplo 4A"
-
-#~ msgid "<quote>evil eye</quote> in Mt.6:23."
-#~ msgstr "<quote>olhos maus</quote> em Mt 6.23"
-
-#~ msgid "Rule 1, definition of \"evil\" and \"eye\" - no help here. Rule 2, context: seems to confuse us even more. It doesn't seem to fit with what goes before and after! This should tip us off that we aren't understanding it rightly!!"
-#~ msgstr ""
-#~ "Regra 1, definição de \"mau\" e \"olho\" - nada que ajude aqui. \n"
-#~ "Regra 2, contexto: parece que apenas nos confunde mais. Parece que não combina com nada do que vem antes ou depois! Isso deve nos indicar que nós não estamos entendendo corretamente!!!"
-
-#~ msgid "What we have here is a Hebrew idiom, <quote>evil eye</quote>. Let's look up other uses of this idiom: Mt.20:15 \"<emphasis>Is it not lawful for me to do what I wish with what is my own? Or is your eye envious [lit.\"evil\"] because I am generous [lit. \"good\"]?</emphasis>\" We find that having an \"evil eye\" is a Hebrew idiom for being stingy or envious. Now go back to Mt.6 and notice how this understanding ties in so perfectly to the context."
-#~ msgstr "O que nós temos aqui é uma expressão em Hebraico, <quote>olho mau</quote>. Vejamos outros usos dessa expressão: Mt 20.15: <emphasis>\"Não me é lícito fazer o que quero do que é meu? Ou é mau o teu olho porque eu sou bom?\"</emphasis> Nós descobrimos que um \"olho mau\" em Hebraico é uma expressão para ser mesquinho ou invejoso. Agora voltemos para Mt 6 e notemos como esse significado se encaixa perfeitamente no contexto."
-
-#~ msgid "Example 4B"
-#~ msgstr "Exemplo 4B"
-
-#~ msgid "Is.59:1 <quote>The Lord's hand is not short;</quote>"
-#~ msgstr "Is 59.1 <quote>Eis que a mão do Senhor não está encolhida</quote>"
-
-#~ msgid "Deut.33:27 <quote>Underneath are the everlasting arms.</quote>"
-#~ msgstr "Dt 33.27 <quote>O Deus eterno é a tua habitação, e por baixo estão os braços eternos</quote>"
-
-#~ msgid "References to body parts of God are used by Latter-Day Saints to prove that God was once a man just as we are. Once they convince people of that, they go on to teach that we can become God just like He is! At a lecture he was giving, a group of Mormon elders challenged Walter Martin (author of <emphasis>Kingdom of the Cults</emphasis>) with an enumeration of verses like these. Dr. Martin then asked the Mormons to read one more scripture: Ps.91:4 <quote>He will cover you with His feathers; And under His wings shalt thou trust</quote>. W.M. said, <quote>By the same rules of interpretation that you just proved God to be a man, you just proved that He is a bird</quote>. The Mormons had to laugh as they realised the ridiculousness of their position."
-#~ msgstr "Referencias à partes de corpo de Deus são usados pelos Santos dos Ultimos Dias para provar que Deus já foi homem um dia. Uma vez que eles convencem as pessoas disso, eles continuam ensinando que nós também nos podemos tornar deuses como Ele é! Em uma leitura que eles dão, um grupo de anciãos mórmons desafiaram Walter Martin (autor de Reino dos Cultos) com uma lista de versículos como esses. Dr. Martin então pediu aos mórmons que lessem mais um versículo, Sl 91.4 <emphasis>\"Ele te cobre com as suas penas, e debaixo das suas asas encontras refúgio\"</emphasis>. W. M. disse \"pelas mesmas regras de interpretação que vocês usaram para provar que Deus era um homem, vocês também provam que ele era um pássaro\". Os mormons tiveram que rir, já que eles perceberam que estavam numa posição ridícula."
-
-#~ msgid "Rule 5 - Understand the purpose of parables and the difference between a parable and an allegory"
-#~ msgstr "Regra 5 - Interprete o propósito das parábolas e a diferença entre uma parábola e uma alegoria"
-
-#~ msgid "An allegory is: <emphasis>A story where each element has a meaning.</emphasis>"
-#~ msgstr "Uma alegoria é: <emphasis>uma história onde cada elemento tem um significado</emphasis>"
-
-#~ msgid "Every parable is an allegory, true or false?"
-#~ msgstr "Toda parábola é uma alegoria, verdadeiro ou falso?"
-
-#~ msgid "Some parables are allegories, for instance, the parable of the sower is an allegory: the seed is the word of God, the thorns are worries and greed, etc. But most parables are not allegories but simply stories to illustrate one point. It's dangerous to get our doctrine from parables; they can be twisted to say all sorts of things. We need to get our doctrine from clear scriptures that lay it out; then if a parable illustrates that, fine."
-#~ msgstr "Algumas parábolas são alegorias, por exemplo, a parábola do semeador é uma alegoria: a semente é a palavra de Deus, os espinhos são medos e avareza, etc. Mas várias parábolas não são alegorias mas simplesmente histórias para ilustrar um ponto. É perigoso obter nossas doutrinas a partir de parábolas; elas podem ser torcidas para dizer todo o tipo de coisas. Nós precisamos fazer as nossas doutrinas de escrituras claras. Então, se uma parábola a ilustra, ótimo."
-
-#~ msgid "Example 5A"
-#~ msgstr "Exemplo 5A"
-
-#~ msgid "The parable of the widow with the unrighteous judge in Lk.18:1-8. This story illustrates one lesson: boldness in prayer. If we draw it into an allegory, what do we have?"
-#~ msgstr "A parábola da viúva e o juiz injusto em Lc 18.1-8. Essa história ilustra uma lição: ousadia na oração. Se nós a considerarmos como uma alegoria, o que nós teremos?"
-
-#~ msgid "All sorts of violence happens to the meanings: God is reluctant to protect the rights of widows, prayer \"bothers\" Him, etc."
-#~ msgstr "Todo o tipo de abusos acontecendo com os significados: Deus relutante para proteger o direito das viúvas, orações incomodando a Deus, etc."
-
-#~ msgid "Example 5B"
-#~ msgstr "Exemplo 5B"
-
-#~ msgid "The parable of the unrighteous steward in Lk.16:1-9. What is the point of the parable? Is it an allegory?"
-#~ msgstr "A parábola do mordomo injusto em Lc 16.1-9. O que essa parábola significa? Ela é uma alegoria?"
-
-#~ msgid "The steward is commended for only one thing, his shrewdness in using what he had to prepare for a time when he wouldn't have it. But he is not commended for his unethical behavior in cheating his master."
-#~ msgstr "O mordomo é elogiado por uma única coisa, sua sagacidade em usar o que ele tinha que preparar para quando ele não tivesse. Mas ele não estava sendo elogiado por seu comportamento não-ético enganando o seu mestre."
-
-#~ msgid "For the translation process we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. It has many advanced features and is a great aid."
-#~ msgstr "Para o processo de tradução, nós recomendamos que você use o excelente programa <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. Ele tem várias funções avançadas e é de grande ajuda."
-
-#~ msgid "Download"
-#~ msgstr "Download"
-
-#~ msgid "Guestbook"
-#~ msgstr "Livro de Visitas"
-
-#~ msgid "BibleTime's Guestbook"
-#~ msgstr "Livro de visitas do BibleTime"
-
-#, fuzzy
-#~ msgid "This is the place to leave positive or negative comments about the BibleTime project. This is not the place to ask questions, please use <ulink url=\"http://forum.bibletime.info/\">the BibleTime forum</ulink> instead."
-#~ msgstr "Esse é o lugar para deixar comentários positivos ou negativos sobre o projeto BibleTime. Não é o lugar para fazer perguntas. Por favor, use o <ulink url=\"http://www.crosswire.org/forums/mvnforum/listthreads?forum=2\">forum do BibleTime</ulink> para perguntas."
-
-#~ msgid "Please write in English, if possible. HTML is not allowed and will be removed, but you may use normal line breaks to divide into paragraphs."
-#~ msgstr "Por favor, se possível, escreva seus comentários em inglês. HTML não é permitido e será removido. Você pode usar quebras de linha normais para dividir em parágrafos."
-
-#~ msgid "Please add your comments here:"
-#~ msgstr "Por favor, adicione seus comentários aqui:"
