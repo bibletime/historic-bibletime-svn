@@ -1,15 +1,15 @@
-# translation of bibletime_website_fi.po to finnish
-# Copyright (C) 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# translation of bibletime_website_fi.po to Finnish
+# Copyright (C) 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
 #
-# Ilpo Kantonen <ilpo@iki.fi>, 2005, 2006, 2007, 2008.
+# Ilpo Kantonen <ilpo@iki.fi>, 2005, 2006, 2007, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_fi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-02-09 20:31+0000\n"
-"PO-Revision-Date: 2008-03-12 02:33+0200\n"
+"PO-Revision-Date: 2009-02-15 09:21+0200\n"
 "Last-Translator: Ilpo Kantonen <ilpo@iki.fi>\n"
-"Language-Team: finnish <fi@li.org>\n"
+"Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -66,9 +66,9 @@ msgstr "Kuvakaappaukset"
 
 #. Tag: title
 #: autolayout.xml:32 software_installation.xml:12
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Download of BibleTime"
-msgstr "Lataa BibleTime"
+msgstr "BibleTimen lataus"
 
 #. Tag: title
 #: autolayout.xml:36 software_faq.xml:11
@@ -180,9 +180,9 @@ msgstr "Auta meitä..."
 
 #. Tag: para
 #: development_help.xml:19
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Our aim is to develop BibleTime into a really mature Bible study application that can by used by everyone. To ahieve this, we need your help. There are different possibilities for supporting the BibleTime project directly and indirectly:"
-msgstr "Päämäärämme on kehittää BibleTimestä todella kypsä Raamatuntutkimisohjelma, jota jokainen osaa käyttää. Päästäksemme tähän tarvitsemme apuasi. Voit auttaa monin tavoin BibleTime-projektia suoraan ja epäsuorasti:"
+msgstr "Päämäärämme on kehittää BibleTimestä todella kypsä jokaisen käyttämä Raamatuntutkimisohjelma. Päästäksemme tähän päämäärään tarvitsemme apuasi. Voit auttaa monin tavoin BibleTime-projektia suoraan ja epäsuorasti:"
 
 #. Tag: title
 #: development_help.xml:24
@@ -204,15 +204,15 @@ msgstr "Haluatko antaa bugiraportin tai ehdotuksen uudeksi ominaisuudeksi?"
 
 #. Tag: para
 #: development_help.xml:32
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "You can use <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;atid=100954\"> BibleTime's bug tracker</ulink> to report problems with BibleTime that you are experiencing. Please be sure to include the version of BibleTime you are using, your Sword version, information about QT/KDE and your operating system, and everything else that is neccessary to reproduce the bug. Before you submit the bug, please query the database to see if a similar bug has already been handled (and is therefore alredy in status \"closed\")."
-msgstr "Voit käyttää osoitetta <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;atid=100954\">BibleTime's bug tracker</ulink> raportoidaksesi löytämistäsi BibleTimen ongelmista. Varmista, että kerrot käyttämäsi BibleTime-ohjelman version, Sword-version ja tietoa QT/KDE versioista sekä käyttöjärjestelmästä ja kaikkea muuta, mikä on tarpeellista bugin saamiseksi uudelleen näkyviin. Ennenkuin lähetät bugiraportin, selaa bugitietokantaa nähdäksesi, onko samanlaisesta bugista tehty jo raporttia ja onko se jo käsitelty (tila \"closed\")."
+msgstr "Voit käyttää osoitetta <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;atid=100954\">BibleTime's bug tracker</ulink> raportoidaksesi löytämistäsi BibleTimen ongelmista. Varmista, että kerrot käyttämäsi BibleTime-ohjelman version, Sword-version ja tietoa QT/KDE versioista sekä käyttöjärjestelmästä ja kaikkea muuta, mikä on tarpeellista virheen uudelleentodentamiseen. Ennenkuin lähetät virheraportin, selaa bugitietokantaa nähdäksesi, onko samanlaisesta bugista tehty jo raporttia ja onko se jo käsitelty (tila \"closed\")."
 
 #. Tag: para
 #: development_help.xml:42
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "There is also <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\"> a place</ulink> where you can make suggestions for features you'd like to see in BibleTime. We ask for your understanding that due to our limited time and to our own plans for BibleTime we cannot always comply with all wishes."
-msgstr "Voit tehdä ehdotuksia uusista haluamistasi ominaisuuksista osoitteessa <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\">tässä</ulink> osoitteessa. Pyydämme ymmärrystä, että emme voi toteuttaa kaikkia toiveita rajoitetun ajankäyttömme ja omien BibleTime-suunnitelmiemme vuoksi."
+msgstr "Voit tehdä ehdotuksia uusista haluamistasi ominaisuuksista <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\">tässä osoitteessa</ulink>. Pyydämme ymmärrystä, että emme voi toteuttaa kaikkia toiveita rajoitetun ajankäyttömme ja omien BibleTime-suunnitelmiemme vuoksi."
 
 #. Tag: title
 #: development_help.xml:50
@@ -222,9 +222,9 @@ msgstr "Osaatko ohjelmoida sovelluksia?"
 
 #. Tag: para
 #: development_help.xml:51
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Do you know how to program in C++? Are you familiar with the KDE programming interface or are motivated to learn it? If you have time to regularly work on the BibleTime source code we ask you to join our team. If you want to do so, please read the page <olink targetdocent=\"development_join\">Join us</olink>."
-msgstr "Osaatko ohjelmoida C++ -kielellä? Onko KDE-käyttöliittymien ohjelmointi tuttua tai oletko motivoitunut ja halukas oppimaan sitä? Jos sinulla on säännöllisesti aikaa työskennellä BibleTimen lähdekoodin kanssa, pyydämme sinua liittymään työryhmäämme. Jos haluat tehdä näin, lue sivu <olink targetdocent=\"development_join\"> Liity meihin</olink>."
+msgstr "Osaatko ohjelmoida C++ -kielellä? Onko KDE-käyttöliittymien ohjelmointi tuttua tai oletko motivoitunut ja halukas oppimaan sitä? Jos sinulla on aikaa työskennellä säännöllisesti BibleTimen lähdekoodin kanssa, pyydämme sinua liittymään työryhmäämme. Jos haluat tehdä näin, lue sivu <olink targetdocent=\"development_join\"> Liity meihin</olink>."
 
 #. Tag: title
 #: development_help.xml:59
@@ -234,13 +234,13 @@ msgstr "Osaatko dokumentoida ohjelmia?"
 
 #. Tag: para
 #: development_help.xml:60
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Do you think you would be good in working on BibleTime's English documentation? If you think you are, please read the page <olink targetdocent=\"development_join\">Join us</olink>."
 msgstr "Olisitko mielestäsi hyvä BibleTimen englanninkielisessä dokumentoinnissa? Jos olet, lue sivu <olink targetdocent=\"development_join\"> Liity meihin</olink>."
 
 #. Tag: title
 #: development_help.xml:66
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Are you good at translating English into another language?"
 msgstr "Oletko hyvä kääntämään tekstejä englanninkielestä toisiin kieliin?"
 
@@ -252,7 +252,7 @@ msgstr "BibleTimen tulee olla käyttökelpoinen kaikille ihmisille. Siksi me tar
 
 #. Tag: para
 #: development_help.xml:75
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "You can find more information about the translation process on the page <olink targetdocent=\"translations\">translation</olink>."
 msgstr "Voit löytää lisää tietoa käännösprosessista sivulta <olink targetdocent=\"translations\"> käännökset</olink>."
 
@@ -264,15 +264,15 @@ msgstr "Liity BibleTime-työryhmään"
 
 #. Tag: para
 #: development_join.xml:18
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "We are thankful to everybody who helps us improve the BibleTime software, it's documentation and it's translations."
-msgstr "Olemme iloisia jokaisesta, kuka auttaa meitä parantamaan BibleTime-ohjelmistoa, sen dokumentoimista ja sen käännöksiä."
+msgstr "Olemme kiitollisia jokaisesta, kuka auttaa meitä parantamaan BibleTime-ohjelmistoa, sen dokumentoimista tai sen käännöksiä."
 
 #. Tag: title
 #: development_join.xml:22
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The basic steps..."
-msgstr "Ensimmäiset askeleet.."
+msgstr "Perusaskeleet.."
 
 #. Tag: para
 #: development_join.xml:23
@@ -282,15 +282,15 @@ msgstr "Seuraavat asiat ovat tarpeellisia jokaisen tyypin työryhmän jäsenelle
 
 #. Tag: para
 #: development_join.xml:28
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</ulink>, please sign up for one. It is free. We need your username to add you to the team members list, to assign tasks to you, etc."
 msgstr "Jos sinulla ei ole vielä käyttäjätunnusta <ulink url=\"https://sf.net\">SourceForgeen</ulink>, rekisteröidy sinne. Se on maksutonta ja vapaata. Tarvitsemme käyttäjätunnuksesi liittääksemme sinut työryhmämme jäseneksi ja antaaksemme sinulle tehtäviä, jne."
 
 #. Tag: para
 #: development_join.xml:35
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> BibleTime development mailing list</ulink>. All developers read this mailing list, so everybody knows what is hapenning. There is also a mailing list for the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\"> commit messages</ulink> of the ongoing development process."
-msgstr "Liity <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">BibleTime development mailing list</ulink> postituslistalle. Kaikki kehittäjät lukevat tätä postituslistaa, joten kaikki sielläolevat ovat ajantasalla tapahtumista. On olemassa myös postituslista <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\">commit messages</ulink> meneilläänolevasta kehittelyprosessista."
+msgstr "Liity <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">BibleTime development mailing list</ulink> postituslistalle. Kaikki kehittäjät lukevat tätä postituslistaa, joten kaikki listallaolevat ovat ajantasalla tapahtumista. On olemassa myös postituslista <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\">commit messages</ulink> meneilläänolevasta kehittelyprosessista."
 
 #. Tag: para
 #: development_join.xml:45
@@ -306,15 +306,15 @@ msgstr "Ohjelmistokehittäjän seuraavat askeleet..."
 
 #. Tag: para
 #: development_join.xml:57
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Work through some of the Qt 3/4 and KDE 3/4 tuorials to get used to programming with the tools BibleTime uses."
-msgstr "Työskentele läpi muutamia Qt 3 ja KDE 3 oppaita tullaksesi tutuksi BibleTimen ohjelmoinnin kanssa."
+msgstr "Opettele muutamia Qt 3 ja KDE 3 oppaita tullaksesi tutuksi BibleTimen ohjelmoinnin kanssa."
 
 #. Tag: para
 #: development_join.xml:62
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "If you do not know what to do please ask on the mailing list for some tasks. Do not forget to add how difficult it should be."
-msgstr "Jos et tiedä, mitä tehdä, kysy postituslistalla muutamia tehtäviä. Älä unohda kertoa, kuinka vaikea tehtävän tulisi olla."
+msgstr "Jos et tiedä, mitä tehdä, kysy postituslistalla tehtäviä. Älä unohda kertoa, kuinka vaikea tehtävän tulisi olla."
 
 #. Tag: title
 #: development_join.xml:70
@@ -324,15 +324,15 @@ msgstr "Dokumentaation tekijöiden seuraavat askeleet..."
 
 #. Tag: para
 #: development_join.xml:74
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Read the existing English documentation. It is located in the docs/ directory of the bibletime cvs directory."
 msgstr "Lue olemassaolevaa englanninkielistä dokumentaatiota. Se löytyy bibletimen cvs-kansion kansiosta docs/directory."
 
 #. Tag: para
 #: development_join.xml:79
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The documentation is stored in docbook format in the unicode subdirectories of each documentation part (handbook, Bible study howto, installation, helpdialog). Please do not edit the HTML files directly because they are generated from the docbook files. The translation file are also generated from the docbook data."
-msgstr "Dokumentaatio on tallennettu docbook-tiedostoihin kunkin dokumentaation osan (käsikirja, Raamatunluvun kuinka teen, asennus, avustaja) unicode-alikansioissa. Älä muokkaa HTML-tiedostoja suoraan, sillä ne luodaan aina uudelleen docbook-tiedostoista. Käännöstiedosto on luotu siis docbook-tiedoista."
+msgstr "Dokumentaatio on tallennettu docbook-muotoisiin tiedostoihin kunkin dokumentaation osan (käsikirja, Raamatunluvun kuinka teen, asennus, avustaja) unicode-alikansioissa. Älä muokkaa HTML-tiedostoja suoraan, sillä ne luodaan aina uudelleen docbookin tiedostoista. Käännöstiedosto on luotu siis docbookin tiedoista."
 
 #. Tag: title
 #: development_join.xml:90
@@ -342,15 +342,15 @@ msgstr "Kääntäjien seuraavat askeleet..."
 
 #. Tag: para
 #: development_join.xml:94
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Have a look at the internationaliziation pages of the KDE project. They are located at <ulink url=\"http://i18n.kde.org/\"> i18n.kde.org</ulink>."
 msgstr "Katso KDE:n internationaliziation-sivuja. Ne löytyvät osoitteesta <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>."
 
 #. Tag: para
 #: development_join.xml:100
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Install the program <ulink url=\"http://kbabel.kde.org/\"> Babel</ulink>, if it is not yet installed on your system. It will help you a lot with the translation process."
-msgstr "Asenna KBabel-ohjelma, jos se ei ole jo asennettu järjestelmääsi. Se auttaa sinua paljon kääntämisessä."
+msgstr "Asenna <ulink url=\"http://kbabel.kde.org/\"> Kbabel</ulink>-ohjelma, jos se ei ole jo asennettu järjestelmääsi. Se auttaa sinua kääntämisessä paljon."
 
 #. Tag: para
 #: development_join.xml:106
@@ -362,25 +362,25 @@ msgstr "Lue sivu <olink targetdocent=\"translation\">BibleTimen kääntäminen</
 #: development_join.xml:111
 #, no-c-format
 msgid "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> Bibletime-translations mailing list</ulink>."
-msgstr ""
+msgstr "Liity <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> Bibletime-käännösten postituslistalle</ulink>."
 
 #. Tag: title
 #: development_join.xml:118
 #, no-c-format
 msgid "For everybody, regardless of participation level..."
-msgstr ""
+msgstr "Kaikille osallistumistasosta riippumatta..."
 
 #. Tag: para
 #: development_join.xml:123
 #, no-c-format
 msgid "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net\">FreeNode Network</ulink>, in the #bibletime room."
-msgstr ""
+msgstr "Liity IRC_kanavallemme! Meidät löytää <ulink url=\"http://www.freenode.net\">FreeNode-verkon</ulink>, kanavalta #bibletime."
 
 #. Tag: para
 #: development_join.xml:128
 #, no-c-format
 msgid "Sign up for an account on our <ulink url=\"http://devel.bibletime.info\">wiki</ulink>, and make your contribution there."
-msgstr ""
+msgstr "Kirjaudu (rekisteröidy) meidän <ulink url=\"http://devel.bibletime.info\">wikiin</ulink>, ja avusta meitä siellä."
 
 #. Tag: title
 #: development_mailinglists.xml:15
@@ -426,15 +426,15 @@ msgstr "Tiesitkö, että..."
 
 #. Tag: para
 #: devotional.xml:16
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Did you know that today in 2009, more than 200,000,000 Christians are being disadvantaged, persecuted and even killed because of their faith? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> (German) shows the countries where people have to \"pay\" for their faith, and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> here is an English one</ulink> that has some information about the main regions worldwide. These pages are from Open Doors, an independent organization trat tries to help persecuted Christians."
-msgstr "Tiesitkö, että tänään vuonna 2006 enemmän kuin 200 000 000 kristittyä kohtaa syrjitää, heitä vainotaan tai jopa tapetaan heidän uskonsa tähden? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">Tämä kartta</ulink> (saksalainen) näyttää maat, joissa ihmisten pitää &quot;maksaa&quot; uskonsa tähden, ja <ulink url=\"http://www.opendoorsusa.org/Display.asp?Page=Map\">tässä on englantilainen kartta</ulink>, jossa on tietoa valtauskonnoista maailmanlaajuisesti. Nämä sivut ovat peräisin riippumattomalta Open Doors -järjestöltä, joka yrittää auttaa vainottuja kristittyjä."
+msgstr "Tiesitkö, että tänään vuonna 2006 enemmän kuin 200 000 000 kristittyä kohtaa syrjitää, heitä vainotaan tai jopa tapetaan heidän uskonsa tähden? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">Tämä kartta</ulink> (saksalainen) näyttää maat, joissa ihmisten pitää &quot;maksaa&quot; uskonsa tähden, ja <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\">tässä on englantilainen kartta</ulink>, jossa on tietoa valtauskonnoista maailmanlaajuisesti. Nämä sivut ovat peräisin riippumattomalta Open Doors -järjestöltä, joka yrittää auttaa vainottuja kristittyjä."
 
 #. Tag: para
 #: devotional.xml:27
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share its suffering... You are Christ's body and each of you is an individual part of it.\""
-msgstr "1 Kor 12:26-27: &quot;Jos yksi jäsen kärsii, kärsivät kaikki muutkin jäsenet, ja jos yksi jäsen saa osakseen kunniaa, iloitsevat kaikki muutkin sen kanssa. Te olette Kristuksen ruumis, ja jokainen teistä on tämän ruumiin jäsen..&quot;"
+msgstr "1 Kor 12:26-27: \"Jos yksi jäsen kärsii, kärsivät kaikki muutkin jäsenet, ja jos yksi jäsen saa osakseen kunniaa, iloitsevat kaikki muutkin sen kanssa. Te olette Kristuksen ruumis, ja jokainen teistä on tämän ruumiin jäsen.\""
 
 #. Tag: title
 #: error404.xml:14
@@ -480,81 +480,81 @@ msgstr "Tervetuloa BibleTime-projektin sivuille."
 
 #. Tag: para
 #: software.xml:19
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
-msgstr "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime on raamattuohjelma linuxille. Se perustuu <ulink url=\"http://www.kde.org/\"> KDE-työpöytäympäristöön </ulink> ja käyttää <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink>-ohjelmakirjastoa Raamatun tekstien käsittelyyn, kommentaareja, sanakirjoja ja <ulink url=\"http://www.crosswire.org/\"> Crosswire Bible Society </ulink> -yhteisön tarjoamia kirjoja."
+msgstr "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime on Raamattuohjelma Linux-järjestelmälle. Se perustuu <ulink url=\"http://www.kde.org/\"> KDE-työpöytäympäristöön</ulink> ja käyttää <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink>-ohjelmakirjastoa Raamatun tekstien käsittelyyn, kommentaareihin, sanakirjoihin ja <ulink url=\"http://www.crosswire.org/\"> Crosswire Bible Society </ulink> -yhteisön tarjoamiin kirjoihin."
 
 #. Tag: title
 #: software.xml:38
 #, no-c-format
 msgid "News about BibleTime"
-msgstr "Uutiset BibleTimestä"
+msgstr "Uutisia BibleTimestä"
 
 #. Tag: title
 #: software.xml:41
 #, no-c-format
 msgid "2009-02-07: 1.7 release"
-msgstr ""
+msgstr "7.2.2009: BibleTime 1.7"
 
 #. Tag: para
 #: software.xml:43
 #, no-c-format
 msgid "BibleTime 1.7 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
-msgstr ""
+msgstr "BibleTimestä on julkistettu uusi versio 1.7. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
 #. Tag: title
 #: software.xml:49
 #, no-c-format
 msgid "2009-02-03: 1.7rc1 release"
-msgstr ""
+msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
 #. Tag: para
 #: software.xml:51
 #, no-c-format
 msgid "BibleTime 1.7rc1 was just released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
-msgstr ""
+msgstr "Juuri julkistettiin BibleTime 1.7 RC1. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
 #. Tag: title
 #: software.xml:57
 #, no-c-format
 msgid "2008-12-13: 1.7beta3 release"
-msgstr ""
+msgstr "13.12.2008: BibleTime 1.7 beta3"
 
 #. Tag: para
 #: software.xml:59
 #, no-c-format
 msgid "BibleTime 1.7.beta3 was just released. The Sword requirement was set back to 1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
-msgstr ""
+msgstr "BibleTime 1.7.beta3 julkistettiin juuri. Sword-vaatimukset palautettiin version 1.5.9 mukaisiksi. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
 #. Tag: title
 #: software.xml:66
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2008-09-18: BibleTime 1.7beta2"
-msgstr "18.3.2006: BibleTime 1.6 beta 1"
+msgstr "18.9.2008: BibleTime 1.7 beta2"
 
 #. Tag: para
 #: software.xml:68
 #, no-c-format
 msgid "BibleTime 1.7beta2 has been released. Though this version is labeled as beta it is completely usable and should be stable for daily work. Packagers and translators are encouraged to start their work. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
-msgstr ""
+msgstr "BibleTime 1.7beta2 on julkistettu. Tämä versio on merkitty betaksi, mutta se on täydellisesti käyttökelpoinen ja sen pitäisi olla vakaa päivittäiseen käyttöön. Paketoijia ja kääntäjiä rohkaistaan aloittamaan työnsä. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
 #. Tag: title
 #: software.xml:76
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
-msgstr "4.11.2007: BibleTime 1.6.5"
+msgstr "10.5.2008: BibleTime 1.6.5.1 Ubuntu-paketit"
 
 #. Tag: para
 #: software.xml:77
 #, no-c-format
 msgid "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</ulink> how to setup your Linux to get the new packages."
-msgstr ""
+msgstr "Lopulta Ubuntu 8.04 ja 7.10 järjestelmille on olemassa asennuspaketit. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke kuvailee tässä</ulink>, kuinka asetat Linux-järjestelmäsi vastaanottamaan uudet asennuspaketit."
 
 #. Tag: para
 #: software.xml:82
 #, no-c-format
 msgid "Version 1.6.5.1 has been released. It contains fixes so it can be installed on current versions of Linux."
-msgstr ""
+msgstr "Versio 1.6.5.1 on julkistettu. Se sisältää virheenkorjauksia. Sen voi asentaa Linux-järjestelmässä nykyisen version päälle."
 
 #. Tag: title
 #: software.xml:86
@@ -564,9 +564,9 @@ msgstr "12.1.2008: BibleTime 1.7 alfa 1"
 
 #. Tag: para
 #: software.xml:87
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\"> Read the announcement</ulink> to know more about the current status and the future of BibleTime."
-msgstr "Uusi testausversio (alfa) on saatavilla KDE 4.0 -ympäristöön. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\">Lue ilmoitus</ulink> saadaksesi lisätietoja BibleTimen nykyisestä kehittämisestä ja tulevaisuudesta."
+msgstr "Uusi alfa-testausversio on saatavilla KDE 4.0 -ympäristöön. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\">Lue ilmoitus</ulink> saadaksesi lisätietoja BibleTimen nykyisestä kehittämisestä ja tulevaisuudesta."
 
 #. Tag: title
 #: software.xml:94
@@ -600,7 +600,7 @@ msgstr "29.1.2007: BibleTime 1.6.3"
 
 #. Tag: para
 #: software.xml:112
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linux distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
 msgstr "Versio 1.6.3 on julkistettu tänään. Useiden pienten virheenkorjausten lisäksi etsiminen unicode-moduuleissa toimii jälleen. Käännöksiä on päivitetty myös. Katso yksityiskohtaisia lisätietoja osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Toivomme voivamme tarjota asennuspaketit tärkeimmille Linux-distribuutioille pian. Asentaaksesi ohjelman lähdekoodeilla tarvitset Sword 1.5.9 ja CLucene 0.9.16a ohjelmat asennettuina. Näiden kahden asennuspaketit ovat ladattavissa lataussivullamme."
 
@@ -612,9 +612,9 @@ msgstr "10.12.2006: BibleTime 1.6.2"
 
 #. Tag: para
 #: software.xml:124
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink>. The translation package bibletime-i18n has been updated, as well."
-msgstr "Tänään on julkistettu uusi versio. Se sisältää useita tärkeitä virheenkorjauksia. Muutosten yhteenveto on nähtävillä osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Kielipaketti bibletime-i18n on päivitetty myös."
+msgstr "Tänään on julkistettu uusi versio. Se sisältää useita tärkeitä virheenkorjauksia. Muutosten yhteenveto on nähtävillä osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. BibleTimen kielipaketti i18n on myös päivitetty."
 
 #. Tag: title
 #: software.xml:131
@@ -624,9 +624,9 @@ msgstr "26.10.2006: BibleTime 1.6.1"
 
 #. Tag: para
 #: software.xml:132
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A new version of the BibleTime software has been made available today. BibleTime 1.6.1 contains several fixes for bugs which have been found in version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for details. The translation package bibletime-i18n has also been updated. Sword 1.5.9 and CLucene 0.9.15 are required before installing from source code. But we hope to provide binary packages soon."
-msgstr "Tänään on asetettu saataville uusi versio BibleTime-ohjelmistosta. BibleTime 1.6.1 sisältää useita ohjelmavirheiden korjauksia version 1.6 julkistuksen jälkeen. Lue lisätietoja yksityiskohdista osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. Kielipaketit bibletime-i18n on myös päivitetty. Sword 1.5.9 ja CLucene 0.9.15 tarvitaan ennen lähdekoodeista asennusta. Toivomme voivamme julkaista pian binääripaketit asennuksiin."
+msgstr "Tänään on asetettu saataville uusi versio BibleTime-ohjelmistosta. BibleTime 1.6.1 sisältää useita ohjelmavirheiden korjauksia version 1.6 julkistuksen jälkeen. Lue lisätietoja yksityiskohdista osoitteessa <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">Changelog</ulink>. BibleTimen kielipaketit 18n on myös päivitetty. Ohjelmat Sword 1.5.9 ja CLucene 0.9.15 tarvitaan ennen lähdekoodeista asentamista. Toivomme voivamme julkaista pian binääripaketit asennuksiin."
 
 #. Tag: title
 #: software.xml:142
@@ -642,7 +642,7 @@ msgstr "Tänään on julkistettu uusi versio BibleTime-ohjelmasta. Se sisältä�
 
 #. Tag: para
 #: software.xml:146
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> here</ulink>"
 msgstr "Sinun tulee asentaa Sword 1.5.9 ja CLucene 0.9.15, ennen tämän BibleTime-version asennusta. Yksityiskohtainen muutosten lista on saatavilla <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\">täältä</ulink>"
 
@@ -654,7 +654,7 @@ msgstr "17.6.2006: BibleTime 1.6 beta 3"
 
 #. Tag: para
 #: software.xml:153
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\"> Changelog</ulink> for the list of changes."
 msgstr "BibleTime 1.6 kolmas beta-versio on julkistettu nyt. Katso <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> saadaksesi luettelon muutoksista."
 
@@ -672,7 +672,7 @@ msgstr "26.4.2006: BibleTime 1.6 beta 2"
 
 #. Tag: para
 #: software.xml:161
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\"> Changelog</ulink> for more details."
 msgstr "BibleTime 1.6 toinen esiversio on julkistettu nyt. Katso <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\">Changelog</ulink> saadaksesi luettelon muutoksista."
 
@@ -702,9 +702,9 @@ msgstr "Monien bugikorjausten seaassa se sisältää uuden pikahakuominaisuuden,
 
 #. Tag: para
 #: software.xml:175
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\">clucene.sf.net</ulink>) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime.</ulink>"
-msgstr "CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) tarvitaan BibleTime 1.6 beta 1:n kääntämiseen ja asentamiseen. Ole hyvä, raportoi kaikista löydetyistä bugeista ja parannusehdotuksesi käyttäen meidän sivustoamme osoitteessa <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime. </ulink>"
+msgstr "Ohjelma CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\"> clucene.sf.net </ulink> ) tarvitaan BibleTime 1.6 beta 1:n kääntämiseen ja asentamiseen. Ole hyvä, raportoi kaikista löydetyistä bugeista ja parannusehdotuksesi käyttäen meidän sivustoamme osoitteessa <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime.</ulink>"
 
 #. Tag: title
 #: software.xml:183
@@ -714,19 +714,19 @@ msgstr "17.3.2006: Lukittu saksalainen Raamattu"
 
 #. Tag: para
 #: software.xml:184
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\">Brunnen</ulink> decided to release their excellent, modern translation \"Hoffnung f&#195;&#188;r Alle\" (GerHfa2002) for use by the Sword community."
-msgstr "Saksalainen julkaisia <ulink url=\"http://www.brunnen-verlag.de/\"> Brunnen </ulink> päätti julkaista heidän erinomaisen uudenaikaisen käännöksensä \"Hoffnung für Alle\" (GerHfa2002) Sword-yhteisön käyttöön."
+msgstr "Saksalainen julkaisia <ulink url=\"http://www.brunnen-verlag.de/\">Brunnen</ulink> päätti julkaista heidän erinomaisen uudenaikaisen käännöksensä \"Hoffnung für Alle\" (GerHfa2002) Sword-yhteisön käyttöön."
 
 #. Tag: para
 #: software.xml:189
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here</ulink>. This module is locked. If you want to use it, you can buy an unlock key for 22 &#8364; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen</ulink>. CrossWire is not involved in the financial transaction and receives no share of the money."
-msgstr "Tekstit sisältävät otsikoita, alaviitteitä, ... ja on ladattavissa <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\">täältä</ulink>. Tämä moduuli on lukittu. Jos haluat käyttää sitä, voit ostaa avaimen 22 &euro; hintaan <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\">suoraan Brunnen-yhtiöltä</ulink>. CrossWire ei välitä rahasiirtoja, eikä saa palkkioita."
+msgstr "Tekstit sisältävät otsikoita, alaviitteitä, ... ja on ladattavissa <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\">täältä</ulink>. Tämä moduuli on lukittu. Jos haluat käyttää sitä, voit ostaa avaimen 22 &#8364;  hintaan <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\">suoraan Brunnen</ulink>-yhtiöltä. CrossWire ei välitä rahasiirtoja, eikä saa palkkioita."
 
 #. Tag: para
 #: software.xml:197
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\">will make use of this possibility</ulink> to distribute their copyrighted material for use with The SWORD Project."
 msgstr "Toivomme, että tulevaisuudessa yhä useampi julkaisija <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\">käyttää hyväkseen tätä mahdollisuutta</ulink> jakaakseen heidän tekijänoikeuksiltaan suojattua materiaalia SWORD-projektin käyttöön."
 
@@ -768,9 +768,9 @@ msgstr "Johdanto"
 
 #. Tag: para
 #: software_about.xml:17
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
-msgstr "BibleTime on raamattuohjelma linuxille. Se perustuu <ulink url=\"http://www.kde.org/\">KDE-työpöytäympäristöön</ulink> ja käyttää <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink>-ohjelmakirjastoa Raamatun tekstien käsittelyyn, kommentaareja ja <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Societyn</ulink> julkaisemia kirjoja."
+msgstr "BibleTime on Raamattuohjelma Linux-järjestelmälle. Se perustuu <ulink url=\"http://www.kde.org/\">KDE-työpöytäympäristöön</ulink> ja käyttää <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink>-ohjelmakirjastoa Raamatun tekstien käsittelyyn, kommentaareihin ja <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Societyn</ulink> julkaisemiin kirjoihin."
 
 #. Tag: title
 #: software_about.xml:28
@@ -816,7 +816,7 @@ msgstr "BibleTime 1.1 ja 1.2 seurasivat myöhemmin. BibleTime 1.2 on ensimmäine
 
 #. Tag: para
 #: software_about.xml:54
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime version 1.5 was released in July 2005 after a long time of development."
 msgstr "BibleTime versio 1.5 on julkistettu heinäkuussa 2005 pitkän kehitystyön jälkeen."
 
@@ -824,13 +824,13 @@ msgstr "BibleTime versio 1.5 on julkistettu heinäkuussa 2005 pitkän kehitysty�
 #: software_about.xml:57
 #, no-c-format
 msgid "BibleTime version 1.6 was released in September 2006, and utilized <ulink url=\"http://clucene.sourceforge.net\">CLucene</ulink> as its search engine."
-msgstr ""
+msgstr "BibleTimen versio 1.6 julkistettiin syyskuussa 2006, ja hyödyntää <ulink url=\"http://clucene.sourceforge.net\">CLucene</ulink>-ohjelmaa hakukoneena."
 
 #. Tag: para
 #: software_about.xml:62
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime version 1.7 was released in January 2008, it is the first version developed with QT4 for use with KDE4."
-msgstr "BibleTime versio 1.5 on julkistettu heinäkuussa 2005 pitkän kehitystyön jälkeen."
+msgstr "BibleTimen versio 1.7 julkistettiin tammikuussa 2008. Se on ensimmäinen QT4:llä kehitetty versio KDE4:ssä käytettäväksi."
 
 #. Tag: title
 #: software_contact.xml:17
@@ -1065,6 +1065,12 @@ msgid ""
 "Germany\n"
 "</literallayout> <ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
 msgstr ""
+"Sivustosta vastaava henkilö: <literallayout>\n"
+"Joachim Ansorg\n"
+"Poststraße 2\n"
+"56479 Salzburg\n"
+"Germany\n"
+"</literallayout> <ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
 
 #. Tag: title
 #: software_installation.xml:19
@@ -1080,21 +1086,21 @@ msgstr "Tämä on lyhyt luettelo saatavillaolevista latauspaikoista. Paketit, jo
 
 #. Tag: para
 #: software_installation.xml:26
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Sourcecode and packages for major Linux distributions can be downloaded from <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\"> SourceForge</ulink>."
-msgstr "Lähdekoodi ja paketit tärkeimpiin Linux-distribuutioihin ovat ladattavissa osoitteesta <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\">SourceForge</ulink>."
+msgstr "Lähdekoodi ja paketit tärkeimmille Linux-distribuutiolle ovat ladattavissa osoitteesta <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\">SourceForge</ulink>."
 
 #. Tag: para
 #: software_installation.xml:32
 #, no-c-format
 msgid "Ubuntu packages are available in the repository and <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\"> here</ulink>. Updated packages for Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url=\"https://launchpad.net/~txwikinger/+archive\"> here</ulink>."
-msgstr ""
+msgstr "Ubuntu-paketit ovat saatavilla Ubuntun pakettivarastosta ja <ulink url=\"http://packages.ubuntu.com/hardy/bibletime\"> täältä</ulink>. Päivitettyjä paketteja Ubuntu 8.04:lle (Hardy Heron) ja 7.10:lle (Gutsy Gibbon) tarjotaan <ulink url=\"https://launchpad.net/~txwikinger/+archive\"> täällä</ulink>."
 
 #. Tag: para
 #: software_installation.xml:40
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Debian packages are available in the repository and <ulink url=\"http://packages.debian.org/bibletime\"> here</ulink>."
-msgstr "Debian -paketit ovat saatavilla <ulink url=\"http://packages.debian.org/bibletime\">tässä</ulink> osoitteessa."
+msgstr "Debian -paketit ovat saatavilla pakettivarastoissa ja <ulink url=\"http://packages.debian.org/bibletime\">tässä</ulink> osoitteessa."
 
 #. Tag: para
 #: software_installation.xml:45
@@ -1104,15 +1110,15 @@ msgstr "Gentoo-paketit ovat Portagessa. Kutsu vain \"emerge bibletime\"."
 
 #. Tag: para
 #: software_installation.xml:49
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A FreeBSD application port of BibleTime can be found at <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd.org</ulink>."
-msgstr "BibleTimen FreeBSD-sovellus löytyy osoitteesta <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
+msgstr "BibleTimen FreeBSD-siirros löytyy osoitteesta <ulink url=\"http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</ulink>."
 
 #. Tag: para
 #: software_installation.xml:54
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "PC-BSD packages are available <ulink url=\"http://www.pbidir.com/bt/pbi/149/bibletime\"> here</ulink>."
-msgstr "PC-BSD -paketit ovat saatavilla <ulink url=\"http://www.pbidir.com/search.php?str=bibletime\">tässä</ulink> osoitteessa."
+msgstr "PC-BSD -paketit ovat saatavilla <ulink url=\"http://www.pbidir.com/bt/pbi/149/bibletime\">tässä</ulink> osoitteessa."
 
 #. Tag: title
 #: software_installation.xml:61
@@ -1134,15 +1140,15 @@ msgstr "Käännetty binääripaketti"
 
 #. Tag: para
 #: software_installation.xml:70
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "With the help of great volunteers, we try to provide packages for the most important Linux distributions. Before installing BibleTime, however, you need to find and install packages for <ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink> and Sword (Sword binaries are available at the BibleTime download site)."
-msgstr "Monien vapaaehtoisten avustuksella yritämme tarjota paketteja tärkeimmille Linux-distribuutioille. Ennen BibleTimen asennusta sinun tulee löytää ja asentaa <ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.16a</ulink> ja Sword -paketit (Sword binääripaketit ovat saatavilla BibleTimen lataussivulla)."
+msgstr "Monien vapaaehtoisten avustuksella yritämme tarjota paketteja tärkeimmille Linux-distribuutioille. Ennen BibleTimen asennusta sinun tulee etsiä ja asentaa <ulink url=\"http://clucene.sourceforge.net/\">CLucene</ulink>-ohjelma (vähintään versio 0.9.16a tai uudempi) ja Sword -paketit (Sword binääripaketit ovat saatavilla BibleTimen lataussivulla)."
 
 #. Tag: para
 #: software_installation.xml:78
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "First download the binary package for your Linux distribution. For example: You want to download <application>BibleTime 1.4</application>for <productname>SuSE Linux 9.0</productname>. In this case you have to download the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please download the package \"bibletime-i18n\" package, too. This package contains the available translations of the BibleTime user interface and handbook."
-msgstr "Lataa ensin linux-distribuutiosi mukainen BibleTimen binääripaketti. Esimerkki: Jos haluat ladata <application>BibleTime 1.4</application> distribuutiolle <productname>SuSE Linux 9.0</productname>. Tässä tapauksessa sinun on ladattava paketti <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. lataa kielipaketti &quot;bibletime-i18n&quot; myös. Tämä paketti sisältää saatavillaolevat BibleTimen käyttöliittymän ja käsikirjan käännökset."
+msgstr "Lataa ensin Linux-distribuutiosi mukainen BibleTimen binääripaketti. Esimerkki: Haluat ladata <application>BibleTime 1.4</application> distribuutiolle <productname>SuSE Linux 9.0</productname>. Tässä tapauksessa sinun on ladattava paketti <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Lataa myös kielipaketti \"bibletime-i18n\". Tämä paketti sisältää saatavillaolevat BibleTimen käyttöliittymän ja käsikirjan käännökset."
 
 #. Tag: para
 #: software_installation.xml:88
@@ -1182,7 +1188,7 @@ msgstr "Vähintään kirjastot ja kdebase-paketti. KDE 3 jaetaan monen linux-dis
 
 #. Tag: para
 #: software_installation.xml:112
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink>."
 msgstr "<ulink url=\"http://clucene.sourceforge.net/\">CLucene >= 0.9.15</ulink>."
 
@@ -1194,19 +1200,19 @@ msgstr "Tämä on tarpeellinen uudelle pikahakutoiminnolle."
 
 #. Tag: para
 #: software_installation.xml:120
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\"> Sword 1.5.9</ulink>."
 msgstr "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword 1.5.9</ulink>."
 
 #. Tag: para
 #: software_installation.xml:124
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Installation instructions are available on <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\"> www.crosswire.org/sword/software</ulink>. Basically the installation steps are"
-msgstr "Asennusohjeet ovat saatavilla osoitteessa <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\">www.crosswire.org/sword/software</ulink>. Asennuksen perustoimenpiteet ovat"
+msgstr "Asennusohjeet ovat saatavilla osoitteessa <ulink url=\"http://www.crosswire.org/sword/software/index.jsp\"> www.crosswire.org/sword/software</ulink>. Asennuksen perustoimenpiteet ovat"
 
 #. Tag: screen
 #: software_installation.xml:128
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<command>./usrinst.sh --enable-shared\n"
 "                --without-clucene</command>\n"
@@ -1214,10 +1220,11 @@ msgid ""
 "                <command>make install</command>\n"
 "                <command>make install_config</command>"
 msgstr ""
-"<command>./usrinst.sh --enable-shared --without-clucene</command>\n"
-"                                                                <command>make</command>\n"
-"                                                                <command>make install</command>\n"
-"                                                                <command>make install_config</command>"
+"<command>./usrinst.sh --enable-shared\n"
+"                --without-clucene</command>\n"
+"                <command>make</command>\n"
+"                <command>make install</command>\n"
+"                <command>make install_config</command>"
 
 #. Tag: para
 #: software_installation.xml:131
@@ -1233,16 +1240,17 @@ msgstr "Käännä ja asenna BibleTime:"
 
 #. Tag: screen
 #: software_installation.xml:137
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<command>./configure --prefix=&lt;your KDE\n"
 "            directory&gt;</command>\n"
 "            <command>make</command>\n"
 "            <command>make install</command>"
 msgstr ""
-"<command>./configure --prefix=&lt;KDE-kansiosi&gt;</command>\n"
-"                                                <command>make</command>\n"
-"                                                <command>make install</command>"
+"<command>./configure --prefix=&lt;KDE-i\n"
+"            kansiosi&gt;</command>\n"
+"            <command>make</command>\n"
+"            <command>make install</command>"
 
 #. Tag: para
 #: software_installation.xml:138
@@ -1252,20 +1260,21 @@ msgstr "Voit saada KDE-kansion suorittamalla komennon <command>kde-config --pref
 
 #. Tag: para
 #: software_installation.xml:144
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Debian (and possibly derived distros as well) use a non-standard path to store the documentation of KDE programs. Therefore the ./configure line above in this case needs to be changed to: <screen>\n"
 "            <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure\n"
 "            --prefix=/usr</command>\n"
 "          </screen>If you forget this, you'll likely not be able to access the handbook and the BibleStudy HowTo."
 msgstr ""
-"Debian (ja mahdollisesti siitä johdetut distribuutiot yhtä hyvin) käyttävät epästandardia polkua tallettaakseen KDE-ohjelmien ohjeet. Siksi ./configure line yllä tässä tapauksessa tarvitsee muuttaa muotoon: <screen>\n"
-"                                                <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure --prefix=/usr</command>\n"
-"                                        </screen> Jos unohdat tämän, et todennäköisesti pysty lukemaan ohjelman käsikirjaa ja Raamatun luvun HowTo-opasta."
+"Debian (ja mahdollisesti siitä johdetut distribuutiot yhtä hyvin) käyttävät epästandardia polkua KDE-ohjelmien ohjeille. Siksi ./configure rivi yllä tässä tapauksessa tarvitsee muuttaa muotoon: <screen>\n"
+"           <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure \n"
+"           --prefix=/usr</command>\n"
+"            </screen> Jos unohdat tämän, et todennäköisesti pysty lukemaan ohjelman käsikirjaa ja Raamatun lukemisen HowTo-opasta."
 
 #. Tag: para
 #: software_installation.xml:152
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Compile and install the translations of BibleTime's user interface (bibletime-i18n): <screen>\n"
 "            <command>./configure --prefix=&lt;your KDE\n"
@@ -1275,10 +1284,11 @@ msgid ""
 "          </screen>Please see the warning regarding nonstandard paths in the previous paragraph."
 msgstr ""
 "Käännä ja asenna Bibletimen käyttöliittymän käännökset (bibletime-i18n): <screen>\n"
-"                                                <command>./configure --prefix=&lt;KDE-kansiosi&gt;</command>\n"
-"                                                <command>make</command>\n"
-"                                                <command>make install</command>\n"
-"                                        </screen> Ole hyvä ja huomioi varoitukset epästandardeista kansioista edellisellä sivulla."
+"            <command>./configure --prefix=&lt;KDE\n"
+"            kansiosi&gt;</command>\n"
+"            <command>make</command>\n"
+"            <command>make install</command>\n"
+"            </screen> Ole hyvä ja huomioi varoitukset epästandardeista kansioista edellisellä sivulla."
 
 #. Tag: title
 #: software_installation.xml:161
@@ -1294,7 +1304,7 @@ msgstr "Käyttääksesi BibleTimeä tarvitset Sword-moduuleita. Versiosta 1.4 l�
 
 #. Tag: para
 #: software_installation.xml:167
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Instructions for manual installation is available on <ulink url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\"> www.crosswire.org/sword/modules</ulink>."
 msgstr "Käsin asentamisen ohjeet ovat saatavilla osoitteessa <ulink url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\">www.crosswire.org/sword/modules</ulink>."
 
@@ -2022,25 +2032,25 @@ msgstr ""
 
 #. Tag: title
 #: software_links.xml:16
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "List of important Christian pages"
-msgstr "Luettelo tärkeistä kristillisistä sivuista"
+msgstr "Luettelo tärkeistä kristillisistä sivustoista"
 
 #. Tag: para
 #: software_links.xml:18
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "There are many Christian pages on the world wide web. Here we have collected a list of pages that are important in our opinion."
-msgstr "World wide webissä on monia kristillisiä sivuja. Jotkut ovat enemmän ja jotkut vähemmän tärkeitä. Olemme koonneet listan sivuista, jotka ovat omasta mielestämme tärkeitä."
+msgstr "World wide webissä on monia kristillisiä sivuja. Olemme koonneet listan sivuista, jotka ovat omasta mielestämme tärkeitä."
 
 #. Tag: para
 #: software_links.xml:22
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Since we are not the author of the linked pages we are not responsible for their content, we explicitely dissociate ourselves from the content of the linked pages! This is required because German law says you are responsible for the content of the linked pages unless you explicitely dissociate yourself from these pages."
-msgstr "Koska linkitetyillä sivuilla ei ole vastuullista tekijää, sanoudumme irti linkitettyjen sivujen sisällöstä! Tämä tarvitaan, koska Saksan laki sanoo, että olet vastuussa linkitettyjen sivujen sisällöstä silloin kun et näkyvästi irtisano itseäsi näistä sivuista."
+msgstr "Koska linkitetyillä sivuilla ei ole vastuullista tekijää, emme ole vastuussa linkitettyjen sivujen sisällöstä! Tämä tarvitaan, koska Saksan laki sanoo, että olet vastuussa linkitettyjen sivujen sisällöstä silloin kun et näkyvästi irtisano itseäsi näistä sivuista."
 
 #. Tag: title
 #: software_links.xml:29
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "General Christian pages"
 msgstr "Yleisiä kristillisiä sivustoja"
 
@@ -2064,9 +2074,9 @@ msgstr "<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>
 
 #. Tag: para
 #: software_links.xml:42
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The Crosswire Bible society is one of the few Christian organizations in the world providing everything they make free for all! Crosswire supports the Sword project, the KJV2003 project and many other cool things."
-msgstr "Crosswire Bible -yhteisö on yksi harvoista kristillisistä järjestöistä maailmassa tarjoten kaiken ilmaiseksi kaikille! Crosswire tukee Sword-projektia, KJV2003-projektia ja muutamia muita asioita."
+msgstr "Crosswire Bible -yhteisö on yksi harvoista kristillisistä järjestöistä maailmassa, joka tarjoaa kaiken ilmaiseksi kaikille! Crosswire tukee Sword-projektia, KJV2003-projektia ja monia muita hienoja asioita."
 
 #. Tag: title
 #: software_links.xml:49
@@ -2076,15 +2086,15 @@ msgstr "Raamattuohjelma linuxille"
 
 #. Tag: title
 #: software_links.xml:51
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://www.xiphos.org/\"> Xiphos</ulink>."
-msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
+msgstr "<ulink url=\"http://www.xiphos.com/\">Xiphos</ulink>."
 
 #. Tag: para
 #: software_links.xml:54
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Xiphos is a Sword frontend using the Gnome toolkit. A really good application. Be sure to check it out!"
-msgstr "Gnomesword on Sword-edustaohjelma käyttäen Gnomen työkaluja. Todella hyvä sovellus. Kokeile sitä!"
+msgstr "Xiphos on Sword-edustaohjelma, joka käyttää Gnomen työkaluja. Todella hyvä sovellus. Kokeile sitä!"
 
 #. Tag: title
 #: software_links.xml:59
@@ -2094,25 +2104,25 @@ msgstr "Raamattuohjelma Windowsille"
 
 #. Tag: title
 #: software_links.xml:61
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://www.bibleworks.com/\"> BibleWorks</ulink>."
-msgstr "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
+msgstr "<ulink url=\"http://www.bibleworks.com/\"> BibleWorks</ulink>."
 
 #. Tag: para
 #: software_links.xml:64
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleWorks is one of the best commercial Bible study applications for Windows! Very good but very expensive, too. Very useful for Bible scholars."
 msgstr "BibleWorks on yksi parhaimmista kaupallisista Raamattuohjelmista Windowsille! Erittäin hyvä, mutta erittäin kallis myös. Käyttökelpoinen vain Raamattukoulun opiskelijoille."
 
 #. Tag: title
 #: software_links.xml:69
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://www.bibleworkshop.com/\"> BibleWorkshop</ulink>."
-msgstr "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
+msgstr "<ulink url=\"http://www.bibleworkshop.com/\"> BibleWorkshop</ulink>."
 
 #. Tag: para
 #: software_links.xml:72
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The Bible Workshop program is a powerful, commercial Bible study application for Windows, which is available in English, German and French. It is possible to enhance the Bible Workshop using Text libraries you can buy."
 msgstr "Bible Workshop -ohjelma on tehokas kaupallinen Raamattuohjelma Windowsille, joka on saatavana englanniksi, saksaksi ja ranskaksi. Bible Workshop -ohjelmaa voi parannella ostamalla tekstikirjastoja."
 
@@ -2142,9 +2152,9 @@ msgstr "Logos on yksi parhaimmista kaupallisista Raamattuohjelma Windowsille. Vo
 
 #. Tag: title
 #: software_links.xml:91
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://www.onlinebible.org/\"> OnlineBible</ulink>."
-msgstr "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
+msgstr "<ulink url=\"http://www.onlinebible.org/\"> OnlineBible</ulink>."
 
 #. Tag: para
 #: software_links.xml:94
@@ -2166,9 +2176,9 @@ msgstr "Tämä on Sword-työryhmän tekemä Windows Raamattuohjelmasovellus! Cro
 
 #. Tag: title
 #: software_links.xml:106
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
-msgstr "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
+msgstr "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
 
 #. Tag: para
 #: software_links.xml:109
@@ -2178,15 +2188,15 @@ msgstr "Tnach on ilmainen ja vapaa, edistyksellinen ohjelmatyökalu heprean ja k
 
 #. Tag: title
 #: software_links.xml:114
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://www.volksbibel.de/\"> Volksbibel</ulink>."
 msgstr "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
 
 #. Tag: para
 #: software_links.xml:117
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Volksbibel 2000.2 is a German, metacard based software Bible study tool for Windows, Linux and Mac. Althouth there are not so many texts as other software packages have, it has some cool things like basic map support included. If you are German try it out!"
-msgstr "Volksbibel 2000.2 on saksalainen, metacard-pohjainen Raamatuntutkimisohjelma Windowsille, linuxille ja Macintoshille. Vaikka siinä ei ole yhtä paljon tekstejä kuin muiss ohjelmapaketeissa, siinä on muutama hyvä ominaisuus kuten karttatuki sisällytettynä. Jos olet saksalainen, kokeile sitä!"
+msgstr "Volksbibel 2000.2 on saksalainen, metacard-pohjainen Raamatuntutkimisohjelma Windowsille, linuxille ja Macintoshille. Vaikka siinä ei ole yhtä paljon tekstejä kuin muissa ohjelmissa, siinä on muutama hyvä ominaisuus kuten sisällytetty karttatuki. Jos olet saksalainen, kokeile sitä!"
 
 #. Tag: title
 #: software_links.xml:125
@@ -2214,7 +2224,7 @@ msgstr "Kehitystyökalut"
 
 #. Tag: title
 #: software_links.xml:138
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"http://www.sourceforge.net/\"> SourceForge</ulink>."
 msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 
@@ -2318,31 +2328,31 @@ msgstr ""
 #: software_press.xml:18
 #, no-c-format
 msgid "<ulink url=\"http://christianoss.wordpress.com/2009/02/01/project-spotlight-bibletime/\"> Christian Open Source blog</ulink> recently interviewed BibleTime's Martin Gruner in their Project Spotlight, and drew the following conclusion:"
-msgstr ""
+msgstr "<ulink url=\"http://christianoss.wordpress.com/2009/02/01/project-spotlight-bibletime/\"> Christian Open Source blog</ulink> haastatteli lähiaikoina BibleTimen Martin Gruneria heidän Project Spotlightissä ja tekivät seuraavat päätelmät:"
 
 #. Tag: attribution
 #: software_press.xml:25
 #, no-c-format
 msgid "Raoul Snyman (&#169; 2009 Raoul Snyman)"
-msgstr ""
+msgstr "Raoul Snyman (&#169; 2009 Raoul Snyman)"
 
 #. Tag: para
 #: software_press.xml:27
 #, no-c-format
 msgid "BibleTime is a handy resource for preparing Bible studies, sermons, or just looking up passages electronically. With more developers on board, and moving to use just Qt4, it looks like BibleTime will be going places in the near future."
-msgstr ""
+msgstr "BibleTime on kätevä ohjelma Raamatun opiskeluun, seremonioihin tai läpilukuun elektronisesti. Useampien kehittäjien ja siirtymisen Qt4:n käyttöön juuri näyttää siltä, että BibleTime tulee säilymään jatkossakin."
 
 #. Tag: para
 #: software_press.xml:34
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "On <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html\">dot.kde.org</ulink>, Andreas Pour draws the following conclusion in his review:"
-msgstr "Sivulla <ulink url=\"http://dot.kde.org/995302757\">dot.kde.org</ulink> Andreas Pour kirjoittaa seuraavat päätelmät arvostelussaan:"
+msgstr "Sivulla <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html\">dot.kde.org</ulink> Andreas Pour kirjoittaa seuraavat päätelmät arvostelussaan:"
 
 #. Tag: attribution
 #: software_press.xml:38
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Andreas Pour (&#169; 2001 Andreas \"Dre\" Pour. All rights reserved)"
-msgstr "Andreas Pour (&copy; 2001 Andreas \"Dre\" Pour. Kaikki oikeudet pidätetään)"
+msgstr "Andreas Pour (&#169;  2001 Andreas \"Dre\" Pour. Kaikki oikeudet pidätetään)"
 
 #. Tag: para
 #: software_press.xml:40
@@ -2376,9 +2386,9 @@ msgstr "Kirjahyllyn hallinta"
 
 #. Tag: para
 #: software_screenshots.xml:51
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime offers a dialog to automatically download and manage electronic works. You simply define a library (a remote collection of works, such as <ulink url=\"http://www.crosswire.org/sword/\">Crosswire</ulink>), and then you can transfer works from this library to your local bookshelf to use them. Easy, huh?"
-msgstr "BibleTimessä on elektronisten teosten automaattisen lataamisen ja hallinnan ikkuna. Määrittele yksinkertaisesti kirjasto (etäkokoelma teoksia, kuten  <ulink url=\"http://www.crosswire.org/sword/\">Crosswire</ulink>), ja sitten voit siirtää ne tästä kirjastosta käyttöösi paikalliseen kirjahyllyysi. Helppoa, eikö totta?"
+msgstr "BibleTimessä on elektronisten teosten automaattisen lataamisen ja hallinnan ikkuna. Määrittele yksinkertaisesti kirjasto (etäkokoelmateoksia, kuten  <ulink url=\"http://www.crosswire.org/sword/\">Crosswire</ulink>), ja sitten voit siirtää ne tästä kirjastosta käyttöösi oman koneesi kirjahyllyyn. Helppoa, eikö totta?"
 
 #. Tag: title
 #: software_screenshots.xml:59
@@ -2430,9 +2440,9 @@ msgstr "Auta BibleTimen kääntämisessä omalle kielellesi."
 
 #. Tag: para
 #: translation.xml:17
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "This is a part of software development where the help of many individuals is needed. It is our desire to offer BibleTime to users in as many languages as possible. The following areas are open for your contributions:"
-msgstr "Tämä on osa ohjelmiston kehitystyötä, jossa tarvitaan monia yksittäisiä ihmisiä. Meidän halu on tarjota BibleTime niin monella kiellellä kuin mahdollista. Seuraavat alueet ovat avoinna avustuksillesi:"
+msgstr "Tämä on osa ohjelmiston kehitystyötä, jossa tarvitaan monien yksittäisten ihmisten apua. Meidän halu on tarjota BibleTime niin monella kiellellä kuin mahdollista. Seuraavat tehtäväalueet ovat avoinna avustuksillesi:"
 
 #. Tag: para
 #: translation.xml:23
@@ -2448,9 +2458,9 @@ msgstr "<para>Käännä ohjelman käyttöliittymä.</para>"
 
 #. Tag: para
 #: translation.xml:29
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Translate the Bible Study Howto."
-msgstr "Käännä Raamatuntutkimisen HowTo."
+msgstr "Käännä Raamatun tutkimisen HowTo."
 
 #. Tag: para
 #: translation.xml:32
@@ -2460,55 +2470,55 @@ msgstr "<para>Käännä ohjelman käsikirja.</para>"
 
 #. Tag: para
 #: translation.xml:35
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<para>Translate the biblical booknames.</para>"
-msgstr "<para>Käännä ohjelman käsikirja.</para>"
+msgstr "<para>Käännä Raamatun kirjojen nimet.</para>"
 
 #. Tag: para
 #: translation.xml:38
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "On this page you can find statistics about the completeness of existing translations for each of these areas, as well as links to translation templates that you can use to submit new translations which do not yet exist. If a translation into your language does not yet exist or you want to work on an existing translation, follow these steps:"
-msgstr "Tällä sivulla näet tilastoja BibleTimen osien olemassaolevien käännösten täydellisyyksistä kuten myös linkkejä niiden käännöspohjiin. Voit lähettää pohjista työstetyt käännökset, joita ei vielä ole. Jos käännöstä omalle kielellesi ei vielä ole, lataa pohjat, käännä ne ja lähetä ne sähköpostin liitetiedostona osoitteeseen <email>info@bibletime.info</email>. Jos et ole tyytyväinen oman kielesi jo olemassaolevaan käännöksen tilaan, voit suoraan ladata vastaavan tiedoston, päivittää käännöksen ja lähettää sen meille. Kummassakin tapauksessa integroimme työsi niin pian kuin on mahdollista."
+msgstr "Tällä sivulla näet tilastoja BibleTimen osien olemassaolevien käännösten täydellisyyksistä kuten myös linkkejä niiden käännöspohjiin. Voit lähettää pohjista työstetyt käännökset, joita ei vielä ole. Jos käännöstä omalle kielellesi ei vielä ole, seuraa näitä ohjeita:"
 
 #. Tag: para
 #: translation.xml:46
 #, no-c-format
 msgid "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> the translators' mailing list bibletime-translations at lists.sourceforge.net</ulink>. You will receive information relevant for translators and can communicate with the developers and the other translators. Use this list if you have questions or comments."
-msgstr ""
+msgstr "Liity <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> kääntäjien postituslistalle bibletime-translations at lists.sourceforge.net</ulink>. Saat tärkeää kääntäjille asiaankuuluvaa tietoa ja voit keskustella kehittäjien ja muiden kääntäjien kanssa. Käytä tätä postituslistaa, jos sinulla on kysymyksiä tai kommentteja."
 
 #. Tag: para
 #: translation.xml:55
 #, no-c-format
 msgid "Download a template you want to translate or an existing translation you want to enhance."
-msgstr ""
+msgstr "Lataa haluamasi mallipohja tai olemassaoleva käännös, jota haluat parantaa."
 
 #. Tag: para
 #: translation.xml:59
 #, no-c-format
 msgid "Use one of the recommended programs mentioned below or some other program and edit the translation."
-msgstr ""
+msgstr "Käytä jotain näistä alla mainituista ohjelmista tai jotain muuta ohjelmaa ja muokkaa käännös."
 
 #. Tag: para
 #: translation.xml:63
 #, no-c-format
 msgid "Send the translation to the translators' mailing list."
-msgstr ""
+msgstr "Lähetä käännös kääntäjien postituslistalle."
 
 #. Tag: para
 #: translation.xml:67
 #, no-c-format
 msgid "Developers will integrate your work as soon as possible. The statistics will be updated after that."
-msgstr ""
+msgstr "Kehittäjät sisällyttävät työsi niin nopeasti kuin on mahdollista. Tilastotiedot päivitetään tämän jälkeen."
 
 #. Tag: para
 #: translation.xml:71
 #, no-c-format
 msgid "For editing .po files we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file editor suitable for our documentation and website translations. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format."
-msgstr ""
+msgstr "Kääntääksesi .po -tiedostoja suosittelemme erinomaista ja kypsää käännösohjelmaa <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>, joka toimii KDE-järjestelmässä. Siinä on monta edistyksellistä ominaisuutta ja on suurenmoinen apu. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> on cross-platform -tiedostomuokkain dokumenttiemme ja www-sivujemme käännöksiin. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (osa cross-platform Qt -kehityspaketista) on sopiva käyttöliittymän kääntämiseen, joka on .ts -muodossa."
 
 #. Tag: para
 #: translation.xml:82
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A list of the language abbreviations is available at <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\"> www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 msgstr "Kielilyhenteiden luettelo on saatavilla osoitteessa <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 
@@ -2532,15 +2542,15 @@ msgstr "<title>Käännä ohjelman käyttöliittymä.</title>"
 
 #. Tag: para
 #: translation.xml:99
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
-msgstr "Jos ohjelman käyttöliittymää ei ole saatavilla vielä omalla kielelläsi, voit ladata ja kääntää sen <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/messages.ts\"> käyttöliittymän käännöspohjasta</ulink>. Jos haluat päivittää olemassaolevaa käännöstä, käytä linkkiä allaolevassa taulukossa ladataksesi vastaavan tiedoston."
+msgstr "Jos ohjelman käyttöliittymää ei ole saatavilla vielä omalla kielelläsi, voit ladata ja kääntää sen <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> käyttöliittymän käännöspohjasta</ulink>. Jos haluat päivittää olemassaolevaa käännöstä, käytä linkkiä allaolevassa taulukossa ladataksesi vastaavan tiedoston."
 
 #. Tag: para
 #: translation.xml:105
 #, no-c-format
 msgid "(We are preparing the BibleTime 1.7/2.0 series and have moved to the Qt's .ts file format from the 1.6 series .po format. Due the changes the translations need thorough rewrite.)"
-msgstr ""
+msgstr "(Valmistelemme BibleTime 1.7/2.0 -sarjaa ja olemme vaihtaneet Qt:n .ts -tiedostomuotoa 1.6 -sarjasta .po -muotoon. Muutosten takia käännökset pitää kääntää uudelleen.)"
 
 #. Tag: title
 #: translation.xml:111
@@ -2568,832 +2578,13 @@ msgstr "Jos käsikirjaa ei ole saatavana omalla kielelläsi, voit ladata ja kä�
 
 #. Tag: title
 #: translation.xml:131
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<title>Translate the biblical booknames.</title>"
-msgstr "<title>Käännä ohjelman käsikirja.</title>"
+msgstr "<title>Käännä Raamatun kirjojen nimet.</title>"
 
 #. Tag: para
 #: translation.xml:132
 #, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
-msgstr ""
+msgstr "Käännetyt Raamatun kirjojen nimet tulevat Sword-projektista. Tällä hetkellä ei ole olemassa hyviä ohjeita, mutta voit löytää tietoa ja esimerkkejä katsomalla <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> Sword-kirjastosta ja käyttämällä <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> mallipohjia</ulink>."
 
-#~ msgid "2005-11-13: BibleTime 1.5.3"
-#~ msgstr "13.11.2005: BibleTime 1.5.3"
-
-#~ msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
-#~ msgstr "Uusi virheenkorjausversio on julkaistu. Verio 1.5.3 sisältää vain muutamia korjauksia, pääasiassa valmiisiin moduuleihin ja KDE 3.0 - 3.3 -käännöksiin."
-
-#~ msgid "Get the new release in the download section. Binary packages should be available soon."
-#~ msgstr "Hae uusi ohjelmaversio lataussivulta. Binääripaketit tulevat pian."
-
-#~ msgid "2005-10-16: BibleTime 1.5.2"
-#~ msgstr "16.10.2005: BibleTime 1.5.2"
-
-#~ msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
-#~ msgstr "Uusi virheenkorjausversio on julkaistu tänään. Versio 1.5.2 sisältää korjaukset suurimpaan osaan version 1.5.1 virheistä. Se sisältää muutamia pienempiä parannuksia käyttöliittymään. Katso tiedostoa Chengelog lähdekoodipaketissa saadaksesi lisätietoja."
-
-#~ msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
-#~ msgstr "BibleTime 1.5.2 on saatavilla tavallisista lähteistä. Olisimme iloisia, jos binääripaketteja valmistettaisiin yksinkertaistamaan BibleTimen asennusta."
-
-#~ msgid "2005-09-28: New forums"
-#~ msgstr "28.9.2005: Uusi foorumi"
-
-#~ msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
-#~ msgstr "Koska vanhan foorumin ohjelmisto alkoi olla turvaton, asensimme uuden foorumiohjelmiston tänään. Toivomme, että jatkatte foorumin käyttämistä."
-
-#~ msgid "2005-09-12: BibleTime 1.5.1 and translations"
-#~ msgstr "12.9.2005: BibleTime 1.5.1 ja käännökset"
-
-#~ msgid "The bugfix release 1.5.1 is available now at our download location. A first version of BibleTime's translation files has been released, too."
-#~ msgstr "Virheenkorjausjulkaisu 1.5.1 on saatavilla nyt latausalueellamme. Ensimmäinen BibleTimen käännöstiedostojen versio on julkaistu myös."
-
-#~ msgid "2005-07-16: BibleTime 1.5"
-#~ msgstr "16.7.2005: BibleTime 1.5"
-
-#~ msgid "BibleTime 1.5 is available now. It contains many new features and improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available in the download section. We hope to provide binary and translation packages for the most important Linux distributions in the next few weeks."
-#~ msgstr "BibleTime 1.5 on saatavilla nyt. Siinä on monta uutta omainisuutta ja parannusta. BibleTime 1.5:n ja Sword 1.5.8:n lähdekoodit ovat saatavilla latausosiosta. Toivomme voivamme tarjota binääri- ja käännöspaketit tärkeimmille Linux-distribuutiolle lähiviikkojen aikana."
-
-#~ msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
-#~ msgstr "Ole hyvä, käytä uutta keskustelufoorumiamme keskustellaksesi tästä uudesta julkistuksesta. Kääntäjiä rohkaistaan päivittämään käännöksensä."
-
-#, fuzzy
-#~ msgid "<ulink url=\"http://gnomesword.sf.net/\"> GnomeSword</ulink>."
-#~ msgstr "<ulink url=\"http://gnomesword.sf.net/\">Gnomesword</ulink>."
-
-#~ msgid "The German magazine \"Pfarrer &amp; PC\" reviewed Bible software for Linux which also covers BibleTime among \"Gnomesword\" and \"Volksbibel 2000\". Their conclusion in german for BibleTime:"
-#~ msgstr "Saksalainen aikakauslehti \"Pfarrer &amp; PC\" arvosteli linuxin Raamattu-ohjelmat, joka käsitti Bibletimen \"Gnomeswordin\" ja \"Volksbibel 2000\" joukossa. Heidän päätelmät BibleTimestä saksaksi:"
-
-#~ msgid "Pfarrer &amp; PC 2002 (&copy; Pfarrer &amp; PC 2002)"
-#~ msgstr "Pfarrer &amp; PC 2002 (&copy; Pfarrer &amp; PC 2002)"
-
-#~ msgid "Trotzdem: Alles dran, alles drin - BibleTime ist ein funktional wie optisch gelungenes Bibel-Programm, dem man unter Linux große Verbreitung wünschen darf. Ein wenig bedauerlich ist das copyrightbedingte Fehlen der »großen« zeitgenössischen Bibelübersetzungen. Dafür beschert BibleTime dem Nutzer Einblicke in selten genutzte Übersetzungen und ein gutes Handling griechischer und hebräischer Originaltexte."
-#~ msgstr "Trotzdem: Kaikki sille, kaikki siinä - BibleTime on toiminnaltaan kuin Raamattuohjelma, yksi niistä, joiden voi toivoa leviävän linuxin alla. Hieman epäonninen on tekijänoikeuslain virhe »suuren« samanaikaisen käännöksen kanssa. Siksi BibleTime antaa käyttäjän nähdä viimeksi tehtyjä käännöksiä, ja hallitsee hyvin kreikan- ja hepreankieliset alkutekstit."
-
-#~ msgid "The review is online at: <ulink url=\"http://www.pfarrer-pc.de/magazin/2-02/art02-02-bibli.php\">www.pfarrer-pc.de</ulink>"
-#~ msgstr "Arvostelu on nähtävillä osoitteessa: <ulink url=\"http://www.pfarrer-pc.de/magazin/2-02/art02-02-bibli.php\">www.pfarrer-pc.de</ulink>"
-
-#~ msgid "The person who responsible for these webpages is:"
-#~ msgstr "Www-sivuista vastaava henkilö on:"
-
-#~ msgid "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
-#~ msgstr "Joachim Ansorg <street>Alter Krofdorfer Weg 6</street> <postcode>35398</postcode> <city>Gie&szlig;en</city> <country>Germany</country> <phone>49.641.3605633</phone> <otheraddr>email: info at bibletime dot info</otheraddr>"
-
-#~ msgid "The BibleTime user forum."
-#~ msgstr "BibleTimen käyttäjäfoorumi."
-
-#~ msgid "This is the place to ask questions about BibleTime. If you have trouble with installing and/or using BibleTime post a message in the forum, and hopefully you'll have an answer in time."
-#~ msgstr "Tämä on paikka kysyä kysymyksiä BibleTimestä. Jos isnulla on ongelmia asennuksessa ja/tai BibleTimen käytössä, kirjoita viesti foorumille ja toivo, että saat vastauksen kohtuullisessa ajassa."
-
-#~ msgid "If you are an experienced BibleTime user and can spare some time, please regularly check out the forum and answer questions of people who have less experience than you. Thereby you would also help the developers to concentrate on the work of development instead of user support."
-#~ msgstr "Jos olet BibleTimen kokenut käyttäjä ja haluat jakaa vähän aikaa, tarkista huolellisesti käyttäjäfoorumin viestit ja vastaa vähemmän kokeneiden (kuin sinä) ihmisten tekemiin kysymyksiin. Näin voit auttaa kehittäjiä keskittymään kehitystyöhön käyttäjäopastuksen sijaan."
-
-#~ msgid "The Biblestudy HowTo"
-#~ msgstr "Raamatuntutkimisen HowTo"
-
-#~ msgid "<firstname>Bob</firstname> <surname>Harman</surname>"
-#~ msgstr "<firstname>Bob</firstname> <surname>Harman</surname>"
-
-#~ msgid "ROLES_OF_TRANSLATORS"
-#~ msgstr "ROLES_OF_TRANSLATORS"
-
-#~ msgid "The team of &bibletime;, info@bibletime.info"
-#~ msgstr "&bibletime;-työryhmä, info@bibletime.info"
-
-#~ msgid "Bob Harman"
-#~ msgstr "Bob Harman"
-
-#~ msgid "The copyright of this text is held by the author Bob Harman. The text was adapted for publication with BibleTime by Fred Saalbach."
-#~ msgstr "Tämän tekstin tekijänoikeudet ovat Bob Harmanilla. Fred Saalbach mukautti tekstit julkaistavaksi BibleTimen mukana."
-
-#~ msgid "Non exclusive serial rights for this distribution of this document with the &bibletime; Software have been made. Redistribution as part of the Bibletime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
-#~ msgstr "Tämän asiakirjan ja &bibletime;-ohjelman tekijänoikeudet on asetettu siten, että kukaan ei voi omia niitä. Uudelleenjakelu osana Bibletime-ohjelmaa ilman muutoksia ja rajoitetulla uudelleenkehittelyllä tarjottuna USA:n tekijänoikeuslainsäädännön \"rehdin käytön\" provisioilla on myös sallittu."
-
-#~ msgid "For questions regarding the use of this material contact Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-#~ msgstr "Ota yhteyttä Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email> tämän materiaalin ."
-
-#~ msgid "Scripture quotes are from the New American Standard Bible unless otherwise indicated"
-#~ msgstr "Tekstien lainausmerkit ovat peräisin uudesta amerikkalaisesta Raamattu-standardista, jos ei muuta ole sanottu"
-
-#~ msgid "Abstract"
-#~ msgstr "Abstrakti"
-
-#~ msgid "The <application>Biblestudy HowTo</application> is a guide for studying the Bible."
-#~ msgstr "<application>Raamatuntutkimisen HowTo</application> on opas Raamatun tutkimiseen."
-
-#~ msgid "It is the hope of the &bibletime; team that this HowTo will provoke the readers to study the scriptures to see what they say. This particular study guide has been chosen as it takes care not to advocate any particular denominational doctrine. We expect you to read and study the scriptures to understand what they say. If you start with the attitude that you want to have the Lord sow his word in your heart He will not disappoint you."
-#~ msgstr "&bibletime;-työryhmän toiveena on, että tämä HowTo johdattaisi lukijoita oppimaan näkemään kirjoituksista, mitä ne sanovat. Tämä yksityiskohtainen opiskeluopas on valittu sen perusteella, ettei se johdattaisi mihinkään oppirakennelmaan. Oletamme, että luet ja opiskelet tekstejä ymmärtääksesi, mitä ne sanovat. Jos aloitat asenteella, että haluat Herran kylvävän Hänen sanojaan sydämeesi, Hän ei tuota sinulle pettymystä."
-
-#~ msgid "Bible"
-#~ msgstr "Raamattu"
-
-#~ msgid "Study"
-#~ msgstr "Tutki"
-
-#~ msgid "HowTo"
-#~ msgstr "Kuinka teen"
-
-#~ msgid "Bible Study Basics"
-#~ msgstr "Raamatuntutkimisen perusasiat"
-
-#~ msgid "Our Purpose as we Approach the Bible"
-#~ msgstr "Tarkoituksemme kuinka lähestymme Raamattua"
-
-#~ msgid "Jn.5:39-40<quote>You search the Scriptures, because you think that in them you have eternal life; and it is these that bear witness of Me; and you are unwilling to come to Me, that you may have life.</quote>"
-#~ msgstr "Joh 5:39-40 <quote>Te kyllä tutkitte kirjoituksia, koska luulette niistä löytävänne ikuisen elämän -- ja nehän juuri todistavat minusta. Mutta te ette tahdo tulla minun luokseni, että saisitte elämän.</quote>"
-
-#~ msgid "The chief purpose of the book is to bring us to the Person. Martin Luther said <quote>we go to the cradle only for the sake of the baby</quote>; just so in Bible study, we do it not for its own sake but for fellowship with God."
-#~ msgstr "Kirjan päätarkoitus on tuoda meille Martti Lutherin sanat <quote>Menemme kehdon luo vauvan takia</quote>; juuri kuten Raamatun tutkimisessa, emme tee sitä sen itsensä takia mutta Jumalan työtoveruuden tähden."
-
-#~ msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.97, 104."
-#~ msgstr "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, s. 97, 104."
-
-#~ msgid "The Jews to whom Jesus spoke [...] imagined that to possess Scripture was tantamount to possessing life. Hillel used to say, &quot;He who has gotten to himself words of Torah has gotten to himself the life of the world to come.&quot; Their study was an end in itself. In this they were grievously deceived. [...]"
-#~ msgstr "Juutalaiset, joille Jeesus puhui [...] kuvittelivat, että kirjoitusten omistaminen oli yhtä hyvä kuin elämän omistaminen. Hillel piti tapana sanoa, &quot;Hän, kuka on ymmärtänyt Torahin sanat, hänellä on tulevan maailman elämä itsellään.&quot; Heidän tutkiminen oli lopussa. Tässä he olivat kauheasti petkutettuja. [...]"
-
-#~ msgid "There is neither merit nor profit in the reading of Scripture for its own sake, but only if it effectively introduces us to Jesus Christ. Whenever the Bible is read, what is needed is an eager expectation that through it we may meet Christ."
-#~ msgstr "Kirjoitusten lukemisessa ei ole ansiota eikä hyötyä itsensä takia, mutta vain jos se tehokkaasti tuo esiin Jeesus Kristusta. Milloin tahansa Raamattua luetaan, tarvitaan innostunutta odotusta, että sen kautta tapaamme Kristuksen."
-
-#~ msgid "Approaches to God's Word"
-#~ msgstr "Lähestyminen Jumalan Sanaan"
-
-#~ msgid "Hearing and reading provide a telescopic view of the scripture while study and memorization provide a microscopic view of scripture. Meditating on the scriptures brings hearing, reading, studying and memorization together and cements the word in our minds."
-#~ msgstr "Kuuleminen ja lukeminen tarjoavat kaukonäköisen kuvan kirjoituksista. Tutkiminen ja muistiinpaneminen tarjoavat mikroskooppisen kuvan kirjoituksista. Kirjoitusten mietiskely liittää kuulemisen, lukemisen, tutkimisen ja muistiinpanemisen yhteen ja sementoi Sanan meidän mieliimme."
-
-#~ msgid "Hear"
-#~ msgstr "Kuuntele"
-
-#~ msgid "Lk.11:28 <quote>blessed are those who hear the word of God, and observe it.</quote>"
-#~ msgstr "Lk.11:28 <quote>Siunattuja ovat he, ketkä kuulevat Jumalan Sanan, ja seuraavat sitä.</quote>"
-
-#~ msgid "Read"
-#~ msgstr "Lue"
-
-#~ msgid "Rev.1:3 <quote>Blessed is he who reads and those who hear the words of this prophecy [...]</quote>"
-#~ msgstr "Ilm.1:3 <quote>Autuas se, joka tämän toisille lukee, autuaat ne, jotka kuulevat nämä ennussanat [...]</quote>"
-
-#~ msgid "1 Tim.4:13 <quote>give attention to the public reading of Scripture [...]</quote>"
-#~ msgstr "1 Tim.4:13 <quote>Lue seurakunnalle pyhiä kirjoituksia [...]</quote>"
-
-#~ msgid "Acts 17:11 <quote>Now these were more noble-minded than those in Thessalonica, for they received the word with great eagerness, examining the Scriptures daily, to see whether these things were so.</quote>"
-#~ msgstr "Apt. 17:11 <quote>Juutalaiset olivat täällä avarakatseisempia kuin Tessalonikassa. He ottivat sanan halukkaasti vastaan ja tutkivat päivittäin kirjoituksista, pitikö kaikki paikkansa.</quote>"
-
-#~ msgid "2 Tim.2:15 <quote>Be diligent [KJV `Study'] to present yourself approved to God as a workman who does not need to be ashamed, handling accurately the word of truth.</quote>"
-#~ msgstr "2 Tim.2:15 <quote>Pyri kaikin voimin osoittautumaan Jumalan silmissä luotettavaksi työntekijäksi, joka ei häpeä työtään ja joka opettaa totuuden sanaa oikein.</quote>"
-
-#~ msgid "Memorize"
-#~ msgstr "Paina mieleen"
-
-#~ msgid "Ps.119:11 <quote>Thy word I have hid in my heart, that I may not sin against Thee.</quote>"
-#~ msgstr "Ps.119:11 <quote>Minä talletan kaikki ohjeesi sydämeeni, etten rikkoisi sinua vastaan.</quote>"
-
-#~ msgid "Meditate"
-#~ msgstr "Mietiskele"
-
-#~ msgid "Ps.1:2-3 <quote>But his delight is in the law of the Lord, And in His law he meditates day and night. And he will be like a tree firmly planted by streams of water, Which yields its fruit in its season, And its leaf does not wither; And in whatever he does, he prospers.</quote>"
-#~ msgstr "Ps.1:2-3 <quote>Vaan löytää ilonsa Herran laista, tutkii sitä päivin ja öin. Hän on kuin puu, vetten äärelle istutettu: se antaa hedelmän ajallaan, eivätkä sen lehdet lakastu. Hän menestyy kaikissa toimissaan.</quote>"
-
-#~ msgid "The Navigators illustrate this by saying that as the thumb can touch all the fingers, we can meditate on the Word as we do any of the first four. Meditation is a key to revelation. A new Christian needs to hear and read the Bible more than they need to study and memorize it. This is so that they become familiar with the overall message of the Bible."
-#~ msgstr "Navigaattorit kuvaavat tätä sanomalla, että peukalo voi koskettaa kaikkia sormia. Me voimme mietiskellä Sanaa kuten neljää ensimmäistä: mietiskely on avain ilmestykseen. Uuden kristityn tarvitsee kuulla ja lukea Raamattua enemmän kuin opetella ja muistaa sitä. Tämä sen tähden, että he tulevat tutuiksi Raamatun yleisviestistille."
-
-#~ msgid "Types of Bible Studies"
-#~ msgstr "Raamatuntutkimisen tavat"
-
-#~ msgid "Topical Study"
-#~ msgstr "Aiheenmukainen tutkiminen"
-
-#~ msgid "Pick out a certain topic and follow it through, using cross-references or a concordance."
-#~ msgstr "Ota jokin yksittäinen aihe ja seuraa sitä käyttäen viittauksia tai sanahakemistoa."
-
-#~ msgid "Character Study"
-#~ msgstr "Henkilöiden tutkiminen"
-
-#~ msgid "Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
-#~ msgstr "Raamatun henkilön elämän tutkiminen, esim. Joosefin elämä 1. Moos 37-50."
-
-#~ msgid "Expository Study"
-#~ msgstr "Selittävä tutkiminen"
-
-#~ msgid "Studying a certain passage: paragraph, chapter, or book."
-#~ msgstr "Yksittäisen Raamatunkohdan tutkiminen, jakeen, luvun tai kirjan tutkiminen."
-
-#~ msgid "Basics of Correct Interpretation"
-#~ msgstr "Oikean tulkinnan perusteet"
-
-#~ msgid "Content"
-#~ msgstr "Sisältö"
-
-#~ msgid "What does it say? What does it say in the original language? Be careful with definitions. Don't read into it what it doesn't say."
-#~ msgstr "Mitä se sanoo? Mitä se sanoo alkuperäiskielellä? Ole tarkka määrittelyissä. Älä lue sitä, mitä se ei sano."
-
-#~ msgid "Context"
-#~ msgstr "Asiayhteys"
-
-#~ msgid "What do the verses around it say? &quot;Context is king&quot; is the rule -- the passage must make sense within the structure of the entire passage and book."
-#~ msgstr "Mitä jakeet sanovat? &quot;Asiayhteys on tärkein&quot; on sääntö - tekstikohdan tulee olla sopusoinnussa koko tekstin rakenteen ja kirjan kanssa."
-
-#~ msgid "Cross-reference"
-#~ msgstr "Ristiinviittaukset"
-
-#~ msgid "What do other verses about this subject say through the rest of the Bible? God doesn't contradict Himself, so our interpretation needs to stand the test of other scriptures."
-#~ msgstr "Mitä muut jakeet sanovat tästä aiheesta muualla Raamatussa? Jumala ei ole itseään vastaan, tulkintamme tulee perustua kirjoitusten vertailulla muihin kirjoituksiin."
-
-#~ msgid "An Expository Study of Matthew 6:1-18"
-#~ msgstr "Matt. 6:1-18 selittävä tutkiminen"
-
-#~ msgid "Let's study together Mt.6:1-18. Read it to yourself, first looking for the key verse, the verse that sums up the whole passage. Think you have it? Test it by picking different places in the passage and asking yourself if they relate to the thought of the key verse. Once you find it, write it as Roman numeral One of your outline:"
-#~ msgstr "Opetelkaamme yhdessä Matt 6:1-18. Lue jakeet itseksesi. Tarkastele ensin avainjaetta, joka kokoaa koko tekstinkohdan. Oletko ymmärtänyt sen? Tarkista jae ottamalla erilaisia kohtia tekstistä ja kysymällä itseltäsi, sopivatko ne avainjakeen kanssa yhteen. Kun löydät avainjakeen, kirjoita se roomalaisin numeroin Yksi paperillesi:"
-
-#~ msgid "Beware of practicing your righteousness before men to be noticed"
-#~ msgstr "Varokaa tuomasta hurskaita tekojanne ihmisten katseltavaksi"
-
-#~ msgid "What does <quote>practicing your righteousness</quote> mean? Does the passage give any examples? What area of our lives is being addressed? <emphasis>Our motives!</emphasis> What sub-headings develop this thought?"
-#~ msgstr "Mitä tarkoittaa <quote>hurskaiden tekojen esilletuominen</quote>? Antaako tekstikohta yhtään esimerkkiä? Mihin elämämme alueisiin se kohdistuu? <emphasis>Motiivimme!</emphasis> Mihin osa-alueisiin tämä vie?"
-
-#~ msgid "When you give"
-#~ msgstr "Kun annat"
-
-#~ msgid "When you fast"
-#~ msgstr "Kun paastoat"
-
-#~ msgid "When you pray"
-#~ msgstr "Kun rukoilet"
-
-#~ msgid "Now fill in the outline with specific instructions of how to avoid wrong ways of practicing our righteousness:"
-#~ msgstr "Täytä nyt määrätyillä toimenpiteillä kuinka välttää väärät tavat harjoittaa hurskauttamme:"
-
-#~ msgid "don't sound a trumpet. (how might someone <quote>sound a trumpet</quote> today?)"
-#~ msgstr "älä ole äänekäs trumpetti. (kuinka joku voi <quote>kuulostaa trumpetilta</quote> tänäpäivänä?)"
-
-#~ msgid "do it secretly."
-#~ msgstr "tee se salaisesti."
-
-#~ msgid "etc."
-#~ msgstr "jne."
-
-#~ msgid "Worksheet: How to Use a Concordance"
-#~ msgstr "Tehtävä: Kuinka käytän sanahakemistoa"
-
-#~ msgid "To Find a Particular Verse"
-#~ msgstr "Löydä erityinen jae"
-
-#~ msgid "Pick out a key word or most-unusual word of the verse."
-#~ msgstr "Ota jakeen avainsana tai epätavallisin sana."
-
-#~ msgid "Turn to this word alphabetically."
-#~ msgstr "Käänny tähän sanaan kirjaimellisesti."
-
-#~ msgid "Go down the column of listings until you find your verse."
-#~ msgstr "Etene listausta alaspäin kunnes löydät jakeesi."
-
-#~ msgid "Find these verses:"
-#~ msgstr "Etsi nämä jakeet:"
-
-#~ msgid "Faithful are the wounds of a friend"
-#~ msgstr "Rakastavan lyöntikin on rakkautta"
-
-#~ msgid "We are ambassadors of Christ."
-#~ msgstr "Olemme Kristuksen lähettiläitä"
-
-#~ msgid "The story of the rich man and Lazarus."
-#~ msgstr "Kertomus rikkaasta miehestä ja Lasaruksesta."
-
-#~ msgid "To Do a Topical Study"
-#~ msgstr "Tee aiheen tutkiminen"
-
-#~ msgid "Let's say you wanted to do a study of the word &quot;redemption.&quot; First you would look up that word in the concordance and look up references listed for it. Then you could look up related words and references listed for them, e.g. &quot;redeem, redeemed, ransom,&quot; even &quot;buy&quot; or &quot;bought.&quot;"
-#~ msgstr "Sanokaamme, että haluat tutkia sanaa &quot;lunastus.&quot; Ensiksi sinun tulisi katsoa sanaa sanaluettelosta ja katsoa siinä luetellut viittaukset. Sitten sinun tulisi katsoa liittyvät sanat ja niiden viittaukset. Esim. &quot;lunastus, lunastettu, lunnaat,&quot; jopa &quot;ostaa&quot; tai &quot;ostettu.&quot;"
-
-#~ msgid "To Clarify Word Meanings in the Greek and Hebrew"
-#~ msgstr "Kreikkalaisten ja heprealaisten sanojen merkityksen selvittäminen"
-
-#~ msgid "What if you noticed a contradiction in the KJV between Mt.7:1 <quote>Judge not lest you be judged</quote> and 1 Cor.2:15 <quote>He that is spiritual judgeth all things.</quote> Maybe there are two different Greek words here, both being translated &quot;judge&quot; in English? (We're using Strong's from here out.)"
-#~ msgstr "Entä jos huomasit ristiriidan KJV:n jakeessa Matt. 7:1 <quote>Älkää tuomitko, ettei teitä tuomittaisi</quote> ja 1 Kor.2:15 <quote>Hengellinen ihminen sen sijaan pystyy tutkimaan kaikkea, mutta häntä itseään ei kukaan voi tutkia.</quote> Siellä on ehkä kaksi eri kreikankielistä sanaa, kumpikin käännetty &quot;tuomita&quot; suomeksi?"
-
-#~ msgid "Look up &quot;judge&quot;."
-#~ msgstr "Katso &quot;tuomio&quot;."
-
-#~ msgid "Go down the column of entries to Mt.7:1. To the right is a number, 2919. This refers to the Greek word used. Write it down."
-#~ msgstr "Etene lukua alas jaken  Matt.7:1 kohdalle. Oikealla on luku, 2919. Tämä viittaa käytettyyn kreikkalaiseen sanaan. Kirjoita se ylös."
-
-#~ msgid "Now look up &quot;judgeth&quot;."
-#~ msgstr "Nyt katso &quot;tuomio&quot;."
-
-#~ msgid "Go down the column to 1 Cor.2:15 . . . . . 350."
-#~ msgstr "Siirry alas saraketta pitkin 1 Kor. 2:15 . . . . . 350."
-
-#~ msgid "Turn in the back to the Greek dictionary. (Remember, you're in the NT so the language is Greek, while the OT is Hebrew.) Compare the meaning of 2919 with the meaning of 350 and you have your answer!"
-#~ msgstr "Palaa Kreikan sanakirjaan. (Muista, että olet Uudessa Testamentissa. Kieli on Kreikka kun taas Vanha Testamentti on hepreaa.) Vertaile 2919:n ja 350:n merkityksiä ja saat vastauksen!"
-
-#~ msgid "To Find Meanings of Names"
-#~ msgstr "Etsi nimien merkityksiä"
-
-#~ msgid "By the same process we can find the meaning of a name in the Greek or Hebrew."
-#~ msgstr "Samalla menetelmällä voimme löytää kreikkalaisten ja heprealaisten nimien merkityksiä."
-
-#~ msgid "Look up these names and write down their meaning:"
-#~ msgstr "Katso näitä nimiä ja kirjoita ylös niiden merkitykset:"
-
-#~ msgid "Nabal"
-#~ msgstr "Nabal"
-
-#~ msgid "Abigail"
-#~ msgstr "Abigail"
-
-#~ msgid "Joshua"
-#~ msgstr "Joosua"
-
-#~ msgid "Barnabus"
-#~ msgstr "Barnabas"
-
-#~ msgid "Importance of God's Word"
-#~ msgstr "Jumalan Sanan tärkeys"
-
-#~ msgid "Understanding God's word is of great importance to all who call on God's name. Study of the Bible is one of the primary ways that we learn to communicate with God."
-#~ msgstr "Jumalan Sanan ymmärtäminen on erittäin tärkeää kaikille niille, jotka kutsuvat Jumalan nimeä. Raamatun tutkiminen on yksi ensisijaisista tavoista oppia keskustelemaan Jumalan kanssa."
-
-#~ msgid "A Book that is Unique"
-#~ msgstr "Ainutlaatuinen kirja"
-
-#~ msgid "The Bible stands alone in many ways. It is unique in:"
-#~ msgstr "Raamattu on yksinäinen monessa suhteessa. Se on ainutlaatuinen seuraavissa asioissa:"
-
-#~ msgid "popularity. Bible sales in North America: more than $500 million per year. The Bible is both the the all-time and year-to-year best seller!"
-#~ msgstr "suosittu. Raamattuja myydään Pohjois-Amerikassa enemmän kuin 500 miljoonalla dollarilla vuodessa. Raamattu on sekä kautta aikojen ja jokavuotinen best seller!"
-
-#~ msgid "authorship. It was written over a period of 1600 years by 40 different authors from different backgrounds, yet reads as if written by one."
-#~ msgstr "tekijät. Sen ovat kirjoittaneet 40 erilaisista ympäristöistä peräisin ollutta kirjoittajaa 1600 vuoden aikana, silti luetaan kuin sen olisi kirjoittanut yksi kirjoittaja."
-
-#~ msgid "preservation. F. F. Bruce in <emphasis>Are New Testament Documents Reliable?</emphasis> compares New Testament manuscripts with other ancient texts:"
-#~ msgstr "säilyttäminen. F. F. Bruce in <emphasis>Ovatko Uuden Testamentin asiakirjat luotettavia?</emphasis> vertailee Uuden Testamentin käsikirjoitusta muiden muinaisten tekstien kanssa:"
-
-#~ msgid "Comparison of New Testament manuscripts with other ancient texts."
-#~ msgstr "Uuden Testamentin käsikirjoituksen ja muiden muinaisten tekstien vertailu."
-
-#~ msgid "Work"
-#~ msgstr "Työ"
-
-#~ msgid "When Written"
-#~ msgstr "Milloin kirjoitettu"
-
-#~ msgid "Earliest Copy"
-#~ msgstr "Varhaisin kopio"
-
-#~ msgid "Time Lapse"
-#~ msgstr "Aikaväli"
-
-#~ msgid "Number of Copies"
-#~ msgstr "Kopioiden lukumäärä"
-
-#~ msgid "Herodotus"
-#~ msgstr "Herodotus"
-
-#~ msgid "448-428 B.C."
-#~ msgstr "448-428 eKr."
-
-#~ msgid "900 A.D."
-#~ msgstr "900 jKr."
-
-#~ msgid "1300 years"
-#~ msgstr "1300 vuotta"
-
-#~ msgid "<entry>8</entry>"
-#~ msgstr "<entry>8</entry>"
-
-#~ msgid "Tacitus"
-#~ msgstr "Tacitus"
-
-#~ msgid "100 A.D."
-#~ msgstr "100 jKr."
-
-#~ msgid "1100 A.D."
-#~ msgstr "1100 jKr."
-
-#~ msgid "1000 years"
-#~ msgstr "1000 vuotta"
-
-#~ msgid "<entry>20</entry>"
-#~ msgstr "<entry>20</entry>"
-
-#~ msgid "Caesar's <emphasis>Gallic War</emphasis>"
-#~ msgstr "Caesarin <emphasis>Gallialainen sota</emphasis>"
-
-#~ msgid "50-58 B.C."
-#~ msgstr "50-58 eKr."
-
-#~ msgid "950 years"
-#~ msgstr "950 vuotta"
-
-#~ msgid "<entry>10</entry>"
-#~ msgstr "<entry>10</entry>"
-
-#~ msgid "Livy's <emphasis>Roman History</emphasis>"
-#~ msgstr "Livyn <emphasis>Rooman historia</emphasis>"
-
-#~ msgid "59 B.C. - 17 A.D."
-#~ msgstr "59 eKr. - 17 jKr."
-
-#~ msgid "900 years"
-#~ msgstr "900 vuotta"
-
-#~ msgid "New Testament"
-#~ msgstr "Uusi Testamentti"
-
-#~ msgid "40 A.D. - 100 A.D."
-#~ msgstr "40 jKr. - 100 jKr."
-
-#~ msgid "130 A.D. Partial manuscripts 350 A.D. Full manuscripts"
-#~ msgstr "130 jKr. osittaiset käsikirjoitukset 350 jKr. täydet käsikirjoitukset"
-
-#~ msgid "30 - 310 years"
-#~ msgstr "30 - 310 vuotta"
-
-#~ msgid "5000 Greek &amp; 10,000 Latin"
-#~ msgstr "5000 kreikkaa &amp; 10,000 latinaa"
-
-#~ msgid "Ten copies of Caesar's <emphasis>Gallic War</emphasis> exist, the earliest of which was copied 900 years after Caesar wrote the original, etc. For the New Testament we have full manuscripts dating to 350 A. D., papyri containing most of the New Testament from the 200s, and a fragment of John's gospel from 130 A. D. How many manuscripts do we have to compare to each other? 5,000 in Greek and 10,000 in Latin!"
-#~ msgstr "On olemassa kymmenen kopiota teoksesta Caesarin <emphasis>Gallialainen sota</emphasis>, Vanhin kopioitiin 900 vuotta alkuperäisen kirjoittamisen jälkeen, jne. Meillä on Uuden Testamentin täydellinen käsikirjoitus vuodelta 350 jKr, papyrus-kääröjä sisältäen suurimman osan Uutta Testamenttia vuodesta 200 lähtien, ja katkelma Johanneksen Ilmestyksestä vuodelta 130 jKr. Kuinka monta käsikirjoitusta meillä on vertaillaksemme niitä keskenään? 5000 kreikankielistä ja 10000 latinankielistä!"
-
-#~ msgid "Textual critic F. J. A. Hort, \"The New Testament in the Original Greek\", vol. 1 p561, Macmillan Co., quoted in <emphasis>Questions of Life</emphasis> p. 25-26"
-#~ msgstr "Tekstikritiikki F. J. A. Hort, \"The New Testament in the Original Greek\", vol. 1 p561, Macmillan Co., lainattiin kirjassa <emphasis>Questions of Life</emphasis> s. 25-26"
-
-#~ msgid "\"In the verity and fullness of the evidence on which it rests, the text of the New Testament stands absolutely and unapproachably alone among other ancient prose writings.\""
-#~ msgstr "\"Todisteiden totuudellisuuteen ja täydellisyyteen nojaten Uuden Testamentin tekstit ovat abosluuttisesti ja kansantajuissesti yksin muiden muinaisten proosatekstien joukossa.\""
-
-#~ msgid "A Book that God Breathed"
-#~ msgstr "Kirja, johon Jumala puhalsi Hengen"
-
-#~ msgid "<emphasis>Heb.4:12 </emphasis>\"<emphasis>For the word of God is living and active... </emphasis>\" Jesus said <emphasis>(Mt.4:4),</emphasis> \"<emphasis>It is written, Man shall not live on bread alone, but on every word that proceeds [lit., is proceeding] from the mouth of God.</emphasis>\" As we read the Bible, God's Spirit is there to speak it to our hearts in a continually-fresh way."
-#~ msgstr "<emphasis>Heb.4:12 </emphasis>\"<emphasis>Sanojen mukaan Jumala elää ja toimii... </emphasis>\" Jeesus sanoi <emphasis>(Matt.4:4),</emphasis> \"<emphasis>On kirjoitettu,Ei ihminen elä ainoastaan leivästä, vaan jokaisesta sanasta, joka lähtee Jumalan suusta.</emphasis>\" Kun luemme Raamattua, Jumalan Henki puhuu sydämeemme jatkuvasti tuoreella tavalla."
-
-#~ msgid "2 Tim.3:16 declares, \"<emphasis>All scripture is inspired by God [lit., God-breathed].</emphasis>\" Do you believe this? Before you answer, consider Jesus' attitude toward the Scriptures."
-#~ msgstr "2 Tim.3:16 declares, \"<emphasis>Jokainen pyhä, Jumalan Hengestä syntynyt kirjoitus on hyödyllinen opetukseksi, nuhteeksi, ojennukseksi ja kasvatukseksi Jumalan tahdon mukaiseen elämään.</emphasis>\" Uskotko sinä tämän? Ennenkuin vastaat, punnitse Jeesuksen suhtautumista kirjoituksiin."
-
-#~ msgid "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, pp.93-95"
-#~ msgstr "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, InterVarsity Press 1978, s.93-95"
-
-#~ msgid "This, then, was Christ's view of the Scriptures. Their witness was God's witness. The testimony of the Bible is the testimony of God. And the chief reason why the Christian believes in the divine origin of the Bible is that Jesus Christ Himself taught it."
-#~ msgstr "Tämä oli Kristuksen näkemys kirjoituksiin. Niiden todistus oli Jumalan todistus. Raamatun todistus on Jumalan todistus. Ja pääsyy, miksi kristityt uskovat Raamatun olevan jumalallista alkuperää, on se, että Jeesus Kristus itse opetti niin."
-
-#~ msgid "2 Tim.3:16 goes on, \"<emphasis>and profitable for teaching, for correction, for training in righteousness, that the man of God may be adequate, equipped for every good work.</emphasis>\" If we accept that the Bible really is God speaking to us, it follows that it will be our authority in all matters of faith and conduct."
-#~ msgstr "2 Tim.3:16 mukaan, \"<emphasis>...ja hyödyllinen opetukseksi, nuhteeksi, ojennukseksi ja kasvatukseksi Jumalan tahdon mukaiseen elämään. Näin Jumalan ihmisestä tulee täydellinen ja kaikkeen hyvään kykenevä.</emphasis>\" Jos hyväksymme, että Raamattu on todella Jumalan puhetta meille, siitä seuraa, että se on auktoriteettimme uskossa ja käyttäytymisessämme."
-
-#~ msgid "A Book that Works"
-#~ msgstr "Kirja, joka toimii"
-
-#~ msgid "What will studying the Bible do for you? 1 Thess.2:13 says that the Bible \"<emphasis>performs its work in you who believe.</emphasis>\" Beside each scripture, write down the work the Word performs."
-#~ msgstr "Mitä Raamatun tutkiminen tekee sinulle? 1 Tess.2:13 sanoo, että Raamattu \"<emphasis>vaikuttaa teissä, jotka uskotte.</emphasis>\" Beside each scripture, write down the work the Word performs. Jokaisen kirjoituksen rinnalla merkitse muistiin työ, jonka Sana vaikuttaa."
-
-#~ msgid "What does Bible study do for Christians?"
-#~ msgstr "Mitä Raamatun tutkiminen tekee kristitylle?"
-
-#~ msgid "Reference"
-#~ msgstr "Viittaus"
-
-#~ msgid "Action"
-#~ msgstr "Toiminta"
-
-#~ msgid "Eph. 5:26"
-#~ msgstr "Ef. 5:26"
-
-#~ msgid "cleanses -- \"...having cleansed her by the washing of water with the word.\""
-#~ msgstr "puhdistaa -- \"...pesi sen puhtaaksi vedellä ja sanalla.\""
-
-#~ msgid "Acts 20:32"
-#~ msgstr "Apt 20:32"
-
-#~ msgid "builds up -- \" ...the word of His grace, which is able to build you up and to give you the inheritance among all those who are sanctified. \""
-#~ msgstr "rakentaa -- \" ...Hänen armonsa sanat, jotka rakentavat meitä ja antavat meille perinnön pyhitettyjen joukossa. \""
-
-#~ msgid "Rom. 15:4"
-#~ msgstr "Room. 15:4"
-
-#~ msgid "encourages -- \"that through perseverance and the encouragement of the Scriptures we might have hope.\""
-#~ msgstr "rohkaisee -- \"että meillä toivo olisit pitkäjänteisyyden ja kirjoitusten rohkaisuun kautta.\""
-
-#~ msgid "Rom. 10:17"
-#~ msgstr "Room. 10:17"
-
-#~ msgid "gives faith -- \"So faith comes from hearing, and hearing by the word of Christ.\""
-#~ msgstr "antaa uskon -- \"Niin tulee usko kuulosta ja kuulo Jumalan Sanan kautta.\""
-
-#~ msgid "1 Cor. 10:11"
-#~ msgstr "1 Kor. 10:11"
-
-#~ msgid "instructs -- \"Now these things happened to them for an example, and they were written for our instruction\""
-#~ msgstr "opetus -- \"Nyt nämä asiat tapahtuivat heille esimerkiksi, ja ne ovat kirjoitettu meidän opetukseksemme\""
-
-#~ msgid "Mt. 4:4"
-#~ msgstr "Matt. 4:4"
-
-#~ msgid "nourishment -- \"But He answered and said, 'It is written, Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.'\""
-#~ msgstr "ravitsemus -- \"Mutta Hän vastasi ja sanoi, 'On kirjoitettu, Ihminen ei elä ainoastaan leivästä, mutta jokaisesta sanasta, joka tulee Jumalan suusta.'\""
-
-#~ msgid "A Book that Liberates"
-#~ msgstr "Kirja, joka vapahtaa"
-
-#~ msgid "Jn.8:32 \"<emphasis>and you shall know the truth, and the truth shall make you free.</emphasis>\"This is usually quoted by itself. Is this a conditional or unconditional promise? Would it apply to all kinds of knowledge? Find the answers by examining the first half of the sentence, in v.31. \"<emphasis>If you abide in My word, then you are truly disciples of Mine... </emphasis>\""
-#~ msgstr "Joh.8:32 \"<emphasis>Te opitte tuntemaan totuuden, ja totuus tekee teistä vapaita.</emphasis>\"Tämä on noteerattu itsessään. Onko tämä ehdollinen vai ehdoton lupaus? Toimiiko se kaikenlaisille tiedoille? Löydä vastaukset lauseen ensimmäisestä puolikkaasta, jakeessa 31. \"<emphasis>Jos te pysytte uskollisina minun sanalleni, te olette todella opetuslapsiani... </emphasis>\""
-
-#~ msgid "We see that this is a conditional promice, specifically speaking of the truth of God's word."
-#~ msgstr "Näemme, että tämä on ehdollinen lupaus, erityisesti puhuen Jumalan Sanan totuudesta."
-
-#~ msgid "The Greek word for \"wind\" used in Eph.4:14 means a <emphasis>violent wind.</emphasis> \"<emphasis>As a result, we are no longer to be children, tossed here and there by waves, and carried about by every wind of doctrine...</emphasis>\"One thing studying the Bible does for us is to ground us in the truth, with the result that we won't be easily \"blown away.\""
-#~ msgstr "Kreikankielinen sana \"tuulelle\" käytettynä Ef.4:14 tarkoittaa <emphasis>rajuilmaa.</emphasis> \"<emphasis>silloin emme enää ole alaikäisiä, jotka ajelehtivat kaikenlaisten opin tuulten heiteltävinä ja ovat kavalien ja petollisten ihmisten pelinappuloita...</emphasis>\"Yksi asia, minkä Raamatuntutkiminen tekee meille on, että se perustaa meitä totuuteen sillä seurauksella, ettemme ole helposti \"tuulen vietäviä.\""
-
-#~ msgid "<emphasis>But Jesus answered and said to them, </emphasis>\"<emphasis>You are mistaken [KJV Ye do err], not understanding the Scriptures, or the power of God.</emphasis>\"Mt.22:29"
-#~ msgstr "<emphasis>Mutta Jeesus vastasi ja sanoi heille, </emphasis>\"<emphasis>Te kuljette eksyksissä, koska ette tunne pyhiä kirjoituksia ettekä Jumalan voimaa.</emphasis>\"Matt.22:29"
-
-#~ msgid "What 2 things do we need to know to be kept from error?"
-#~ msgstr "Mitkä kaksi asiaa meidän tulee tietää välttääksemme virheen?"
-
-#~ msgid "God's word"
-#~ msgstr "Jumalan Sana"
-
-#~ msgid "God's power"
-#~ msgstr "Jumalan voima"
-
-#~ msgid "A Book that Wars"
-#~ msgstr "Kirja, joka sotii"
-
-#~ msgid "Eph.6:10-18 is one picture of our spiritual armament."
-#~ msgstr "Ef.6:10-18 on yksi kuva meidän hengellisistä aseistuksestamme."
-
-#~ msgid "Spiritual Armor"
-#~ msgstr "Hengellinen sotavaruste"
-
-#~ msgid "Question"
-#~ msgstr "Kysymys"
-
-#~ msgid "Answer"
-#~ msgstr "Vastaus"
-
-#~ msgid "How many of the weapons listed here are defensive weapons?"
-#~ msgstr "Kuinka monta asetta luetteloidaan tässä puolustusaseiksi?"
-
-#~ msgid "<entry>5</entry>"
-#~ msgstr "<entry>5</entry>"
-
-#~ msgid "How many are offensive?"
-#~ msgstr "Kuinka monta on pahennusta herättävää?"
-
-#~ msgid "<entry>One</entry>"
-#~ msgstr "<entry>Yksi</entry>"
-
-#~ msgid "Which one(s)?"
-#~ msgstr "Mikä niistä?"
-
-#~ msgid "the word - <foreignphrase>rhema</foreignphrase>"
-#~ msgstr "sana - <foreignphrase>rhema</foreignphrase>"
-
-#~ msgid "Exhortations"
-#~ msgstr "Kehotus"
-
-#~ msgid "2 Tim.2:15 (KJV) \"<emphasis>Study to show thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.</emphasis>\""
-#~ msgstr "2 Tim.2:15 \"<emphasis>Pyri kaikin voimin osoittautumaan Jumalan silmissä luotettavaksi työntekijäksi, joka ei häpeä työtään ja joka opettaa totuuden sanaa oikein.</emphasis>\""
-
-#~ msgid "Col.3:16 \"<emphasis>Let the word of Christ richly dwell within you; with all wisdom teaching and admonishing one another with psalms and hymns and spiritual songs, singing with thankfulness in your hearts to God.</emphasis>\""
-#~ msgstr "Kol.3:16 \"<emphasis>Antakaa Kristuksen sanan asua runsaana keskuudessanne. Opettakaa ja neuvokaa toisianne kaikella viisaudella ja laulakaa kiitollisin mielin Jumalalle psalmeja, ylistysvirsiä ja hengellisiä lauluja.</emphasis>\""
-
-#~ msgid "If you're rich in something, how much of it do you have?"
-#~ msgstr "Jos olet rikas jossain asiassa, kuinka paljon sitä omistat?"
-
-#~ msgid "Not a little!"
-#~ msgstr "Ei pieni!"
-
-#~ msgid "Eccl.12:11-12 \"<emphasis>The words of wise men are like goads, and masters of these collections are like well-driven nails; they are given by one Shepherd. But beyond this, my son, be warned: the writing of many books is endless, and excessive devotion to books is wearying to the body.</emphasis>\""
-#~ msgstr "Saarn.12:11-12 \"<emphasis>Viisaiden sanat ovat teräviä kuin häränajajan piikki, mietelauselmat kuin lujia nauloja. Nämä sanat ovat kaikki saman paimenen antamia. Ja vielä: Poikani, paina varoitus mieleesi. Paljolla kirjojen tekemisellä ei ole loppua, ja alituinen tutkistelu väsyttää ruumiin.</emphasis>\""
-
-#~ msgid "Appendix: \"Once for All\""
-#~ msgstr "Liite: \"Kerran kaikille\""
-
-#~ msgid "John R. W. Stott, <emphasis>Christ the Controversialist,</emphasis> InterVarsity Press 1978, pp.106-107"
-#~ msgstr "John R. W. Stott, <emphasis>Christ the Controversialist,</emphasis> InterVarsity Press 1978, s.106-107"
-
-#~ msgid "Thus we may say that God has spoken once for all and Christ has suffered once for all. This means that the Christian revelation and the Christian redemption are both alike in Christ complete. Nothing can be added to either without being derogatory to Christ... These are the two rocks on which the Protestant Reformation was built -- Gods revealed word without the addition of human traditions and Christ's finished work without the addition of human merits. The Reformers great watchwords were <foreignphrase>sola scriptura</foreignphrase> for our authority and <foreignphrase>sola gratia</foreignphrase> for our salvation."
-#~ msgstr "Edelleen sanoisimme, että Jumala on puhunut kerran kaikille ja Kristus on kärsinyt kerran kaikkien puolesta. Tämä merkitsee sitä, että Kristuksen lunastus ja kristityn lunastus ovat samanlaisia Kristuksen täydellisyydessä. Mitään ei voi lisätä eikä ottaa pois olematta halventava Kristukselle... Nämä ovat kaksi peruskiveä, joille protestanttinen reformaatio pohjautuu -- Jumalan ilmoittamat sanat ilman ihmistraditioiden lisäyksiä ja Kristuksen loppuunsuoritettu työ ilman ihmisansioiden lisäystä. Reformistien suuri sanonta oli <foreignphrase>sola scriptura</foreignphrase> auktoriteetiksemme ja <foreignphrase>sola gratia</foreignphrase> pelastukseksemme."
-
-#~ msgid "Supplement: Bible Reading Programs"
-#~ msgstr "Liite: Raamatunlukuohjelmat"
-
-#~ msgid "Here are some easy programs to systematically read your Bible. You can do more than one at a time if you like, for instance #1 with #4, or #2 with #5. Vary the program from year to year to keep it fresh!"
-#~ msgstr "Tässä on muutama helppo ohjelma, joilla voit lukea systemaattisesti Raamattuasi. Voit lukea enemmän kuin yhden kerrallaan, jos tahdot, esimerkiksi #1 ja #4, tai #2 ja #5. Vaihda ohjelmaa vuosi vuodelta pitääksesi sen tuoreena!"
-
-#~ msgid "New Testament in a Year: read one chapter each day, 5 days a week."
-#~ msgstr "Uusi Testamentti vuodessa: lue yksi luku joka päivä, 5 päivää viikossa."
-
-#~ msgid "Proverbs in a Month: read one chapter of Proverbs each day, corresponding to the day of the month."
-#~ msgstr "Sananlaskut kuukaudessa: Lue yksi luku Sananlaskuja joka päivä vastatem kuukaudenpäivää."
-
-#~ msgid "Psalms in a Month: read 5 Psalms at intervals of 30 each day, for instance on the 20th you read Ps.20, 50, 80, 110, &amp; 140."
-#~ msgstr "Psalmit yhdessä kuukaudessa: Lue 5 Psalmia 30:n päivän aikana, 20. kerralla luet Psalmit 20, 50, 80, 110, &amp; 140."
-
-#~ msgid "Psalms &amp; Proverbs in 6 months: read through Psalms and Proverbs one chapter per day."
-#~ msgstr "Psalmit &amp; Sananlaskut 6 kuukaudessa: Lue Psalmit ja Sananlaskut läpi yksi luku päivässä."
-
-#~ msgid "Old Testament without Psalms &amp; Proverbs in 2 years: if you read one chapter a day of the Old Testament, skipping over Psalms &amp; Proverbs, you will read the Old Testament in 2 years and 2 weeks."
-#~ msgstr "Vanha Testamentti ilman Psalmeja &amp; Sananlaskuja kahdessa vuodessa: Jos luet yhden kappaleen päivässä Vanhaa Testamenttia ohittaen Psalmit &amp; Sananlaskut, luet Vanhan Testamentin 2 vuodessa ja 2 viikossa.."
-
-#~ msgid "Rules of Bible Interpretation (Hermeneutics)"
-#~ msgstr "Raamatuntulkinnan säännöt (hermeneutiikka)"
-
-#~ msgid "How do we go about discovering the intended meaning of a passage? Let's say your attention has been drawn to a particular verse whose meaning is not clear to you. How do you study it out? Keep these rules in mind:"
-#~ msgstr "Kuinka etsimme tekstikohdan tarkoitettua merkitystä? Sanokaamme, että huomiomme on kohdistettu jakeen osaan, jonka merkitys ei ole meille selvä. Kuinka tutkimme sitä? Pidä kolme sääntöä muistissa:"
-
-#~ msgid "Rule 1 - Interpret according to the exact meaning of the words."
-#~ msgstr "Sääntö 1 - Tulkitse sanojen täsmällisten merkitysten mukaan."
-
-#~ msgid "The more precise we can be with the exact, original meaning of the words the better our interpretation will be. Try to find the exact meaning of the key words by following these steps:"
-#~ msgstr "Mitä tarkempia voimme olla sanojen todellisen, alkuperäisen merkityksen kanssa, sitä parempi tulkintamme on. Yritä löytää avainsanojen todellinen merkitys näillä askelilla:"
-
-#~ msgid "Definition"
-#~ msgstr "Määrittely"
-
-#~ msgid "Look up the definition in a Greek or Hebrew dictionary. For verbs, the verb tense is also crucial."
-#~ msgstr "Katso määreitelmää kreikkalaisesta tai heprealaisesta sanakirjasta  Verbeille verbin aikamuoto on myös ratkaiseva."
-
-#~ msgid "Compare scripture with scripture. Seeing how the same Greek or Hebrew word (not the English word) is used in scripture may clarify or throw new light on the definition. How does the same author use this word elsewhere? Other authors? Your reference tools may give you uses of the word in non-biblical documents, as well. Why do we have to go to the original languages; why isn't the English word good enough? <emphasis>Because more than one greek word may be translated into the same english word, and the greek words may have different shades of meaning.</emphasis>"
-#~ msgstr "Vertaa tekstejä tekstien kanssa. Näe, kuinka sama kreikankielinen tai hepreankielinen sana (ei englanninkielinen sana) on käytetty tekstissä, selvittää tai antaa uutta valaistusta määritelmään.  Kuinka sama kirjoittaja käyttää tätä sanaa muualla? Muut kirjoittajat? Referenssityökalusi antavat sinulle yhtä hyvin esimerkkejä sanan käytöstä muissa asiakirjoissa kuin Raamattussa. Miksi meidän pitää mennä alkukieleen, miksi englantilainen sana ei ole tarpeeksi hyvä? <emphasis>Koska useampi kreikankielinen sana voidaan kääntää samaksi englanninkieliseksi sanaksi, ja kreikankielisillä sanoilla voi olla erilainen merkityksen vivahde.</emphasis>"
-
-#~ msgid "Example 1A"
-#~ msgstr "Esimerkki 1A"
-
-#~ msgid "Jn.20:17 <emphasis>\"Touch me not\"</emphasis> (KJV) sounds harsh, doesn't it? Sounds like Jesus doesn't want to be touched now that He is risen, that He is too holy or something. But that doesn't seem right, so let's look it up in Spiros Zodhiates' <emphasis>The Complete Word Study New Testament</emphasis> (AMG Publishers, 1991)."
-#~ msgstr "Joh.20:17 <emphasis>\"Älä koske minuun\"</emphasis> (KJV) kuulostaa karkealta, eikö vain? Kuulostaa siltä, että Jeesus ei halunnut tulla kosketetuksi nyt kun hän on Hengessä, että Hän on pyhä tai jotain sellaista. Mutta tämä ei näytä oikealta. Niinpä lue se Spiros Zodhiatesin kirjoittamasta kirjasta' <emphasis>The Complete Word Study New Testament</emphasis> (AMG Publishers, 1991)."
-
-#~ msgid "Mary is already clinging to Jesus, and he is saying to stop holding him!"
-#~ msgstr "Maria on jo tarttunut Jeesukseen, ja hän pyysi lopettamaan kiinnipitämisen!"
-
-#~ msgid "Example 1B"
-#~ msgstr "Esimerkki 1B"
-
-#~ msgid "In James 5:14, <emphasis>Elders are told to pray and anoint someone who is sick</emphasis>. What is this anointing?"
-#~ msgstr "Jaak. 5:14, <emphasis>Vanhimmatvoidelkoot hänet öljyllä Herran nimessä ja rukoilkoot hänen puolestaan</emphasis>. Mitä on tämä voitelu?"
-
-#~ msgid "Cross-references for aleipho:"
-#~ msgstr "Ristiviittaukset sanalle aleipho:"
-
-#~ msgid "Mt.6:17 But you, when you fast, anoint your head"
-#~ msgstr "Matt.6:17 Kun sinä paastoat, voitele hiuksesi"
-
-#~ msgid "Mk.16:1 [the women] brought spices that they might come and anoint Him."
-#~ msgstr "Mk.16:1 [naiset] ostivat tuoksuöljyä mennäkseen voitelemaan Hänet."
-
-#~ msgid "Mk.6:13 And they were...anointing with oil many sick people and healing them."
-#~ msgstr "Mk.6:13 Ja he...voitelivat monta sairasta ja paransivat heidät."
-
-#~ msgid "Lk.7:38 [...] kissing His feet and anointing them with the perfume"
-#~ msgstr "Lk.7:38 [...] suuteli Hänen jalkojaan ja voiteli ne tuoksuöljyllä"
-
-#~ msgid "Jn.12:3 Mary [...] anointed the feet of Jesus, and wiped them with her hair"
-#~ msgstr "Joh.12:3 Maria [...] voiteli Jeesuksen jalat, ja kuivasi ne hiuksillaan"
-
-#~ msgid "Cross-references of chrio:"
-#~ msgstr "Sanan chrio ristiviittaukset:"
-
-#~ msgid "Lk.4:18 <quote>The Spirit of the Lord is upon me, because He has anointed me to preach [...]</quote>"
-#~ msgstr "Lk.4:18 <quote>Herran Henki on minun ylläni, sillä hän on voidelut minut julistamaan [...]</quote>"
-
-#~ msgid "Acts 4:27 Jesus, whom Thou hast anointed"
-#~ msgstr "Acts 4:27 Jeesus, jonka Sinä olit voidellut"
-
-#~ msgid "Acts 10:38 God anointed Jesus with the Holy Ghost and power"
-#~ msgstr "Apt 10:38 Jumala voiteli Jeesuksen Pyhällä Hengellä ja voimalla"
-
-#~ msgid "2 Cor.1:21 Now He who...anointed us is God"
-#~ msgstr "2 Cor.1:21 Nyt Hän, kuka.... voitelee meitä, on Jumala"
-
-#~ msgid "So what's the difference between aleipho and chrio? Look back over the cross-references and the definitions, and sum up the difference: <emphasis>&quot;aleipho&quot; is a practical use of oil and &quot;chrio&quot; is a spiritual</emphasis>"
-#~ msgstr "Mikä ero on sanoilla aleipho ja chrio? Katso jälleen ristiviittausta ja määritelmää, ja selvitä ero: <emphasis>&quot;aleipho&quot; on öljyn jokapäiväinen käyttö ja &quot;chrio&quot; on hengellinen</emphasis>"
-
-#~ msgid "As an illustration (although the word is not used) of the practical use of oil at that time, when the good Samaritan cared for the man beat up by robbers he poured oil and wine in the wound. So oil had a medicinal use in Jesus' day."
-#~ msgstr "Öljyn jokapäiväisen käytön kuvaus (joskin sanaa ei käytetä) siihen aikaan kun laupias samarialainen huolehti ryöstäjien lyömän miehen hän kaatoi öljyä ja viiniä haavaan. Öljyllä oli siis lääketieteellinen käyttö Jeesuksen päivinä."
-
-#~ msgid "Now let's apply what we just learned by this word study to James 5:14 <emphasis>\"Is any among you sick? Let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord.\"</emphasis> Is \"anointing\" spiritual or practical? Practical!"
-#~ msgstr "Lisää nyt juurioppimamme tähän Jaak. 5:14 sanantutkimiseen <emphasis>\"Jos joku teistä on sairaana, kutsukoon hän luokseen seurakunnan vanhimmat. Nämä voidelkoot hänet öljyllä Herran nimessä ja rukoilkoot hänen puolestaan Herran nimeen.\"</emphasis> Onko \"voitelu\" hengellistä vai jokapäiväistä? Jokapäiväistä!"
-
-#~ msgid "Rule 2 - Interpret within the biblical context"
-#~ msgstr "Sääntö 2 - Tulkitse raamatullisia yhteyksiä"
-
-#~ msgid "Interpret scripture in harmony with other scripture. What do the verses on each side say? What is the theme of the chapter? the book? Does your interpretation fit with these? If not, it is flawed. Usually, the context supplies what we need to correctly interpret the passage. Context is key. If confusion remains as to the meaning after we have interpreted the text within its context, we have to look further."
-#~ msgstr "Tekstin tulkinta sopusoinnussa muiden tekstien kanssa. Mitä kukin jae sanoo? Mikä on luvun teema? Kirjan teema? Sopiiko tulkintasi näihin? Jos ei, se on virheelinen. Tavallisesti asiayhteys varustaa meidät tulkitsemaan tekstinkohdan oikein. Asiayhteys on avain. Jos tekstinkohdan tulkinnan jälkeen jää vielä sekavuutta, meidän on katsottava eteenpäin."
-
-#~ msgid "Example 2A"
-#~ msgstr "Esimerkki 2A"
-
-#~ msgid "In a previous lesson we considered Jn.3:5 <emphasis>\"born of water and the Spirit.\"</emphasis> In context, what is the water under discussion here?"
-#~ msgstr "Edellisellä tunnilla ajattelimme Joh.3:5 <emphasis>\"syntynyt vedestä ja Hengestä.\"</emphasis> Mitä on keskustelussa oleva vesi tässä asiayhteydessään?"
-
-#~ msgid "Water baptism is not under discussion here, which would be a big switch from the subject being discussed by Jesus and Nicodemus. Watch out for a sudden change of topic, it may be a clue that your interpretation has been derailed! The water is the amniotic fluid, \"born of water\" = natural birth."
-#~ msgstr "Vesikasteesta ei keskustella tässä, mikä on suuri muutos Juuesuksen ja Nikodeemuksen keskustelun aiheeseen. Tarkastele aiheen äkillistä muutosta. Johtolanka tulkinnastasi on suistunut raiteiltaan! Vesi on näytevettä, \"syntynyt vedestä\" = luonnollinen syntymä."
-
-#~ msgid "Example 2B"
-#~ msgstr "Esimerkki 2B"
-
-#~ msgid "1 Cor.14:34 <quote>Let the women keep silent in the churches</quote> has to be taken within the biblical context of 1 Cor.11:5 <quote>every woman [...] while praying or prophesying [...]</quote>"
-#~ msgstr "1 Kor.14:34 <quote>Nainen vaietkoon seurakunnassa</quote> on otettu raamatulliseen yhteyteen 1 Kor.11:5 <quote>jokainen nainen [...] rukoillessaan tai profetoidessaan [...]</quote>"
-
-#~ msgid "Example 2C"
-#~ msgstr "Esimerkki 2C"
-
-#~ msgid "Acts 2:38 <quote>And Peter said to them, &quot;Repent, and let each of you be baptized in the name of Jesus Christ for the forgiveness of your sins [...]&quot;</quote>. Is this teaching baptismal regeneration? If this was the only verse of scripture we had, we would have to conclude that. But in the light of the clear teaching elsewhere that regeneration happens by faith in Christ, we have to interpret it otherwise. Peter is urging baptism as a way for his hearers to respond to the gospel. If baptism were the pathway to being born again, how could Paul write 1 Cor.1:17 <emphasis>\"For Christ did not send me to baptize, but to preach the gospel\"</emphasis>?"
-#~ msgstr "Apt. 2:38 <quote>Pietari vastasi: &quot;Kääntykää ja ottakaa itse kukin kaste Jeesuksen Kristuksen nimeen, jotta syntinne annettaisiin anteeksi [...] &quot; </quote>. Onko tämä opetus kasteesta uudestisyntymiselle? Jos tämä olisi ainoa meillä oleva tekstien jae, me päättelisimme näin. Mutta selvän opetuksen valossa uudestisyntyminen tapahtuu uskolla Kristukseen. Meidän tulee tulkita se toisin. Pietari kehottaa hänen kuulijoitaan ottamaan kasteen evankeliumin vaikuttamana. Jos kaste olisi tie uudelleensyntymiseen, kuinka Pietari kirjoittaisi 1 Kor.1:17 <emphasis>\"Eihän Kristus lähettänyt minua kastamaan vaan julistamaan evankeliumia\"</emphasis>?"
-
-#~ msgid "Rule 3 - Interpret within the historical and cultural context"
-#~ msgstr "Rule 3 - Tulkitse historiallisia ja kultturellisia yhteyksiä"
-
-#~ msgid "At first we are not asking <quote>What does it mean to me?</quote> but <quote>What did it mean to the original readers?</quote>; later we can ask, <quote>What does it mean to me?</quote>. We have to take into account the historical and cultural background of the author and the recipients."
-#~ msgstr "Emme kysy ensiksi <quote>Mitä se merkitsee minulle?</quote> vaan <quote>Mitä se merkitsi alkuperäisille lukijoille?</quote>; myöhemmin voimme kysyä, <quote>Mitä se merkitsee minulle?</quote>. Meidän tulee ottaa huomioon kirjoittajan ja saajien historiallinen ja kuturellinen tausta."
-
-#~ msgid "Example 3A"
-#~ msgstr "Esimerkki 3A"
-
-#~ msgid "<quote>3 days &amp; 3 nights</quote> (Mt.12:40) have led some to come up with a \"Wednesday crucifixion theory,\" esp. the cult of Armstrongism. How could Jesus die on Friday afternoon and rise Sunday morning yet \"be raised on the third day\" (Mt.16:21)? Exact meanings of \"three\" or \"days\" won't help explain the apparent contradiction."
-#~ msgstr "<quote>3 päivää &amp; 3 yötä</quote> (Matt.12:40) on johdattanut muutamia \"Keskiviikon ristiinnaulitsemisen teoriaan,\" erityisesti Armstrongismin kultissa. Kuinka Jeesus kuoli perjantaina iltapäivällä ja nousi ylös sunnuntaiaamuna kuten sanotaan \"nousi ylös kolmantena päivänä\" (Matt.16:21)? Sanojen \"kolme\" or \"päivää\" täsmällinen merkitys ei auta selittämään silmiinpistävää ristiriitaa."
-
-#~ msgid "We need an historical tidbit: Jews counted any part of a day as a full day, as we would count buckets of water (if there were six and one-half buckets of water, we would say there were 7 buckets of water even if one was only partly full). So to the Jewish mind, any part of a day counted as a full day, and days started at 6 p.m. and ended at 6 p.m. Friday from 3 p.m. to 6 p.m. = day 1. Friday 6 p.m. to Saturday 6 p.m. = day 2. Saturday 6 p.m. to Sunday 5 or so a.m. = day 3. Interpreting within the cultural context keeps us out of trouble."
-#~ msgstr "Tarvitsemme historiallisen makupalan: Juutalaiset laskivat kaikki päivän osat yhdeksi päiväksi, kuten me laskemme ämpärillistä vettä (jos on kuusi ja puoli ämpärillistä vettä, voimme sanoa, että on 7 ämpärillistä vettä jopa, vaikka yksi olisi vain osittain täysi). Siten juutalaisessa ajattelussa mikä tahansa päivän osa lasketaan koko päiväksi. Päivät alkaen klo 6 i.p. ja päättyen klo 6 i.p. Perjantaista klo 3 i.p. klo 6 i.p. = päivä 1. Perjantai klo 6 i.p. lauantaihin klo 6 i.p. = toinen päivä. Lauantaista klo 6 i.p. sunnuntaihin klo 5 i.p. on kolmas päivä. Kulttuurisidonnainen tulkinta poistaa ongelman."
-
-#~ msgid "Example 3B"
-#~ msgstr "Esimerkki 3B"
-
-#~ msgid "Gen.15:7-21. The historical context is that cutting animals in two and then walking between the pieces was the normal way of entering a contract in Abraham's day. Both parties walked between, taking the pledge that dismemberment would happen to them if they didn't live up to their part of the contract. But in this case only God goes thru, making it a unilateral covenant."
-#~ msgstr "Moos.15:7-21. Historiallinen asiayhteys on että  Aabrahamin päivinä tehtiin sopimuksia halkaisemalla eläimet kahdeksi kappaleeksi ja sitten kävelemällä palojen välissä. Kumpikin osapuoli käveli välissä ottaen pantin. Pantin rikkipaloitteleminen tapahtuu niille, jos he eivät elä sopimuksen mukaan. Mutta tässä tapauksessa vain Jumala toteuttaa sen yksipuolisella sopimuksella."
-
-#~ msgid "Rule 4 - Interpret according to the normal usage of words in language"
-#~ msgstr "Sääntö 4 - Tulkitse kielen sanojen normaalikäytön mukaan"
-
-#~ msgid "Let literal language be literal and figurative language be figurative. And watch out for idioms, which have special meanings."
-#~ msgstr "Antakaamme kirjaimellisen kielen olla kirjaimellista ja kuvaavan kielen olla kuvaavaa. Ja katso sanontoja, joilla on erityinen merkitys."
-
-#~ msgid "Example 4A"
-#~ msgstr "Esimerkki 4A"
-
-#~ msgid "<quote>evil eye</quote> in Mt.6:23."
-#~ msgstr "<quote>paha silmä</quote> Mt.6:23."
-
-#~ msgid "Rule 1, definition of \"evil\" and \"eye\" - no help here. Rule 2, context: seems to confuse us even more. It doesn't seem to fit with what goes before and after! This should tip us off that we aren't understanding it rightly!!"
-#~ msgstr "Sääntö 1, sanojen \"evil\" ja \"eye\" määritelmät - ei opastusta tässä. Sääntö 2, asiayhteys: sekoittaa meitä yhä enemmän. Ei näytä sopivan aiempaan ja jäljempään tekstiin! Tämän pitäisi näyttää meille, että emme ymmärrä oikein!!"
-
-#~ msgid "What we have here is a Hebrew idiom, <quote>evil eye</quote>. Let's look up other uses of this idiom: Mt.20:15 \"<emphasis>Is it not lawful for me to do what I wish with what is my own? Or is your eye envious [lit.\"evil\"] because I am generous [lit. \"good\"]?</emphasis>\" We find that having an \"evil eye\" is a Hebrew idiom for being stingy or envious. Now go back to Mt.6 and notice how this understanding ties in so perfectly to the context."
-#~ msgstr "Meillä on tässä heprealainen sanonta, <quote>evil eye</quote>. Tarkastellaanpa tämän sanonnan muita merkityksiä: Mt.20:15 \"<emphasis>ja kai minä saan omallani tehdä mitä haluan? Katsotko sinä karsaasti [lit.\"evil\"] sitä, että minä olen hyvä [lit. \"jalo\"]?</emphasis>\" Huomaamme, että \"evil eye\" on heprealainen sanonta olla kitsas tai kateellinen. Palaa nyt takaisin  Matteuksen 6. lukuun ja huomaa kuinka tämä ymmärtäminen sitoutuu niin täydellisesti yhteen asiayhteyden kanssa."
-
-#~ msgid "Example 4B"
-#~ msgstr "Esimerkki 4B"
-
-#~ msgid "Is.59:1 <quote>The Lord's hand is not short;</quote>"
-#~ msgstr "Is.59:1 <quote>Herran käsi ei ole lyhennetty;</quote>"
-
-#~ msgid "Deut.33:27 <quote>Underneath are the everlasting arms.</quote>"
-#~ msgstr "5. Moos. 33:27 <quote>Sinun turvasi on ikiaikojen Jumala, sinua kantavat ikuiset käsivarret. Hän karkotti tieltäsi viholliset ja käski sinun hävittää heidät.</quote>"
-
-#~ msgid "References to body parts of God are used by Latter-Day Saints to prove that God was once a man just as we are. Once they convince people of that, they go on to teach that we can become God just like He is! At a lecture he was giving, a group of Mormon elders challenged Walter Martin (author of <emphasis>Kingdom of the Cults</emphasis>) with an enumeration of verses like these. Dr. Martin then asked the Mormons to read one more scripture: Ps.91:4 <quote>He will cover you with His feathers; And under His wings shalt thou trust</quote>. W.M. said, <quote>By the same rules of interpretation that you just proved God to be a man, you just proved that He is a bird</quote>. The Mormons had to laugh as they realised the ridiculousness of their position."
-#~ msgstr "Viittaamalla Jumalan ruumiinosiin mormonit todistavat, että Jumala oli kerran mies kuten me. Kun he ovat vakuuttaneet ihmiset siitä, he jatkavat opettamista, että me voimme tulla Jumaliksi juuri kuten Hän on! Hänen antamalla luennolla ryhmä vanhempia mormoneja haastoi Walter Martinin (<emphasis>Kulttien kuningaskunnan</emphasis> tekijä) riitaan lukuisalla joukolla samanlaisia jakeita. Tohtori Martin pyysi mormoneja lukemaan yhden tekstin lisää. Ps. 91:4 <quote>Hän levittää siipensä yllesi, ja sinä olet turvassa niiden alla. Hänen uskollisuutensa on sinulle muuri ja kilpi.</quote>. W.M. sanoi, <quote>Samalla tulkinnalla, jolla todistitte Jumalan ihmiseksi, te todistitte, että hän on lintu.</quote>. Mormonien oli naurettava huomatessaan heidän paikaknsa."
-
-#~ msgid "Rule 5 - Understand the purpose of parables and the difference between a parable and an allegory"
-#~ msgstr "Sääntö 5 - Ymmärrä kertomusten tarkoitus ja ero kertomuksen ja allegorian välillä"
-
-#~ msgid "An allegory is: <emphasis>A story where each element has a meaning.</emphasis>"
-#~ msgstr "Allegoria on: <emphasis>Kertomus, jossa kullakin osalla on merkitys.</emphasis>"
-
-#~ msgid "Every parable is an allegory, true or false?"
-#~ msgstr "Jokainen kertomus on allegoria, tosi vai epätosi?"
-
-#~ msgid "Example 5A"
-#~ msgstr "Esimerkki 5A"
-
-#~ msgid "The parable of the widow with the unrighteous judge in Lk.18:1-8. This story illustrates one lesson: boldness in prayer. If we draw it into an allegory, what do we have?"
-#~ msgstr "Kertomus leskestä ja väärämielisestä tuomarista Luuk.18:1-8. Tämä kertomus valaisee yhden läksyn: lannistumaton rukoilu. Jos me sijoitamme sen allegoriaan, mitä meillä on?"
-
-#~ msgid "All sorts of violence happens to the meanings: God is reluctant to protect the rights of widows, prayer \"bothers\" Him, etc."
-#~ msgstr "Kaikenlaisia vääryyksiä tapahtuu merkityksille. Jumala on halutun puolustamaan leskiä, rukoilijat \"kiusaavat\" Häntä, jne."
-
-#~ msgid "Example 5B"
-#~ msgstr "Esimerkki 5B"
-
-#~ msgid "The parable of the unrighteous steward in Lk.16:1-9. What is the point of the parable? Is it an allegory?"
-#~ msgstr "Kertomus väärästä huoneenhaltijasta Lk 16:1-9. Mikä on kertomuksen merkitys? Onko se allegoria? "
-
-#~ msgid "The steward is commended for only one thing, his shrewdness in using what he had to prepare for a time when he wouldn't have it. But he is not commended for his unethical behavior in cheating his master."
-#~ msgstr "Huoneenhaltijaa kunnioitetaan vain yhden asian tähden, hänen viekkautensa valmistautuessaan virasta erottamisen jälkeiseen aikaan. Mutta häntä ei kunnioiteta hänen epäeettisen käytöksen takia mestarinsa petkuttamisesta."
-
-#~ msgid "For the translation process we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. It has many advanced features and is a great aid."
-#~ msgstr "Suosittelemme käännöstyöhön käytettäväksi erinomaista ja kypsää ohjelmaa <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>. Siinä on monia kehittyneitä ominaisuuksia ja se on suurenmoinen apu."
-
-#~ msgid "Download"
-#~ msgstr "Lataa"
-
-#~ msgid "Guestbook"
-#~ msgstr "Vieraskirja"
-
-#~ msgid "BibleTime's Guestbook"
-#~ msgstr "BibleTimen vieraskirja"
-
-#~ msgid "This is the place to leave positive or negative comments about the BibleTime project. This is not the place to ask questions, please use <ulink url=\"http://forum.bibletime.info/\">the BibleTime forum</ulink> instead."
-#~ msgstr "Tässä voit jättää positiivista tai negatiivista palautetta BibleTime-projektista. Tämä ei ole paikka kysyä kysymyksiä, käytä siihen <ulink url=\"http://www.crosswire.org/forums/mvnforum/listthreads?forum=2\">BibleTimen käyttäjäfoorumia</ulink> sen sijaan."
-
-#~ msgid "Please write in English, if possible. HTML is not allowed and will be removed, but you may use normal line breaks to divide into paragraphs."
-#~ msgstr "Kirjoita englanniksi, jos mahdollista. HTML ei ole sallittu ja poistetaan, mutta voit käyttää normaaleja rivinvaihtoja jaotellaksesi tekstisi kappaleiksi."
-
-#~ msgid "Please add your comments here:"
-#~ msgstr "Lisää palautteesi tähän:"

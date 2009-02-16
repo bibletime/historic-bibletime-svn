@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-09 20:31+0000\n"
-"PO-Revision-Date: 2009-02-09 19:22+0100\n"
+"POT-Creation-Date: 2009-02-03 23:07+0000\n"
+"PO-Revision-Date: 2009-02-14 17:26+0100\n"
 "Last-Translator: Tomáš Michalek <michto01@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,150 +15,174 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Tag: holder
-#: autolayout.xml:4 layout.xml:19
+#: autolayout.xml:4
+#: layout.xml:19
 #, no-c-format
 msgid "The BibleTime developers"
 msgstr "Vývojáři BibleTime"
 
 #. Tag: title
-#: autolayout.xml:6 error404.xml:9
+#: autolayout.xml:6
+#: error404.xml:9
 #, no-c-format
 msgid "Error 404: File not found"
 msgstr "Chyba 404 soubor nenalezen"
 
 #. Tag: title
-#: autolayout.xml:10 devotional.xml:9
+#: autolayout.xml:10
+#: devotional.xml:9
 #, no-c-format
 msgid "Devotional"
 msgstr "Denní čtení"
 
 #. Tag: title
-#: autolayout.xml:14 sidebar_tips.xml:11
+#: autolayout.xml:14
+#: sidebar_tips.xml:11
 #, fuzzy, no-c-format
 msgid "Sidebar tips"
 msgstr "* Tipy"
 
 #
 #. Tag: title
-#: autolayout.xml:18 index.xml:9
+#: autolayout.xml:18
+#: index.xml:9
 #, no-c-format
 msgid "BibleTime"
 msgstr "BibleTime"
 
 #
 #. Tag: title
-#: autolayout.xml:21 software.xml:10
+#: autolayout.xml:21
+#: software.xml:10
 #, no-c-format
 msgid "Software"
 msgstr "Software"
 
 #
 #. Tag: title
-#: autolayout.xml:24 software_about.xml:9
+#: autolayout.xml:24
+#: software_about.xml:9
 #, no-c-format
 msgid "About BibleTime"
 msgstr "O programu BibleTime"
 
 #
 #. Tag: title
-#: autolayout.xml:28 software_screenshots.xml:9
+#: autolayout.xml:28
+#: software_screenshots.xml:9
 #, no-c-format
 msgid "Screenshots"
 msgstr "Náhledy prostředí"
 
 #
 #. Tag: title
-#: autolayout.xml:32 software_installation.xml:12
+#: autolayout.xml:32
+#: software_installation.xml:12
 #, no-c-format
 msgid "Download of BibleTime"
 msgstr "Stáhnout BibleTime"
 
 #
 #. Tag: title
-#: autolayout.xml:36 software_faq.xml:11
+#: autolayout.xml:36
+#: software_faq.xml:11
 #, no-c-format
 msgid "<title>FAQ</title>"
 msgstr "<title>FAQ</title>"
 
 #
 #. Tag: title
-#: autolayout.xml:40 software_links.xml:9
+#: autolayout.xml:40
+#: software_links.xml:9
 #, no-c-format
 msgid "Links"
 msgstr "Odkazy"
 
 #
 #. Tag: title
-#: autolayout.xml:44 software_linkus.xml:9
+#: autolayout.xml:44
+#: software_linkus.xml:9
 #, no-c-format
 msgid "Link to us"
 msgstr "Odkazujte na nás"
 
 #
 #. Tag: title
-#: autolayout.xml:48 software_press.xml:10 software_press.xml:17
+#: autolayout.xml:48
+#: software_press.xml:10
+#: software_press.xml:17
 #, no-c-format
 msgid "In the press"
 msgstr "V tisku"
 
 #
 #. Tag: title
-#: autolayout.xml:52 software_contact.xml:10
+#: autolayout.xml:52
+#: software_contact.xml:10
 #, no-c-format
 msgid "Contact"
 msgstr "Kontakty"
 
 #
 #. Tag: title
-#: autolayout.xml:56 software_license.xml:9 software_license.xml:14
+#: autolayout.xml:56
+#: software_license.xml:9
+#: software_license.xml:14
 #, no-c-format
 msgid "License"
 msgstr "Licence"
 
 #. Tag: title
-#: autolayout.xml:60 software_imprint.xml:10
+#: autolayout.xml:60
+#: software_imprint.xml:10
 #, no-c-format
 msgid "Imprint"
 msgstr "Tisk"
 
 #
 #. Tag: title
-#: autolayout.xml:65 development.xml:10
+#: autolayout.xml:65
+#: development.xml:10
 #, no-c-format
 msgid "Development"
 msgstr "Vývoj"
 
 #
 #. Tag: title
-#: autolayout.xml:68 development_help.xml:12
+#: autolayout.xml:68
+#: development_help.xml:12
 #, no-c-format
 msgid "Help us"
 msgstr "Požte nám"
 
 #
 #. Tag: title
-#: autolayout.xml:73 development_join.xml:10
+#: autolayout.xml:73
+#: development_join.xml:10
 #, no-c-format
 msgid "Join us"
 msgstr "Připojte se"
 
 #
 #. Tag: title
-#: autolayout.xml:77 development_mailinglists.xml:10
+#: autolayout.xml:77
+#: development_mailinglists.xml:10
 #, no-c-format
 msgid "Mailinglists"
 msgstr "Seznam adres"
 
 #
 #. Tag: title
-#: autolayout.xml:81 layout.xml:57
+#: autolayout.xml:81
+#: layout.xml:57
 #, no-c-format
 msgid "Development wiki"
 msgstr "Vývojářská wiki"
 
 #
 #. Tag: title
-#: autolayout.xml:85 translation.xml:9
+#: autolayout.xml:85
+#: translation.xml:9
 #, no-c-format
 msgid "Translation"
 msgstr "Překlady"
@@ -233,7 +257,7 @@ msgstr "Můžete použít <ulink url=\"https://sourceforge.net/tracker/?group_id
 #: development_help.xml:42
 #, no-c-format
 msgid "There is also <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\"> a place</ulink> where you can make suggestions for features you'd like to see in BibleTime. We ask for your understanding that due to our limited time and to our own plans for BibleTime we cannot always comply with all wishes."
-msgstr "Je tu i <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\"> místo</ulink>, kde můžete umístit své připomínky a nápady, které by se měly ukázat v BibleTime. Prosíme abyste pochopili, že z důvodu časových omezení a vlastnních plánu s BibleTime nejsme schopni vyhovět všem požadavkům. "
+msgstr "Je tu i <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;atid=350954\"> místo, kde můžete umístit své připomínky a nápady, které by se měly ukázat v BibleTime. Prosíme abyste pochopili, že z důvodu časových omezení a vlastnních plánu s BibleTime nejsme schopni vyhovět všem požadavkům. "
 
 #
 #. Tag: title
@@ -276,7 +300,7 @@ msgstr "BibleTime by měla být použitelná pro všechny. Proto potřebujeme p�
 
 #. Tag: para
 #: development_help.xml:75
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "You can find more information about the translation process on the page <olink targetdocent=\"translations\">translation</olink>."
 msgstr "Více informací o procesu překladů najdete na stránce <olink targetdocent=\"translations\"> překladů</olink>."
 
@@ -290,7 +314,7 @@ msgstr "Připojte se k týmu BibleTime"
 #
 #. Tag: para
 #: development_join.xml:18
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "We are thankful to everybody who helps us improve the BibleTime software, it's documentation and it's translations."
 msgstr "Jsme vděčni za každého, kdo nám pomáha vylepšovat software BibleTime, tzn. dokumentaci a překlady."
 
@@ -310,9 +334,9 @@ msgstr "Následující věci jsou důležité pro všechny typy členů týmu. P
 
 #. Tag: para
 #: development_join.xml:28
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</ulink>, please sign up for one. It is free. We need your username to add you to the team members list, to assign tasks to you, etc."
-msgstr "Pokud nemáte účet na <ulink url=\"https://sf.net\">SourceForge</ulink>, prosím, regustrujte se. je to zdarma. Potřebujeme Váše uživatelské jméno přidat mezi členy týmu, kvůli přiřazování úkolů, atp."
+msgstr "Pokud nemáte účet na <ulink url=\"https://sf.net\">SourceForge</ulink>, prosím, regustrujte se. Je zdarma. Potřebujeme Váše uživatelské jméno přidat mezi členy týmu, kvůli přiřazování úkolů, atp."
 
 #. Tag: para
 #: development_join.xml:35
@@ -357,9 +381,9 @@ msgstr "Další kroky pro autory dokumentací..."
 #
 #. Tag: para
 #: development_join.xml:74
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Read the existing English documentation. It is located in the docs/ directory of the bibletime cvs directory."
-msgstr "Přčtěte si existující anglickou dokumentaci. Najdete ji v adresáři docs/ directory v cvs úložišti BibleTime"
+msgstr "Přečtěte si existující anglickou dokumentaci. Najdete ji v adresáři docs/ directory v cvs úložišti BibleTime"
 
 #. Tag: para
 #: development_join.xml:79
@@ -412,45 +436,45 @@ msgstr "Pšipojse knám na IRC! Můžeš nás najít na <ulink url=\"http://www.
 
 #. Tag: para
 #: development_join.xml:128
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Sign up for an account on our <ulink url=\"http://devel.bibletime.info\">wiki</ulink>, and make your contribution there."
 msgstr "Přihlaste se na naše  <ulink url=\"http://devel.bibletime.info\">wiki</ulink> a zanechte nám zde svůj příspěvek. "
 
 #
 #. Tag: title
 #: development_mailinglists.xml:15
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime development mailing list"
 msgstr "Mailing list vyvojářů BibleTime"
 
 #. Tag: para
 #: development_mailinglists.xml:16
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "To subscribe to the development mailing list of the BibleTime project please visit the following web page and enter your eMail address there: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
 msgstr "Pro zasílání zpráv z vývoje projektu BibleTime, prosíme navštivte tyto stránky a zanechte zde svůj  e-mail: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
 
 #. Tag: para
 #: development_mailinglists.xml:20
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Archives of the BibleTime development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/\">www.crosswire.org/pipermail/bt-devel</ulink>."
 msgstr "Archivní mailing list vyvojářů BibleTime je dostupný na<ulink url=\"http://www.crosswire.org/pipermail/bt-devel/\">www.crosswire.org/pipermail/bt-devel</ulink>."
 
 #
 #. Tag: title
 #: development_mailinglists.xml:25
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Sword development mailing list"
 msgstr "Mailing list vyvojářů Sword"
 
 #. Tag: para
 #: development_mailinglists.xml:26
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "To subscribe to the development mailing list of the Sword project please visit the following web page and enter your eMail address there: <ulink url=\"http://www.crosswire.org/mailman/listinfo/sword-devel\">www.crosswire.org/mailman/listinfo/sword-devel</ulink>."
 msgstr "Pro zasílání zpráv z vývoje projektu BibleTime, prosíme navštivte tyto stránky a zanechte zde svůj  e-mail:  <ulink url=\"http://www.crosswire.org/mailman/listinfo/sword-devel\">www.crosswire.org/mailman/listinfo/sword-devel</ulink>."
 
 #. Tag: para
 #: development_mailinglists.xml:29
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Archives of the Sword development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/pipermail/sword-devel</ulink>."
 msgstr "Archivní mailing list vyvojářů BibleTime je dostupný na<ulink url=\"http://www.crosswire.org/pipermail/bt-devel/\">www.crosswire.org/pipermail/bt-devel</ulink>."
 
@@ -494,7 +518,8 @@ msgid "If you can't solve the problem please report the URL which failed to <ema
 msgstr "Pokud nemůžete vyřešit problém prosím nahlaste stránku (URL) se kterou je problém na  <email>info@bibletime.info</email>. Děkujeme mockrát!"
 
 #. Tag: title
-#: sidebar_tips.xml:16 software_faq.xml:138
+#: sidebar_tips.xml:16
+#: software_faq.xml:138
 #, no-c-format
 msgid "Translations"
 msgstr "Překlady"
@@ -533,274 +558,340 @@ msgid "News about BibleTime"
 msgstr "Novinky o BibleTime"
 
 #. Tag: title
-#: software.xml:41
-#, fuzzy, no-c-format
-msgid "2009-02-07: 1.7 release"
-msgstr "2009-02-03: 1.7rc1 release"
-
-#. Tag: para
-#: software.xml:43
-#, fuzzy, no-c-format
-msgid "BibleTime 1.7 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
-msgstr "BibleTime verze 1.7rc1 právě zveřejněna. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
-
-#. Tag: title
-#: software.xml:49
+#: software.xml:40
 #, no-c-format
 msgid "2009-02-03: 1.7rc1 release"
 msgstr "2009-02-03: 1.7rc1 release"
 
 #. Tag: para
-#: software.xml:51
+#: software.xml:42
 #, no-c-format
 msgid "BibleTime 1.7rc1 was just released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr "BibleTime verze 1.7rc1 právě zveřejněna. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
 #. Tag: title
-#: software.xml:57
+#: software.xml:48
 #, no-c-format
 msgid "2008-12-13: 1.7beta3 release"
 msgstr "2008-12-13: 1.7beta3 release"
 
 #. Tag: para
-#: software.xml:59
+#: software.xml:50
 #, no-c-format
 msgid "BibleTime 1.7.beta3 was just released. The Sword requirement was set back to 1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr "BibleTime 1.7.beta3 byla právě zveřejněna. Požadavky na  Sword byly vráceny na verzi 1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
 #. Tag: title
-#: software.xml:66
+#: software.xml:57
 #, no-c-format
 msgid "2008-09-18: BibleTime 1.7beta2"
 msgstr "2008-09-18: BibleTime 1.7beta2"
 
 #. Tag: para
-#: software.xml:68
-#, fuzzy, no-c-format
+#: software.xml:59
+#, no-c-format
 msgid "BibleTime 1.7beta2 has been released. Though this version is labeled as beta it is completely usable and should be stable for daily work. Packagers and translators are encouraged to start their work. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr "Zveřejněna BibleTime verze 1.7beta2. Verze je označená jako beta a je nestabilní a může být dokončena během krátké doby. Baličkáři a překladatelé můžou začít jejich práci.  <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
 #. Tag: title
-#: software.xml:76
+#: software.xml:67
 #, no-c-format
 msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
 msgstr "2008-05-10: Ubuntu balíčky, BibleTime 1.6.5.1"
 
 #. Tag: para
-#: software.xml:77
+#: software.xml:68
 #, no-c-format
 msgid "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</ulink> how to setup your Linux to get the new packages."
 msgstr "Konečně jsou tu balíky pro Ubuntu 8.04 and 7.10. <ulink url=\"https://launchpad.net/~txwikinger/+archive\">R. Janke tady popisuje</ulink> jak nastavit Linux pro nové balíky."
 
 #. Tag: para
-#: software.xml:82
-#, fuzzy, no-c-format
+#: software.xml:73
+#, no-c-format
 msgid "Version 1.6.5.1 has been released. It contains fixes so it can be installed on current versions of Linux."
 msgstr "Verze1.6.5.1 byla zveřejněna. Obsahuje opravy, takže může být pohodlně nainstalována na aktuální verzi Linuxu."
 
 #. Tag: title
-#: software.xml:86
+#: software.xml:77
 #, no-c-format
 msgid "2008-01-12: BibleTime 1.7alpha1"
 msgstr "2008-01-12: BibleTime 1.7alpha1"
 
 #. Tag: para
-#: software.xml:87
+#: software.xml:78
 #, no-c-format
 msgid "The new alpha (testing) version for the KDE 4.0 environment is available. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\"> Read the announcement</ulink> to know more about the current status and the future of BibleTime."
 msgstr "Je dostupná alpha (testovací) verze pro prostředí KDE 4.0. <ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:_1.7alpha1_release\"> Přečti si podrobnosti</ulink>, aby ses dozvěděl o změnách a plánech v BibleTime."
 
 #. Tag: title
-#: software.xml:94
+#: software.xml:85
 #, no-c-format
 msgid "2007-11-04: BibleTime 1.6.5"
 msgstr "2007-11-04: BibleTime 1.6.5"
 
 #. Tag: para
-#: software.xml:95
+#: software.xml:86
 #, no-c-format
 msgid "A new bugfix version of BibleTime is now available. It contains several important fixes in the bookshelfmanager, the sessionmanagement and in the text-display windows. It also ships with updated translations. The source code can be downloaded from our SourceForge page. Binary packages will be made available soon."
 msgstr ""
 
 #. Tag: title
-#: software.xml:103
+#: software.xml:94
 #, no-c-format
 msgid "2007-04-18: BibleTime 1.6.4"
 msgstr "2007-04-18: BibleTime 1.6.4"
 
 #. Tag: para
-#: software.xml:104
+#: software.xml:95
 #, no-c-format
 msgid "A new bugfix release of BibleTime has been released today. Version 1.6.4 fixes issues with the NETfree Bible module, the search and also contains several smaller improvements. The bibletime-i18n translations contains updated Polish and Chinese translation files."
 msgstr ""
 
 #. Tag: title
-#: software.xml:111
+#: software.xml:102
 #, no-c-format
 msgid "2007-01-29: BibleTime 1.6.3"
 msgstr "2007-01-29: BibleTime 1.6.3"
 
 #. Tag: para
-#: software.xml:112
+#: software.xml:103
 #, no-c-format
 msgid "Version 1.6.3 has been released today. Besides several minor bugfixes the searching in unicode modules works now again. The translations have been updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for a detailed list of changes. We hope to provide packages for the major Linux distributions soon. To install from source code you need Sword 1.5.9 and CLucene 0.9.16a. Packages for these two are available at our download location."
 msgstr ""
 
 #. Tag: title
-#: software.xml:123
+#: software.xml:114
 #, no-c-format
 msgid "2006-12-10: BibleTime 1.6.2"
 msgstr "2006-12-10: BibleTime 1.6.2"
 
 #. Tag: para
-#: software.xml:124
+#: software.xml:115
 #, no-c-format
 msgid "A new version has been released today. It contains several important bugfxies, a summary of the changes is available in the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink>. The translation package bibletime-i18n has been updated, as well."
 msgstr ""
 
 #. Tag: title
-#: software.xml:131
+#: software.xml:122
 #, no-c-format
 msgid "2006-10-26: BibleTime 1.6.1"
 msgstr "2006-10-26: BibleTime 1.6.1"
 
 #. Tag: para
-#: software.xml:132
+#: software.xml:123
 #, no-c-format
 msgid "A new version of the BibleTime software has been made available today. BibleTime 1.6.1 contains several fixes for bugs which have been found in version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for details. The translation package bibletime-i18n has also been updated. Sword 1.5.9 and CLucene 0.9.15 are required before installing from source code. But we hope to provide binary packages soon."
 msgstr ""
 
 #. Tag: title
-#: software.xml:142
+#: software.xml:133
 #, no-c-format
 msgid "2006-09-22: BibleTime 1.6"
 msgstr "2006-09-22: BibleTime 1.6"
 
 #. Tag: para
-#: software.xml:143
+#: software.xml:134
 #, no-c-format
 msgid "A new version of BibleTime has been made available today. It includes many fixes and several new features like the instant search in the installed works."
-msgstr ""
+msgstr "Nová verze BibleTime byla dnes zveřejněna. Obsahuje mnoho oprav a některé nové možnosti jako rychlé vyhledavaní v nainstalovaných dokumentech."
 
 #. Tag: para
-#: software.xml:146
+#: software.xml:137
 #, no-c-format
 msgid "You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this release. A detailed changelog is available <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> here</ulink>"
 msgstr "Můsíte nainstalovat Sword 1.5.9 and CLucene 0.9.15 před instalací beta verze. Dailní changelog je dostupný <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> zde</ulink>"
 
 #. Tag: title
-#: software.xml:152
+#: software.xml:143
 #, no-c-format
 msgid "2006-06-17: BibleTime 1.6beta3"
 msgstr "2006-06-17: BibleTime 1.6beta3"
 
 #. Tag: para
-#: software.xml:153
+#: software.xml:144
 #, no-c-format
 msgid "The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\"> Changelog</ulink> for the list of changes."
 msgstr ""
 
 #. Tag: para
-#: software.xml:156
+#: software.xml:147
 #, no-c-format
 msgid "You need to install CLucene 0.9.12 before installing this preview release."
 msgstr "Můsíte nainstalovat CLucerne 0.9.12 před instalací beta verze."
 
 #. Tag: title
-#: software.xml:160
+#: software.xml:151
 #, no-c-format
 msgid "2006-04-26: BibleTime 1.6beta2"
 msgstr "2006-04-26: BibleTime 1.6beta2"
 
 #. Tag: para
-#: software.xml:161
+#: software.xml:152
 #, no-c-format
 msgid "The second preview release of BibleTime 1.6 is out now. See <ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\"> Changelog</ulink> for more details."
 msgstr "Další testovací vezre BibleTime 1.6 byla vypůštěna. Shlédněte<ulink url=\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\"> Changelog</ulink> pro víc detailů."
 
 #. Tag: para
-#: software.xml:165
+#: software.xml:156
 #, no-c-format
 msgid "You need to install CLucene 0.9.10 before installing this beta release."
 msgstr "Můsíte nainstalovat CLucerne 0.9.10 před instalací beta verze."
 
 #. Tag: title
-#: software.xml:169
+#: software.xml:160
 #, no-c-format
 msgid "2006-03-18: BibleTime 1.6beta1"
 msgstr "2006-03-18: BibleTime 1.6beta1"
 
 #. Tag: para
-#: software.xml:170
+#: software.xml:161
 #, no-c-format
 msgid "The first beta release of the upcoming version 1.6 has been released today."
 msgstr "První beta nadcházející verze 1.6 byla dnes zveřejněna."
 
 #. Tag: para
-#: software.xml:172
+#: software.xml:163
 #, no-c-format
 msgid "Among many bug fixes it includes a new instant search feature, which enabled BibleTime to search in your installed works in a fraction of a second."
-msgstr ""
+msgstr "Kromně mnoha oprav obsahuje noví okamžité vyhledavání, které dovoluje prohledávat nainstalované dokumenty ve BibleTime během pár sekund."
 
 #. Tag: para
-#: software.xml:175
+#: software.xml:166
 #, no-c-format
 msgid "The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/\">clucene.sf.net</ulink>) is required to compile and install BibleTime 1.6beta1. Please report all found bugs and your suggestions using our trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/projects/bibletime.</ulink>"
 msgstr ""
 
 #. Tag: title
-#: software.xml:183
+#: software.xml:174
 #, no-c-format
 msgid "2006-03-17: Locked German Bible"
 msgstr "2006-03-17: Dokončena německá Bible"
 
 #. Tag: para
-#: software.xml:184
+#: software.xml:175
 #, no-c-format
 msgid "The German publisher <ulink url=\"http://www.brunnen-verlag.de/\">Brunnen</ulink> decided to release their excellent, modern translation \"Hoffnung f&#195;&#188;r Alle\" (GerHfa2002) for use by the Sword community."
 msgstr ""
 
 #. Tag: para
-#: software.xml:189
+#: software.xml:180
 #, no-c-format
 msgid "The text contains headings, footnotes, ... and can be downloaded <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> here</ulink>. This module is locked. If you want to use it, you can buy an unlock key for 22 &#8364; <ulink url=\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> directly from Brunnen</ulink>. CrossWire is not involved in the financial transaction and receives no share of the money."
 msgstr ""
 
 #. Tag: para
-#: software.xml:197
+#: software.xml:188
 #, no-c-format
 msgid "We hope that in future, more publishers <ulink url=\"http://crosswire.org/sword/publisher/index.jsp\">will make use of this possibility</ulink> to distribute their copyrighted material for use with The SWORD Project."
 msgstr ""
 
 #. Tag: para
-#: software.xml:201
+#: software.xml:192
 #, no-c-format
 msgid "This will ultimately increase the recent material available through The SWORD Project and help users with studying God's word. Stay tuned for more module updates soon!"
 msgstr ""
 
 #. Tag: title
-#: software.xml:206
+#: software.xml:197
 #, no-c-format
 msgid "2005-12-18: Translations, packages, FAQ"
 msgstr "2005-12-18: Překlady, balíčky, FAQ"
 
 #. Tag: para
-#: software.xml:207
+#: software.xml:198
 #, no-c-format
 msgid "A new release of our translations package is now available at our download location. It includes many updates of the user interface translations. We hope to provide binary packages soon."
 msgstr ""
 
 #. Tag: para
-#: software.xml:211
+#: software.xml:202
 #, no-c-format
 msgid "Perhaps you noticed all the package updates in the last few months. Jeremy Erickson is working on it and is a great blessing for our team."
 msgstr ""
 
 #. Tag: para
-#: software.xml:214
-#, fuzzy, no-c-format
+#: software.xml:205
+#, no-c-format
 msgid "The FAQ received some minor updates."
-msgstr "FAQ přijala pár důležitých aktualizací"
+msgstr "FAQ obdržela pár důležitých aktualizací."
+
+#. Tag: title
+#: software.xml:208
+#, no-c-format
+msgid "2005-11-13: BibleTime 1.5.3"
+msgstr "2005-11-13: BibleTime 1.5.3"
+
+#. Tag: para
+#: software.xml:209
+#, no-c-format
+msgid "A new bugfix release is out now. Version 1.5.3 contains only a few fixes, mainly to fully support locked modules and to compile with KDE 3.0 - 3.3."
+msgstr ""
+
+#. Tag: para
+#: software.xml:212
+#, no-c-format
+msgid "Get the new release in the download section. Binary packages should be available soon."
+msgstr ""
+
+#. Tag: title
+#: software.xml:216
+#, no-c-format
+msgid "2005-10-16: BibleTime 1.5.2"
+msgstr "2005-10-16: BibleTime 1.5.2"
+
+#. Tag: para
+#: software.xml:217
+#, no-c-format
+msgid "A new bugfix release has been released today. Version 1.5.2 contains fixes for most of the bugs found in 1.5.1. It also contains some minor improvements to the user interface. See the file Changelog in the source code package for more details."
+msgstr ""
+
+#. Tag: para
+#: software.xml:222
+#, no-c-format
+msgid "BibleTime 1.5.2 is available from the usual places. We'd be glad if binary packages could be prepared to simplify BibleTime's installation."
+msgstr "BibleTime 1.5.2 je dostupný na obvyklém místě. Byli bychom rádi, kdyby jste připravili binární balíčky pro snadnější instalaci BibleTimu."
+
+#. Tag: title
+#: software.xml:227
+#, no-c-format
+msgid "2005-09-28: New forums"
+msgstr "Nové forum"
+
+#. Tag: para
+#: software.xml:228
+#, no-c-format
+msgid "Because the old forum software turned out to be insecure we installed a new forum software today. We hope that you will continue to use the forums."
+msgstr ""
+
+#. Tag: title
+#: software.xml:233
+#, no-c-format
+msgid "2005-09-12: BibleTime 1.5.1 and translations"
+msgstr "2005-09-12: BibleTime 1.5.1 a překlady"
+
+#. Tag: para
+#: software.xml:234
+#, no-c-format
+msgid "The bugfix release 1.5.1 is available now at our download location. A first version of BibleTime's translation files has been released, too."
+msgstr ""
+
+#. Tag: title
+#: software.xml:239
+#, no-c-format
+msgid "2005-07-16: BibleTime 1.5"
+msgstr "2005-07-16: BibleTime 1.5"
+
+#. Tag: para
+#: software.xml:240
+#, no-c-format
+msgid "BibleTime 1.5 is available now. It contains many new features and improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is available in the download section. We hope to provide binary and translation packages for the most important Linux distributions in the next few weeks."
+msgstr ""
+
+#. Tag: para
+#: software.xml:245
+#, no-c-format
+msgid "Please use our new forums to discuss about this new release. Translators are encouraged to update their translations."
+msgstr "Prosím použijte naše nové forum pro diskuzi nad tímto novým vydáním. Překladatelé jsou prošeni o aktalizaci jejich překladu."
 
 #. Tag: title
 #: software_about.xml:16
@@ -812,7 +903,7 @@ msgstr "Intro"
 #: software_about.xml:17
 #, no-c-format
 msgid "BibleTime is a Bible study application for Linux. It is based on the <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> and uses the <ulink url=\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
-msgstr ""
+msgstr "BibleTime je aplikací pro studium Bible pro platformu Linux. Je založena na <ulink url=\"http://www.kde.org/\">K Desktop Environment</ulink> a použivá <ulink url=\"http://www.crosswire.org/sword/\"> Sword </ulink>programatorskou knihovnu pro úpravu biblibkého textu, komentářu, slovníků a knih poskytovaných <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 
 #
 #. Tag: title
@@ -825,19 +916,19 @@ msgstr "Historie BibleTime"
 #: software_about.xml:30
 #, no-c-format
 msgid "Back in June of 1999 Thomas Hagedorn, Thorsten Uhlmann and Joachim Ansorg started to work on a Bible study application for KDE 1.0."
-msgstr ""
+msgstr "V roce 1999 Thomas Hagedorn, Thorsten Uhlmann and Joachim Ansorg začali pracovat nad aplikací pro studium Bible pro prostředí KDE 1.0."
 
 #. Tag: para
 #: software_about.xml:34
 #, no-c-format
 msgid "The first version was released two months later as version 0.1. This version was very simple and supported only the most basic things."
-msgstr ""
+msgstr "První verze  byla zveřejněna dva měsíce po verzi 0.1. Tato verze byla velmi jednoduchá a podporovála jen nejzákladnější věci."
 
 #. Tag: para
 #: software_about.xml:38
 #, no-c-format
 msgid "After three months of hard work version 0.2 was released to the public. This version was usable, it supported basic printing, searching and offered a simple editor for personal notes."
-msgstr ""
+msgstr "Po třech měsících těžké práce byla zveřejněna verze 0.2. Tato verze už byla pokročilejší. Obsahovala možnost základního tisku, vyhledavání a umožňovala vkládaní vlastních poznámek pomocí jednoduchého editoru."
 
 #. Tag: para
 #: software_about.xml:42
@@ -849,13 +940,13 @@ msgstr "BibleTime byla přenesena na platformu KDE verze 2 a byla totálně přd
 #: software_about.xml:47
 #, no-c-format
 msgid "BibleTime 1.0, which was released almost one year after version 0.3 and was the first version we considered as stable."
-msgstr ""
+msgstr "Verze 1.0, která byla vydana po roce od verze 0.3, byla označená jako první stabilní verze."
 
 #. Tag: para
 #: software_about.xml:51
 #, no-c-format
 msgid "BibleTime 1.1 and 1.2 followed later on. BibleTime 1.2 is the first version of BibleTime for version 3.0 of KDE."
-msgstr ""
+msgstr "Později následovaly verze 1.1 a 1.2. BibleTime 1.2 byla první verzí podpoující KDE 3.0."
 
 #. Tag: para
 #: software_about.xml:54
@@ -873,7 +964,7 @@ msgstr ""
 #: software_about.xml:62
 #, no-c-format
 msgid "BibleTime version 1.7 was released in January 2008, it is the first version developed with QT4 for use with KDE4."
-msgstr ""
+msgstr "BibleTime verze 1.7 byla vydána v lednu 2008, je to první verze využivající nové QT4 použivané v KDE 4."
 
 #
 #. Tag: title
@@ -905,7 +996,7 @@ msgstr "Navrhněte změnu"
 #: software_contact.xml:33
 #, no-c-format
 msgid "If you have an idea how to improve BibleTime please use this link to tell the developers about it."
-msgstr ""
+msgstr "Jesli máte nápad jak opravit BibleTime prosím kontaktujte vyvojáře na tomto odkazu."
 
 #
 #. Tag: ulink
@@ -918,7 +1009,7 @@ msgstr "Nahlaste chybu webových stránek"
 #: software_contact.xml:41
 #, no-c-format
 msgid "If you found a problem with the website or have a suggestion how it could be improved, please use this link to tell the webmaster about it."
-msgstr ""
+msgstr "Pokud naleznete chybu na webových stránkách nebo máte nápad jak může být nějaká chyba řešena, prosím kontaktujte webmastera na tomto linku."
 
 #
 #. Tag: title
@@ -981,7 +1072,7 @@ msgstr "Chybí překlad!"
 #: software_faq.xml:51
 #, no-c-format
 msgid "Please install the package bibletime-i18n which contains the translations of the daily tips, the handbook, the installation instructions and the Bible study howto."
-msgstr ""
+msgstr "Prosíme nainstalujte si balíček bibletime-i18n který obsahuje tipy pro překladatele, příručku, instalační instrukce a \"Jak studovat Bibli\"."
 
 #
 #. Tag: title
@@ -993,9 +1084,9 @@ msgstr "Problémy s ovládáním"
 #
 #. Tag: para
 #: software_faq.xml:62
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Is it possible to search for a specific Strong number?"
-msgstr "Je možné vyhledávat specifický řetězec Strong number?"
+msgstr "Je možné vyhledávat specifické Strongovo číslo?"
 
 #. Tag: title
 #: software_faq.xml:68
@@ -1020,7 +1111,7 @@ msgstr "Používání BibleTime 1.5 nebo pozdějších"
 #: software_faq.xml:74
 #, no-c-format
 msgid "The search interface now offers to set the type of your search. You can choose between headings, footnotes, Strongs numbers and morphological numbers."
-msgstr ""
+msgstr "Vyhledávač teď umožňuje prohledávat více věcí. Mužete prohledávat nádpisy, poznámky, Strongova čísla, morfologická čísla a další..."
 
 #
 #. Tag: para
@@ -1033,14 +1124,14 @@ msgstr "Proč vidím jenom otazníky místo Unicode zanů?"
 #: software_faq.xml:88
 #, no-c-format
 msgid "First make sure you have the latest version of the module which has the problems! Check <ulink url=\"http://www.crosswire.org/sword\">www.crosswire.org/sword</ulink> for this."
-msgstr ""
+msgstr "Prvně se ujistěte jestli máte nejnovější verzi modulu. Zkontrolujte to na <ulink url=\"http://www.crosswire.org/sword\">www.crosswire.org/sword</ulink>."
 
 #
 #. Tag: para
 #: software_faq.xml:91
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "You have to install an unicode font like Code2000, Arial Unicode MS or Bitstream Cyberbit to display the special unicode characters. Check the section \"Configuring BibleTime->Options Dialog->Fonts\" in the handbook of BibleTime how to setup Unicode fonts under Linux."
-msgstr ""
+msgstr "musíte nainstalovat unicode font podobný code2000, Arial Unicode MS nebo Bitstream Cyberbit pro zobrazení speciálních znaků. Zkontroluj"
 
 #
 #. Tag: title
@@ -1051,9 +1142,9 @@ msgstr "Moduly"
 
 #. Tag: para
 #: software_faq.xml:101
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The KJV shows no Strong numbers in the NT"
-msgstr "KJV neukazuje Strong nubers v NT"
+msgstr "KJV nezobrazuje Strongova čísla v NT"
 
 #. Tag: para
 #: software_faq.xml:105
@@ -1077,9 +1168,9 @@ msgstr ""
 #
 #. Tag: para
 #: software_faq.xml:126
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Why is one of the two testaments of a Bible module empty?"
-msgstr "Proč je jednen z zákonů Bible modulů prázdný?"
+msgstr "Proč je jednen z zákonů v Bible modulů prázdný?"
 
 #. Tag: para
 #: software_faq.xml:130
@@ -1097,13 +1188,13 @@ msgstr "Je BibleTime dostupná v mém rodném jazyce?"
 #: software_faq.xml:145
 #, no-c-format
 msgid "BibleTime is available in several languages, which are all listed on our <olink targetdocent=\"translation\">translations page</olink>. The translations are available in the package bibletime-i18n."
-msgstr ""
+msgstr "BibleTime je dostupná v několika jazycích, které jsou umístěny na našich <olink targetdocent=\"translation\">stránkách překladů</olink>"
 
 #. Tag: para
 #: software_faq.xml:148
 #, no-c-format
 msgid "If a translation into your language is not available, please consider to help to make it available. More information is available on out <olink targetdocent=\"translation\">translations page.</olink>."
-msgstr ""
+msgstr "Pokud překlad do vašeho jazyka není dostupný, prosím pomozte nám ho zprostředkovat. Více indormací mužete získat na <olink targetdocent=\"translation\">stránkach překladů.</olink>."
 
 #. Tag: title
 #: software_imprint.xml:15
@@ -1332,6 +1423,10 @@ msgid ""
 "            --prefix=/usr</command>\n"
 "          </screen>If you forget this, you'll likely not be able to access the handbook and the BibleStudy HowTo."
 msgstr ""
+"Debian (a odvozené distribuce) použivají nestandartní cestu pro ukládání dokumentace KDE aplikací. Tím pádem řádku ./configure musíte v tomto případě změnit na: <screen>\n"
+"            <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure\n"
+"            --prefix=/usr</command>\n"
+"          </screen>Jestli na to zapomenete, nejspíš nebudete mít přístup k příručce ani k \"Jak studovat Bibli\""
 
 #. Tag: para
 #: software_installation.xml:152
@@ -1344,6 +1439,12 @@ msgid ""
 "            <command>make install</command>\n"
 "          </screen>Please see the warning regarding nonstandard paths in the previous paragraph."
 msgstr ""
+"Zkompilujte a nainstalujte překlad interfacu BibleTime (bibletime-i18n): <screen>\n"
+"            <command>./configure --prefix=&lt;váš KDE\n"
+"            adresář&gt;</command>\n"
+"            <command>make</command>\n"
+"            <command>make install</command>\n"
+"          </screen>Prosím shlédněte varování pro nestandartní cesty v předchozím odstavci."
 
 #. Tag: title
 #: software_installation.xml:161
@@ -1355,13 +1456,13 @@ msgstr "Instalační práce"
 #: software_installation.xml:162
 #, no-c-format
 msgid "You need Sword modules to work with BibleTime. Since version 1.4 BibleTime offers a userfriendly dialog (the Bookshelf Manager) to install/update/remove works. We strongly recommend this way to install works on your computer."
-msgstr ""
+msgstr "Potřebujete  Sword moduly pro práci s BibleTime. Od verze 1.4 BibleTime nabízi uživatelsky přívětivý dialog (manager záložek) pro instalování/aktualizování/odebirání dokumentů. Doporučujeme používat tuto cestu pro instalací dokumentů na váš počítač."
 
 #. Tag: para
 #: software_installation.xml:167
 #, no-c-format
 msgid "Instructions for manual installation is available on <ulink url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\"> www.crosswire.org/sword/modules</ulink>."
-msgstr ""
+msgstr "Instrukce a instalační manuál je dostupný na <ulink url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\"> www.crosswire.org/sword/modules</ulink>."
 
 #. Tag: title
 #: software_installation.xml:171
@@ -2147,17 +2248,16 @@ msgstr ""
 msgid "Biblesoftware for Linux"
 msgstr "Biblický software pro Linux"
 
-#
 #. Tag: title
 #: software_links.xml:51
-#, fuzzy, no-c-format
-msgid "<ulink url=\"http://www.xiphos.org/\"> Xiphos</ulink>."
-msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
+#, no-c-format
+msgid "<ulink url=\"http://gnomesword.sf.net/\"> GnomeSword</ulink>."
+msgstr "<ulink url=\"http://gnomesword.sf.net/\"> GnomeSword</ulink>."
 
 #. Tag: para
 #: software_links.xml:54
-#, fuzzy, no-c-format
-msgid "Xiphos is a Sword frontend using the Gnome toolkit. A really good application. Be sure to check it out!"
+#, no-c-format
+msgid "GnomeSword is a Sword frontend using the Gnome toolkit. A really good application. Be sure to check it out!"
 msgstr "GnomeSword je nadstavba Sword využívající Gnome toolkit. Je velmi dobrou aplikací. Určitě ji vyzkoušejte!"
 
 #
@@ -2177,7 +2277,7 @@ msgstr "<ulink url=\"http://www.bibleworks.com/\"> BibleWorks</ulink>."
 #: software_links.xml:64
 #, no-c-format
 msgid "BibleWorks is one of the best commercial Bible study applications for Windows! Very good but very expensive, too. Very useful for Bible scholars."
-msgstr ""
+msgstr "BibleWorks je jednou z nejlepších aplikací pro studium Bible pro Windows! Je velmi dobrá, ale je taky velmi drahá. Velmi užitečná pro biblické vzdělavání."
 
 #. Tag: title
 #: software_links.xml:69
@@ -2214,7 +2314,7 @@ msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
 #: software_links.xml:86
 #, no-c-format
 msgid "Logos is one of the best commercial Bible study applications for Windows. You can buy a lot of texts to enhance it."
-msgstr ""
+msgstr "Logos je jedna z nejlepších aplikací pro studium Bible na počitačích běžících pod Windows. Můžete si dokoupit mnoho rozšiřujících textů."
 
 #. Tag: title
 #: software_links.xml:91
@@ -2241,7 +2341,7 @@ msgstr "<ulink url=\"http://www.crosswire.org/sword/\">Swordpro Windows</ulink>.
 #: software_links.xml:101
 #, no-c-format
 msgid "This is the Windows Bible study application made by the Sword team! Sword is supported by the Crosswire Bible Society."
-msgstr ""
+msgstr "Toto je aplikace pro studium Bible pro operační system Windows vytvořená týmem Sword! Sword je podporován přez Crosswire Bible Society."
 
 #. Tag: title
 #: software_links.xml:106
@@ -2251,9 +2351,9 @@ msgstr "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</uli
 
 #. Tag: para
 #: software_links.xml:109
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "Tnach is a free, advanced software tool for anyone dealing with Hebrew and Greek. It can be downloaded for a donation."
-msgstr ""
+msgstr "Tnach je volný a pokročilý softwerový nástroj pro každého pro výuku hebrejštiny a řečtiny. Může te ho stáhnout za příspěvek."
 
 #. Tag: title
 #: software_links.xml:114
@@ -2265,7 +2365,7 @@ msgstr "<ulink url=\"http://www.volksbibel.de/\"> Volksbibel</ulink>."
 #: software_links.xml:117
 #, no-c-format
 msgid "Volksbibel 2000.2 is a German, metacard based software Bible study tool for Windows, Linux and Mac. Althouth there are not so many texts as other software packages have, it has some cool things like basic map support included. If you are German try it out!"
-msgstr ""
+msgstr "Volksbibel 2000.2 je německý program založený na \"metacards\" pro OS Windows, Linux a Mac. Přestože zatím nemá tak mnoho textů jako jiné programy, má některé zajímavé věci jako je na příklad integrována základní podpora map. Pokud umíte německy vyskoušejte ho!"
 
 #
 #. Tag: title
@@ -2286,7 +2386,7 @@ msgstr "<ulink url=\"http://www.macsword.com/\">MacSword pro OS X</ulink>."
 #: software_links.xml:130
 #, no-c-format
 msgid "MacSword is a new Bible study application for the new Macintosh OS X system. The screenshots look very promising!"
-msgstr ""
+msgstr "MacSword je novou apilkací pro studium Bible pro operační systém Macintosh X. Screenshoty vypadají valmi slibně!"
 
 #
 #. Tag: title
@@ -2306,7 +2406,7 @@ msgstr "<ulink url=\"http://www.sourceforge.net/\"> SourceForge</ulink>."
 #: software_links.xml:141
 #, no-c-format
 msgid "SourceForge provides us with the tools to develop BibleTime with many team members at the same time! We save a lot of time and money by using their services."
-msgstr ""
+msgstr "SourceForge spolu s nástroji pro vývoj BibleTime nám umožňují spolupráci s mnoha členy teamu ve stejném čase. Využitím jejich služeb šetříme čas i peníze. "
 
 #
 #. Tag: title
@@ -2414,8 +2514,8 @@ msgstr "<ulink url=\"http://christianoss.wordpress.com/2009/02/01/project-spotli
 
 #. Tag: attribution
 #: software_press.xml:25
-#, fuzzy, no-c-format
-msgid "Raoul Snyman (&#169; 2009 Raoul Snyman)"
+#, no-c-format
+msgid "Raoul Snyerman (&#169; 2009 Raoul Snyerman)"
 msgstr "Raoul Snyerman (&#169; 2009 Raoul Snyerman)"
 
 #. Tag: para
@@ -2426,7 +2526,7 @@ msgstr ""
 
 #. Tag: para
 #: software_press.xml:34
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "On <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html\">dot.kde.org</ulink>, Andreas Pour draws the following conclusion in his review:"
 msgstr "Na <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html\">dot.kde.org</ulink>, Andreas Pour napsal následující postřehy pro svůj review:"
 
@@ -2497,7 +2597,7 @@ msgstr "Sword CD"
 #: software_swordcd.xml:16
 #, no-c-format
 msgid "Sword CD order form not available"
-msgstr ""
+msgstr "Objednavací formulář Sword CD není dostupný"
 
 #. Tag: para
 #: software_swordcd.xml:17
@@ -2509,13 +2609,13 @@ msgstr ""
 #: software_swordcdsend.xml:10
 #, no-c-format
 msgid "Sword CD order"
-msgstr ""
+msgstr "Objednaní Sword CD"
 
 #. Tag: title
 #: software_swordcdsend.xml:15
 #, no-c-format
 msgid "CD order sent"
-msgstr ""
+msgstr "Zaslání objednaného CD"
 
 #. Tag: title
 #: translation.xml:16
@@ -2537,9 +2637,9 @@ msgstr "<para>Přeložte www.bibletime.info webové stránky.</para>"
 
 #. Tag: para
 #: translation.xml:26
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<para>Translate the program's User Interface.</para>"
-msgstr "<para>Přeložte program.</para>"
+msgstr "<para>Přeložte interface programu.</para>"
 
 #
 #. Tag: para
@@ -2558,7 +2658,7 @@ msgstr "<para>Přeložte příručku k programu</para>"
 #: translation.xml:35
 #, no-c-format
 msgid "<para>Translate the biblical booknames.</para>"
-msgstr ""
+msgstr "<para>Přeložte biblické knihy.</para>"
 
 #. Tag: para
 #: translation.xml:38
@@ -2576,13 +2676,13 @@ msgstr ""
 #: translation.xml:55
 #, no-c-format
 msgid "Download a template you want to translate or an existing translation you want to enhance."
-msgstr ""
+msgstr "Stáhněte předlohu kterou chcete přeložit nebo existující překlad který chcete rozšířit."
 
 #. Tag: para
 #: translation.xml:59
 #, no-c-format
 msgid "Use one of the recommended programs mentioned below or some other program and edit the translation."
-msgstr ""
+msgstr "Použijte jeden z doporučovaných programů (vyjmenováných výše) nebo jiný a upravte překlad."
 
 #. Tag: para
 #: translation.xml:63
@@ -2594,19 +2694,19 @@ msgstr "Pošlete překlad na miling list překladatelů."
 #: translation.xml:67
 #, no-c-format
 msgid "Developers will integrate your work as soon as possible. The statistics will be updated after that."
-msgstr ""
+msgstr "Vývojáři integrují vaši práci nejrychleji jak to půjde. Statistiky boudou aktualizovány teprve pak."
 
 #. Tag: para
 #: translation.xml:71
 #, no-c-format
 msgid "For editing .po files we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file editor suitable for our documentation and website translations. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format."
-msgstr ""
+msgstr "Pro editaci .po souborů doporučujeme výborný a kvalitní program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> fungující na  KDE.Je intuitivní a má mnoho nastavení. <ulink url=\"http://www.poedit.net/\">Poedit</ulink>je meziplatformní editor určený pro překlad našich webových stránek a dokumentace. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (část meziplatformního Qt development balíčku) je určen pro překlad interfacu programu prostřednictvím .ts souborů."
 
 #. Tag: para
 #: translation.xml:82
 #, no-c-format
 msgid "A list of the language abbreviations is available at <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\"> www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
-msgstr ""
+msgstr "Soupiska jazykových standardů<ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\"> www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 
 #. Tag: title
 #: translation.xml:87
@@ -2618,13 +2718,13 @@ msgstr "<title>Přeložte www.bibletime.info website.</title>"
 #: translation.xml:88
 #, no-c-format
 msgid "If a translation of the website to your language does not yet exist, you can download and translate the <ulink url=\"/po/bibletime_website_template.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
-msgstr ""
+msgstr "Jestli překlad do vašeho jazyka stále neexistuje, můžete si stáhnout a přeložit <ulink url=\"/po/bibletime_website_template.pot\">překladatelskou web předlohu</ulink>. Jestli chcete aktualizovat stávajicí překlad, použijte odkaz nad tabulkou zobrazující stav překladu do vašeho jazyka a stáhněte daný soubor. Běžně přidáváme navrch stránek vlajku a lokalizaci stránek, když je překlad hotov z cca 80%."
 
 #. Tag: title
 #: translation.xml:98
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<title>Translate the program's User Interface.</title>"
-msgstr "<title>Přeložte program</title>"
+msgstr "<title>Přeložte interface program</title>"
 
 #. Tag: para
 #: translation.xml:99
@@ -2675,92 +2775,57 @@ msgstr "<title>Přeložte názvy biblických knih</title>"
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
 msgstr ""
 
-#~ msgid "2005-11-13: BibleTime 1.5.3"
-#~ msgstr "2005-11-13: BibleTime 1.5.3"
-
-#~ msgid "2005-10-16: BibleTime 1.5.2"
-#~ msgstr "2005-10-16: BibleTime 1.5.2"
-
-#~ msgid "2005-09-28: New forums"
-#~ msgstr "Nové forum"
-
-#~ msgid "2005-09-12: BibleTime 1.5.1 and translations"
-#~ msgstr "2005-09-12: BibleTime 1.5.1 a překlady"
-
-#~ msgid "2005-07-16: BibleTime 1.5"
-#~ msgstr "2005-07-16: BibleTime 1.5"
-
-#~ msgid "<ulink url=\"http://gnomesword.sf.net/\"> GnomeSword</ulink>."
-#~ msgstr "<ulink url=\"http://gnomesword.sf.net/\"> GnomeSword</ulink>."
-
 #
 #~ msgid "The Biblestudy HowTo"
 #~ msgstr "Jak studovat Bibli"
-
 #
 #~ msgid "<firstname>Bob</firstname> <surname>Harman</surname>"
 #~ msgstr "<firstname>Bob</firstname> <surname>Harman</surname>"
-
 #
 #~ msgid "ROLES_OF_TRANSLATORS"
 #~ msgstr "ROLES_OF_TRANSLATORS"
-
 #
 #~ msgid "The team of &bibletime;, info@bibletime.info"
 #~ msgstr "Tým &bibletime;, info@bibletime.info"
-
 #
 #~ msgid "Bob Harman"
 #~ msgstr "Bob Harman"
-
 #
 #~ msgid "The copyright of this text is held by the author Bob Harman. The text was adapted for publication with BibleTime by Fred Saalbach."
 #~ msgstr "Autorská práva (copyright) k tomuto textu vlastní autor Bob Harman. Text byl přizpůsoben k publikaci spolu s aplikací BibleTime Fredem Saalbachem."
-
 #
 #~ msgid "Non exclusive serial rights for this distribution of this document with the &bibletime; Software have been made. Redistribution as part of the Bibletime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
 #~ msgstr "Pro tuto distribuci tohoto dokumentu spolu s aplikací BibleTime byla poskytnuta neexklusivní práva. Redistribuce jako součást aplikace BibleTime bez úprav a omezená reprodukce podle ustanovení o \"slušném užití\" Amerického zákona o autorských právech jsou také dovoleny."
-
 #
 #~ msgid "For questions regarding the use of this material contact Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
 #~ msgstr "Pokud máte otázky ohledně používání tohoto textu, kontaktujte autora na adrese Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-
 #
 #~ msgid "Scripture quotes are from the New American Standard Bible unless otherwise indicated"
 #~ msgstr "Biblické citace jsou z překladu Nové Bible Kralické, pokud není uvedeno jinak."
-
 #
 #~ msgid "Abstract"
 #~ msgstr "Původní anglické znění:"
-
 #
 #~ msgid "The <application>Biblestudy HowTo</application> is a guide for studying the Bible."
 #~ msgstr "This the copyright of this text is held by the author Bob Harman. The text was adapted for publication with Bibletime by Fred Saalbach."
-
 #
 #~ msgid "It is the hope of the &bibletime; team that this HowTo will provoke the readers to study the scriptures to see what they say. This particular study guide has been chosen as it takes care not to advocate any particular denominational doctrine. We expect you to read and study the scriptures to understand what they say. If you start with the attitude that you want to have the Lord sow his word in your heart He will not disappoint you."
 #~ msgstr "Non exclusive serial rights for this distribution of this document with the Bibletime Software have been made. Redistribution as part of the Bibletime software without modification and limited reproduction as provided by the \"fair use\" provisions of the US copyright code are also permitted."
-
 #
 #~ msgid "Bible"
 #~ msgstr "For questions regarding the use of this material contact Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email>ncc@ncchampton.org</email>."
-
 #
 #~ msgid "Study"
 #~ msgstr "Scripture quotes are from the New American Standard Bible unless otherwise indicated"
-
 #
 #~ msgid "HowTo"
 #~ msgstr "Abstrakt"
-
 #
 #~ msgid "Bible Study Basics"
 #~ msgstr "Základy studia Bible"
-
 #
 #~ msgid "Our Purpose as we Approach the Bible"
 #~ msgstr "Proč přistupujeme k Bibli"
-
 #
 #, fuzzy
 #~ msgid "Jn.5:39-40<quote>You search the Scriptures, because you think that in them you have eternal life; and it is these that bear witness of Me; and you are unwilling to come to Me, that you may have life.</quote>"
@@ -2779,19 +2844,15 @@ msgstr ""
 #
 #~ msgid "There is neither merit nor profit in the reading of Scripture for its own sake, but only if it effectively introduces us to Jesus Christ. Whenever the Bible is read, what is needed is an eager expectation that through it we may meet Christ."
 #~ msgstr "V samotném čtení Písma není žádná zásluha ani zisk, pokud nás nepřivede k Ježíši Kristu. Při každém čtení Bible je potřeba horlivě očekávat, že se takto můžeme setkat s Ježíšem."
-
 #
 #~ msgid "Approaches to God's Word"
 #~ msgstr "Přístupy k Božímu Slovu"
-
 #
 #~ msgid "Hearing and reading provide a telescopic view of the scripture while study and memorization provide a microscopic view of scripture. Meditating on the scriptures brings hearing, reading, studying and memorization together and cements the word in our minds."
 #~ msgstr "Slyšení a čtení poskytuje všeobecný a celkový pohled na Písmo, zatímco studium a učení (memorování) nabízí pohled detailní. Meditace nad Písmem spojuje slyšení, čtení, studium a učení se a pomáhá uchovat slovo v naší mysli."
-
 #
 #~ msgid "Hear"
 #~ msgstr "Slyšení"
-
 #
 #, fuzzy
 #~ msgid "Lk.11:28 <quote>blessed are those who hear the word of God, and observe it.</quote>"
@@ -2800,7 +2861,6 @@ msgstr ""
 #
 #~ msgid "Read"
 #~ msgstr "Čtení"
-
 #
 #, fuzzy
 #~ msgid "Rev.1:3 <quote>Blessed is he who reads and those who hear the words of this prophecy [...]</quote>"
@@ -2824,7 +2884,6 @@ msgstr ""
 #
 #~ msgid "Memorize"
 #~ msgstr "Memorování"
-
 #
 #, fuzzy
 #~ msgid "Ps.119:11 <quote>Thy word I have hid in my heart, that I may not sin against Thee.</quote>"
@@ -2833,7 +2892,6 @@ msgstr ""
 #
 #~ msgid "Meditate"
 #~ msgstr "Meditování"
-
 #
 #, fuzzy
 #~ msgid "Ps.1:2-3 <quote>But his delight is in the law of the Lord, And in His law he meditates day and night. And he will be like a tree firmly planted by streams of water, Which yields its fruit in its season, And its leaf does not wither; And in whatever he does, he prospers.</quote>"
@@ -2842,51 +2900,39 @@ msgstr ""
 #
 #~ msgid "The Navigators illustrate this by saying that as the thumb can touch all the fingers, we can meditate on the Word as we do any of the first four. Meditation is a key to revelation. A new Christian needs to hear and read the Bible more than they need to study and memorize it. This is so that they become familiar with the overall message of the Bible."
 #~ msgstr "Navigátoři (?, v originále \"The Navigators\") to vysvětlují tak, že stejně jako palec, který se může dotknout každého prstu, můžeme meditovat nad Slovem každým z těch čtyřech způsobů. Meditace je klíčem ke zjevení. Nový křesťan potřebuje Bibli víc slyšet a číst, než studovat a učit se. Potřebuje se totiž seznámit s celkovým poselstvím Bible."
-
 #
 #~ msgid "Types of Bible Studies"
 #~ msgstr "Typy studia Bible"
-
 #
 #~ msgid "Topical Study"
 #~ msgstr "Tématické studium"
-
 #
 #~ msgid "Pick out a certain topic and follow it through, using cross-references or a concordance."
 #~ msgstr "Zvolí se určité téma a procházejí se místa, která o tématu mluví. Využívají se přitom křížové odkazy a konkordance."
-
 #
 #~ msgid "Character Study"
 #~ msgstr "Studium postavy"
-
 #
 #~ msgid "Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
 #~ msgstr "Studium života biblické postavy, např. Josefa v Gn 37-50."
-
 #
 #~ msgid "Expository Study"
 #~ msgstr "Vysvětlující studium"
-
 #
 #~ msgid "Studying a certain passage: paragraph, chapter, or book."
 #~ msgstr "Studium určité pasáže: odstavce, kapitoly nebo knihy."
-
 #
 #~ msgid "Basics of Correct Interpretation"
 #~ msgstr "Základy správného výkladu"
-
 #
 #~ msgid "Content"
 #~ msgstr "Obsah"
-
 #
 #~ msgid "What does it say? What does it say in the original language? Be careful with definitions. Don't read into it what it doesn't say."
 #~ msgstr "Co text říká? Co text říká v originálním jazyce? Dávejte si pozor na definice. Nesnažte se \"číst\" něco, co text neříká."
-
 #
 #~ msgid "Context"
 #~ msgstr "Souvislosti"
-
 #
 #, fuzzy
 #~ msgid "What do the verses around it say? &quot;Context is king&quot; is the rule -- the passage must make sense within the structure of the entire passage and book."
@@ -2895,19 +2941,15 @@ msgstr ""
 #
 #~ msgid "Cross-reference"
 #~ msgstr "Odkazy"
-
 #
 #~ msgid "What do other verses about this subject say through the rest of the Bible? God doesn't contradict Himself, so our interpretation needs to stand the test of other scriptures."
 #~ msgstr "Co říkají ostatní verše k tomuto tématu v celé Bibli? Bůh nepopře sám sebe, proto naše interpretace musí obstát vzhledem ke zbytku Písma."
-
 #
 #~ msgid "An Expository Study of Matthew 6:1-18"
 #~ msgstr "Vysvětlující studium Matouše 6,1-18"
-
 #
 #~ msgid "Let's study together Mt.6:1-18. Read it to yourself, first looking for the key verse, the verse that sums up the whole passage. Think you have it? Test it by picking different places in the passage and asking yourself if they relate to the thought of the key verse. Once you find it, write it as Roman numeral One of your outline:"
 #~ msgstr "Prostudujme si společně Matouše 6,1-18. Přečtěte si tu pasáž a vyhledejte klíčový verš, verš, který vystihuje celou pasáž. Pokud si myslíte, že jej máte, přezkoušejte jej tak, že si vyberete různé části z celé pasáže a ujistíte se, že mají vztah k významu klíčového verše. Až jej najdete, napište si jej jako římskou jedničku do vaší osnovy:"
-
 #
 #, fuzzy
 #~ msgid "What does <quote>practicing your righteousness</quote> mean? Does the passage give any examples? What area of our lives is being addressed? <emphasis>Our motives!</emphasis> What sub-headings develop this thought?"
@@ -2916,31 +2958,24 @@ msgstr ""
 #
 #~ msgid "Now fill in the outline with specific instructions of how to avoid wrong ways of practicing our righteousness:"
 #~ msgstr "A teď doplňte osnovu o konkrétní instrukce, jak se vyhnout špatným způsobům praktikování spravedlnosti:"
-
 #
 #~ msgid "Worksheet: How to Use a Concordance"
 #~ msgstr "Jak používat konkordanci"
-
 #
 #~ msgid "To Find a Particular Verse"
 #~ msgstr "K nalezení konkrétního verše"
-
 #
 #~ msgid "Pick out a key word or most-unusual word of the verse."
 #~ msgstr "Vyberte z verše klíčové slovo nebo slovo nejméně běžné."
-
 #
 #~ msgid "Turn to this word alphabetically."
 #~ msgstr "Vyhledejte v konkordanci toto slovo (v základním tvaru)."
-
 #
 #~ msgid "Go down the column of listings until you find your verse."
 #~ msgstr "Projděte seznam výskytů, dokud nenaleznete váš verš."
-
 #
 #~ msgid "To Do a Topical Study"
 #~ msgstr "K tématickému studiu"
-
 #
 #, fuzzy
 #~ msgid "Let's say you wanted to do a study of the word &quot;redemption.&quot; First you would look up that word in the concordance and look up references listed for it. Then you could look up related words and references listed for them, e.g. &quot;redeem, redeemed, ransom,&quot; even &quot;buy&quot; or &quot;bought.&quot;"
@@ -2949,7 +2984,6 @@ msgstr ""
 #
 #~ msgid "To Clarify Word Meanings in the Greek and Hebrew"
 #~ msgstr "K ujasnění slovního významu v řečtině a hebrejštině"
-
 #
 #, fuzzy
 #~ msgid "What if you noticed a contradiction in the KJV between Mt.7:1 <quote>Judge not lest you be judged</quote> and 1 Cor.2:15 <quote>He that is spiritual judgeth all things.</quote> Maybe there are two different Greek words here, both being translated &quot;judge&quot; in English? (We're using Strong's from here out.)"
@@ -2963,7 +2997,6 @@ msgstr ""
 #
 #~ msgid "Go down the column of entries to Mt.7:1. To the right is a number, 2919. This refers to the Greek word used. Write it down."
 #~ msgstr "Vyhledejte odkaz na Mt 7,1. Vpravo naleznete číslo 2919. To je odkaz na použité řecké slovo. Poznamenejte si ho."
-
 #
 #, fuzzy
 #~ msgid "Now look up &quot;judgeth&quot;."
@@ -2972,108 +3005,82 @@ msgstr ""
 #
 #~ msgid "Go down the column to 1 Cor.2:15 . . . . . 350."
 #~ msgstr "U odkazu na 1K 2,15 je číslo 350."
-
 #
 #~ msgid "Turn in the back to the Greek dictionary. (Remember, you're in the NT so the language is Greek, while the OT is Hebrew.) Compare the meaning of 2919 with the meaning of 350 and you have your answer!"
 #~ msgstr "Otevřete část s řeckým slovníkem. (Jsme v Novém Zákoně, proto řečtina. Pro Starý Zákon používáme hebrejštinu.) Porovnáním významu slova číslo 2919 se slovem číslo 350 získáte odpověď."
-
 #
 #~ msgid "To Find Meanings of Names"
 #~ msgstr "K nalezení významu jmen"
-
 #
 #~ msgid "By the same process we can find the meaning of a name in the Greek or Hebrew."
 #~ msgstr "Stejným způsobem můžete zjistit význam jmen v řečtině nebo hebrejštině."
-
 #
 #~ msgid "Look up these names and write down their meaning:"
 #~ msgstr "Nalezněte tato jména a zjistěte jejich význam:"
-
 #
 #~ msgid "Nabal"
 #~ msgstr "Nábal"
-
 #
 #~ msgid "Abigail"
 #~ msgstr "Abigail"
-
 #
 #~ msgid "Joshua"
 #~ msgstr "Jozue"
-
 #
 #~ msgid "Barnabus"
 #~ msgstr "Barnabáš"
-
 #
 #~ msgid "Importance of God's Word"
 #~ msgstr "Význam Božího Slova"
-
 #
 #~ msgid "Understanding God's word is of great importance to all who call on God's name. Study of the Bible is one of the primary ways that we learn to communicate with God."
 #~ msgstr "Porozumění Božímu Slovu má velký význam pro všechny, kdo vzývají Jeho jméno. Studium Bible je jedním z hlavních způsobů, jakým se učíme komunikovat s Bohem."
-
 #
 #~ msgid "A Book that is Unique"
 #~ msgstr "Jedinečná kniha"
-
 #
 #~ msgid "The Bible stands alone in many ways. It is unique in:"
 #~ msgstr "Bible je výjimečná v mnoha směrech. Je jedinečná v:"
-
 #
 #~ msgid "popularity. Bible sales in North America: more than $500 million per year. The Bible is both the the all-time and year-to-year best seller!"
 #~ msgstr "popularitě. Prodej Biblí jen v Severní Americe činí více než pět set milionů dolarů ročně. Bible je bestsellerem v žebříčcích každoročních i celkových."
-
 #
 #~ msgid "authorship. It was written over a period of 1600 years by 40 different authors from different backgrounds, yet reads as if written by one."
 #~ msgstr "autorství. Byla psána během více než 1 600 let čtyřiceti různými autory v různém prostředí, přesto je kompaktní jako od jednoho autora."
-
 #
 #~ msgid "preservation. F. F. Bruce in <emphasis>Are New Testament Documents Reliable?</emphasis> compares New Testament manuscripts with other ancient texts:"
 #~ msgstr "uchování. F. F. Bruce v <emphasis>Are New Testament Documents Reliable?</emphasis> (Jsou spisy Nového Zákona věrohodné?) porovnává spisy Nového Zákona s ostaními starověkými texty:"
-
 #
 #~ msgid "Comparison of New Testament manuscripts with other ancient texts."
 #~ msgstr "Porovnání spisů Nového Zákona s ostatními starověkými texty."
-
 #
 #~ msgid "Work"
 #~ msgstr "Text"
-
 #
 #~ msgid "When Written"
 #~ msgstr "Kdy napsáno"
-
 #
 #~ msgid "Earliest Copy"
 #~ msgstr "Nejstarší opis"
-
 #
 #~ msgid "Time Lapse"
 #~ msgstr "Časový odstup"
-
 #
 #~ msgid "Number of Copies"
 #~ msgstr "Počet opisů"
-
 #
 #~ msgid "Herodotus"
 #~ msgstr "Herodotus"
-
 #
 #~ msgid "448-428 B.C."
 #~ msgstr "448-428 př.K."
-
 #
 # index.docbook:41, index.docbook:41, index.docbook:41
 #~ msgid "900 A.D."
 #~ msgstr "900 n.l."
-
 #
 #~ msgid "1300 years"
 #~ msgstr "1300 let"
-
 #
 #, fuzzy
 #~ msgid "<entry>8</entry>"
@@ -3082,19 +3089,15 @@ msgstr ""
 #
 #~ msgid "Tacitus"
 #~ msgstr "Tacitus"
-
 #
 #~ msgid "100 A.D."
 #~ msgstr "100 n.l."
-
 #
 #~ msgid "1100 A.D."
 #~ msgstr "1100 n.l."
-
 #
 #~ msgid "1000 years"
 #~ msgstr "1000 let"
-
 #
 # index.docbook:41, index.docbook:41
 #, fuzzy
@@ -3104,15 +3107,12 @@ msgstr ""
 #
 #~ msgid "Caesar's <emphasis>Gallic War</emphasis>"
 #~ msgstr "Caesarova <emphasis>Válka Galská</emphasis>"
-
 #
 #~ msgid "50-58 B.C."
 #~ msgstr "50-58 př.K."
-
 #
 #~ msgid "950 years"
 #~ msgstr "950 let"
-
 #
 #, fuzzy
 #~ msgid "<entry>10</entry>"
@@ -3121,231 +3121,174 @@ msgstr ""
 #
 #~ msgid "Livy's <emphasis>Roman History</emphasis>"
 #~ msgstr "Livyho <emphasis>Roman History</emphasis>"
-
 #
 #~ msgid "59 B.C. - 17 A.D."
 #~ msgstr "59 př.K. - 17 n.l."
-
 #
 #~ msgid "900 years"
 #~ msgstr "900 let"
-
 #
 #~ msgid "New Testament"
 #~ msgstr "Nový Zákon"
-
 #
 #~ msgid "40 A.D. - 100 A.D."
 #~ msgstr "40 n.l. - 100 n.l."
-
 #
 #~ msgid "130 A.D. Partial manuscripts 350 A.D. Full manuscripts"
 #~ msgstr "130 n.l. zlomky spisů, 350 n.l. úplné spisy"
-
 #
 #~ msgid "30 - 310 years"
 #~ msgstr "30 - 310 let"
-
 #
 #~ msgid "5000 Greek &amp; 10,000 Latin"
 #~ msgstr "5000 řeckých a 10 000 latinských"
-
 #
 #~ msgid "Ten copies of Caesar's <emphasis>Gallic War</emphasis> exist, the earliest of which was copied 900 years after Caesar wrote the original, etc. For the New Testament we have full manuscripts dating to 350 A. D., papyri containing most of the New Testament from the 200s, and a fragment of John's gospel from 130 A. D. How many manuscripts do we have to compare to each other? 5,000 in Greek and 10,000 in Latin!"
 #~ msgstr "Dochovalo se deset kopií (přepisů) Caesarovy \"Války Galské\", nejstarší z nich byla pořízena devět set let po originálu atd. Z Nového Zákona máme kompletní přepisy z roku kolem 350 n.l., papyry s většinou NZ z roku 200 n.l. a zlomky Janova evangelia z roku 130 n.l. Kolik spisů musíme navzájem porovnat? Pět tisíc v řečtině a deset tisíc v latině!"
-
 #
 #~ msgid "\"In the verity and fullness of the evidence on which it rests, the text of the New Testament stands absolutely and unapproachably alone among other ancient prose writings.\""
 #~ msgstr "\"V pravdivosti a plnosti důkazů, kterými je podepřen, je text Nového Zákona absolutně a nedosažitelně osamocený mezi ostatními starověkými prózami.\""
-
 #
 #~ msgid "A Book that God Breathed"
 #~ msgstr "Kniha vdechnutá Bohem"
-
 #
 #~ msgid "<emphasis>Heb.4:12 </emphasis>\"<emphasis>For the word of God is living and active... </emphasis>\" Jesus said <emphasis>(Mt.4:4),</emphasis> \"<emphasis>It is written, Man shall not live on bread alone, but on every word that proceeds [lit., is proceeding] from the mouth of God.</emphasis>\" As we read the Bible, God's Spirit is there to speak it to our hearts in a continually-fresh way."
 #~ msgstr "<emphasis>\"Neboť Boží slovo je živé, mocné...\" (Žd 4,12)</emphasis> Ježíš řekl: <emphasis> \"Je napsáno: 'Nejen chlebem bude člověk živ, ale každým slovem, které vychází z Božích úst.'\" (Mt 4,4) </emphasis> Když čteme Bibli, Duch Boží je s námi a promlouvá do našeho srdce."
-
 #
 #~ msgid "2 Tim.3:16 declares, \"<emphasis>All scripture is inspired by God [lit., God-breathed].</emphasis>\" Do you believe this? Before you answer, consider Jesus' attitude toward the Scriptures."
 #~ msgstr "2Tm 3,16 vyznává, že <emphasis>\"Veškeré Písmo vdechnuté Bohem...\"</emphasis> Věříte tomu? Než odpovíte, zvažte Ježíšův postoj k Písmu."
-
 #
 #~ msgid "He referred to the human authors, but took it for granted that behind them all was a single divine Author. He could equally say 'Moses said' or 'God said' (Mk.7:10). He could quote a comment of the narrator in Genesis 2:24 as an utterance of the Creator Himself (Mt.19:4-5). Similarly He said, 'Well did Isaiah prophesy of you hypocrites, as it is written', when what He went on to quote is the direct speech of the Lord God (Mk.7:6 &amp; Is.29:13). It is from Jesus Himself that the New Testament authors have gained their conviction of the dual authorship of Scripture. For them it was just as true to say that 'God spoke of old to our fathers by the prophets' (Heb.1:1) as it was to say that 'men moved by the Holy Spirit spoke from God' (2 Pe.1:21). God did not speak in such a way as to obliterate the personality of the human authors, nor did men speak in such a way as to corrupt the Word of the divine Author. God spoke. Men spoke. Neither truth must be allowed to detract from the other. ..."
 #~ msgstr "Odkazoval se na lidské autory, ale bral jako samozřejmost, že za všemi byl jeden bozsky Autor. Mohl stejně tak říct \"Mojžíš řekl\" jako \"Bůh řekl\" (Mk 7,10). Mohl citovat komentář vypravěče v Genesis 2,24 jako projev samotného Stvořitele (Mt 19,4-5). Stejně tak řekl: \"Izaiáš o vás pokrytcích prorokoval dobře, jak je napsáno\", a přitom citované místo je přímou řečí Hospodina (Mk 7,6, Iz 29,13). Přesvědčení o dvojím autorství Písma získali novozákonní pisatelé od Ježíše samotného. Pro ně bylo stejně pravdivé říct \"Mnohokrát a mnoha způsoby mluvil kdysi Bůh k otcům skrze proroky\" (Žd 1,1) jako \"Duchem svatým puzeni byvše, mluvili svatí Boží lidé.\" (2Pt 1,21) Bůh nemluvil tak, aby vyhladil osobnost lidského autora, ani lidé nemluvili tak, aby porušili Slovo božského Autora. Bůh mluvil. Lidé mluvili. Žádné pravdě nesmí být dovoleno ubrat z ostatních..."
-
 #
 #~ msgid "This, then, was Christ's view of the Scriptures. Their witness was God's witness. The testimony of the Bible is the testimony of God. And the chief reason why the Christian believes in the divine origin of the Bible is that Jesus Christ Himself taught it."
 #~ msgstr "Takový byl tedy Ježíšův pohled na Písma. Jejich svědectví bylo Boží svědectví. Svědectví Bible je svědectvím Božím. A ten hlavní důvod, proč křesťané věří v božský původ Bible, je, že to učil sám Ježíš Kristus."
-
 #
 #~ msgid "2 Tim.3:16 goes on, \"<emphasis>and profitable for teaching, for correction, for training in righteousness, that the man of God may be adequate, equipped for every good work.</emphasis>\" If we accept that the Bible really is God speaking to us, it follows that it will be our authority in all matters of faith and conduct."
 #~ msgstr "2Tm 3,16 pokračuje: <emphasis>\"a je užitečné k vyučování, k usvědčování, k napravování a k výchově ve spravedlnosti, aby byl Boží člověk dokonalý a vybavený ke každému dobrému dílu.\"</emphasis> Pokud přijmeme, že Bible je opravdu Bůh mluvící k nám, budeme ji mít jako autoritu ve všech věcech víry a chování."
-
 #
 #~ msgid "A Book that Works"
 #~ msgstr "Kniha, která pracuje"
-
 #
 #~ msgid "What will studying the Bible do for you? 1 Thess.2:13 says that the Bible \"<emphasis>performs its work in you who believe.</emphasis>\" Beside each scripture, write down the work the Word performs."
 #~ msgstr "Co vám studium Bible přinese? 1Te 2,13 říká, že Bible je <emphasis>\"slovo Boží, jež také působí ve vás věřících.\"</emphasis> Popišme si, co všechno Slovo vykonává."
-
 #
 #~ msgid "What does Bible study do for Christians?"
 #~ msgstr "Co studium Bible dělá s křesťanem?"
-
 #
 #~ msgid "Reference"
 #~ msgstr "Odkaz"
-
 #
 #~ msgid "Action"
 #~ msgstr "Vliv"
-
 #
 #~ msgid "Eph. 5:26"
 #~ msgstr "Ef 5,26"
-
 #
 #~ msgid "cleanses -- \"...having cleansed her by the washing of water with the word.\""
 #~ msgstr "očišťuje - \"...když ji očistil koupelí vody skrze slovo.\""
-
 #
 #~ msgid "Acts 20:32"
 #~ msgstr "Sk 20,32"
-
 #
 #~ msgid "builds up -- \" ...the word of His grace, which is able to build you up and to give you the inheritance among all those who are sanctified. \""
 #~ msgstr "buduje - \"...vás, bratři, svěřuji Bohu a slovu jeho milosti, které má moc vás vybudovat a dát vám dědictví mezi všemi posvěcenými.\""
-
 #
 #~ msgid "Rom. 15:4"
 #~ msgstr "Ř 15,4"
-
 #
 #~ msgid "encourages -- \"that through perseverance and the encouragement of the Scriptures we might have hope.\""
 #~ msgstr "povzbuzuje - \"abychom skrze trpělivost a skrze potěšení Písem měli naději.\""
-
 #
 #~ msgid "Rom. 10:17"
 #~ msgstr "Ř 10,17"
-
 #
 #~ msgid "gives faith -- \"So faith comes from hearing, and hearing by the word of Christ.\""
 #~ msgstr "dává víru - \"Víra je tedy ze slyšení a slyšení skrze slovo Boží.\""
-
 #
 #~ msgid "1 Cor. 10:11"
 #~ msgstr "1K 10,11"
-
 #
 #~ msgid "instructs -- \"Now these things happened to them for an example, and they were written for our instruction\""
 #~ msgstr "napomíná - \"A toto všechno se jim stalo na výstrahu a bylo to zapsáno pro napomenutí nám\""
-
 #
 #~ msgid "Mt. 4:4"
 #~ msgstr "Mt 4,4"
-
 #
 #~ msgid "nourishment -- \"But He answered and said, 'It is written, Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.'\""
 #~ msgstr "sytí - \"Je napsáno: 'Nejen chlebem bude člověk živ, ale každým slovem, které vychází z Božích úst.'\""
-
 #
 #~ msgid "A Book that Liberates"
 #~ msgstr "Kniha, která osvobozuje"
-
 #
 #~ msgid "Jn.8:32 \"<emphasis>and you shall know the truth, and the truth shall make you free.</emphasis>\"This is usually quoted by itself. Is this a conditional or unconditional promise? Would it apply to all kinds of knowledge? Find the answers by examining the first half of the sentence, in v.31. \"<emphasis>If you abide in My word, then you are truly disciples of Mine... </emphasis>\""
 #~ msgstr "<emphasis>\"A poznáte pravdu a pravda vás vysvobodí.\"</emphasis> (J 8,32) Tato věta bývá obyčejně citována osamoceně. Je to ale podmíněné nebo nepodmíněné zaslíbení? Platí to pro všechny druhy poznání? Odpověď nalezneme v první části věty, verš 31: <emphasis>\"Jestliže zůstanete v mém slově, jste opravdu mými učedníky.\"</emphasis>"
-
 #
 #~ msgid "We see that this is a conditional promice, specifically speaking of the truth of God's word."
 #~ msgstr "Vidíme, že se jedná o podmíněné zaslíbení, mluvící speciálně o pravdě Božího slova."
-
 #
 #~ msgid "The Greek word for \"wind\" used in Eph.4:14 means a <emphasis>violent wind.</emphasis> \"<emphasis>As a result, we are no longer to be children, tossed here and there by waves, and carried about by every wind of doctrine...</emphasis>\"One thing studying the Bible does for us is to ground us in the truth, with the result that we won't be easily \"blown away.\""
 #~ msgstr "Řecké slovo pro \"vítr\" v Ef 4,14 má význam <emphasis>prudký vítr</emphasis>. <emphasis>abychom už nebyli nemluvňata zmítaná a unášená každým větrem učení...</emphasis> Jedna z věcí, které nám studium Bible přináší, je zakořenění v pravdě, takže nemůžeme být jednoduše \"odfouknuti\"."
-
 #
 #~ msgid "<emphasis>But Jesus answered and said to them, </emphasis>\"<emphasis>You are mistaken [KJV Ye do err], not understanding the Scriptures, or the power of God.</emphasis>\"Mt.22:29"
 #~ msgstr "<emphasis>Ježíš jim však odpověděl: \"Bloudíte [v ang. KJV: 'Ye do err' = děláte chybu], protože neznáte Písma ani Boží moc.\"</emphasis>Mt 22,29"
-
 #
 #~ msgid "What 2 things do we need to know to be kept from error?"
 #~ msgstr "Jaké dvě věci musíme znát, abychom se vyvarovali chyb?"
-
 #
 #~ msgid "God's word"
 #~ msgstr "Boží slovo"
-
 #
 #~ msgid "God's power"
 #~ msgstr "Boží moc"
-
 #
 #~ msgid "A Book that Wars"
 #~ msgstr "Kniha, která bojuje"
-
 #
 #~ msgid "Eph.6:10-18 is one picture of our spiritual armament."
 #~ msgstr "V Ef 6,10-18 je jeden přehled naší duchovní zbroje."
-
 #
 #~ msgid "Spiritual Armor"
 #~ msgstr "Duchovní zbroj"
-
 #
 #~ msgid "Question"
 #~ msgstr "Otázka"
-
 #
 #~ msgid "Answer"
 #~ msgstr "Odpověď"
-
 #
 #~ msgid "How many of the weapons listed here are defensive weapons?"
 #~ msgstr "Kolik popsaných částí zbroje slouží k obraně?"
-
 #
 #~ msgid "<entry>5</entry>"
 #~ msgstr "<entry>Pět</entry>"
-
 #
 #~ msgid "How many are offensive?"
 #~ msgstr "Kolik je jich útočných?"
-
 #
 #~ msgid "<entry>One</entry>"
 #~ msgstr "Jedna"
-
 #
 #~ msgid "Which one(s)?"
 #~ msgstr "Která (-é)?"
-
 #
 #~ msgid "the word - <foreignphrase>rhema</foreignphrase>"
 #~ msgstr "Slovo - <foreignphrase>rhema</foreignphrase>"
-
 #
 #~ msgid "Exhortations"
 #~ msgstr "Napomenutí"
-
 #
 #~ msgid "2 Tim.2:15 (KJV) \"<emphasis>Study to show thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.</emphasis>\""
 #~ msgstr "<emphasis>\"Usiluj [v ang. KJV 'Study'=studuj], aby ses mohl představit jako osvědčený před Bohem, dělník, který se nemá za co stydět a který správně vykládá slovo pravdy.\"</emphasis> (2Tm 2,15)"
-
 #
 #~ msgid "Col.3:16 \"<emphasis>Let the word of Christ richly dwell within you; with all wisdom teaching and admonishing one another with psalms and hymns and spiritual songs, singing with thankfulness in your hearts to God.</emphasis>\""
 #~ msgstr "<emphasis>\"Ať ve vás bohatě přebývá Kristovo slovo ve vší moudrosti. Vyučujte a napomínejte jedni druhé žalmy, chvalozpěvy a duchovními písněmi; s vděčností zpívejte svým srdcem Pánu.\"</emphasis> (Kol 3,16)"
-
 #
 #~ msgid "If you're rich in something, how much of it do you have?"
 #~ msgstr "Pokud jste v něčem bohatí, kolik toho něčeho máte?"
-
 #
 #~ msgid "Not a little!"
 #~ msgstr "Nemálo!"
-
 #
 #, fuzzy
 #~ msgid "Eccl.12:11-12 \"<emphasis>The words of wise men are like goads, and masters of these collections are like well-driven nails; they are given by one Shepherd. But beyond this, my son, be warned: the writing of many books is endless, and excessive devotion to books is wearying to the body.</emphasis>\""
@@ -3354,47 +3297,36 @@ msgstr ""
 #
 #~ msgid "Appendix: \"Once for All\""
 #~ msgstr "Dodatek: \"Jednou provždy\""
-
 #
 #~ msgid "The truth regarding the finality of God's initiative in Christ is conveyed by one word of the Greek Testament, namely the adverb <foreignphrase>hapax</foreignphrase> and <foreignphrase>ephapax</foreignphrase>. It is usually translated in the Authorized Version once, meaning once for all. It is used of what is so done as to be of perpetual validity and never need repetition, and is applied in the NT to both revelation and redemption. Thus, Jude refers to the faith which was once for all delivered to the saints (Jude 3), and Romans says, \"<emphasis>Christ also died for sins once for all</emphasis>\" (Rom.6:10, see also 1 Pe.3:18; Heb.9:26-28)."
 #~ msgstr "Pravda o ukonečnosti Boží iniciativy v Kristu je v řeckém NZ vyjádřena jedním slovem, příslovcem <foreignphrase>hapax</foreignphrase> a <foreignphrase>ephapax</foreignphrase>. Většinou se překládá jako \"jednou\" s významem \"jednou provždy\". Používá se ve vztahu k něčemu, co má trvalou platnost a nikdy nepotřebuje opakování, v NZ konkrétně o zjevení a vykoupení. Takto Juda poukazuje na víru, která byla jednou provždy dána svatým (Juda, 3. verš), a v epištole Římanům se píše, že <emphasis>\"[Kristus] zemřel hříchu jednou provždy\"</emphasis> (Ř 6,10; viz také 1P 3,18; Ž 9,26-28)."
-
 #
 #~ msgid "Thus we may say that God has spoken once for all and Christ has suffered once for all. This means that the Christian revelation and the Christian redemption are both alike in Christ complete. Nothing can be added to either without being derogatory to Christ... These are the two rocks on which the Protestant Reformation was built -- Gods revealed word without the addition of human traditions and Christ's finished work without the addition of human merits. The Reformers great watchwords were <foreignphrase>sola scriptura</foreignphrase> for our authority and <foreignphrase>sola gratia</foreignphrase> for our salvation."
 #~ msgstr "Proto smíme říct, že Bůh promluvil jednou provždy a že Kristus trpěl jednou provždy. To znamená, že křesťanské zjevení a křesťanské vykoupení jsou v Ježíši Kristu dokončeny. Nic nemůže být přidáno k žádnému z nich bez zlehčení Krista... Toto jsou dvě skály, na kterých byla postavena protestantská reformace - Bůh zjevil Slovo bez přídavků lidské tradice a Ježíš Kristus dokonal dílo bez lidské zásluhy. Hesla reformátorů byla <foreignphrase>sola scriptura</foreignphrase> (pouze Písmo) pro naši autoritu a <foreignphrase>sola gratia</foreignphrase> (pouhá milost) pro naše spasení."
-
 #
 #~ msgid "Supplement: Bible Reading Programs"
 #~ msgstr "Příloha: Plány čtení Bible"
-
 #
 #~ msgid "Here are some easy programs to systematically read your Bible. You can do more than one at a time if you like, for instance #1 with #4, or #2 with #5. Vary the program from year to year to keep it fresh!"
 #~ msgstr "Zde máte několik jednoduchých plánů, jak systematicky číst svou Bibli. Můžete je mezi sebou kombinovat a číst několik míst najednou, pokud chcete, například první se čtvrtým, nebo druhý s pátým. Každý rok je obměňujte, aby pro vás zůstaly čerstvé."
-
 #
 #~ msgid "New Testament in a Year: read one chapter each day, 5 days a week."
 #~ msgstr "Nový Zákon za rok: čtěte jednu kapitolu denně, pět dní v týdnu."
-
 #
 #~ msgid "Proverbs in a Month: read one chapter of Proverbs each day, corresponding to the day of the month."
 #~ msgstr "Přísloví za měsíc: čtěte jednu kapitolu Přísloví denně, podle čísla dne v měsíci."
-
 #
 #~ msgid "Psalms in a Month: read 5 Psalms at intervals of 30 each day, for instance on the 20th you read Ps.20, 50, 80, 110, &amp; 140."
 #~ msgstr "Žalmy za měsíc: čtěte každý den pět Žalmů s odstupem třiceti čísel, například pro 20. den čtěte Ž 20, 50, 80, 110 a 140."
-
 #
 #~ msgid "Psalms &amp; Proverbs in 6 months: read through Psalms and Proverbs one chapter per day."
 #~ msgstr "Žalmy a Přísloví za šest měsíců: čtěte od začátku do konce jednu kapitolu denně."
-
 #
 #~ msgid "Old Testament without Psalms &amp; Proverbs in 2 years: if you read one chapter a day of the Old Testament, skipping over Psalms &amp; Proverbs, you will read the Old Testament in 2 years and 2 weeks."
 #~ msgstr "Starý Zákon bez Žalmů a Přísloví za dva roky: když budete číst jednu kapitolu denně a přeskočíte Žalmy a Přísloví, přečtete celý SZ za dva roky a dva týdny."
-
 #
 #~ msgid "Rules of Bible Interpretation (Hermeneutics)"
 #~ msgstr "Pravidla interpretace Bible (Hermeneutika)"
-
 #
 #, fuzzy
 #~ msgid "We already learned about the \"3 Cs\": content, context, cross-reference. We want to expand that now by delving briefly into biblical hermeneutics, whose goal is to discover the meaning intended by the original author (and Author!). While many applications of a passage are valid, only one interpretation is valid. The scripture itself says this by saying that no scripture is of any private interpretation (2 Pe.1:20 KJV <quote>Knowing this first, that no prophesy of scripture is of any private interpretation.</quote>). Certain rules are helps toward discovering the correct meaning; by ignoring these rules people have brought much trouble on themselves and their followers. 2 Pe.3:16 <quote>...in which are some things hard to understand, which the untaught and unstable distort, as they do also the rest of the Scriptures, to their own destruction.</quote>"
@@ -3403,15 +3335,12 @@ msgstr ""
 #
 #~ msgid "How do we go about discovering the intended meaning of a passage? Let's say your attention has been drawn to a particular verse whose meaning is not clear to you. How do you study it out? Keep these rules in mind:"
 #~ msgstr "Jak se postupuje při takovém hledání správného významu? Řekněme, že jste narazili na verš, kterému nerozumíte. Postupujte tímto způsobem:"
-
 #
 #~ msgid "Rule 1 - Interpret according to the exact meaning of the words."
 #~ msgstr "Pravidlo 1. - Výklad podle přesného významu slov."
-
 #
 #~ msgid "The more precise we can be with the exact, original meaning of the words the better our interpretation will be. Try to find the exact meaning of the key words by following these steps:"
 #~ msgstr "Čím přesněji rozumíme správnému, původnímu významu slov, tím lepší náš výklad bude. Pokuste se najít přesný význam slov pomocí těchto kroků:"
-
 #
 #, fuzzy
 #~ msgid "Definition"
@@ -3420,7 +3349,6 @@ msgstr ""
 #
 #~ msgid "Look up the definition in a Greek or Hebrew dictionary. For verbs, the verb tense is also crucial."
 #~ msgstr "Vyhledejte definici slova v řeckém nebo hebrejském slovníku. U sloves si dejte pozor i na správný čas."
-
 #
 #, fuzzy
 #~ msgid "Compare scripture with scripture. Seeing how the same Greek or Hebrew word (not the English word) is used in scripture may clarify or throw new light on the definition. How does the same author use this word elsewhere? Other authors? Your reference tools may give you uses of the word in non-biblical documents, as well. Why do we have to go to the original languages; why isn't the English word good enough? <emphasis>Because more than one greek word may be translated into the same english word, and the greek words may have different shades of meaning.</emphasis>"
@@ -3429,15 +3357,12 @@ msgstr ""
 #
 #~ msgid "Example 1A"
 #~ msgstr "Příklad 1A"
-
 #
 #~ msgid "Jn.20:17 <emphasis>\"Touch me not\"</emphasis> (KJV) sounds harsh, doesn't it? Sounds like Jesus doesn't want to be touched now that He is risen, that He is too holy or something. But that doesn't seem right, so let's look it up in Spiros Zodhiates' <emphasis>The Complete Word Study New Testament</emphasis> (AMG Publishers, 1991)."
 #~ msgstr "V Janovi 20,17 čteme: <emphasis>\"Nedotýkej se mne\"</emphasis> (v ang. KJV \"Touch me not\"). Zní to hrubě, viďte. Vypadá to, jakoby Ježíš odmítal dotyk, protože je po vzkříšení příliš svatý nebo něco podobného. Podívejme se ale do knihy <emphasis>The Complete Word Study New Testament</emphasis> (Spiros Zodhiates, AMG Publishers, 1991)."
-
 #
 #~ msgid "Definition: Turning to John 20:17, above the word \"Touch\" we see \"pim680.\" The letters give us a code for the part of speech, and the number refers to Strong's dictionary reference. Let's look up the definition (p. 879). \"680. Haptomai; from hapto (681), touch. Refers to such handling of an object as to exert a modifying influence upon it... Distinguished from pselaphao (5584), which actually only means to touch the surface of something. \" Now look up \"pim.\" The grammar codes in Zodhiates come right after Revelation; on p. 849 we see that pim stands for \"present imperative active (80)\". On p.857, \"Present Imperative. In the active voice, it may indicate a command to do something in the future which involves continuous or repeated action or, when it is negated, a command to stop doing something. \" This is a negative command, so it is to stop doing something that is already occuring. So, what have we found?"
 #~ msgstr "Vyhledejte verš Jan 20,17, nad slovem \"Touch\" vidíme \"pim680\". Písmena vyjadřují kód tvaru slova, číslo odkazuje na Strongovu definici. Najděme si tedy definici. \"680. Haptomai; ze slova hapto (681), dotyk (ang. touch). Znamená takové zacházení s objektem, které nad ním vyjadřuje vliv... Rozdílné od pselaphao (5584), které znamená pouze dotek nějakého povrchu.\" Nyní vyhledejme vysvětlení zkratky \"pim\" - str. 857 \"present imperative active (80)\" (rozkazovací způsob, přítomný čas, rod činný). Na straně 857 pak čteme: \"Rozkazovací způsob v přítomném čase. V činném rodu může znamenat příkaz pro udělání něčeho v budoucím čase, což zahrnuje souvislou nebo opakovanou činnost, nebo, při negaci, příkaz pro ukončení nějaké činnosti.\" Náš případ je právě negovaný příkaz, takže znamená ukončení něčeho, co již probíhá. Takže závěr našeho zkoumání je:"
-
 #
 #, fuzzy
 #~ msgid "Example 1B"
@@ -3446,11 +3371,9 @@ msgstr ""
 #
 #~ msgid "In James 5:14, <emphasis>Elders are told to pray and anoint someone who is sick</emphasis>. What is this anointing?"
 #~ msgstr "V Jakubovi 5,14 čteme: <emphasis>\"Je někdo z vás nemocný? Ať zavolá starší sboru a ať se za něj modlí a pomažou ho olejem v Pánově jménu.</emphasis> Co znamená ono pomazání?"
-
 #
 #~ msgid "Definition of aleipho (218) - \"to oil\" (Strong's); but we also have another Greek word translated \"anoint\", chrio (5548) - \"to smear or rub with oil, i.e. to consecrate to an office or religious service\" (Strong's). Since it's a verb, consider the tense also, \"apta\" aorist participle active. \"The aorist participle expresses simple action, as opposed to continuous action...When its relaitonship to the main verb is temporal, it usually signifies action prior to that of the main verb.\" (Zodhiates p.851)"
 #~ msgstr "Definice pro aleipho (Strongovo č. 218) je \"naolejovat, namazat\" (ang. to oil). Existuje ještě jedno řecké slovo, které se překládá stejně - chrio (5548) \"namazat nebo natřít olejem, např. pro zasvěcení pro úřad nebo duchovní službu\". Protože se jedná o sloveso, je důležitý i čas - \"apta = aorist participle active\". \"Aorist participium vyjadřuje jednu akci, oproti akci trvající... Pokud je jeho vztah k hlavnímu slovesu časový (?, ang. temporal, pozn. překl.), označuje většinou činnost předcházející činnost hlavního slovesa.\" (Zodhiates, str. 851)"
-
 #
 #, fuzzy
 #~ msgid "Cross-references for aleipho:"
@@ -3469,39 +3392,30 @@ msgstr ""
 #
 #~ msgid "As an illustration (although the word is not used) of the practical use of oil at that time, when the good Samaritan cared for the man beat up by robbers he poured oil and wine in the wound. So oil had a medicinal use in Jesus' day."
 #~ msgstr "Příkladem praktického použití oleje (přestože slovo \"pomazání\" zde není použito) je dobrý Samaritán, který zbitému člověku nalil na rány olej a víno. V Ježíšových dnech se používal olej jako lék."
-
 #
 #~ msgid "Now let's apply what we just learned by this word study to James 5:14 <emphasis>\"Is any among you sick? Let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord.\"</emphasis> Is \"anointing\" spiritual or practical? Practical!"
 #~ msgstr "A nyní se pokusme aplikovat náš poznatek na Jakuba 5,14. Je ono \"pomazání\" duchovní nebo praktické (fyzické)? Praktické!"
-
 #
 #~ msgid "And the tense in Greek, the aorist participle, would be better translated \"having anointed,\" so the order is the anointing first, then the prayer (\"in the name of the Lord\"refers to the prayer, not the anointing). James 5 is saying that the elders should give the sick person medicine and pray for him in the name of the Lord. Doesn't that express a beautiful balance of practical and spiritual in our God!"
 #~ msgstr "Správnější překlad toho aorist participia naleznete v Bibli Kralické - \"ať se modlí za něho, mažíce jej olejem ve jménu Páně.\" Neboli nejprve je pomazání olejem a pak modlitba (ta je ve jménu Páně, nikoli pomazání). Jakub 5 tedy říká, že starší by měli nemocnému dát medicínu a modlit se za něj ve jménu Páně. Nevyjadřuje to nádhernou rovnováhu mezi praktickým a duchovním v našem Bohu?"
-
 #
 #~ msgid "Rule 2 - Interpret within the biblical context"
 #~ msgstr "Pravidlo 2. - Výklad v biblickém kontextu"
-
 #
 #~ msgid "Interpret scripture in harmony with other scripture. What do the verses on each side say? What is the theme of the chapter? the book? Does your interpretation fit with these? If not, it is flawed. Usually, the context supplies what we need to correctly interpret the passage. Context is key. If confusion remains as to the meaning after we have interpreted the text within its context, we have to look further."
 #~ msgstr "Vykládejte Písmo v souladu s ostatnímy částmi Písma. Co říkají verše okolo? Jaké je téma kapitoly? Knihy? Je s nimi váš výklad v souladu? Pokud ne, máte v něm trhliny. Kontext obyčejně umožňuje správně interpretovat text. Kontext je klíč. Pokud zmatek přetrvává i po zasazení textu do blízkého kontextu, musíme se podívat dál."
-
 #
 #~ msgid "Example 2A"
 #~ msgstr "Příklad 2A"
-
 #
 #~ msgid "In a previous lesson we considered Jn.3:5 <emphasis>\"born of water and the Spirit.\"</emphasis> In context, what is the water under discussion here?"
 #~ msgstr "Podívejme se na Jan 3,5: \"<emphasis>Jestliže se někdo nenarodí z vody a z Ducha</emphasis>\". Co znamená slovo voda v daném kontextu?"
-
 #
 #~ msgid "Water baptism is not under discussion here, which would be a big switch from the subject being discussed by Jesus and Nicodemus. Watch out for a sudden change of topic, it may be a clue that your interpretation has been derailed! The water is the amniotic fluid, \"born of water\" = natural birth."
 #~ msgstr "Je jasné, že nejde o vodní křest. To by byl velký odskok od tématu Ježíšova rozhovoru s Nikodémem. Pozor na náhlé změny témat, to může být znamení, že váš výklad \"vykolejil\"! Voda je v tomto případě plodová voda, \"narození z vody\" je přirozené narození."
-
 #
 #~ msgid "Example 2B"
 #~ msgstr "Příklad 2B"
-
 #
 #, fuzzy
 #~ msgid "1 Cor.14:34 <quote>Let the women keep silent in the churches</quote> has to be taken within the biblical context of 1 Cor.11:5 <quote>every woman [...] while praying or prophesying [...]</quote>"
@@ -3510,7 +3424,6 @@ msgstr ""
 #
 #~ msgid "Example 2C"
 #~ msgstr "Přiklad 2C"
-
 #
 #, fuzzy
 #~ msgid "Acts 2:38 <quote>And Peter said to them, &quot;Repent, and let each of you be baptized in the name of Jesus Christ for the forgiveness of your sins [...]&quot;</quote>. Is this teaching baptismal regeneration? If this was the only verse of scripture we had, we would have to conclude that. But in the light of the clear teaching elsewhere that regeneration happens by faith in Christ, we have to interpret it otherwise. Peter is urging baptism as a way for his hearers to respond to the gospel. If baptism were the pathway to being born again, how could Paul write 1 Cor.1:17 <emphasis>\"For Christ did not send me to baptize, but to preach the gospel\"</emphasis>?"
@@ -3519,7 +3432,6 @@ msgstr ""
 #
 #~ msgid "Rule 3 - Interpret within the historical and cultural context"
 #~ msgstr "Pravidlo 3. - Výklad v historickém a kulturním kontextu"
-
 #
 #, fuzzy
 #~ msgid "At first we are not asking <quote>What does it mean to me?</quote> but <quote>What did it mean to the original readers?</quote>; later we can ask, <quote>What does it mean to me?</quote>. We have to take into account the historical and cultural background of the author and the recipients."
@@ -3528,7 +3440,6 @@ msgstr ""
 #
 #~ msgid "Example 3A"
 #~ msgstr "Příklad 3A"
-
 #
 #, fuzzy
 #~ msgid "<quote>3 days &amp; 3 nights</quote> (Mt.12:40) have led some to come up with a \"Wednesday crucifixion theory,\" esp. the cult of Armstrongism. How could Jesus die on Friday afternoon and rise Sunday morning yet \"be raised on the third day\" (Mt.16:21)? Exact meanings of \"three\" or \"days\" won't help explain the apparent contradiction."
@@ -3542,23 +3453,18 @@ msgstr ""
 #
 #~ msgid "Example 3B"
 #~ msgstr "Příklad 3B"
-
 #
 #~ msgid "Gen.15:7-21. The historical context is that cutting animals in two and then walking between the pieces was the normal way of entering a contract in Abraham's day. Both parties walked between, taking the pledge that dismemberment would happen to them if they didn't live up to their part of the contract. But in this case only God goes thru, making it a unilateral covenant."
 #~ msgstr "Gn 15,7-21. Historický kontext je ten, že rozsekání zvěře a průchod mezi jejich půlkami byl v Abrahamově době běžný způsob uzavírání smlouvy. Obě strany prošly středem s vědomím, že pokud nedodrží svji část smlouvy, mohou skončit jako ono zvíře. Ale v tomto případě pouze Bůh prošel skrz a vzal tak na sebe jednostranný závazek."
-
 #
 #~ msgid "Rule 4 - Interpret according to the normal usage of words in language"
 #~ msgstr "Pravidlo 4. - Výklad s ohledem na normální užívání slov v jazyce"
-
 #
 #~ msgid "Let literal language be literal and figurative language be figurative. And watch out for idioms, which have special meanings."
 #~ msgstr "Doslovný jazyk chápejte doslovně, obrazný obrazně. A pozor na idiomy (ustálená slovní spojení, fráze), které mají speciální význam."
-
 #
 #~ msgid "Example 4A"
 #~ msgstr "Příklad 4A"
-
 #
 #, fuzzy
 #~ msgid "<quote>evil eye</quote> in Mt.6:23."
@@ -3567,7 +3473,6 @@ msgstr ""
 #
 #~ msgid "Rule 1, definition of \"evil\" and \"eye\" - no help here. Rule 2, context: seems to confuse us even more. It doesn't seem to fit with what goes before and after! This should tip us off that we aren't understanding it rightly!!"
 #~ msgstr "Pravidlo první, definice slov \"zlý\" a \"oko\" nepomáhá. Pravidlo druhé, kontext - spíše ještě více mate. Nevypadá to, že by text zapadal mezi okolní verše. To může znamenat, že ho nesprávně chápeme!"
-
 #
 #, fuzzy
 #~ msgid "What we have here is a Hebrew idiom, <quote>evil eye</quote>. Let's look up other uses of this idiom: Mt.20:15 \"<emphasis>Is it not lawful for me to do what I wish with what is my own? Or is your eye envious [lit.\"evil\"] because I am generous [lit. \"good\"]?</emphasis>\" We find that having an \"evil eye\" is a Hebrew idiom for being stingy or envious. Now go back to Mt.6 and notice how this understanding ties in so perfectly to the context."
@@ -3576,8 +3481,8 @@ msgstr ""
 #
 #~ msgid "Example 4B"
 #~ msgstr "Příklad 4B"
-
 #
 #, fuzzy
 #~ msgid "References to body parts of God are used by Latter-Day Saints to prove that God was once a man just as we are. Once they convince people of that, they go on to teach that we can become God just like He is! At a lecture he was giving, a group of Mormon elders challenged Walter Martin (author of <emphasis>Kingdom of the Cults</emphasis>) with an enumeration of verses like these. Dr. Martin then asked the Mormons to read one more scripture: Ps.91:4 <quote>He will cover you with His feathers; And under His wings shalt thou trust</quote>. W.M. said, <quote>By the same rules of interpretation that you just proved God to be a man, you just proved that He is a bird</quote>. The Mormons had to laugh as they realised the ridiculousness of their position."
 #~ msgstr "Is 59,1: \"<emphasis>Aj, neníť ukrácena ruka Hospodinova</emphasis>\", Dt 33,27: \"<emphasis>zespod ramena věčnosti</emphasis>\". Odkazy na části Božího těla používají mormoni jako důkaz, že Bůh byl dříve člověk jako my. Když o tom člověka přesvědčí, pokračují s učením, že my se můžeme stát Bohem jako je On! Na jedné své přednášce byl Walter Martin (autor knihy <emphasis>Kingdom of the Cults</emphasis>) vyzván skupinou mormonů, aby se vyjádřil k seznamu takovýchto veršů. Dr. Martin je požádal, aby přečetli jiné místo - Žalm 91,4: \"<emphasis>Brky svými přikryje tě, a pod křídly jeho bezpečen budeš</emphasis>\". Pak řekl: \"Pokud byste aplikovali stejná pravidla, podle kterých tvrdíte, že Bůh je člověkem, museli byste tvrdit, že Bůh je ptákem.\" Mormoni se museli smát, když si uvědomili směšnost svého postoje."
+
