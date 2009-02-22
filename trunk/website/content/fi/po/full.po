@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_fi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-09 20:31+0000\n"
-"PO-Revision-Date: 2009-02-15 09:21+0200\n"
+"POT-Creation-Date: 2009-02-20 11:16+0000\n"
+"PO-Revision-Date: 2009-02-22 10:32+0200\n"
 "Last-Translator: Ilpo Kantonen <ilpo@iki.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: autolayout.xml:4 layout.xml:19
 #, no-c-format
 msgid "The BibleTime developers"
-msgstr "BibleTime-kehittäjät"
+msgstr "\t\tBibleTime-kehittäjät"
 
 #. Tag: title
 #: autolayout.xml:6 error404.xml:9
@@ -164,7 +164,7 @@ msgstr "BibleTimen kehitys"
 #: development.xml:16
 #, no-c-format
 msgid "These pages describe how to join in the development of BibleTime and which ways exist to help us! BibleTime's quality and usefulness depends on the help of others to a large degree."
-msgstr "Nämä sivut kuvaavat kuinka liittyä BibleTimen kehitykseen ja mitä tapoja on auttaa meitä! BibleTimen laatu ja käyttökelpoisuus riippuu muiden avusta laajalla asteikolla."
+msgstr "Nämä sivut kuvaavat kuinka liittyä mukaan BibleTimen kehittämiseen ja mitä tapoja on auttaa meitä! BibleTime -ohjelman laatu ja käyttökelpoisuus riippuvat muiden avusta laajalla asteikolla."
 
 #. Tag: para
 #: development.xml:20
@@ -200,7 +200,7 @@ msgstr "Jokainen voi rukoilla. Jos rukoilet Swordin ja BibleTime-projektin puole
 #: development_help.xml:30
 #, no-c-format
 msgid "Do you want to report a bug or suggest a new feature?"
-msgstr "Haluatko antaa bugiraportin tai ehdotuksen uudeksi ominaisuudeksi?"
+msgstr "Haluatko tehdä ohjelmasta virheraportin tai ehdottaa uutta ominaisuutta ohjelmaan?"
 
 #. Tag: para
 #: development_help.xml:32
@@ -248,7 +248,7 @@ msgstr "Oletko hyvä kääntämään tekstejä englanninkielestä toisiin kielii
 #: development_help.xml:68
 #, no-c-format
 msgid "BibleTime should be useable for everyone. That's why we need a translation into your language, if it's not yet available. If you decide to start working on a translation please contact us at info@bibletime.info to see whether the translation was not yet started by another team member. We will provide you with the files which should be translated."
-msgstr "BibleTimen tulee olla käyttökelpoinen kaikille ihmisille. Siksi me tarvitsemme kääntäjiä kielellesi, jos käännöstä ei ole vielä saatavilla. Jos päätät aloittaa työskentelyn käännöstyöskentelyn, ota meihin yhteyttä osoitteessa info@bibletime.info, onko joku työryhmän jäsen jo aloittanut käännöstyön. Me toimitamme sinulle käännettävät tiedostot."
+msgstr "BibleTimen tulee olla käyttökelpoinen kaikille ihmisille. Siksi me tarvitsemme kääntäjiä kielellesi, jos käännöstä ei ole vielä saatavilla. Jos päätät aloittaa kääntämistyöskentelyn, ota meihin yhteyttä osoitteessa info@bibletime.info kysyäksesi, onko joku työryhmän jäsen aloittanut jo käännöstyön. Me toimitamme sinulle käännettävät tiedostot."
 
 #. Tag: para
 #: development_help.xml:75
@@ -374,7 +374,7 @@ msgstr "Kaikille osallistumistasosta riippumatta..."
 #: development_join.xml:123
 #, no-c-format
 msgid "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net\">FreeNode Network</ulink>, in the #bibletime room."
-msgstr "Liity IRC_kanavallemme! Meidät löytää <ulink url=\"http://www.freenode.net\">FreeNode-verkon</ulink>, kanavalta #bibletime."
+msgstr "Liity IRC-kanavallemme! Meidät löytää <ulink url=\"http://www.freenode.net\">FreeNode-verkon</ulink>, kanavalta #bibletime."
 
 #. Tag: para
 #: development_join.xml:128
@@ -2448,7 +2448,7 @@ msgstr "Tämä on osa ohjelmiston kehitystyötä, jossa tarvitaan monien yksitt�
 #: translation.xml:23
 #, no-c-format
 msgid "<para>Translate the www.bibletime.info website.</para>"
-msgstr "<para>Käännä www.bibletime.info www-sivusto.</para>"
+msgstr "<para>Käännä www.bibletime.info www-sivusto. (Käännetty jo suomeksi, tulee päivittää silloin tällöin.)</para>"
 
 #. Tag: para
 #: translation.xml:26
@@ -2472,7 +2472,7 @@ msgstr "<para>Käännä ohjelman käsikirja.</para>"
 #: translation.xml:35
 #, no-c-format
 msgid "<para>Translate the biblical booknames.</para>"
-msgstr "<para>Käännä Raamatun kirjojen nimet.</para>"
+msgstr "<para>Käännä Raamatun kirjojen nimet. (Käännetty jo suomeksi).</para>"
 
 #. Tag: para
 #: translation.xml:38
@@ -2508,7 +2508,7 @@ msgstr "Lähetä käännös kääntäjien postituslistalle."
 #: translation.xml:67
 #, no-c-format
 msgid "Developers will integrate your work as soon as possible. The statistics will be updated after that."
-msgstr "Kehittäjät sisällyttävät työsi niin nopeasti kuin on mahdollista. Tilastotiedot päivitetään tämän jälkeen."
+msgstr "Kehittäjät ottavat työsi tuotantokäyttöön niin nopeasti kuin on mahdollista. Tilastotiedot päivitetään tämän jälkeen."
 
 #. Tag: para
 #: translation.xml:71
@@ -2532,7 +2532,7 @@ msgstr "<title>Käännä www.bibletime.info www-sivu.</title>"
 #: translation.xml:88
 #, no-c-format
 msgid "If a translation of the website to your language does not yet exist, you can download and translate the <ulink url=\"/po/bibletime_website_template.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
-msgstr "Jos omalle kielellesi ei ole vielä olemassa BibleTimen www-sivustoa, voit ladata ja kääntää sen <ulink url=\"/po/bibletime_website_template.pot\">www-sivun käännöspohjasta</ulink>. Jos haluat päivittää olemassaolevaa käännöstä, käytä allaolevassa taulukossa sijaitsevaa linkkiä ladataksesi vastaavan tiedoston. Me lisäämme tavallisesti käännetyt sivut ja lipun sivuston ylälaitaan, jos sivua on käännetty yli 80%."
+msgstr "Jos omalle kielellesi ei ole vielä olemassa BibleTimen www-sivustoa, voit ladata ja kääntää sen <ulink url=\"/po/bibletime_website_template.pot\">www-sivun käännöspohjasta</ulink>. Jos haluat päivittää olemassaolevaa käännöstä, käytä allaolevassa taulukossa sijaitsevaa linkkiä ladataksesi vastaavan tiedoston. Me päivitämme käännetyt sivut ja lisäämme lipun sivuston ylälaitaan, jos sivua on käännetty yli 80%."
 
 #. Tag: title
 #: translation.xml:98
@@ -2550,7 +2550,7 @@ msgstr "Jos ohjelman käyttöliittymää ei ole saatavilla vielä omalla kielell
 #: translation.xml:105
 #, no-c-format
 msgid "(We are preparing the BibleTime 1.7/2.0 series and have moved to the Qt's .ts file format from the 1.6 series .po format. Due the changes the translations need thorough rewrite.)"
-msgstr "(Valmistelemme BibleTime 1.7/2.0 -sarjaa ja olemme vaihtaneet Qt:n .ts -tiedostomuotoa 1.6 -sarjasta .po -muotoon. Muutosten takia käännökset pitää kääntää uudelleen.)"
+msgstr "(Valmistelemme BibleTime 1.7/2.0 -sarjaa ja olemme vaihtaneet 1.6 sarjan .po -tiedostomuodon Qt:n .ts -tiedostomuotoon. Muutosten takia käännökset pitää kääntää uudelleen.)"
 
 #. Tag: title
 #: translation.xml:111
