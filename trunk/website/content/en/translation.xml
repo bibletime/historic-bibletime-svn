@@ -4,7 +4,7 @@
 ]>
 <webpage id="translation">
   <config param="desc" value="Software page" />
-  <config param="rcsdate" value="$Date: 2005/10/17 18:25:18 $" />
+  <config param="rcsdate" value="$Date$" />
   <head>
     <title>Translation</title>
     <summary>BibleTime translation statistics</summary>
@@ -72,6 +72,8 @@
     excellent and mature program 
     <ulink url="http://i18n.kde.org/tools/kbabel/">KBabel</ulink> which
     works on KDE. It has many advanced features and is a great aid. 
+    <ulink url="http://userbase.kde.org/Lokalize">Lokalize</ulink> is
+    another KDE based app, it will replace KBabel. 
     <ulink url="http://www.poedit.net/">Poedit</ulink> is a
     cross-platform file editor suitable for our documentation and
     website translations. 
@@ -102,9 +104,9 @@
     User Interface translation template</ulink>. If you want to update
     an existing translation, use the links in the table below to
     download the corresponding file.</para>
-    <para>(We are preparing the BibleTime 1.7/2.0 series and have moved
-    to the Qt's .ts file format from the 1.6 series .po format. Due the
-    changes the translations need thorough rewrite.)</para>
+    <para>Starting at 1.7, we have moved translation format
+    to QT's .ts file format from the previous .po format. Due to the
+    changes, the translations need a thorough rewrite.</para>
     <ssi mode="exec" cgi="/postats/messages_stats.pl" />
   </section>
   <section>
