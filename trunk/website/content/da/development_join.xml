@@ -6,7 +6,7 @@
 <webpage id="development_join">
   <config param="desc" value="Join us"
 ></config>
-  <config param="rcsdate" value="$Date: 2008-12-11 22:28:24 +0100 (Do, 11. Dez 2008) $"
+  <config param="rcsdate" value="$Date: 2008-12-11 16:28:24 -0500 (Thu, 11 Dec 2008) $"
 ></config>
   <head>
     <title
@@ -22,27 +22,27 @@
     <title
 >Slut dig til BibleTime holdet</title>
     <para
->We are thankful to everybody who helps us improve the BibleTime software, it's documentation and it's translations.</para>
+>Vi er taknemmelige for alle som hjælper os med at forbedre BibelTimes software, dens dokumentation og dens oversættelser.</para>
     <section>
       <title
->The basic steps...</title>
+>De grundlæggende skridt...</title>
       <para
 >Det følgende er nødvendigt for en hver type af holdmedlem. Vær venlig at følge dem!</para>
       <para>
         <orderedlist>
           <listitem>
             <para
->If you do not have an account on <ulink url="https://sf.net"
+>Hvis du ikke har en konto på <ulink url="https://sf.net"
 >SourceForge</ulink
->, please sign up for one. It is free. We need your username to add you to the team members list, to assign tasks to you, etc.</para>
+>, så vær venlig at anskaffe dig dig en. Det er gratis. Vi har brug for dit brugernavn for at tilføje dig til holdmedlems listen, så de kan give dig opgaver, osv.</para>
           </listitem>
           <listitem>
             <para
->Subscribe to the <ulink url="http://www.crosswire.org/mailman/listinfo/bt-devel"
-> BibleTime development mailing list</ulink
->. All developers read this mailing list, so everybody knows what is hapenning. There is also a mailing list for the <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-cvs"
-> commit messages</ulink
-> of the ongoing development process.</para>
+>Tilmeld dig <ulink url="http://www.crosswire.org/mailman/listinfo/bt-devel"
+> BibleTimes udvikler postliste</ulink
+>. Alle udviklere læser denne postliste, så alle ved hvad der sker. Der er også en postliste for <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-cvs"
+> udgivelse af meddelelser</ulink
+> om den igangværende udviklings process.</para>
           </listitem>
           <listitem>
             <para
@@ -58,11 +58,11 @@
         <orderedlist>
           <listitem>
             <para
->Work through some of the Qt 3/4 and KDE 3/4 tuorials to get used to programming with the tools BibleTime uses.</para>
+>Arbejd dig gennem nogle af Qt 3/4 og KDE 3/4 øvelserne for at blive vant til at programmere med de ting BibleTime bruger.</para>
           </listitem>
           <listitem>
             <para
->If you do not know what to do please ask on the mailing list for some tasks. Do not forget to add how difficult it should be.</para>
+>Hvis du ikke ved hvad du skal gøre, så spørg nogle over postlisten om nogle opgaver. Glem ikke at tilføje hvor svært det må være.</para>
           </listitem>
         </orderedlist>
       </para>
@@ -74,11 +74,11 @@
         <orderedlist>
           <listitem>
             <para
->Read the existing English documentation. It is located in the docs/ directory of the bibletime cvs directory.</para>
+>Læs den eksisterende engelske dokumentation. Den ligger i mappen docs/ i bibletime cvs mappen.</para>
           </listitem>
           <listitem>
             <para
->The documentation is stored in docbook format in the unicode subdirectories of each documentation part (handbook, Bible study howto, installation, helpdialog). Please do not edit the HTML files directly because they are generated from the docbook files. The translation file are also generated from the docbook data.</para>
+>Dokumentationen er opbevaret i docbook formatet i unicode-undermapperne til hver dokumentations del (håndbog, bibelstudie-vejledning, installation, hjælpedialog). Vær venlig at lade være med at redigere HTML-filerne direkte, fordi de er genereret af docbook-filer. Oversættelses-filen er også genereret af docbook data.</para>
           </listitem>
         </orderedlist>
       </para>
@@ -90,15 +90,15 @@
         <orderedlist>
           <listitem>
             <para
->Have a look at the internationaliziation pages of the KDE project. They are located at <ulink url="http://i18n.kde.org/"
+>Ta' et kig på internationaliserings siderne fra KDE projektet. Disse sider ligger på <ulink url="http://i18n.kde.org/"
 > i18n.kde.org</ulink
 >.</para>
           </listitem>
           <listitem>
             <para
->Install the program <ulink url="http://kbabel.kde.org/"
+>Installer programmet <ulink url="http://kbabel.kde.org/"
 > Babel</ulink
->, if it is not yet installed on your system. It will help you a lot with the translation process.</para>
+>, hvis det ikke allerede er installeret på dit system. Det vil hjælpe dig meget med oversættelses processen.</para>
           </listitem>
           <listitem>
             <para
@@ -108,8 +108,8 @@
           </listitem>
 	  <listitem>
 	    <para
->Subscribe to the <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-translations"
-> Bibletime-translations mailing list</ulink
+>Tilmeld dig  <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-translations"
+> Bibletime-oversættelses postlisten</ulink
 >.</para>
 	  </listitem>
         </orderedlist>
@@ -117,20 +117,20 @@
     </section>
     <section>
       <title
->For everybody, regardless of participation level...</title>
+>For alle, uanset deltagelsesniveau...</title>
       <para>
 	<orderedlist>
 	  <listitem>
 	    <para
->Join us in IRC! We can be found on the <ulink url="http://www.freenode.net"
+>Slut dig til os i IRC! Vi kan findes på <ulink url="http://www.freenode.net"
 >FreeNode Network</ulink
->, in the #bibletime room.</para>
+>, i #bibletime rummet.</para>
 	  </listitem>
 	  <listitem>
 	    <para
->Sign up for an account on our <ulink url="http://devel.bibletime.info"
+>Tilmeld dig og få en konto på vores <ulink url="http://devel.bibletime.info"
 >wiki</ulink
->, and make your contribution there.</para>
+>, og gør dine bidrag der.</para>
 	  </listitem>
 	</orderedlist>
       </para>

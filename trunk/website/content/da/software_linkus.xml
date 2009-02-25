@@ -1,83 +1,79 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 ]>
-
 <webpage id="software_linkus">
-<config param="desc" value="Link to us"
+  <config param="desc" value="Link to us"
 ></config>
-<config param="rcsdate" value="$Date: 2004/03/09 16:02:16 $"
+  <config param="rcsdate" value="$Date: 2009-02-25 14:36:09 -0500 (Wed, 25 Feb 2009) $"
 ></config>
-<head>
-	<title
+  <head>
+    <title
 >Link til os</title>
-	<summary
+    <summary
 >How to link to www.bibletime.info</summary>
-	<keywords
->BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, links, link us</keywords>
-</head>
-
-<section
-><title
+    <keywords
+>BibleTime, Linux, Software, biblestudy, bible study,
+    God, Religion, Bible, devotional, crosswire, sword, links, link
+    us</keywords>
+  </head>
+  <section>
+    <title
 >Hvordan du kan linke til www.bibletime.info</title>
-<para
->Vær venlig ikke at kopiere billederne fordi de måske ændrer design. </para>
-
-<section
-><title
->Stort banner</title>
-<para
->Indsæt den følgende HTML-kode i dine sider: <programlisting>
-<![CDATA[
+    <para
+>Please do not copy the images, as their design may change.</para>
+    <section>
+      <title
+>Større banner</title>
+      <para
+>Put the following HTML code on your pages: <programlisting>
+        <![CDATA[
  <a href="http://www.bibletime.info/" target="_blank">
  <img src="http://www.bibletime.info/images/banner/big.jpg" width="312" height="60" border="0"/>
  </a>
 ]]>
 </programlisting
-> Det vil komme til at se sådan her ud: <ulink url="http://www.bibletime.info/"
+>It will look like this: <ulink url="http://www.bibletime.info/"
 > <mediaobject
 > <imageobject
 > <imagedata fileref="/images/banner/big.jpg" format="JPG"/> </imageobject
 > </mediaobject
 > </ulink
-> </para>
-</section>
-
-<section
-><title
+></para>
+    </section>
+    <section>
+      <title
 >Mindre banner</title>
-<para
->Indsæt den følgende HTML-kode i dine sider: <programlisting>
-<![CDATA[
+      <para
+>Put the following HTML code on your pages: <programlisting>
+        <![CDATA[
  <a href="http://www.bibletime.info/" target="_blank">
  <img src="http://www.bibletime.info/images/banner/small.jpg" width="88" height="31" border="0"/>
  </a>
 ]]>
 </programlisting
-> Det vil komme til at se sådan her ud: <ulink url="http://www.bibletime.info/"
+>It will look like this: <ulink url="http://www.bibletime.info/"
 > <mediaobject
 > <imageobject
 > <imagedata fileref="/images/banner/small.jpg" format="JPG"/> </imageobject
 > </mediaobject
 > </ulink
-> </para>
-</section>
-
-
-<section
-><title
+></para>
+    </section>
+    <section>
+      <title
 >Tekst link</title>
-<para
->For at indsætte et simpelt tekstlink, så vær venlig at brug den følgende HTML kode på jeres sider: <programlisting>
-<![CDATA[
+      <para
+>To insert a simple text link please use the following HTML code on your pages: <programlisting>
+        <![CDATA[
  <a href="http://www.bibletime.info/" TARGET="_blank">
- BibleTime - Bibelstudiesoftware til KDE
+ BibleTime - Bible study software
  </a>
 ]]>
 </programlisting
-> Det vil se sådan her ud: <ulink url="http://www.bibletime.info/"
->BibleTime - Bibelstudiesoftware til KDE</ulink
-> </para>
-</section>
-
-</section>
+>It will look like this: <ulink url="http://www.bibletime.info/"
+>BibleTime - Bible study software</ulink
+></para>
+    </section>
+  </section>
 </webpage>

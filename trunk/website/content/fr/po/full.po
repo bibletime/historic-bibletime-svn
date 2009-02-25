@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-09 20:31+0000\n"
+"POT-Creation-Date: 2009-02-25 20:10+0000\n"
 "PO-Revision-Date: 2008-06-02 00:12+0200\n"
 "Last-Translator: Jean-Francois Paquin <eklezia@sympatico.ca>\n"
 "Language-Team:  <de@li.org>\n"
@@ -2384,16 +2384,16 @@ msgstr "SourceForge nous donne les outils nécessaires au développement de Bibl
 
 #
 #. Tag: title
-#: software_linkus.xml:14
+#: software_linkus.xml:16
 #, no-c-format
 msgid "How to link to www.bibletime.info"
 msgstr "Comment créer un lien sur mon site vers www.bibletime.info ?"
 
 #
 #. Tag: para
-#: software_linkus.xml:15
-#, no-c-format
-msgid "Please do not copy the images because they may change their design."
+#: software_linkus.xml:17
+#, fuzzy, no-c-format
+msgid "Please do not copy the images, as their design may change."
 msgstr "Veuillez NE PAS copier les images car leur design pourrait évoluer avec le temps."
 
 #
@@ -2406,15 +2406,15 @@ msgstr "Grande bannière"
 #
 #. Tag: para
 #: software_linkus.xml:20
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "Put the following HTML code on your pages: <programlisting>\n"
-"<![CDATA[\n"
+"        <![CDATA[\n"
 " <a href=\"http://www.bibletime.info/\" target=\"_blank\">\n"
 " <img src=\"http://www.bibletime.info/images/banner/big.jpg\" width=\"312\" height=\"60\" border=\"0\"/>\n"
 " </a>\n"
 "]]>\n"
-"</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/big.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
+"</programlisting>It will look like this: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/big.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 msgstr ""
 "Insérez le code HTML suivant sur vos pages : <programlisting>\n"
 "<![CDATA[\n"
@@ -2426,23 +2426,23 @@ msgstr ""
 
 #
 #. Tag: title
-#: software_linkus.xml:36
+#: software_linkus.xml:31
 #, no-c-format
 msgid "Smaller banner"
 msgstr "Petite bannière"
 
 #
 #. Tag: para
-#: software_linkus.xml:37
-#, no-c-format
+#: software_linkus.xml:32
+#, fuzzy, no-c-format
 msgid ""
 "Put the following HTML code on your pages: <programlisting>\n"
-"<![CDATA[\n"
+"        <![CDATA[\n"
 " <a href=\"http://www.bibletime.info/\" target=\"_blank\">\n"
 " <img src=\"http://www.bibletime.info/images/banner/small.jpg\" width=\"88\" height=\"31\" border=\"0\"/>\n"
 " </a>\n"
 "]]>\n"
-"</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/small.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
+"</programlisting>It will look like this: <ulink url=\"http://www.bibletime.info/\"> <mediaobject> <imageobject> <imagedata fileref=\"/images/banner/small.jpg\" format=\"JPG\"/> </imageobject> </mediaobject> </ulink>"
 msgstr ""
 "Insérez le code HTML suivant sur vos pages : <programlisting>\n"
 "<![CDATA[\n"
@@ -2454,23 +2454,23 @@ msgstr ""
 
 #
 #. Tag: title
-#: software_linkus.xml:54
+#: software_linkus.xml:44
 #, no-c-format
 msgid "Text link"
 msgstr "Lien textuel"
 
 #
 #. Tag: para
-#: software_linkus.xml:55
-#, no-c-format
+#: software_linkus.xml:45
+#, fuzzy, no-c-format
 msgid ""
 "To insert a simple text link please use the following HTML code on your pages: <programlisting>\n"
-"<![CDATA[\n"
+"        <![CDATA[\n"
 " <a href=\"http://www.bibletime.info/\" TARGET=\"_blank\">\n"
-" BibleTime - Bible study software for KDE\n"
+" BibleTime - Bible study software\n"
 " </a>\n"
 "]]>\n"
-"</programlisting> This will look like this: <ulink url=\"http://www.bibletime.info/\">BibleTime - Bible study software for KDE</ulink>"
+"</programlisting>It will look like this: <ulink url=\"http://www.bibletime.info/\">BibleTime - Bible study software</ulink>"
 msgstr ""
 "Pour insérer un lien textuel, veuillez insérez le code HTML suivant sur vos pages : <programlisting>\n"
 "<![CDATA[\n"
@@ -2561,38 +2561,6 @@ msgstr "L'outil de recherche"
 msgid "BibleTime offers a powerful search dialog. You can search in several works at a time, limit your search to text scopes or also to certain kinds of text, such as footnotes."
 msgstr "BibleTime dispose d'un outil de recherche puissant. Vous pouvez chercher dans plusieurs travaux en même temps, limiter votre recherche dans le champ du texte ou aussi à certains types de texte, tel que les notes en bas de page."
 
-#
-#. Tag: title
-#: software_swordcd.xml:10
-#, no-c-format
-msgid "Sword CD"
-msgstr "CD Sword"
-
-#. Tag: title
-#: software_swordcd.xml:16
-#, no-c-format
-msgid "Sword CD order form not available"
-msgstr "Formulaire de commande de CD Sword non disponible"
-
-#. Tag: para
-#: software_swordcd.xml:17
-#, no-c-format
-msgid "Because it's impossible for the BibleTime team to fullfill all the Sword CD orders with the limited financial ressources the CD order form is currently not available. Please note that the CD still is available as a download from ftp://ftp.crosswire.org/pub/sword/iso/."
-msgstr "Puisqu'il est impossible à l'équipe de BibleTime de répondre aux commandes de CD Sword à cause des ressources financières limitées, la commande de CD n'est plus disponible. Le CD rest disponible en téléchargement à l'adresse suivante : ftp://ftp.crosswire.org/pub/sword/iso/"
-
-#
-#. Tag: title
-#: software_swordcdsend.xml:10
-#, no-c-format
-msgid "Sword CD order"
-msgstr "Commander le CD Sword"
-
-#. Tag: title
-#: software_swordcdsend.xml:15
-#, no-c-format
-msgid "CD order sent"
-msgstr "Commande de CD envoyée"
-
 #. Tag: title
 #: translation.xml:16
 #, no-c-format
@@ -2675,81 +2643,98 @@ msgstr "Les développeurs intégreront votre oeuvre le plus tôt possible. Les s
 #. Tag: para
 #: translation.xml:71
 #, fuzzy, no-c-format
-msgid "For editing .po files we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file editor suitable for our documentation and website translations. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format."
+msgid "For editing .po files we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://userbase.kde.org/Lokalize\">Lokalize</ulink> is another KDE based app, it will replace KBabel. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file editor suitable for our documentation and website translations. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format."
 msgstr "Pour le processus de traduction, nous recommandons que vous utilisiez l'excellent logiciel <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> qui fonctionne sur KDE. Il a plusieurs fonctions avancées et il est une grande aide. <ulink url=\"http://trolltech.com/products/qt/features/tools/linguist\">Qt Linguist</ulink> (partie du paquetage multi-plateforme de développement de Qt) est adéquat pour traduire l'interface de l'utilisateur qui est en format .ts. <ulink url=\"http://www.poedit.net/\">PoEdit</ulink> est un éditeur multi-plateforme de fichier .po approprié pour nos traductions de la documentation et du site web."
 
 #. Tag: para
-#: translation.xml:82
+#: translation.xml:84
 #, fuzzy, no-c-format
 msgid "A list of the language abbreviations is available at <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\"> www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 msgstr "Une liste des abréviations des noms de langues est disponible ici : <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 
 #. Tag: title
-#: translation.xml:87
+#: translation.xml:89
 #, no-c-format
 msgid "<title>Translate the www.bibletime.info website.</title>"
 msgstr "<title>Traduire le site www.bibletime.info.</title>"
 
 #. Tag: para
-#: translation.xml:88
+#: translation.xml:90
 #, no-c-format
 msgid "If a translation of the website to your language does not yet exist, you can download and translate the <ulink url=\"/po/bibletime_website_template.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
 msgstr "Si une traduction du site web n'existe pas pour votre langue, vous pouvez télécharger et traduire le <ulink url=\"/po/bibletime_website_template.pot\">modèle de traduction du site web</ulink>. Si vous désirez mettre à jour une traduction existante, utilisez les liens dans la table ci-dessous pour télécharger le fichier correspondant. Nous ajoutons habituellement les pages traduites et le drapeau en haut si une traduction est à 80% complétée."
 
 #. Tag: title
-#: translation.xml:98
+#: translation.xml:100
 #, no-c-format
 msgid "<title>Translate the program's User Interface.</title>"
 msgstr "<title>Traduire l'interface du programme.</title>"
 
 #. Tag: para
-#: translation.xml:99
+#: translation.xml:101
 #, no-c-format
 msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Si une traduction de l'interface du programme n'existe pas pour votre langue, vous pouvez télécharger et traduire le <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> modèle de traduction de l'interface du programme</ulink>. Si vous désirez mettre à jour une traduction existante, utilisez les liens dans la table ci-dessous pour télécharger le fichier correspondant."
 
 #. Tag: para
-#: translation.xml:105
-#, no-c-format
-msgid "(We are preparing the BibleTime 1.7/2.0 series and have moved to the Qt's .ts file format from the 1.6 series .po format. Due the changes the translations need thorough rewrite.)"
+#: translation.xml:107
+#, fuzzy, no-c-format
+msgid "Starting at 1.7, we have moved translation format to QT's .ts file format from the previous .po format. Due to the changes, the translations need a thorough rewrite."
 msgstr "Nous préparons la série BibleTime 1.7/2.0 et avons changé pour le format de fichier de Qt qui est .ts à partir de la série de la version 1.6 du format .po. À cause des changements, les traductions demanderont une réécriture exhaustive.)"
 
 #
 #. Tag: title
-#: translation.xml:111
+#: translation.xml:113
 #, no-c-format
 msgid "Translate the Bible study howto."
 msgstr "Traduire le tutoriel d'étude biblique"
 
 #. Tag: para
-#: translation.xml:112
+#: translation.xml:114
 #, no-c-format
 msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Si une traduction du tutoriel d'étude biblique n'existe pas pour votre langue, vous pouvez télécharger et traduire le <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\">modèle de traduction du tutoriel</ulink>. Si vous désirez mettre à jour une traduction existante, utilisez les liens dans la table ci-dessous pour télécharger le fichier correspondant."
 
 #. Tag: title
-#: translation.xml:121
+#: translation.xml:123
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
 msgstr "<title>Traduire le manuel du programme.</title>"
 
 #. Tag: para
-#: translation.xml:122
+#: translation.xml:124
 #, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Si une traduction du manuel n'existe pas pour votre langue, vous pouvez télécharger et traduire le <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> modèle de traduction du manuel</ulink>. Si vous désirez mettre à jour une traduction existante, utilisez les liens dans la table ci-dessous pour télécharger le fichier correspondant."
 
 #. Tag: title
-#: translation.xml:131
+#: translation.xml:133
 #, no-c-format
 msgid "<title>Translate the biblical booknames.</title>"
 msgstr "<title>Traduire les noms des livres bibliques.</title>"
 
 #. Tag: para
-#: translation.xml:132
+#: translation.xml:134
 #, fuzzy, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
 msgstr "Traduire les noms des livres de la Bible vient du Projet Sword. Il n'y a pas de bonnes instructions pour le  moment mais vous pouvez trouver quelques informations et exemples en regardant au <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\">répertoire locales.d</ulink> de la bibliothèque Sword et utiliser <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\">leur modèle</ulink>."
+
+#
+#~ msgid "Sword CD"
+#~ msgstr "CD Sword"
+
+#~ msgid "Sword CD order form not available"
+#~ msgstr "Formulaire de commande de CD Sword non disponible"
+
+#~ msgid "Because it's impossible for the BibleTime team to fullfill all the Sword CD orders with the limited financial ressources the CD order form is currently not available. Please note that the CD still is available as a download from ftp://ftp.crosswire.org/pub/sword/iso/."
+#~ msgstr "Puisqu'il est impossible à l'équipe de BibleTime de répondre aux commandes de CD Sword à cause des ressources financières limitées, la commande de CD n'est plus disponible. Le CD rest disponible en téléchargement à l'adresse suivante : ftp://ftp.crosswire.org/pub/sword/iso/"
+
+#
+#~ msgid "Sword CD order"
+#~ msgstr "Commander le CD Sword"
+
+#~ msgid "CD order sent"
+#~ msgstr "Commande de CD envoyée"
 
 #
 #~ msgid "2005-11-13: BibleTime 1.5.3"
