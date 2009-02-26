@@ -8,9 +8,10 @@
   <head>
     <title>Translation</title>
     <summary>BibleTime translation statistics</summary>
-    <keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    <keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
+    biblestudy, bible study,
     Qt, God, Religion, Bible, devotional, crosswire, sword,
-    translation, webpage</keywords>
+    translation, translate, webpage</keywords>
   </head>
   <section>
     <title>Help translate BibleTime into your language</title>
@@ -105,7 +106,7 @@
     an existing translation, use the links in the table below to
     download the corresponding file.</para>
     <para>Starting at 1.7, we have moved translation format
-    to QT's .ts file format from the previous .po format. Due to the
+    to Qt's .ts file format from the previous .po format. Due to the
     changes, the translations need a thorough rewrite.</para>
     <ssi mode="exec" cgi="/postats/messages_stats.pl" />
   </section>

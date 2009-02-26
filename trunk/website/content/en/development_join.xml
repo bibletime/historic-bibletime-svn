@@ -9,9 +9,10 @@
   <head>
     <title>Join us</title>
     <summary>BibleTime's development</summary>
-    <keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    <keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
+    biblestudy, bible study,
     God, Religion, Bible, devotional, crosswire, sword, development
-    team, join</keywords>
+    team, translators, join</keywords>
   </head>
   <section>
     <title>Join the BibleTime team</title>
@@ -54,7 +55,7 @@
       <para>
         <orderedlist>
           <listitem>
-            <para>Work through some of the Qt 3/4 and KDE 3/4 tuorials to
+            <para>Work through some of the Qt 4 and tuorials to
             get used to programming with the tools BibleTime
             uses.</para>
           </listitem>
@@ -72,7 +73,7 @@
         <orderedlist>
           <listitem>
             <para>Read the existing English documentation. It is located
-            in the docs/ directory of the bibletime cvs
+            in the docs/ directory of the bibletime svn
             directory.</para>
           </listitem>
           <listitem>
@@ -93,12 +94,11 @@
           <listitem>
             <para>Have a look at the internationaliziation pages of the
             KDE project. They are located at 
-            <ulink url="http://i18n.kde.org/">
-            i18n.kde.org</ulink>.</para>
+            <ulink url="http://i18n.kde.org/">http://i18n.kde.org</ulink>.</para>
           </listitem>
           <listitem>
-            <para>Install the program <ulink url="http://kbabel.kde.org/">
-	    Babel</ulink>, if it is not yet installed
+            <para>Install the program <ulink url="http://userbase.kde.org/Lokalize">
+	    Lokalize</ulink>, if it is not yet installed
             on your system. It will help you a lot with the translation
             process.</para>
           </listitem>

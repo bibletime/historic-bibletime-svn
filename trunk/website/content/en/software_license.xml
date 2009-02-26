@@ -1,18 +1,23 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 ]>
-
 <webpage id="software_license">
-<config param="desc" value="License"/>
-<config param="rcsdate" value="$Date: 2004/03/09 16:02:16 $"/>
-<head>
-	<title>License</title>
-	<summary>BibleTime's license</summary>
-	<keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, license</keywords>
-</head>
-
-<section><title>License</title>
-<literallayout>
+  <config param="desc" value="License" />
+  <config param="rcsdate"
+  value="$Date$" />
+  <head>
+    <title>License</title>
+    <summary>BibleTime's license</summary>
+    <keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
+    biblestudy, bible study,
+    God, Religion, Bible, devotional, crosswire, sword,
+    license</keywords>
+  </head>
+  <section>
+    <title>License</title>
+  </section>
+  <literallayout>
 		    GNU GENERAL PUBLIC LICENSE
 		       Version 2, June 1991
 
@@ -353,8 +358,5 @@ proprietary programs.  If your program is a subroutine library, you may
 consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Library General
 Public License instead of this License.
-</literallayout>
-
-</section>
-
+  </literallayout>
 </webpage>
