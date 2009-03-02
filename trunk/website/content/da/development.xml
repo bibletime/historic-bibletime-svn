@@ -1,30 +1,32 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 <!ENTITY software_intro_page SYSTEM "software_intro.xml" NDATA XML>
 ]>
-
 <webpage id="development">
-<config param="desc" value="Development"
+  <config param="desc" value="Development"
 ></config>
-<config param="rcsdate" value="$Date: 2004/03/09 16:02:16 $"
+  <config param="rcsdate" value="$Date: 2009-03-01 22:58:13 -0500 (Sun, 01 Mar 2009) $"
 ></config>
-<head>
-	<title
+  <head>
+    <title
 >Udvikling</title>
-	<summary
+    <summary
 >BibleTime's development</summary>
-	<keywords
->BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, sword, support, developmen</keywords>
-</head>
-
-<section
-><title
+    <keywords
+>BibleTime, Linux, unix, FreBSD, cross platform,
+    Software, biblestudy, bible study,
+    God, Religion, Bible, devotional, crosswire, sword, support,
+    developmen</keywords>
+  </head>
+  <section>
+    <title
 >BibelTimes udvikling</title>
-<para
->De her sider beskriver, hvordan man kan slutte sig til udviklingen af BibleTime, og hvilke måder man kan hjælpe os på! BibleTimes kvalitet og brugervenlighed afhænger i høj grad af hjælp fra andre. </para>
 
-<para
->Vær venlig at læse de følgende sider meget grundigt, for at se om du kan hjælpe os med udviklingen! </para>
-</section>
+    <para
+>These pages describe how you can join in the development of BibleTime and other ways you can help us! BibleTime's quality and usefulness depends on the help of others to a large degree.</para>
 
+    <para
+>Please read the following pages very carefully to see if you can help us with the development!</para>
+  </section>
 </webpage>

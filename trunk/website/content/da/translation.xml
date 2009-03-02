@@ -5,7 +5,7 @@
 <webpage id="translation">
   <config param="desc" value="Software page"
 ></config>
-  <config param="rcsdate" value="$Date: 2009-02-25 15:07:56 -0500 (Wed, 25 Feb 2009) $"
+  <config param="rcsdate" value="$Date: 2009-02-26 10:58:08 -0500 (Thu, 26 Feb 2009) $"
 ></config>
   <head>
     <title
@@ -13,9 +13,10 @@
     <summary
 >BibleTime translation statistics</summary>
     <keywords
->BibleTime, Linux, Software, biblestudy, bible study, KDE,
+>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
+    biblestudy, bible study,
     Qt, God, Religion, Bible, devotional, crosswire, sword,
-    translation, webpage</keywords>
+    translation, translate, webpage</keywords>
   </head>
   <section>
     <title
@@ -103,7 +104,7 @@
 > Brugerflade oversættelses-skabelonen</ulink
 >. Hvis du ønsker at opdatere en eksisterende oversættelse, så brug linksne i tabellen herunder til at downloade den tilsvarende fil.</para>
     <para
->Starting at 1.7, we have moved translation format to QT's .ts file format from the previous .po format. Due to the changes, the translations need a thorough rewrite.</para>
+>Starting at 1.7, we have moved translation format to Qt's .ts file format from the previous .po format. Due to the changes, the translations need a thorough rewrite.</para>
     <ssi mode="exec" cgi="/postats/messages_stats.pl"
 ></ssi>
   </section>

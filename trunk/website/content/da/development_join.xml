@@ -6,7 +6,7 @@
 <webpage id="development_join">
   <config param="desc" value="Join us"
 ></config>
-  <config param="rcsdate" value="$Date: 2008-12-11 16:28:24 -0500 (Thu, 11 Dec 2008) $"
+  <config param="rcsdate" value="$Date: 2009-02-26 10:58:08 -0500 (Thu, 26 Feb 2009) $"
 ></config>
   <head>
     <title
@@ -14,9 +14,10 @@
     <summary
 >BibleTime's development</summary>
     <keywords
->BibleTime, Linux, Software, biblestudy, bible study, KDE,
+>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
+    biblestudy, bible study,
     God, Religion, Bible, devotional, crosswire, sword, development
-    team, join</keywords>
+    team, translators, join</keywords>
   </head>
   <section>
     <title
@@ -58,7 +59,7 @@
         <orderedlist>
           <listitem>
             <para
->Arbejd dig gennem nogle af Qt 3/4 og KDE 3/4 øvelserne for at blive vant til at programmere med de ting BibleTime bruger.</para>
+>Work through some of the Qt 4 and tuorials to get used to programming with the tools BibleTime uses.</para>
           </listitem>
           <listitem>
             <para
@@ -74,7 +75,7 @@
         <orderedlist>
           <listitem>
             <para
->Læs den eksisterende engelske dokumentation. Den ligger i mappen docs/ i bibletime cvs mappen.</para>
+>Read the existing English documentation. It is located in the docs/ directory of the bibletime svn directory.</para>
           </listitem>
           <listitem>
             <para
@@ -90,15 +91,15 @@
         <orderedlist>
           <listitem>
             <para
->Ta' et kig på internationaliserings siderne fra KDE projektet. Disse sider ligger på <ulink url="http://i18n.kde.org/"
-> i18n.kde.org</ulink
+>Have a look at the internationaliziation pages of the KDE project. They are located at <ulink url="http://i18n.kde.org/"
+>http://i18n.kde.org</ulink
 >.</para>
           </listitem>
           <listitem>
             <para
->Installer programmet <ulink url="http://kbabel.kde.org/"
-> Babel</ulink
->, hvis det ikke allerede er installeret på dit system. Det vil hjælpe dig meget med oversættelses processen.</para>
+>Install the program <ulink url="http://userbase.kde.org/Lokalize"
+> Lokalize</ulink
+>, if it is not yet installed on your system. It will help you a lot with the translation process.</para>
           </listitem>
           <listitem>
             <para

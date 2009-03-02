@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-25 20:10+0000\n"
+"POT-Creation-Date: 2009-03-02 04:14+0000\n"
 "PO-Revision-Date: 2009-02-08 00:52-0300\n"
 "Last-Translator: Rafael Fagundes Rosa Campos <rafaelfrc@yahoo.com.br>\n"
 "Language-Team: Português do Brasil <pt@li.org>\n"
@@ -106,7 +106,7 @@ msgid "Contact"
 msgstr "Contato"
 
 #. Tag: title
-#: autolayout.xml:56 software_license.xml:9 software_license.xml:14
+#: autolayout.xml:56 software_license.xml:10 software_license.xml:18
 #, no-c-format
 msgid "License"
 msgstr "Licença"
@@ -160,21 +160,21 @@ msgid "Biblestudy HowTo"
 msgstr "Estudo Bíblico HowTo"
 
 #. Tag: title
-#: development.xml:15
+#: development.xml:18
 #, no-c-format
 msgid "BibleTime's development"
 msgstr "Desenvolvimento do BibleTime"
 
 #. Tag: para
-#: development.xml:16
-#, no-c-format
-msgid "These pages describe how to join in the development of BibleTime and which ways exist to help us! BibleTime's quality and usefulness depends on the help of others to a large degree."
+#: development.xml:20
+#, fuzzy, no-c-format
+msgid "These pages describe how you can join in the development of BibleTime and other ways you can help us! BibleTime's quality and usefulness depends on the help of others to a large degree."
 msgstr "Estas páginas descrevem como se juntar ao desenvolvimento do BibleTime e quais as formas existentes de nos ajudar! A qualidade de usabilidade do BibleTime depende em larga escala da ajuda de outros."
 
 #. Tag: para
-#: development.xml:20
-#, no-c-format
-msgid "Please read the following pages very carefully to see whether you can help us with the development!"
+#: development.xml:24
+#, fuzzy, no-c-format
+msgid "Please read the following pages very carefully to see if you can help us with the development!"
 msgstr "Por favor leia as seguintes páginas muito cuidadosamente para ver se você pode nos ajudar com o desenvolvimento!"
 
 #. Tag: title
@@ -262,99 +262,99 @@ msgid "You can find more information about the translation process on the page <
 msgstr "Você pode encontrar mais informação sobre o processo de tradução na página de <olink targetdocent=\"translation\">tradução do BibleTime</olink>."
 
 #. Tag: title
-#: development_join.xml:17
+#: development_join.xml:18
 #, no-c-format
 msgid "Join the BibleTime team"
 msgstr "Junte-se ao time do BibleTime"
 
 #. Tag: para
-#: development_join.xml:18
+#: development_join.xml:19
 #, fuzzy, no-c-format
 msgid "We are thankful to everybody who helps us improve the BibleTime software, it's documentation and it's translations."
 msgstr "Nõs estamos gratos por todos que nos ajudam a melhorar o software BibleTime, sua documentação e sua tradução."
 
 #. Tag: title
-#: development_join.xml:22
+#: development_join.xml:23
 #, fuzzy, no-c-format
 msgid "The basic steps..."
 msgstr "Os passos básicos.."
 
 #. Tag: para
-#: development_join.xml:23
+#: development_join.xml:24
 #, no-c-format
 msgid "The following are necessary for each type of team member. Please follow them!"
 msgstr "O seguinte é necessário para cada tipo de membro do time. Por favor siga-os!"
 
 #. Tag: para
-#: development_join.xml:28
+#: development_join.xml:29
 #, fuzzy, no-c-format
 msgid "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</ulink>, please sign up for one. It is free. We need your username to add you to the team members list, to assign tasks to you, etc."
 msgstr "Se você não tem uma conta no SourceForge, por favor inscreva-se para uma. É grátis. Nós precisamos de seu nome de usuário para adicionar você aos membros do time, para designar tarefas, etc."
 
 #. Tag: para
-#: development_join.xml:35
+#: development_join.xml:36
 #, no-c-format
 msgid "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> BibleTime development mailing list</ulink>. All developers read this mailing list, so everybody knows what is hapenning. There is also a mailing list for the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\"> commit messages</ulink> of the ongoing development process."
 msgstr "Inscreva-se na <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> lista de desenvolvimento do BibleTime</ulink>. Todos os desenvolvedores lêem essa lista, então todo mundo sabe o que esta acontecendo. Existe ainda uma lista de discussão para o <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\">enviar mensagens</ulink> do andamento do processo de desenvolvimento."
 
 #. Tag: para
-#: development_join.xml:45
+#: development_join.xml:46
 #, no-c-format
 msgid "Get the development version of BibleTime and install it. If you need help with this ask on the mailing list or look into the documentation section."
 msgstr "Pegue a versão de desenvolvimento do BibleTime e instale. Se você precisar de ajuda para isto peça na lista de discussão ou procure na seção de documentação."
 
 #. Tag: title
-#: development_join.xml:53
+#: development_join.xml:54
 #, no-c-format
 msgid "The next steps for software developers..."
 msgstr "O próximo passo para desenvolvedores de software..."
 
 #. Tag: para
-#: development_join.xml:57
+#: development_join.xml:58
 #, fuzzy, no-c-format
-msgid "Work through some of the Qt 3/4 and KDE 3/4 tuorials to get used to programming with the tools BibleTime uses."
+msgid "Work through some of the Qt 4 and tuorials to get used to programming with the tools BibleTime uses."
 msgstr "Trabalhe com os tutoriais do Qt 3 e KDE 3 para saber como programar as coisas que o BibleTime usa."
 
 #. Tag: para
-#: development_join.xml:62
+#: development_join.xml:63
 #, fuzzy, no-c-format
 msgid "If you do not know what to do please ask on the mailing list for some tasks. Do not forget to add how difficult it should be."
 msgstr "Se você não sabe o que fazer por favor peça na lista de discussão por algumas tarefas. Não se esqueça de adicionar o nível de dificuldade que devem ter."
 
 #. Tag: title
-#: development_join.xml:70
+#: development_join.xml:71
 #, no-c-format
 msgid "The next steps for documentation authors..."
 msgstr "Os próximos passos para autores de documentação..."
 
 #. Tag: para
-#: development_join.xml:74
+#: development_join.xml:75
 #, fuzzy, no-c-format
-msgid "Read the existing English documentation. It is located in the docs/ directory of the bibletime cvs directory."
+msgid "Read the existing English documentation. It is located in the docs/ directory of the bibletime svn directory."
 msgstr "Leia a documentação existente em inglês. Está localizada no diretório docs/ do diretório cvs do BibleTime."
 
 #. Tag: para
-#: development_join.xml:79
+#: development_join.xml:80
 #, fuzzy, no-c-format
 msgid "The documentation is stored in docbook format in the unicode subdirectories of each documentation part (handbook, Bible study howto, installation, helpdialog). Please do not edit the HTML files directly because they are generated from the docbook files. The translation file are also generated from the docbook data."
 msgstr "A documentação é guardada em arquivos docbook nos subdiretórios unicode de cada parte (livro de mão, Estudo Bíblico HowTo, instalação, diálogo de ajuda). Por favor, não edite os arquivos HTML diretamente porque eles são gerados a partir dos documentos docbook. Os arquivos de tradução também são gerados a partir dos arquivos docbook."
 
 #. Tag: title
-#: development_join.xml:90
+#: development_join.xml:91
 #, no-c-format
 msgid "The next steps for translators..."
 msgstr "O próximo passo para tradutores..."
 
 #. Tag: para
-#: development_join.xml:94
+#: development_join.xml:95
 #, fuzzy, no-c-format
-msgid "Have a look at the internationaliziation pages of the KDE project. They are located at <ulink url=\"http://i18n.kde.org/\"> i18n.kde.org</ulink>."
+msgid "Have a look at the internationaliziation pages of the KDE project. They are located at <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
 msgstr "Dê uma olhada nas páginas de internacionalização do projeto KDE. Eles estão localizados em: <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>"
 
 #. Tag: para
 #: development_join.xml:100
 #, fuzzy, no-c-format
-msgid "Install the program <ulink url=\"http://kbabel.kde.org/\"> Babel</ulink>, if it is not yet installed on your system. It will help you a lot with the translation process."
+msgid "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> Lokalize</ulink>, if it is not yet installed on your system. It will help you a lot with the translation process."
 msgstr "Instale o programa KBabel, se ainda não estiver instalado em seu sistema. Ele irá ajuda-lo muito no processo de tradução."
 
 #. Tag: para
@@ -388,39 +388,39 @@ msgid "Sign up for an account on our <ulink url=\"http://devel.bibletime.info\">
 msgstr "Inscreva-se numa conta no nosso <ulink url=\"http://devel.bibletime.info\">wiki<ulink>, e faça lá sua contribuição "
 
 #. Tag: title
-#: development_mailinglists.xml:15
+#: development_mailinglists.xml:18
 #, no-c-format
 msgid "BibleTime development mailing list"
 msgstr "Lista de discussão de desenvolvimento do BibleTime"
 
 #. Tag: para
-#: development_mailinglists.xml:16
-#, no-c-format
-msgid "To subscribe to the development mailing list of the BibleTime project please visit the following web page and enter your eMail address there: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
+#: development_mailinglists.xml:19
+#, fuzzy, no-c-format
+msgid "To subscribe to the development mailing list of the BibleTime project please visit the following web page and enter your eMail address there: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
 msgstr "Para assinar a lista de discussão de desenvolvimento do projeto BibleTime por favor visite a seguinte página: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
 
 #. Tag: para
-#: development_mailinglists.xml:20
-#, no-c-format
-msgid "Archives of the BibleTime development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/\">www.crosswire.org/pipermail/bt-devel</ulink>."
+#: development_mailinglists.xml:24
+#, fuzzy, no-c-format
+msgid "Archives of the BibleTime development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/\"> www.crosswire.org/pipermail/bt-devel</ulink>."
 msgstr "Arquivo da lista de discussão de desenvolvimento do BibleTime estão disponíveis em <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/\">www.crosswire.org/pipermail/bt-devel</ulink>."
 
 #. Tag: title
-#: development_mailinglists.xml:25
+#: development_mailinglists.xml:30
 #, no-c-format
 msgid "Sword development mailing list"
 msgstr "Lista de discussão de desenvolvimento do Sword"
 
 #. Tag: para
-#: development_mailinglists.xml:26
-#, no-c-format
-msgid "To subscribe to the development mailing list of the Sword project please visit the following web page and enter your eMail address there: <ulink url=\"http://www.crosswire.org/mailman/listinfo/sword-devel\">www.crosswire.org/mailman/listinfo/sword-devel</ulink>."
+#: development_mailinglists.xml:31
+#, fuzzy, no-c-format
+msgid "To subscribe to the development mailing list of the Sword project please visit the following web page and enter your eMail address there: <ulink url=\"http://www.crosswire.org/mailman/listinfo/sword-devel\"> www.crosswire.org/mailman/listinfo/sword-devel</ulink>."
 msgstr "Para assinar a lista de discussão de desenvolvimento do projeto Sword por favor visite a seguinte página web e digite seu endereço de e-mail lá: <ulink url=\"http://www.crosswire.org/mailman/listinfo/sword-devel\">www.crosswire.org/mailman/listinfo/sword-devel</ulink>."
 
 #. Tag: para
-#: development_mailinglists.xml:29
-#, no-c-format
-msgid "Archives of the Sword development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/pipermail/sword-devel</ulink>."
+#: development_mailinglists.xml:36
+#, fuzzy, no-c-format
+msgid "Archives of the Sword development mailing list are available at <ulink url=\"http://www.crosswire.org/pipermail/sword-devel/\"> www.crosswire.org/pipermail/sword-devel</ulink>."
 msgstr "Arquivos da lista de discussão de desenvolvimento do Sword disponíveis em <ulink url=\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/pipermail/sword-devel</ulink>."
 
 #. Tag: title
@@ -460,15 +460,15 @@ msgid "If you can't solve the problem please report the URL which failed to <ema
 msgstr "Se você não conseguir solucionar o problema, por favor, reporte a URL que falhou para <email>info@bibletime.info</email>. Muito obrigado!"
 
 #. Tag: title
-#: sidebar_tips.xml:16 software_faq.xml:138
+#: sidebar_tips.xml:18 software_faq.xml:138
 #, no-c-format
 msgid "Translations"
 msgstr "Traduções"
 
 #. Tag: para
-#: sidebar_tips.xml:17
-#, no-c-format
-msgid "It will cost you just a few minutes to update the webpage translation in your language. Help with the translations is something all users can do and which help all users. If you want to help us keeping the translations up to date, please read the page about <olink targetdocent=\"translations\">making translations</olink> and update the translation file of your own language."
+#: sidebar_tips.xml:19
+#, fuzzy, no-c-format
+msgid "It will cost you just a few minutes to update the webpage translation in your language. Help with the translations is something anybody can do and it will benefit all users. If you want to help us keep the translations up to date, please read the page about <olink targetdocent=\"translations\">making translations</olink> and update the translation file of your own language."
 msgstr "Isso vai custar-lhe apenas alguns poucos minutos para atualizar a tradução da página no seu idioma. Ajudar com as traduções é algo que todos os usuários podem fazer e que ajuda a todos os usuários. Se você quer ajudar-nos a manter a tradução atualizada, por favor, leia a página sobre <olink targetdocent=\"translations\">fazendo traduções</olink> e atualize o arquivo de tradução de seu próprio idioma."
 
 #. Tag: author
@@ -1344,7 +1344,7 @@ msgid "Books"
 msgstr "Livros"
 
 #. Tag: literallayout
-#: software_license.xml:15
+#: software_license.xml:20
 #, no-c-format
 msgid ""
 "GNU GENERAL PUBLIC LICENSE\n"
@@ -2402,157 +2402,157 @@ msgid "BibleTime offers a powerful search dialog. You can search in several work
 msgstr "O BibleTime oferece um poderoso dialogo de procura. Voce pode procurar em varios trabalhos de uma vez, limitar sua procura a areas de texto ou ainda a certos tipos de texto, como notas de rodape."
 
 #. Tag: title
-#: translation.xml:16
+#: translation.xml:17
 #, no-c-format
 msgid "Help translate BibleTime into your language"
 msgstr "Ajude a traduzir BibleTime no seu idioma"
 
 #. Tag: para
-#: translation.xml:17
+#: translation.xml:18
 #, fuzzy, no-c-format
 msgid "This is a part of software development where the help of many individuals is needed. It is our desire to offer BibleTime to users in as many languages as possible. The following areas are open for your contributions:"
 msgstr "Esse é uma parte do desenvolvimento do software onde é necessária a ajuda de várias pessoas. Nós desejamos oferecer o BibleTime para os usuários na maior quantidade de idiomas possíveis. As seguintes áreas estào abertas para suas contribuições:"
 
 #. Tag: para
-#: translation.xml:23
+#: translation.xml:24
 #, no-c-format
 msgid "<para>Translate the www.bibletime.info website.</para>"
 msgstr "<para>Traduzir o site do www.bibletime.info</para>"
 
 #. Tag: para
-#: translation.xml:26
+#: translation.xml:27
 #, no-c-format
 msgid "<para>Translate the program's User Interface.</para>"
 msgstr "<para>Traduzir a inteface do programa</para>"
 
 #. Tag: para
-#: translation.xml:29
+#: translation.xml:30
 #, fuzzy, no-c-format
 msgid "Translate the Bible Study Howto."
 msgstr "Estudo Bíblico HowTo"
 
 #. Tag: para
-#: translation.xml:32
+#: translation.xml:33
 #, no-c-format
 msgid "<para>Translate the program's handbook.</para>"
 msgstr "<para>Traduzir o Livro de Mão do programa</para>"
 
 #. Tag: para
-#: translation.xml:35
+#: translation.xml:36
 #, fuzzy, no-c-format
 msgid "<para>Translate the biblical booknames.</para>"
 msgstr "<para>Traduzir o Livro de Mão do programa</para>"
 
 #. Tag: para
-#: translation.xml:38
+#: translation.xml:39
 #, fuzzy, no-c-format
 msgid "On this page you can find statistics about the completeness of existing translations for each of these areas, as well as links to translation templates that you can use to submit new translations which do not yet exist. If a translation into your language does not yet exist or you want to work on an existing translation, follow these steps:"
 msgstr "Nessa página você pode encontrar estatísticas de quão completa está cada uma das traduções existentes para essas áreas, bem como links para os modelos de tradução que você pode usar para sumbeter novas traduções que ainda não existem. Se uma tradução no seu idioma ainda não existe, simplesmente faça download do templete, traduza-o e envie-o para <email>info@bibletime.info</email>. Se você não está satisfeito com o estado da tradução na sua linguagem, você pode fazer download do arquivo correspondente, atualizar a tradução e enviar-nos. Em ambos os casos, nós iremos integrar o seu trabalho assim que possível."
 
 #. Tag: para
-#: translation.xml:46
+#: translation.xml:47
 #, no-c-format
 msgid "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> the translators' mailing list bibletime-translations at lists.sourceforge.net</ulink>. You will receive information relevant for translators and can communicate with the developers and the other translators. Use this list if you have questions or comments."
 msgstr "Inscreva-se <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\">os tradutores lista de tradução do BibleTime em lists.sourceforge.net </ulink> Você vai receber informações relevantes para tradutores e pode se comunicar com desenvolvedores e outros tradutores. Use esta lista se vopcê tem questões ou comentários"
 
 #. Tag: para
-#: translation.xml:55
+#: translation.xml:56
 #, no-c-format
 msgid "Download a template you want to translate or an existing translation you want to enhance."
 msgstr "Baixe o modelo para você traduzir ou uma tradução existente para você melhorar."
 
 #. Tag: para
-#: translation.xml:59
+#: translation.xml:60
 #, no-c-format
 msgid "Use one of the recommended programs mentioned below or some other program and edit the translation."
 msgstr "Use um dos programas mencionados abaixo ou algum outro programa e edite a tradução."
 
 #. Tag: para
-#: translation.xml:63
+#: translation.xml:64
 #, no-c-format
 msgid "Send the translation to the translators' mailing list."
 msgstr "Envie sua tradução para a lista de e-mails dos tradutores."
 
 #. Tag: para
-#: translation.xml:67
+#: translation.xml:68
 #, no-c-format
 msgid "Developers will integrate your work as soon as possible. The statistics will be updated after that."
 msgstr "Desenvolvedores vão integrar seu trabalho logo que for possível. As estatísticas serão atualizadas após isso."
 
 #. Tag: para
-#: translation.xml:71
+#: translation.xml:72
 #, fuzzy, no-c-format
 msgid "For editing .po files we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://userbase.kde.org/Lokalize\">Lokalize</ulink> is another KDE based app, it will replace KBabel. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file editor suitable for our documentation and website translations. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format."
 msgstr "Para editar arquivos .po nós recomendamos que você use o exelente e maduro programa  <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> que trabalha no KDE. Ele tem muitas características avançadas e é uma grande ajuda.<ulink url=\"http://www.poedit.net/\">Poedit</ulink> é um editor de arquivos de cross-platform, adequada para nossa documentação e traduções do website. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink>(parte da cross-platform pacote de desenvolvimento Qt ) é adequada para traduzir a interface com o usuário em com o formato .ts."
 
 #. Tag: para
-#: translation.xml:84
+#: translation.xml:85
 #, fuzzy, no-c-format
 msgid "A list of the language abbreviations is available at <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\"> www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 msgstr "Uma lista das abreviações das linguagens está disponível em <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
 
 #. Tag: title
-#: translation.xml:89
+#: translation.xml:90
 #, no-c-format
 msgid "<title>Translate the www.bibletime.info website.</title>"
 msgstr "<title>Traduzir o site do www.bibletime.info</title>"
 
 #. Tag: para
-#: translation.xml:90
+#: translation.xml:91
 #, fuzzy, no-c-format
 msgid "If a translation of the website to your language does not yet exist, you can download and translate the <ulink url=\"/po/bibletime_website_template.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
 msgstr "Se a tradução do website no seu idioma não existe ainda, você pode fazer donwload e traduzir o <ulink url=\"/en/pot/full.pot\">Modelo de Tradução da Página Web</ulink>. Se você quiser atualizar uma tradução existente, use os links na tabela abaixo para baixar o arquivo correspondente."
 
 #. Tag: title
-#: translation.xml:100
+#: translation.xml:101
 #, no-c-format
 msgid "<title>Translate the program's User Interface.</title>"
 msgstr "<title>Traduzir a inteface do programa</title>"
 
 #. Tag: para
-#: translation.xml:101
+#: translation.xml:102
 #, fuzzy, no-c-format
 msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Se a tradução da interface do programa no seu idioma não existe ainda, você pode fazer donwload e traduzir o <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD\">Modelo de Tradução da Interface do Programa</ulink>. Se você quiser atualizar uma tradução existente, use os links na tabela abaixo para baixar o arquivo correspondente."
 
 #. Tag: para
-#: translation.xml:107
+#: translation.xml:108
 #, fuzzy, no-c-format
-msgid "Starting at 1.7, we have moved translation format to QT's .ts file format from the previous .po format. Due to the changes, the translations need a thorough rewrite."
+msgid "Starting at 1.7, we have moved translation format to Qt's .ts file format from the previous .po format. Due to the changes, the translations need a thorough rewrite."
 msgstr "(Nós estamos preparando) a série BiblTime 1.70/2.0 e temos movido para o formato de arquivo .ts do Qt da série 1.6, que usa o formato .po. Devido a mudanças nas traduções há a necessidade de se reescrever."
 
 #. Tag: title
-#: translation.xml:113
+#: translation.xml:114
 #, fuzzy, no-c-format
 msgid "Translate the Bible study howto."
 msgstr "Estudo Bíblico HowTo"
 
 #. Tag: para
-#: translation.xml:114
+#: translation.xml:115
 #, fuzzy, no-c-format
 msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Se a tradução do livro de mão no seu idioma não existe ainda, você pode fazer donwload e traduzir o <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\">Modelo de Tradução do Livro de Mão</ulink>. Se você quiser atualizar uma tradução existente, use os links na tabela abaixo para baixar o arquivo correspondente."
 
 #. Tag: title
-#: translation.xml:123
+#: translation.xml:124
 #, no-c-format
 msgid "<title>Translate the program's handbook.</title>"
 msgstr "<title>Traduzir o Livro de Mão do programa.</title>"
 
 #. Tag: para
-#: translation.xml:124
+#: translation.xml:125
 #, fuzzy, no-c-format
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr "Se a tradução do livro de mão no seu idioma não existe ainda, você pode fazer donwload e traduzir o <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD\">Modelo de Tradução do Livro de Mão</ulink>. Se você quiser atualizar uma tradução existente, use os links na tabela abaixo para baixar o arquivo correspondente."
 
 #. Tag: title
-#: translation.xml:133
+#: translation.xml:134
 #, fuzzy, no-c-format
 msgid "<title>Translate the biblical booknames.</title>"
 msgstr "<title>Traduzir o Livro de Mão do programa.</title>"
 
 #. Tag: para
-#: translation.xml:134
+#: translation.xml:135
 #, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
 msgstr "Translated Bible book names come from the Sword project. Não Existem boas instruções no momento, mas você pode encontrar alguma informação e exemplos para procurar no<ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\">diretório locales.d</ulink>da biblioteca Sword e  usando <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> o modelo</ulink>."
