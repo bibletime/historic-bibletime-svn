@@ -1,34 +1,41 @@
-<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd" [
+<!DOCTYPE webpage SYSTEM "../schema/dtd/website.dtd"
+[
 <!NOTATION XML SYSTEM "xml">
 <!ENTITY software_intro_page SYSTEM "software_intro.xml" NDATA XML>
 ]>
-
 <webpage id="development_mailinglists">
-<config param="desc" value="mailinglists us"/>
-<config param="rcsdate" value="$Date: 2004/03/09 16:02:16 $"/>
-<head>
-	<title>Mailinglists</title>
-	<summary>BibleTime's mailinglists</summary>
-	<keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, Bible, devotional, crosswire, mailing list, help, support, development</keywords>
-</head>
-
-<section><title>BibleTime development mailing list</title>
-<para>
-To subscribe to the development mailing list of the BibleTime project please visit the following web page and enter your eMail address there: <ulink url="http://www.crosswire.org/mailman/listinfo/bt-devel">www.crosswire.org/mailman/listinfo/bt-devel</ulink>.
-</para>
-
-<para>
-Archives of the BibleTime development mailing list are available at <ulink url="http://www.crosswire.org/pipermail/bt-devel/">www.crosswire.org/pipermail/bt-devel</ulink>.
-</para>
-</section>
-
-<section><title>Sword development mailing list</title>
-<para>
-To subscribe to the development mailing list of the Sword project please visit the following web page and enter your eMail address there: <ulink url="http://www.crosswire.org/mailman/listinfo/sword-devel">www.crosswire.org/mailman/listinfo/sword-devel</ulink>.
-</para>
-<para>
-Archives of the Sword development mailing list are available at <ulink url="http://www.crosswire.org/pipermail/sword-devel/">www.crosswire.org/pipermail/sword-devel</ulink>.
-</para>
-</section>
-
+  <config param="desc" value="mailinglists us" />
+  <config param="rcsdate" value="$Date$" />
+  <head>
+    <title>Mailinglists</title>
+    <summary>BibleTime's mailinglists</summary>
+    <keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
+    biblestudy, bible study,
+    God, Religion, Bible, devotional, crosswire, mailing list, help,
+    support, development</keywords>
+  </head>
+  <section>
+    <title>BibleTime development mailing list</title>
+    <para>To subscribe to the development mailing list of the BibleTime
+    project please visit the following web page and enter your eMail
+    address there: 
+    <ulink url="http://www.crosswire.org/mailman/listinfo/bt-devel">
+    www.crosswire.org/mailman/listinfo/bt-devel</ulink>.</para>
+    <para>Archives of the BibleTime development mailing list are
+    available at 
+    <ulink url="http://www.crosswire.org/pipermail/bt-devel/">
+    www.crosswire.org/pipermail/bt-devel</ulink>.</para>
+  </section>
+  <section>
+    <title>Sword development mailing list</title>
+    <para>To subscribe to the development mailing list of the Sword
+    project please visit the following web page and enter your eMail
+    address there: 
+    <ulink url="http://www.crosswire.org/mailman/listinfo/sword-devel">
+    www.crosswire.org/mailman/listinfo/sword-devel</ulink>.</para>
+    <para>Archives of the Sword development mailing list are available
+    at 
+    <ulink url="http://www.crosswire.org/pipermail/sword-devel/">
+    www.crosswire.org/pipermail/sword-devel</ulink>.</para>
+  </section>
 </webpage>
