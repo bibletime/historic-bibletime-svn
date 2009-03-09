@@ -8,34 +8,45 @@
   <config param="rcsdate" value="$Date$" />
   <head>
     <title>Software</title>
+
     <summary>Welcome to BibleTime</summary>
-    <keywords>BibleTime, bibletime, Linux, Software, biblestudy, bible
-    study, KDE, God, Religion, Bible, devotional, crosswire, sword,
-    Ubuntu, Debian</keywords>
+
+    <keywords>BibleTime, bibletime, Linux, unix, Freebsd, cross platform,
+      Software, biblestudy, bible study, Qt, God, Religion, Bible, devotional,
+      crosswire, sword, Ubuntu, Debian
+    </keywords>
+
     <author>The BibleTime team</author>
   </head>
+
   <section>
     <title>Welcome to the BibleTime project.</title>
     <para>
-    <ulink url="/images/screenshots/1-large.jpg">
-      <inlinemediaobject>
-        <imageobject>
-          <imagedata fileref="/images/screenshots/1-small.jpg"
-          format="JPG" />
-        </imageobject>
-      </inlinemediaobject>
-    </ulink> BibleTime is a Bible study application for Linux. It is
-    based on the 
-    <ulink url="http://www.kde.org/">K Desktop Environment</ulink> and
-    uses the 
-    <ulink url="http://www.crosswire.org/sword/">
-    Sword</ulink> programming library to work with Bible texts,
-    commentaries, dictionaries and books provided by the 
-    <ulink url="http://www.crosswire.org/">Crosswire Bible
-    Society</ulink>.</para>
+      <ulink url="/images/screenshots/1-large.jpg">
+	<inlinemediaobject>
+	  <imageobject>
+	    <imagedata fileref="/images/screenshots/1-small.jpg" format="JPG" />
+	  </imageobject>
+	 </inlinemediaobject>
+      </ulink> BibleTime is a Bible study application built with
+      <ulink url="http://www.qtsoftware.com/">Qt4</ulink>, 
+      using the <ulink url="http://www.crosswire.org/sword/">
+      Sword</ulink> programming library to work with Bible texts,
+      commentaries, dictionaries and books provided by the 
+      <ulink url="http://www.crosswire.org/">Crosswire Bible
+      Society</ulink>.
+    </para>
   </section>
   <section>
     <title>News about BibleTime</title>
+
+    <formalpara>
+      <title>2009-03-07: 2.0alpha1 release</title>
+
+      <para>BibleTime 2.0alpha1 has been released. <ulink
+      url="http://devel.bibletime.info/wiki/Release_announcements">
+      More...</ulink></para>
+    </formalpara>
 
     <formalpara>
       <title>2009-02-07: 1.7 release</title>
