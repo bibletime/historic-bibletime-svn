@@ -5,7 +5,7 @@
 <webpage id="translation">
   <config param="desc" value="Software page"
 ></config>
-  <config param="rcsdate" value="$Date: 2009-02-26 10:58:08 -0500 (Thu, 26 Feb 2009) $"
+  <config param="rcsdate" value="$Date: 2009-03-09 11:58:36 -0400 (Mon, 09 Mar 2009) $"
 ></config>
   <head>
     <title
@@ -78,13 +78,14 @@
 >Lokalize</ulink
 > is another KDE based app, it will replace KBabel. <ulink url="http://www.poedit.net/"
 >Poedit</ulink
-> is a cross-platform file editor suitable for our documentation and website translations. <ulink url="http://doc.trolltech.com/4.0/linguist-manual.html"
+> is a cross-platform file editor suitable for our documentation and website translations. <ulink url="http://doc.qtsoftware.com/4.0/linguist-manual.html"
 > Qt Linguist 4.x</ulink
 > (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format.</para>
+
     <para
->En liste over de forskellige sprog-forkortelser er tilgængelig på  <ulink url="http://www.w3.org/WAI/ER/IG/ert/iso639.htm"
-> www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink
->.</para>
+>A list of the language abbreviations is available at <ulink url="http://www.loc.gov/standards/iso639-2/php/code_list.php"
+> www.loc.gov/standards/iso639-2/php/code_list.php</ulink
+>. </para>
   </section>
   <section>
     <title

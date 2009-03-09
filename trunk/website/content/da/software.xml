@@ -6,20 +6,25 @@
 <webpage id="software">
   <config param="desc" value="Software page"
 ></config>
-  <config param="rcsdate" value="$Date: 2009-02-09 08:57:11 -0500 (Mon, 09 Feb 2009) $"
+  <config param="rcsdate" value="$Date: 2009-03-09 11:58:11 -0400 (Mon, 09 Mar 2009) $"
 ></config>
   <head>
     <title
 >Software</title>
+
     <summary
 >Welcome to BibleTime</summary>
+
     <keywords
->BibleTime, bibletime, Linux, Software, biblestudy, bible
-    study, KDE, God, Religion, Bible, devotional, crosswire, sword,
-    Ubuntu, Debian</keywords>
+>BibleTime, bibletime, Linux, unix, Freebsd, cross platform,
+      Software, biblestudy, bible study, Qt, God, Religion, Bible, devotional,
+      crosswire, sword, Ubuntu, Debian
+    </keywords>
+
     <author
 >BibleTime holdet</author>
   </head>
+
   <section>
     <title
 >Velkommen til BibleTime projektet.</title>
@@ -30,17 +35,27 @@
 > <imagedata fileref="/images/screenshots/1-small.jpg" format="JPG"/> </imageobject
 > </inlinemediaobject
 > </ulink
-> BibleTime er et program til at studere Bibelen med til Linux. Det er baseret på <ulink url="http://www.kde.org/"
->K Desktop Environment</ulink
-> og bruger <ulink url="http://www.crosswire.org/sword/"
+> BibleTime is a Bible study application built with <ulink url="http://www.qtsoftware.com/"
+>Qt4</ulink
+>, using the <ulink url="http://www.crosswire.org/sword/"
 > Sword</ulink
-> programmerings-biblioteket til at arbejde med bibeltekster, kommentarere, ordbøger og bøger  <ulink url="http://www.crosswire.org/"
+> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url="http://www.crosswire.org/"
 >Crosswire Bible Society</ulink
->.</para>
+>. </para>
   </section>
   <section>
     <title
 >Nyheder om BibleTime</title>
+
+    <formalpara>
+      <title
+>2009-03-07: 2.0alpha1 release</title>
+
+      <para
+>BibleTime 2.0alpha1 has been released. <ulink url="http://devel.bibletime.info/wiki/Release_announcements"
+> More...</ulink
+></para>
+    </formalpara>
 
     <formalpara>
       <title
