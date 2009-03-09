@@ -78,13 +78,15 @@
     <ulink url="http://www.poedit.net/">Poedit</ulink> is a
     cross-platform file editor suitable for our documentation and
     website translations. 
-    <ulink url="http://doc.trolltech.com/4.0/linguist-manual.html">
+    <ulink url="http://doc.qtsoftware.com/4.0/linguist-manual.html">
     Qt Linguist 4.x</ulink> (part of the cross-platform Qt development
     package) is adequate for translating the user interface which is in
     .ts format.</para>
+
     <para>A list of the language abbreviations is available at 
-    <ulink url="http://www.w3.org/WAI/ER/IG/ert/iso639.htm">
-    www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>.</para>
+      <ulink url="http://www.loc.gov/standards/iso639-2/php/code_list.php">
+      www.loc.gov/standards/iso639-2/php/code_list.php</ulink>.
+    </para>
   </section>
   <section>
     <title>Translate the www.bibletime.info website.</title>
