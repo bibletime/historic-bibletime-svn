@@ -136,13 +136,7 @@
 					<xsl:apply-templates select="$tips" mode="tips" />
 
 					<div id="logos">
-						<a
-							href="http://www.sf.net/projects/bibletime/">
-							<img
-								src="http://sourceforge.net/sflogo.php?group_id=954&amp;type=1"
-								alt="sf logo" width="88" height="31" />
-						</a>
-						<br />
+<a href="http://sourceforge.net/projects/bibletime"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=954&amp;type=13" width="120" height="30" border="0" alt="Get BibleTime at sourceforge.net." /></a>
 						<a
 							href="http://validator.w3.org/check/referer">
 							<img
