@@ -3,7 +3,7 @@
 layout PUBLIC "-//Norman Walsh//DTD Website Layout V2.6.0//EN"
 "../website-schema/dtd/layout.dtd">
 <layout>
-  <style title="Blue" src="/css/bluescreen.css" type="text/css" />
+  <style title="Blue" src="../css/bluescreen.css" type="text/css" />
   <copyright>
     <year>1999</year>
     <year>2000</year>
@@ -16,8 +16,7 @@ layout PUBLIC "-//Norman Walsh//DTD Website Layout V2.6.0//EN"
     <year>2007</year>
     <year>2008</year>
     <year>2009</year>
-    <holder role="http://www.bibletime.info/">The BibleTime
-    developers</holder>
+    <holder role="http://www.bibletime.info/">The BibleTime developers</holder>
   </copyright>
   <!-- Pages which do not appear in the navigation on the left -->
   <notoc page="error404.xml" filename="error404.html" />

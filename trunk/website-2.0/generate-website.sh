@@ -56,6 +56,7 @@ function createTranslatedDocbook {
 			echo "Generating Bible study docbook: tmp/$POLANG/$f using $howto_po"; \
 			cp $howto_po "tmp/biblestudy-$POLANG.po"
 			xml2po --po-file="tmp/biblestudy-$POLANG.po" "content/en/$f" >  "tmp/$POLANG/$f"; \
+			rm -f "tmp/biblestudy-$POLANG.po"
 		else \
 			echo "Using english Bile study file for tmp/$POLANG/$f"; \
 			cp "content/en/$f" "tmp/$POLANG/$f"; \
@@ -89,9 +90,12 @@ function copyResources {
 }
 
 ###### THis is the main part of the application ########
-mkdir -p tmp website-generated/postats
+mkdir -p tmp website-generated/postats;
+#if test ! -h tmp/website-schema; then cd tmp; ln -s ../docbook/docbook-xsl/website/schema; fi
+#if test ! -h content/website-schema; then cd content; ln -s ../docbook/docbook-xsl/website/schema; fi
 
-# createHtml en content/en
+createHtml en content/en
+
 
 updateTranslationTemplate i18n/en.pot
 
@@ -106,5 +110,11 @@ done;
 ./generate-sitemap.sh
 
 copyResources 
+
+#Cleanup
+rm ./.xml2po.mp
+rm -rf ./.tmp.i18n
+
+echo -e "\nThe website is now available in website-generated ..."
 
 #END
