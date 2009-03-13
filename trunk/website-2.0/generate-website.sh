@@ -56,6 +56,9 @@ function createTranslatedDocbook {
 			echo "Generating Bible study docbook: tmp/$POLANG/$f using $howto_po"; \
 			cp $howto_po "tmp/biblestudy-$POLANG.po"
 			xml2po --po-file="tmp/biblestudy-$POLANG.po" "content/en/$f" >  "tmp/$POLANG/$f"; \
+		else \
+			echo "Using english Bile study file for tmp/$POLANG/$f"; \
+			cp "content/en/$f" "tmp/$POLANG/$f"; \
 		fi; \
 	done;
 
