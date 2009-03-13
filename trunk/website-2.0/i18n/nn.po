@@ -1,0 +1,3087 @@
+# translation of full.po to nynorsk
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Haavard Haugen <havard.haugen@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: full\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-13 17:03+0100\n"
+"PO-Revision-Date: 2005-12-02 15:01+0100\n"
+"Last-Translator: Haavard Haugen <havard.haugen@gmail.com>\n"
+"Language-Team: nynorsk <nn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-xml2pot; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: content/en/translation.xml:9(title)
+msgid "Translation"
+msgstr "Omsetjing"
+
+#: content/en/translation.xml:10(summary)
+#, fuzzy
+msgid "BibleTime translation statistics"
+msgstr "Omsetjingane manglar!"
+
+#: content/en/translation.xml:11(keywords)
+msgid ""
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
+"study, Qt, God, Religion, Bible, devotional, crosswire, sword, translation, "
+"translate, webpage"
+msgstr ""
+
+#: content/en/translation.xml:17(title)
+msgid "Help translate BibleTime into your language"
+msgstr "Hjelp med å omsetja BibleTime til ditt språk"
+
+#: content/en/translation.xml:24(para) content/en/translation.xml:92(title)
+#, fuzzy
+msgid "Translate the www.bibletime.info website."
+msgstr "<para>Oversett nettsida www.bibletime.info.</para>"
+
+#: content/en/translation.xml:27(para) content/en/translation.xml:103(title)
+#, fuzzy
+msgid "Translate the program's User Interface."
+msgstr "<para>Oversett brukargrensesnittet til programmet.</para>"
+
+#: content/en/translation.xml:30(para)
+#, fuzzy
+msgid "Translate the Bible Study Howto."
+msgstr "Bibelstudieguiden"
+
+#: content/en/translation.xml:33(para) content/en/translation.xml:126(title)
+#, fuzzy
+msgid "Translate the program's handbook."
+msgstr "<para>Oversett handboka til programmet.</para>"
+
+#: content/en/translation.xml:36(para) content/en/translation.xml:136(title)
+#, fuzzy
+msgid "Translate the biblical booknames."
+msgstr "<para>Oversett handboka til programmet.</para>"
+
+#: content/en/translation.xml:18(para)
+#, fuzzy
+msgid ""
+"This is a part of software development where the help of many individuals is "
+"needed. It is our desire to offer BibleTime to users in as many languages as "
+"possible. The following areas are open for your contributions: <placeholder-"
+"1/>"
+msgstr ""
+"Dette er ei side ved programvareutviklinga der hjelp frå mange personar "
+"trengst. Det er vårt ynskje å tilby BibleTime til brukarar på så mange språk "
+"som mogeleg. Dei følgjande områda er opne for bidrag frå deg:"
+
+#: content/en/translation.xml:47(para)
+msgid ""
+"Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
+"bibletime-translations\"> the translators' mailing list bibletime-"
+"translations at lists.sourceforge.net</ulink>. You will receive information "
+"relevant for translators and can communicate with the developers and the "
+"other translators. Use this list if you have questions or comments."
+msgstr ""
+
+#: content/en/translation.xml:56(para)
+msgid ""
+"Download a template you want to translate or an existing translation you "
+"want to enhance."
+msgstr ""
+
+#: content/en/translation.xml:60(para)
+msgid ""
+"Use one of the recommended programs mentioned below or some other program "
+"and edit the translation."
+msgstr ""
+
+#: content/en/translation.xml:64(para)
+msgid "Send the translation to the translators' mailing list."
+msgstr ""
+
+#: content/en/translation.xml:68(para)
+msgid ""
+"Developers will integrate your work as soon as possible. The statistics will "
+"be updated after that."
+msgstr ""
+
+#: content/en/translation.xml:39(para)
+#, fuzzy
+msgid ""
+"On this page you can find statistics about the completeness of existing "
+"translations for each of these areas, as well as links to translation "
+"templates that you can use to submit new translations which do not yet "
+"exist. If a translation into your language does not yet exist or you want to "
+"work on an existing translation, follow these steps: <placeholder-1/>"
+msgstr ""
+"På denne sida finn du statistikk over fullføringsgraden til eksisterande "
+"omsetjingar for kvart av desse områda. I tillegg finn du lekkjer til "
+"malfiler du kan bruka for å laga ei ny omsetjing. Dersom ei omsetjing til "
+"språket ditt ikkje eksisterer, last ned malfila, oversett henne og send ho "
+"til <email>info@bibletime.info</email>. Dersom du ikkje er nøgd med "
+"tilstanden på omsetjinga til språket ditt kan du lasta ned den til no "
+"oversette fila, oppdatere omsetjinga og senda ho inn. I begge høve vil me "
+"inkludere bidraget ditt så snart som råd."
+
+#: content/en/translation.xml:72(para)
+msgid ""
+"For editing .po files we recommend that you use the excellent and mature "
+"program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> "
+"which works on KDE. It has many advanced features and is a great aid. <ulink "
+"url=\"http://userbase.kde.org/Lokalize\">Lokalize</ulink> is another KDE "
+"based app, it will replace KBabel. <ulink url=\"http://www.poedit.net/"
+"\">Poedit</ulink> is a cross-platform file editor suitable for our "
+"documentation and website translations. <ulink url=\"http://doc.qtsoftware."
+"com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (part of the cross-"
+"platform Qt development package) is adequate for translating the user "
+"interface which is in .ts format."
+msgstr ""
+
+#: content/en/translation.xml:86(para)
+#, fuzzy
+msgid ""
+"A list of the language abbreviations is available at <ulink url=\"http://www."
+"loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-"
+"2/php/code_list.php</ulink>."
+msgstr ""
+"Ei liste over offisielle språkforkortingar er tilgjengeleg på <ulink url="
+"\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/"
+"iso639.htm</ulink>."
+
+#: content/en/translation.xml:93(para)
+#, fuzzy
+msgid ""
+"If a translation of the website to your language does not yet exist, you can "
+"download and translate the <ulink url=\"/po/bibletime_website_template.pot"
+"\">Webpage translation template</ulink>. If you want to update an existing "
+"translation, use the links in the table below to download the corresponding "
+"file. We usually add the translated pages and the flag at the top if a "
+"translation is about 80% complete."
+msgstr ""
+"Dersom det enno ikkje eksisterer ei omsetjing av nettsida til ditt språk, "
+"kan du lasta ned og omsetja <ulink url=\"/en/pot/full.pot\">malfila for "
+"omsetjing av nettsida</ulink>. Bruk lekkjene i tabellen under dersom du vil "
+"oppdatere ei allereie eksisterande omsetjing."
+
+#: content/en/translation.xml:104(para)
+#, fuzzy
+msgid ""
+"If a translation of the User Interface to your language does not yet exist, "
+"you can download and translate the <ulink url=\"http://bibletime.svn."
+"sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/"
+"bibletime_ui.ts\"> User Interface translation template</ulink>. If you want "
+"to update an existing translation, use the links in the table below to "
+"download the corresponding file."
+msgstr ""
+"Dersom det enno ikkje eksisterer ei omsetjing av brukargrensesnittet til "
+"ditt språk, kan du lasta ned og omsetja <ulink url=\"http://cvs.sourceforge."
+"net/viewcvs.py/*checkout*/bibletime/bibletime/pot/messages.pot?rev=HEAD"
+"\">malfila for omsetjing av brukargrensesnittet</ulink>. Bruk lekkjene i "
+"tabellen under dersom du vil oppdatere ei allereie eksisterande omsetjing."
+
+#: content/en/translation.xml:110(para)
+msgid ""
+"Starting at 1.7, we have moved translation format to Qt's .ts file format "
+"from the previous .po format. Due to the changes, the translations need a "
+"thorough rewrite."
+msgstr ""
+
+#: content/en/translation.xml:116(title)
+#, fuzzy
+msgid "Translate the Bible study howto."
+msgstr "Bibelstudieguiden"
+
+#: content/en/translation.xml:117(para)
+#, fuzzy
+msgid ""
+"If a translation of the Bible study howto to your language does not yet "
+"exist, you can download and translate the <ulink url=\"http://bibletime.svn."
+"sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto."
+"pot\"> howto translation template</ulink>. If you want to update an existing "
+"translation, use the links in the table below to download the corresponding "
+"file."
+msgstr ""
+"Dersom det enno ikkje eksisterer ei omsetjing av handboka til ditt språk, "
+"kan du lasta ned og oversetje <ulink url=\"http://cvs.sourceforge.net/"
+"viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD"
+"\">malfila for omsetjing av handboka</ulink>. Bruk lekkjene i tabellen under "
+"dersom du vil oppdatere ei allereie eksisterande omsetjing."
+
+#: content/en/translation.xml:127(para)
+#, fuzzy
+msgid ""
+"If a translation of the handbook to your language does not yet exist, you "
+"can download and translate the <ulink url=\"http://bibletime.svn.sourceforge."
+"net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot"
+"\"> handbook translation template</ulink>. If you want to update an existing "
+"translation, use the links in the table below to download the corresponding "
+"file."
+msgstr ""
+"Dersom det enno ikkje eksisterer ei omsetjing av handboka til ditt språk, "
+"kan du lasta ned og oversetje <ulink url=\"http://cvs.sourceforge.net/"
+"viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD"
+"\">malfila for omsetjing av handboka</ulink>. Bruk lekkjene i tabellen under "
+"dersom du vil oppdatere ei allereie eksisterande omsetjing."
+
+#: content/en/translation.xml:137(para)
+msgid ""
+"Translated Bible book names come from the Sword project. There are no good "
+"instructions at the moment but you can find some information and examples by "
+"looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/"
+"locales.d\"> the locales.d directory</ulink> of the Sword library and using "
+"<ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-"
+"template.conf\"> the template</ulink>."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: content/en/software.xml:27(None)
+msgid ""
+"@@image: '../images/screenshots/1-small.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#: content/en/software.xml:9(title)
+msgid "Software"
+msgstr "Programvare"
+
+#: content/en/software.xml:11(summary)
+#, fuzzy
+msgid "Welcome to BibleTime"
+msgstr "Velkomen til BibleTime-prosjektet."
+
+#: content/en/software.xml:13(keywords)
+msgid ""
+"BibleTime, bibletime, Linux, unix, Freebsd, cross platform, Software, "
+"biblestudy, bible study, Qt, God, Religion, Bible, devotional, crosswire, "
+"sword, Ubuntu, Debian"
+msgstr ""
+
+#: content/en/software.xml:18(author)
+#, fuzzy
+msgid "The BibleTime team"
+msgstr "Bli med i BibleTime-teamet"
+
+#: content/en/software.xml:22(title)
+msgid "Welcome to the BibleTime project."
+msgstr "Velkomen til BibleTime-prosjektet."
+
+#: content/en/software.xml:23(para)
+#, fuzzy
+msgid ""
+"<placeholder-1/> BibleTime is a Bible study application built with <ulink "
+"url=\"http://www.qtsoftware.com/\">Qt4</ulink>, using the <ulink url="
+"\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to "
+"work with Bible texts, commentaries, dictionaries and books provided by the "
+"<ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
+msgstr ""
+"BibleTime er eit bibelstudieprogram for Linux. Det er basert på <ulink url="
+"\"http://www.kde.org/\">K Desktop</ulink>-miljøet og brukar "
+"programvarebiblioteket <ulink url=\"http://www.crosswire.org/sword/\">Sword</"
+"ulink> for å arbeida med bibeltekstar, kommentarar, ordbøker og bøker bodne "
+"fram av <ulink url=\"http://www.crosswire.org/\">The Crosswire Bible "
+"Society</ulink>."
+
+#: content/en/software.xml:40(title)
+msgid "News about BibleTime"
+msgstr "Nytt om BibleTime"
+
+#: content/en/software.xml:43(title)
+msgid "2009-03-07: 2.0alpha1 release"
+msgstr ""
+
+#: content/en/software.xml:45(para)
+msgid ""
+"BibleTime 2.0alpha1 has been released. <ulink url=\"http://devel.bibletime."
+"info/wiki/Release_announcements\"> More...</ulink>"
+msgstr ""
+
+#: content/en/software.xml:51(title)
+msgid "2009-02-07: 1.7 release"
+msgstr ""
+
+#: content/en/software.xml:53(para)
+msgid ""
+"BibleTime 1.7 has been released. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> More...</ulink>"
+msgstr ""
+
+#: content/en/software.xml:59(title)
+msgid "2009-02-03: 1.7rc1 release"
+msgstr ""
+
+#: content/en/software.xml:61(para)
+msgid ""
+"BibleTime 1.7rc1 was just released. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> More...</ulink>"
+msgstr ""
+
+#: content/en/software.xml:67(title)
+msgid "2008-12-13: 1.7beta3 release"
+msgstr ""
+
+#: content/en/software.xml:69(para)
+msgid ""
+"BibleTime 1.7.beta3 was just released. The Sword requirement was set back to "
+"1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements"
+"\"> More...</ulink>"
+msgstr ""
+
+#: content/en/software.xml:76(title)
+#, fuzzy
+msgid "2008-09-18: BibleTime 1.7beta2"
+msgstr "2003-12-03: BibleTime 1.4beta1"
+
+#: content/en/software.xml:78(para)
+msgid ""
+"BibleTime 1.7beta2 has been released. Though this version is labeled as beta "
+"it is completely usable and should be stable for daily work. Packagers and "
+"translators are encouraged to start their work. <ulink url=\"http://devel."
+"bibletime.info/wiki/Release_announcements\"> More...</ulink>"
+msgstr ""
+
+#: content/en/software.xml:86(title)
+#, fuzzy
+msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
+msgstr "2004-01-29: BibleTime 1.4.1"
+
+#: content/en/software.xml:87(para)
+msgid ""
+"Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url="
+"\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</"
+"ulink> how to setup your Linux to get the new packages."
+msgstr ""
+
+#: content/en/software.xml:92(para)
+msgid ""
+"Version 1.6.5.1 has been released. It contains fixes so it can be installed "
+"on current versions of Linux."
+msgstr ""
+
+#: content/en/software.xml:96(title)
+#, fuzzy
+msgid "2008-01-12: BibleTime 1.7alpha1"
+msgstr "2004-01-29: BibleTime 1.4.1"
+
+#: content/en/software.xml:97(para)
+msgid ""
+"The new alpha (testing) version for the KDE 4.0 environment is available. "
+"<ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:"
+"_1.7alpha1_release\"> Read the announcement</ulink> to know more about the "
+"current status and the future of BibleTime."
+msgstr ""
+
+#: content/en/software.xml:104(title)
+#, fuzzy
+msgid "2007-11-04: BibleTime 1.6.5"
+msgstr "2004-01-29: BibleTime 1.4.1"
+
+#: content/en/software.xml:105(para)
+msgid ""
+"A new bugfix version of BibleTime is now available. It contains several "
+"important fixes in the bookshelfmanager, the sessionmanagement and in the "
+"text-display windows. It also ships with updated translations. The source "
+"code can be downloaded from our SourceForge page. Binary packages will be "
+"made available soon."
+msgstr ""
+
+#: content/en/software.xml:113(title)
+#, fuzzy
+msgid "2007-04-18: BibleTime 1.6.4"
+msgstr "2004-01-29: BibleTime 1.4.1"
+
+#: content/en/software.xml:114(para)
+msgid ""
+"A new bugfix release of BibleTime has been released today. Version 1.6.4 "
+"fixes issues with the NETfree Bible module, the search and also contains "
+"several smaller improvements. The bibletime-i18n translations contains "
+"updated Polish and Chinese translation files."
+msgstr ""
+
+#: content/en/software.xml:121(title)
+#, fuzzy
+msgid "2007-01-29: BibleTime 1.6.3"
+msgstr "2004-01-29: BibleTime 1.4.1"
+
+#: content/en/software.xml:122(para)
+msgid ""
+"Version 1.6.3 has been released today. Besides several minor bugfixes the "
+"searching in unicode modules works now again. The translations have been "
+"updated, too. See the <ulink url=\"http://sourceforge.net/project/shownotes."
+"php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for a detailed "
+"list of changes. We hope to provide packages for the major Linux "
+"distributions soon. To install from source code you need Sword 1.5.9 and "
+"CLucene 0.9.16a. Packages for these two are available at our download "
+"location."
+msgstr ""
+
+#: content/en/software.xml:133(title)
+#, fuzzy
+msgid "2006-12-10: BibleTime 1.6.2"
+msgstr "2003-08-23: BibleTime 1.3"
+
+#: content/en/software.xml:134(para)
+msgid ""
+"A new version has been released today. It contains several important "
+"bugfxies, a summary of the changes is available in the <ulink url=\"http://"
+"sourceforge.net/project/shownotes.php?release_id=449414&amp;group_id=954\"> "
+"Changelog</ulink>. The translation package bibletime-i18n has been updated, "
+"as well."
+msgstr ""
+
+#: content/en/software.xml:141(title)
+#, fuzzy
+msgid "2006-10-26: BibleTime 1.6.1"
+msgstr "2003-08-23: BibleTime 1.3"
+
+#: content/en/software.xml:142(para)
+msgid ""
+"A new version of the BibleTime software has been made available today. "
+"BibleTime 1.6.1 contains several fixes for bugs which have been found in "
+"version 1.6. Read the <ulink url=\"http://sourceforge.net/project/shownotes."
+"php?release_id=449414&amp;group_id=954\"> Changelog</ulink> for details. The "
+"translation package bibletime-i18n has also been updated. Sword 1.5.9 and "
+"CLucene 0.9.15 are required before installing from source code. But we hope "
+"to provide binary packages soon."
+msgstr ""
+
+#: content/en/software.xml:152(title)
+#, fuzzy
+msgid "2006-09-22: BibleTime 1.6"
+msgstr "2003-08-23: BibleTime 1.3"
+
+#: content/en/software.xml:153(para)
+msgid ""
+"A new version of BibleTime has been made available today. It includes many "
+"fixes and several new features like the instant search in the installed "
+"works."
+msgstr ""
+
+#: content/en/software.xml:156(para)
+msgid ""
+"You need to install Sword 1.5.9 and CLucene 0.9.15 before installing this "
+"release. A detailed changelog is available <ulink url=\"http://sourceforge."
+"net/project/shownotes.php?release_id=449414&amp;group_id=954\"> here</ulink>"
+msgstr ""
+
+#: content/en/software.xml:162(title)
+#, fuzzy
+msgid "2006-06-17: BibleTime 1.6beta3"
+msgstr "2003-12-03: BibleTime 1.4beta1"
+
+#: content/en/software.xml:163(para)
+msgid ""
+"The third beta release of BibleTime 1.6 is out now. See <ulink url=\"http://"
+"sourceforge.net/project/shownotes.php?release_id=402680&amp;group_id=954\"> "
+"Changelog</ulink> for the list of changes."
+msgstr ""
+
+#: content/en/software.xml:166(para)
+msgid ""
+"You need to install CLucene 0.9.12 before installing this preview release."
+msgstr ""
+
+#: content/en/software.xml:170(title)
+#, fuzzy
+msgid "2006-04-26: BibleTime 1.6beta2"
+msgstr "2003-12-03: BibleTime 1.4beta1"
+
+#: content/en/software.xml:171(para)
+msgid ""
+"The second preview release of BibleTime 1.6 is out now. See <ulink url="
+"\"http://sourceforge.net/project/shownotes.php?release_id=402680&amp;"
+"group_id=954\"> Changelog</ulink> for more details."
+msgstr ""
+
+#: content/en/software.xml:175(para)
+msgid "You need to install CLucene 0.9.10 before installing this beta release."
+msgstr ""
+
+#: content/en/software.xml:179(title)
+#, fuzzy
+msgid "2006-03-18: BibleTime 1.6beta1"
+msgstr "2003-12-03: BibleTime 1.4beta1"
+
+#: content/en/software.xml:180(para)
+msgid ""
+"The first beta release of the upcoming version 1.6 has been released today."
+msgstr ""
+
+#: content/en/software.xml:182(para)
+msgid ""
+"Among many bug fixes it includes a new instant search feature, which enabled "
+"BibleTime to search in your installed works in a fraction of a second."
+msgstr ""
+
+#: content/en/software.xml:185(para)
+msgid ""
+"The installation of CLucene 0.9.10 ( <ulink url=\"http://clucene.sf.net/"
+"\">clucene.sf.net</ulink>) is required to compile and install BibleTime "
+"1.6beta1. Please report all found bugs and your suggestions using our "
+"trackers at <ulink url=\"http://www.sf.net/projects/bibletime/\"> www.sf.net/"
+"projects/bibletime.</ulink>"
+msgstr ""
+
+#: content/en/software.xml:193(title)
+msgid "2006-03-17: Locked German Bible"
+msgstr ""
+
+#: content/en/software.xml:194(para)
+msgid ""
+"The German publisher <ulink url=\"http://www.brunnen-verlag.de/\">Brunnen</"
+"ulink> decided to release their excellent, modern translation \"Hoffnung "
+"fÃ¼r Alle\" (GerHfa2002) for use by the Sword community."
+msgstr ""
+
+#: content/en/software.xml:199(para)
+msgid ""
+"The text contains headings, footnotes, ... and can be downloaded <ulink url="
+"\"http://www.crosswire.org/sword/modules/registration/gerhfa2002.jsp\"> "
+"here</ulink>. This module is locked. If you want to use it, you can buy an "
+"unlock key for 22 € <ulink url=\"http://www.crosswire.org/sword/modules/"
+"registration/gerhfa2002.jsp\"> directly from Brunnen</ulink>. CrossWire is "
+"not involved in the financial transaction and receives no share of the money."
+msgstr ""
+
+#: content/en/software.xml:207(para)
+msgid ""
+"We hope that in future, more publishers <ulink url=\"http://crosswire.org/"
+"sword/publisher/index.jsp\">will make use of this possibility</ulink> to "
+"distribute their copyrighted material for use with The SWORD Project."
+msgstr ""
+
+#: content/en/software.xml:211(para)
+msgid ""
+"This will ultimately increase the recent material available through The "
+"SWORD Project and help users with studying God's word. Stay tuned for more "
+"module updates soon!"
+msgstr ""
+
+#: content/en/software.xml:216(title)
+msgid "2005-12-18: Translations, packages, FAQ"
+msgstr ""
+
+#: content/en/software.xml:217(para)
+msgid ""
+"A new release of our translations package is now available at our download "
+"location. It includes many updates of the user interface translations. We "
+"hope to provide binary packages soon."
+msgstr ""
+
+#: content/en/software.xml:221(para)
+msgid ""
+"Perhaps you noticed all the package updates in the last few months. Jeremy "
+"Erickson is working on it and is a great blessing for our team."
+msgstr ""
+
+#: content/en/software.xml:224(para)
+msgid "The FAQ received some minor updates."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: content/en/software_screenshots.xml:24(None)
+msgid "@@image: '../images/screenshots/1.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: content/en/software_screenshots.xml:46(None)
+msgid "@@image: '../images/screenshots/3.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: content/en/software_screenshots.xml:65(None)
+msgid "@@image: '../images/screenshots/2.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#: content/en/software_screenshots.xml:9(title)
+msgid "Screenshots"
+msgstr "skjermbilete"
+
+#: content/en/software_screenshots.xml:10(summary)
+#, fuzzy
+msgid "Screenshots of BibleTime"
+msgstr "Skjermbilete av BibleTime 1,5"
+
+#: content/en/software_screenshots.xml:11(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+"Bible, devotional, crosswire, sword, screenshots, gallery"
+msgstr ""
+
+#: content/en/software_screenshots.xml:16(title)
+msgid "Screenshots of BibleTime 1.5"
+msgstr "Skjermbilete av BibleTime 1,5"
+
+#: content/en/software_screenshots.xml:18(title)
+#, fuzzy
+msgid "The main window"
+msgstr "<title>Hovudvindauget</title>"
+
+#: content/en/software_screenshots.xml:29(para)
+#, fuzzy
+msgid ""
+"Here you can see a typical BibleTime session. On the left pane, you see the "
+"\"bookshelf\" which offers quick access to all installed electronic works as "
+"well as facilities to create and manage your own bookmarks. Below is the "
+"\"mag(nifying glass)\", which can display additional information about a "
+"word or piece of text. In this example it shows details about the hebrew "
+"word that the KJV translates as \"God\". The main part of the BibleTime "
+"window (called \"desk\") offers space to read works such as Bibles, "
+"commentaries, lexicons or other books."
+msgstr ""
+"Her ser du ei typisk BibleTime-økt. I vindauget til venstre ser du \"bokhylla"
+"\", som raskt gjev deg tilgang til alle installerte, elektroniske verk, i "
+"tillegg til verktøy for å oppretta og handsama eigne bokmerke. Under finn du "
+"\"lupa\" som kan visa detaljar om eit ord eller tekstavsnitt. I dette dømet "
+"viser det detaljar om det greske ordet som KJV omset til \"born\". "
+"Hovudvindauget i BibleTime (kalla \"skrivebordet\") gjev plass til å lesa "
+"verk, slik som biblar, kommentarar, leksikon eller andre bøker. <ulink url="
+"\"software_gallery.html\">Galleriet</ulink> har nokre fine døme på BibleTime "
+"si kraftige handsaming av ulike språk. <ulink url=\"/images//screenshots/1-"
+"large.jpg\">Stort skjermbilete</ulink>"
+
+#: content/en/software_screenshots.xml:40(title)
+#, fuzzy
+msgid "The Bookshelf Manager"
+msgstr "<title>Bokhyllehandsamaren</title>"
+
+#: content/en/software_screenshots.xml:51(para)
+#, fuzzy
+msgid ""
+"BibleTime offers a dialog to automatically download and manage electronic "
+"works. You simply define a library (a remote collection of works, such as "
+"<ulink url=\"http://www.crosswire.org/sword/\">Crosswire</ulink>), and then "
+"you can transfer works from this library to your local bookshelf to use "
+"them. Easy, huh?"
+msgstr ""
+"BibleTime tilbyr ein dialogboks for automatisk å lasta ned og handsama "
+"elektroniske verk. Du kan ganske enkelt definere eit bibliotek (ei samling "
+"av verk, slik som <ulink url=\"http://www.crosswire.org/sword/\">Crosswire</"
+"ulink>), og deretter kan du overføra verk frå dette biblioteket til di "
+"lokale bokhylle så du kan bruka dei. Enkelt, ikkje sant? <ulink url=\"/"
+"images//screenshots/3-large.jpg\">Stort skjermbilete</ulink>"
+
+#: content/en/software_screenshots.xml:59(title)
+#, fuzzy
+msgid "The search dialog"
+msgstr "<title>Søkjedialogen</title>"
+
+#: content/en/software_screenshots.xml:70(para)
+#, fuzzy
+msgid ""
+"BibleTime offers a powerful search dialog. You can search in several works "
+"at a time, limit your search to text scopes or also to certain kinds of "
+"text, such as footnotes."
+msgstr ""
+"BibleTime tilbyr ein kraftig søkjedialog. Du kan velja mellom ulike "
+"søkjealgoritmar (basert på alt frå enkle boolske uttrykk til regulære "
+"uttrykk), og du kan til og med avgrensa søkjet til visse typar tekst, slik "
+"som fotnotar. <ulink url=\"/images/screenshots/2-large.jpg\">Stort "
+"skjermbilete</ulink>"
+
+#: content/en/software_press.xml:10(title)
+#: content/en/software_press.xml:17(title)
+msgid "In the press"
+msgstr "Medieomtale"
+
+#: content/en/software_press.xml:11(summary)
+#, fuzzy
+msgid "BibleTime in the press"
+msgstr "Medieomtale"
+
+#: content/en/software_press.xml:12(keywords)
+#: content/en/software_imprint.xml:12(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+"Bible, devotional, crosswire, sword, press, in the media, pree coverage"
+msgstr ""
+
+#: content/en/software_press.xml:18(para)
+msgid ""
+"<ulink url=\"http://christianoss.wordpress.com/2009/02/01/project-spotlight-"
+"bibletime/\"> Christian Open Source blog</ulink> recently interviewed "
+"BibleTime's Martin Gruner in their Project Spotlight, and drew the following "
+"conclusion:"
+msgstr ""
+
+#: content/en/software_press.xml:25(attribution)
+msgid "Raoul Snyman (© 2009 Raoul Snyman)"
+msgstr ""
+
+#: content/en/software_press.xml:27(para)
+msgid ""
+"BibleTime is a handy resource for preparing Bible studies, sermons, or just "
+"looking up passages electronically. With more developers on board, and "
+"moving to use just Qt4, it looks like BibleTime will be going places in the "
+"near future."
+msgstr ""
+
+#: content/en/software_press.xml:34(para)
+#, fuzzy
+msgid ""
+"On <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html"
+"\">dot.kde.org</ulink>, Andreas Pour draws the following conclusion in his "
+"review:"
+msgstr ""
+"I eit samandrag på <ulink url=\"http://dot.kde.org/995302757\">dot.kde.org</"
+"ulink> dreg Andreas Pour følgjande konklusjon:"
+
+#: content/en/software_press.xml:38(attribution)
+#, fuzzy
+msgid "Andreas Pour (© 2001 Andreas \"Dre\" Pour. All rights reserved)"
+msgstr "Andreas Pour (&copy; 2001 Andreas \"Dre\" Pour. Alle rettar reservert)"
+
+#: content/en/software_press.xml:40(para)
+msgid ""
+"Bibletime is already a true godsend for religious KDE users. It is easily "
+"useable though it may take a bit of time to learn some quirks. I think the "
+"next release will make it even better, particularly by providing a GUI for "
+"the difficult Sword installation/configuration. Besides this, my personal "
+"wishlist item is to use KHTML for its advanced navigation features."
+msgstr ""
+"Bibletime is already a true godsend for religious KDE users. It is easily "
+"useable though it may take a bit of time to learn some quirks. I think the "
+"next release will make it even better, particularly by providing a GUI for "
+"the difficult Sword installation/configuration. Besides this, my personal "
+"wishlist item is to use KHTML for its advanced navigation features."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: content/en/software_linkus.xml:31(None)
+msgid "@@image: '../images/banner/big.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: content/en/software_linkus.xml:50(None)
+msgid "@@image: '../images/banner/small.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#: content/en/software_linkus.xml:9(title)
+msgid "Link to us"
+msgstr "Lekkje til oss"
+
+#: content/en/software_linkus.xml:10(summary)
+#: content/en/software_linkus.xml:16(title)
+msgid "How to link to www.bibletime.info"
+msgstr "Korleis laga lekkjer til www.bibletime.info"
+
+#: content/en/software_linkus.xml:11(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, God, Religion, Bible, "
+"devotional, crosswire, sword, links, link us"
+msgstr ""
+
+#: content/en/software_linkus.xml:17(para)
+#, fuzzy
+msgid "Please do not copy the images, as their design may change."
+msgstr ""
+"Ver venleg og ikkje kopier bileta, sidan utsjånaden deira kan koma til å "
+"endrast."
+
+#: content/en/software_linkus.xml:19(title)
+msgid "Larger banner"
+msgstr "Større banner"
+
+#: content/en/software_linkus.xml:20(para)
+#: content/en/software_linkus.xml:38(para)
+msgid ""
+"Put the following HTML code on your pages: <placeholder-1/>It will look like "
+"this: <placeholder-2/>"
+msgstr ""
+
+#: content/en/software_linkus.xml:37(title)
+msgid "Smaller banner"
+msgstr "Mindre banner"
+
+#: content/en/software_linkus.xml:56(title)
+msgid "Text link"
+msgstr "Tekstlekkje"
+
+#: content/en/software_linkus.xml:57(para)
+#, fuzzy
+msgid ""
+"To insert a simple text link please use the following HTML code on your "
+"pages: <placeholder-1/>It will look like this: <ulink url=\"http://www."
+"bibletime.info/\">BibleTime - Bible study software</ulink>"
+msgstr ""
+"For å leggje til ei enkel tekstlekkje, bruk følgjande HTML-kode på "
+"nettsidene dine: <programlisting>\n"
+"<![CDATA[\n"
+" <a href=\"http://www.bibletime.info/\" TARGET=\"_blank\">\n"
+" BibleTime - Bible study software for KDE\n"
+" </a>\n"
+"]]>\n"
+"</programlisting> Dette vil sjå slik ut: <ulink url=\"http://www.bibletime."
+"info/\">BibleTime - Bible study software for KDE</ulink>"
+
+#: content/en/software_links.xml:9(title)
+msgid "Links"
+msgstr "Lekkjer"
+
+#: content/en/software_links.xml:10(summary)
+msgid "Link collection of good sites"
+msgstr ""
+
+#: content/en/software_links.xml:11(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+"Bible, devotional, crosswire, sword, links"
+msgstr ""
+
+#: content/en/software_links.xml:16(title)
+#, fuzzy
+msgid "List of important Christian pages"
+msgstr "Liste over viktige, kristne sider"
+
+#: content/en/software_links.xml:18(para)
+#, fuzzy
+msgid ""
+"There are many Christian pages on the world wide web. Here we have collected "
+"a list of pages that are important in our opinion."
+msgstr ""
+"Det fins mange andre kristne nettsider på verdsveven. Nokre er meir, andre "
+"er mindre viktige. Me har samla ei liste med sider me meiner er viktige."
+
+#: content/en/software_links.xml:22(para)
+#, fuzzy
+msgid ""
+"Since we are not the author of the linked pages we are not responsible for "
+"their content, we explicitely dissociate ourselves from the content of the "
+"linked pages! This is required because German law says you are responsible "
+"for the content of the linked pages unless you explicitely dissociate "
+"yourself from these pages."
+msgstr ""
+"Sidan me ikkje er forfattarar av sidene me har lekkjer til, og dermed ikkje "
+"kan sei oss ansvarlege for innhaldet på desse sidene, fråseier me oss no "
+"ansvaret for innhaldet på sidene me har lekkjer til! Dette er naudsynt fordi "
+"tysk lovgiving seier at ein er ansvarleg for innhaldet på sider ein viser "
+"til dersom ein ikkje eksplisitt fråseier seg ansvaret."
+
+#: content/en/software_links.xml:29(title)
+#, fuzzy
+msgid "General Christian pages"
+msgstr "Generelle kristne sider"
+
+#: content/en/software_links.xml:31(title)
+msgid ""
+"<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies Group</"
+"ulink>."
+msgstr ""
+"<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies Group</"
+"ulink>."
+
+#: content/en/software_links.xml:34(para)
+msgid ""
+"The home of the new common exchange Text format OSIS, which will hopefully "
+"be used by many Bible societies and publishers of the world."
+msgstr ""
+"Heime til det nye, felles tekstutvekslingsformatet OSIS, som vonaleg vil bli "
+"brukt av mange bibelselskap og utgjevarar rundt omkring i heile verda."
+
+#: content/en/software_links.xml:39(title)
+msgid ""
+"<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>."
+msgstr ""
+"<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>."
+
+#: content/en/software_links.xml:42(para)
+#, fuzzy
+msgid ""
+"The Crosswire Bible society is one of the few Christian organizations in the "
+"world providing everything they make free for all! Crosswire supports the "
+"Sword project, the KJV2003 project and many other cool things."
+msgstr ""
+"The Crosswire Bible Society er ein av dei få kristne organisasjonane i "
+"verden som gjev bort alt dei lagar gratis! Crosswire støttar Sword-"
+"prosjektet, KJV2003-prosjektet og fleire andre spennande ting."
+
+#: content/en/software_links.xml:49(title)
+msgid "Biblesoftware for Linux"
+msgstr "Bibelprogramvare for Linux"
+
+#: content/en/software_links.xml:51(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.xiphos.org/\"> Xiphos</ulink>."
+msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
+
+#: content/en/software_links.xml:54(para)
+#, fuzzy
+msgid ""
+"Xiphos is a Sword frontend using the Gnome toolkit. A really good "
+"application. Be sure to check it out!"
+msgstr ""
+"Gnomesword er eit Sword-grensesnitt som brukar Gnome-verktøykassa. Eit "
+"verkeleg bra program. Prøv det ut!"
+
+#: content/en/software_links.xml:59(title)
+msgid "Biblesoftware for Windows"
+msgstr "Bibelprogramvare for Windows"
+
+#: content/en/software_links.xml:61(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.bibleworks.com/\"> BibleWorks</ulink>."
+msgstr "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
+
+#: content/en/software_links.xml:64(para)
+#, fuzzy
+msgid ""
+"BibleWorks is one of the best commercial Bible study applications for "
+"Windows! Very good but very expensive, too. Very useful for Bible scholars."
+msgstr ""
+"BibleWorks er eit av dei beste, kommersielle bibelstudieprogramma for "
+"Windows! Veldig bra, men òg veldig kostbart. Kun nyttig for fagpersonar."
+
+#: content/en/software_links.xml:69(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.bibleworkshop.com/\"> BibleWorkshop</ulink>."
+msgstr "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
+
+#: content/en/software_links.xml:72(para)
+#, fuzzy
+msgid ""
+"The Bible Workshop program is a powerful, commercial Bible study application "
+"for Windows, which is available in English, German and French. It is "
+"possible to enhance the Bible Workshop using Text libraries you can buy."
+msgstr ""
+"The Bible Workshop er eit kraftig, kommersielt bibelstudieprogram for "
+"Windows. Det er tilgjengeleg på engelsk, tysk og fransk. Det er mogeleg å "
+"utvida Bible Workshop med tekstbibliotek du kjøper."
+
+#: content/en/software_links.xml:78(title)
+msgid "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
+msgstr "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
+
+#: content/en/software_links.xml:80(para)
+msgid ""
+"e-Sword is a great and easy to use Bible study application for Windows "
+"systems."
+msgstr ""
+"e-Sword er eit ypparleg og brukarvenleg bibelstudieprogram for Windows."
+
+#: content/en/software_links.xml:84(title)
+msgid "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
+msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
+
+#: content/en/software_links.xml:86(para)
+msgid ""
+"Logos is one of the best commercial Bible study applications for Windows. "
+"You can buy a lot of texts to enhance it."
+msgstr ""
+"Logos er eit av dei beste kommersielle bibelstudieprogramma for Windows. Du "
+"kan kjøpa mange tekstar for å utvida det."
+
+#: content/en/software_links.xml:91(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.onlinebible.org/\"> OnlineBible</ulink>."
+msgstr "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
+
+#: content/en/software_links.xml:94(para)
+msgid "The Online Bible is a powerful Bible study application for Windows."
+msgstr "The Online Bible er eit kraftig bibelstudieprogram for Windows."
+
+#: content/en/software_links.xml:98(title)
+msgid ""
+"<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
+msgstr ""
+"<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
+
+#: content/en/software_links.xml:101(para)
+msgid ""
+"This is the Windows Bible study application made by the Sword team! Sword is "
+"supported by the Crosswire Bible Society."
+msgstr ""
+"Dette er bibelstudieprogrammet som Sword-teamet har laga for Windows! Sword "
+"er støtta av The Crosswire Bible Society."
+
+#: content/en/software_links.xml:106(title)
+#, fuzzy
+msgid ""
+"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
+msgstr "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
+
+#: content/en/software_links.xml:109(para)
+msgid ""
+"Tnach is a free, advanced software tool for anyone dealing with Hebrew and "
+"Greek. It can be downloaded for a donation."
+msgstr ""
+
+#: content/en/software_links.xml:114(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.volksbibel.de/\"> Volksbibel</ulink>."
+msgstr "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
+
+#: content/en/software_links.xml:117(para)
+#, fuzzy
+msgid ""
+"Volksbibel 2000.2 is a German, metacard based software Bible study tool for "
+"Windows, Linux and Mac. Althouth there are not so many texts as other "
+"software packages have, it has some cool things like basic map support "
+"included. If you are German try it out!"
+msgstr ""
+"Volksbibel 2000.2 er eit tysk, metacard-basert bibelstudieprogram for "
+"Windows, Linux og Mac. Sjølv om det ikkje har tilgjenge til så mange tekstar "
+"som andre programvarepakkar, har det stilige funksjonar som grunnleggjande "
+"kartstøtte inkludert. Dersom du er tysk, prøv det ut!"
+
+#: content/en/software_links.xml:125(title)
+msgid "Biblesoftware for Mac"
+msgstr "Bibelprogramvare for Mac"
+
+#: content/en/software_links.xml:127(title)
+msgid "<ulink url=\"http://www.macsword.com/\">MacSword for OS X</ulink>."
+msgstr "<ulink url=\"http://www.macsword.com/\">MacSword for OS X</ulink>."
+
+#: content/en/software_links.xml:130(para)
+msgid ""
+"MacSword is a new Bible study application for the new Macintosh OS X system. "
+"The screenshots look very promising!"
+msgstr ""
+"MacSword er eit nytt bibelstudieprogram for det nye Macintosh OS X-systemet. "
+"Skjermbileta ser svært lovande ut!"
+
+#: content/en/software_links.xml:136(title)
+msgid "Development tools"
+msgstr "Utviklarverktøy"
+
+#: content/en/software_links.xml:138(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.sourceforge.net/\"> SourceForge</ulink>."
+msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
+
+#: content/en/software_links.xml:141(para)
+msgid ""
+"SourceForge provides us with the tools to develop BibleTime with many team "
+"members at the same time! We save a lot of time and money by using their "
+"services."
+msgstr ""
+"SourceForge forsyner oss med verktøya me treng for å utvikla BibleTime med "
+"mange team-medlemer samtidig! Me sparer mykje tid og pengar på å bruka "
+"tenestene deira."
+
+#: content/en/software_license.xml:10(title)
+#: content/en/software_license.xml:18(title)
+msgid "License"
+msgstr "Lisens"
+
+#: content/en/software_license.xml:11(summary)
+#, fuzzy
+msgid "BibleTime's license"
+msgstr "Utviklinga av BibleTime"
+
+#: content/en/software_license.xml:12(keywords)
+msgid ""
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
+"study, God, Religion, Bible, devotional, crosswire, sword, license"
+msgstr ""
+
+#: content/en/software_license.xml:20(literallayout)
+#, fuzzy, no-wrap
+msgid ""
+"\n"
+"\t\t    GNU GENERAL PUBLIC LICENSE\n"
+"\t\t       Version 2, June 1991\n"
+"\n"
+" Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
+"     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+" Everyone is permitted to copy and distribute verbatim copies\n"
+" of this license document, but changing it is not allowed.\n"
+"\n"
+"\t\t\t    Preamble\n"
+"\n"
+"  The licenses for most software are designed to take away your\n"
+"freedom to share and change it.  By contrast, the GNU General Public\n"
+"License is intended to guarantee your freedom to share and change free\n"
+"software--to make sure the software is free for all its users.  This\n"
+"General Public License applies to most of the Free Software\n"
+"Foundation's software and to any other program whose authors commit to\n"
+"using it.  (Some other Free Software Foundation software is covered by\n"
+"the GNU Library General Public License instead.)  You can apply it to\n"
+"your programs, too.\n"
+"\n"
+"  When we speak of free software, we are referring to freedom, not\n"
+"price.  Our General Public Licenses are designed to make sure that you\n"
+"have the freedom to distribute copies of free software (and charge for\n"
+"this service if you wish), that you receive source code or can get it\n"
+"if you want it, that you can change the software or use pieces of it\n"
+"in new free programs; and that you know you can do these things.\n"
+"\n"
+"  To protect your rights, we need to make restrictions that forbid\n"
+"anyone to deny you these rights or to ask you to surrender the rights.\n"
+"These restrictions translate to certain responsibilities for you if you\n"
+"distribute copies of the software, or if you modify it.\n"
+"\n"
+"  For example, if you distribute copies of such a program, whether\n"
+"gratis or for a fee, you must give the recipients all the rights that\n"
+"you have.  You must make sure that they, too, receive or can get the\n"
+"source code.  And you must show them these terms so they know their\n"
+"rights.\n"
+"\n"
+"  We protect your rights with two steps: (1) copyright the software, and\n"
+"(2) offer you this license which gives you legal permission to copy,\n"
+"distribute and/or modify the software.\n"
+"\n"
+"  Also, for each author's protection and ours, we want to make certain\n"
+"that everyone understands that there is no warranty for this free\n"
+"software.  If the software is modified by someone else and passed on, we\n"
+"want its recipients to know that what they have is not the original, so\n"
+"that any problems introduced by others will not reflect on the original\n"
+"authors' reputations.\n"
+"\n"
+"  Finally, any free program is threatened constantly by software\n"
+"patents.  We wish to avoid the danger that redistributors of a free\n"
+"program will individually obtain patent licenses, in effect making the\n"
+"program proprietary.  To prevent this, we have made it clear that any\n"
+"patent must be licensed for everyone's free use or not licensed at all.\n"
+"\n"
+"  The precise terms and conditions for copying, distribution and\n"
+"modification follow.\n"
+"\n"
+"\t\t    GNU GENERAL PUBLIC LICENSE\n"
+"   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+"\n"
+"  0. This License applies to any program or other work which contains\n"
+"a notice placed by the copyright holder saying it may be distributed\n"
+"under the terms of this General Public License.  The \"Program\", below,\n"
+"refers to any such program or work, and a \"work based on the Program\"\n"
+"means either the Program or any derivative work under copyright law:\n"
+"that is to say, a work containing the Program or a portion of it,\n"
+"either verbatim or with modifications and/or translated into another\n"
+"language.  (Hereinafter, translation is included without limitation in\n"
+"the term \"modification\".)  Each licensee is addressed as \"you\".\n"
+"\n"
+"Activities other than copying, distribution and modification are not\n"
+"covered by this License; they are outside its scope.  The act of\n"
+"running the Program is not restricted, and the output from the Program\n"
+"is covered only if its contents constitute a work based on the\n"
+"Program (independent of having been made by running the Program).\n"
+"Whether that is true depends on what the Program does.\n"
+"\n"
+"  1. You may copy and distribute verbatim copies of the Program's\n"
+"source code as you receive it, in any medium, provided that you\n"
+"conspicuously and appropriately publish on each copy an appropriate\n"
+"copyright notice and disclaimer of warranty; keep intact all the\n"
+"notices that refer to this License and to the absence of any warranty;\n"
+"and give any other recipients of the Program a copy of this License\n"
+"along with the Program.\n"
+"\n"
+"You may charge a fee for the physical act of transferring a copy, and\n"
+"you may at your option offer warranty protection in exchange for a fee.\n"
+"\n"
+"  2. You may modify your copy or copies of the Program or any portion\n"
+"of it, thus forming a work based on the Program, and copy and\n"
+"distribute such modifications or work under the terms of Section 1\n"
+"above, provided that you also meet all of these conditions:\n"
+"\n"
+"    a) You must cause the modified files to carry prominent notices\n"
+"    stating that you changed the files and the date of any change.\n"
+"\n"
+"    b) You must cause any work that you distribute or publish, that in\n"
+"    whole or in part contains or is derived from the Program or any\n"
+"    part thereof, to be licensed as a whole at no charge to all third\n"
+"    parties under the terms of this License.\n"
+"\n"
+"    c) If the modified program normally reads commands interactively\n"
+"    when run, you must cause it, when started running for such\n"
+"    interactive use in the most ordinary way, to print or display an\n"
+"    announcement including an appropriate copyright notice and a\n"
+"    notice that there is no warranty (or else, saying that you provide\n"
+"    a warranty) and that users may redistribute the program under\n"
+"    these conditions, and telling the user how to view a copy of this\n"
+"    License.  (Exception: if the Program itself is interactive but\n"
+"    does not normally print such an announcement, your work based on\n"
+"    the Program is not required to print an announcement.)\n"
+"\n"
+"These requirements apply to the modified work as a whole.  If\n"
+"identifiable sections of that work are not derived from the Program,\n"
+"and can be reasonably considered independent and separate works in\n"
+"themselves, then this License, and its terms, do not apply to those\n"
+"sections when you distribute them as separate works.  But when you\n"
+"distribute the same sections as part of a whole which is a work based\n"
+"on the Program, the distribution of the whole must be on the terms of\n"
+"this License, whose permissions for other licensees extend to the\n"
+"entire whole, and thus to each and every part regardless of who wrote it.\n"
+"\n"
+"Thus, it is not the intent of this section to claim rights or contest\n"
+"your rights to work written entirely by you; rather, the intent is to\n"
+"exercise the right to control the distribution of derivative or\n"
+"collective works based on the Program.\n"
+"\n"
+"In addition, mere aggregation of another work not based on the Program\n"
+"with the Program (or with a work based on the Program) on a volume of\n"
+"a storage or distribution medium does not bring the other work under\n"
+"the scope of this License.\n"
+"\n"
+"  3. You may copy and distribute the Program (or a work based on it,\n"
+"under Section 2) in object code or executable form under the terms of\n"
+"Sections 1 and 2 above provided that you also do one of the following:\n"
+"\n"
+"    a) Accompany it with the complete corresponding machine-readable\n"
+"    source code, which must be distributed under the terms of Sections\n"
+"    1 and 2 above on a medium customarily used for software interchange; or,\n"
+"\n"
+"    b) Accompany it with a written offer, valid for at least three\n"
+"    years, to give any third party, for a charge no more than your\n"
+"    cost of physically performing source distribution, a complete\n"
+"    machine-readable copy of the corresponding source code, to be\n"
+"    distributed under the terms of Sections 1 and 2 above on a medium\n"
+"    customarily used for software interchange; or,\n"
+"\n"
+"    c) Accompany it with the information you received as to the offer\n"
+"    to distribute corresponding source code.  (This alternative is\n"
+"    allowed only for noncommercial distribution and only if you\n"
+"    received the program in object code or executable form with such\n"
+"    an offer, in accord with Subsection b above.)\n"
+"\n"
+"The source code for a work means the preferred form of the work for\n"
+"making modifications to it.  For an executable work, complete source\n"
+"code means all the source code for all modules it contains, plus any\n"
+"associated interface definition files, plus the scripts used to\n"
+"control compilation and installation of the executable.  However, as a\n"
+"special exception, the source code distributed need not include\n"
+"anything that is normally distributed (in either source or binary\n"
+"form) with the major components (compiler, kernel, and so on) of the\n"
+"operating system on which the executable runs, unless that component\n"
+"itself accompanies the executable.\n"
+"\n"
+"If distribution of executable or object code is made by offering\n"
+"access to copy from a designated place, then offering equivalent\n"
+"access to copy the source code from the same place counts as\n"
+"distribution of the source code, even though third parties are not\n"
+"compelled to copy the source along with the object code.\n"
+"\n"
+"  4. You may not copy, modify, sublicense, or distribute the Program\n"
+"except as expressly provided under this License.  Any attempt\n"
+"otherwise to copy, modify, sublicense or distribute the Program is\n"
+"void, and will automatically terminate your rights under this License.\n"
+"However, parties who have received copies, or rights, from you under\n"
+"this License will not have their licenses terminated so long as such\n"
+"parties remain in full compliance.\n"
+"\n"
+"  5. You are not required to accept this License, since you have not\n"
+"signed it.  However, nothing else grants you permission to modify or\n"
+"distribute the Program or its derivative works.  These actions are\n"
+"prohibited by law if you do not accept this License.  Therefore, by\n"
+"modifying or distributing the Program (or any work based on the\n"
+"Program), you indicate your acceptance of this License to do so, and\n"
+"all its terms and conditions for copying, distributing or modifying\n"
+"the Program or works based on it.\n"
+"\n"
+"  6. Each time you redistribute the Program (or any work based on the\n"
+"Program), the recipient automatically receives a license from the\n"
+"original licensor to copy, distribute or modify the Program subject to\n"
+"these terms and conditions.  You may not impose any further\n"
+"restrictions on the recipients' exercise of the rights granted herein.\n"
+"You are not responsible for enforcing compliance by third parties to\n"
+"this License.\n"
+"\n"
+"  7. If, as a consequence of a court judgment or allegation of patent\n"
+"infringement or for any other reason (not limited to patent issues),\n"
+"conditions are imposed on you (whether by court order, agreement or\n"
+"otherwise) that contradict the conditions of this License, they do not\n"
+"excuse you from the conditions of this License.  If you cannot\n"
+"distribute so as to satisfy simultaneously your obligations under this\n"
+"License and any other pertinent obligations, then as a consequence you\n"
+"may not distribute the Program at all.  For example, if a patent\n"
+"license would not permit royalty-free redistribution of the Program by\n"
+"all those who receive copies directly or indirectly through you, then\n"
+"the only way you could satisfy both it and this License would be to\n"
+"refrain entirely from distribution of the Program.\n"
+"\n"
+"If any portion of this section is held invalid or unenforceable under\n"
+"any particular circumstance, the balance of the section is intended to\n"
+"apply and the section as a whole is intended to apply in other\n"
+"circumstances.\n"
+"\n"
+"It is not the purpose of this section to induce you to infringe any\n"
+"patents or other property right claims or to contest validity of any\n"
+"such claims; this section has the sole purpose of protecting the\n"
+"integrity of the free software distribution system, which is\n"
+"implemented by public license practices.  Many people have made\n"
+"generous contributions to the wide range of software distributed\n"
+"through that system in reliance on consistent application of that\n"
+"system; it is up to the author/donor to decide if he or she is willing\n"
+"to distribute software through any other system and a licensee cannot\n"
+"impose that choice.\n"
+"\n"
+"This section is intended to make thoroughly clear what is believed to\n"
+"be a consequence of the rest of this License.\n"
+"\n"
+"  8. If the distribution and/or use of the Program is restricted in\n"
+"certain countries either by patents or by copyrighted interfaces, the\n"
+"original copyright holder who places the Program under this License\n"
+"may add an explicit geographical distribution limitation excluding\n"
+"those countries, so that distribution is permitted only in or among\n"
+"countries not thus excluded.  In such case, this License incorporates\n"
+"the limitation as if written in the body of this License.\n"
+"\n"
+"  9. The Free Software Foundation may publish revised and/or new versions\n"
+"of the General Public License from time to time.  Such new versions will\n"
+"be similar in spirit to the present version, but may differ in detail to\n"
+"address new problems or concerns.\n"
+"\n"
+"Each version is given a distinguishing version number.  If the Program\n"
+"specifies a version number of this License which applies to it and \"any\n"
+"later version\", you have the option of following the terms and conditions\n"
+"either of that version or of any later version published by the Free\n"
+"Software Foundation.  If the Program does not specify a version number of\n"
+"this License, you may choose any version ever published by the Free Software\n"
+"Foundation.\n"
+"\n"
+"  10. If you wish to incorporate parts of the Program into other free\n"
+"programs whose distribution conditions are different, write to the author\n"
+"to ask for permission.  For software which is copyrighted by the Free\n"
+"Software Foundation, write to the Free Software Foundation; we sometimes\n"
+"make exceptions for this.  Our decision will be guided by the two goals\n"
+"of preserving the free status of all derivatives of our free software and\n"
+"of promoting the sharing and reuse of software generally.\n"
+"\n"
+"\t\t\t    NO WARRANTY\n"
+"\n"
+"  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n"
+"FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
+"OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
+"PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED\n"
+"OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
+"MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n"
+"TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
+"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
+"REPAIR OR CORRECTION.\n"
+"\n"
+"  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
+"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
+"REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n"
+"INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n"
+"OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n"
+"TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
+"YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"
+"PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
+"POSSIBILITY OF SUCH DAMAGES.\n"
+"\n"
+"\t\t     END OF TERMS AND CONDITIONS\n"
+"\n"
+"\t    How to Apply These Terms to Your New Programs\n"
+"\n"
+"  If you develop a new program, and you want it to be of the greatest\n"
+"possible use to the public, the best way to achieve this is to make it\n"
+"free software which everyone can redistribute and change under these terms.\n"
+"\n"
+"  To do so, attach the following notices to the program.  It is safest\n"
+"to attach them to the start of each source file to most effectively\n"
+"convey the exclusion of warranty; and each file should have at least\n"
+"the \"copyright\" line and a pointer to where the full notice is found.\n"
+"\n"
+"    &lt;one line to give the program's name and a brief idea of what it does.&gt;\n"
+"    Copyright (C) 19yy  &lt;name of author&gt;\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program; if not, write to the Free Software\n"
+"    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+"\n"
+"\n"
+"Also add information on how to contact you by electronic and paper mail.\n"
+"\n"
+"If the program is interactive, make it output a short notice like this\n"
+"when it starts in an interactive mode:\n"
+"\n"
+"    Gnomovision version 69, Copyright (C) 19yy name of author\n"
+"    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\n"
+"    This is free software, and you are welcome to redistribute it\n"
+"    under certain conditions; type `show c' for details.\n"
+"\n"
+"The hypothetical commands `show w' and `show c' should show the appropriate\n"
+"parts of the General Public License.  Of course, the commands you use may\n"
+"be called something other than `show w' and `show c'; they could even be\n"
+"mouse-clicks or menu items--whatever suits your program.\n"
+"\n"
+"You should also get your employer (if you work as a programmer) or your\n"
+"school, if any, to sign a \"copyright disclaimer\" for the program, if\n"
+"necessary.  Here is a sample; alter the names:\n"
+"\n"
+"  Yoyodyne, Inc., hereby disclaims all copyright interest in the program\n"
+"  `Gnomovision' (which makes passes at compilers) written by James Hacker.\n"
+"\n"
+"  &lt;signature of Ty Coon&gt;, 1 April 1989\n"
+"  Ty Coon, President of Vice\n"
+"\n"
+"This General Public License does not permit incorporating your program into\n"
+"proprietary programs.  If your program is a subroutine library, you may\n"
+"consider it more useful to permit linking proprietary applications with the\n"
+"library.  If this is what you want to do, use the GNU Library General\n"
+"Public License instead of this License.\n"
+"  "
+msgstr ""
+"GNU GENERAL PUBLIC LICENSE\n"
+"                       Version 2, June 1991\n"
+"\n"
+" Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
+"     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+" Everyone is permitted to copy and distribute verbatim copies\n"
+" of this license document, but changing it is not allowed.\n"
+"\n"
+"                            Preamble\n"
+"\n"
+"  The licenses for most software are designed to take away your\n"
+"freedom to share and change it.  By contrast, the GNU General Public\n"
+"License is intended to guarantee your freedom to share and change free\n"
+"software--to make sure the software is free for all its users.  This\n"
+"General Public License applies to most of the Free Software\n"
+"Foundation's software and to any other program whose authors commit to\n"
+"using it.  (Some other Free Software Foundation software is covered by\n"
+"the GNU Library General Public License instead.)  You can apply it to\n"
+"your programs, too.\n"
+"\n"
+"  When we speak of free software, we are referring to freedom, not\n"
+"price.  Our General Public Licenses are designed to make sure that you\n"
+"have the freedom to distribute copies of free software (and charge for\n"
+"this service if you wish), that you receive source code or can get it\n"
+"if you want it, that you can change the software or use pieces of it\n"
+"in new free programs; and that you know you can do these things.\n"
+"\n"
+"  To protect your rights, we need to make restrictions that forbid\n"
+"anyone to deny you these rights or to ask you to surrender the rights.\n"
+"These restrictions translate to certain responsibilities for you if you\n"
+"distribute copies of the software, or if you modify it.\n"
+"\n"
+"  For example, if you distribute copies of such a program, whether\n"
+"gratis or for a fee, you must give the recipients all the rights that\n"
+"you have.  You must make sure that they, too, receive or can get the\n"
+"source code.  And you must show them these terms so they know their\n"
+"rights.\n"
+"\n"
+"  We protect your rights with two steps: (1) copyright the software, and\n"
+"(2) offer you this license which gives you legal permission to copy,\n"
+"distribute and/or modify the software.\n"
+"\n"
+"  Also, for each author's protection and ours, we want to make certain\n"
+"that everyone understands that there is no warranty for this free\n"
+"software.  If the software is modified by someone else and passed on, we\n"
+"want its recipients to know that what they have is not the original, so\n"
+"that any problems introduced by others will not reflect on the original\n"
+"authors' reputations.\n"
+"\n"
+"  Finally, any free program is threatened constantly by software\n"
+"patents.  We wish to avoid the danger that redistributors of a free\n"
+"program will individually obtain patent licenses, in effect making the\n"
+"program proprietary.  To prevent this, we have made it clear that any\n"
+"patent must be licensed for everyone's free use or not licensed at all.\n"
+"\n"
+"  The precise terms and conditions for copying, distribution and\n"
+"modification follow.\n"
+"\n"
+"                    GNU GENERAL PUBLIC LICENSE\n"
+"   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+"\n"
+"  0. This License applies to any program or other work which contains\n"
+"a notice placed by the copyright holder saying it may be distributed\n"
+"under the terms of this General Public License.  The \"Program\", below,\n"
+"refers to any such program or work, and a \"work based on the Program\"\n"
+"means either the Program or any derivative work under copyright law:\n"
+"that is to say, a work containing the Program or a portion of it,\n"
+"either verbatim or with modifications and/or translated into another\n"
+"language.  (Hereinafter, translation is included without limitation in\n"
+"the term \"modification\".)  Each licensee is addressed as \"you\".\n"
+"\n"
+"Activities other than copying, distribution and modification are not\n"
+"covered by this License; they are outside its scope.  The act of\n"
+"running the Program is not restricted, and the output from the Program\n"
+"is covered only if its contents constitute a work based on the\n"
+"Program (independent of having been made by running the Program).\n"
+"Whether that is true depends on what the Program does.\n"
+"\n"
+"  1. You may copy and distribute verbatim copies of the Program's\n"
+"source code as you receive it, in any medium, provided that you\n"
+"conspicuously and appropriately publish on each copy an appropriate\n"
+"copyright notice and disclaimer of warranty; keep intact all the\n"
+"notices that refer to this License and to the absence of any warranty;\n"
+"and give any other recipients of the Program a copy of this License\n"
+"along with the Program.\n"
+"\n"
+"You may charge a fee for the physical act of transferring a copy, and\n"
+"you may at your option offer warranty protection in exchange for a fee.\n"
+"\n"
+"  2. You may modify your copy or copies of the Program or any portion\n"
+"of it, thus forming a work based on the Program, and copy and\n"
+"distribute such modifications or work under the terms of Section 1\n"
+"above, provided that you also meet all of these conditions:\n"
+"\n"
+"    a) You must cause the modified files to carry prominent notices\n"
+"    stating that you changed the files and the date of any change.\n"
+"\n"
+"    b) You must cause any work that you distribute or publish, that in\n"
+"    whole or in part contains or is derived from the Program or any\n"
+"    part thereof, to be licensed as a whole at no charge to all third\n"
+"    parties under the terms of this License.\n"
+"\n"
+"    c) If the modified program normally reads commands interactively\n"
+"    when run, you must cause it, when started running for such\n"
+"    interactive use in the most ordinary way, to print or display an\n"
+"    announcement including an appropriate copyright notice and a\n"
+"    notice that there is no warranty (or else, saying that you provide\n"
+"    a warranty) and that users may redistribute the program under\n"
+"    these conditions, and telling the user how to view a copy of this\n"
+"    License.  (Exception: if the Program itself is interactive but\n"
+"    does not normally print such an announcement, your work based on\n"
+"    the Program is not required to print an announcement.)\n"
+"\n"
+"These requirements apply to the modified work as a whole.  If\n"
+"identifiable sections of that work are not derived from the Program,\n"
+"and can be reasonably considered independent and separate works in\n"
+"themselves, then this License, and its terms, do not apply to those\n"
+"sections when you distribute them as separate works.  But when you\n"
+"distribute the same sections as part of a whole which is a work based\n"
+"on the Program, the distribution of the whole must be on the terms of\n"
+"this License, whose permissions for other licensees extend to the\n"
+"entire whole, and thus to each and every part regardless of who wrote it.\n"
+"\n"
+"Thus, it is not the intent of this section to claim rights or contest\n"
+"your rights to work written entirely by you; rather, the intent is to\n"
+"exercise the right to control the distribution of derivative or\n"
+"collective works based on the Program.\n"
+"\n"
+"In addition, mere aggregation of another work not based on the Program\n"
+"with the Program (or with a work based on the Program) on a volume of\n"
+"a storage or distribution medium does not bring the other work under\n"
+"the scope of this License.\n"
+"\n"
+"  3. You may copy and distribute the Program (or a work based on it,\n"
+"under Section 2) in object code or executable form under the terms of\n"
+"Sections 1 and 2 above provided that you also do one of the following:\n"
+"\n"
+"    a) Accompany it with the complete corresponding machine-readable\n"
+"    source code, which must be distributed under the terms of Sections\n"
+"    1 and 2 above on a medium customarily used for software interchange; or,\n"
+"\n"
+"    b) Accompany it with a written offer, valid for at least three\n"
+"    years, to give any third party, for a charge no more than your\n"
+"    cost of physically performing source distribution, a complete\n"
+"    machine-readable copy of the corresponding source code, to be\n"
+"    distributed under the terms of Sections 1 and 2 above on a medium\n"
+"    customarily used for software interchange; or,\n"
+"\n"
+"    c) Accompany it with the information you received as to the offer\n"
+"    to distribute corresponding source code.  (This alternative is\n"
+"    allowed only for noncommercial distribution and only if you\n"
+"    received the program in object code or executable form with such\n"
+"    an offer, in accord with Subsection b above.)\n"
+"\n"
+"The source code for a work means the preferred form of the work for\n"
+"making modifications to it.  For an executable work, complete source\n"
+"code means all the source code for all modules it contains, plus any\n"
+"associated interface definition files, plus the scripts used to\n"
+"control compilation and installation of the executable.  However, as a\n"
+"special exception, the source code distributed need not include\n"
+"anything that is normally distributed (in either source or binary\n"
+"form) with the major components (compiler, kernel, and so on) of the\n"
+"operating system on which the executable runs, unless that component\n"
+"itself accompanies the executable.\n"
+"\n"
+"If distribution of executable or object code is made by offering\n"
+"access to copy from a designated place, then offering equivalent\n"
+"access to copy the source code from the same place counts as\n"
+"distribution of the source code, even though third parties are not\n"
+"compelled to copy the source along with the object code.\n"
+"\n"
+"  4. You may not copy, modify, sublicense, or distribute the Program\n"
+"except as expressly provided under this License.  Any attempt\n"
+"otherwise to copy, modify, sublicense or distribute the Program is\n"
+"void, and will automatically terminate your rights under this License.\n"
+"However, parties who have received copies, or rights, from you under\n"
+"this License will not have their licenses terminated so long as such\n"
+"parties remain in full compliance.\n"
+"\n"
+"  5. You are not required to accept this License, since you have not\n"
+"signed it.  However, nothing else grants you permission to modify or\n"
+"distribute the Program or its derivative works.  These actions are\n"
+"prohibited by law if you do not accept this License.  Therefore, by\n"
+"modifying or distributing the Program (or any work based on the\n"
+"Program), you indicate your acceptance of this License to do so, and\n"
+"all its terms and conditions for copying, distributing or modifying\n"
+"the Program or works based on it.\n"
+"\n"
+"  6. Each time you redistribute the Program (or any work based on the\n"
+"Program), the recipient automatically receives a license from the\n"
+"original licensor to copy, distribute or modify the Program subject to\n"
+"these terms and conditions.  You may not impose any further\n"
+"restrictions on the recipients' exercise of the rights granted herein.\n"
+"You are not responsible for enforcing compliance by third parties to\n"
+"this License.\n"
+"\n"
+"  7. If, as a consequence of a court judgment or allegation of patent\n"
+"infringement or for any other reason (not limited to patent issues),\n"
+"conditions are imposed on you (whether by court order, agreement or\n"
+"otherwise) that contradict the conditions of this License, they do not\n"
+"excuse you from the conditions of this License.  If you cannot\n"
+"distribute so as to satisfy simultaneously your obligations under this\n"
+"License and any other pertinent obligations, then as a consequence you\n"
+"may not distribute the Program at all.  For example, if a patent\n"
+"license would not permit royalty-free redistribution of the Program by\n"
+"all those who receive copies directly or indirectly through you, then\n"
+"the only way you could satisfy both it and this License would be to\n"
+"refrain entirely from distribution of the Program.\n"
+"\n"
+"If any portion of this section is held invalid or unenforceable under\n"
+"any particular circumstance, the balance of the section is intended to\n"
+"apply and the section as a whole is intended to apply in other\n"
+"circumstances.\n"
+"\n"
+"It is not the purpose of this section to induce you to infringe any\n"
+"patents or other property right claims or to contest validity of any\n"
+"such claims; this section has the sole purpose of protecting the\n"
+"integrity of the free software distribution system, which is\n"
+"implemented by public license practices.  Many people have made\n"
+"generous contributions to the wide range of software distributed\n"
+"through that system in reliance on consistent application of that\n"
+"system; it is up to the author/donor to decide if he or she is willing\n"
+"to distribute software through any other system and a licensee cannot\n"
+"impose that choice.\n"
+"\n"
+"This section is intended to make thoroughly clear what is believed to\n"
+"be a consequence of the rest of this License.\n"
+"\n"
+"  8. If the distribution and/or use of the Program is restricted in\n"
+"certain countries either by patents or by copyrighted interfaces, the\n"
+"original copyright holder who places the Program under this License\n"
+"may add an explicit geographical distribution limitation excluding\n"
+"those countries, so that distribution is permitted only in or among\n"
+"countries not thus excluded.  In such case, this License incorporates\n"
+"the limitation as if written in the body of this License.\n"
+"\n"
+"  9. The Free Software Foundation may publish revised and/or new versions\n"
+"of the General Public License from time to time.  Such new versions will\n"
+"be similar in spirit to the present version, but may differ in detail to\n"
+"address new problems or concerns.\n"
+"\n"
+"Each version is given a distinguishing version number.  If the Program\n"
+"specifies a version number of this License which applies to it and \"any\n"
+"later version\", you have the option of following the terms and conditions\n"
+"either of that version or of any later version published by the Free\n"
+"Software Foundation.  If the Program does not specify a version number of\n"
+"this License, you may choose any version ever published by the Free Software\n"
+"Foundation.\n"
+"\n"
+"  10. If you wish to incorporate parts of the Program into other free\n"
+"programs whose distribution conditions are different, write to the author\n"
+"to ask for permission.  For software which is copyrighted by the Free\n"
+"Software Foundation, write to the Free Software Foundation; we sometimes\n"
+"make exceptions for this.  Our decision will be guided by the two goals\n"
+"of preserving the free status of all derivatives of our free software and\n"
+"of promoting the sharing and reuse of software generally.\n"
+"\n"
+"                            NO WARRANTY\n"
+"\n"
+"  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n"
+"FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
+"OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
+"PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED\n"
+"OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
+"MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n"
+"TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
+"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
+"REPAIR OR CORRECTION.\n"
+"\n"
+"  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
+"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
+"REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n"
+"INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n"
+"OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n"
+"TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
+"YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"
+"PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
+"POSSIBILITY OF SUCH DAMAGES.\n"
+"\n"
+"                     END OF TERMS AND CONDITIONS\n"
+"\n"
+"            How to Apply These Terms to Your New Programs\n"
+"\n"
+"  If you develop a new program, and you want it to be of the greatest\n"
+"possible use to the public, the best way to achieve this is to make it\n"
+"free software which everyone can redistribute and change under these terms.\n"
+"\n"
+"  To do so, attach the following notices to the program.  It is safest\n"
+"to attach them to the start of each source file to most effectively\n"
+"convey the exclusion of warranty; and each file should have at least\n"
+"the \"copyright\" line and a pointer to where the full notice is found.\n"
+"\n"
+"    &lt;one line to give the program's name and a brief idea of what it does.&gt;\n"
+"    Copyright (C) 19yy  &lt;name of author&gt;\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program; if not, write to the Free Software\n"
+"    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+"\n"
+"\n"
+"Also add information on how to contact you by electronic and paper mail.\n"
+"\n"
+"If the program is interactive, make it output a short notice like this\n"
+"when it starts in an interactive mode:\n"
+"\n"
+"    Gnomovision version 69, Copyright (C) 19yy name of author\n"
+"    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\n"
+"    This is free software, and you are welcome to redistribute it\n"
+"    under certain conditions; type `show c' for details.\n"
+"\n"
+"The hypothetical commands `show w' and `show c' should show the appropriate\n"
+"parts of the General Public License.  Of course, the commands you use may\n"
+"be called something other than `show w' and `show c'; they could even be\n"
+"mouse-clicks or menu items--whatever suits your program.\n"
+"\n"
+"You should also get your employer (if you work as a programmer) or your\n"
+"school, if any, to sign a \"copyright disclaimer\" for the program, if\n"
+"necessary.  Here is a sample; alter the names:\n"
+"\n"
+"  Yoyodyne, Inc., hereby disclaims all copyright interest in the program\n"
+"  `Gnomovision' (which makes passes at compilers) written by James Hacker.\n"
+"\n"
+"  &lt;signature of Ty Coon&gt;, 1 April 1989\n"
+"  Ty Coon, President of Vice\n"
+"\n"
+"This General Public License does not permit incorporating your program into\n"
+"proprietary programs.  If your program is a subroutine library, you may\n"
+"consider it more useful to permit linking proprietary applications with the\n"
+"library.  If this is what you want to do, use the GNU Library General\n"
+"Public License instead of this License."
+
+#: content/en/software_installation.xml:12(title)
+#, fuzzy
+msgid "Download of BibleTime"
+msgstr "Last ned BibleTime"
+
+#: content/en/software_installation.xml:13(summary)
+#, fuzzy
+msgid "Installation of the BibleTime software"
+msgstr "Installering av BibleTime"
+
+#: content/en/software_installation.xml:14(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+"Bible, devotional, crosswire, sword, installation, download, ubuntu, "
+"mandrake, suse, debian, freebsd, pcbsd"
+msgstr ""
+
+#: content/en/software_installation.xml:19(title)
+msgid "Download BibleTime"
+msgstr "Last ned BibleTime"
+
+#: content/en/software_installation.xml:26(para)
+#, fuzzy
+msgid ""
+"Sourcecode and packages for major Linux distributions can be downloaded from "
+"<ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\"> "
+"SourceForge</ulink>."
+msgstr ""
+"Kjeldekode og pakkar for større Linux-distribusjonar kan lastast ned frå "
+"<ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954"
+"\">SourceForge</ulink>."
+
+#: content/en/software_installation.xml:32(para)
+msgid ""
+"Ubuntu packages are available in the repository and <ulink url=\"http://"
+"packages.ubuntu.com/hardy/bibletime\"> here</ulink>. Updated packages for "
+"Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url="
+"\"https://launchpad.net/~txwikinger/+archive\"> here</ulink>."
+msgstr ""
+
+#: content/en/software_installation.xml:40(para)
+#, fuzzy
+msgid ""
+"Debian packages are available in the repository and <ulink url=\"http://"
+"packages.debian.org/bibletime\"> here</ulink>."
+msgstr ""
+"Gentoo-pakkar er tilgjengelege på <ulink url=\"http://packages.gentoo.org/"
+"search/?sstring=bibletime\">www.gentoo.org</ulink>."
+
+#: content/en/software_installation.xml:45(para)
+msgid "Gentoo packages are in Portage. Just call \"emerge bibletime\"."
+msgstr ""
+
+#: content/en/software_installation.xml:49(para)
+#, fuzzy
+msgid ""
+"A FreeBSD application port of BibleTime can be found at <ulink url=\"http://"
+"www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd."
+"org</ulink>."
+msgstr ""
+"Ein FreeBSD-versjon av BibleTime kan finnast på <ulink url=\"http://www."
+"FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\">www.freebsd.org</"
+"ulink>."
+
+#: content/en/software_installation.xml:54(para)
+#, fuzzy
+msgid ""
+"PC-BSD packages are available <ulink url=\"http://www.pbidir.com/bt/pbi/149/"
+"bibletime\"> here</ulink>."
+msgstr ""
+"Gentoo-pakkar er tilgjengelege på <ulink url=\"http://packages.gentoo.org/"
+"search/?sstring=bibletime\">www.gentoo.org</ulink>."
+
+#: content/en/software_installation.xml:20(para)
+#, fuzzy
+msgid ""
+"This is a short list of available download locations. Packages which are not "
+"provided on our SourceForge pages might be outdated. Please see below for "
+"detailed download and installation instructions. <placeholder-1/>"
+msgstr ""
+"Dette er ei kort liste over tilgjengelege nedlastingsstader. Pakkar som "
+"ikkje vert tilbode på våre SourceForge-sider kan vera utdaterte. Sjå under "
+"for detaljerte instruksjonar for nedlasting og installasjon."
+
+#: content/en/software_installation.xml:61(title)
+msgid "Installation of BibleTime"
+msgstr "Installering av BibleTime"
+
+#: content/en/software_installation.xml:62(para)
+msgid ""
+"This section explains how to install BibleTime on your system. Basically "
+"there are two ways to install it: Either by using prebuilt binary packages "
+"or by compiling from source code. Installing BibleTime using prebuilt "
+"packages is the easiest way."
+msgstr ""
+"Dette avsnittet forklarer korleis du installerer BibleTime på systemet ditt. "
+"Det er hovudsakleg to måtar å gjera det på: Anten ved å bruka førehandsbygde "
+"binærpakkar eller ved å kompilere direkte frå kjeldekoden. Installasjon via "
+"førehandsbygde pakkar er det lettaste."
+
+#: content/en/software_installation.xml:68(title)
+msgid "Prebuilt binary packages"
+msgstr "Førehandsbygde, binære pakkar"
+
+#: content/en/software_installation.xml:70(para)
+msgid ""
+"With the help of great volunteers, we try to provide packages for the most "
+"important Linux distributions. Before installing BibleTime, however, you "
+"need to find and install packages for <ulink url=\"http://clucene."
+"sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink> and Sword (Sword binaries "
+"are available at the BibleTime download site)."
+msgstr ""
+
+#: content/en/software_installation.xml:78(para)
+#, fuzzy
+msgid ""
+"First download the binary package for your Linux distribution. For example: "
+"You want to download <application>BibleTime 1.4</application>for "
+"<productname>SuSE Linux 9.0</productname>. In this case you have to download "
+"the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please "
+"download the package \"bibletime-i18n\" package, too. This package contains "
+"the available translations of the BibleTime user interface and handbook."
+msgstr ""
+"Last først ned binærpakken for din Linux-distribusjon. Til dømes: Du vil "
+"lasta ned <application>BibleTime 1.4</application> for <productname>SuSE "
+"Linux 9.0</productname>. I dette tilfellet må du lasta ned pakken "
+"<filename>bibletime-1.4.1.suse9.0.i586.rpm</filename>. Last òg ned pakken "
+"&quot;bibletime-i18n&quot;. Denne pakken inneheld alle tilgjengelege "
+"omsetjingar av brukargrensesnittet og handboka."
+
+#: content/en/software_installation.xml:88(para)
+msgid ""
+"If there are no packages for your version of Linux you have to install from "
+"source code. Please see below how to do that."
+msgstr ""
+"Dersom det ikkje fins pakkar tilgjengeleg for din Linux-versjon må du "
+"installere frå kjeldekoden. Les vidare for å sjå korleis du gjer det."
+
+#: content/en/software_installation.xml:93(title)
+msgid "Installation from source code"
+msgstr "Installasjon frå kjeldekode"
+
+#: content/en/software_installation.xml:99(para)
+msgid ""
+"At first make sure the required software is installed on your system. "
+"Depending on your Linux distribution you have to install the development "
+"packages of the required software, too."
+msgstr ""
+"Forsikra deg først om at all naudsynt programvare er installert på systemet "
+"ditt. Avhengig av Linux-distribusjonen din kan det vera du òg må installere "
+"utviklarversjonen av den naudsynte programvaren."
+
+#: content/en/software_installation.xml:105(para)
+msgid "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
+msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
+
+#: content/en/software_installation.xml:107(para)
+msgid ""
+"At least the libraries and the base package. KDE 3 is shipped with many "
+"Linux distributions. Very often it's installed by default."
+msgstr ""
+"Minimum programvarebiblioteka og basispakken. Vindaugshandsamaren KDE 3 "
+"følgjer med mange Linux-distribusjonar. Svært ofte er han installert som "
+"standard."
+
+#: content/en/software_installation.xml:112(para)
+#, fuzzy
+msgid ""
+"<ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink>."
+msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
+
+#: content/en/software_installation.xml:116(para)
+msgid "This is necessary for the new instant search feature."
+msgstr ""
+
+#: content/en/software_installation.xml:120(para)
+#, fuzzy
+msgid ""
+"<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\"> Sword "
+"1.5.9</ulink>."
+msgstr ""
+"<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword "
+"1.5.8</ulink>."
+
+#: content/en/software_installation.xml:124(para)
+#, fuzzy
+msgid ""
+"Installation instructions are available on <ulink url=\"http://www.crosswire."
+"org/sword/software/index.jsp\"> www.crosswire.org/sword/software</ulink>. "
+"Basically the installation steps are <screen>\n"
+"                <command>./usrinst.sh --enable-shared\n"
+"                --without-clucene</command>\n"
+"                <command>make</command>\n"
+"                <command>make install</command>\n"
+"                <command>make install_config</command>\n"
+"              </screen>"
+msgstr ""
+"<command>./usrinst.sh --enable-shared --without-clucene</command>\n"
+"                                                                <command>make</"
+"command>\n"
+"                                                                <command>make "
+"install</command>\n"
+"                                                                <command>make "
+"install_config</command>"
+
+#: content/en/software_installation.xml:137(para)
+msgid ""
+"Please note that this list is only valid for the latest version of "
+"BibleTime, older versions may require other software."
+msgstr ""
+"Legg merke til at denne lista kun er gyldig for siste versjon av BibleTime. "
+"Eldre versjonar kan trengje andre støtteprogram."
+
+#: content/en/software_installation.xml:142(para)
+#, fuzzy
+msgid ""
+"Compile and install BibleTime: <screen>\n"
+"            <command>./configure --prefix=&lt;your KDE\n"
+"            directory&gt;</command>\n"
+"            <command>make</command>\n"
+"            <command>make install</command>\n"
+"          </screen>"
+msgstr ""
+"<command>./configure --prefix=&lt;your KDE directory&gt;</command>\n"
+"<command>make</command>\n"
+"<command>make install</command>"
+
+#: content/en/software_installation.xml:149(para)
+msgid ""
+"You can get your KDE directory by running the command <command>kde-config --"
+"prefix</command>. If you get problems please read our <olink targetdocent="
+"\"software_faq\">FAQ</olink>. If there's no solution of your problem, please "
+"contact us at <email>info@bibletime.info</email>."
+msgstr ""
+"Du kan få tak i KDE-mappa di ved å køyre kommandoen <command>kde-config --"
+"prefix</command>. Dersom du får problemer, les <olink targetdocent="
+"\"software_faq\">FAQ/OSS</olink>'en vår. Dersom den ikkje inneheld løysinga "
+"på problemet ditt, kontakt oss på <email>info@bibletime.info</email>."
+
+#: content/en/software_installation.xml:155(para)
+msgid ""
+"Debian (and possibly derived distros as well) use a non-standard path to "
+"store the documentation of KDE programs. Therefore the ./configure line "
+"above in this case needs to be changed to: <screen>\n"
+"            <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure\n"
+"            --prefix=/usr</command>\n"
+"          </screen>If you forget this, you'll likely not be able to access "
+"the handbook and the BibleStudy HowTo."
+msgstr ""
+
+#: content/en/software_installation.xml:166(para)
+#, fuzzy
+msgid ""
+"Compile and install the translations of BibleTime's user interface "
+"(bibletime-i18n): <screen>\n"
+"            <command>./configure --prefix=&lt;your KDE\n"
+"            directory&gt;</command>\n"
+"            <command>make</command>\n"
+"            <command>make install</command>\n"
+"          </screen>Please see the warning regarding nonstandard paths in the "
+"previous paragraph."
+msgstr ""
+"<command>./configure --prefix=&lt;your KDE directory&gt;</command>\n"
+"<command>make</command>\n"
+"<command>make install</command>"
+
+#: content/en/software_installation.xml:94(para)
+#, fuzzy
+msgid ""
+"Installation using BibleTime's source code is more difficult than using "
+"binary packages. Please follow the steps below if you decided to install "
+"BibleTime from sources: <placeholder-1/>"
+msgstr ""
+"Installasjon ved bruk av BibleTime sin kjeldekode er vanskelegare enn å "
+"bruka binære pakkar. Følg stega under dersom du har bestemt deg for å "
+"installere BibleTime frå kjeldekoden:"
+
+#: content/en/software_installation.xml:180(title)
+#, fuzzy
+msgid "Install works"
+msgstr "Installer Sword-modular"
+
+#: content/en/software_installation.xml:181(para)
+#, fuzzy
+msgid ""
+"You need Sword modules to work with BibleTime. Since version 1.4 BibleTime "
+"offers a userfriendly dialog (the Bookshelf Manager) to install/update/"
+"remove works. We strongly recommend this way to install works on your "
+"computer."
+msgstr ""
+"Du treng Sword-modular for å arbeida med BibleTime. Frå og med versjon 1.4 "
+"tilbyr BibleTime ein brukarvenleg dialogboks for å handsama Sword-modular. "
+"Me oppmodar på det sterkaste til å installere modulane på maskinen din på "
+"denne måten."
+
+#: content/en/software_installation.xml:186(para)
+#, fuzzy
+msgid ""
+"Instructions for manual installation is available on <ulink url=\"http://www."
+"crosswire.org/sword/modules/moduleinstall.jsp\"> www.crosswire.org/sword/"
+"modules</ulink>."
+msgstr ""
+"Instruksjonar for manuell installasjon av modular er tilgjengeleg på <ulink "
+"url=\"http://www.crosswire.org/sword/modules/moduleinstall.jsp\">www."
+"crosswire.org/sword/modules</ulink>."
+
+#: content/en/software_installation.xml:190(title)
+#, fuzzy
+msgid "Available types of works"
+msgstr "Tilgjengelege modultypar"
+
+#: content/en/software_installation.xml:191(para)
+#, fuzzy
+msgid ""
+"Here is a list of available types of works and where to get more information:"
+msgstr ""
+"Her er liste over tilgjengelege modultypar og kvar ein kan få tak i meir "
+"informasjon om dei tilgjengelege modultypane:"
+
+#: content/en/software_installation.xml:196(ulink)
+msgid "Bibles"
+msgstr "Biblar"
+
+#: content/en/software_installation.xml:200(ulink)
+msgid "Commentaries"
+msgstr "Kommentarar"
+
+#: content/en/software_installation.xml:204(ulink)
+msgid "Lexicons / Dictionaries"
+msgstr "Leksikon / Ordbøker"
+
+#: content/en/software_installation.xml:208(ulink)
+msgid "Books"
+msgstr "Bøker"
+
+#: content/en/software_imprint.xml:10(title)
+msgid "Imprint"
+msgstr "Ansvar for sidene"
+
+#: content/en/software_imprint.xml:11(summary)
+#, fuzzy
+msgid "BibleTime imprint"
+msgstr "BibleTime"
+
+#: content/en/software_imprint.xml:15(title)
+msgid "Responsibility"
+msgstr "Ansvar"
+
+#: content/en/software_imprint.xml:16(para)
+msgid "This imprint is required in Germany for all webpages."
+msgstr "Denne notisen er naudsynt på alle tyske nettsider."
+
+#: content/en/software_imprint.xml:17(para)
+msgid ""
+"The person who is responsible for these webpages is: <literallayout>\n"
+"Joachim Ansorg\n"
+"Poststraße 2\n"
+"56479 Salzburg\n"
+"Germany\n"
+"</literallayout>\n"
+"<ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
+msgstr ""
+
+#: content/en/software_faq.xml:11(title)
+msgid "FAQ"
+msgstr ""
+
+#: content/en/software_faq.xml:12(summary)
+#, fuzzy
+msgid "FAQ about BibleTime"
+msgstr "Om BibleTime"
+
+#: content/en/software_faq.xml:13(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+"Bible, devotional, crosswire, sword, faq, questions, help"
+msgstr ""
+
+#: content/en/software_faq.xml:16(title)
+msgid "Frequently Asked Questions"
+msgstr "Ofte Spurde Spørsmål (OSS/FAQ)"
+
+#: content/en/software_faq.xml:19(title)
+msgid "Installation problems"
+msgstr "Installasjonsproblem"
+
+#: content/en/software_faq.xml:22(para)
+msgid "Why is the toolbar missing?"
+msgstr "Kvifor manglar verktøylinja?"
+
+#: content/en/software_faq.xml:30(listitem)
+msgid "RedHat: /usr"
+msgstr ""
+
+#: content/en/software_faq.xml:31(listitem)
+msgid "SuSE: /opt/kde3"
+msgstr ""
+
+#: content/en/software_faq.xml:32(listitem)
+msgid "Mandrake: /usr"
+msgstr ""
+
+#: content/en/software_faq.xml:38(listitem)
+msgid "./configure --prefix=&lt;your KDE directory&gt;"
+msgstr "./configure --prefix=&lt;KDE-katalogen din&gt;"
+
+#: content/en/software_faq.xml:39(listitem)
+msgid "make"
+msgstr "make"
+
+#: content/en/software_faq.xml:40(listitem)
+msgid "make install"
+msgstr "make install"
+
+#: content/en/software_faq.xml:25(para)
+#, fuzzy
+msgid ""
+"Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. "
+"Then run make and make install as usual. The KDE directories for the widely "
+"used Linux distributions are: <placeholder-1/> Alternatively you can run the "
+"command \"kde-config --prefix\" to get your KDE directory. The commands are: "
+"<placeholder-2/>"
+msgstr ""
+"Køyr configure med parameteren --prefix=&lt;KDE-katalogen din&gt;. Køyr så "
+"make og make install som vanleg. KDE-katalogen for dei mest brukte Linux-"
+"distribusjonane er: <orderedlist><listitem>RedHat: /usr</listitem> "
+"<listitem>SuSE: /opt/kde3</listitem> <listitem>Mandrake: /usr</listitem> </"
+"orderedlist> Alternativt kan du køyre kommandoen \"kde-config --prefix\" for "
+"å finna KDE-katalogen din. Kommandoane er:"
+
+#: content/en/software_faq.xml:48(para)
+msgid "The translations are missing!"
+msgstr "Omsetjingane manglar!"
+
+#: content/en/software_faq.xml:51(para)
+msgid ""
+"Please install the package bibletime-i18n which contains the translations of "
+"the daily tips, the handbook, the installation instructions and the Bible "
+"study howto."
+msgstr ""
+"Installer pakken bibletime-i18n, som inneheld omsetjingar av daglege tips, "
+"handboka, installasjonsvegleiinga og bibelstudieguiden."
+
+#: content/en/software_faq.xml:59(title)
+msgid "Usage problems"
+msgstr "Brukarproblem"
+
+#: content/en/software_faq.xml:62(para)
+msgid "Is it possible to search for a specific Strong number?"
+msgstr "Er det mogeleg å søkje etter eit bestemt Strong-tal?"
+
+#: content/en/software_faq.xml:68(title)
+msgid "Using BibleTime 1.1 - 1.4.x"
+msgstr ""
+
+#: content/en/software_faq.xml:69(para)
+msgid ""
+"You need at least BibleTime 1.1 for this. Turn on the default usage of "
+"Strong's numbers in the optionsdialog (Sword-&gt;Filter settings). Then open "
+"the seachdialog and search for &lt;0120&gt; or any other Strong code."
+msgstr ""
+"Du treng minst BibleTime 1.1 for å gjera dette. Skru av standard bruk av "
+"Strong-tal i oppsettsdialogen (Sword-&gt;Filterinnstillingar). Opna så "
+"søkjedialogen og søk etter &lt;0120&gt; eller eit anna vilkårleg Strong-tal."
+
+#: content/en/software_faq.xml:73(title)
+msgid "Using BibleTime 1.5 or later"
+msgstr ""
+
+#: content/en/software_faq.xml:74(para)
+msgid ""
+"The search interface now offers to set the type of your search. You can "
+"choose between headings, footnotes, Strongs numbers and morphological "
+"numbers."
+msgstr ""
+
+#: content/en/software_faq.xml:82(para)
+msgid "Why do I see only question marks instead of Unicode text?"
+msgstr "Kvifor ser eg kun spørjeteikn i staden for Unicode-tekst?"
+
+#: content/en/software_faq.xml:88(para)
+msgid ""
+"First make sure you have the latest version of the module which has the "
+"problems! Check <ulink url=\"http://www.crosswire.org/sword\">www.crosswire."
+"org/sword</ulink> for this."
+msgstr ""
+"Sjekk først at du har siste versjon av modulen det er problemer med! Sjekk "
+"<ulink url=\"http://www.crosswire.org/sword\">www.crosswire.org/sword</"
+"ulink> for å gjera dette."
+
+#: content/en/software_faq.xml:91(para)
+#, fuzzy
+msgid ""
+"You have to install an unicode font like Code2000, Arial Unicode MS or "
+"Bitstream Cyberbit to display the special unicode characters. Check the "
+"section \"Configuring BibleTime-&gt;Options Dialog-&gt;Fonts\" in the "
+"handbook of BibleTime how to setup Unicode fonts under Linux."
+msgstr ""
+"Du må installere ein unicode-skrifttype, som til dømes Code2000, Arial "
+"Unicode MS eller Bitstream Cyberbit, for å visa dei spesielle unicode-"
+"teikna. Sjekk avsnittet \"Konfigurer BibleTime->Val->Skrifttypar\" i "
+"BibleTime-handboka for å sjå korleis ein set opp unicode-skrifttypar under "
+"Linux."
+
+#: content/en/software_faq.xml:98(title)
+msgid "Modules"
+msgstr "Modular"
+
+#: content/en/software_faq.xml:101(para)
+#, fuzzy
+msgid "The KJV shows no Strong numbers in the NT"
+msgstr "KJV viser ingen Strong-tal i NT!"
+
+#: content/en/software_faq.xml:105(para)
+msgid ""
+"You're probably using an outdated version of the KJV module. Please update "
+"the module."
+msgstr ""
+
+#: content/en/software_faq.xml:113(para)
+msgid "Where can I write down my personal notes?"
+msgstr "Kvar kan eg ta personlege notater?"
+
+#: content/en/software_faq.xml:117(para)
+#, fuzzy
+msgid ""
+"You have to install the module \"Personal\", which is available as a "
+"commentary on <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo."
+"jsp?modName=Personal\">Crosswire</ulink>. Please refer to BibleTime's "
+"handbook for more information about the personal commentary."
+msgstr ""
+"Du må installere modulen \"Personal\", som er tilgjengeleg som ein kommentar "
+"frå <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo.jsp?"
+"modName=Personal\">Crosswire</ulink>. Sjå kommentarsida vår for meir "
+"informasjon: Kommentarar."
+
+#: content/en/software_faq.xml:126(para)
+msgid "Why is one of the two testaments of a Bible module empty?"
+msgstr "Kvifor er eit av dei to testamenta i ein Bibel-modul tomme?"
+
+#: content/en/software_faq.xml:130(para)
+#, fuzzy
+msgid ""
+"Some modules only contain the text of the old or new testament. Recent "
+"versions of BibleTime should only offer the testament which has some content "
+"in it."
+msgstr ""
+"Nokre modular inneheld kun teksten i det gamle eller det nye testamentet. I "
+"nye versjonar av BibleTime skal du kun få tilgjenge til det testamentet som "
+"ikkje er tomt."
+
+#: content/en/software_faq.xml:138(title)
+#: content/en/sidebar_tips.xml:18(title)
+msgid "Translations"
+msgstr "Omsetjingar"
+
+#: content/en/software_faq.xml:141(para)
+msgid "Is BibleTime available in my native language?"
+msgstr ""
+
+#: content/en/software_faq.xml:145(para)
+msgid ""
+"BibleTime is available in several languages, which are all listed on our "
+"<olink targetdocent=\"translation\">translations page</olink>. The "
+"translations are available in the package bibletime-i18n."
+msgstr ""
+
+#: content/en/software_faq.xml:148(para)
+msgid ""
+"If a translation into your language is not available, please consider to "
+"help to make it available. More information is available on out <olink "
+"targetdocent=\"translation\">translations page.</olink>."
+msgstr ""
+
+#: content/en/software_contact.xml:10(title)
+msgid "Contact"
+msgstr "Kontakt"
+
+#: content/en/software_contact.xml:11(summary)
+#: content/en/software_contact.xml:17(title)
+msgid "How to contact us"
+msgstr "Korleis kontakta oss"
+
+#: content/en/software_contact.xml:12(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+"Bible, devotional, crosswire, sword, contact"
+msgstr ""
+
+#: content/en/software_contact.xml:20(ulink)
+msgid "Send a Bug report"
+msgstr "Send inn ein feilrapport"
+
+#: content/en/software_contact.xml:23(para)
+msgid ""
+"If you find a bug in BibleTime use this link to report it so it can be fixed "
+"in later versions. Please include detailed descriptions of your setup and "
+"how the developers can reproduce the bug."
+msgstr ""
+"Dersom du finn ein feil i BibleTime, bruk denne lekkja til rapportere han så "
+"han kan verta fiksa i seinare versjonar. Ver venleg å oppgje detaljerte "
+"skildringar av oppsettet ditt og av korleis utviklarane kan reprodusere "
+"feilen."
+
+#: content/en/software_contact.xml:30(ulink)
+msgid "Send a feature suggestion"
+msgstr "Send inn eit funksjonalitetsforslag"
+
+#: content/en/software_contact.xml:33(para)
+msgid ""
+"If you have an idea how to improve BibleTime please use this link to tell "
+"the developers about it."
+msgstr ""
+"Har du ein idé om korleis BibleTime kan forbetrast, bruk denne lekkja til å "
+"fortelje utviklarane om det."
+
+#: content/en/software_contact.xml:38(ulink)
+msgid "Report a website problem"
+msgstr "Rapportér eit problem med nettsida."
+
+#: content/en/software_contact.xml:41(para)
+msgid ""
+"If you found a problem with the website or have a suggestion how it could be "
+"improved, please use this link to tell the webmaster about it."
+msgstr ""
+"Dersom du finn eit problem med nettsida, eller har forslag til korleis ho "
+"kan forbetrast, bruk denne lekkja til å fortelje vevmeisteren om det."
+
+#: content/en/software_about.xml:9(title)
+msgid "About BibleTime"
+msgstr "Om BibleTime"
+
+#: content/en/software_about.xml:11(summary)
+#, fuzzy
+msgid "Introduction to the BibleTime software"
+msgstr "Bli med i BibleTime-teamet"
+
+#: content/en/software_about.xml:13(keywords)
+msgid ""
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
+"study, Qt, God, Religion, Bible, devotional, crosswire, sword, about"
+msgstr ""
+
+#: content/en/software_about.xml:21(title)
+msgid "Introduction"
+msgstr "Introduksjon"
+
+#: content/en/software_about.xml:23(para)
+#, fuzzy
+msgid ""
+"BibleTime is a Bible study application built with <ulink url=\"http://www."
+"qtsoftware.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire."
+"org/sword/\"> Sword</ulink> programming library to work with Bible texts, "
+"commentaries, dictionaries and books provided by the <ulink url=\"http://www."
+"crosswire.org/\">Crosswire Bible Society</ulink>."
+msgstr ""
+"BibleTime er eit bibelstudieprogram for Linux. Det er basert på <ulink url="
+"\"http://www.kde.org/\">K Desktop</ulink>-miljøet og brukar "
+"programvarebiblioteket <ulink url=\"http://www.crosswire.org/sword/\">Sword</"
+"ulink> for å arbeida med bibeltekstar, kommentarar, ordbøker og bøker bodne "
+"fram av <ulink url=\"http://www.crosswire.org/\">The Crosswire Bible "
+"Society</ulink>."
+
+#: content/en/software_about.xml:34(title)
+msgid "The history of BibleTime"
+msgstr "Historia til BibleTime"
+
+#: content/en/software_about.xml:36(para)
+msgid ""
+"Back in June of 1999 Thomas Hagedorn, Thorsten Uhlmann and Joachim Ansorg "
+"started to work on a Bible study application for KDE 1.0."
+msgstr ""
+"I juni 1999 starta Thomas Hagedorn, Thorsten Uhlmann og Joachim Ansorg "
+"arbeidet med eit bibelstudieprogram for KDE 1.0."
+
+#: content/en/software_about.xml:40(para)
+msgid ""
+"The first version was released two months later as version 0.1. This version "
+"was very simple and supported only the most basic things."
+msgstr ""
+"Den første versjonen vart gjeve ut to månader seinare, som versjon 0.1. "
+"Denne versjonen var svært enkel, og støtta kun dei mest elementære "
+"funksjonane."
+
+#: content/en/software_about.xml:44(para)
+msgid ""
+"After three months of hard work version 0.2 was released to the public. This "
+"version was usable, it supported basic printing, searching and offered a "
+"simple editor for personal notes."
+msgstr ""
+"Etter tre månaders hardt arbeid, vert versjon 0.2 sleppt offentleg. Denne "
+"versjonen var brukbar, han støtta grunnleggjande utskrift, søkjing og "
+"tilbaud ein enkel editor for personlege notater."
+
+#: content/en/software_about.xml:48(para)
+msgid ""
+"BibleTime 0.2 was later ported to KDE 2 and totally redesigned with a more "
+"powerful interface, better printing and a lot of internal changes. This "
+"version was called BibleTime 0.3"
+msgstr ""
+"BibleTime 0.2 vart seinare skrive om til KDE 2 og fullstendig rekonstruert, "
+"med eit kraftigare grensesnitt, betre støtte for utskrift og ei mengd "
+"interne endringar. Denne versjonen vart kalla BibleTime 0.3"
+
+#: content/en/software_about.xml:53(para)
+msgid ""
+"BibleTime 1.0, which was released almost one year after version 0.3 and was "
+"the first version we considered as stable."
+msgstr ""
+"BibleTime 1.0, som vart sleppt omlag eit år etter versjon 0.3, var den "
+"første versjonen me rekna som stabil."
+
+#: content/en/software_about.xml:57(para)
+msgid ""
+"BibleTime 1.1 and 1.2 followed later on. BibleTime 1.2 is the first version "
+"of BibleTime for version 3.0 of KDE."
+msgstr ""
+"BibleTime 1.1 og 1.2 fulgte etter. BibleTime 1.2 er den første versjonen av "
+"BibleTime for KDE 3.0."
+
+#: content/en/software_about.xml:60(para)
+#, fuzzy
+msgid ""
+"BibleTime version 1.5 was released in July 2005 after a long time of "
+"development."
+msgstr "BibleTime 1.5 vart sleppt i juli 2005 etter lang tids utvikling."
+
+#: content/en/software_about.xml:63(para)
+msgid ""
+"BibleTime version 1.6 was released in September 2006, and utilized <ulink "
+"url=\"http://clucene.sourceforge.net\">CLucene</ulink> as its search engine."
+msgstr ""
+
+#: content/en/software_about.xml:68(para)
+#, fuzzy
+msgid ""
+"BibleTime version 1.7 was released in January 2008, it is the first version "
+"developed with Qt4 for use with KDE4."
+msgstr "BibleTime 1.5 vart sleppt i juli 2005 etter lang tids utvikling."
+
+#: content/en/software_about.xml:71(para)
+msgid ""
+"BibleTime version 2.0 was introduced as an alpha release, for transition to "
+"being a cross platform application."
+msgstr ""
+
+#: content/en/sidebar_tips.xml:11(title)
+msgid "Sidebar tips"
+msgstr "Sidemenytips"
+
+#: content/en/sidebar_tips.xml:12(summary)
+#, fuzzy
+msgid "BibleTime tips"
+msgstr "BibleTime"
+
+#: content/en/sidebar_tips.xml:13(keywords)
+msgid ""
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
+"study, God, Religion, Bible, devotional, crosswire, sword"
+msgstr ""
+
+#: content/en/sidebar_tips.xml:19(para)
+#, fuzzy
+msgid ""
+"It will cost you just a few minutes to update the webpage translation in "
+"your language. Help with the translations is something anybody can do and it "
+"will benefit all users. If you want to help us keep the translations up to "
+"date, please read the page about <olink targetdocent=\"translations\">making "
+"translations</olink> and update the translation file of your own language."
+msgstr ""
+"Det vil berre kosta deg nokre få minutt å oppdatere omsetjinga av nettsida "
+"til språket ditt. Hjelp med omsetjing er noko alle kan bidra med og som "
+"hjelper alle. Dersom du vil hjelpa oss å halda omsetjinga oppdatert, les "
+"sida om å <olink targetdocent=\"translations\">laga omsetjingar</olink> og "
+"oppdater omsetjingsfila til ditt eige språk."
+
+#: content/en/layout.xml:8(year)
+msgid "1999"
+msgstr ""
+
+#: content/en/layout.xml:9(year)
+msgid "2000"
+msgstr ""
+
+#: content/en/layout.xml:10(year)
+msgid "2001"
+msgstr ""
+
+#: content/en/layout.xml:11(year)
+msgid "2002"
+msgstr ""
+
+#: content/en/layout.xml:12(year)
+msgid "2003"
+msgstr ""
+
+#: content/en/layout.xml:13(year)
+msgid "2004"
+msgstr ""
+
+#: content/en/layout.xml:14(year)
+msgid "2005"
+msgstr ""
+
+#: content/en/layout.xml:15(year)
+msgid "2006"
+msgstr ""
+
+#: content/en/layout.xml:16(year)
+msgid "2007"
+msgstr ""
+
+#: content/en/layout.xml:17(year)
+msgid "2008"
+msgstr ""
+
+#: content/en/layout.xml:18(year)
+msgid "2009"
+msgstr ""
+
+#: content/en/layout.xml:19(holder)
+msgid "The BibleTime developers"
+msgstr "BibleTime-utviklarane"
+
+#: content/en/layout.xml:45(title)
+#, fuzzy
+msgid "Development wiki"
+msgstr "Utvikling"
+
+#: content/en/index.xml:9(title)
+msgid "BibleTime"
+msgstr "BibleTime"
+
+#: content/en/index.xml:10(summary)
+msgid "Start page"
+msgstr ""
+
+#: content/en/index.xml:11(keywords)
+msgid ""
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
+"study, God, Religion, Bible, devotional, crosswire, sword, index"
+msgstr ""
+
+#: content/en/error404.xml:9(title) content/en/error404.xml:10(summary)
+msgid "Error 404: File not found"
+msgstr "404-feil: Fila vart ikkje funnen"
+
+#: content/en/error404.xml:11(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+"Bible, devotional, crosswire, sword, file not found, error"
+msgstr ""
+
+#: content/en/error404.xml:14(title)
+msgid "The document is not available"
+msgstr "Dokumentet er ikkje tilgjengeleg"
+
+#: content/en/error404.xml:15(para)
+msgid ""
+"The document you wanted to get is not available on <ulink url=\"http://www."
+"bibletime.info/\">www.bibletime.info</ulink>. Please use the navigation tree "
+"on the left to see if the document was moved."
+msgstr ""
+"Dokumentet du ville ha tak i er ikkje tilgjengeleg på <ulink url=\"http://"
+"www.bibletime.info/\">www.bibletime.info</ulink>. Ver venleg og bruk "
+"navigasjonsmenyen til venstre for å sjå om dokumentet har vorte flytta."
+
+#: content/en/error404.xml:19(para)
+msgid ""
+"If you can't solve the problem please report the URL which failed to "
+"<email>info@bibletime.info</email>. Thank you very much!"
+msgstr ""
+"Dersom du ikkje klarer å løysa problemet, rapporter URL'en som feila til "
+"<email>info@bibletime.info</email>. Tusen takk for hjelpa!"
+
+#: content/en/devotional.xml:9(title)
+msgid "Devotional"
+msgstr "Andakt"
+
+#: content/en/devotional.xml:10(summary)
+#, fuzzy
+msgid "BibleTime devotional"
+msgstr "Utviklinga av BibleTime"
+
+#: content/en/devotional.xml:11(keywords)
+msgid ""
+"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+"Bible, devotional, crosswire, sword"
+msgstr ""
+
+#: content/en/devotional.xml:15(title)
+msgid "Did you know..."
+msgstr ""
+
+#: content/en/devotional.xml:16(para)
+msgid ""
+"Did you know that today in 2009, more than 200,000,000 Christians are being "
+"disadvantaged, persecuted and even killed because of their faith? <ulink url="
+"\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> "
+"(German) shows the countries where people have to \"pay\" for their faith, "
+"and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> "
+"here is an English one</ulink> that has some information about the main "
+"regions worldwide. These pages are from Open Doors, an independent "
+"organization trat tries to help persecuted Christians."
+msgstr ""
+
+#: content/en/devotional.xml:27(para)
+msgid ""
+"1Cor 12:26.27: \"If one part of the body suffers, all the other parts share "
+"its suffering... You are Christ's body and each of you is an individual part "
+"of it.\""
+msgstr ""
+
+#: content/en/development.xml:9(title)
+msgid "Development"
+msgstr "Utvikling"
+
+#: content/en/development.xml:10(summary) content/en/development.xml:17(title)
+#: content/en/development_join.xml:11(summary)
+msgid "BibleTime's development"
+msgstr "Utviklinga av BibleTime"
+
+#: content/en/development.xml:11(keywords)
+msgid ""
+"BibleTime, Linux, unix, FreBSD, cross platform, Software, biblestudy, bible "
+"study, God, Religion, Bible, devotional, crosswire, sword, support, "
+"developmen"
+msgstr ""
+
+#: content/en/development.xml:19(para)
+#, fuzzy
+msgid ""
+"These pages describe how you can join in the development of BibleTime and "
+"other ways you can help us! BibleTime's quality and usefulness depends on "
+"the help of others to a large degree."
+msgstr ""
+"Desse sidene informerer om korleis ein vert med i utviklinga av BibleTime, "
+"og på kva måtar du kan hjelpa oss! Kvaliteten og nytteverdien av BibleTime "
+"avheng for ein stor del av hjelp frå andre."
+
+#: content/en/development.xml:23(para)
+#, fuzzy
+msgid ""
+"Please read the following pages very carefully to see if you can help us "
+"with the development!"
+msgstr ""
+"Ver venleg og les dei følgjande sidene nøye for å sjå om du kan hjelpa oss "
+"med utviklinga!"
+
+#: content/en/development_mailinglists.xml:10(title)
+msgid "Mailinglists"
+msgstr "Epostlister"
+
+#: content/en/development_mailinglists.xml:11(summary)
+#, fuzzy
+msgid "BibleTime's mailinglists"
+msgstr "Epostlista til BibleTime-utviklarane"
+
+#: content/en/development_mailinglists.xml:12(keywords)
+msgid ""
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
+"study, God, Religion, Bible, devotional, crosswire, mailing list, help, "
+"support, development"
+msgstr ""
+
+#: content/en/development_mailinglists.xml:18(title)
+msgid "BibleTime development mailing list"
+msgstr "Epostlista til BibleTime-utviklarane"
+
+#: content/en/development_mailinglists.xml:19(para)
+#, fuzzy
+msgid ""
+"To subscribe to the development mailing list of the BibleTime project please "
+"visit the following web page and enter your eMail address there: <ulink url="
+"\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> www.crosswire.org/"
+"mailman/listinfo/bt-devel</ulink>."
+msgstr ""
+"For å skriva deg opp på epostlista til BibleTime-utviklarane, gå til "
+"følgjande nettside og skriv inn epostadressa di: <ulink url=\"http://www."
+"crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/mailman/listinfo/"
+"bt-devel</ulink>."
+
+#: content/en/development_mailinglists.xml:24(para)
+#, fuzzy
+msgid ""
+"Archives of the BibleTime development mailing list are available at <ulink "
+"url=\"http://www.crosswire.org/pipermail/bt-devel/\"> www.crosswire.org/"
+"pipermail/bt-devel</ulink>."
+msgstr ""
+"Arkiva til BibleTime-utviklarane si epostliste kan finnast på <ulink url="
+"\"http://www.crosswire.org/pipermail/bt-devel/\">www.crosswire.org/pipermail/"
+"bt-devel/</ulink>."
+
+#: content/en/development_mailinglists.xml:30(title)
+msgid "Sword development mailing list"
+msgstr "Epostlista til Sword-utviklarane"
+
+#: content/en/development_mailinglists.xml:31(para)
+#, fuzzy
+msgid ""
+"To subscribe to the development mailing list of the Sword project please "
+"visit the following web page and enter your eMail address there: <ulink url="
+"\"http://www.crosswire.org/mailman/listinfo/sword-devel\"> www.crosswire.org/"
+"mailman/listinfo/sword-devel</ulink>."
+msgstr ""
+"For å skriva deg opp på epostlista til Sword-utviklarane, gå til følgjande "
+"nettside og skriv inn epostadressa di: <ulink url=\"http://www.crosswire.org/"
+"mailman/listinfo/sword-devel\">www.crosswire.org/mailman/listinfo/sword-"
+"devel</ulink>."
+
+#: content/en/development_mailinglists.xml:36(para)
+#, fuzzy
+msgid ""
+"Archives of the Sword development mailing list are available at <ulink url="
+"\"http://www.crosswire.org/pipermail/sword-devel/\"> www.crosswire.org/"
+"pipermail/sword-devel</ulink>."
+msgstr ""
+"Arkiva til BibleTime-utviklarane si epostliste kan finnast på <ulink url="
+"\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/"
+"pipermail/sword-devel/</ulink>."
+
+#: content/en/development_join.xml:10(title)
+msgid "Join us"
+msgstr "Bli med oss"
+
+#: content/en/development_join.xml:12(keywords)
+msgid ""
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
+"study, God, Religion, Bible, devotional, crosswire, sword, development team, "
+"translators, join"
+msgstr ""
+
+#: content/en/development_join.xml:18(title)
+msgid "Join the BibleTime team"
+msgstr "Bli med i BibleTime-teamet"
+
+#: content/en/development_join.xml:19(para)
+#, fuzzy
+msgid ""
+"We are thankful to everybody who helps us improve the BibleTime software, "
+"it's documentation and it's translations."
+msgstr ""
+"Me vert glade for alle som hjelper oss til å gjera både sjølve BibleTime-"
+"programmet, dokumentasjonen og omsetjingane betre."
+
+#: content/en/development_join.xml:23(title)
+#, fuzzy
+msgid "The basic steps..."
+msgstr "Dei grunnleggjande stega.."
+
+#: content/en/development_join.xml:24(para)
+msgid ""
+"The following are necessary for each type of team member. Please follow them!"
+msgstr ""
+"Det følgjande krevst av dei ulike typane team-medlemer. Ver venleg å følgja "
+"retningslinjene!"
+
+#: content/en/development_join.xml:29(para)
+#, fuzzy
+msgid ""
+"If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</"
+"ulink>, please sign up for one. It is free. We need your username to add you "
+"to the team members list, to assign tasks to you, etc."
+msgstr ""
+"Dersom du ikkje allereie har ein konto på SourceForge, ver venleg og skaff "
+"deg ein. Det er heilt gratis. Me treng brukarnamnet ditt for å kunna leggje "
+"deg til i teamet, gje deg oppgåver osb."
+
+#: content/en/development_join.xml:36(para)
+msgid ""
+"Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
+"devel\"> BibleTime development mailing list</ulink>. All developers read "
+"this mailing list, so everybody knows what is hapenning. There is also a "
+"mailing list for the <ulink url=\"https://lists.sourceforge.net/lists/"
+"listinfo/bibletime-cvs\"> commit messages</ulink> of the ongoing development "
+"process."
+msgstr ""
+
+#: content/en/development_join.xml:46(para)
+msgid ""
+"Get the development version of BibleTime and install it. If you need help "
+"with this ask on the mailing list or look into the documentation section."
+msgstr ""
+"Få tak i utviklarversjonen av BibleTime og installer han. Dersom du treng "
+"hjelp med dette, spør på epostlista eller leit på dokumentasjonssidene."
+
+#: content/en/development_join.xml:54(title)
+msgid "The next steps for software developers..."
+msgstr "Dei neste stega for programvareutviklarar..."
+
+#: content/en/development_join.xml:58(para)
+#, fuzzy
+msgid ""
+"Work through some of the Qt 4 tutorials to get used to programming with the "
+"tools BibleTime uses."
+msgstr ""
+"Arbeid deg gjennom nokre av guidane til Qt 3 og KDE 3, slik at du vert van "
+"med programvareverktøya som vert brukt i BibleTime."
+
+#: content/en/development_join.xml:63(para)
+#, fuzzy
+msgid ""
+"If you do not know what to do please ask on the mailing list for some tasks. "
+"Do not forget to add how difficult it should be."
+msgstr ""
+"Dersom du ikkje veit kva du skal gjera, spør etter oppgåver på epostlista. "
+"Ikkje gløym å oppgje kor vanskelege oppgåvene bør vera!"
+
+#: content/en/development_join.xml:71(title)
+msgid "The next steps for documentation authors..."
+msgstr "Dei neste stega for dokumentasjonsforfattarar..."
+
+#: content/en/development_join.xml:75(para)
+#, fuzzy
+msgid ""
+"Read the existing English documentation. It is located in the docs/ "
+"directory of the bibletime svn directory."
+msgstr ""
+"Les den eksisterande, engelske dokumentasjonen. Han ligg i mappa docs/ i "
+"BibleTime si CVS-mappe."
+
+#: content/en/development_join.xml:80(para)
+#, fuzzy
+msgid ""
+"The documentation is stored in docbook format in the unicode subdirectories "
+"of each documentation part (handbook, Bible study howto, installation, "
+"helpdialog). Please do not edit the HTML files directly because they are "
+"generated from the docbook files. The translation file are also generated "
+"from the docbook data."
+msgstr ""
+"Dokumentasjonen ligg lagra i docbook-filer i unicode-undermappene til kvar "
+"del av dokumentasjonen (handboka, Bibelstudieguiden, installasjon, "
+"hjelpedialogen). Ver venleg og ikkje rediger HTML-filene direkte, sidan dei "
+"vert generert frå docbook-filene. Omsetjingsfila vert òg generert frå "
+"docbook-dataene."
+
+#: content/en/development_join.xml:91(title)
+msgid "The next steps for translators..."
+msgstr "Dei neste stega for omsetjarar..."
+
+#: content/en/development_join.xml:95(para)
+#, fuzzy
+msgid ""
+"Have a look at the internationaliziation pages of the KDE project. They are "
+"located at <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
+msgstr ""
+"Ta ein kikk på internasjonaliseringssidene til KDE-prosjektet. Desse sidene "
+"ligg på <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>."
+
+#: content/en/development_join.xml:100(para)
+#, fuzzy
+msgid ""
+"Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
+"Lokalize</ulink>, if it is not yet installed on your system. It will help "
+"you a lot with the translation process."
+msgstr ""
+"Installer programmet KBabel dersom det ikkje allereie er installert på "
+"systemet ditt. Dette programmet vil vera til stor hjelp i "
+"omsetjingsprosessen."
+
+#: content/en/development_join.xml:106(para)
+msgid ""
+"Read the page about <olink targetdocent=\"translation\">translating "
+"BibleTime</olink>."
+msgstr ""
+"Les sida om <olink targetdocent=\"translation\">omsetjing av BibleTime</"
+"olink>."
+
+#: content/en/development_join.xml:111(para)
+msgid ""
+"Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
+"bibletime-translations\"> Bibletime-translations mailing list</ulink>."
+msgstr ""
+
+#: content/en/development_join.xml:118(title)
+msgid "For everybody, regardless of participation level..."
+msgstr ""
+
+#: content/en/development_join.xml:123(para)
+msgid ""
+"Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
+"\">FreeNode Network</ulink>, in the #bibletime room."
+msgstr ""
+
+#: content/en/development_join.xml:128(para)
+msgid ""
+"Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
+"\">wiki</ulink>, and make your contribution there."
+msgstr ""
+
+#: content/en/development_help.xml:12(title)
+msgid "Help us"
+msgstr "Hjelp oss"
+
+#: content/en/development_help.xml:13(summary)
+msgid "Direct and indirect support for the development of BibleTime"
+msgstr ""
+
+#: content/en/development_help.xml:15(keywords)
+msgid "BibleTime, Help us, Help BibleTime, Software"
+msgstr ""
+
+#: content/en/development_help.xml:18(title)
+msgid "Please help us ..."
+msgstr "Ver venleg og hjelp oss..."
+
+#: content/en/development_help.xml:19(para)
+#, fuzzy
+msgid ""
+"Our aim is to develop BibleTime into a really mature Bible study application "
+"that can by used by everyone. To ahieve this, we need your help. There are "
+"different possibilities for supporting the BibleTime project directly and "
+"indirectly:"
+msgstr ""
+"Vårt mål er å gjera BibleTime til eit solid bibelstudieverktøy som kan "
+"brukast av kven som helst. For å oppnå dette treng me di hjelp. Du kan "
+"støtta BibleTime-prosjektet på ulike måtar, både direkte og indirekte:"
+
+#: content/en/development_help.xml:24(title)
+msgid "Do you want to pray?"
+msgstr "Vil du be?"
+
+#: content/en/development_help.xml:25(para)
+msgid ""
+"Praying is something everybody can do. If you are praying for the Sword and "
+"BibleTime projects you are helping us as much as the other team members of "
+"the BibleTime project."
+msgstr ""
+"Å be er noko alle kan gjera. Dersom du ber for Sword- og BibleTime-prosjekta "
+"hjelper du oss like mykje som dei andre medlema av teamet."
+
+#: content/en/development_help.xml:30(title)
+msgid "Do you want to report a bug or suggest a new feature?"
+msgstr ""
+
+#: content/en/development_help.xml:32(para)
+msgid ""
+"You can use <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;"
+"atid=100954\"> BibleTime's bug tracker</ulink> to report problems with "
+"BibleTime that you are experiencing. Please be sure to include the version "
+"of BibleTime you are using, your Sword version, information about QT/KDE and "
+"your operating system, and everything else that is neccessary to reproduce "
+"the bug. Before you submit the bug, please query the database to see if a "
+"similar bug has already been handled (and is therefore alredy in status "
+"\"closed\")."
+msgstr ""
+
+#: content/en/development_help.xml:42(para)
+msgid ""
+"There is also <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;"
+"atid=350954\"> a place</ulink> where you can make suggestions for features "
+"you'd like to see in BibleTime. We ask for your understanding that due to "
+"our limited time and to our own plans for BibleTime we cannot always comply "
+"with all wishes."
+msgstr ""
+
+#: content/en/development_help.xml:50(title)
+msgid "Do you know how to program software?"
+msgstr "Er du flink å programmera?"
+
+#: content/en/development_help.xml:51(para)
+#, fuzzy
+msgid ""
+"Do you know how to program in C++? Are you familiar with the KDE programming "
+"interface or are motivated to learn it? If you have time to regularly work "
+"on the BibleTime source code we ask you to join our team. If you want to do "
+"so, please read the page <olink targetdocent=\"development_join\">Join us</"
+"olink>."
+msgstr ""
+"Kan du C++? Er du kjend med, eller villig til å læra, utviklargrensesnittet "
+"til KDE? Dersom du har tid til arbeida med kjeldekoden til BibleTime "
+"regelmessig, vil me be deg om å bli med i teamet vårt. Les meir på sida "
+"<olink targetdocent=\"development_join\"> Bli med oss</olink> dersom du er "
+"interessert."
+
+#: content/en/development_help.xml:59(title)
+msgid "Do you know how to write documentation?"
+msgstr "Kan du skriva dokumentasjon?"
+
+#: content/en/development_help.xml:60(para)
+#, fuzzy
+msgid ""
+"Do you think you would be good in working on BibleTime's English "
+"documentation? If you think you are, please read the page <olink "
+"targetdocent=\"development_join\">Join us</olink>."
+msgstr ""
+"Trur du at du ville eigna deg til å arbeida med BibleTime sin engelske "
+"dokumentasjon? Dersom ja, ver venleg å lesa meir på sida <olink targetdocent="
+"\"development_join\"> Bli med oss</olink>."
+
+#: content/en/development_help.xml:66(title)
+#, fuzzy
+msgid "Are you good at translating English into another language?"
+msgstr "Er du flink til å omsetja frå engelsk til eit anna språk?"
+
+#: content/en/development_help.xml:68(para)
+msgid ""
+"BibleTime should be useable for everyone. That's why we need a translation "
+"into your language, if it's not yet available. If you decide to start "
+"working on a translation please contact us at info@bibletime.info to see "
+"whether the translation was not yet started by another team member. We will "
+"provide you with the files which should be translated."
+msgstr ""
+"Me ynskjer at BibleTime skal vera nyttig for alle. Difor trengs ei omsetjing "
+"til ditt språk, om ei slik ikkje allereie fins. Dersom du bestemmer deg for "
+"å byrja å arbeida med ei omsetjing, ver venleg og kontakt oss på "
+"info@bibletime.info for å forsikra deg om at ikkje nokon andre allereie har "
+"starta på det same. Me vil senda deg filene som treng omsetjing."
+
+#: content/en/development_help.xml:75(para)
+#, fuzzy
+msgid ""
+"You can find more information about the translation process on the page "
+"<olink targetdocent=\"translations\">translation</olink>."
+msgstr ""
+"Du kan finna meir informasjon om omsetjingsprosessen på sida <olink "
+"targetdocent=\"translations\"> Omsetjing</olink>."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: content/en/development_help.xml:0(None)
+#, fuzzy
+msgid "translator-credits"
+msgstr "Omsetjingar"
