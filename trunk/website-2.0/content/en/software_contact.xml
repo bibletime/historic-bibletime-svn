@@ -1,0 +1,46 @@
+<!DOCTYPE webpage SYSTEM "../website-schema/dtd/website.dtd"
+[
+<!NOTATION XML SYSTEM "xml">
+<!ENTITY software_intro_page SYSTEM "software_intro.xml" NDATA XML>
+]>
+<webpage id="contact">
+  <config param="desc" value="Contact" />
+  <config param="rcsdate" value="$Date: 2008-12-11 20:21:15 +0100 (Do, 11. Dez 2008) $" />
+  <head>
+    <title>Contact</title>
+    <summary>How to contact us</summary>
+    <keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    God, Religion, Bible, devotional, crosswire, sword,
+    contact</keywords>
+  </head>
+  <section>
+    <title>How to contact us</title>
+    <formalpara>
+      <title>
+        <ulink url="http://sourceforge.net/tracker/?group_id=954&amp;atid=100954">
+        Send a Bug report</ulink>
+      </title>
+      <para>If you find a bug in BibleTime use this link to report it
+      so it can be fixed in later versions. Please include detailed
+      descriptions of your setup and how the developers can reproduce
+      the bug.</para>
+    </formalpara>
+    <formalpara>
+      <title>
+        <ulink url="http://sourceforge.net/tracker/?atid=350954&amp;group_id=954&amp;func=browse">
+        Send a feature suggestion</ulink>
+      </title>
+      <para>If you have an idea how to improve BibleTime please use
+      this link to tell the developers about it.</para>
+    </formalpara>
+    <formalpara>
+      <title>
+        <ulink url="http://sourceforge.net/tracker/?atid=511478&amp;group_id=954&amp;func=browse">
+        Report a website problem</ulink>
+      </title>
+      <para>If you found a problem with the website or have a
+      suggestion how it could be improved, please use this link to tell
+      the webmaster about it.</para>
+    </formalpara>
+  </section>
+</webpage>

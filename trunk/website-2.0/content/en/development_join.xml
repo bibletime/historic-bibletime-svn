@@ -1,0 +1,136 @@
+<!DOCTYPE webpage SYSTEM "../website-schema/dtd/website.dtd"
+[
+<!NOTATION XML SYSTEM "xml">
+<!ENTITY translation SYSTEM "translation.xml" NDATA XML>
+]>
+<webpage id="development_join">
+  <config param="desc" value="Join us" />
+  <config param="rcsdate" value="$Date: 2009-03-04 04:19:25 +0100 (Mi, 04. Mär 2009) $" />
+  <head>
+    <title>Join us</title>
+    <summary>BibleTime's development</summary>
+    <keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
+    biblestudy, bible study,
+    God, Religion, Bible, devotional, crosswire, sword, development
+    team, translators, join</keywords>
+  </head>
+  <section>
+    <title>Join the BibleTime team</title>
+    <para>We are thankful to everybody who helps us improve the
+    BibleTime software, it's documentation and it's
+    translations.</para>
+    <section>
+      <title>The basic steps...</title>
+      <para>The following are necessary for each type of team member.
+      Please follow them!</para>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>If you do not have an account on 
+            <ulink url="https://sf.net">SourceForge</ulink>, please
+            sign up for one. It is free. We need your username to add
+            you to the team members list, to assign tasks to you,
+            etc.</para>
+          </listitem>
+          <listitem>
+            <para>Subscribe to the 
+            <ulink url="http://www.crosswire.org/mailman/listinfo/bt-devel">
+            BibleTime development mailing list</ulink>. All developers
+            read this mailing list, so everybody knows what is
+            hapenning. There is also a mailing list for the 
+            <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-cvs">
+            commit messages</ulink> of the ongoing development
+            process.</para>
+          </listitem>
+          <listitem>
+            <para>Get the development version of BibleTime and install
+            it. If you need help with this ask on the mailing list or
+            look into the documentation section.</para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+    <section>
+      <title>The next steps for software developers...</title>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>Work through some of the Qt 4 tutorials to
+            get used to programming with the tools BibleTime
+            uses.</para>
+          </listitem>
+          <listitem>
+            <para>If you do not know what to do please ask on the
+            mailing list for some tasks. Do not forget to add how
+            difficult it should be.</para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+    <section>
+      <title>The next steps for documentation authors...</title>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>Read the existing English documentation. It is located
+            in the docs/ directory of the bibletime svn
+            directory.</para>
+          </listitem>
+          <listitem>
+            <para>The documentation is stored in docbook format in the
+            unicode subdirectories of each documentation part
+            (handbook, Bible study howto, installation, helpdialog).
+            Please do not edit the HTML files directly because they are
+            generated from the docbook files. The translation file are
+            also generated from the docbook data.</para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </section>
+    <section>
+      <title>The next steps for translators...</title>
+      <para>
+        <orderedlist>
+          <listitem>
+            <para>Have a look at the internationaliziation pages of the
+            KDE project. They are located at 
+            <ulink url="http://i18n.kde.org/">http://i18n.kde.org</ulink>.</para>
+          </listitem>
+          <listitem>
+            <para>Install the program <ulink url="http://userbase.kde.org/Lokalize">
+	    Lokalize</ulink>, if it is not yet installed
+            on your system. It will help you a lot with the translation
+            process.</para>
+          </listitem>
+          <listitem>
+            <para>Read the page about 
+            <olink targetdocent="translation">translating
+            BibleTime</olink>.</para>
+          </listitem>
+	  <listitem>
+	    <para>Subscribe to the <ulink url="https://lists.sourceforge.net/lists/listinfo/bibletime-translations">
+	    Bibletime-translations mailing list</ulink>.</para>
+	  </listitem>
+        </orderedlist>
+      </para>
+    </section>
+    <section>
+      <title>For everybody, regardless of participation
+      level...</title>
+      <para>
+	<orderedlist>
+	  <listitem>
+	    <para>Join us in IRC! We can be found on the
+	    <ulink url="http://www.freenode.net">FreeNode
+	    Network</ulink>, in the #bibletime room.</para>
+	  </listitem>
+	  <listitem>
+	    <para>Sign up for an account on our <ulink
+	    url="http://devel.bibletime.info">wiki</ulink>, and make
+	    your contribution there.</para>
+	  </listitem>
+	</orderedlist>
+      </para>
+    </section>
+  </section>
+</webpage>

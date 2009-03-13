@@ -1,0 +1,515 @@
+Changes since version 2.5.0 (2003-06-22)
+
+Changes to website/*
+
+  | 2005-04-18  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: ignore .urilist
+  | 
+  | 	* INSTALL: include instructions on how to use install.sh
+  | 
+  | 	* Makefile: more realclean stuff
+  | 
+  | 	* RELEASE-NOTES.xml: info about install.sh added
+  | 
+  | 	* VERSION: Version 2.6.0 released.
+  | 
+  | 	* locatingrules.xml: fix paths in comments
+  | 
+  | 2005-04-16  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* README, RELEASE-NOTES.xml: Added Exchanger XML Editor to
+  | 	  list of RELAX NG-aware edting apps
+  | 
+  | 	* README, RELEASE-NOTES.xml: XMLBuddy added to list of RELAX
+  | 	  NG-aware editors
+  | 
+  | 2005-04-15  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: URILIST format is now pairs of paths and URIs
+  | 
+  | 	* Makefile: added EXECUTABLES variable and added install.sh to
+  | 	  its value
+  | 
+  | 	* catalog, catalog.xml: enable users to have "current" in
+  | 	  schema URIs in doc instances;
+  |
+  |       http://docbook.sourceforge.net/release/website/current/schema/
+  |
+  | 	  Yeah, I know that it's traditionally been the case that DocBook doc
+  | 	  instances contain public and system IDs for a specific version of the
+  | 	  DocBook DTD. But note that: - all versions of DocBook 4 are
+  | 	  backward-compatible - doc instances don't actually need to contain any
+  | 	  system or public ID at all users employ RELAX NG-based tools - for
+  | 	  RELAX NG-based toolchain, users will probably be authoring and
+  | 	  validating their doc instances against whatever is the current version
+  | 	  of the RELAX NG schema for DocBook that that they have installed So
+  | 	  enabling users to put "current" in their doc instances instead of a
+  | 	  specific version number means that they don't need to update the URIs
+  | 	  if/when they want to author/validate using a future version of the
+  | 	  DTD.
+  | 
+  | 2005-04-14  Michael Smith <xmldoc@users.sourceforge.net>
+  |
+  | 	* .cvsignore: ignore .CatalogManager.properties and install.sh
+  | 
+  | 	* Makefile: releasetools dir now holds release makefiles
+  | 
+  | 2005-04-11  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* README: public and system IDs updated
+  | 
+  | 	* catalog: added autolayout.dtd and layout.dtd
+  | 
+  | 	* catalog: New file.
+  | 
+  | 	* catalog.xml: updated for v2.6
+  | 
+  | 2005-04-08  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: ignore RELEASE-NOTES.*
+  | 
+  | 	* AUTHORS, BUGS, COPYING, INSTALL, README, TODO: Added
+  | 	  standard distro files, to make life easier for packagers;
+  | 	  From README, moved copyright info to COPYING and install
+  | 	  info to INSTALL. README content is not just minimal how-to
+  | 	  info. Added BUGS and TODO, which are just pointers to SF
+  | 	  trackers. Added AUTHORS just for sake completeness.
+  | 
+  | 	* Makefile: generate RELEASE-NOTES.html/.txt
+  | 
+  | 	* RELEASE-NOTES.xml: New file.
+  | 
+  | 	* locatingrules.xml: path in URI corrected
+  | 
+  | 2005-04-07  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* locatingrules.xml: minor changes to comments
+  | 
+  | 	* locatingrules.xml: New file.
+  | 
+  | 2005-04-06  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: typos fixed
+  | 
+  | 	* VERSION: VERSION scheme switched to same as that used by
+  | 	  "xsl" module; this enables auto-submitting info to Freshmeat
+  | 	  as part of the build
+  | 
+  | 2005-04-05  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: tweaks to match cvstools/Release-vars.mk and
+  | 	  Release-targets.mk changes
+  | 
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: DISTRIB_DEPENDS = example
+  | 
+  | 	* Makefile: zip target updated to enable snapshot build
+  | 
+  | 2005-04-02  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: DOCBOOK_WEBSITE variable, pass appropriate value
+  | 	  to "make example"
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: extensions "jar" target removed (to match updated
+  | 	  extensions/Makefile)
+  | 
+  | 	* Makefile: "clean" target, added extensions dir; also added
+  | 	  "realclean" target
+  | 
+  | 2005-03-29  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* Makefile: Add the depends target for example, as it seems to
+  | 	  be needed.
+  | 
+  | 	* README: Updated for release 2.5.1.
+  | 
+  | 	* VERSION: Update version for new release.
+  | 
+  | 	* catalog.xml: Updated website release version.
+  | 
+  | 	* catalog.xml: Update website-full to use DocBook 4.4 DTD.
+  | 
+
+Changes to website/example/*
+
+  | 2005-04-18  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile-example.txt: more realclean targets
+  | 
+  | 2005-04-08  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile, Makefile-example.txt: Renamed original Makefile to
+  | 	  Makefile-example.txt so that it will get included in the
+  | 	  release package correctly. Also added support for a new
+  | 	  depends-file param, when helps to get "clean" targe in
+  | 	  depends.* files set up correctly. Also make change to
+  | 	  suppress warnings about depends.* files being missing.
+  | 
+  | 	* build-make.xml, build-nontab.xml, build-textonly.xml,
+  | 	  build.xml, full.xml, layout.xml, olink.xml, website.xml:
+  | 	  Added notes about Makefile-example.txt and about RNC
+  | 	  versions of schemas; Changed references to "text only" to
+  | 	  "non tabular" for more clarity, and renamed
+  | 	  build-textonly.xml to build-nontab.xml
+  | 
+  | 2005-04-06  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: xmllint is now used for validation if
+  | 	  XSLT=xsltproc
+  | 
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: ignore stuff
+  | 
+  | 2005-04-02  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: made stylesheet path to be based on canonical URI
+  | 	  for current Website distro; also added option for using
+  | 	  xsltproc and xmllint instead of saxon and xerces
+  | 
+  | 	* layout.xml, website.xml, wslayout.xml: NOTATION declaration
+  | 	  for "XML" removed (already in latest website.dtd)
+  | 
+  | 2005-04-01  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: cvstools/Makefile, include instead of hard-coding
+  | 	  application names; "depends.tabular" and "depends.textonly",
+  | 	  switched to instead of .tabular and .textonly names, to
+  | 	  match names in ../website/xsl/makefile-dep.xsl; "realclean"
+  | 	  target added (to remove depends)
+  | 
+  | 2005-03-29  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* Makefile: Add processing of olink target database.
+  | 
+  | 	* example.css: Turn off toc list for print output.
+  | 
+  | 	* olink.xml: Fixed olink targetdoc for link to XSLT build
+  | 	  method.
+  | 
+  | 2003-12-19  Norman Walsh <nwalsh@users.sourceforge.net>
+  | 
+  | 	* build-make.xml: Patch #782320: Improved Makefile example
+  | 	  from Oliver Fischer
+  | 
+  | 2003-10-02  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* olink.xml: Added info on linking to other content and other
+  | 	  sites.
+  | 
+
+Changes to website/extensions/*
+
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: tweaked to match updated build structure
+  | 
+
+Changes to website/schema/*
+
+  | 2005-04-18  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: more realclean stuff
+  | 
+
+Changes to website/tests/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: New file.
+  | 
+
+Changes to website/xsl/*
+
+  | 2005-04-15  Norman Walsh <nwalsh@users.sourceforge.net>
+  | 
+  | 	* website-common.xsl: Explicitly cast summary to a string
+  | 
+  | 	* website-common.xsl: Support @href on tocentry
+  | 
+  | 2005-04-08  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* makefile-dep.xsl: added depends-file param, to help make
+  | 	  distclean behave as expected when building non-tabular
+  | 	  version of website
+  | 
+  | 2005-04-06  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* VERSION, website-common.xsl: VERSION scheme switched to same
+  | 	  as that used by "xsl" module; this enables auto-submitting
+  | 	  info to Freshmeat as part of the build
+  | 
+  | 	* makefile-dep.xsl: clean also now removes depends.nontabular
+  | 	  & website.database.xml
+  | 
+  | 2005-03-30  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* toc-tabular.xsl: Fixed logic for @tocskip attribute.
+  | 
+  | 2005-03-29  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* autolayout.xsl: Updated public and system identifiers in
+  | 	  xsl:output element.
+  | 
+  | 	* toc-tabular.xsl: Fixed bug 1163939: toc-tabular depends on
+  | 	  DTD validation.
+  | 
+  | 	* website-common.xsl: Added sample gentext strings for de and
+  | 	  fr.
+  | 
+  | 	* website.xsl: Fixed bug 1019573 body tag, accessibility
+  | 	  issue.
+  | 
+  | 2005-03-28  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* olink.xsl: Fixed olink-entity to work with new olink setup.
+  | 
+  | 	* olink.xsl: Updated to work with revisions to olink in main
+  | 	  DocBook stylesheet starting with version 1.66.
+  | 
+  | 	* website-common.xsl: Fixed bug 1120883 Irrelevant mode
+  | 	  attribute.
+  | 
+  | 	* website-common.xsl: Fixed bug 1120877 regarding duplicate
+  | 	  match on website in title.markup mode.
+  | 
+  | 2005-01-31  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* olink.xsl: Applied patch from bug report 1072576 to fix key
+  | 	  mismatch since 1.66.1 update of olinks.
+  | 
+  | 2005-01-06  Jirka Kosek <kosek@users.sourceforge.net>
+  | 
+  | 	* tabular.xsl: Fixed bug #1046632. Added missing relative path
+  | 	  in front of image.
+  | 
+  | 2004-06-04  Jirka Kosek <kosek@users.sourceforge.net>
+  | 
+  | 	* toc.xsl, website-common.xsl: Use gentext for "Home" text
+  | 
+  | 2004-06-03  Jirka Kosek <kosek@users.sourceforge.net>
+  | 
+  | 	* tabular.xsl, website.xsl: Process all types of nodes under
+  | 	  webpage (including PIs and comments) not only elements.
+  | 
+  | 2003-11-25  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* website-common.xsl: Use normalize-space() on summary since
+  | 	  used as an attribute value.
+  | 
+  | 	* website-common.xsl: baseuri attribute in
+  | 	  website.database.xml now adds the $filename-prefix value.
+  | 
+  | 2003-09-18  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* tabular.xsl, website.xsl: Remove unused variable 'filename',
+  | 	  which applies templates in mode 'filename', but there is no
+  | 	  such mode.
+  | 
+  | 2003-09-08  Norman Walsh <nwalsh@users.sourceforge.net>
+  | 
+  | 	* makefile-dep.xsl: Accept patch #787260 from vyt
+  | 
+  | 2003-07-18  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* tabular.xsl: Added normalize-space() function for summary
+  | 	  used as an attribute value.
+  | 
+  | 2003-07-11  Norman Walsh <nwalsh@users.sourceforge.net>
+  | 
+  | 	* rss.xsl: Fixed bogus references to @resource instead of
+  | 	  @rdf:resource
+  | 
+  | 	* tabular.xsl: Use table.navigation.cell.properties for the
+  | 	  table.spacer.image in the navigation column. Use the spacer
+  | 	  image again in the hspacer for that row. Added new param to
+  | 	  the hspacer template so that the template can tell if its
+  | 	  being called for the vspacer cell.
+  | 
+
+Changes to website/example/graphics/*
+
+  | 2005-04-08  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* note.gif, note.png, note.svg, note.tif: New file.
+  | 
+
+Changes to website/schema/dtd/*
+
+  | 2005-04-18  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: more realclean targets
+  | 
+  | 	* website.dtd: regenerated to include latest changes
+  | 
+  | 2005-04-15  Norman Walsh <nwalsh@users.sourceforge.net>
+  | 
+  | 	* website.mod: ID is required on webpage
+  | 
+  | 2005-04-11  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* extensions.mod, forms.mod, namespaces.mod, rddl.mod,
+  | 	  website-custom.dtd, website-full.dtd, website.dtd,
+  | 	  website.mod: updated to v2.6
+  | 
+  | 2005-04-02  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: update to v2.5.1 to match website-full.dtd
+  | 
+  | 	* website-custom.dtd: change to 2.5.1 everywhere
+  | 
+  | 	* website-custom.dtd: import Simplified 1.1 instead of
+  | 	  Simplified 1.0
+  | 
+  | 	* website.dtd: regenerated based on Simplified 1.1
+  | 
+  | 2005-03-29  Robert Stayton <bobstayton@users.sourceforge.net>
+  | 
+  | 	* website-full.dtd: Updated to use docbook 4.4 instead of 4.2.
+  | 
+
+Changes to website/schema/relaxng/*
+
+  | 2005-04-18  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: more realclean targets
+  | 
+  | 2005-04-08  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: ignore .rng files
+  | 
+  | 	* Makefile: make *.rng as well as *.rnc files (*.rng files are
+  | 	  needed for people who want to do validation using xmllint)
+  | 
+  | 2005-04-07  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: make -> $(MAKE)
+  | 
+  | 	* schemas.xml: moved RELAX NG locating-rules file to root dir
+  | 	  of distro, at same level as catalogs.xml, which has a
+  | 	  similar purpose
+  | 
+  | 2005-04-06  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* schemas.xml: New file.
+  | 
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: ignore stuff
+  | 
+  | 	* Makefile: runtrang, fail if not found
+  | 
+  | 2005-04-01  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: .rng files, don't generate (if you need them, use
+  | 	  trang to generate them from the .rnc files);
+  | 	  website-custom.rnc, don't generate (duh); clean target, be
+  | 	  explicit about what files to remove
+  | 
+  | 2005-03-31  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore, Makefile, autolayout.rng, extensions.rng,
+  | 	  forms.rng, layout.rng, rddl.rng, union.xml,
+  | 	  website-full.rng, website.rng: build switched to generate
+  | 	  all RNG schemas from DTDs; now also generates RNC versions
+  | 	  from RNGs (you can use the RNCs for context-sensitive,
+  | 	  validated editing in Emacs/nXML mode, Oxygen XML Editor,
+  | 	  etc.); RNG and RNC conversions both rely on "trang"; tagged
+  | 	  the directory (tag name: "original") before making the
+  | 	  change, so original CVS-maintained RNG files and union.xml
+  | 	  and Makefile that were in this directory can be checked out
+  | 	  at any time by doing a "cvs update -r original"
+  | 
+
+Changes to website/extensions/saxon64/.classes/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: New file.
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile, Makefile.common: New file.
+  | 
+
+Changes to website/extensions/xalan2/.classes/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: New file.
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile, Makefile.common: New file.
+  | 
+
+Changes to website/extensions/saxon64/.classes/com/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: New file.
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: New file.
+  | 
+
+Changes to website/extensions/xalan2/.classes/com/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: New file.
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: New file.
+  | 
+
+Changes to website/extensions/saxon64/.classes/com/nwalsh/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: New file.
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: New file.
+  | 
+
+Changes to website/extensions/xalan2/.classes/com/nwalsh/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: New file.
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: New file.
+  | 
+
+Changes to website/extensions/saxon64/.classes/com/nwalsh/saxon/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: New file.
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: New file.
+  | 
+
+Changes to website/extensions/xalan2/.classes/com/nwalsh/xalan/*
+
+  | 2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* .cvsignore: New file.
+  | 
+  | 2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+  | 
+  | 	* Makefile: New file.
+  | 
+

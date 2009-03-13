@@ -1,0 +1,75 @@
+<!DOCTYPE webpage SYSTEM "../website-schema/dtd/website.dtd"
+[
+<!NOTATION XML SYSTEM "xml">
+]>
+<webpage id="software_screenshots">
+  <config param="desc" value="News" />
+  <config param="rcsdate" value="$Date: 2009-01-17 21:34:02 +0100 (Sa, 17. Jan 2009) $" />
+  <head>
+    <title>Screenshots</title>
+    <summary>Screenshots of BibleTime</summary>
+    <keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    God, Religion, Bible, devotional, crosswire, sword, screenshots,
+    gallery</keywords>
+  </head>
+  <section>
+    <title>Screenshots of BibleTime 1.5</title>
+    <formalpara>
+      <title>The main window</title>
+      <para>
+        <ulink url="/images/screenshots/1-large.jpg">
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="/images/screenshots/1.jpg"
+              format="JPG" />
+            </imageobject>
+          </inlinemediaobject>
+        </ulink>
+      </para>
+      <para>Here you can see a typical BibleTime session. On the left
+      pane, you see the "bookshelf" which offers quick access to all
+      installed electronic works as well as facilities to create and
+      manage your own bookmarks. Below is the "mag(nifying glass)",
+      which can display additional information about a word or piece of
+      text. In this example it shows details about the hebrew word that
+      the KJV translates as "God". The main part of the BibleTime
+      window (called "desk") offers space to read works such as Bibles,
+      commentaries, lexicons or other books.</para>
+    </formalpara>
+    <formalpara>
+      <title>The Bookshelf Manager</title>
+      <para>
+        <ulink url="/images/screenshots/3-large.jpg">
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="/images/screenshots/3.jpg"
+              format="JPG" />
+            </imageobject>
+          </inlinemediaobject>
+        </ulink>
+      </para>
+      <para>BibleTime offers a dialog to automatically download and
+      manage electronic works. You simply define a library (a remote
+      collection of works, such as 
+      <ulink url="http://www.crosswire.org/sword/">Crosswire</ulink>),
+      and then you can transfer works from this library to your local
+      bookshelf to use them. Easy, huh?</para>
+    </formalpara>
+    <formalpara>
+      <title>The search dialog</title>
+      <para>
+        <ulink url="/images/screenshots/2-large.jpg">
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="/images/screenshots/2.jpg"
+              format="JPG" />
+            </imageobject>
+          </inlinemediaobject>
+        </ulink>
+      </para>
+      <para>BibleTime offers a powerful search dialog. You can search
+      in several works at a time, limit your search to text scopes or
+      also to certain kinds of text, such as footnotes.</para>
+    </formalpara>
+  </section>
+</webpage>

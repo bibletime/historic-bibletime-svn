@@ -1,0 +1,24 @@
+RewriteEngine On
+
+<IfModule mod_speling.c>
+CheckSpelling Off
+</IfModule>
+
+AddType application/x-type-map var
+Options -MultiViews
+DirectoryIndex index.var index.html
+DefaultLanguage en
+
+ErrorDocument 404 /error404.var
+
+#  let the server know that we were reached via /xyz and not
+#  via the physical path prefix /abc/def
+RewriteBase   /
+
+#Rewrite the pages on / into the corresponding .var file on /
+RewriteCond     %{DOCUMENT_ROOT}/$1.var  -f
+RewriteRule     ^([^/]*)\.(s?html|php4|php)$    /$1.var  [L]
+
+RewriteRule     ^Perl.+$        /index.html [F,L]
+RewriteRule     ^.+\.pm$        /index.html [F,L]
+

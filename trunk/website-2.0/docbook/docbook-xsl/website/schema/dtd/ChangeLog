@@ -1,0 +1,58 @@
+2005-04-18  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: more realclean targets
+
+	* website.dtd: regenerated to include latest changes
+
+2005-04-15  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* website.mod: ID is required on webpage
+
+2005-04-11  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* extensions.mod, forms.mod, namespaces.mod, rddl.mod, website-custom.dtd, website-full.dtd, website.dtd, website.mod: 
+	updated to v2.6
+
+2005-04-02  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: update to v2.5.1 to match website-full.dtd
+
+	* website-custom.dtd: change to 2.5.1 everywhere
+
+	* website-custom.dtd: import Simplified 1.1 instead of Simplified 1.0
+
+	* website.dtd: regenerated based on Simplified 1.1
+
+2005-03-29  Robert Stayton <bobstayton@users.sourceforge.net>
+
+	* website-full.dtd: Updated to use docbook 4.4 instead of 4.2.
+
+2003-06-22  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd, extensions.mod, forms.mod, layout.dtd, namespaces.mod, rddl.mod, website-custom.dtd, website-full.dtd, website.dtd, website.mod: 
+	Updated version numbers
+
+2003-06-21  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd, layout.dtd, website.mod: Allow type attribute on script
+
+2003-02-18  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd, extensions.mod, forms.mod, layout.dtd, namespaces.mod, rddl.mod, website-custom.dtd, website-full.dtd, website.dtd, website.mod: 
+	Updated version numbers to 2.4.1
+
+2003-01-25  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile: Cleanup
+
+2003-01-23  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile: New file.
+
+	* website-custom.dtd, website.dtd: Updated version numbers
+
+2003-01-16  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd, extensions.mod, forms.mod, layout.dtd, namespaces.mod, rddl.mod, website-custom.dtd, website-full.dtd, website.dtd, website.mod: 
+	New file.
+

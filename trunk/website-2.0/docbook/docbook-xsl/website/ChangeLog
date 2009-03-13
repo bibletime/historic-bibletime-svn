@@ -1,0 +1,351 @@
+2005-04-18  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* .cvsignore: ignore .urilist
+
+	* INSTALL: include instructions on how to use install.sh
+
+	* Makefile: more realclean stuff
+
+	* RELEASE-NOTES.xml: info about install.sh added
+
+	* VERSION: Version 2.6.0 released.
+
+	* locatingrules.xml: fix paths in comments
+
+2005-04-16  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* README, RELEASE-NOTES.xml: Added Exchanger XML Editor to list of RELAX NG-aware edting apps
+
+	* README, RELEASE-NOTES.xml: XMLBuddy added to list of RELAX NG-aware editors
+
+2005-04-15  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: URILIST format is now pairs of paths and URIs
+
+	* Makefile: added EXECUTABLES variable and added install.sh to its value
+
+	* catalog, catalog.xml: enable users to have "current" in schema URIs in doc instances;
+	
+	  http://docbook.sourceforge.net/release/website/current/schema/
+	
+	Yeah, I know that it's traditionally been the case that DocBook
+	doc instances contain public and system IDs for a specific version
+	of the DocBook DTD. But note that:
+	
+	  - all versions of DocBook 4 are backward-compatible
+	
+	  - doc instances don't actually need to contain any system or
+	    public ID at all users employ RELAX NG-based tools
+	
+	  - for RELAX NG-based toolchain, users will probably be authoring
+	    and validating their doc instances against whatever is the
+	    current version of the RELAX NG schema for DocBook that that
+	    they have installed
+	
+	So enabling users to put "current" in their doc instances instead
+	of a specific version number means that they don't need to update
+	the URIs if/when they want to author/validate using a future
+	version of the DTD.
+
+2005-04-14  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* .cvsignore: ignore .CatalogManager.properties and install.sh
+
+	* Makefile: releasetools dir now holds release makefiles
+
+2005-04-11  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* README: public and system IDs updated
+
+	* catalog: added autolayout.dtd and layout.dtd
+
+	* catalog: New file.
+
+	* catalog.xml: updated for v2.6
+
+2005-04-08  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* .cvsignore: ignore RELEASE-NOTES.*
+
+	* AUTHORS, BUGS, COPYING, INSTALL, README, TODO: Added standard distro files, to make life easier for packagers;
+	From README, moved copyright info to COPYING and install info to
+	INSTALL. README content is not just minimal how-to info. Added
+	BUGS and TODO, which are just pointers to SF trackers. Added
+	AUTHORS just for sake completeness.
+
+	* Makefile: generate RELEASE-NOTES.html/.txt
+
+	* RELEASE-NOTES.xml: New file.
+
+	* locatingrules.xml: path in URI corrected
+
+2005-04-07  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* locatingrules.xml: minor changes to comments
+
+	* locatingrules.xml: New file.
+
+2005-04-06  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: typos fixed
+
+	* VERSION: VERSION scheme switched to same as that used by "xsl" module;
+	this enables auto-submitting info to Freshmeat as part of the build
+
+2005-04-05  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: tweaks to match cvstools/Release-vars.mk and Release-targets.mk changes
+
+2005-04-04  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: DISTRIB_DEPENDS = example
+
+	* Makefile: zip target updated to enable snapshot build
+
+2005-04-02  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: DOCBOOK_WEBSITE variable, pass appropriate value to "make example"
+
+2005-03-29  Michael Smith <xmldoc@users.sourceforge.net>
+
+	* Makefile: extensions "jar" target removed (to match updated extensions/Makefile)
+
+	* Makefile: "clean" target, added extensions dir; also added "realclean" target
+
+2005-03-29  Robert Stayton <bobstayton@users.sourceforge.net>
+
+	* Makefile: Add the depends target for example, as it seems to be needed.
+
+	* README: Updated for release 2.5.1.
+
+	* VERSION: Update version for new release.
+
+	* catalog.xml: Updated website release version.
+
+	* catalog.xml: Update website-full to use DocBook 4.4 DTD.
+
+2003-06-22  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION: Version 2.5.0 released.
+
+2003-06-21  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile: Tweaked
+
+2003-02-18  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION: Version 2.4.1 released.
+
+	* catalog.xml: Added chunk-common to the catalog
+
+	* catalog.xml: Added rewrite rules for the schema and xsl directories
+
+2003-01-25  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile: Cleanup and support reorganized directories
+
+	* README: Updated versions, copyright, and system identifiers
+
+	* VERSION: Version 2.4.0 released.
+
+	* catalog.xml: Fixed typos
+
+2003-01-16  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd, catalog.xml, extensions.mod, forms.mod, layout.dtd, namespaces.mod, rddl.mod, website-custom.dtd, website-full.dtd, website.mod: 
+	Moved files; this messes up the CVS tags, but I'm doing it anyway :-(
+
+	* website-custom.dtd: Based on Simplified 1.0
+
+2003-01-12  Robert Stayton <bobstayton@users.sourceforge.net>
+
+	* catalog.xml: New file.
+
+2002-11-17  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION, autolayout.dtd, extensions.mod, forms.mod, layout.dtd, namespaces.mod, rddl.mod, website-custom.dtd, website-full.dtd, website.mod: 
+	Bug #636004: fix version numbers
+
+2002-10-16  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* website-custom.dtd: Fix typos in comments; correct spelling of qand_a_set PEs; add blockinfo for qandaset
+
+	* website-full.dtd: Fix typos in comments
+
+2002-10-02  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd, layout.dtd, website.mod: Add headlink element (HTML head 'link')
+
+2002-09-17  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* VERSION: Version 2.3 released.
+
+2002-09-15  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* website-full.dtd: Add index to webpage.mix
+
+2002-09-12  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* extensions.mod, website-custom.dtd, website-full.dtd, website.mod: 
+	Added FPIs to modules
+
+2002-09-11  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* extensions.mod: Add rss to local.para.class
+
+	* website.mod: Add common attributes where missing; add rss element
+
+2002-06-26  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* website-custom.dtd: Update website DTD to point to Simplified CR2
+
+	* website.mod: Remove attlist decls for role attributes; Simplified CR2 fixes this problem
+
+2002-05-24  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile: Fix typo
+
+	* README, autolayout.dtd, extensions.mod, forms.mod, namespaces.mod, rddl.mod, website-custom.dtd, website-full.dtd, website.mod: 
+	Changed version numbers
+
+	* VERSION: Version 2.2 released.
+
+	* VERSION: Version 2.1 released
+
+	* autolayout.dtd, layout.dtd: Updated comments
+
+	* extensions.mod: Whitespace
+
+	* website.mod: Added additional ATTLIST declarations for role attributes on table elements.
+
+2002-05-23  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd: Make id attributes IDs so that duplicate IDs can be flagged by the parser
+
+	* layout.dtd: Added revisionflag to tocentry
+
+2002-01-07  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* README: Bumped version number
+
+	* VERSION: Version 2.1b1 released.
+
+	* autolayout.dtd, forms.mod, layout.dtd, namespaces.mod, rddl.mod: 
+	Bumped version number in comments
+
+	* extensions.mod, website-custom.dtd, website-full.dtd, website.mod: 
+	Refactored to make a website-full.dtd possible; based on Simplified DocBook 1.0b2
+
+2001-09-06  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* .cvsignore, Makefile, README, VERSION, autolayout.dtd, forms.mod, layout.dtd, namespaces.mod, rddl.mod, website-custom.dtd, website.dtd: 
+	Merge V2-branch back onto the trunk; I'm abandoning V1-branch and V2-branch henceforth
+
+2001-08-07  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd, layout.dtd: Bug fixes
+
+	* layout.dtd: Allow the TOC to contain links to external websites, parameterize the currentpage marker (@) in the text-only rendering
+
+2001-08-06  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* README, autolayout.dtd, forms.mod, layout.dtd, namespaces.mod, rddl.mod, website-custom.dtd: 
+	Updated version number to 2.0b1 (beta 1)
+
+	* VERSION: Version 2.0b1 released.
+
+	* VERSION: Keep CVS versions distinct from real releases
+
+2001-08-04  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* autolayout.dtd, layout.dtd: Allow ulink in copyright holder
+
+2001-07-29  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* README: Expand sf.net to sourceforge.net; too many DNS hickups for sf.net
+
+	* website-custom.dtd: Add base element to head; expand sf.net to sourceforge.net; too many DNS hickups for sf.net
+
+2001-06-20  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* website-custom.dtd: Support http-equiv on meta
+
+2001-06-17  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* forms.mod, namespaces.mod, rddl.mod, website-custom.dtd: 
+	Add support for RDDL
+
+	* namespaces.mod: branches:  1.1.2;
+	file namespaces.mod was initially added on branch V2-branch.
+
+	* rddl.mod: branches:  1.1.2;
+	file rddl.mod was initially added on branch V2-branch.
+
+2001-06-14  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile: Fixed typo
+
+	* Makefile: Tweaks for building new releases
+
+	* Makefile: Added new targets for making distributions
+
+	* VERSION: Version 2.0a2 released.
+
+	* website-custom.dtd: Make ID on webpage required (since it is, um, required :-); add qandaset to webpages
+
+2001-06-05  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* .cvsignore, Makefile, README, VERSION, autolayout.dtd, forms.mod, layout.dtd, website-custom.dtd: 
+	Documentation tweaks in preparation for the 2.0a1 release
+
+	* VERSION: Version 2.0a1 released
+
+2001-06-04  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile: Add dependency for the forms module
+
+	* autolayout.dtd: Added tocskip attribute and titleabbrev element
+
+	* layout.dtd: Added tocskip attribute
+
+	* website-custom.dtd: Added XML notation
+
+2001-05-23  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* forms.mod: New file.
+
+	* website-custom.dtd: Removed glossary
+
+2001-05-21  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* .cvsignore: branches:  1.1.2;
+	file .cvsignore was initially added on branch V2-branch.
+
+	* .cvsignore, Makefile: Make website.dtd from website-custom.dtd
+
+	* Makefile: Cleanup
+
+	* website-custom.dtd: branches:  1.1.2;
+	file website-custom.dtd was initially added on branch V2-branch.
+
+	* website-custom.dtd: New file.
+
+	* website.dtd: Renamed to website-custom.dtd
+
+2001-04-15  Norman Walsh <nwalsh@users.sourceforge.net>
+
+	* Makefile: branches:  1.1.2;
+	file Makefile was initially added on branch V2-branch.
+
+	* Makefile, README, VERSION, autolayout.dtd, layout.dtd, website.dtd: 
+	New file.
+
+	* README, VERSION, forms.mod, website.dtd: branches:  1.1.4;
+	Initial checkin of V1.10 sources
+
+	* autolayout.dtd: branches:  1.1.2;
+	file autolayout.dtd was initially added on branch V2-branch.
+
+	* layout.dtd: branches:  1.1.2;
+	file layout.dtd was initially added on branch V2-branch.
+

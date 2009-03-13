@@ -1,0 +1,19 @@
+#header {
+	position:absolute;
+	top:0;
+	left:0;
+	height:130px;
+	width:100%;
+	background-image:url("../images/header-bg.png");
+
+	margin:0;
+	padding:0;
+}
+
+#headerlogo {
+	position: absolute;
+	top:0;
+	left:15px;
+}
+
+

@@ -1,0 +1,12 @@
+#flags {
+	position: absolute;
+	right:10px;
+	top:10px;
+	width:350px;
+	text-align: right;
+}
+
+#flags img {
+	display: inline;
+	padding: 2px 4px;
+}

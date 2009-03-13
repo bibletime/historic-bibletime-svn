@@ -1,0 +1,48 @@
+<!DOCTYPE webpage SYSTEM "../website-schema/dtd/website.dtd"
+[
+<!NOTATION XML SYSTEM "xml">
+<!ENTITY software_intro_page SYSTEM "software_intro.xml" NDATA XML>
+]>
+<webpage id="software_press">
+  <config param="desc" value="In the press" />
+  <config param="rcsdate" value="$Date: 2009-02-09 14:41:30 +0100 (Mo, 09. Feb 2009) $" />
+  <head>
+    <title>In the press</title>
+    <summary>BibleTime in the press</summary>
+    <keywords>BibleTime, Linux, Software, biblestudy, bible study, KDE,
+    God, Religion, Bible, devotional, crosswire, sword, press, in the
+    media, pree coverage</keywords>
+  </head>
+  <section>
+    <title>In the press</title>
+    <para>
+    <ulink url="http://christianoss.wordpress.com/2009/02/01/project-spotlight-bibletime/">
+    Christian Open Source blog</ulink> recently interviewed BibleTime's
+    Martin Gruner in their Project Spotlight, and drew the following
+    conclusion:</para>
+    <para>
+      <blockquote>
+        <attribution>Raoul Snyman (&#169; 2009 Raoul
+        Snyman)</attribution>
+        <para>BibleTime is a handy resource for preparing Bible
+        studies, sermons, or just looking up passages electronically.
+        With more developers on board, and moving to use just Qt4, it
+        looks like BibleTime will be going places in the near
+        future.</para>
+      </blockquote>
+    </para>
+    <para>On 
+    <ulink url="http://static.kdenews.org/content/bibletime/bibletime.html">dot.kde.org</ulink>,
+    Andreas Pour draws the following conclusion in his review:</para>
+    <blockquote>
+      <attribution>Andreas Pour (&#169; 2001 Andreas "Dre" Pour. All
+      rights reserved)</attribution>
+      <para>Bibletime is already a true godsend for religious KDE
+      users. It is easily useable though it may take a bit of time to
+      learn some quirks. I think the next release will make it even
+      better, particularly by providing a GUI for the difficult Sword
+      installation/configuration. Besides this, my personal wishlist
+      item is to use KHTML for its advanced navigation features.</para>
+    </blockquote>
+  </section>
+</webpage>

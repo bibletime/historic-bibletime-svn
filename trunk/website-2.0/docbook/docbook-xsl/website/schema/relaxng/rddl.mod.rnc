@@ -1,0 +1,34 @@
+# ======================================================================
+
+# Website DTD RDDL Module V2.6
+# Part of the Website distribution
+# http://sourceforge.net/projects/docbook/
+# 
+# Please direct all questions and comments about this DTD to
+# Norman Walsh, <ndw@nwalsh.com>.
+
+# ======================================================================
+
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace rddl = "http://www.rddl.org/"
+namespace xlink = "http://www.w3.org/1999/xlink"
+
+rddl.resource =
+  element rddl:resource { rddl.resource.attlist, para.char.mix* }
+rddl.resource.attlist &=
+  attribute id { xsd:ID }?,
+  attribute xml:lang { xsd:NMTOKEN }?,
+  attribute xml:base { text }?,
+  [ a:defaultValue = "simple" ] attribute xlink:type { "simple" }?,
+  attribute xlink:arcrole { text }?,
+  [ a:defaultValue = "http://www.rddl.org/#resource" ]
+  attribute xlink:role { text }?,
+  attribute xlink:href { text }?,
+  attribute xlink:title { text }?
+#	%xlink-embed;	CDATA	#FIXED   "none"
+#	%xlink-actuate;	CDATA	#FIXED   "none"
+# >
+
+# End of rddl.mod V2.6 ...............................................
+
+# ......................................................................

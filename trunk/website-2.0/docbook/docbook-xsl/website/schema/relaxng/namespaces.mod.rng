@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <!-- ====================================================================== -->
+  <!--
+    Website DTD Namespaces Module V2.6
+    Part of the Website distribution
+    http://sourceforge.net/projects/docbook/
+    
+    Please direct all questions and comments about this DTD to
+    Norman Walsh, <ndw@nwalsh.com>.
+  -->
+  <!-- ====================================================================== -->
+  <!-- HTML -->
+  <!-- XLink -->
+  <!-- RDDL -->
+  <define name="rddl-resource.element">
+    <ref name="rddl.resource"/>
+  </define>
+</grammar>
+<!-- End of namespaces.mod V2.6 ......................................... -->
+<!-- ...................................................................... -->

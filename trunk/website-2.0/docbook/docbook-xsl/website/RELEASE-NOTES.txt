@@ -1,0 +1,89 @@
+DocBook Website Release Notes
+
+DocBook Project Development Team
+
+$Id: RELEASE-NOTES.xml,v 1.4 2005/04/18 16:24:50 xmldoc Exp $
+
+2005-04-19
+
+-------------------------------------------------------------------------------
+
+Table of Contents
+
+Release 2.6.0
+Older releases
+
+These are the release notes for the DocBook Website distribution. This file
+provides a high-level overview of features and API changes in each release.
+
+Bug fixes are (mostly) not documented here. For a complete list of changes,
+including descriptions of bug fixes, see the NEWS file, which is auto-generated
+from the commit descriptions for changes in the project CVS repository.
+
+Release 2.6.0
+
+This release includes some significant schema changes, as well as a few
+relatively minor changes to the Website XSL stylesheets, and a handful of bug
+fixes. It also includes a new (and still experimental) install.sh script to
+facilitate XML catalog and locating-rules setup.
+
+Schemas
+
+  * Website (non-full) is now based on Simplified DocBook 1.1 and Website
+    "full" is now based on DocBook 4.4. The main benefit this provides is the
+    ability to use HTML tables in your Website XML source (instead of just CALS
+    tables).
+
+  * RELAX NG schemas in RNC (compact-syntax) form as well as in RNG (XML
+    syntax) form are now included in the distribution. You can use those to do
+    context-sensitive Website editing in a RELAX NG-aware editor such as Emacs/
+    nXML, oXygen XML Editor, XMLBuddy, or Exchanger XML Editor. (Note that the
+    RELAX NG schemas are currently generated from the DTDs).
+
+  * A locatingrules.xml file has been added to the distribution. The
+    locatingrules.xml file tells a "locating rules"-aware editor such as Emacs/
+    nXML to automatically associate the included RELAX NG Website schema with
+    any document whose root element is webpage.
+
+Example
+
+  * An example makefile, Makefile-example.txt is now included in the
+    distribution. It is the actual makefile used to build the content in the
+    example directory.
+
+XSL
+
+  * Added sample gentext strings for de and fr.
+
+  * Updated to work with revisions to olink in main DocBook stylesheet starting
+    with version 1.66.
+
+  * gentext is now used for "Home" text
+
+  * All types of nodes under webpage (including PIs and comments, not only
+    elements) are now processed.
+
+  * baseuri attribute in website.database.xml now adds the $filename-prefix
+    value.
+
+  * Accepted patch #787260 from vyt
+
+  * Use table.navigation.cell.properties for the table.spacer.image in the
+    navigation column. Use the spacer image again in the hspacer for that row.
+    Added new param to the hspacer template so that the template can tell if
+    its being called for the vspacer cell.
+
+  * note.gif, note.png, note.svg, note.tif files added
+
+  * A depends-file parameter was added to more easily facilitate cleanup of
+    depends files for website builds.
+
+Install
+
+  * A new (and still experimental) install.sh file has been added to the
+    Website distribution. For information on using it, see the INSTALL file.
+
+Older releases
+
+Sorry, there are no release notes for releases prior to the 2.6.0 release.
+

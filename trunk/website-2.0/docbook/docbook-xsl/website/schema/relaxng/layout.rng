@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== -->
+<!--
+  Website Layout DTD V2.5.0
+  Part of the Website distribution
+  http://sourceforge.net/projects/docbook/
+  
+  Please use the following formal public identifier to identify it:
+  
+  "-//Norman Walsh//DTD Website Layout V2.5.0//EN"
+  
+  For example:
+  
+  <!DOCTYPE layout PUBLIC "-//Norman Walsh//DTD Website Layout V2.5.0//EN"
+                  "http://docbook.sourceforge.net/release/website/2.5.0/layout.dtd">
+  
+  Please direct all questions and comments about this DTD to
+  Norman Walsh, <ndw@nwalsh.com>.
+-->
+<!-- ====================================================================== -->
+<grammar xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <define name="layout">
+    <element name="layout">
+      <ref name="attlist.layout"/>
+      <zeroOrMore>
+        <choice>
+          <ref name="config"/>
+          <ref name="style"/>
+          <ref name="script"/>
+          <ref name="headlink"/>
+          <ref name="copyright"/>
+        </choice>
+      </zeroOrMore>
+      <oneOrMore>
+        <ref name="toc"/>
+      </oneOrMore>
+      <zeroOrMore>
+        <ref name="notoc"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.layout" combine="interleave">
+    <empty/>
+  </define>
+  <define name="config">
+    <element name="config">
+      <ref name="attlist.config"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="attlist.config" combine="interleave">
+    <attribute name="param"/>
+    <attribute name="value"/>
+    <optional>
+      <attribute name="altval"/>
+    </optional>
+  </define>
+  <define name="style">
+    <element name="style">
+      <ref name="attlist.style"/>
+      <text/>
+    </element>
+  </define>
+  <define name="attlist.style" combine="interleave">
+    <optional>
+      <attribute name="src"/>
+    </optional>
+    <optional>
+      <attribute name="type"/>
+    </optional>
+  </define>
+  <define name="script">
+    <element name="script">
+      <ref name="attlist.script"/>
+      <text/>
+    </element>
+  </define>
+  <define name="attlist.script" combine="interleave">
+    <optional>
+      <attribute name="src"/>
+    </optional>
+    <optional>
+      <attribute name="language"/>
+    </optional>
+    <optional>
+      <attribute name="type"/>
+    </optional>
+  </define>
+  <define name="headlink">
+    <element name="headlink">
+      <ref name="attlist.headlink"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="attlist.headlink" combine="interleave">
+    <optional>
+      <attribute name="href"/>
+    </optional>
+    <optional>
+      <attribute name="media"/>
+    </optional>
+    <optional>
+      <attribute name="name"/>
+    </optional>
+    <optional>
+      <attribute name="rel"/>
+    </optional>
+    <optional>
+      <attribute name="rev"/>
+    </optional>
+    <optional>
+      <attribute name="src"/>
+    </optional>
+    <optional>
+      <attribute name="title"/>
+    </optional>
+    <optional>
+      <attribute name="type"/>
+    </optional>
+  </define>
+  <define name="copyright">
+    <element name="copyright">
+      <ref name="attlist.copyright"/>
+      <oneOrMore>
+        <ref name="year"/>
+      </oneOrMore>
+      <oneOrMore>
+        <ref name="holder"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="attlist.copyright" combine="interleave">
+    <empty/>
+  </define>
+  <define name="year">
+    <element name="year">
+      <ref name="attlist.year"/>
+      <zeroOrMore>
+        <text/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.year" combine="interleave">
+    <empty/>
+  </define>
+  <define name="holder">
+    <element name="holder">
+      <ref name="attlist.holder"/>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="ulink"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.holder" combine="interleave">
+    <optional>
+      <attribute name="role"/>
+    </optional>
+  </define>
+  <define name="ulink">
+    <element name="ulink">
+      <ref name="attlist.ulink"/>
+      <zeroOrMore>
+        <text/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.ulink" combine="interleave">
+    <attribute name="url"/>
+  </define>
+  <define name="toc">
+    <element name="toc">
+      <ref name="attlist.toc"/>
+      <zeroOrMore>
+        <ref name="tocentry"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.toc" combine="interleave">
+    <attribute name="page"/>
+    <optional>
+      <attribute name="dir"/>
+    </optional>
+    <optional>
+      <attribute name="filename"/>
+    </optional>
+  </define>
+  <define name="tocentry">
+    <element name="tocentry">
+      <ref name="attlist.tocentry"/>
+      <zeroOrMore>
+        <choice>
+          <ref name="title"/>
+          <ref name="titleabbrev"/>
+          <ref name="summary"/>
+        </choice>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="tocentry"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.tocentry" combine="interleave">
+    <optional>
+      <attribute name="id">
+        <data type="ID"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="page"/>
+    </optional>
+    <optional>
+      <attribute name="href"/>
+    </optional>
+    <optional>
+      <attribute name="dir"/>
+    </optional>
+    <optional>
+      <attribute name="filename"/>
+    </optional>
+    <optional>
+      <attribute name="revisionflag">
+        <choice>
+          <value>added</value>
+          <value>changed</value>
+        </choice>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="tocskip" a:defaultValue="0">
+        <choice>
+          <value>0</value>
+          <value>1</value>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="notoc">
+    <element name="notoc">
+      <ref name="attlist.notoc"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="attlist.notoc" combine="interleave">
+    <attribute name="page"/>
+    <optional>
+      <attribute name="dir"/>
+    </optional>
+    <optional>
+      <attribute name="filename"/>
+    </optional>
+  </define>
+  <define name="title">
+    <element name="title">
+      <ref name="attlist.title"/>
+      <ref name="any"/>
+    </element>
+  </define>
+  <define name="attlist.title" combine="interleave">
+    <empty/>
+  </define>
+  <define name="titleabbrev">
+    <element name="titleabbrev">
+      <ref name="attlist.titleabbrev"/>
+      <ref name="any"/>
+    </element>
+  </define>
+  <define name="attlist.titleabbrev" combine="interleave">
+    <empty/>
+  </define>
+  <define name="summary">
+    <element name="summary">
+      <ref name="attlist.summary"/>
+      <zeroOrMore>
+        <text/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="attlist.summary" combine="interleave">
+    <empty/>
+  </define>
+  <start>
+    <ref name="layout"/>
+  </start>
+  <define name="any">
+    <zeroOrMore>
+      <choice>
+        <element>
+          <anyName/>
+          <zeroOrMore>
+            <attribute>
+              <anyName/>
+            </attribute>
+          </zeroOrMore>
+          <ref name="any"/>
+        </element>
+        <text/>
+      </choice>
+    </zeroOrMore>
+  </define>
+</grammar>
+<!-- End of layout.dtd V2.5.0 ............................................. -->
+<!-- ...................................................................... -->
