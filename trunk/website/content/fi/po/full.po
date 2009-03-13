@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_fi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-09 16:02+0000\n"
-"PO-Revision-Date: 2009-03-04 01:18+0200\n"
+"POT-Creation-Date: 2009-03-12 21:49+0000\n"
+"PO-Revision-Date: 2009-03-13 08:37+0200\n"
 "Last-Translator: Ilpo Kantonen <ilpo@iki.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -306,9 +306,9 @@ msgstr "Ohjelmistokehittäjän seuraavat askeleet..."
 
 #. Tag: para
 #: development_join.xml:58
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Work through some of the Qt 4 tutorials to get used to programming with the tools BibleTime uses."
-msgstr "Opettele muutamia Qt 4 oppaita tullaksesi tutuksi BibleTimen ohjelmoinnin kanssa."
+msgstr "Opettele muutamia Qt 4 oppaita tullaksesi tutuksi BibleTimen käyttämien työkalujen ohjelmoinnin kanssa."
 
 #. Tag: para
 #: development_join.xml:63
@@ -480,9 +480,9 @@ msgstr "Tervetuloa BibleTime-projektin sivuille."
 
 #. Tag: para
 #: software.xml:24
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime is a Bible study application built with <ulink url=\"http://www.qtsoftware.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
-msgstr "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime on Raamattuohjelma Linux-järjestelmälle. Se perustuu <ulink url=\"http://www.kde.org/\"> KDE-työpöytäympäristöön</ulink> ja käyttää <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink>-ohjelmakirjastoa Raamatun tekstien käsittelyyn, kommentaareihin, sanakirjoihin ja <ulink url=\"http://www.crosswire.org/\"> Crosswire Bible Society </ulink> -yhteisön tarjoamiin kirjoihin."
+msgstr "<ulink url=\"/images/screenshots/1-large.jpg\"> <inlinemediaobject> <imageobject> <imagedata fileref=\"/images/screenshots/1-small.jpg\" format=\"JPG\"/> </imageobject> </inlinemediaobject> </ulink> BibleTime on <ulink url=\"http://www.qtsoftware.com/\">Qt4</ulink>:llä ohjelmoitu Raamattuohjelma. Se käyttää <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink>-ohjelmakirjastoa Raamatun tekstien käsittelyyn, kommentaareihin, sanakirjoihin ja <ulink url=\"http://www.crosswire.org/\"> Crosswire Bible Society </ulink> -yhteisön tarjoamiin kirjoihin."
 
 #. Tag: title
 #: software.xml:41
@@ -492,15 +492,15 @@ msgstr "Uutisia BibleTimestä"
 
 #. Tag: title
 #: software.xml:44
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "2009-03-07: 2.0alpha1 release"
-msgstr "7.2.2009: BibleTime 1.7"
+msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
 #. Tag: para
 #: software.xml:46
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime 2.0alpha1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
-msgstr "BibleTimestä on julkistettu uusi versio 1.7. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
+msgstr "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
 #. Tag: title
 #: software.xml:52
@@ -780,9 +780,9 @@ msgstr "Johdanto"
 
 #. Tag: para
 #: software_about.xml:23
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime is a Bible study application built with <ulink url=\"http://www.qtsoftware.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
-msgstr "BibleTime on Raamattuohjelma Linux-järjestelmälle. Se perustuu <ulink url=\"http://www.kde.org/\">KDE-työpöytäympäristöön</ulink> ja käyttää <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink>-ohjelmakirjastoa Raamatun tekstien käsittelyyn, kommentaareihin ja <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Societyn</ulink> julkaisemiin kirjoihin."
+msgstr "BibleTime on <ulink url=\"http://www.qtsoftware.com/\">Qt4</ulink>:llä ohjelmoitu Raamattuohjelma. Se käyttää <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink>-ohjelmakirjastoa Raamatun tekstien käsittelyyn, kommentaareihin ja <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Societyn</ulink> julkaisemiin kirjoihin."
 
 #. Tag: title
 #: software_about.xml:34
@@ -840,15 +840,15 @@ msgstr "BibleTimen versio 1.6 julkistettiin syyskuussa 2006, ja hyödyntää <ul
 
 #. Tag: para
 #: software_about.xml:68
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "BibleTime version 1.7 was released in January 2008, it is the first version developed with Qt4 for use with KDE4."
-msgstr "BibleTimen versio 1.7 julkistettiin tammikuussa 2008. Se on ensimmäinen QT4:llä kehitetty versio KDE4:ssä käytettäväksi."
+msgstr "BibleTimen versio 1.7 julkistettiin tammikuussa 2008. Se on ensimmäinen Qt4:llä kehitetty versio KDE4:ssä käytettäväksi."
 
 #. Tag: para
 #: software_about.xml:71
 #, no-c-format
 msgid "BibleTime version 2.0 was introduced as an alpha release, for transition to being a cross platform application."
-msgstr ""
+msgstr "BibleTimen versio 2.0 esiteltiin alfa-julkaisuna siirtymävaiheessa monialustaiseksi sovellukseksi."
 
 #. Tag: title
 #: software_contact.xml:17
@@ -2500,15 +2500,15 @@ msgstr "Kehittäjät ottavat työsi tuotantokäyttöön niin nopeasti kuin on ma
 
 #. Tag: para
 #: translation.xml:72
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "For editing .po files we recommend that you use the excellent and mature program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced features and is a great aid. <ulink url=\"http://userbase.kde.org/Lokalize\">Lokalize</ulink> is another KDE based app, it will replace KBabel. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file editor suitable for our documentation and website translations. <ulink url=\"http://doc.qtsoftware.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (part of the cross-platform Qt development package) is adequate for translating the user interface which is in .ts format."
-msgstr "Kääntääksesi .po -tiedostoja suosittelemme erinomaista ja kypsää käännösohjelmaa <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>, joka toimii KDE-järjestelmässä. Siinä on monta edistyksellistä ominaisuutta ja on suurenmoinen apu. <ulink url=\"http://userbase.kde.org/Lokalize\">Lokalize</ulink> on toinen KDE-pohjainen sovellus, joka korvaa KBabelin. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> on cross-platform -tiedostomuokkain dokumenttiemme ja www-sivujemme käännöksiin. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (osa cross-platform Qt -kehityspaketista) on sopiva käyttöliittymän kääntämiseen, joka on .ts -muodossa."
+msgstr "Kääntääksesi .po -tiedostoja suosittelemme erinomaista ja kypsää käännösohjelmaa <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink>, joka toimii KDE-järjestelmässä. Siinä on monta edistyksellistä ominaisuutta ja on suurenmoinen apu. <ulink url=\"http://userbase.kde.org/Lokalize\">Lokalize</ulink> on toinen KDE-pohjainen sovellus, joka korvaa KBabelin. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> on monessa järjestelmässä toimiva tiedostomuokkain dokumenttiemme ja www-sivujemme käännöksiin. <ulink url=\"http://doc.trolltech.com/4.0/linguist-manual.html\"> Qt Linguist 4.x</ulink> (osa monialustaisesta Qt -kehityspaketista) on sopiva käyttöliittymän kääntämiseen, joka on .ts -muodossa."
 
 #. Tag: para
 #: translation.xml:86
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A list of the language abbreviations is available at <ulink url=\"http://www.loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-2/php/code_list.php</ulink>."
-msgstr "Kielilyhenteiden luettelo on saatavilla osoitteessa <ulink url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/iso639.htm</ulink>."
+msgstr "Kielilyhenteiden luettelo on saatavilla osoitteessa <ulink url=\"http://www.loc.gov/standards/iso639-2/php/code_list.php\">www.loc.gov/standards/iso639-2/php/code_list.php</ulink>."
 
 #. Tag: title
 #: translation.xml:92
@@ -2575,3 +2575,4 @@ msgstr "<title>Käännä Raamatun kirjojen nimet.</title>"
 #, no-c-format
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
 msgstr "Käännetyt Raamatun kirjojen nimet tulevat Sword-projektista. Tällä hetkellä ei ole olemassa hyviä ohjeita, mutta voit löytää tietoa ja esimerkkejä katsomalla <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> Sword-kirjastosta ja käyttämällä <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> mallipohjia</ulink>."
+
