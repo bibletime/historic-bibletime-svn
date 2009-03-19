@@ -8,7 +8,7 @@ This xsl creates a sitemap for all files. It expects a xml in the form
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="xml" indent="yes" omit-xml-declaration="no" encoding="UTF-8"/>
 
-    <xsl:param name="url.base">http://www.ansorg-it.com</xsl:param>
+    <xsl:param name="url.base">http://www.bibletime.info</xsl:param>
     <xsl:param name="change.date"></xsl:param>
     <xsl:param name="change.freq">weekly</xsl:param>
 

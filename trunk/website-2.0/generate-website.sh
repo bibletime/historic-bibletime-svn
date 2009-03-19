@@ -108,6 +108,7 @@ done;
 #Update the po statistics for all languages of the website
 ./update_postats.sh
 ./generate-sitemap.sh
+./generate-apache-files.sh
 
 copyResources 
 

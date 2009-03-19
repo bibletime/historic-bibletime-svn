@@ -1,24 +1,14 @@
-RewriteEngine On
+ErrorDocument 404 /error404.html
 
-<IfModule mod_speling.c>
-CheckSpelling Off
-</IfModule>
+RewriteEngine on
+RewriteCond %{HTTP:Accept-Language} (de) [NC]
+RewriteRule (^index.html$)|^$  /de/index.html [L,R]
 
-AddType application/x-type-map var
-Options -MultiViews
-DirectoryIndex index.var index.html
-DefaultLanguage en
+RewriteCond %{HTTP:Accept-Language} (en) [NC]
+RewriteRule (^index.html$)|^$  /en/index.html [L,R]
 
-ErrorDocument 404 /error404.var
+RewriteCond %{HTTP:Accept-Language} (de) [NC]
+RewriteRule ^error404.html$  /de/error404.html [L]
 
-#  let the server know that we were reached via /xyz and not
-#  via the physical path prefix /abc/def
-RewriteBase   /
-
-#Rewrite the pages on / into the corresponding .var file on /
-RewriteCond     %{DOCUMENT_ROOT}/$1.var  -f
-RewriteRule     ^([^/]*)\.(s?html|php4|php)$    /$1.var  [L]
-
-RewriteRule     ^Perl.+$        /index.html [F,L]
-RewriteRule     ^.+\.pm$        /index.html [F,L]
+RewriteRule ^error404.html /en/error404.html [L]
 

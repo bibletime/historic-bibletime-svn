@@ -312,6 +312,78 @@
     </option>
   </component>
   <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchMap">
+                <map>
+                  <entry key="https://bibletime.svn.sourceforge.net/svnroot/bibletime/branches">
+                    <value>
+                      <list />
+                    </value>
+                  </entry>
+                  <entry key="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags">
+                    <value>
+                      <list>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1236454217655" />
+                          <option name="revision" value="1037" />
+                          <option name="url" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags/rel-2-0-alpha1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1233999442883" />
+                          <option name="revision" value="968" />
+                          <option name="url" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags/rel-1-7" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1233690619737" />
+                          <option name="revision" value="960" />
+                          <option name="url" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags/rel-1-7-rc1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1221666733940" />
+                          <option name="revision" value="819" />
+                          <option name="url" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags/rel-1-7-beta2" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1219863782957" />
+                          <option name="revision" value="810" />
+                          <option name="url" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags/rel-1-7-beta1" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1219258839782" />
+                          <option name="revision" value="805" />
+                          <option name="url" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags/rel-1-7-alpha4" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1218906085178" />
+                          <option name="revision" value="802" />
+                          <option name="url" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags/rel-1-7-alpha3" />
+                        </SvnBranchItem>
+                        <SvnBranchItem>
+                          <option name="creationDateMillis" value="1200158592299" />
+                          <option name="revision" value="574" />
+                          <option name="url" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags/rel-1-7-alpha1" />
+                        </SvnBranchItem>
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/branches" />
+                  <option value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://bibletime.svn.sourceforge.net/svnroot/bibletime/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="myVersion" value="124" />
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
