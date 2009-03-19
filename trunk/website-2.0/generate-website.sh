@@ -24,7 +24,7 @@ function createHtml {
 # param 1 == output filename for the .pot file
 function updateTranslationTemplate {
 	out=$1
-	xml2po --keep-entities -o $out content/en/*.xml 
+	xml2po -o $out content/en/*.xml 
 }
 
 # This method merges i18n/lang.po with bt-svn/i18n/howto-lang.po if available and copiese to tmp/i18n/lang.po
@@ -35,6 +35,8 @@ function mergePoTemplateIntoPoFile {
 	echo "Merging i18n/en.pot into translation i18n/$lang.po"
 	msgmerge --force-po -o tmp/temp-$lang.po "i18n/$lang.po" "i18n/en.pot"
 	mv "tmp/temp-$lang.po" "i18n/$lang.po"
+
+	cp "i18n/$lang.po" "website-generated/po/bibletime_website_$lang.po"
 }
 
 # Creates the translated docbook files in tmp/lang/
@@ -90,7 +92,8 @@ function copyResources {
 }
 
 ###### THis is the main part of the application ########
-mkdir -p tmp website-generated/postats;
+mkdir -p tmp website-generated/postats website-generated/po;
+
 #if test ! -h tmp/website-schema; then cd tmp; ln -s ../docbook/docbook-xsl/website/schema; fi
 #if test ! -h content/website-schema; then cd content; ln -s ../docbook/docbook-xsl/website/schema; fi
 
@@ -99,10 +102,13 @@ createHtml en content/en
 
 updateTranslationTemplate i18n/en.pot
 
-for lang in $BT_LANG_ALL; do
-	mergePoTemplateIntoPoFile $lang; \
-	createTranslatedDocbook $lang; \
-	createHtml $lang "tmp/$lang"; \
+for lang in $BT_LANG_ALL; do \
+   mergePoTemplateIntoPoFile $lang; \
+done;
+
+for lang in $BT_LANG_ONLINE; do 
+   createTranslatedDocbook $lang; \
+   createHtml $lang "tmp/$lang"; \
 done;
 
 #Update the po statistics for all languages of the website
