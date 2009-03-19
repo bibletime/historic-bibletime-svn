@@ -106,9 +106,9 @@ for lang in $BT_LANG_ALL; do
 done;
 
 #Update the po statistics for all languages of the website
-./update_postats.sh
-./generate-sitemap.sh
-./generate-apache-files.sh
+./scripts/update_postats.sh
+./scripts/generate-sitemap.sh
+./scripts/generate-apache-files.sh
 
 copyResources 
 
