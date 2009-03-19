@@ -9,7 +9,7 @@ function appendPoStats {
 	lang=$2
 	target=$3
 	
-	perl postats/make_postats.pl $pofile $lang >> $target
+	perl -Iperl -I../perl postats/make_postats.pl $pofile $lang >> $target
 }
 
 ### Website

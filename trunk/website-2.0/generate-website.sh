@@ -85,7 +85,7 @@ function fixTranslation {
 
 #Copies the common website files into the website-generated dir
 function copyResources {
-	cp -Raf website-common/* website-generated/
+	cp -Rafu website-common/* website-generated/
 	find website-generated/ -iname \.svn | xargs rm -rf
 }
 
@@ -113,7 +113,7 @@ done;
 copyResources 
 
 #Cleanup
-rm ./.xml2po.mp
+rm ./.xml2po.mo
 rm -rf ./.tmp.i18n
 
 echo -e "\nThe website is now available in website-generated ..."

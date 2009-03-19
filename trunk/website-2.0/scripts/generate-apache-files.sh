@@ -12,10 +12,10 @@ function resetFiles {
 
 function appendLanguageRewrites {
 	lang=$1
-	files=$(cd website-generated/en; ls *.html)
+	files=$(cd website-generated/en; ls *.html *.shtml)
 
 	for f in $files; do \
-		target="website-generated/$(echo $f | sed -e s/\.html/.var/)"
+		target="website-generated/$(echo $f | sed -e 's/shtml$/var/' | sed -e 's/html$/var/')"
 		echo -e "URI: $lang/$f" >> $target
 		echo -e "Content-type: text/html" >> $target
 		echo -e "Content-language: $lang\n" >> $target
@@ -24,7 +24,7 @@ function appendLanguageRewrites {
 
 function appendDefaultRewrites {
 	for f in $(cd website-generated/en; ls *.html); do \
-		target="website-generated/$(echo $f | sed -e s/\.html/.var/)"
+		target="website-generated/$(echo $f | sed -e 's/shtml$/var/' | sed -e 's/html$/var/')"
 		echo -e "URI: en/$f" >> $target
 		echo -e "Content-type: text/html" >> $target
 	done;
