@@ -37,7 +37,6 @@ sub i18n_safe() {
 sub show_stats() {
 	my $self = shift;
 	my $config = $self->{'config'};
-	my $dbh = $config->dbh();
 	my $q = $self->{'cgi_query'};
 	my $ret = "";
 
