@@ -87,7 +87,7 @@ function fixTranslation {
 
 #Copies the common website files into the website-generated dir
 function copyResources {
-	cp -Raf website-common/* website-generated/
+	cp -Rafu website-common/* website-generated/
 	find website-generated/ -iname \.svn | xargs rm -rf
 }
 
