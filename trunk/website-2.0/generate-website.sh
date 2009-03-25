@@ -87,7 +87,9 @@ function fixTranslation {
 
 #Copies the common website files into the website-generated dir
 function copyResources {
-	cp -Rafu website-common/* website-generated/
+	export _cpflags="-Rafu"
+	if test $OSTYPE = FreeBSD; then export _cpflags="-Raf"; fi
+	cp ${_cpflags} website-common/* website-generated/
 	find website-generated/ -iname \.svn | xargs rm -rf
 }
 
