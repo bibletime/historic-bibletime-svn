@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_nl\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-06 23:09-0400\n"
+"POT-Creation-Date: 2009-04-07 11:10-0400\n"
 "PO-Revision-Date: 2008-01-17 17:13+0100\n"
 "Last-Translator: Johan van der Lingen <JohanLingen@hotmail.com>\n"
 "Language-Team: Nederlands\n"
@@ -2007,7 +2007,7 @@ msgstr ""
 "aanbieden dat werkelijk inhoud heeft."
 
 #: content/en/software_faq.xml:138(title)
-#: content/en/sidebar_tips.xml:18(title)
+#: content/en/sidebar_tips.xml:23(title)
 msgid "Translations"
 msgstr "Vertalen"
 
@@ -2660,30 +2660,30 @@ msgstr ""
 msgid "The FAQ received some minor updates."
 msgstr "The FAQ is op enkele punten verbeterd."
 
-#: content/en/sidebar_tips.xml:11(title)
+#: content/en/sidebar_tips.xml:12(title)
 #, fuzzy
 msgid "Sidebar tips"
 msgstr "Sidebar tips"
 
-#: content/en/sidebar_tips.xml:12(summary)
+#: content/en/sidebar_tips.xml:14(summary)
 #, fuzzy
 msgid "BibleTime tips"
 msgstr "BibleTime"
 
-#: content/en/sidebar_tips.xml:13(keywords)
+#: content/en/sidebar_tips.xml:16(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword"
 msgstr ""
 
-#: content/en/sidebar_tips.xml:19(para)
+#: content/en/sidebar_tips.xml:25(para)
 #, fuzzy
 msgid ""
-"It will cost you just a few minutes to update the webpage translation in "
-"your language. Help with the translations is something anybody can do and it "
+"It will take you just a few minutes to update the webpage translation in "
+"your language. Helping with translations is something anybody can do and it "
 "will benefit all users. If you want to help us keep the translations up to "
-"date, please read the page about <olink targetdocent=\"translations\">making "
-"translations</olink> and update the translation file of your own language."
+"date, please read the <olink targetdocent=\"translations\">translations "
+"page</olink> and update the translation file for your language."
 msgstr ""
 "Het kost je maar een paar minuten om de vertaling van de website in jouw "
 "taal up-to-date te houden. Helpen met vertalen is iets waarmee alle "
@@ -2748,31 +2748,32 @@ msgstr "Ontwikkelings-wiki"
 msgid "BibleTime"
 msgstr "BibleTime"
 
-#: content/en/index.xml:10(summary)
+#: content/en/index.xml:11(summary)
 msgid "Start page"
 msgstr ""
 
-#: content/en/index.xml:11(keywords)
+#: content/en/index.xml:13(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, index"
 msgstr ""
 
-#: content/en/error404.xml:9(title) content/en/error404.xml:10(summary)
+#: content/en/error404.xml:10(title) content/en/error404.xml:12(summary)
 msgid "Error 404: File not found"
 msgstr "Foutmelding 404: Bestand niet gevonden"
 
-#: content/en/error404.xml:11(keywords)
+#: content/en/error404.xml:14(keywords)
 msgid ""
-"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
-"Bible, devotional, crosswire, sword, file not found, error"
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
+"study, God, Religion, Bible, devotional, crosswire, sword, file not found, "
+"error"
 msgstr ""
 
-#: content/en/error404.xml:14(title)
+#: content/en/error404.xml:23(title)
 msgid "The document is not available"
 msgstr "Het document is niet beschikbaar"
 
-#: content/en/error404.xml:15(para)
+#: content/en/error404.xml:25(para)
 msgid ""
 "The document you wanted to get is not available on <ulink url=\"http://www."
 "bibletime.info/\">www.bibletime.info</ulink>. Please use the navigation tree "
@@ -2782,9 +2783,10 @@ msgstr ""
 "bibletime.info/\">www.bibletime.info</ulink>. Gebruik de navigatie aan de "
 "linkerkant om te zien of het document is verhuisd."
 
-#: content/en/error404.xml:19(para)
+#: content/en/error404.xml:31(para)
+#, fuzzy
 msgid ""
-"If you can't solve the problem please report the URL which failed to "
+"If you cannat solve the problem, please report the URL that failed to "
 "<email>info@bibletime.info</email>. Thank you very much!"
 msgstr ""
 "Als u het probleem niet kunt verhelpen meld dan de niet-werkende URL aan "
