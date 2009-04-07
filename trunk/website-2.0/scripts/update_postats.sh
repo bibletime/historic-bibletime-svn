@@ -8,7 +8,7 @@ function appendPoStats {
 	pofile=$1
 	lang=$2
 	target=$3
-	
+
 	perl -Iperl -I../perl postats/make_postats.pl $pofile $lang >> $target
 }
 
@@ -42,7 +42,7 @@ for pofile in $(ls $dir/*.po); do \
 	lang=$(basename $pofile | sed -e s/handbook\-// | sed -e s/\.po//); \
 	appendPoStats $pofile $lang $stats; \
 done;
-	
+
 echo "Updating program i18n statistics ..."
 D=$BIBLETIME_SVN_DIR/i18n/messages
 stats=website-generated/postats/messages_stats.txt
@@ -55,3 +55,8 @@ stats=website-generated/postats/messages_stats.txt
   grep -c -E '<translation type="unfinished">[^<]+</translation>' $f;); \
 done;) > $stats
 
+if test $OSTYPE = FreeBSD
+then
+  awk 'ORS=NR%2?";":"\n"' $stats | sed -e 's/ ;//' > x.x
+  mv x.x $stats
+fi
