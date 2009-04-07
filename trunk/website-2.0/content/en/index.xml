@@ -4,13 +4,16 @@
 ]>
 <webpage id="index">
   <config param="desc" value="The BibleTime Home Page" />
-  <config param="rcsdate" value="$Date: 2009-02-26 16:58:08 +0100 (Do, 26. Feb 2009) $" />
+  <config param="rcsdate" value="$LastChangedDate$" />
   <head>
     <title>BibleTime</title>
+
     <summary>Start page</summary>
+
     <keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
-    biblestudy, bible study,
-    God, Religion, Bible, devotional, crosswire, sword,
-    index</keywords>
+      biblestudy, bible study,
+      God, Religion, Bible, devotional, crosswire, sword,
+      index
+    </keywords>
   </head>
 </webpage>
