@@ -5,7 +5,7 @@
 ]>
 <webpage id="software">
   <config param="desc" value="Software page" />
-  <config param="rcsdate" value="$Date$" />
+  <config param="rcsdate" value="$$LastChangedDate$" />
   <head>
     <title>Software</title>
 
@@ -41,44 +41,58 @@
     <title>News about BibleTime</title>
 
     <formalpara>
+      <title>2009-03-25: 2.0alpha3 release</title>
+
+      <para>BibleTime 2.0alpha3 has been released. <ulink
+	url="http://devel.bibletime.info/wiki/Release_announcements">
+	More...</ulink>
+      </para>
+    </formalpara>
+
+    <formalpara>
       <title>2009-03-20: 2.0alpha2 release</title>
 
       <para>BibleTime 2.0alpha2 has been released. <ulink
-      url="http://devel.bibletime.info/wiki/Release_announcements">
-      More...</ulink></para>
+	url="http://devel.bibletime.info/wiki/Release_announcements">
+	More...</ulink>
+      </para>
     </formalpara>
 
     <formalpara>
       <title>2009-03-07: 2.0alpha1 release</title>
 
       <para>BibleTime 2.0alpha1 has been released. <ulink
-      url="http://devel.bibletime.info/wiki/Release_announcements">
-      More...</ulink></para>
+	url="http://devel.bibletime.info/wiki/Release_announcements">
+	More...</ulink>
+      </para>
     </formalpara>
 
     <formalpara>
       <title>2009-02-07: 1.7 release</title>
 
       <para>BibleTime 1.7 has been released. <ulink
-      url="http://devel.bibletime.info/wiki/Release_announcements">
-      More...</ulink></para>
+	url="http://devel.bibletime.info/wiki/Release_announcements">
+	More...</ulink>
+      </para>
     </formalpara>
 
     <formalpara>
       <title>2009-02-03: 1.7rc1 release</title>
 
       <para>BibleTime 1.7rc1 was just released. <ulink
-      url="http://devel.bibletime.info/wiki/Release_announcements">
-      More...</ulink></para>
+	url="http://devel.bibletime.info/wiki/Release_announcements">
+	More...</ulink>
+      </para>
     </formalpara>
 
     <formalpara>
       <title>2008-12-13: 1.7beta3 release</title>
 
       <para>BibleTime 1.7.beta3 was just released. The Sword
-      requirement was set back to 1.5.9. <ulink
-      url="http://devel.bibletime.info/wiki/Release_announcements">
-      More...</ulink></para>
+	requirement was set back to 1.5.9. <ulink
+	url="http://devel.bibletime.info/wiki/Release_announcements">
+	More...</ulink>
+      </para>
     </formalpara>
 
     <formalpara>
