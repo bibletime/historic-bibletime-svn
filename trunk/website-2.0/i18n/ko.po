@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-24 16:33-0400\n"
+"POT-Creation-Date: 2009-04-06 14:03-0400\n"
 "PO-Revision-Date: 2004-02-04 11:05+0545\n"
 "Last-Translator:  <s970501@ku.edu.np>\n"
 "Language-Team:  <ko@li.org>\n"
@@ -34,82 +34,50 @@ msgstr ""
 msgid "Help translate BibleTime into your language"
 msgstr "당신의 언어로 된 www.bibletime.info"
 
-#: content/en/translation.xml:24(para) content/en/translation.xml:92(title)
-#, fuzzy
-msgid "Translate the www.bibletime.info website."
-msgstr "<para>www.bibletime.info 웹사이트의 번역.</para>"
-
-#: content/en/translation.xml:27(para) content/en/translation.xml:103(title)
-#, fuzzy
-msgid "Translate the program's User Interface."
-msgstr "<para>프로그램의 사용자 인터페이스의 번역.</para>"
-
-#: content/en/translation.xml:30(para)
-#, fuzzy
-msgid "Translate the Bible Study Howto."
-msgstr "바이블스터디 하우투"
-
-#: content/en/translation.xml:33(para) content/en/translation.xml:126(title)
-#, fuzzy
-msgid "Translate the program's handbook."
-msgstr "<para>프로그램 핸드북의 번역.</para>"
-
-#: content/en/translation.xml:36(para) content/en/translation.xml:136(title)
-#, fuzzy
-msgid "Translate the biblical booknames."
-msgstr "<para>프로그램 핸드북의 번역.</para>"
-
-#: content/en/translation.xml:18(para)
+#: content/en/translation.xml:19(para)
 #, fuzzy
 msgid ""
 "This is a part of software development where the help of many individuals is "
 "needed. It is our desire to offer BibleTime to users in as many languages as "
-"possible. The following areas are open for your contributions: <placeholder-"
-"1/>"
+"possible. The following areas are open for your contributions:"
 msgstr ""
 "이것은 많은 분들의 참여가 필요한 소프트웨어 개발 작업의 일부입니다. 바이블타"
 "임이 가능한한 많은 언어로 지원되길 소망합니다. 다음의 영역들이 당신의 도움을 "
 "필요로 하고 있습니다:"
 
-#: content/en/translation.xml:47(para)
-msgid ""
-"Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
-"bibletime-translations\"> the translators' mailing list bibletime-"
-"translations at lists.sourceforge.net</ulink>. You will receive information "
-"relevant for translators and can communicate with the developers and the "
-"other translators. Use this list if you have questions or comments."
-msgstr ""
+#: content/en/translation.xml:27(para) content/en/translation.xml:101(title)
+#, fuzzy
+msgid "Translate the www.bibletime.info website."
+msgstr "<para>www.bibletime.info 웹사이트의 번역.</para>"
 
-#: content/en/translation.xml:56(para)
-msgid ""
-"Download a template you want to translate or an existing translation you "
-"want to enhance."
-msgstr ""
+#: content/en/translation.xml:30(para) content/en/translation.xml:115(title)
+#, fuzzy
+msgid "Translate the program's User Interface."
+msgstr "<para>프로그램의 사용자 인터페이스의 번역.</para>"
 
-#: content/en/translation.xml:60(para)
-msgid ""
-"Use one of the recommended programs mentioned below or some other program "
-"and edit the translation."
-msgstr ""
+#: content/en/translation.xml:33(para)
+#, fuzzy
+msgid "Translate the Bible Study Howto."
+msgstr "바이블스터디 하우투"
 
-#: content/en/translation.xml:64(para)
-msgid "Send the translation to the translators' mailing list."
-msgstr ""
+#: content/en/translation.xml:36(para) content/en/translation.xml:144(title)
+#, fuzzy
+msgid "Translate the program's handbook."
+msgstr "<para>프로그램 핸드북의 번역.</para>"
 
-#: content/en/translation.xml:68(para)
-msgid ""
-"Developers will integrate your work as soon as possible. The statistics will "
-"be updated after that."
-msgstr ""
+#: content/en/translation.xml:39(para) content/en/translation.xml:157(title)
+#, fuzzy
+msgid "Translate the biblical booknames."
+msgstr "<para>프로그램 핸드북의 번역.</para>"
 
-#: content/en/translation.xml:39(para)
+#: content/en/translation.xml:43(para)
 #, fuzzy
 msgid ""
 "On this page you can find statistics about the completeness of existing "
 "translations for each of these areas, as well as links to translation "
 "templates that you can use to submit new translations which do not yet "
 "exist. If a translation into your language does not yet exist or you want to "
-"work on an existing translation, follow these steps: <placeholder-1/>"
+"work on an existing translation, follow these steps:"
 msgstr ""
 "이 페이지에서 각 영역의 기존 번역작업완료도에 대한 통계를 보실 수 있으며, 새 "
 "번역작업을 위한 번역 자료도 확인하실 수 있습니다. 당신의 언어로의 번역이 존재"
@@ -118,7 +86,38 @@ msgstr ""
 "면, 기존의 파일을 다운로드하셔서 업데이트 하신다음 보내주십시오. 두가지 경우 "
 "모두 빠른시간안에 당신의 번역물을 적용하겠습니다."
 
-#: content/en/translation.xml:72(para)
+#: content/en/translation.xml:53(para)
+msgid ""
+"Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
+"bibletime-translations\"> the translators' mailing list bibletime-"
+"translations at lists.sourceforge.net</ulink>. You will receive information "
+"relevant for translators and can communicate with the developers and the "
+"other translators. Use this list if you have questions or comments."
+msgstr ""
+
+#: content/en/translation.xml:62(para)
+msgid ""
+"Download a template you want to translate or an existing translation you "
+"want to enhance."
+msgstr ""
+
+#: content/en/translation.xml:66(para)
+msgid ""
+"Use one of the recommended programs mentioned below or some other program "
+"and edit the translation."
+msgstr ""
+
+#: content/en/translation.xml:70(para)
+msgid "Send the translation to the translators' mailing list."
+msgstr ""
+
+#: content/en/translation.xml:74(para)
+msgid ""
+"Developers will integrate your work as soon as possible. The statistics will "
+"be updated after that."
+msgstr ""
+
+#: content/en/translation.xml:78(para)
 msgid ""
 "For editing .po files we recommend that you use the excellent and mature "
 "program <ulink url=\"http://i18n.kde.org/tools/kbabel/\">KBabel</ulink> "
@@ -132,14 +131,14 @@ msgid ""
 "interface which is in .ts format."
 msgstr ""
 
-#: content/en/translation.xml:86(para)
+#: content/en/translation.xml:92(para)
 msgid ""
 "A list of the language abbreviations is available at <ulink url=\"http://www."
 "loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-"
 "2/php/code_list.php</ulink>."
 msgstr ""
 
-#: content/en/translation.xml:93(para)
+#: content/en/translation.xml:102(para)
 #, fuzzy
 msgid ""
 "If a translation of the website to your language does not yet exist, you can "
@@ -154,7 +153,7 @@ msgstr ""
 "니다. 기존의 번역을 업데이트하시려면, 아래의 테이블에서 필요한 파일을 다운로"
 "드 하십시오."
 
-#: content/en/translation.xml:104(para)
+#: content/en/translation.xml:116(para)
 #, fuzzy
 msgid ""
 "If a translation of the User Interface to your language does not yet exist, "
@@ -170,19 +169,19 @@ msgstr ""
 "번역하십시오. 기존의 번역을 업데이트하시려면, 아래 테이블에서 필요한 파일을 "
 "다운로드하십시오."
 
-#: content/en/translation.xml:110(para)
+#: content/en/translation.xml:122(para)
 msgid ""
 "Starting at 1.7, we have moved translation format to Qt's .ts file format "
 "from the previous .po format. Due to the changes, the translations need a "
 "thorough rewrite."
 msgstr ""
 
-#: content/en/translation.xml:116(title)
+#: content/en/translation.xml:131(title)
 #, fuzzy
 msgid "Translate the Bible study howto."
 msgstr "바이블스터디 하우투"
 
-#: content/en/translation.xml:117(para)
+#: content/en/translation.xml:132(para)
 #, fuzzy
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
@@ -198,7 +197,7 @@ msgstr ""
 "있습니다. 기존의 번역을 업데이트하고 싶으시면, 아래의 테이블에서 필요한 파일"
 "을 다운로드하실 수 있습니다."
 
-#: content/en/translation.xml:127(para)
+#: content/en/translation.xml:145(para)
 #, fuzzy
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
@@ -214,7 +213,7 @@ msgstr ""
 "있습니다. 기존의 번역을 업데이트하고 싶으시면, 아래의 테이블에서 필요한 파일"
 "을 다운로드하실 수 있습니다."
 
-#: content/en/translation.xml:137(para)
+#: content/en/translation.xml:158(para)
 msgid ""
 "Translated Bible book names come from the Sword project. There are no good "
 "instructions at the moment but you can find some information and examples by "
@@ -2644,7 +2643,7 @@ msgid ""
 "and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> "
 "here is an English one</ulink> that has some information about the main "
 "regions worldwide. These pages are from Open Doors, an independent "
-"organization trat tries to help persecuted Christians."
+"organization that tries to help persecuted Christians."
 msgstr ""
 
 #: content/en/devotional.xml:27(para)

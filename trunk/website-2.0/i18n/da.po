@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_da\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-24 16:33-0400\n"
+"POT-Creation-Date: 2009-04-06 14:03-0400\n"
 "PO-Revision-Date: 2009-02-13 17:58+0100\n"
 "Last-Translator: Henrik Sonesson <Hsonesson@gmail.com>\n"
 "Language-Team: Danish <kde-i18n-doc@lists.kde.org>\n"
@@ -36,43 +36,57 @@ msgstr ""
 msgid "Help translate BibleTime into your language"
 msgstr "Hjælp med at oversætte BibleTime til dit sprog"
 
-#: content/en/translation.xml:24(para) content/en/translation.xml:92(title)
-#, fuzzy
-msgid "Translate the www.bibletime.info website."
-msgstr "<para>Oversæt www.bibletime.info hjemmesiden.</para>"
-
-#: content/en/translation.xml:27(para) content/en/translation.xml:103(title)
-#, fuzzy
-msgid "Translate the program's User Interface."
-msgstr "<para>Oversæt programmets brugerflade.</para>"
-
-#: content/en/translation.xml:30(para)
-msgid "Translate the Bible Study Howto."
-msgstr "Oversæt bibelstudie vejledningen"
-
-#: content/en/translation.xml:33(para) content/en/translation.xml:126(title)
-#, fuzzy
-msgid "Translate the program's handbook."
-msgstr "<para>Oversæt programmets håndbog.</para>"
-
-#: content/en/translation.xml:36(para) content/en/translation.xml:136(title)
-#, fuzzy
-msgid "Translate the biblical booknames."
-msgstr "<para>Oversæt de Bibelske bøgers navne.</para>"
-
-#: content/en/translation.xml:18(para)
+#: content/en/translation.xml:19(para)
 #, fuzzy
 msgid ""
 "This is a part of software development where the help of many individuals is "
 "needed. It is our desire to offer BibleTime to users in as many languages as "
-"possible. The following areas are open for your contributions: <placeholder-"
-"1/>"
+"possible. The following areas are open for your contributions:"
 msgstr ""
 "Det her er en del af software udvikling, hvor der er brug for mange "
 "frivillige. Det er vores ønske at kunne tilbyde BibleTime til brugere i så "
 "mange sprog som muligt. De følgende områder er åbne for dine bidragelser:"
 
-#: content/en/translation.xml:47(para)
+#: content/en/translation.xml:27(para) content/en/translation.xml:101(title)
+#, fuzzy
+msgid "Translate the www.bibletime.info website."
+msgstr "<para>Oversæt www.bibletime.info hjemmesiden.</para>"
+
+#: content/en/translation.xml:30(para) content/en/translation.xml:115(title)
+#, fuzzy
+msgid "Translate the program's User Interface."
+msgstr "<para>Oversæt programmets brugerflade.</para>"
+
+#: content/en/translation.xml:33(para)
+msgid "Translate the Bible Study Howto."
+msgstr "Oversæt bibelstudie vejledningen"
+
+#: content/en/translation.xml:36(para) content/en/translation.xml:144(title)
+#, fuzzy
+msgid "Translate the program's handbook."
+msgstr "<para>Oversæt programmets håndbog.</para>"
+
+#: content/en/translation.xml:39(para) content/en/translation.xml:157(title)
+#, fuzzy
+msgid "Translate the biblical booknames."
+msgstr "<para>Oversæt de Bibelske bøgers navne.</para>"
+
+#: content/en/translation.xml:43(para)
+#, fuzzy
+msgid ""
+"On this page you can find statistics about the completeness of existing "
+"translations for each of these areas, as well as links to translation "
+"templates that you can use to submit new translations which do not yet "
+"exist. If a translation into your language does not yet exist or you want to "
+"work on an existing translation, follow these steps:"
+msgstr ""
+"På denne side kan du finde statistikker om færdigheden af de eksisterende "
+"oversættelser for hvert af disse områder, så vel som links til oversættelses-"
+"skabeloner, som du kan bruge til at lave nye oversættelser der endnu ikke "
+"eksisterer. Hvis en oversættelse til dit sprog endnu ikke eksisterer, eller "
+"at du vil arbejde på en eksisterende oversættelse, så følg disse trin:"
+
+#: content/en/translation.xml:53(para)
 msgid ""
 "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> the translators' mailing list bibletime-"
@@ -86,7 +100,7 @@ msgstr ""
 "oversættere, og kan kommunikere med udviklere og andre oversættere. Brug "
 "denne liste hvis du har spørgsmål eller kommentarer."
 
-#: content/en/translation.xml:56(para)
+#: content/en/translation.xml:62(para)
 msgid ""
 "Download a template you want to translate or an existing translation you "
 "want to enhance."
@@ -94,7 +108,7 @@ msgstr ""
 "Hent en skabelon du gerne vil oversætte, eller en eksisterende oversættelse "
 "du vil forbedre."
 
-#: content/en/translation.xml:60(para)
+#: content/en/translation.xml:66(para)
 msgid ""
 "Use one of the recommended programs mentioned below or some other program "
 "and edit the translation."
@@ -102,11 +116,11 @@ msgstr ""
 "Brug et af de anbefalede programmer, der er nævnt herunder, eller et andet "
 "program, til at redigere oversættelserne."
 
-#: content/en/translation.xml:64(para)
+#: content/en/translation.xml:70(para)
 msgid "Send the translation to the translators' mailing list."
 msgstr "Send oversættelsen til oversætternes postliste."
 
-#: content/en/translation.xml:68(para)
+#: content/en/translation.xml:74(para)
 msgid ""
 "Developers will integrate your work as soon as possible. The statistics will "
 "be updated after that."
@@ -114,22 +128,7 @@ msgstr ""
 "Udviklere vil integrere dit arbejde så snart som muligt. Derefter vil "
 "statistikkerne blive opdateret."
 
-#: content/en/translation.xml:39(para)
-#, fuzzy
-msgid ""
-"On this page you can find statistics about the completeness of existing "
-"translations for each of these areas, as well as links to translation "
-"templates that you can use to submit new translations which do not yet "
-"exist. If a translation into your language does not yet exist or you want to "
-"work on an existing translation, follow these steps: <placeholder-1/>"
-msgstr ""
-"På denne side kan du finde statistikker om færdigheden af de eksisterende "
-"oversættelser for hvert af disse områder, så vel som links til oversættelses-"
-"skabeloner, som du kan bruge til at lave nye oversættelser der endnu ikke "
-"eksisterer. Hvis en oversættelse til dit sprog endnu ikke eksisterer, eller "
-"at du vil arbejde på en eksisterende oversættelse, så følg disse trin:"
-
-#: content/en/translation.xml:72(para)
+#: content/en/translation.xml:78(para)
 #, fuzzy
 msgid ""
 "For editing .po files we recommend that you use the excellent and mature "
@@ -153,7 +152,7 @@ msgstr ""
 "kryds-platform Qt udviklingspakken) er brugbar til at oversætte brugerflade "
 "som er i .ts formatet."
 
-#: content/en/translation.xml:86(para)
+#: content/en/translation.xml:92(para)
 #, fuzzy
 msgid ""
 "A list of the language abbreviations is available at <ulink url=\"http://www."
@@ -164,7 +163,7 @@ msgstr ""
 "url=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\"> www.w3.org/WAI/ER/IG/ert/"
 "iso639.htm</ulink>."
 
-#: content/en/translation.xml:93(para)
+#: content/en/translation.xml:102(para)
 msgid ""
 "If a translation of the website to your language does not yet exist, you can "
 "download and translate the <ulink url=\"/po/bibletime_website_template.pot"
@@ -180,7 +179,7 @@ msgstr ""
 "downloade den tilsvarende fil. Vi tilføjer normalt de oversatte sider og "
 "flaget i toppen når oversættelsen er omkring 80% færdig."
 
-#: content/en/translation.xml:104(para)
+#: content/en/translation.xml:116(para)
 msgid ""
 "If a translation of the User Interface to your language does not yet exist, "
 "you can download and translate the <ulink url=\"http://bibletime.svn."
@@ -196,7 +195,7 @@ msgstr ""
 "eksisterende oversættelse, så brug linksne i tabellen herunder til at "
 "downloade den tilsvarende fil."
 
-#: content/en/translation.xml:110(para)
+#: content/en/translation.xml:122(para)
 #, fuzzy
 msgid ""
 "Starting at 1.7, we have moved translation format to Qt's .ts file format "
@@ -207,11 +206,11 @@ msgstr ""
 "Qts .ts fil format fra 1.6 seriens .po format. På grund af ændringerne har "
 "oversættelserne brug for en grundig genskrivning.)"
 
-#: content/en/translation.xml:116(title)
+#: content/en/translation.xml:131(title)
 msgid "Translate the Bible study howto."
 msgstr "Oversæt bibelstudie vejledningen"
 
-#: content/en/translation.xml:117(para)
+#: content/en/translation.xml:132(para)
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
 "exist, you can download and translate the <ulink url=\"http://bibletime.svn."
@@ -227,7 +226,7 @@ msgstr ""
 "opdatere en eksisterende oversættelse, så brug linksne i tabellen herunder "
 "til at downloade den tilsvarende fil."
 
-#: content/en/translation.xml:127(para)
+#: content/en/translation.xml:145(para)
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
 "can download and translate the <ulink url=\"http://bibletime.svn.sourceforge."
@@ -243,7 +242,7 @@ msgstr ""
 "eksisterende oversættelse, så brug linksne i tabellen herunder til at "
 "downloade den tilsvarende fil."
 
-#: content/en/translation.xml:137(para)
+#: content/en/translation.xml:158(para)
 msgid ""
 "Translated Bible book names come from the Sword project. There are no good "
 "instructions at the moment but you can find some information and examples by "
@@ -2794,6 +2793,7 @@ msgid "Did you know..."
 msgstr "Vidste du at..."
 
 #: content/en/devotional.xml:16(para)
+#, fuzzy
 msgid ""
 "Did you know that today in 2009, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
@@ -2802,7 +2802,7 @@ msgid ""
 "and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> "
 "here is an English one</ulink> that has some information about the main "
 "regions worldwide. These pages are from Open Doors, an independent "
-"organization trat tries to help persecuted Christians."
+"organization that tries to help persecuted Christians."
 msgstr ""
 "Vidste du at i dag 2009, bliver mere end 200.000.000 kristne dårligt "
 "behandlet, forfulgt og endda dræbt på grund af deres tro? <ulink url="

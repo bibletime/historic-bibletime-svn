@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-24 16:33-0400\n"
+"POT-Creation-Date: 2009-04-06 14:03-0400\n"
 "PO-Revision-Date: 2009-02-08 00:52-0300\n"
 "Last-Translator: Rafael Fagundes Rosa Campos <rafaelfrc@yahoo.com.br>\n"
 "Language-Team: Português do Brasil <pt@li.org>\n"
@@ -38,45 +38,63 @@ msgstr ""
 msgid "Help translate BibleTime into your language"
 msgstr "Ajude a traduzir BibleTime no seu idioma"
 
-#: content/en/translation.xml:24(para) content/en/translation.xml:92(title)
-#, fuzzy
-msgid "Translate the www.bibletime.info website."
-msgstr "<para>Traduzir o site do www.bibletime.info</para>"
-
-#: content/en/translation.xml:27(para) content/en/translation.xml:103(title)
-#, fuzzy
-msgid "Translate the program's User Interface."
-msgstr "<para>Traduzir a inteface do programa</para>"
-
-#: content/en/translation.xml:30(para)
-#, fuzzy
-msgid "Translate the Bible Study Howto."
-msgstr "Estudo Bíblico HowTo"
-
-#: content/en/translation.xml:33(para) content/en/translation.xml:126(title)
-#, fuzzy
-msgid "Translate the program's handbook."
-msgstr "<para>Traduzir o Livro de Mão do programa</para>"
-
-#: content/en/translation.xml:36(para) content/en/translation.xml:136(title)
-#, fuzzy
-msgid "Translate the biblical booknames."
-msgstr "<para>Traduzir o Livro de Mão do programa</para>"
-
-#: content/en/translation.xml:18(para)
+#: content/en/translation.xml:19(para)
 #, fuzzy
 msgid ""
 "This is a part of software development where the help of many individuals is "
 "needed. It is our desire to offer BibleTime to users in as many languages as "
-"possible. The following areas are open for your contributions: <placeholder-"
-"1/>"
+"possible. The following areas are open for your contributions:"
 msgstr ""
 "Esse é uma parte do desenvolvimento do software onde é necessária a ajuda de "
 "várias pessoas. Nós desejamos oferecer o BibleTime para os usuários na maior "
 "quantidade de idiomas possíveis. As seguintes áreas estào abertas para suas "
 "contribuições:"
 
-#: content/en/translation.xml:47(para)
+#: content/en/translation.xml:27(para) content/en/translation.xml:101(title)
+#, fuzzy
+msgid "Translate the www.bibletime.info website."
+msgstr "<para>Traduzir o site do www.bibletime.info</para>"
+
+#: content/en/translation.xml:30(para) content/en/translation.xml:115(title)
+#, fuzzy
+msgid "Translate the program's User Interface."
+msgstr "<para>Traduzir a inteface do programa</para>"
+
+#: content/en/translation.xml:33(para)
+#, fuzzy
+msgid "Translate the Bible Study Howto."
+msgstr "Estudo Bíblico HowTo"
+
+#: content/en/translation.xml:36(para) content/en/translation.xml:144(title)
+#, fuzzy
+msgid "Translate the program's handbook."
+msgstr "<para>Traduzir o Livro de Mão do programa</para>"
+
+#: content/en/translation.xml:39(para) content/en/translation.xml:157(title)
+#, fuzzy
+msgid "Translate the biblical booknames."
+msgstr "<para>Traduzir o Livro de Mão do programa</para>"
+
+#: content/en/translation.xml:43(para)
+#, fuzzy
+msgid ""
+"On this page you can find statistics about the completeness of existing "
+"translations for each of these areas, as well as links to translation "
+"templates that you can use to submit new translations which do not yet "
+"exist. If a translation into your language does not yet exist or you want to "
+"work on an existing translation, follow these steps:"
+msgstr ""
+"Nessa página você pode encontrar estatísticas de quão completa está cada uma "
+"das traduções existentes para essas áreas, bem como links para os modelos de "
+"tradução que você pode usar para sumbeter novas traduções que ainda não "
+"existem. Se uma tradução no seu idioma ainda não existe, simplesmente faça "
+"download do templete, traduza-o e envie-o para <email>info@bibletime.info</"
+"email>. Se você não está satisfeito com o estado da tradução na sua "
+"linguagem, você pode fazer download do arquivo correspondente, atualizar a "
+"tradução e enviar-nos. Em ambos os casos, nós iremos integrar o seu trabalho "
+"assim que possível."
+
+#: content/en/translation.xml:53(para)
 msgid ""
 "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> the translators' mailing list bibletime-"
@@ -90,7 +108,7 @@ msgstr ""
 "tradutores e pode se comunicar com desenvolvedores e outros tradutores. Use "
 "esta lista se vopcê tem questões ou comentários"
 
-#: content/en/translation.xml:56(para)
+#: content/en/translation.xml:62(para)
 msgid ""
 "Download a template you want to translate or an existing translation you "
 "want to enhance."
@@ -98,7 +116,7 @@ msgstr ""
 "Baixe o modelo para você traduzir ou uma tradução existente para você "
 "melhorar."
 
-#: content/en/translation.xml:60(para)
+#: content/en/translation.xml:66(para)
 msgid ""
 "Use one of the recommended programs mentioned below or some other program "
 "and edit the translation."
@@ -106,11 +124,11 @@ msgstr ""
 "Use um dos programas mencionados abaixo ou algum outro programa e edite a "
 "tradução."
 
-#: content/en/translation.xml:64(para)
+#: content/en/translation.xml:70(para)
 msgid "Send the translation to the translators' mailing list."
 msgstr "Envie sua tradução para a lista de e-mails dos tradutores."
 
-#: content/en/translation.xml:68(para)
+#: content/en/translation.xml:74(para)
 msgid ""
 "Developers will integrate your work as soon as possible. The statistics will "
 "be updated after that."
@@ -118,26 +136,7 @@ msgstr ""
 "Desenvolvedores vão integrar seu trabalho logo que for possível. As "
 "estatísticas serão atualizadas após isso."
 
-#: content/en/translation.xml:39(para)
-#, fuzzy
-msgid ""
-"On this page you can find statistics about the completeness of existing "
-"translations for each of these areas, as well as links to translation "
-"templates that you can use to submit new translations which do not yet "
-"exist. If a translation into your language does not yet exist or you want to "
-"work on an existing translation, follow these steps: <placeholder-1/>"
-msgstr ""
-"Nessa página você pode encontrar estatísticas de quão completa está cada uma "
-"das traduções existentes para essas áreas, bem como links para os modelos de "
-"tradução que você pode usar para sumbeter novas traduções que ainda não "
-"existem. Se uma tradução no seu idioma ainda não existe, simplesmente faça "
-"download do templete, traduza-o e envie-o para <email>info@bibletime.info</"
-"email>. Se você não está satisfeito com o estado da tradução na sua "
-"linguagem, você pode fazer download do arquivo correspondente, atualizar a "
-"tradução e enviar-nos. Em ambos os casos, nós iremos integrar o seu trabalho "
-"assim que possível."
-
-#: content/en/translation.xml:72(para)
+#: content/en/translation.xml:78(para)
 #, fuzzy
 msgid ""
 "For editing .po files we recommend that you use the excellent and mature "
@@ -160,7 +159,7 @@ msgstr ""
 "Qt Linguist 4.x</ulink>(parte da cross-platform pacote de desenvolvimento "
 "Qt ) é adequada para traduzir a interface com o usuário em com o formato .ts."
 
-#: content/en/translation.xml:86(para)
+#: content/en/translation.xml:92(para)
 #, fuzzy
 msgid ""
 "A list of the language abbreviations is available at <ulink url=\"http://www."
@@ -171,7 +170,7 @@ msgstr ""
 "\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm\">www.w3.org/WAI/ER/IG/ert/"
 "iso639.htm</ulink>."
 
-#: content/en/translation.xml:93(para)
+#: content/en/translation.xml:102(para)
 #, fuzzy
 msgid ""
 "If a translation of the website to your language does not yet exist, you can "
@@ -186,7 +185,7 @@ msgstr ""
 "Página Web</ulink>. Se você quiser atualizar uma tradução existente, use os "
 "links na tabela abaixo para baixar o arquivo correspondente."
 
-#: content/en/translation.xml:104(para)
+#: content/en/translation.xml:116(para)
 #, fuzzy
 msgid ""
 "If a translation of the User Interface to your language does not yet exist, "
@@ -203,7 +202,7 @@ msgstr ""
 "tradução existente, use os links na tabela abaixo para baixar o arquivo "
 "correspondente."
 
-#: content/en/translation.xml:110(para)
+#: content/en/translation.xml:122(para)
 #, fuzzy
 msgid ""
 "Starting at 1.7, we have moved translation format to Qt's .ts file format "
@@ -214,12 +213,12 @@ msgstr ""
 "formato de arquivo .ts do Qt da série 1.6, que usa o formato .po. Devido a "
 "mudanças nas traduções há a necessidade de se reescrever."
 
-#: content/en/translation.xml:116(title)
+#: content/en/translation.xml:131(title)
 #, fuzzy
 msgid "Translate the Bible study howto."
 msgstr "Estudo Bíblico HowTo"
 
-#: content/en/translation.xml:117(para)
+#: content/en/translation.xml:132(para)
 #, fuzzy
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
@@ -236,7 +235,7 @@ msgstr ""
 "existente, use os links na tabela abaixo para baixar o arquivo "
 "correspondente."
 
-#: content/en/translation.xml:127(para)
+#: content/en/translation.xml:145(para)
 #, fuzzy
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
@@ -253,7 +252,7 @@ msgstr ""
 "existente, use os links na tabela abaixo para baixar o arquivo "
 "correspondente."
 
-#: content/en/translation.xml:137(para)
+#: content/en/translation.xml:158(para)
 msgid ""
 "Translated Bible book names come from the Sword project. There are no good "
 "instructions at the moment but you can find some information and examples by "
@@ -2839,6 +2838,7 @@ msgid "Did you know..."
 msgstr "Você sabia..."
 
 #: content/en/devotional.xml:16(para)
+#, fuzzy
 msgid ""
 "Did you know that today in 2009, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
@@ -2847,7 +2847,7 @@ msgid ""
 "and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> "
 "here is an English one</ulink> that has some information about the main "
 "regions worldwide. These pages are from Open Doors, an independent "
-"organization trat tries to help persecuted Christians."
+"organization that tries to help persecuted Christians."
 msgstr ""
 "Você sabia que hoje, 2006, mais de 200.000.000 Cristãos estão em "
 "disvantagem, perseguidos e ate mortos por causa da sua fé? <ulink url="
