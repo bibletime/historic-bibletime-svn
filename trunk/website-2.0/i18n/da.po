@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_da\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:10-0400\n"
+"POT-Creation-Date: 2009-04-11 00:18-0400\n"
 "PO-Revision-Date: 2009-02-13 17:58+0100\n"
 "Last-Translator: Henrik Sonesson <Hsonesson@gmail.com>\n"
 "Language-Team: Danish <kde-i18n-doc@lists.kde.org>\n"
@@ -2911,27 +2911,27 @@ msgstr ""
 "\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/"
 "pipermail/sword-devel</ulink>."
 
-#: content/en/development_join.xml:10(title)
+#: content/en/development_join.xml:11(title)
 msgid "Join us"
 msgstr "Slut dig til os"
 
-#: content/en/development_join.xml:11(summary)
+#: content/en/development_join.xml:13(summary)
 #: content/en/development.xml:11(summary) content/en/development.xml:18(title)
 msgid "BibleTime's development"
 msgstr "BibelTimes udvikling"
 
-#: content/en/development_join.xml:12(keywords)
+#: content/en/development_join.xml:15(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, development team, "
 "translators, join"
 msgstr ""
 
-#: content/en/development_join.xml:18(title)
+#: content/en/development_join.xml:23(title)
 msgid "Join the BibleTime team"
 msgstr "Slut dig til BibleTime holdet"
 
-#: content/en/development_join.xml:19(para)
+#: content/en/development_join.xml:25(para)
 msgid ""
 "We are thankful to everybody who helps us improve the BibleTime software, "
 "it's documentation and it's translations."
@@ -2939,18 +2939,19 @@ msgstr ""
 "Vi er taknemmelige for alle som hjælper os med at forbedre BibelTimes "
 "software, dens dokumentation og dens oversættelser."
 
-#: content/en/development_join.xml:23(title)
+#: content/en/development_join.xml:31(title)
 msgid "The basic steps..."
 msgstr "De grundlæggende skridt..."
 
-#: content/en/development_join.xml:24(para)
+#: content/en/development_join.xml:33(para)
 msgid ""
 "The following are necessary for each type of team member. Please follow them!"
 msgstr ""
 "Det følgende er nødvendigt for en hver type af holdmedlem. Vær venlig at "
 "følge dem!"
 
-#: content/en/development_join.xml:29(para)
+#: content/en/development_join.xml:39(para)
+#, fuzzy
 msgid ""
 "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</"
 "ulink>, please sign up for one. It is free. We need your username to add you "
@@ -2961,7 +2962,8 @@ msgstr ""
 "dit brugernavn for at tilføje dig til holdmedlems listen, så de kan give dig "
 "opgaver, osv."
 
-#: content/en/development_join.xml:36(para)
+#: content/en/development_join.xml:47(para)
+#, fuzzy
 msgid ""
 "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
 "devel\"> BibleTime development mailing list</ulink>. All developers read "
@@ -2976,7 +2978,7 @@ msgstr ""
 "url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\"> "
 "udgivelse af meddelelser</ulink> om den igangværende udviklings process."
 
-#: content/en/development_join.xml:46(para)
+#: content/en/development_join.xml:58(para)
 msgid ""
 "Get the development version of BibleTime and install it. If you need help "
 "with this ask on the mailing list or look into the documentation section."
@@ -2985,11 +2987,11 @@ msgstr ""
 "brug for hjælp med det, så spørg over postlisten eller kig i dokumentations "
 "sektionen."
 
-#: content/en/development_join.xml:54(title)
+#: content/en/development_join.xml:66(title)
 msgid "The next steps for software developers..."
 msgstr "De næste skridt for software udviklere..."
 
-#: content/en/development_join.xml:58(para)
+#: content/en/development_join.xml:70(para)
 #, fuzzy
 msgid ""
 "Work through some of the Qt 4 tutorials to get used to programming with the "
@@ -2998,7 +3000,7 @@ msgstr ""
 "Arbejd dig gennem nogle af Qt 3/4 og KDE 3/4 øvelserne for at blive vant til "
 "at programmere med de ting BibleTime bruger."
 
-#: content/en/development_join.xml:63(para)
+#: content/en/development_join.xml:76(para)
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
 "Do not forget to add how difficult it should be."
@@ -3006,11 +3008,11 @@ msgstr ""
 "Hvis du ikke ved hvad du skal gøre, så spørg nogle over postlisten om nogle "
 "opgaver. Glem ikke at tilføje hvor svært det må være."
 
-#: content/en/development_join.xml:71(title)
+#: content/en/development_join.xml:84(title)
 msgid "The next steps for documentation authors..."
 msgstr "De næste skridt for dokumentations forfattere..."
 
-#: content/en/development_join.xml:75(para)
+#: content/en/development_join.xml:88(para)
 #, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
@@ -3019,7 +3021,7 @@ msgstr ""
 "Læs den eksisterende engelske dokumentation. Den ligger i mappen docs/ i "
 "bibletime cvs mappen."
 
-#: content/en/development_join.xml:80(para)
+#: content/en/development_join.xml:94(para)
 msgid ""
 "The documentation is stored in docbook format in the unicode subdirectories "
 "of each documentation part (handbook, Bible study howto, installation, "
@@ -3033,11 +3035,11 @@ msgstr ""
 "fordi de er genereret af docbook-filer. Oversættelses-filen er også "
 "genereret af docbook data."
 
-#: content/en/development_join.xml:91(title)
+#: content/en/development_join.xml:105(title)
 msgid "The next steps for translators..."
 msgstr "De næste skridt for oversættere..."
 
-#: content/en/development_join.xml:95(para)
+#: content/en/development_join.xml:109(para)
 #, fuzzy
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
@@ -3046,7 +3048,7 @@ msgstr ""
 "Ta' et kig på internationaliserings siderne fra KDE projektet. Disse sider "
 "ligger på <ulink url=\"http://i18n.kde.org/\"> i18n.kde.org</ulink>."
 
-#: content/en/development_join.xml:100(para)
+#: content/en/development_join.xml:115(para)
 #, fuzzy
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
@@ -3057,7 +3059,7 @@ msgstr ""
 "hvis det ikke allerede er installeret på dit system. Det vil hjælpe dig "
 "meget med oversættelses processen."
 
-#: content/en/development_join.xml:106(para)
+#: content/en/development_join.xml:122(para)
 msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
 "BibleTime</olink>."
@@ -3065,7 +3067,7 @@ msgstr ""
 "Læs siden om <olink targetdocent=\"translation\">oversættelse af BibleTime</"
 "olink>."
 
-#: content/en/development_join.xml:111(para)
+#: content/en/development_join.xml:127(para)
 msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-translations mailing list</ulink>."
@@ -3073,11 +3075,12 @@ msgstr ""
 "Tilmeld dig  <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-oversættelses postlisten</ulink>."
 
-#: content/en/development_join.xml:118(title)
+#: content/en/development_join.xml:134(title)
 msgid "For everybody, regardless of participation level..."
 msgstr "For alle, uanset deltagelsesniveau..."
 
-#: content/en/development_join.xml:123(para)
+#: content/en/development_join.xml:138(para)
+#, fuzzy
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room."
@@ -3085,7 +3088,8 @@ msgstr ""
 "Slut dig til os i IRC! Vi kan findes på <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, i #bibletime rummet."
 
-#: content/en/development_join.xml:128(para)
+#: content/en/development_join.xml:144(para)
+#, fuzzy
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
@@ -3266,6 +3270,14 @@ msgstr ""
 #, fuzzy
 msgid "translator-credits"
 msgstr "Oversættelser"
+
+#, fuzzy
+#~ msgid "translating BibleTime"
+#~ msgstr "Installation af BibleTime"
+
+#, fuzzy
+#~ msgid "Bibletime-translations mailing list"
+#~ msgstr "Oversættelserne mangler!"
 
 #~ msgid "Screenshots of BibleTime 1.5"
 #~ msgstr "Skærmbilleder fra BibleTime 1.5"

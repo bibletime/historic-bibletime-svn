@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:10-0400\n"
+"POT-Creation-Date: 2009-04-11 00:18-0400\n"
 "PO-Revision-Date: 2009-02-08 00:52-0300\n"
 "Last-Translator: Rafael Fagundes Rosa Campos <rafaelfrc@yahoo.com.br>\n"
 "Language-Team: Português do Brasil <pt@li.org>\n"
@@ -2951,27 +2951,27 @@ msgstr ""
 "<ulink url=\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire."
 "org/pipermail/sword-devel</ulink>."
 
-#: content/en/development_join.xml:10(title)
+#: content/en/development_join.xml:11(title)
 msgid "Join us"
 msgstr "Junte-se a nós"
 
-#: content/en/development_join.xml:11(summary)
+#: content/en/development_join.xml:13(summary)
 #: content/en/development.xml:11(summary) content/en/development.xml:18(title)
 msgid "BibleTime's development"
 msgstr "Desenvolvimento do BibleTime"
 
-#: content/en/development_join.xml:12(keywords)
+#: content/en/development_join.xml:15(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, development team, "
 "translators, join"
 msgstr ""
 
-#: content/en/development_join.xml:18(title)
+#: content/en/development_join.xml:23(title)
 msgid "Join the BibleTime team"
 msgstr "Junte-se ao time do BibleTime"
 
-#: content/en/development_join.xml:19(para)
+#: content/en/development_join.xml:25(para)
 #, fuzzy
 msgid ""
 "We are thankful to everybody who helps us improve the BibleTime software, "
@@ -2980,18 +2980,18 @@ msgstr ""
 "Nõs estamos gratos por todos que nos ajudam a melhorar o software BibleTime, "
 "sua documentação e sua tradução."
 
-#: content/en/development_join.xml:23(title)
+#: content/en/development_join.xml:31(title)
 #, fuzzy
 msgid "The basic steps..."
 msgstr "Os passos básicos.."
 
-#: content/en/development_join.xml:24(para)
+#: content/en/development_join.xml:33(para)
 msgid ""
 "The following are necessary for each type of team member. Please follow them!"
 msgstr ""
 "O seguinte é necessário para cada tipo de membro do time. Por favor siga-os!"
 
-#: content/en/development_join.xml:29(para)
+#: content/en/development_join.xml:39(para)
 #, fuzzy
 msgid ""
 "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</"
@@ -3002,7 +3002,8 @@ msgstr ""
 "grátis. Nós precisamos de seu nome de usuário para adicionar você aos "
 "membros do time, para designar tarefas, etc."
 
-#: content/en/development_join.xml:36(para)
+#: content/en/development_join.xml:47(para)
+#, fuzzy
 msgid ""
 "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
 "devel\"> BibleTime development mailing list</ulink>. All developers read "
@@ -3018,7 +3019,7 @@ msgstr ""
 "lists.sourceforge.net/lists/listinfo/bibletime-cvs\">enviar mensagens</"
 "ulink> do andamento do processo de desenvolvimento."
 
-#: content/en/development_join.xml:46(para)
+#: content/en/development_join.xml:58(para)
 msgid ""
 "Get the development version of BibleTime and install it. If you need help "
 "with this ask on the mailing list or look into the documentation section."
@@ -3027,11 +3028,11 @@ msgstr ""
 "de ajuda para isto peça na lista de discussão ou procure na seção de "
 "documentação."
 
-#: content/en/development_join.xml:54(title)
+#: content/en/development_join.xml:66(title)
 msgid "The next steps for software developers..."
 msgstr "O próximo passo para desenvolvedores de software..."
 
-#: content/en/development_join.xml:58(para)
+#: content/en/development_join.xml:70(para)
 #, fuzzy
 msgid ""
 "Work through some of the Qt 4 tutorials to get used to programming with the "
@@ -3040,7 +3041,7 @@ msgstr ""
 "Trabalhe com os tutoriais do Qt 3 e KDE 3 para saber como programar as "
 "coisas que o BibleTime usa."
 
-#: content/en/development_join.xml:63(para)
+#: content/en/development_join.xml:76(para)
 #, fuzzy
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
@@ -3050,11 +3051,11 @@ msgstr ""
 "algumas tarefas. Não se esqueça de adicionar o nível de dificuldade que "
 "devem ter."
 
-#: content/en/development_join.xml:71(title)
+#: content/en/development_join.xml:84(title)
 msgid "The next steps for documentation authors..."
 msgstr "Os próximos passos para autores de documentação..."
 
-#: content/en/development_join.xml:75(para)
+#: content/en/development_join.xml:88(para)
 #, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
@@ -3063,7 +3064,7 @@ msgstr ""
 "Leia a documentação existente em inglês. Está localizada no diretório docs/ "
 "do diretório cvs do BibleTime."
 
-#: content/en/development_join.xml:80(para)
+#: content/en/development_join.xml:94(para)
 #, fuzzy
 msgid ""
 "The documentation is stored in docbook format in the unicode subdirectories "
@@ -3078,11 +3079,11 @@ msgstr ""
 "gerados a partir dos documentos docbook. Os arquivos de tradução também são "
 "gerados a partir dos arquivos docbook."
 
-#: content/en/development_join.xml:91(title)
+#: content/en/development_join.xml:105(title)
 msgid "The next steps for translators..."
 msgstr "O próximo passo para tradutores..."
 
-#: content/en/development_join.xml:95(para)
+#: content/en/development_join.xml:109(para)
 #, fuzzy
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
@@ -3091,7 +3092,7 @@ msgstr ""
 "Dê uma olhada nas páginas de internacionalização do projeto KDE. Eles estão "
 "localizados em: <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>"
 
-#: content/en/development_join.xml:100(para)
+#: content/en/development_join.xml:115(para)
 #, fuzzy
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
@@ -3101,7 +3102,7 @@ msgstr ""
 "Instale o programa KBabel, se ainda não estiver instalado em seu sistema. "
 "Ele irá ajuda-lo muito no processo de tradução."
 
-#: content/en/development_join.xml:106(para)
+#: content/en/development_join.xml:122(para)
 msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
 "BibleTime</olink>."
@@ -3109,7 +3110,7 @@ msgstr ""
 "Por favor, leia a página sobre a <olink targetdocent=\"translation"
 "\">tradução do BibleTime</olink>."
 
-#: content/en/development_join.xml:111(para)
+#: content/en/development_join.xml:127(para)
 msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-translations mailing list</ulink>."
@@ -3117,11 +3118,12 @@ msgstr ""
 "Inscreva-se na <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\">lista de e-mails traduções do Bibletime</ulink>"
 
-#: content/en/development_join.xml:118(title)
+#: content/en/development_join.xml:134(title)
 msgid "For everybody, regardless of participation level..."
 msgstr "Para todos, independente do nível de participação..."
 
-#: content/en/development_join.xml:123(para)
+#: content/en/development_join.xml:138(para)
+#, fuzzy
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room."
@@ -3129,7 +3131,8 @@ msgstr ""
 "Junte-se a nós no IRC! Nós podemos ser encontrados em <ulink url=\"http://"
 "www.freenode.net\">Rede Freenode</ulink>, na sala #bibletime ."
 
-#: content/en/development_join.xml:128(para)
+#: content/en/development_join.xml:144(para)
+#, fuzzy
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
@@ -3314,6 +3317,14 @@ msgstr ""
 #, fuzzy
 msgid "translator-credits"
 msgstr "Traduções"
+
+#, fuzzy
+#~ msgid "translating BibleTime"
+#~ msgstr "Instalação do BibleTime"
+
+#, fuzzy
+#~ msgid "Bibletime-translations mailing list"
+#~ msgstr "As traduções estão faltando!"
 
 #, fuzzy
 #~ msgid "Screenshots of BibleTime 1.5"

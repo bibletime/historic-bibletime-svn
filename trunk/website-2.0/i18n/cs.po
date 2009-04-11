@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:10-0400\n"
+"POT-Creation-Date: 2009-04-11 00:18-0400\n"
 "PO-Revision-Date: 2009-03-17 14:29+0100\n"
 "Last-Translator: Tomáš Michalek <michto01@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -2876,17 +2876,17 @@ msgstr ""
 "ulink>."
 
 #
-#: content/en/development_join.xml:10(title)
+#: content/en/development_join.xml:11(title)
 msgid "Join us"
 msgstr "Připojte se"
 
 #
-#: content/en/development_join.xml:11(summary)
+#: content/en/development_join.xml:13(summary)
 #: content/en/development.xml:11(summary) content/en/development.xml:18(title)
 msgid "BibleTime's development"
 msgstr "Vývoj  BibleTime"
 
-#: content/en/development_join.xml:12(keywords)
+#: content/en/development_join.xml:15(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, development team, "
@@ -2894,12 +2894,12 @@ msgid ""
 msgstr ""
 
 #
-#: content/en/development_join.xml:18(title)
+#: content/en/development_join.xml:23(title)
 msgid "Join the BibleTime team"
 msgstr "Připojte se k týmu BibleTime"
 
 #
-#: content/en/development_join.xml:19(para)
+#: content/en/development_join.xml:25(para)
 msgid ""
 "We are thankful to everybody who helps us improve the BibleTime software, "
 "it's documentation and it's translations."
@@ -2908,19 +2908,20 @@ msgstr ""
 "dokumentaci a překlady."
 
 #
-#: content/en/development_join.xml:23(title)
+#: content/en/development_join.xml:31(title)
 msgid "The basic steps..."
 msgstr "Základní kroky.."
 
 #
-#: content/en/development_join.xml:24(para)
+#: content/en/development_join.xml:33(para)
 msgid ""
 "The following are necessary for each type of team member. Please follow them!"
 msgstr ""
 "Následující věci jsou důležité pro všechny typy členů týmu. Prosím, "
 "respektujte je!"
 
-#: content/en/development_join.xml:29(para)
+#: content/en/development_join.xml:39(para)
+#, fuzzy
 msgid ""
 "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</"
 "ulink>, please sign up for one. It is free. We need your username to add you "
@@ -2930,7 +2931,8 @@ msgstr ""
 "prosím, regustrujte se. Je zdarma. Potřebujeme Váše uživatelské jméno přidat "
 "mezi členy týmu, kvůli přiřazování úkolů, atp."
 
-#: content/en/development_join.xml:36(para)
+#: content/en/development_join.xml:47(para)
+#, fuzzy
 msgid ""
 "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
 "devel\"> BibleTime development mailing list</ulink>. All developers read "
@@ -2946,7 +2948,7 @@ msgstr ""
 "odevzdávání zpráv</ulink> k probihajicímu vývojovému procesu."
 
 #
-#: content/en/development_join.xml:46(para)
+#: content/en/development_join.xml:58(para)
 msgid ""
 "Get the development version of BibleTime and install it. If you need help "
 "with this ask on the mailing list or look into the documentation section."
@@ -2956,11 +2958,11 @@ msgstr ""
 "části dokumentace."
 
 #
-#: content/en/development_join.xml:54(title)
+#: content/en/development_join.xml:66(title)
 msgid "The next steps for software developers..."
 msgstr "Další krok pro vývojáře..."
 
-#: content/en/development_join.xml:58(para)
+#: content/en/development_join.xml:70(para)
 msgid ""
 "Work through some of the Qt 4 tutorials to get used to programming with the "
 "tools BibleTime uses."
@@ -2969,7 +2971,7 @@ msgstr ""
 "použitím nástrojů BibleTime."
 
 #
-#: content/en/development_join.xml:63(para)
+#: content/en/development_join.xml:76(para)
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
 "Do not forget to add how difficult it should be."
@@ -2978,12 +2980,12 @@ msgstr ""
 "Nezapoměňte při dotazu poznamenat, jak náročný úkol Vám může být přidělen."
 
 #
-#: content/en/development_join.xml:71(title)
+#: content/en/development_join.xml:84(title)
 msgid "The next steps for documentation authors..."
 msgstr "Další kroky pro autory dokumentací..."
 
 #
-#: content/en/development_join.xml:75(para)
+#: content/en/development_join.xml:88(para)
 #, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
@@ -2992,7 +2994,7 @@ msgstr ""
 "Přečtěte si existující anglickou dokumentaci. Najdete ji v adresáři docs/ "
 "directory v cvs úložišti BibleTime"
 
-#: content/en/development_join.xml:80(para)
+#: content/en/development_join.xml:94(para)
 msgid ""
 "The documentation is stored in docbook format in the unicode subdirectories "
 "of each documentation part (handbook, Bible study howto, installation, "
@@ -3006,11 +3008,12 @@ msgstr ""
 "souborů. Překlady jsou taktéž generovány z docbook dat."
 
 #
-#: content/en/development_join.xml:91(title)
+#: content/en/development_join.xml:105(title)
 msgid "The next steps for translators..."
 msgstr "Další kroky pro překladatele..."
 
-#: content/en/development_join.xml:95(para)
+#: content/en/development_join.xml:109(para)
+#, fuzzy
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
 "located at <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
@@ -3018,7 +3021,8 @@ msgstr ""
 "Podívejte se na mezinárodní stránky projektu KDE. Jsou umístěny na <ulink "
 "url=\"http://i18n.kde.org/\"> i18n.kde.org</ulink>."
 
-#: content/en/development_join.xml:100(para)
+#: content/en/development_join.xml:115(para)
+#, fuzzy
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
 "Lokalize</ulink>, if it is not yet installed on your system. It will help "
@@ -3028,7 +3032,7 @@ msgstr ""
 "Lokalize</ulink>, pokud ještě není nainstalovaný ve vašem systemu. Hodně "
 "pomáhá při procesu překladu."
 
-#: content/en/development_join.xml:106(para)
+#: content/en/development_join.xml:122(para)
 msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
 "BibleTime</olink>."
@@ -3036,7 +3040,7 @@ msgstr ""
 "Přečti si stránku o  <olink targetdocent=\"translation\">překladu BibleTime</"
 "olink>."
 
-#: content/en/development_join.xml:111(para)
+#: content/en/development_join.xml:127(para)
 msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-translations mailing list</ulink>."
@@ -3044,11 +3048,12 @@ msgstr ""
 "Napiš na <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-"
 "translations\">mailing list  Bibletime-překladu</ulink>."
 
-#: content/en/development_join.xml:118(title)
+#: content/en/development_join.xml:134(title)
 msgid "For everybody, regardless of participation level..."
 msgstr "Pro všechny bez ohledu na míru zůčastnění..."
 
-#: content/en/development_join.xml:123(para)
+#: content/en/development_join.xml:138(para)
+#, fuzzy
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room."
@@ -3056,7 +3061,8 @@ msgstr ""
 "Pšipojse knám na IRC! Můžeš nás najít na <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink> v místnosti (roomu) #bibletime"
 
-#: content/en/development_join.xml:128(para)
+#: content/en/development_join.xml:144(para)
+#, fuzzy
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
@@ -3242,6 +3248,16 @@ msgstr ""
 #, fuzzy
 msgid "translator-credits"
 msgstr "Překlady"
+
+#
+#, fuzzy
+#~ msgid "translating BibleTime"
+#~ msgstr "Instalace BibleTime"
+
+#
+#, fuzzy
+#~ msgid "Bibletime-translations mailing list"
+#~ msgstr "Chybí překlad!"
 
 #
 #~ msgid "<title>FAQ</title>"

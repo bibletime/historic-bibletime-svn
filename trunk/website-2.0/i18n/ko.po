@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:10-0400\n"
+"POT-Creation-Date: 2009-04-11 00:18-0400\n"
 "PO-Revision-Date: 2004-02-04 11:05+0545\n"
 "Last-Translator:  <s970501@ku.edu.np>\n"
 "Language-Team:  <ko@li.org>\n"
@@ -2737,27 +2737,27 @@ msgstr ""
 "crosswire.org/pipermail/sword-devel/\">www.crosswire.org/pipermail/sword-"
 "devel</ulink>에서 확인하실 수 있습니다."
 
-#: content/en/development_join.xml:10(title)
+#: content/en/development_join.xml:11(title)
 msgid "Join us"
 msgstr "참여하기"
 
-#: content/en/development_join.xml:11(summary)
+#: content/en/development_join.xml:13(summary)
 #: content/en/development.xml:11(summary) content/en/development.xml:18(title)
 msgid "BibleTime's development"
 msgstr "바이블타임 개발"
 
-#: content/en/development_join.xml:12(keywords)
+#: content/en/development_join.xml:15(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, development team, "
 "translators, join"
 msgstr ""
 
-#: content/en/development_join.xml:18(title)
+#: content/en/development_join.xml:23(title)
 msgid "Join the BibleTime team"
 msgstr "바이블타임 팀에 참여하기"
 
-#: content/en/development_join.xml:19(para)
+#: content/en/development_join.xml:25(para)
 #, fuzzy
 msgid ""
 "We are thankful to everybody who helps us improve the BibleTime software, "
@@ -2766,17 +2766,17 @@ msgstr ""
 "바이블타임 프로그램의 개발, 문서작업 및 번역작업을 도와주실 모든 분들을 환영"
 "합니다."
 
-#: content/en/development_join.xml:23(title)
+#: content/en/development_join.xml:31(title)
 #, fuzzy
 msgid "The basic steps..."
 msgstr "기본 단계들.."
 
-#: content/en/development_join.xml:24(para)
+#: content/en/development_join.xml:33(para)
 msgid ""
 "The following are necessary for each type of team member. Please follow them!"
 msgstr "팀멤버로 활동하시려면 다음의 사항들을 확인해주십시오!"
 
-#: content/en/development_join.xml:29(para)
+#: content/en/development_join.xml:39(para)
 #, fuzzy
 msgid ""
 "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</"
@@ -2787,7 +2787,7 @@ msgstr ""
 "무료입니다. 저희 팀에 당신을 등록시키고, 함께 작업하기 위해서는 계정이 필요합"
 "니다."
 
-#: content/en/development_join.xml:36(para)
+#: content/en/development_join.xml:47(para)
 msgid ""
 "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
 "devel\"> BibleTime development mailing list</ulink>. All developers read "
@@ -2797,7 +2797,7 @@ msgid ""
 "process."
 msgstr ""
 
-#: content/en/development_join.xml:46(para)
+#: content/en/development_join.xml:58(para)
 msgid ""
 "Get the development version of BibleTime and install it. If you need help "
 "with this ask on the mailing list or look into the documentation section."
@@ -2805,11 +2805,11 @@ msgstr ""
 "개발 버전의 바이블타임을 받으셔서 설치하십시오. 설치에 도움이 필요하시면 메일"
 "링리스트에 문의하시거나 문서들을 확인해보시기바랍니다."
 
-#: content/en/development_join.xml:54(title)
+#: content/en/development_join.xml:66(title)
 msgid "The next steps for software developers..."
 msgstr "소프트웨어 개발자들을 위한 다음 단계들..."
 
-#: content/en/development_join.xml:58(para)
+#: content/en/development_join.xml:70(para)
 #, fuzzy
 msgid ""
 "Work through some of the Qt 4 tutorials to get used to programming with the "
@@ -2818,7 +2818,7 @@ msgstr ""
 "바이블타임의 프로그래밍에 사용하는 Qt 3와 KDE 3의 튜토리얼들을 구해서 공부하"
 "십시오."
 
-#: content/en/development_join.xml:63(para)
+#: content/en/development_join.xml:76(para)
 #, fuzzy
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
@@ -2827,11 +2827,11 @@ msgstr ""
 "어떤 일을 해야할지를 모르시겠다면 메일링리스트에 문의해보십시오. 어느 정도 수"
 "준의 작업이 가능한지 첨부하는 것을 잊지마세요."
 
-#: content/en/development_join.xml:71(title)
+#: content/en/development_join.xml:84(title)
 msgid "The next steps for documentation authors..."
 msgstr "문서 작성자들을 위한 다음단계들..."
 
-#: content/en/development_join.xml:75(para)
+#: content/en/development_join.xml:88(para)
 #, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
@@ -2840,7 +2840,7 @@ msgstr ""
 "기존의 영문 문서들을 읽으십시오. 문서들은 바이블타임의 cvs 디렉토리의 docs/ "
 "디렉토리안에서 찾으실 수 있습니다."
 
-#: content/en/development_join.xml:80(para)
+#: content/en/development_join.xml:94(para)
 #, fuzzy
 msgid ""
 "The documentation is stored in docbook format in the unicode subdirectories "
@@ -2854,11 +2854,11 @@ msgstr ""
 "docbook 파일에서 자동생성되므로, HTML 파일을 직접 수정하지 마시기 바립니다. "
 "번역 파일들 역시 docbook 파일들로 부터 생성됩니다."
 
-#: content/en/development_join.xml:91(title)
+#: content/en/development_join.xml:105(title)
 msgid "The next steps for translators..."
 msgstr "번역자들을 위한 다음 단계들..."
 
-#: content/en/development_join.xml:95(para)
+#: content/en/development_join.xml:109(para)
 #, fuzzy
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
@@ -2867,7 +2867,7 @@ msgstr ""
 "KDE 프로젝트의 인터네셔널라이제이션 페이지를 확인하십시오. <ulink url="
 "\"http://i18n.kde.org/\">i18n.kde.org</ulink>에서 확인하실 수 있습니다."
 
-#: content/en/development_join.xml:100(para)
+#: content/en/development_join.xml:115(para)
 #, fuzzy
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
@@ -2877,7 +2877,7 @@ msgstr ""
 "KBabel 프로그램이 설치되어 있지 않다면, 설치하십시오. 번역작업에 많은 도움이 "
 "되는 프로그램입니다."
 
-#: content/en/development_join.xml:106(para)
+#: content/en/development_join.xml:122(para)
 #, fuzzy
 msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
@@ -2886,23 +2886,23 @@ msgstr ""
 "<olink targetdocent=\"documentation_installation_bibletime\">설치 명령어</"
 "olink>를 읽으십시오."
 
-#: content/en/development_join.xml:111(para)
+#: content/en/development_join.xml:127(para)
 msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-translations mailing list</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:118(title)
+#: content/en/development_join.xml:134(title)
 msgid "For everybody, regardless of participation level..."
 msgstr ""
 
-#: content/en/development_join.xml:123(para)
+#: content/en/development_join.xml:138(para)
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room."
 msgstr ""
 
-#: content/en/development_join.xml:128(para)
+#: content/en/development_join.xml:144(para)
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
@@ -3068,6 +3068,14 @@ msgstr ""
 #, fuzzy
 msgid "translator-credits"
 msgstr "설치"
+
+#, fuzzy
+#~ msgid "translating BibleTime"
+#~ msgstr "바이블타임의 설치"
+
+#, fuzzy
+#~ msgid "Bibletime-translations mailing list"
+#~ msgstr "번역이 빠져있습니다!"
 
 #, fuzzy
 #~ msgid "Screenshots of BibleTime 1.5"
