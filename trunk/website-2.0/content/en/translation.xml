@@ -4,7 +4,7 @@
 ]>
 <webpage id="translation">
   <config param="desc" value="Software page" />
-  <config param="rcsdate" value="$Date: 2009-03-09 16:58:36 +0100 (Mo, 09. Mär 2009) $" />
+  <config param="rcsdate" value="$LastChangedDate$" />
   <head>
     <title>Translation</title>
     <summary>BibleTime translation statistics</summary>
@@ -75,19 +75,20 @@
         The statistics will be updated after that.</para>
       </listitem>
     </orderedlist>
-    <para>For editing .po files we recommend that you use the
-    excellent and mature program 
-    <ulink url="http://i18n.kde.org/tools/kbabel/">KBabel</ulink> which
-    works on KDE. It has many advanced features and is a great aid. 
-    <ulink url="http://userbase.kde.org/Lokalize">Lokalize</ulink> is
-    another KDE based app, it will replace KBabel. 
-    <ulink url="http://www.poedit.net/">Poedit</ulink> is a
-    cross-platform file editor suitable for our documentation and
-    website translations. 
-    <ulink url="http://doc.qtsoftware.com/4.0/linguist-manual.html">
-    Qt Linguist 4.x</ulink> (part of the cross-platform Qt development
-    package) is adequate for translating the user interface which is in
-    .ts format.</para>
+
+    <para>For editing .po files we recommend that you use 
+      <ulink url="http://i18n.kde.org/tools/kbabel/">KBabel</ulink> which
+      works on KDE. It has many advanced features and is a great aid. 
+      <ulink url="http://userbase.kde.org/Lokalize">Lokalize</ulink> is
+      another KDE based app, it will replace KBabel. 
+      <ulink url="http://www.poedit.net/">Poedit</ulink> is a
+      cross-platform file editor suitable for our documentation and
+      website translations. 
+      <ulink url="http://doc.qtsoftware.com/4.5/linguist-manual.html">
+      Qt Linguist 4.5</ulink> (part of the cross-platform Qt development
+      package) is needed to translate the user interface which is in
+      .ts format.
+    </para>
 
     <para>A list of the language abbreviations is available at 
       <ulink url="http://www.loc.gov/standards/iso639-2/php/code_list.php">
