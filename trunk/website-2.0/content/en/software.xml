@@ -5,7 +5,7 @@
 ]>
 <webpage id="software">
   <config param="desc" value="Software page" />
-  <config param="rcsdate" value="$$LastChangedDate$" />
+  <config param="rcsdate" value="$LastChangedDate$" />
   <head>
     <title>Software</title>
 
@@ -40,6 +40,15 @@
 
   <section>
     <title>News about BibleTime</title>
+
+    <formalpara>
+      <title>2009-04-29: 2.0beta1 release</title>
+
+      <para>BibleTime 2.0beta2 has been released. <ulink
+	url="http://devel.bibletime.info/wiki/Release_announcements">
+	More...</ulink>
+      </para>
+    </formalpara>
 
     <formalpara>
       <title>2009-04-22: 2.0beta1 release</title>
