@@ -27,10 +27,10 @@
     instructions. 
     <itemizedlist>
       <listitem>
-        <para>Sourcecode and packages for major Linux distributions can
-        be downloaded from 
-        <ulink url="http://sourceforge.net/project/showfiles.php?group_id=954">
-        SourceForge</ulink>.</para>
+        <para>Sourcecode can be downloaded from 
+	  <ulink url="http://sourceforge.net/project/showfiles.php?group_id=954">
+	  SourceForge</ulink>.
+	</para>
       </listitem>
       <listitem>
         <para>Ubuntu packages are available in the repository and 
@@ -49,6 +49,15 @@
         <para>Gentoo packages are in Portage. Just call "emerge
         bibletime".</para>
       </listitem>
+
+      <listitem>
+        <para>
+	  OpenSuse packages can be downloaded from PackMan,
+	  <ulink url="http://packman.links2linux.org/package/kde4-bibletime">
+	  here</ulink>.
+        </para>
+      </listitem>
+
       <listitem>
         <para>A FreeBSD application port of BibleTime can be found at 
         <ulink url="http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all">
