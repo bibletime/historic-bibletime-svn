@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-06 22:00-0400\n"
+"POT-Creation-Date: 2009-06-22 23:35-0400\n"
 "PO-Revision-Date: 2009-03-17 14:29+0100\n"
 "Last-Translator: Tomáš Michalek <michto01@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -1443,10 +1443,10 @@ msgid "Download BibleTime"
 msgstr "Stáhni si BibleTime"
 
 #: content/en/software_installation.xml:30(para)
+#, fuzzy
 msgid ""
-"Sourcecode and packages for major Linux distributions can be downloaded from "
-"<ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\"> "
-"SourceForge</ulink>."
+"Sourcecode can be downloaded from <ulink url=\"http://sourceforge.net/"
+"project/showfiles.php?group_id=954\"> SourceForge</ulink>."
 msgstr ""
 "Zdrojové kódy a  balíčky pro hlavní distribuce Linuxu mužete stáhnou z "
 "<ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=954\"> "
@@ -1476,7 +1476,16 @@ msgstr ""
 msgid "Gentoo packages are in Portage. Just call \"emerge bibletime\"."
 msgstr "Gentoo balíčky jsou v Portag-u. Jen zadejte \"emerge bibletime\"."
 
-#: content/en/software_installation.xml:53(para)
+#: content/en/software_installation.xml:54(para)
+#, fuzzy
+msgid ""
+"OpenSuse packages can be downloaded from PackMan, <ulink url=\"http://"
+"packman.links2linux.org/package/kde4-bibletime\"> here</ulink>."
+msgstr ""
+"Balíčky pro Debian jsou v repozitáři a <ulink url=\"http://packages.debian."
+"org/bibletime\"> zde</ulink>."
+
+#: content/en/software_installation.xml:62(para)
 msgid ""
 "A FreeBSD application port of BibleTime can be found at <ulink url=\"http://"
 "www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd."
@@ -1485,7 +1494,7 @@ msgstr ""
 "Aplikační port pro FreeBSD můžete nalézt na <ulink url=\"http://www.FreeBSD."
 "org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd.org</ulink>."
 
-#: content/en/software_installation.xml:58(para)
+#: content/en/software_installation.xml:67(para)
 msgid ""
 "PC-BSD packages are available <ulink url=\"http://www.pbidir.com/bt/pbi/149/"
 "bibletime\"> here</ulink>."
@@ -1505,11 +1514,11 @@ msgstr ""
 "sledujte následující detailní instalační instrukce a postup stahování."
 
 #
-#: content/en/software_installation.xml:65(title)
+#: content/en/software_installation.xml:74(title)
 msgid "Installation of BibleTime"
 msgstr "Instalace BibleTime"
 
-#: content/en/software_installation.xml:66(para)
+#: content/en/software_installation.xml:75(para)
 msgid ""
 "This section explains how to install BibleTime on your system. Basically "
 "there are two ways to install it: Either by using prebuilt binary packages "
@@ -1522,17 +1531,18 @@ msgstr ""
 "zkušeným uživatelům."
 
 #
-#: content/en/software_installation.xml:72(title)
+#: content/en/software_installation.xml:81(title)
 msgid "Prebuilt binary packages"
 msgstr "Předkompilované binární balíčky"
 
-#: content/en/software_installation.xml:74(para)
+#: content/en/software_installation.xml:83(para)
+#, fuzzy
 msgid ""
-"With the help of great volunteers, we try to provide packages for the most "
-"important Linux distributions. Before installing BibleTime, however, you "
+"With the help of great volunteers, we try to provide packages for many "
+"popular Linux/Unix distributions. Before installing BibleTime, however, you "
 "need to find and install packages for <ulink url=\"http://clucene."
-"sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink> and Sword (Sword binaries "
-"are available at the BibleTime download site)."
+"sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink> and <ulink url=\"http://www."
+"crosswire.org/sword/software/index.jsp\">Sword</ulink>."
 msgstr ""
 "S pomocí dobrovolniků se snažíme poskytovat balíčky pro nejdůležitější "
 "Linuxové distribuce. Před nainstalovaním BibleTime potřebujete najít a "
@@ -1540,22 +1550,18 @@ msgstr ""
 "\">CLucene &gt;= 0.9.16a</ulink> a Sword (Balíčky Sword jsou dostupné na "
 "BibleTime download site)."
 
-#: content/en/software_installation.xml:82(para)
-msgid ""
-"First download the binary package for your Linux distribution. For example: "
-"You want to download <application>BibleTime 1.4</application>for "
-"<productname>SuSE Linux 9.0</productname>. In this case you have to download "
-"the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Please "
-"download the package \"bibletime-i18n\" package, too. This package contains "
-"the available translations of the BibleTime user interface and handbook."
-msgstr ""
-"Prvně stáhněte balíčky pro vaší Linux distribuci. Na příklad: budete chtít "
-"stáhnout <application>BibleTime 1.4</application>pro <productname>SuSE Linux "
-"9.0</productname>.V tomto případě musíte stáhnout balíček<filename>bibletime-"
-"1.4-1.suse9.0.i586.rpm</filename>. Prosíme stáhněte si i balíček \"bibletime-"
-"i18n\". Tento balíček obsahuje dostupné překlady programu a příruček."
-
 #: content/en/software_installation.xml:92(para)
+#, fuzzy
+msgid ""
+"First download the binary package for your distribution listed above, and "
+"install it. More information can also be found on the <ulink url=\"http://"
+"devel.bibletime.info/wiki/Packaging\"> BibleTime development wiki</ulink>."
+msgstr ""
+"Instalace požitím zdrojových kódu BibleTime je složitější než použití "
+"balíčku. Prosíme postupujte podle následujicích kroků pokud chcete "
+"nainstalovat Bible time pomocí zdrojových kódu:"
+
+#: content/en/software_installation.xml:98(para)
 msgid ""
 "If there are no packages for your version of Linux you have to install from "
 "source code. Please see below how to do that."
@@ -1563,158 +1569,27 @@ msgstr ""
 "Jestli nejsou balíčky pro vši verzi Linuxu, budete ji muset nainstalovat "
 "prostřednictvím zdrojových kódu. Podívejte se jak na to."
 
-#: content/en/software_installation.xml:97(title)
+#: content/en/software_installation.xml:105(title)
 msgid "Installation from source code"
 msgstr "Instalace ze zdrojového kódu"
 
-#: content/en/software_installation.xml:103(para)
-msgid ""
-"At first make sure the required software is installed on your system. "
-"Depending on your Linux distribution you have to install the development "
-"packages of the required software, too."
-msgstr ""
-"Prvně se ujistěte, že máte potřebný software dostupný na vašem počítači. "
-"Podle distribuce Linuxu míte nainstalovat vyvojářské balíčky pro potřebný "
-"software."
-
-#: content/en/software_installation.xml:109(para)
-msgid "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
-msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
-
-#: content/en/software_installation.xml:111(para)
-msgid ""
-"At least the libraries and the base package. KDE 3 is shipped with many "
-"Linux distributions. Very often it's installed by default."
-msgstr ""
-"A nakonec knihovny a základní balíčky. KDE je dodávana v mnoha distribucích "
-"Linuxu. Velmi často je nainstalovano defaultně."
-
-#: content/en/software_installation.xml:116(para)
-msgid ""
-"<ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink>."
-msgstr ""
-"<ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink>."
-
-#: content/en/software_installation.xml:120(para)
-msgid "This is necessary for the new instant search feature."
-msgstr "Toto je nezbytné pro novou funci vyhledavání."
-
-#: content/en/software_installation.xml:124(para)
-msgid ""
-"<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\"> Sword "
-"1.5.9</ulink>."
-msgstr ""
-"<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\"> Sword "
-"1.5.9</ulink>."
-
-#: content/en/software_installation.xml:128(para)
-#, fuzzy
-msgid ""
-"Installation instructions are available on <ulink url=\"http://www.crosswire."
-"org/sword/software/index.jsp\"> www.crosswire.org/sword/software</ulink>. "
-"Basically the installation steps are <screen>\n"
-"                <command>./usrinst.sh --enable-shared\n"
-"                --without-clucene</command>\n"
-"                <command>make</command>\n"
-"                <command>make install</command>\n"
-"                <command>make install_config</command>\n"
-"              </screen>"
-msgstr ""
-"<command>./usrinst.sh --enable-shared\n"
-"                --without-clucene</command>\n"
-"                <command>make</command>\n"
-"                <command>make install</command>\n"
-"                <command>make install_config</command>"
-
-#: content/en/software_installation.xml:141(para)
-msgid ""
-"Please note that this list is only valid for the latest version of "
-"BibleTime, older versions may require other software."
-msgstr ""
-"Upozorňujeme, že tento seznam je jen pro nejnovější verzi BibleTime. Starší "
-"verze mohou potřebovat jiný software."
-
-#: content/en/software_installation.xml:146(para)
-#, fuzzy
-msgid ""
-"Compile and install BibleTime: <screen>\n"
-"            <command>./configure --prefix=&lt;your KDE\n"
-"            directory&gt;</command>\n"
-"            <command>make</command>\n"
-"            <command>make install</command>\n"
-"          </screen>"
-msgstr ""
-"<command>./configure --prefix=&lt;Vaš KDE\n"
-"           adresář&gt;</command>\n"
-"            <command>make</command>\n"
-"            <command>make install</command>"
-
-#: content/en/software_installation.xml:153(para)
-msgid ""
-"You can get your KDE directory by running the command <command>kde-config --"
-"prefix</command>. If you get problems please read our <olink targetdocent="
-"\"software_faq\">FAQ</olink>. If there's no solution of your problem, please "
-"contact us at <email>info@bibletime.info</email>."
-msgstr ""
-"Můžete se přepnou do vašeho KDE adresáře příkazem <command>kde-config --"
-"prefix</command>. Pokud máte problém přečtěte si naše <olink targetdocent="
-"\"software_faq\">FAQ</olink>. Pokud zde nenaleznete řešení napište nám na "
-"<email>info@bibletime.info</email>."
-
-#: content/en/software_installation.xml:159(para)
-msgid ""
-"Debian (and possibly derived distros as well) use a non-standard path to "
-"store the documentation of KDE programs. Therefore the ./configure line "
-"above in this case needs to be changed to: <screen>\n"
-"            <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure\n"
-"            --prefix=/usr</command>\n"
-"          </screen>If you forget this, you'll likely not be able to access "
-"the handbook and the BibleStudy HowTo."
-msgstr ""
-"Debian (a odvozené distribuce) použivají nestandartní cestu pro ukládání "
-"dokumentace KDE aplikací. Tím pádem řádku ./configure musíte v tomto případě "
-"změnit na: <screen>\n"
-"            <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure\n"
-"            --prefix=/usr</command>\n"
-"          </screen>Jestli na to zapomenete, nejspíš nebudete mít přístup k "
-"příručce ani k \"Jak studovat Bibli\""
-
-#: content/en/software_installation.xml:170(para)
-msgid ""
-"Compile and install the translations of BibleTime's user interface "
-"(bibletime-i18n): <screen>\n"
-"            <command>./configure --prefix=&lt;your KDE\n"
-"            directory&gt;</command>\n"
-"            <command>make</command>\n"
-"            <command>make install</command>\n"
-"          </screen>Please see the warning regarding nonstandard paths in the "
-"previous paragraph."
-msgstr ""
-"Zkompilujte a nainstalujte překlad interfacu BibleTime (bibletime-i18n): "
-"<screen>\n"
-"            <command>./configure --prefix=&lt;váš KDE\n"
-"            adresář&gt;</command>\n"
-"            <command>make</command>\n"
-"            <command>make install</command>\n"
-"          </screen>Prosím shlédněte varování pro nestandartní cesty v "
-"předchozím odstavci."
-
-#: content/en/software_installation.xml:98(para)
+#: content/en/software_installation.xml:107(para)
 #, fuzzy
 msgid ""
 "Installation using BibleTime's source code is more difficult than using "
-"binary packages. Please follow the steps below if you decided to install "
-"BibleTime from sources: <placeholder-1/>"
+"binary packages. Please follow the steps detailed on the <ulink url=\"http://"
+"devel.bibletime.info/wiki/BuildingBibleTime\">BibleTime development wiki</"
+"ulink>."
 msgstr ""
 "Instalace požitím zdrojových kódu BibleTime je složitější než použití "
 "balíčku. Prosíme postupujte podle následujicích kroků pokud chcete "
 "nainstalovat Bible time pomocí zdrojových kódu:"
 
-#: content/en/software_installation.xml:184(title)
+#: content/en/software_installation.xml:116(title)
 msgid "Install works"
 msgstr "Instalace modulů"
 
-#: content/en/software_installation.xml:185(para)
+#: content/en/software_installation.xml:117(para)
 msgid ""
 "You need Sword modules to work with BibleTime. Since version 1.4 BibleTime "
 "offers a userfriendly dialog (the Bookshelf Manager) to install/update/"
@@ -1726,7 +1601,7 @@ msgstr ""
 "aktualizování/odebirání dokumentů. Doporučujeme používat tuto cestu pro "
 "instalací dokumentů na váš počítač."
 
-#: content/en/software_installation.xml:190(para)
+#: content/en/software_installation.xml:122(para)
 msgid ""
 "Instructions for manual installation is available on <ulink url=\"http://www."
 "crosswire.org/sword/modules/moduleinstall.jsp\"> www.crosswire.org/sword/"
@@ -1736,32 +1611,32 @@ msgstr ""
 "crosswire.org/sword/modules/moduleinstall.jsp\"> www.crosswire.org/sword/"
 "modules</ulink>."
 
-#: content/en/software_installation.xml:194(title)
+#: content/en/software_installation.xml:126(title)
 msgid "Available types of works"
 msgstr "Dostupné moduly"
 
-#: content/en/software_installation.xml:195(para)
+#: content/en/software_installation.xml:127(para)
 msgid ""
 "Here is a list of available types of works and where to get more information:"
 msgstr "Tady je seznam dostupných typů prací s dodatečnými informacemi:"
 
 #
-#: content/en/software_installation.xml:200(ulink)
+#: content/en/software_installation.xml:132(ulink)
 msgid "Bibles"
 msgstr "Bible"
 
 #
-#: content/en/software_installation.xml:204(ulink)
+#: content/en/software_installation.xml:136(ulink)
 msgid "Commentaries"
 msgstr "Komentáře"
 
 #
-#: content/en/software_installation.xml:208(ulink)
+#: content/en/software_installation.xml:140(ulink)
 msgid "Lexicons / Dictionaries"
 msgstr "Lexikony / Slovníky"
 
 #
-#: content/en/software_installation.xml:212(ulink)
+#: content/en/software_installation.xml:144(ulink)
 msgid "Books"
 msgstr "Knížky"
 
@@ -3343,6 +3218,144 @@ msgstr ""
 #, fuzzy
 msgid "translator-credits"
 msgstr "Překlady"
+
+#~ msgid ""
+#~ "First download the binary package for your Linux distribution. For "
+#~ "example: You want to download <application>BibleTime 1.4</application>for "
+#~ "<productname>SuSE Linux 9.0</productname>. In this case you have to "
+#~ "download the package <filename>bibletime-1.4-1.suse9.0.i586.rpm</"
+#~ "filename>. Please download the package \"bibletime-i18n\" package, too. "
+#~ "This package contains the available translations of the BibleTime user "
+#~ "interface and handbook."
+#~ msgstr ""
+#~ "Prvně stáhněte balíčky pro vaší Linux distribuci. Na příklad: budete "
+#~ "chtít stáhnout <application>BibleTime 1.4</application>pro "
+#~ "<productname>SuSE Linux 9.0</productname>.V tomto případě musíte stáhnout "
+#~ "balíček<filename>bibletime-1.4-1.suse9.0.i586.rpm</filename>. Prosíme "
+#~ "stáhněte si i balíček \"bibletime-i18n\". Tento balíček obsahuje dostupné "
+#~ "překlady programu a příruček."
+
+#~ msgid ""
+#~ "At first make sure the required software is installed on your system. "
+#~ "Depending on your Linux distribution you have to install the development "
+#~ "packages of the required software, too."
+#~ msgstr ""
+#~ "Prvně se ujistěte, že máte potřebný software dostupný na vašem počítači. "
+#~ "Podle distribuce Linuxu míte nainstalovat vyvojářské balíčky pro potřebný "
+#~ "software."
+
+#~ msgid "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
+#~ msgstr "<ulink url=\"http://www.kde.org/\">KDE 3</ulink>."
+
+#~ msgid ""
+#~ "At least the libraries and the base package. KDE 3 is shipped with many "
+#~ "Linux distributions. Very often it's installed by default."
+#~ msgstr ""
+#~ "A nakonec knihovny a základní balíčky. KDE je dodávana v mnoha "
+#~ "distribucích Linuxu. Velmi často je nainstalovano defaultně."
+
+#~ msgid ""
+#~ "<ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</"
+#~ "ulink>."
+#~ msgstr ""
+#~ "<ulink url=\"http://clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</"
+#~ "ulink>."
+
+#~ msgid "This is necessary for the new instant search feature."
+#~ msgstr "Toto je nezbytné pro novou funci vyhledavání."
+
+#~ msgid ""
+#~ "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\"> "
+#~ "Sword 1.5.9</ulink>."
+#~ msgstr ""
+#~ "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\"> "
+#~ "Sword 1.5.9</ulink>."
+
+#, fuzzy
+#~ msgid ""
+#~ "Installation instructions are available on <ulink url=\"http://www."
+#~ "crosswire.org/sword/software/index.jsp\"> www.crosswire.org/sword/"
+#~ "software</ulink>. Basically the installation steps are <screen>\n"
+#~ "                <command>./usrinst.sh --enable-shared\n"
+#~ "                --without-clucene</command>\n"
+#~ "                <command>make</command>\n"
+#~ "                <command>make install</command>\n"
+#~ "                <command>make install_config</command>\n"
+#~ "              </screen>"
+#~ msgstr ""
+#~ "<command>./usrinst.sh --enable-shared\n"
+#~ "                --without-clucene</command>\n"
+#~ "                <command>make</command>\n"
+#~ "                <command>make install</command>\n"
+#~ "                <command>make install_config</command>"
+
+#~ msgid ""
+#~ "Please note that this list is only valid for the latest version of "
+#~ "BibleTime, older versions may require other software."
+#~ msgstr ""
+#~ "Upozorňujeme, že tento seznam je jen pro nejnovější verzi BibleTime. "
+#~ "Starší verze mohou potřebovat jiný software."
+
+#, fuzzy
+#~ msgid ""
+#~ "Compile and install BibleTime: <screen>\n"
+#~ "            <command>./configure --prefix=&lt;your KDE\n"
+#~ "            directory&gt;</command>\n"
+#~ "            <command>make</command>\n"
+#~ "            <command>make install</command>\n"
+#~ "          </screen>"
+#~ msgstr ""
+#~ "<command>./configure --prefix=&lt;Vaš KDE\n"
+#~ "           adresář&gt;</command>\n"
+#~ "            <command>make</command>\n"
+#~ "            <command>make install</command>"
+
+#~ msgid ""
+#~ "You can get your KDE directory by running the command <command>kde-config "
+#~ "--prefix</command>. If you get problems please read our <olink "
+#~ "targetdocent=\"software_faq\">FAQ</olink>. If there's no solution of your "
+#~ "problem, please contact us at <email>info@bibletime.info</email>."
+#~ msgstr ""
+#~ "Můžete se přepnou do vašeho KDE adresáře příkazem <command>kde-config --"
+#~ "prefix</command>. Pokud máte problém přečtěte si naše <olink targetdocent="
+#~ "\"software_faq\">FAQ</olink>. Pokud zde nenaleznete řešení napište nám na "
+#~ "<email>info@bibletime.info</email>."
+
+#~ msgid ""
+#~ "Debian (and possibly derived distros as well) use a non-standard path to "
+#~ "store the documentation of KDE programs. Therefore the ./configure line "
+#~ "above in this case needs to be changed to: <screen>\n"
+#~ "            <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure\n"
+#~ "            --prefix=/usr</command>\n"
+#~ "          </screen>If you forget this, you'll likely not be able to "
+#~ "access the handbook and the BibleStudy HowTo."
+#~ msgstr ""
+#~ "Debian (a odvozené distribuce) použivají nestandartní cestu pro ukládání "
+#~ "dokumentace KDE aplikací. Tím pádem řádku ./configure musíte v tomto "
+#~ "případě změnit na: <screen>\n"
+#~ "            <command>kde_htmldir=/usr/share/doc/kde/HTML ./configure\n"
+#~ "            --prefix=/usr</command>\n"
+#~ "          </screen>Jestli na to zapomenete, nejspíš nebudete mít přístup "
+#~ "k příručce ani k \"Jak studovat Bibli\""
+
+#~ msgid ""
+#~ "Compile and install the translations of BibleTime's user interface "
+#~ "(bibletime-i18n): <screen>\n"
+#~ "            <command>./configure --prefix=&lt;your KDE\n"
+#~ "            directory&gt;</command>\n"
+#~ "            <command>make</command>\n"
+#~ "            <command>make install</command>\n"
+#~ "          </screen>Please see the warning regarding nonstandard paths in "
+#~ "the previous paragraph."
+#~ msgstr ""
+#~ "Zkompilujte a nainstalujte překlad interfacu BibleTime (bibletime-i18n): "
+#~ "<screen>\n"
+#~ "            <command>./configure --prefix=&lt;váš KDE\n"
+#~ "            adresář&gt;</command>\n"
+#~ "            <command>make</command>\n"
+#~ "            <command>make install</command>\n"
+#~ "          </screen>Prosím shlédněte varování pro nestandartní cesty v "
+#~ "předchozím odstavci."
 
 #~ msgid "2005-12-18: Translations, packages, FAQ"
 #~ msgstr "2005-12-18: Překlady, balíčky, FAQ"
