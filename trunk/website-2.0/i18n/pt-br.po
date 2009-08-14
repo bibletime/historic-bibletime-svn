@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-12 10:19-0400\n"
+"POT-Creation-Date: 2009-08-14 16:02-0400\n"
 "PO-Revision-Date: 2009-08-02 17:25-0300\n"
 "Last-Translator: Rafael Fagundes Rosa Campos\n"
 "Language-Team: Português do Brasil <kde-i18n-doc@kde.org>\n"
@@ -529,19 +529,15 @@ msgstr ""
 "que você é responsável pelo conteúdo de páginas lincadas a menos que você "
 "explicitamente se desassocie delas."
 
-#: content/en/software_links.xml:33(title)
+#: content/en/software_links.xml:34(title)
 msgid "General Christian pages"
 msgstr "Páginas cristãs gerais"
 
-#: content/en/software_links.xml:35(title)
-msgid ""
-"<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies Group</"
-"ulink>."
+#: content/en/software_links.xml:38(ulink)
+msgid "Bible Technologies Group"
 msgstr ""
-"<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies Group</"
-"ulink>."
 
-#: content/en/software_links.xml:38(para)
+#: content/en/software_links.xml:42(para)
 msgid ""
 "The home of the new common exchange Text format OSIS, which will hopefully "
 "be used by many Bible societies and publishers of the world."
@@ -549,13 +545,11 @@ msgstr ""
 "O lar do novo formato de texto de troca comum OSIS, que esperamos que seja "
 "usado por muitas sociedades Bíblicas e editoras do mundo."
 
-#: content/en/software_links.xml:43(title)
-msgid ""
-"<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>."
+#: content/en/software_links.xml:49(ulink)
+msgid "CrossWire Bible Society"
 msgstr ""
-"<ulink url=\"http://www.crosswire.org/\">Sociedade Bíblica CrossWire</ulink>."
 
-#: content/en/software_links.xml:46(para)
+#: content/en/software_links.xml:53(para)
 msgid ""
 "The Crosswire Bible society is one of the few Christian organizations in the "
 "world providing everything they make free for all! Crosswire supports the "
@@ -565,15 +559,26 @@ msgstr ""
 "que doam sem custo tudo o que produzem! Crosswire suporta o projeto Sword, o "
 "projeto KJV2003 e algumas outras coisas legais."
 
-#: content/en/software_links.xml:53(title)
-msgid "Biblesoftware for Linux"
+#: content/en/software_links.xml:61(ulink)
+msgid "Christians in Open Source Software"
+msgstr ""
+
+#: content/en/software_links.xml:65(para)
+msgid ""
+"Join Christian users, developers, and enthusiasts of Open Source Software in "
+"discussing how to promote the use of OSS in the Church and Christian contexts"
+msgstr ""
+
+#: content/en/software_links.xml:72(title)
+#, fuzzy
+msgid "Biblesoftware for Linux/Unix"
 msgstr "Softwares Bíblicos para Linux"
 
-#: content/en/software_links.xml:55(title)
-msgid "<ulink url=\"http://www.xiphos.org/\"> Xiphos</ulink>."
-msgstr "<ulink url=\"http://www.xiphos.org/\"> Xiphos</ulink>."
+#: content/en/software_links.xml:76(ulink)
+msgid "Xiphos"
+msgstr ""
 
-#: content/en/software_links.xml:58(para)
+#: content/en/software_links.xml:79(para)
 msgid ""
 "Xiphos is a Sword frontend using the Gnome toolkit. A really good "
 "application. Be sure to check it out!"
@@ -581,15 +586,15 @@ msgstr ""
 "Xiphos é uma interface gráfica para o Sword usando o kit de ferramentas "
 "Gnome. Uma aplicação realmente boa. Não deixe de checar!"
 
-#: content/en/software_links.xml:63(title)
+#: content/en/software_links.xml:85(title)
 msgid "Biblesoftware for Windows"
 msgstr "Softwares Bíblicos para Windows"
 
-#: content/en/software_links.xml:65(title)
+#: content/en/software_links.xml:87(title)
 msgid "<ulink url=\"http://www.bibleworks.com/\"> BibleWorks</ulink>."
 msgstr "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
 
-#: content/en/software_links.xml:68(para)
+#: content/en/software_links.xml:90(para)
 msgid ""
 "BibleWorks is one of the best commercial Bible study applications for "
 "Windows! Very good but very expensive, too. Very useful for Bible scholars."
@@ -597,11 +602,11 @@ msgstr ""
 "BibleWorks é uma das melhores aplicações para estudo da Bíblia para Windows!"
 "Muito bom mas muito caro também. Só é útil para escolas."
 
-#: content/en/software_links.xml:73(title)
+#: content/en/software_links.xml:95(title)
 msgid "<ulink url=\"http://www.bibleworkshop.com/\"> BibleWorkshop</ulink>."
 msgstr "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
 
-#: content/en/software_links.xml:76(para)
+#: content/en/software_links.xml:98(para)
 msgid ""
 "The Bible Workshop program is a powerful, commercial Bible study application "
 "for Windows, which is available in English, German and French. It is "
@@ -611,22 +616,22 @@ msgstr ""
 "Windows, que está disponível em inglês, alemão e francês. É possível "
 "melhorar o Bible Workshop usando bibliotecas de Texto que você pode comprar."
 
-#: content/en/software_links.xml:82(title)
+#: content/en/software_links.xml:104(title)
 msgid "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
 msgstr "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
 
-#: content/en/software_links.xml:84(para)
+#: content/en/software_links.xml:106(para)
 msgid ""
 "e-Sword is a great and easy to use Bible study application for Windows "
 "systems."
 msgstr ""
 "e-Sword é uma ótima e fácil de usar aplicação de estudo Bíblico para Windows."
 
-#: content/en/software_links.xml:88(title)
+#: content/en/software_links.xml:110(title)
 msgid "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
 msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
 
-#: content/en/software_links.xml:90(para)
+#: content/en/software_links.xml:112(para)
 msgid ""
 "Logos is one of the best commercial Bible study applications for Windows. "
 "You can buy a lot of texts to enhance it."
@@ -634,22 +639,22 @@ msgstr ""
 "Logos é uma das melhores aplicações para estudo da Bíblia para Windows. Você "
 "pode comprar muitos, muitos textos para melhorá-lo."
 
-#: content/en/software_links.xml:95(title)
+#: content/en/software_links.xml:117(title)
 msgid "<ulink url=\"http://www.onlinebible.org/\"> OnlineBible</ulink>."
 msgstr "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
 
-#: content/en/software_links.xml:98(para)
+#: content/en/software_links.xml:120(para)
 msgid "The Online Bible is a powerful Bible study application for Windows."
 msgstr ""
 "A Bíblia online é uma aplicação poderosa de estudo da Bíblia para Windows."
 
-#: content/en/software_links.xml:102(title)
+#: content/en/software_links.xml:124(title)
 msgid ""
 "<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
 msgstr ""
 "<ulink url=\"http://www.crosswire.org/sword/\">Sword para Windows</ulink>."
 
-#: content/en/software_links.xml:105(para)
+#: content/en/software_links.xml:127(para)
 msgid ""
 "This is the Windows Bible study application made by the Sword team! Sword is "
 "supported by the Crosswire Bible Society."
@@ -657,13 +662,13 @@ msgstr ""
 "Esta é a aplicação de estudo da Bíblia para Windows feito pelo time do Sword!"
 "Sword é suportado pela Sociedade Bíblica Crosswire."
 
-#: content/en/software_links.xml:110(title)
+#: content/en/software_links.xml:132(title)
 msgid ""
 "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
 msgstr ""
 "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
 
-#: content/en/software_links.xml:113(para)
+#: content/en/software_links.xml:135(para)
 msgid ""
 "Tnach is a free, advanced software tool for anyone dealing with Hebrew and "
 "Greek. It can be downloaded for a donation."
@@ -671,11 +676,11 @@ msgstr ""
 "Tnach é um software livre, uma ferramenta avançada para qualquer um que lide "
 "com Hebreu e Grego. Pode ser baixado por uma doação."
 
-#: content/en/software_links.xml:118(title)
+#: content/en/software_links.xml:140(title)
 msgid "<ulink url=\"http://www.volksbibel.de/\"> Volksbibel</ulink>."
 msgstr "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
 
-#: content/en/software_links.xml:121(para)
+#: content/en/software_links.xml:143(para)
 msgid ""
 "Volksbibel 2000.2 is a German, metacard based software Bible study tool for "
 "Windows, Linux and Mac. Althouth there are not so many texts as other "
@@ -687,15 +692,15 @@ msgstr ""
 "quanto em outros softwares, ele tem algumas coisas legais como suporte "
 "básico a mapas incluído. Se você é alemão, experimente!"
 
-#: content/en/software_links.xml:129(title)
+#: content/en/software_links.xml:151(title)
 msgid "Biblesoftware for Mac"
 msgstr "Softwares Bíblicos para Mac"
 
-#: content/en/software_links.xml:131(title)
+#: content/en/software_links.xml:153(title)
 msgid "<ulink url=\"http://www.macsword.com/\">MacSword for OS X</ulink>."
 msgstr "<ulink url=\"http://www.macsword.com/\">MacSword para MacOS X</ulink>."
 
-#: content/en/software_links.xml:134(para)
+#: content/en/software_links.xml:156(para)
 msgid ""
 "MacSword is a new Bible study application for the new Macintosh OS X system. "
 "The screenshots look very promising!"
@@ -703,15 +708,15 @@ msgstr ""
 "MacSword é um novo software de estudo da Bíblia para o novo sistema "
 "Macintosh OS X. As telas parecem muito promissoras!"
 
-#: content/en/software_links.xml:140(title)
+#: content/en/software_links.xml:162(title)
 msgid "Development tools"
 msgstr "Ferramentas de desenvolvimento"
 
-#: content/en/software_links.xml:142(title)
+#: content/en/software_links.xml:164(title)
 msgid "<ulink url=\"http://www.sourceforge.net/\"> SourceForge</ulink>."
 msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 
-#: content/en/software_links.xml:145(para)
+#: content/en/software_links.xml:167(para)
 msgid ""
 "SourceForge provides us with the tools to develop BibleTime with many team "
 "members at the same time! We save a lot of time and money by using their "
@@ -1688,11 +1693,11 @@ msgstr ""
 msgid "FAQ"
 msgstr "FAQ"
 
-#: content/en/software_faq.xml:12(summary)
+#: content/en/software_faq.xml:13(summary)
 msgid "FAQ about BibleTime"
 msgstr "FAQ sobre o BibleTime"
 
-#: content/en/software_faq.xml:13(keywords)
+#: content/en/software_faq.xml:15(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, faq, questions, "
@@ -1702,47 +1707,48 @@ msgstr ""
 "Deus, Religião, Bíblia, devocional, crosswire, sword, faq, perguntas, "
 "respostas, ajuda"
 
-#: content/en/software_faq.xml:16(title)
+#: content/en/software_faq.xml:21(title)
 msgid "Frequently Asked Questions"
 msgstr "Perguntas Frequentes"
 
-#: content/en/software_faq.xml:19(title)
+#: content/en/software_faq.xml:24(title)
 msgid "Installation problems"
 msgstr "Problemas na instalação"
 
-#: content/en/software_faq.xml:22(para)
+#: content/en/software_faq.xml:27(para)
 msgid "Why is the toolbar missing?"
 msgstr "Por que a barra de ferramentas está faltando?"
 
-#: content/en/software_faq.xml:30(listitem)
+#: content/en/software_faq.xml:35(listitem)
 msgid "RedHat: /usr"
 msgstr "RedHat: /usr"
 
-#: content/en/software_faq.xml:31(listitem)
+#: content/en/software_faq.xml:36(listitem)
 msgid "SuSE: /opt/kde3"
 msgstr "SuSE: /opt/kde3"
 
-#: content/en/software_faq.xml:32(listitem)
+#: content/en/software_faq.xml:37(listitem)
 msgid "Mandrake: /usr"
 msgstr "Mandrake: /usr"
 
-#: content/en/software_faq.xml:38(listitem)
+#: content/en/software_faq.xml:42(listitem)
 msgid "./configure --prefix=&lt;your KDE directory&gt;"
 msgstr "./configure --prefix=&lt;seu diretório do KDE&gt;"
 
-#: content/en/software_faq.xml:39(listitem)
+#: content/en/software_faq.xml:44(listitem)
 msgid "make"
 msgstr "make"
 
-#: content/en/software_faq.xml:40(listitem)
+#: content/en/software_faq.xml:45(listitem)
 msgid "make install"
 msgstr "make install"
 
-#: content/en/software_faq.xml:25(para)
+#: content/en/software_faq.xml:30(para)
+#, fuzzy
 msgid ""
 "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. "
 "Then run make and make install as usual. The KDE directories for the widely "
-"used Linux distributions are: <placeholder-1/> Alternatively you can run the "
+"used Linux distributions are: <placeholder-1/>Alternatively you can run the "
 "command \"kde-config --prefix\" to get your KDE directory. The commands are: "
 "<placeholder-2/>"
 msgstr ""
@@ -1752,11 +1758,11 @@ msgstr ""
 "pode rodar o comando \"kde-config --prefix\" para saber qual o seu diretório "
 "KDE. Os comandos são: <placeholder-2/>"
 
-#: content/en/software_faq.xml:48(para)
+#: content/en/software_faq.xml:51(para)
 msgid "The translations are missing!"
 msgstr "As traduções estão faltando!"
 
-#: content/en/software_faq.xml:51(para)
+#: content/en/software_faq.xml:54(para)
 msgid ""
 "Please install the package bibletime-i18n which contains the translations of "
 "the daily tips, the handbook, the installation instructions and the Bible "
@@ -1766,19 +1772,19 @@ msgstr ""
 "diárias, o livro de mão, as instruções de instalação e o Guia de Estudo "
 "Bíblico HowTo."
 
-#: content/en/software_faq.xml:59(title)
+#: content/en/software_faq.xml:62(title)
 msgid "Usage problems"
 msgstr "Problemas de Uso"
 
-#: content/en/software_faq.xml:62(para)
+#: content/en/software_faq.xml:65(para)
 msgid "Is it possible to search for a specific Strong number?"
 msgstr "É possível procurar por um número de Strong específico?"
 
-#: content/en/software_faq.xml:68(title)
+#: content/en/software_faq.xml:70(title)
 msgid "Using BibleTime 1.1 - 1.4.x"
 msgstr "Usando BibleTime 1.1 - 1.4.x"
 
-#: content/en/software_faq.xml:69(para)
+#: content/en/software_faq.xml:71(para)
 msgid ""
 "You need at least BibleTime 1.1 for this. Turn on the default usage of "
 "Strong's numbers in the optionsdialog (Sword-&gt;Filter settings). Then open "
@@ -1789,11 +1795,11 @@ msgstr ""
 "Depois, abra o diálogo de procura e procure por &lt;0120&gt; ou qualquer "
 "outro código Strong."
 
-#: content/en/software_faq.xml:73(title)
+#: content/en/software_faq.xml:78(title)
 msgid "Using BibleTime 1.5 or later"
 msgstr "Usando BibleTime 1.5 ou maior"
 
-#: content/en/software_faq.xml:74(para)
+#: content/en/software_faq.xml:79(para)
 msgid ""
 "The search interface now offers to set the type of your search. You can "
 "choose between headings, footnotes, Strongs numbers and morphological "
@@ -1803,22 +1809,23 @@ msgstr ""
 "escolher entre cabeçalhos, notas de rodapé, números Strong e números "
 "morfológicos."
 
-#: content/en/software_faq.xml:82(para)
+#: content/en/software_faq.xml:87(para)
 msgid "Why do I see only question marks instead of Unicode text?"
 msgstr ""
 "Por que eu vejo somente pontos de interrogação ao invés de texto Unicode?"
 
-#: content/en/software_faq.xml:88(para)
+#: content/en/software_faq.xml:91(para)
+#, fuzzy
 msgid ""
 "First make sure you have the latest version of the module which has the "
-"problems! Check <ulink url=\"http://www.crosswire.org/sword\">www.crosswire."
-"org/sword</ulink> for this."
+"problems! Check <ulink url=\"http://www.crosswire.org/sword\"> www.crosswire."
+"org/sword</ulink>for this."
 msgstr ""
 "Primeiro, certifique-se que você tem a útima versão do módulo que está com "
 "problema. Verifique isso em <ulink url=\"www.crosswire.org/sword\">www."
 "crosswire.org/sword</ulink>."
 
-#: content/en/software_faq.xml:91(para)
+#: content/en/software_faq.xml:95(para)
 msgid ""
 "You have to install an unicode font like Code2000, Arial Unicode MS or "
 "Bitstream Cyberbit to display the special unicode characters. Check the "
@@ -1830,15 +1837,15 @@ msgstr ""
 "seção \"Configurando BibleTime-&gt;Diálogo de Opções-&gt;Fontes\" no livro "
 "de mão do BibleTime como configurar fontes Unicode no Linux."
 
-#: content/en/software_faq.xml:98(title)
+#: content/en/software_faq.xml:104(title)
 msgid "Modules"
 msgstr "Módulos"
 
-#: content/en/software_faq.xml:101(para)
+#: content/en/software_faq.xml:107(para)
 msgid "The KJV shows no Strong numbers in the NT"
 msgstr "A KJV não exibe números de Strong no NT!"
 
-#: content/en/software_faq.xml:105(para)
+#: content/en/software_faq.xml:110(para)
 msgid ""
 "You're probably using an outdated version of the KJV module. Please update "
 "the module."
@@ -1846,15 +1853,16 @@ msgstr ""
 "Você está provavelmente usando uma versão desatualizada do modulo KJV. Por "
 "favor atualize o módulo."
 
-#: content/en/software_faq.xml:113(para)
+#: content/en/software_faq.xml:116(para)
 msgid "Where can I write down my personal notes?"
 msgstr "Onde eu posso escrever minhas notas pessoais?"
 
-#: content/en/software_faq.xml:117(para)
+#: content/en/software_faq.xml:119(para)
+#, fuzzy
 msgid ""
 "You have to install the module \"Personal\", which is available as a "
 "commentary on <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo."
-"jsp?modName=Personal\">Crosswire</ulink>. Please refer to BibleTime's "
+"jsp?modName=Personal\"> Crosswire</ulink>. Please refer to BibleTime's "
 "handbook for more information about the personal commentary."
 msgstr ""
 "Você tem que instalar o módulo \"Pessoal\", que está disponível como um "
@@ -1862,11 +1870,11 @@ msgstr ""
 "informações: <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo.jsp?"
 "modName=Personal\">Crosswire</ulink>."
 
-#: content/en/software_faq.xml:126(para)
+#: content/en/software_faq.xml:128(para)
 msgid "Why is one of the two testaments of a Bible module empty?"
 msgstr "Por que um dos dois testamentos de um módulo da Bíblia está vazio?"
 
-#: content/en/software_faq.xml:130(para)
+#: content/en/software_faq.xml:132(para)
 msgid ""
 "Some modules only contain the text of the old or new testament. Recent "
 "versions of BibleTime should only offer the testament which has some content "
@@ -1876,12 +1884,12 @@ msgstr ""
 "recentes do BibleTime devem oferecer somente o testamento que contiver algum "
 "texto."
 
-#: content/en/software_faq.xml:138(title)
+#: content/en/software_faq.xml:139(title)
 #: content/en/sidebar_tips.xml:23(title)
 msgid "Translations"
 msgstr "Traduções"
 
-#: content/en/software_faq.xml:141(para)
+#: content/en/software_faq.xml:142(para)
 msgid "Is BibleTime available in my native language?"
 msgstr "O BibleTime está disponível em meu idioma nativo?"
 
@@ -1895,7 +1903,7 @@ msgstr ""
 "nossa <olink targetdocent=\"translation\">página de tradução</olink>. As "
 "traduções estão disponíveis no pacote bibletime-i18n."
 
-#: content/en/software_faq.xml:148(para)
+#: content/en/software_faq.xml:150(para)
 msgid ""
 "If a translation into your language is not available, please consider to "
 "help to make it available. More information is available on out <olink "
@@ -1915,8 +1923,9 @@ msgid "How to contact us"
 msgstr "Como nos contatar"
 
 #: content/en/software_contact.xml:14(keywords)
+#, fuzzy
 msgid ""
-"BibleTime, Linux, unxi, FreeBSD, cross platform, Software, biblestudy, bible "
+"BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, contact"
 msgstr ""
 "BibleTime, Linux, unix, FreeBSD, multi-platforma, Software, estudo bíblico, "
@@ -3278,6 +3287,31 @@ msgid "translator-credits"
 msgstr ""
 "Augusto Men &gt;augustocmen@yahoo.com.br&lt;, 2009, 2009. Rafael Fagundes "
 "&gt;rafaelfrc@yahoo.com.br&lt;, 2009, 2009. "
+
+#, fuzzy
+#~ msgid "<ulink url=\"http://www.xiphos.org/\">Xiphos</ulink>."
+#~ msgstr "<ulink url=\"http://www.xiphos.org/\"> Xiphos</ulink>."
+
+#~ msgid ""
+#~ "<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies "
+#~ "Group</ulink>."
+#~ msgstr ""
+#~ "<ulink url=\"http://www.bibletechnologies.net/\">Bible Technologies "
+#~ "Group</ulink>."
+
+#~ msgid ""
+#~ "<ulink url=\"http://www.crosswire.org/\">CrossWire Bible Society</ulink>."
+#~ msgstr ""
+#~ "<ulink url=\"http://www.crosswire.org/\">Sociedade Bíblica CrossWire</"
+#~ "ulink>."
+
+#, fuzzy
+#~ msgid ""
+#~ "<ulink url=\"http://www.christianoss.org/\">Christians in Open Source "
+#~ "Software</ulink>."
+#~ msgstr ""
+#~ "<ulink url=\"http://www.crosswire.org/\">Sociedade Bíblica CrossWire</"
+#~ "ulink>."
 
 #~ msgid ""
 #~ "First download the binary package for your Linux distribution. For "
