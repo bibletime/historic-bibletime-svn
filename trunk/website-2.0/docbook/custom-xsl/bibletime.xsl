@@ -171,7 +171,7 @@
 								alt="Valid CSS" />
 						</a>
 						<br />
-						<img alt="counter" src="http://www.bibletime.info/cgi-sys/Count.cgi?df=bibletime.dat|display=Counter|ft=0|md=6|frgb=100;139;216|dd=B" />
+						<!-- <img alt="counter" src="http://www.bibletime.info/cgi-sys/Count.cgi?df=bibletime.dat|display=Counter|ft=0|md=6|frgb=100;139;216|dd=B" /> -->
 					</div>
 					
 					<div id="footer">
