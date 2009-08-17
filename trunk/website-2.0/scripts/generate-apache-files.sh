@@ -32,7 +32,7 @@ function appendDefaultRewrites {
 
 resetFiles
 
-for lang in en $BT_LANG_ALL; do \
+for lang in en $BT_LANG_ONLINE; do \
 	appendLanguageRewrites $lang 
 done;
 
