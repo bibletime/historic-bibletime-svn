@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_nl\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-14 16:02-0400\n"
+"POT-Creation-Date: 2009-08-17 08:24-0400\n"
 "PO-Revision-Date: 2008-01-17 17:13+0100\n"
 "Last-Translator: Johan van der Lingen <JohanLingen@hotmail.com>\n"
 "Language-Team: Nederlands\n"
@@ -1685,60 +1685,60 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: content/en/software_faq.xml:13(summary)
+#: content/en/software_faq.xml:12(summary)
 #, fuzzy
 msgid "FAQ about BibleTime"
 msgstr "Over BibleTime"
 
-#: content/en/software_faq.xml:15(keywords)
+#: content/en/software_faq.xml:13(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, faq, questions, "
 "help"
 msgstr ""
 
-#: content/en/software_faq.xml:21(title)
+#: content/en/software_faq.xml:16(title)
 msgid "Frequently Asked Questions"
 msgstr "Veel gestelde vragen (FAQ)"
 
-#: content/en/software_faq.xml:24(title)
+#: content/en/software_faq.xml:19(title)
 msgid "Installation problems"
 msgstr "Installatieproblemen"
 
-#: content/en/software_faq.xml:27(para)
+#: content/en/software_faq.xml:22(para)
 msgid "Why is the toolbar missing?"
 msgstr "Waarom is er geen werkbalk?"
 
-#: content/en/software_faq.xml:35(listitem)
+#: content/en/software_faq.xml:30(listitem)
 msgid "RedHat: /usr"
 msgstr ""
 
-#: content/en/software_faq.xml:36(listitem)
+#: content/en/software_faq.xml:31(listitem)
 msgid "SuSE: /opt/kde3"
 msgstr ""
 
-#: content/en/software_faq.xml:37(listitem)
+#: content/en/software_faq.xml:32(listitem)
 msgid "Mandrake: /usr"
 msgstr ""
 
-#: content/en/software_faq.xml:42(listitem)
+#: content/en/software_faq.xml:38(listitem)
 msgid "./configure --prefix=&lt;your KDE directory&gt;"
 msgstr "./configure --prefix=&lt;uw KDE-directory&gt;"
 
-#: content/en/software_faq.xml:44(listitem)
+#: content/en/software_faq.xml:39(listitem)
 msgid "make"
 msgstr "make"
 
-#: content/en/software_faq.xml:45(listitem)
+#: content/en/software_faq.xml:40(listitem)
 msgid "make install"
 msgstr "make install"
 
-#: content/en/software_faq.xml:30(para)
+#: content/en/software_faq.xml:25(para)
 #, fuzzy
 msgid ""
 "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. "
 "Then run make and make install as usual. The KDE directories for the widely "
-"used Linux distributions are: <placeholder-1/>Alternatively you can run the "
+"used Linux distributions are: <placeholder-1/> Alternatively you can run the "
 "command \"kde-config --prefix\" to get your KDE directory. The commands are: "
 "<placeholder-2/>"
 msgstr ""
@@ -1749,11 +1749,11 @@ msgstr ""
 "usr</listitem> </orderedlist> Eventueel kunt u het commando \"kde-config --"
 "prefix\" uitvoeren om uw KDE-directory te vinden. De commando's zijn:"
 
-#: content/en/software_faq.xml:51(para)
+#: content/en/software_faq.xml:48(para)
 msgid "The translations are missing!"
 msgstr "De vertalingen ontbreken!"
 
-#: content/en/software_faq.xml:54(para)
+#: content/en/software_faq.xml:51(para)
 msgid ""
 "Please install the package bibletime-i18n which contains the translations of "
 "the daily tips, the handbook, the installation instructions and the Bible "
@@ -1762,19 +1762,19 @@ msgstr ""
 "Installeer de package bibletime-i18n, dat de vertalingen van de dagelijkse "
 "tips, het handboek de installatie-instructies en de Bijbelstudie HowTo bevat."
 
-#: content/en/software_faq.xml:62(title)
+#: content/en/software_faq.xml:59(title)
 msgid "Usage problems"
 msgstr "Problemen met het gebruik"
 
-#: content/en/software_faq.xml:65(para)
+#: content/en/software_faq.xml:62(para)
 msgid "Is it possible to search for a specific Strong number?"
 msgstr "Is het mogelijk om naar een specifiek Strong-nummer te zoeken?"
 
-#: content/en/software_faq.xml:70(title)
+#: content/en/software_faq.xml:68(title)
 msgid "Using BibleTime 1.1 - 1.4.x"
 msgstr "Het gebruik van BibleTime 1.1 - 1.4.x"
 
-#: content/en/software_faq.xml:71(para)
+#: content/en/software_faq.xml:69(para)
 msgid ""
 "You need at least BibleTime 1.1 for this. Turn on the default usage of "
 "Strong's numbers in the optionsdialog (Sword-&gt;Filter settings). Then open "
@@ -1785,11 +1785,11 @@ msgstr ""
 "van Strong-nummers aan. Open hierna het zoekvenster en zoek naar "
 "&lt;0120&gt; of een andere Strong-code."
 
-#: content/en/software_faq.xml:78(title)
+#: content/en/software_faq.xml:73(title)
 msgid "Using BibleTime 1.5 or later"
 msgstr "Het gebruik van BibleTime 1.5 of hoger"
 
-#: content/en/software_faq.xml:79(para)
+#: content/en/software_faq.xml:74(para)
 msgid ""
 "The search interface now offers to set the type of your search. You can "
 "choose between headings, footnotes, Strongs numbers and morphological "
@@ -1799,22 +1799,22 @@ msgstr ""
 "U kunt kiezen tussen koppen, voetnoten, Stong-nummers en morfologische "
 "nummers."
 
-#: content/en/software_faq.xml:87(para)
+#: content/en/software_faq.xml:82(para)
 msgid "Why do I see only question marks instead of Unicode text?"
 msgstr "Waarom zie ik alleen maar vraagtekens in plaats van Unicode-tekst?"
 
-#: content/en/software_faq.xml:91(para)
+#: content/en/software_faq.xml:88(para)
 #, fuzzy
 msgid ""
 "First make sure you have the latest version of the module which has the "
-"problems! Check <ulink url=\"http://www.crosswire.org/sword\"> www.crosswire."
-"org/sword</ulink>for this."
+"problems! Check <ulink url=\"http://www.crosswire.org/sword\">www.crosswire."
+"org/sword</ulink> for this."
 msgstr ""
 "Controleer eerst of u de laatste versie heeft van de module die problemen "
 "geeft! Ga hiervoor naar <ulink url=\"www.crosswire.org/sword\">www.crosswire."
 "org/sword</ulink>."
 
-#: content/en/software_faq.xml:95(para)
+#: content/en/software_faq.xml:91(para)
 #, fuzzy
 msgid ""
 "You have to install an unicode font like Code2000, Arial Unicode MS or "
@@ -1828,15 +1828,15 @@ msgstr ""
 "handboek voor informatie over het installeren van Unicode-lettertypen onder "
 "Linux."
 
-#: content/en/software_faq.xml:104(title)
+#: content/en/software_faq.xml:98(title)
 msgid "Modules"
 msgstr "Modules"
 
-#: content/en/software_faq.xml:107(para)
+#: content/en/software_faq.xml:101(para)
 msgid "The KJV shows no Strong numbers in the NT"
 msgstr "De KJV heeft geen Strong-nummers in het NT"
 
-#: content/en/software_faq.xml:110(para)
+#: content/en/software_faq.xml:105(para)
 msgid ""
 "You're probably using an outdated version of the KJV module. Please update "
 "the module."
@@ -1844,16 +1844,16 @@ msgstr ""
 "U gebruikt waarschijnlijk een achterhaalde versie van de KJV module. "
 "Vernieuw de module a.u.b."
 
-#: content/en/software_faq.xml:116(para)
+#: content/en/software_faq.xml:113(para)
 msgid "Where can I write down my personal notes?"
 msgstr "Waar kan ik mijn eigen notities opschrijven?"
 
-#: content/en/software_faq.xml:119(para)
+#: content/en/software_faq.xml:117(para)
 #, fuzzy
 msgid ""
 "You have to install the module \"Personal\", which is available as a "
 "commentary on <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo."
-"jsp?modName=Personal\"> Crosswire</ulink>. Please refer to BibleTime's "
+"jsp?modName=Personal\">Crosswire</ulink>. Please refer to BibleTime's "
 "handbook for more information about the personal commentary."
 msgstr ""
 "U moet de module \"Personal\" installeren, welke als commentaar beschikbaar "
@@ -1861,11 +1861,11 @@ msgstr ""
 "modName=Personal\">Crosswire</ulink>. Sla het BibleTime handboek erop na "
 "voor meer informatie over het persoonlijk commentaar."
 
-#: content/en/software_faq.xml:128(para)
+#: content/en/software_faq.xml:126(para)
 msgid "Why is one of the two testaments of a Bible module empty?"
 msgstr "Waarom is één van de twee testamenten van een bijbelmodule leeg?"
 
-#: content/en/software_faq.xml:132(para)
+#: content/en/software_faq.xml:130(para)
 msgid ""
 "Some modules only contain the text of the old or new testament. Recent "
 "versions of BibleTime should only offer the testament which has some content "
@@ -1875,12 +1875,12 @@ msgstr ""
 "testament. Nieuwere versies van BibleTime zouden alleen het testament moeten "
 "aanbieden dat werkelijk inhoud heeft."
 
-#: content/en/software_faq.xml:139(title)
+#: content/en/software_faq.xml:138(title)
 #: content/en/sidebar_tips.xml:23(title)
 msgid "Translations"
 msgstr "Vertalen"
 
-#: content/en/software_faq.xml:142(para)
+#: content/en/software_faq.xml:141(para)
 msgid "Is BibleTime available in my native language?"
 msgstr "Is BibleTime beschikbaar in mijn moedertaal?"
 
@@ -1894,7 +1894,7 @@ msgstr ""
 "op onze <olink targetdocent=\"translation\">pagina over vertalingen</olink>. "
 "De vertalingen zijn beschikbaar in de package bibletime-i18n."
 
-#: content/en/software_faq.xml:150(para)
+#: content/en/software_faq.xml:148(para)
 msgid ""
 "If a translation into your language is not available, please consider to "
 "help to make it available. More information is available on out <olink "
