@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_da\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-26 23:40-0400\n"
-"PO-Revision-Date: 2009-08-09 20:42+0200\n"
+"POT-Creation-Date: 2009-08-27 15:19-0400\n"
+"PO-Revision-Date: 2009-08-27 20:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -532,7 +532,7 @@ msgstr "Generelle kristne sider"
 
 #: content/en/software_links.xml:38(ulink)
 msgid "Bible Technologies Group"
-msgstr ""
+msgstr "Bible Technologies Group"
 
 #: content/en/software_links.xml:42(para)
 msgid ""
@@ -544,7 +544,7 @@ msgstr ""
 
 #: content/en/software_links.xml:49(ulink)
 msgid "CrossWire Bible Society"
-msgstr ""
+msgstr "CrossWire Bible Society"
 
 #: content/en/software_links.xml:53(para)
 msgid ""
@@ -558,22 +558,24 @@ msgstr ""
 
 #: content/en/software_links.xml:61(ulink)
 msgid "Christians in Open Source Software"
-msgstr ""
+msgstr "Kristne i Open-source software"
 
 #: content/en/software_links.xml:65(para)
 msgid ""
 "Join Christian users, developers, and enthusiasts of Open Source Software in "
 "discussing how to promote the use of OSS in the Church and Christian contexts"
 msgstr ""
+"Slut dig til kristne brugere, udviklere, og entusiaster af Open-source "
+"software i diskussionen om hvordan man kan promovere brugen af OSS i kirken "
+"og i kristne sammenhænge "
 
 #: content/en/software_links.xml:72(title)
-#, fuzzy
 msgid "Biblesoftware for Linux/Unix"
-msgstr "Bibelsoftware til Linux"
+msgstr "Bibelsoftware til Linux/Unix"
 
 #: content/en/software_links.xml:76(ulink)
 msgid "Xiphos"
-msgstr ""
+msgstr "Xiphos"
 
 #: content/en/software_links.xml:79(para)
 msgid ""
@@ -1742,7 +1744,6 @@ msgid "make install"
 msgstr "make install"
 
 #: content/en/software_faq.xml:25(para)
-#, fuzzy
 msgid ""
 "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. "
 "Then run make and make install as usual. The KDE directories for the widely "
@@ -1753,7 +1754,7 @@ msgstr ""
 "Kør configure med parametret --prefix=&lt;din KDE mappe&gt;. Derefter kør "
 "make og make install som sædvanligt. KDE mapperne for de mest udbredte Linux "
 "distributioner er: <placeholder-1/> Alternativt kan du køre kommandoen \"kde-"
-"config --prefix\" for at se din KDE mappe. The commands are: <placeholder-2/>"
+"config --prefix\" for at se din KDE mappe. Kommandoerne er: <placeholder-2/>"
 
 #: content/en/software_faq.xml:48(para)
 msgid "The translations are missing!"
@@ -1806,13 +1807,12 @@ msgid "Why do I see only question marks instead of Unicode text?"
 msgstr "Hvorfor er der spørgsmålstegn i stedet for Unicode-tekst?"
 
 #: content/en/software_faq.xml:88(para)
-#, fuzzy
 msgid ""
 "First make sure you have the latest version of the module which has the "
 "problems! Check <ulink url=\"http://www.crosswire.org/sword\">www.crosswire."
 "org/sword</ulink> for this."
 msgstr ""
-"Tjek først at du har den seneste version af modulet der har problemer! Tjek "
+"Tjek først, om du har den seneste version af modulet der har problemer! Tjek "
 "på <ulink url=\"http://www.crosswire.org/sword\">www.crosswire.org/sword</"
 "ulink> for at gøre dette."
 
@@ -1845,16 +1845,15 @@ msgid "Where can I write down my personal notes?"
 msgstr "Hvor kan jeg skrive mine personlige noter?"
 
 #: content/en/software_faq.xml:117(para)
-#, fuzzy
 msgid ""
 "You have to install the module \"Personal\", which is available as a "
 "commentary on <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo."
 "jsp?modName=Personal\">Crosswire</ulink>. Please refer to BibleTime's "
 "handbook for more information about the personal commentary."
 msgstr ""
-"Du er nødt til at installere modulet \"personlig\", som er tilgængelig som "
-"en kommentar på <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo."
-"jsp?modName=Personal\">Crosswire</ulink>. Se i BibleTimes håndbog for mere "
+"Du er nødt til at installere modulet \"Personal\", som er tilgængelig som en "
+"kommentar på <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo.jsp?"
+"modName=Personal\">Crosswire</ulink>. Se i BibleTimes håndbog for mere "
 "information om den personlige kommentar."
 
 #: content/en/software_faq.xml:126(para)
@@ -1909,7 +1908,6 @@ msgid "How to contact us"
 msgstr "Hvordan man kan kontakte os"
 
 #: content/en/software_contact.xml:14(keywords)
-#, fuzzy
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, contact"
@@ -2131,45 +2129,39 @@ msgid "News about BibleTime"
 msgstr "Nyheder om BibleTime"
 
 #: content/en/software.xml:45(title)
-#, fuzzy
 msgid "2009-08-26 2.2 release"
-msgstr "12-07.2009 2.1 udgivelse"
+msgstr "26-08.2009 2.2 udgivelse"
 
 #: content/en/software.xml:47(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.2 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.1 er blevet udgivet. <ulink url=\"http://devel.bibletime.info/"
+"BibleTime 2.2 er blevet udgivet. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:54(title)
-#, fuzzy
 msgid "2009-08-19 2.2.rc1 release"
-msgstr "28-06-2009 2.1.beta1 udgivelse"
+msgstr "19-08-2009 2.2.rc1 udgivelse"
 
 #: content/en/software.xml:56(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.2.rc1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.0.rc1 er blevet udgivet. <ulink url=\"http://devel.bibletime."
+"BibleTime 2.2.rc1 er blevet udgivet. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:63(title)
-#, fuzzy
 msgid "2009-08-12 2.2.beta1 release"
-msgstr "28-06-2009 2.1.beta1 udgivelse"
+msgstr "12-08-2009 2.2.beta1 udgivelse"
 
 #: content/en/software.xml:65(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.2.beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.1.beta1 er blevet udgivet. <ulink url=\"http://devel.bibletime."
+"BibleTime 2.2.beta1 er blevet udgivet. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:72(title)
@@ -2664,6 +2656,10 @@ msgid ""
 "lists.sourceforge.net/lists/listinfo/bibletime-cvs\"> lists.sourceforge.net/"
 "lists/listinfo/bibletime-cvs</ulink>."
 msgstr ""
+"For at tilmelde dig BibleTimes commit log postliste, så besøg den følgende "
+"hjemmeside og indtast din emailadresse der:<ulink url=\"https://lists."
+"sourceforge.net/lists/listinfo/bibletime-cvs\"> lists.sourceforge.net/lists/"
+"listinfo/bibletime-cvs</ulink>."
 
 #: content/en/development_mailinglists.xml:49(title)
 msgid "Sword development mailing list"
