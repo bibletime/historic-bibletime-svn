@@ -1,21 +1,22 @@
 # translation of full.po to
+# translation of traduciendo_bibletime_website_es.po to
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
 # Gabriel PErez <gabrielperez77@gmail.com>, 2006.
 # root <root@localhost.localdomain>, 2006.
 # Joachim Ansorg <mail@joachim-ansorg.de>, 2006.
-# translation of traduciendo_bibletime_website_es.po to
-# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# Roy E. Alvear <racl@gulix.cl>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-19 15:03-0400\n"
-"PO-Revision-Date: 2006-12-25 16:20+0200\n"
-"Last-Translator: Joachim Ansorg <mail@joachim-ansorg.de>\n"
-"Language-Team:  <de@li.org>\n"
+"POT-Creation-Date: 2009-08-26 23:25-0400\n"
+"PO-Revision-Date: 2009-08-26 06:49-0400\n"
+"Last-Translator: Roy E. Alvear <racl@gulix.cl>\n"
+"Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: content/en/translation.xml:9(title)
@@ -23,9 +24,8 @@ msgid "Translation"
 msgstr "Traducción"
 
 #: content/en/translation.xml:10(summary)
-#, fuzzy
 msgid "BibleTime translation statistics"
-msgstr "Las traducciones no están!"
+msgstr "Estadisticas de traducción de BibleTime"
 
 #: content/en/translation.xml:11(keywords)
 msgid ""
@@ -33,13 +33,15 @@ msgid ""
 "study, Qt, God, Religion, Bible, devotional, crosswire, sword, translation, "
 "translate, webpage"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, Plataforma cruzada, Software, Biblia de "
+"Estudio, Estudio Biblico , Qt, Dios, Religión, Biblia, devocional, "
+"crosswire, sword, traducción, traducir, Página web"
 
 #: content/en/translation.xml:17(title)
 msgid "Help translate BibleTime into your language"
 msgstr "Ayuda a traducir BibleTime en tu idioma"
 
 #: content/en/translation.xml:19(para)
-#, fuzzy
 msgid ""
 "This is a part of software development where the help of many individuals is "
 "needed. It is our desire to offer BibleTime to users in as many languages as "
@@ -51,32 +53,26 @@ msgstr ""
 "colaboración:"
 
 #: content/en/translation.xml:27(para) content/en/translation.xml:102(title)
-#, fuzzy
 msgid "Translate the www.bibletime.info website."
-msgstr "<para> Traducir el sitio www.bibletime.info.</para>"
+msgstr "Traducir el sitio www.bibletime.info."
 
 #: content/en/translation.xml:30(para) content/en/translation.xml:116(title)
-#, fuzzy
 msgid "Translate the program's User Interface."
-msgstr "<para> Traducir la Interfaz de usuario del programa. </para>"
+msgstr "Traducir la Interfaz de usuario del programa."
 
 #: content/en/translation.xml:33(para)
-#, fuzzy
 msgid "Translate the Bible Study Howto."
-msgstr "El HowTo Cómo estudiar la biblia"
+msgstr "Traduzca Cómo estudiar la biblia"
 
 #: content/en/translation.xml:36(para) content/en/translation.xml:145(title)
-#, fuzzy
 msgid "Translate the program's handbook."
-msgstr "<para> Traducir el manual del programa </para>"
+msgstr "Traduzca el manual del programa"
 
 #: content/en/translation.xml:39(para) content/en/translation.xml:158(title)
-#, fuzzy
 msgid "Translate the biblical booknames."
-msgstr "<para> Traducir el manual del programa </para>"
+msgstr "Traduzca los nombres de los libros bíblicos"
 
 #: content/en/translation.xml:43(para)
-#, fuzzy
 msgid ""
 "On this page you can find statistics about the completeness of existing "
 "translations for each of these areas, as well as links to translation "
@@ -102,28 +98,39 @@ msgid ""
 "relevant for translators and can communicate with the developers and the "
 "other translators. Use this list if you have questions or comments."
 msgstr ""
+"Suscribase a <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
+"bibletime-translations\"> la lista de correo de traductores bibletime-"
+"translations en lists.sourceforge.net</ulink>. Usted recibirá informacion "
+"relevante para traductores y podra comunicarse con los desarrolladores y "
+"otros traductores. Use esta lista si tiene preguntas o comentarios."
 
 #: content/en/translation.xml:62(para)
 msgid ""
 "Download a template you want to translate or an existing translation you "
 "want to enhance."
 msgstr ""
+"Descargar una plantilla que desea traducir o una traducción existente "
+"quequiera mejorar."
 
 #: content/en/translation.xml:66(para)
 msgid ""
 "Use one of the recommended programs mentioned below or some other program "
 "and edit the translation."
 msgstr ""
+"Utilice uno de los programas recomendados mencionados a continuación o algún "
+"otro programa y edite la traducción."
 
 #: content/en/translation.xml:70(para)
 msgid "Send the translation to the translators' mailing list."
-msgstr ""
+msgstr "Enviar la traducción a la lista de correo de traductores."
 
 #: content/en/translation.xml:74(para)
 msgid ""
 "Developers will integrate your work as soon as possible. The statistics will "
 "be updated after that."
 msgstr ""
+"Los desarrolladores integrarán su trabajo tan pronto como sea posible. Las "
+"estadísticas se actualizarán después de eso."
 
 #: content/en/translation.xml:79(para)
 msgid ""
@@ -137,9 +144,18 @@ msgid ""
 "ulink> (part of the cross-platform Qt development package) is needed to "
 "translate the user interface which is in .ts format."
 msgstr ""
+"Para editar archivos .po nosotros recomendamos usar <ulink url=\"http://i18n."
+"kde.org/tools/kbabel/\">KBabel</ulink> que trabaja en KDE. Tiene "
+"muchascaracterísticas avanzadas y es una gran ayuda. <ulink url=\"http://"
+"userbase.kde.org/Lokalize\">Lokalize</ulink> es otra aplicación basada en "
+"KDE, que remplazará KBabel. <ulink url=\"http://www.poedit.net/\">Poedit</"
+"ulink> es un editor de archivos de plataforma cruzada adecuado para nuestra "
+"documentación y traducción del sitio web. <ulink url=\"http://doc.qtsoftware."
+"com/4.5/linguist-manual.html\"> Qt Linguist 4.5</ulink> (parte del paquete "
+"de la plataforma cruzada de desarrollo de Qt) es necesaria paratraducir la "
+"interfaz de usuario que está en formato .ts."
 
 #: content/en/translation.xml:93(para)
-#, fuzzy
 msgid ""
 "A list of the language abbreviations is available at <ulink url=\"http://www."
 "loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-"
@@ -150,7 +166,6 @@ msgstr ""
 "iso639.htm</ulink>."
 
 #: content/en/translation.xml:103(para)
-#, fuzzy
 msgid ""
 "If a translation of the website to your language does not yet exist, you can "
 "download and translate the <ulink url=\"/po/bibletime_website_template.pot"
@@ -160,12 +175,11 @@ msgid ""
 "translation is about 80% complete."
 msgstr ""
 "Si la traducción del sitio en tu idioma aún no existe, puedes descargar y "
-"traducir la<ulink url=\"/en/pot/full.pot\">Plantilla de traducción de la "
+"traducir la <ulink url=\"/en/pot/full.pot\">plantilla de traducción de la "
 "página</ulink>. Si deseas mejorar una traducción existente, puedes utilizar "
 "la tabla a continuación para descargar el archivo correspondiente."
 
 #: content/en/translation.xml:117(para)
-#, fuzzy
 msgid ""
 "If a translation of the User Interface to your language does not yet exist, "
 "you can download and translate the <ulink url=\"http://bibletime.svn."
@@ -187,14 +201,15 @@ msgid ""
 "from the previous .po format. Due to the changes, the translations need a "
 "thorough rewrite."
 msgstr ""
+"A partir de 1.7, hemos pasado a formato de traducción .ts formato de "
+"archivos QTa formato .po. Debido a estos cambios, las traducciones necesitan "
+"unacompleta reescritura."
 
 #: content/en/translation.xml:132(title)
-#, fuzzy
 msgid "Translate the Bible study howto."
-msgstr "El HowTo Cómo estudiar la biblia"
+msgstr "Traduzca el Cómo estudiar la biblia"
 
 #: content/en/translation.xml:133(para)
-#, fuzzy
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
 "exist, you can download and translate the <ulink url=\"http://bibletime.svn."
@@ -203,14 +218,14 @@ msgid ""
 "translation, use the links in the table below to download the corresponding "
 "file."
 msgstr ""
-"Si la traducción del manual no existe todavía en tu idioma, puedes descargar "
-"y traducir la <ulink url=\"http://cvs.sourceforge.net/viewcvs.py/*checkout*/"
-"bibletime/bibletime/pot/handbook.pot?rev=HEAD\">plantilla de traducción del "
-"manual</ulink>. Si deseas mejorar una traducción existente, usa los enlaces "
-"de la tabla a continuación para descargar el archivo correspondiente."
+"Si la traducción del manual del estudio de la Biblia no existe todavía en tu "
+"idioma, puedes descargar y traducir la <ulink url=\"http://cvs.sourceforge."
+"net/viewcvs.py/*checkout*/bibletime/bibletime/pot/handbook.pot?rev=HEAD"
+"\">plantilla de traducción del manual</ulink>. Si deseas mejorar una "
+"traducción existente, usa los enlaces de la tabla a continuación para "
+"descargar el archivo correspondiente."
 
 #: content/en/translation.xml:146(para)
-#, fuzzy
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
 "can download and translate the <ulink url=\"http://bibletime.svn.sourceforge."
@@ -234,6 +249,12 @@ msgid ""
 "<ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-"
 "template.conf\"> the template</ulink>."
 msgstr ""
+"La traducción de los nombres de los libros de la Biblia vienen del proyecto "
+"Sword. No hay buenas instrucciones en este momento pero se puede encontrar "
+"información y ejemplos mirando en <ulink url=\"ftp://ftp.crosswire.org/pub/"
+"sword/source/sword/locales.d\"> el directorio locales.d </ulink> de las "
+"librerias Sword y usando<ulink url=\"ftp://ftp.crosswire.org/pub/sword/"
+"source/sword/doc/translation-template.conf\"> la plantilla</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -259,9 +280,8 @@ msgstr "Pantallazos"
 
 #: content/en/software_screenshots.xml:10(summary)
 #: content/en/software_screenshots.xml:18(title)
-#, fuzzy
 msgid "Screenshots of BibleTime"
-msgstr "Pantallazos de BibleTime 1.5"
+msgstr "Pantallazos de BibleTime"
 
 #: content/en/software_screenshots.xml:11(keywords)
 msgid ""
@@ -269,11 +289,13 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, sword, screenshots, "
 "gallery"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, Plataforma cruzada, Software, Biblia de "
+"Estudio, Estudio Bíblico, Dios, Religión, Biblia, devocional, crosswire, "
+"sword, capturas de pantalla, galería"
 
 #: content/en/software_screenshots.xml:20(title)
-#, fuzzy
 msgid "The main window"
-msgstr "<title>La ventana principal</title>"
+msgstr "Ventana principal"
 
 #: content/en/software_screenshots.xml:31(para)
 msgid ""
@@ -286,11 +308,19 @@ msgid ""
 "window (called \"desk\") offers space to read works such as Bibles, "
 "commentaries, lexicons or other books."
 msgstr ""
+"Aquí puedes ver una sesión típica de BibleTime. En el panel izquierdo, verá "
+"la \"biblioteca\"  que ofrece un acceso rápido a todas las obras "
+"electrónicas instaladas trabajando así para facilitar el crear y administrar "
+"sus propios marcadores. A continuación se muestra la \"lupa\" que puede "
+"mostrar información adicional acerca de una palabra o un trozo de texto. En "
+"este ejemplo, muestra detalles acerca del hebreo de la palabra KJV que se "
+"traduce como \"Dios \". La parte principal de la BibleTime ventana (llamado "
+"\"escritorio \") ofrece espacio para leer obras como Biblias,  comentarios, "
+"diccionarios u otros libros."
 
 #: content/en/software_screenshots.xml:42(title)
-#, fuzzy
 msgid "The Bookshelf Manager"
-msgstr "<title>El Administrador de BIBLIOTECA</title>"
+msgstr "El Administrador de Biblioteca"
 
 #: content/en/software_screenshots.xml:53(para)
 msgid ""
@@ -300,11 +330,16 @@ msgid ""
 "you can transfer works from this library to your local bookshelf to use "
 "them. Easy, huh?"
 msgstr ""
+"BibleTime ofrece un cuadro de dialogo para descargar y administrar "
+"automáticamente obras electrónicas. Usted simplemente define una biblioteca "
+"(una colección de obras remotas, tales como <ulink url=\"http://www."
+"crosswire.org/sword/\">Crosswire</ulink>), y luego usted puede transferir "
+"las obras de esta biblioteca a su biblioteca local para utilizarlas. Fácil, "
+"¿eh?"
 
 #: content/en/software_screenshots.xml:61(title)
-#, fuzzy
 msgid "The search dialog"
-msgstr "<title>La ventana de diálogo de búsqueda</title>"
+msgstr "Diálogo de búsqueda"
 
 #: content/en/software_screenshots.xml:72(para)
 msgid ""
@@ -312,6 +347,9 @@ msgid ""
 "at a time, limit your search to text scopes or also to certain kinds of "
 "text, such as footnotes."
 msgstr ""
+"BibleTime ofrece un cuadro de diálogo de búsqueda poderoso. Se puede buscar "
+"en varias obras a la vez, limitar la búsqueda a los ámbitos de texto o "
+"también a ciertos tipos de texto, como por ejemplo, notas al pie."
 
 #: content/en/software_press.xml:10(title)
 #: content/en/software_press.xml:21(title)
@@ -319,9 +357,8 @@ msgid "In the press"
 msgstr "En la prensa"
 
 #: content/en/software_press.xml:12(summary)
-#, fuzzy
 msgid "BibleTime in the press"
-msgstr "En la prensa"
+msgstr "BibleTime en la prensa"
 
 #: content/en/software_press.xml:14(keywords)
 msgid ""
@@ -329,6 +366,9 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, sword, press, in the "
 "media, press coverage"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, Plataforma cruzada, Software, Biblia de "
+"Estudio, Estudio Biblico, Dios, Religión, Biblia, devocional, crosswire, "
+"sword, prensa, medios de comunicación, cobertura de prensa"
 
 #: content/en/software_press.xml:22(para)
 msgid ""
@@ -337,10 +377,14 @@ msgid ""
 "BibleTime's Martin Gruner in their Project Spotlight, and drew the following "
 "conclusion:"
 msgstr ""
+"<ulink url=\"http://christianoss.wordpress.com/2009/02/01/project-spotlight-"
+"bibletime/\"> En el blog Christian in Open Source</ulink> se entrevistó "
+"recientementea Martin Gruneren de BibleTime en su proyecto de Spotlight "
+"(luces empotradas), y señaló a la siguiente conclusión:"
 
 #: content/en/software_press.xml:29(attribution)
 msgid "Raoul Snyman (© 2009 Raoul Snyman)"
-msgstr ""
+msgstr "Raoul Snyman (© 2009 Raoul Snyman)"
 
 #: content/en/software_press.xml:31(para)
 msgid ""
@@ -349,9 +393,12 @@ msgid ""
 "moving to use just Qt4, it looks like BibleTime will be going places in the "
 "near future."
 msgstr ""
+"BibleTime es un recurso útil para la preparación de estudios bíblicos, "
+"sermones, o simplemente mirando los pasajes por vía electrónica. Con más "
+"desarrolladores a bordo, y pasando a utilizar sólo Qt4, parece que BibleTime "
+"seguirá en el futuro próximo."
 
 #: content/en/software_press.xml:38(para)
-#, fuzzy
 msgid ""
 "On <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html"
 "\">dot.kde.org</ulink>, Andreas Pour draws the following conclusion in his "
@@ -361,7 +408,6 @@ msgstr ""
 "Pour expone la siguiente conclusión en su revista:"
 
 #: content/en/software_press.xml:42(attribution)
-#, fuzzy
 msgid "Andreas Pour (© 2001 Andreas \"Dre\" Pour. All rights reserved)"
 msgstr ""
 "Andreas Pour (&copy; 2001 Andreas \"Dre\" Pour. Todos los derechos "
@@ -375,6 +421,12 @@ msgid ""
 "the difficult Sword installation/configuration. Besides this, my personal "
 "wishlist item is to use KHTML for its advanced navigation features."
 msgstr ""
+"BibleTime ya es un verdadero regalo del cielo para los usuarios de KDE. Es "
+"de fácil de utilizar aunque  puede tomar un poco de tiempo aprender algunas "
+"peculiaridades. Creo que el siguiente lanzamiento lo hará aún mejor, sobre "
+"todo al proporcionar una interfaz gráfica para la dificultuosa instalación/"
+"configuracion de Sword. Además de esto, mi deseo personal es utilizar KHTML "
+"por sus características avanzadas de navegación."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -402,9 +454,10 @@ msgid ""
 "BibleTime, Linux, Software, biblestudy, bible study, God, Religion, Bible, "
 "devotional, crosswire, sword, links, link us"
 msgstr ""
+"BibleTime, Linux, Software,Biblia de Estudio, Estudio Biblico, Dios, "
+"Religión, Biblia, devocional, crosswire, sword, enlaces, enlazanos"
 
 #: content/en/software_linkus.xml:17(para)
-#, fuzzy
 msgid "Please do not copy the images, as their design may change."
 msgstr "Por favor no copie las imágenes porque pueden cambiar su diseño."
 
@@ -418,6 +471,8 @@ msgid ""
 "Put the following HTML code on your pages: <placeholder-1/>It will look like "
 "this: <placeholder-2/>"
 msgstr ""
+"Coloque el siguiente código HTML en sus páginas: <placeholder-1/> Ésto se "
+"verá así: <placeholder-2/>"
 
 #: content/en/software_linkus.xml:37(title)
 msgid "Smaller banner"
@@ -428,7 +483,6 @@ msgid "Text link"
 msgstr "Enlace de texto"
 
 #: content/en/software_linkus.xml:57(para)
-#, fuzzy
 msgid ""
 "To insert a simple text link please use the following HTML code on your "
 "pages: <placeholder-1/>It will look like this: <ulink url=\"http://www."
@@ -450,31 +504,30 @@ msgstr "Enlaces"
 
 #: content/en/software_links.xml:11(summary)
 msgid "Link collection of good sites"
-msgstr ""
+msgstr "Colección de enlaces de buenos sitios."
 
 #: content/en/software_links.xml:13(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, links"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, plataforma cruzada, Software, Biblia de "
+"Estudio, Estudio Bíblico, Dios, Religión, Biblia, devocional, crosswire, "
+"sword, enlaces"
 
 #: content/en/software_links.xml:20(title)
-#, fuzzy
 msgid "List of important Christian pages"
 msgstr "Lista de páginas cristianas de importancia"
 
 #: content/en/software_links.xml:22(para)
-#, fuzzy
 msgid ""
 "There are many Christian pages on the world wide web. Here we have collected "
 "a list of pages that are important in our opinion."
 msgstr ""
 "Hay muchas otras páginas cristianas en la web. Nosotros recolectamos una "
-"lista de páginas que en nuestra opinión son importantes . Algunas son de más "
-"y otras de menos importancia."
+"lista de páginas que en nuestra opinión son importantes."
 
 #: content/en/software_links.xml:26(para)
-#, fuzzy
 msgid ""
 "Since we are not the author of the linked pages we are not responsible for "
 "their content, we explicitely dissociate ourselves from the content of the "
@@ -489,13 +542,12 @@ msgstr ""
 "menos que explícitamente se desligue de ellas."
 
 #: content/en/software_links.xml:34(title)
-#, fuzzy
 msgid "General Christian pages"
 msgstr "Páginas cristianas generales"
 
 #: content/en/software_links.xml:38(ulink)
 msgid "Bible Technologies Group"
-msgstr ""
+msgstr "Grupo de Tecnologías de la Biblia"
 
 #: content/en/software_links.xml:42(para)
 msgid ""
@@ -507,61 +559,59 @@ msgstr ""
 
 #: content/en/software_links.xml:49(ulink)
 msgid "CrossWire Bible Society"
-msgstr ""
+msgstr "Sociedad Bíblica CrossWire"
 
 #: content/en/software_links.xml:53(para)
-#, fuzzy
 msgid ""
 "The Crosswire Bible society is one of the few Christian organizations in the "
 "world providing everything they make free for all! Crosswire supports the "
 "Sword project, the KJV2003 project and many other cool things."
 msgstr ""
 "La Sociedad Bíblica Crosswire es una de las pocas organizaciones cristianas "
-"en el mundo que provee todo lo que ellos hacen [+]gratis[+] para todos! "
-"Crosswire apoya el proyecto Sword, el proyecto KJV2003 y algunas otras cosas "
+"en el mundo que provee todo lo que ellos hacen libre para todos! Crosswire "
+"apoya el proyecto Sword, el proyecto KJV2003 y algunas otras cosas "
 "excelentes."
 
 #: content/en/software_links.xml:61(ulink)
 msgid "Christians in Open Source Software"
-msgstr ""
+msgstr "Cristianos en el Software Open Source"
 
 #: content/en/software_links.xml:65(para)
 msgid ""
 "Join Christian users, developers, and enthusiasts of Open Source Software in "
 "discussing how to promote the use of OSS in the Church and Christian contexts"
 msgstr ""
+"Únete a los usuarios cristianos, desarrolladores y entusiastas del software "
+"libre endiscutir la manera de promover el uso del FLOSS en la Iglesia "
+"cristiana y los contextos cristianos"
 
 #: content/en/software_links.xml:72(title)
-#, fuzzy
 msgid "Biblesoftware for Linux/Unix"
-msgstr "Software bíblico para Linux"
+msgstr "Software bíblico para Linux/Unix"
 
 #: content/en/software_links.xml:76(ulink)
 msgid "Xiphos"
 msgstr ""
 
 #: content/en/software_links.xml:79(para)
-#, fuzzy
 msgid ""
 "Xiphos is a Sword frontend using the Gnome toolkit. A really good "
 "application. Be sure to check it out!"
 msgstr ""
-"Gnomesword es una [+]interfaz[+] de Sword que usa el kit de herramientas de "
-"Gnome. Una aplicación realmente buena. ¡Asegúrate de revisarla!"
+"Xiphos es una interfaz de Sword que usa el kit de herramientas de Gnome. Una "
+"aplicación realmente buena. ¡Asegúrate de revisarla!"
 
 #: content/en/software_links.xml:85(title)
 msgid "Biblesoftware for Windows"
 msgstr "Software bíblico para Windows"
 
 #: content/en/software_links.xml:87(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.bibleworks.com/\"> BibleWorks</ulink>."
 msgstr ""
 "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink> (Obras "
 "Bíblicas)."
 
 #: content/en/software_links.xml:90(para)
-#, fuzzy
 msgid ""
 "BibleWorks is one of the best commercial Bible study applications for "
 "Windows! Very good but very expensive, too. Very useful for Bible scholars."
@@ -571,14 +621,12 @@ msgstr ""
 "eruditos bíblicos."
 
 #: content/en/software_links.xml:95(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.bibleworkshop.com/\"> BibleWorkshop</ulink>."
 msgstr ""
 "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>(Tienda de "
 "obras bíblicas)."
 
 #: content/en/software_links.xml:98(para)
-#, fuzzy
 msgid ""
 "The Bible Workshop program is a powerful, commercial Bible study application "
 "for Windows, which is available in English, German and French. It is "
@@ -614,7 +662,6 @@ msgstr ""
 "Windows. Puedes comprar un montón de textos para mejorarla."
 
 #: content/en/software_links.xml:117(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.onlinebible.org/\"> OnlineBible</ulink>."
 msgstr ""
 "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>(Biblia en "
@@ -641,10 +688,9 @@ msgstr ""
 "Sword! Sword es apoyada por la "
 
 #: content/en/software_links.xml:132(title)
-#, fuzzy
 msgid ""
 "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
-msgstr "<ulink url=\"http://www.crosswire.org/\">Tnach</ulink>."
+msgstr "<ulink url=\"http://www.crosswire.org/\"> Tnach</ulink>."
 
 #: content/en/software_links.xml:135(para)
 msgid ""
@@ -655,12 +701,10 @@ msgstr ""
 "relacione con el hebreo y el griego. Puede ser desacargada por una donación."
 
 #: content/en/software_links.xml:140(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.volksbibel.de/\"> Volksbibel</ulink>."
 msgstr "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
 
 #: content/en/software_links.xml:143(para)
-#, fuzzy
 msgid ""
 "Volksbibel 2000.2 is a German, metacard based software Bible study tool for "
 "Windows, Linux and Mac. Althouth there are not so many texts as other "
@@ -669,8 +713,8 @@ msgid ""
 msgstr ""
 "Volksbibel 2000.2 es una herramienta para estudiar la biblia para Windows, "
 "Linux y Mac. Este software está basado en [?]metacard[?]. Aunque no hay "
-"tantos textos como tienen otros paquetes de software, tiene algunas cosas [+]"
-"interesantes[+] como soporte básico de mapas incluido. Si sabes alemán, "
+"tantos textos como tienen otros paquetes de software, tiene algunas cosas "
+"interesantes como soporte básico de mapas incluido. Si sabes alemán, "
 "¡pruébalo!"
 
 #: content/en/software_links.xml:151(title)
@@ -694,7 +738,6 @@ msgid "Development tools"
 msgstr "Herramientas de desarrollo"
 
 #: content/en/software_links.xml:164(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.sourceforge.net/\"> SourceForge</ulink>."
 msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 
@@ -714,15 +757,17 @@ msgid "License"
 msgstr "Licencia"
 
 #: content/en/software_license.xml:11(summary)
-#, fuzzy
 msgid "BibleTime's license"
-msgstr "Desarrollo de BiblieTime"
+msgstr "Licencia de BiblieTime"
 
 #: content/en/software_license.xml:12(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, license"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, plataforma cruzada, Software, Biblia de "
+"Estudio, Estudio Bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, licencia"
 
 #: content/en/software_license.xml:20(literallayout)
 #, no-wrap
@@ -1072,12 +1117,10 @@ msgid ""
 msgstr ""
 
 #: content/en/software_installation.xml:12(title)
-#, fuzzy
 msgid "Download of BibleTime"
 msgstr "Descargar BibleTime"
 
 #: content/en/software_installation.xml:14(summary)
-#, fuzzy
 msgid "Installation of the BibleTime software"
 msgstr "Instalación de BibleTime"
 
@@ -1087,13 +1130,15 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, sword, installation, "
 "download, ubuntu, mandrake, suse, debian, freebsd, pcbsd"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, plataforma cruzada, Software, Biblia de "
+"estudio, estudio bíblico, Dios, Religion, Bible, devocional, crosswire, "
+"sword, instalación, descarga, ubuntu, mandrake, suse, debian, freebsd, pcbsd"
 
 #: content/en/software_installation.xml:23(title)
 msgid "Download BibleTime"
 msgstr "Descargar BibleTime"
 
 #: content/en/software_installation.xml:30(para)
-#, fuzzy
 msgid ""
 "Sourcecode can be downloaded from <ulink url=\"http://sourceforge.net/"
 "project/showfiles.php?group_id=954\"> SourceForge</ulink>."
@@ -1109,31 +1154,34 @@ msgid ""
 "Ubuntu 8.04 (Hardy Heron) and 7.10 (Gutsy Gibbon) are offered <ulink url="
 "\"https://launchpad.net/~txwikinger/+archive\"> here</ulink>."
 msgstr ""
+"Paquetes de Ubuntu están disponibles en el repositorio y <ulink url=\"http://"
+"packages.ubuntu.com/hardy/bibletime\"> aquí</ulink>. Actualizaciones "
+"paraUbuntu 8.04 (Hardy Heron) y 7.10 (Gutsy Gibbon) se ofrecen <ulink url="
+"\"https://launchpad.net/~txwikinger/+archive\"> aquí</ulink>."
 
 #: content/en/software_installation.xml:44(para)
-#, fuzzy
 msgid ""
 "Debian packages are available in the repository and <ulink url=\"http://"
 "packages.debian.org/bibletime\"> here</ulink>."
 msgstr ""
-"Los paquetes para Gentoo están disponibles en <ulink url=\"http://packages."
-"gentoo.org/search/?sstring=bibletime\">www.gentoo.org</ulink>."
+"Los paquetes para Debian están disponibles si repositorio y <ulink url="
+"\"http://packages.debian.org/bibletime\"> aquí</ulink>."
 
 #: content/en/software_installation.xml:49(para)
 msgid "Gentoo packages are in Portage. Just call \"emerge bibletime\"."
 msgstr ""
+"Los paquetes de Gentoo se encuentran en Portage. Sólo tiene que llamar "
+"\"emerge bibletime\"."
 
 #: content/en/software_installation.xml:54(para)
-#, fuzzy
 msgid ""
 "OpenSuse packages can be downloaded from PackMan, <ulink url=\"http://"
 "packman.links2linux.org/package/kde4-bibletime\"> here</ulink>."
 msgstr ""
-"Los paquetes para Gentoo están disponibles en <ulink url=\"http://packages."
-"gentoo.org/search/?sstring=bibletime\">www.gentoo.org</ulink>."
+"Los paquetes para OpenSuse están disponibles en PackMan, <ulink url=\"http://"
+"packman.links2linux.org/package/kde4-bibletime\"> aquí</ulink>."
 
 #: content/en/software_installation.xml:62(para)
-#, fuzzy
 msgid ""
 "A FreeBSD application port of BibleTime can be found at <ulink url=\"http://"
 "www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd."
@@ -1144,16 +1192,14 @@ msgstr ""
 "\">www.freebsd.org</ulink>."
 
 #: content/en/software_installation.xml:67(para)
-#, fuzzy
 msgid ""
 "PC-BSD packages are available <ulink url=\"http://www.pbidir.com/bt/pbi/149/"
 "bibletime\"> here</ulink>."
 msgstr ""
-"Los paquetes para Gentoo están disponibles en <ulink url=\"http://packages."
-"gentoo.org/search/?sstring=bibletime\">www.gentoo.org</ulink>."
+"Los paquetes para PC-BSD están disponibles <ulink url=\"http://www.pbidir."
+"com/bt/pbi/149/bibletime\"> aquí</ulink>."
 
 #: content/en/software_installation.xml:24(para)
-#, fuzzy
 msgid ""
 "This is a short list of available download locations. Packages which are not "
 "provided on our SourceForge pages might be outdated. Please see below for "
@@ -1162,7 +1208,7 @@ msgstr ""
 "Esta es una corta lista de las ubicaciones de descarga disponibles. Los "
 "paquetes que no son provistos en nuestras páginas de SourceForge pudieran "
 "estar desactualizadas. Por favor mira debajo las instrucciones de descarga e "
-"instalación."
+"instalación. <placeholder-1/>"
 
 #: content/en/software_installation.xml:74(title)
 msgid "Installation of BibleTime"
@@ -1176,9 +1222,9 @@ msgid ""
 "packages is the easiest way."
 msgstr ""
 "Esta sección te explica cómo instalar BibleTime en tu sistema. Básicamente "
-"hay dos formas de instalarlo: Usando paquetes binarios [?]preconstruidos[?] "
-"o compilando desde el código fuente. Instalar BibleTime usando paquetes "
-"binarios [?]preconstruidos[?] es la forma más fácil."
+"hay dos formas de instalarlo: Usando paquetes binarios preconstruidos o "
+"compilando desde el código fuente. Instalar BibleTime usando paquetes "
+"binarios preconstruidos es la forma más fácil."
 
 #: content/en/software_installation.xml:81(title)
 msgid "Prebuilt binary packages"
@@ -1192,17 +1238,22 @@ msgid ""
 "sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink> and <ulink url=\"http://www."
 "crosswire.org/sword/software/index.jsp\">Sword</ulink>."
 msgstr ""
+"Con la gran ayuda de voluntarios, tratamos de ofrecer paquetes para las "
+"distribuciones Linux/Unix más populares. Antes de instalar BibleTime, sin "
+"embargo, es necesario encontrar e instalar paquetes de <ulink url=\"http://"
+"clucene.sourceforge.net/\">CLucene &gt;= 0.9.16a</ulink> y <ulink url="
+"\"http://www.crosswire.org/sword/software/index.jsp\">Sword</ulink>."
 
 #: content/en/software_installation.xml:92(para)
-#, fuzzy
 msgid ""
 "First download the binary package for your distribution listed above, and "
 "install it. More information can also be found on the <ulink url=\"http://"
 "devel.bibletime.info/wiki/Packaging\"> BibleTime development wiki</ulink>."
 msgstr ""
-"La instalación usando el código fuente de BibleTime es más difícil que "
-"usando paquetes binarios. Por favor, lee los pasos a continuación si "
-"decidiste instalar BibleTime a partir de los fuentes:"
+"Primero descarga el paquete binario para tu distribución antes mencionada, "
+"einstalalo. Más información también se puede encontrar en la <ulink url="
+"\"http://devel.bibletime.info/wiki/Packaging\">wiki de desarrollo BibleTime</"
+"ulink>."
 
 #: content/en/software_installation.xml:98(para)
 msgid ""
@@ -1217,7 +1268,6 @@ msgid "Installation from source code"
 msgstr "Instalación desde el código fuente"
 
 #: content/en/software_installation.xml:107(para)
-#, fuzzy
 msgid ""
 "Installation using BibleTime's source code is more difficult than using "
 "binary packages. Please follow the steps detailed on the <ulink url=\"http://"
@@ -1225,29 +1275,27 @@ msgid ""
 "ulink>."
 msgstr ""
 "La instalación usando el código fuente de BibleTime es más difícil que "
-"usando paquetes binarios. Por favor, lee los pasos a continuación si "
-"decidiste instalar BibleTime a partir de los fuentes:"
+"usando paquetes binarios. Por favor, siga los pasos detallados en el<ulink "
+"url=\"http://devel.bibletime.info/wiki/BuildingBibleTime\"> wiki de "
+"desarrollo BibleTime</ulink>."
 
 #: content/en/software_installation.xml:116(title)
-#, fuzzy
 msgid "Install works"
-msgstr "Instalar módulos de Sword"
+msgstr "Instalar módulos"
 
 #: content/en/software_installation.xml:117(para)
-#, fuzzy
 msgid ""
 "You need Sword modules to work with BibleTime. Since version 1.4 BibleTime "
 "offers a userfriendly dialog (the Bookshelf Manager) to install/update/"
 "remove works. We strongly recommend this way to install works on your "
 "computer."
 msgstr ""
-"Necesitas los módulos de Sword para trabajar con BibleTime. Desde la version "
+"Necesitas los módulos de Sword para trabajar con BibleTime. Desde la versión "
 "1.4, BibleTime ofrece un cuadro de diálogo amigable para administrar los "
-"módulos de Sword. Recomendamos [?]fuertemente[?] esta forma de instalar los "
-"módulos en tu computadora."
+"módulos de Sword. Recomendamos fuertemente esta forma de instalar los "
+"módulos en tu computador."
 
 #: content/en/software_installation.xml:122(para)
-#, fuzzy
 msgid ""
 "Instructions for manual installation is available on <ulink url=\"http://www."
 "crosswire.org/sword/modules/moduleinstall.jsp\"> www.crosswire.org/sword/"
@@ -1258,12 +1306,10 @@ msgstr ""
 "crosswire.org/sword/modules</ulink>."
 
 #: content/en/software_installation.xml:126(title)
-#, fuzzy
 msgid "Available types of works"
 msgstr "Tipos de módulos disponibles"
 
 #: content/en/software_installation.xml:127(para)
-#, fuzzy
 msgid ""
 "Here is a list of available types of works and where to get more information:"
 msgstr ""
@@ -1291,9 +1337,8 @@ msgid "Imprint"
 msgstr "Imprenta"
 
 #: content/en/software_imprint.xml:11(summary)
-#, fuzzy
 msgid "BibleTime imprint"
-msgstr "BibleTime"
+msgstr "Imprenta BibleTime"
 
 #: content/en/software_imprint.xml:12(keywords)
 msgid ""
@@ -1301,6 +1346,9 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, sword, press, in the "
 "media, pree coverage"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, plataforma cruzada, Software, Biblia de "
+"estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, prensa, medios de comunicación, cobertura de prensa"
 
 #: content/en/software_imprint.xml:15(title)
 msgid "Responsibility"
@@ -1320,15 +1368,21 @@ msgid ""
 "</literallayout><ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-"
 "Services</ulink>"
 msgstr ""
+"La persona que es responsable de la página web es: <literallayout>\n"
+"Joachim Ansorg\n"
+"Poststraße 2\n"
+"56479 Salzburg\n"
+"Germany\n"
+"</literallayout><ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-"
+"Services</ulink>"
 
 #: content/en/software_faq.xml:11(title)
 msgid "FAQ"
-msgstr ""
+msgstr "Preguntas frecuentes"
 
 #: content/en/software_faq.xml:12(summary)
-#, fuzzy
 msgid "FAQ about BibleTime"
-msgstr "Acerca de BibleTime"
+msgstr "Preguntas frecuentes acerca de BibleTime"
 
 #: content/en/software_faq.xml:13(keywords)
 msgid ""
@@ -1336,6 +1390,9 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, sword, faq, questions, "
 "help"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, plataforma cruzada, Software, Biblia de "
+"estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, preguntas frecuentes, preguntas, ayuda"
 
 #: content/en/software_faq.xml:16(title)
 msgid "Frequently Asked Questions"
@@ -1351,15 +1408,15 @@ msgstr "¿Porque la barra de herramientas se perdió?"
 
 #: content/en/software_faq.xml:30(listitem)
 msgid "RedHat: /usr"
-msgstr ""
+msgstr "RedHat: /usr"
 
 #: content/en/software_faq.xml:31(listitem)
 msgid "SuSE: /opt/kde3"
-msgstr ""
+msgstr "SuSE: /opt/kde3"
 
 #: content/en/software_faq.xml:32(listitem)
 msgid "Mandrake: /usr"
-msgstr ""
+msgstr "Mandrake: /usr"
 
 #: content/en/software_faq.xml:38(listitem)
 msgid "./configure --prefix=&lt;your KDE directory&gt;"
@@ -1374,7 +1431,6 @@ msgid "make install"
 msgstr "make install"
 
 #: content/en/software_faq.xml:25(para)
-#, fuzzy
 msgid ""
 "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. "
 "Then run make and make install as usual. The KDE directories for the widely "
@@ -1383,11 +1439,10 @@ msgid ""
 "<placeholder-2/>"
 msgstr ""
 "Por favor configure con el parámetro --prefix=&lt;tu directorio KDE&gt;. "
-"Luego corre ake instal como es usual. Los directorios KDE para las "
-"distribuciones más ampliamente usadas son: <orderedlist> <listitem>RedHat: /"
-"usr</listitem> <listitem>SuSE: /opt/kde3</listitem> <listitem>Mandrake: /"
-"usr</listitem> </orderedlist> Alternativamente puedes correr el comando "
-"\"kde-config --prefix\" para saber cuál tu directorio KDE. Los comandos son:"
+"Luego corre make install como es usual. Los directorios KDE para las "
+"distribuciones más ampliamente usadas son: <placeholder-1/> Alternativamente "
+"puedes correr el comando \"kde-config --prefix\" para saber cuál tu "
+"directorio KDE. Los comandos son:<placeholder-2/>"
 
 #: content/en/software_faq.xml:48(para)
 msgid "The translations are missing!"
@@ -1445,7 +1500,6 @@ msgid "Why do I see only question marks instead of Unicode text?"
 msgstr "¿Por qué veo sólo signos de interrogación en vez de texto Unicode?"
 
 #: content/en/software_faq.xml:88(para)
-#, fuzzy
 msgid ""
 "First make sure you have the latest version of the module which has the "
 "problems! Check <ulink url=\"http://www.crosswire.org/sword\">www.crosswire."
@@ -1456,7 +1510,6 @@ msgstr ""
 "crosswire.org/sword</ulink>."
 
 #: content/en/software_faq.xml:91(para)
-#, fuzzy
 msgid ""
 "You have to install an unicode font like Code2000, Arial Unicode MS or "
 "Bitstream Cyberbit to display the special unicode characters. Check the "
@@ -1465,8 +1518,8 @@ msgid ""
 msgstr ""
 "Tienes que instalar una fuente Unicode como Code200, Arial Unicode MS o "
 "Bistream Cyberbit para mostrar los caracteres especiales Unicode. Revisa la "
-"sección \"Configurar BibleTime->Diálogo de Opciones->Fuentes\" en el manual "
-"de BibleTime cómo configurar las fuentes Unicode bajo Linux."
+"sección \"Configurar BibleTime-&gt;Diálogo de Opciones-&gt;Fuentes\" en el "
+"manual de BibleTime cómo configurar las fuentes Unicode bajo Linux."
 
 #: content/en/software_faq.xml:98(title)
 msgid "Modules"
@@ -1474,7 +1527,7 @@ msgstr "Módulos"
 
 #: content/en/software_faq.xml:101(para)
 msgid "The KJV shows no Strong numbers in the NT"
-msgstr "La KJV muestra los números Strong en el Nuevo Testamento"
+msgstr "La KJV muestra los números sin negrita en el Nuevo Testamento"
 
 #: content/en/software_faq.xml:105(para)
 msgid ""
@@ -1489,7 +1542,6 @@ msgid "Where can I write down my personal notes?"
 msgstr "¿Dónde puedo escribir mis notas personales?"
 
 #: content/en/software_faq.xml:117(para)
-#, fuzzy
 msgid ""
 "You have to install the module \"Personal\", which is available as a "
 "commentary on <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo."
@@ -1558,6 +1610,9 @@ msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, contact"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, plataforma cruzada, Software, Biblia de "
+"estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, contacto"
 
 #: content/en/software_contact.xml:24(ulink)
 msgid "Send a Bug report"
@@ -1604,22 +1659,23 @@ msgid "About BibleTime"
 msgstr "Acerca de BibleTime"
 
 #: content/en/software_about.xml:11(summary)
-#, fuzzy
 msgid "Introduction to the BibleTime software"
-msgstr "Únete al equipo de BibleTime"
+msgstr "Introducción al Software BibleTime"
 
 #: content/en/software_about.xml:13(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, Qt, God, Religion, Bible, devotional, crosswire, sword, about"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, platforma cruzada, Software, Biblia de "
+"estudio, estudio bíblico, Qt, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, acerca de"
 
 #: content/en/software_about.xml:21(title)
 msgid "Introduction"
 msgstr "Introducción"
 
 #: content/en/software_about.xml:23(para)
-#, fuzzy
 msgid ""
 "BibleTime is a Bible study application built with <ulink url=\"http://www."
 "qtsoftware.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire."
@@ -1628,12 +1684,12 @@ msgid ""
 "crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
 "BibleTime es un aplicación de estudio de la Biblia para Linux. Está basada "
-"en <ulink url=\"http://www.kde.org/\">KDE</ulink>(K Desktop Environment, "
-"Ambiente de escritorio K) y usa <ulink url=\"http://www.crosswire.org/sword/"
-"\">Sword</ulink> (La Espada) librería de programación para trabajar con "
-"textos bíblicos, incluyendo comentarios, diccionarios y libros, provistos "
-"por la <ulink url=\"http://www.crosswire.org/\">Sociedad Bíblica Crosswire</"
-"ulink>."
+"en <ulink url=\"http://www.qtsoftware.com/\">Qt4</ulink>/<ulink url=\"http://"
+"www.kde.org/\">KDE</ulink>(K Desktop Environment, Ambiente de escritorio K) "
+"y usa <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> (La "
+"Espada) librería de programación para trabajar con textos bíblicos, "
+"incluyendo comentarios, diccionarios y libros, provistos por la <ulink url="
+"\"http://www.crosswire.org/\">Sociedad Bíblica Crosswire</ulink>."
 
 #: content/en/software_about.xml:34(title)
 msgid "The history of BibleTime"
@@ -1693,7 +1749,6 @@ msgstr ""
 "primera versión de BibleTime para la versión 3.0 de KDE."
 
 #: content/en/software_about.xml:60(para)
-#, fuzzy
 msgid ""
 "BibleTime version 1.5 was released in July 2005 after a long time of "
 "development."
@@ -1706,21 +1761,24 @@ msgid ""
 "BibleTime version 1.6 was released in September 2006, and utilized <ulink "
 "url=\"http://clucene.sourceforge.net\">CLucene</ulink> as its search engine."
 msgstr ""
+"BibleTime version 1.6 fue lanzada en September 2006, y se utiliza <ulink url="
+"\"http://clucene.sourceforge.net\">CLucene</ulink> como su motor de búsqueda."
 
 #: content/en/software_about.xml:68(para)
-#, fuzzy
 msgid ""
 "BibleTime version 1.7 was released in January 2008, it is the first version "
 "developed with Qt4 for use with KDE4."
 msgstr ""
-"BibleTime versión 1.5 fue lanzada en Julio del 2005 luego de un largo tiempo "
-"de desarrollo."
+"BibleTime versión 1.7 fue lanzada en enero de 2008, es la primera versión "
+"dedesarrollado con Qt4 para su uso con KDE4."
 
 #: content/en/software_about.xml:71(para)
 msgid ""
 "BibleTime version 2.0 was introduced as an alpha release, for transition to "
 "being a cross platform application."
 msgstr ""
+"BibleTime versión 2.0 fue introducido como una versión alfa, para la "
+"transición a ser una aplicación de plataforma cruzada."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1733,9 +1791,8 @@ msgid "Software"
 msgstr "Software"
 
 #: content/en/software.xml:12(summary)
-#, fuzzy
 msgid "Welcome to BibleTime"
-msgstr "Bienvenido al proyecto BibleTime."
+msgstr "Bienvenido a BibleTime."
 
 #: content/en/software.xml:14(keywords)
 msgid ""
@@ -1743,18 +1800,19 @@ msgid ""
 "biblestudy, bible study, Qt, God, Religion, Bible, devotional, crosswire, "
 "sword, Ubuntu, Debian"
 msgstr ""
+"BibleTime, bibletime, Linux, unix, Freebsd, platforma cruzada, Software, "
+"Biblia de estudio, estudio bíblico, Qt, Dios, Religion, Biblia, devocional, "
+"crosswire, sword, Ubuntu, Debian"
 
 #: content/en/software.xml:19(author)
-#, fuzzy
 msgid "The BibleTime team"
-msgstr "Únete al equipo de BibleTime"
+msgstr "El equipo de BibleTime"
 
 #: content/en/software.xml:23(title)
 msgid "Welcome to the BibleTime project."
 msgstr "Bienvenido al proyecto BibleTime."
 
 #: content/en/software.xml:24(para)
-#, fuzzy
 msgid ""
 "<placeholder-1/> BibleTime is a Bible study application built with <ulink "
 "url=\"http://www.qtsoftware.com/\">Qt4</ulink>, using the <ulink url="
@@ -1763,12 +1821,12 @@ msgid ""
 "<ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
 "BibleTime es un aplicación de estudio de la Biblia para Linux. Está basada "
-"en <ulink url=\"http://www.kde.org/\">KDE</ulink>(K Desktop Environment, "
-"Ambiente de escritorio K) y usa <ulink url=\"http://www.crosswire.org/sword/"
-"\">Sword</ulink> (La Espada) librería de programación para trabajar con "
-"textos bíblicos, incluyendo comentarios, diccionarios y libros, provistos "
-"por la <ulink url=\"http://www.crosswire.org/\">Sociedad Bíblica Crosswire</"
-"ulink>."
+"en <ulink url=\"http://www.qtsoftware.com/\">Qt4</ulink>/<ulink url=\"http://"
+"www.kde.org/\">KDE</ulink>(K Desktop Environment, Ambiente de escritorio K) "
+"y usa <ulink url=\"http://www.crosswire.org/sword/\">Sword</ulink> (La "
+"Espada) librería de programación para trabajar con textos bíblicos, "
+"incluyendo comentarios, diccionarios y libros, provistos por la <ulink url="
+"\"http://www.crosswire.org/\">Sociedad Bíblica Crosswire</ulink>."
 
 #: content/en/software.xml:42(title)
 msgid "News about BibleTime"
@@ -1776,87 +1834,103 @@ msgstr "Noticias sobre BibleTime"
 
 #: content/en/software.xml:45(title)
 msgid "2009-08-19 2.2.rc1 release"
-msgstr ""
+msgstr "19-08-2009 lanzamiento de 2.2.rc1"
 
 #: content/en/software.xml:47(para)
 msgid ""
 "BibleTime 2.2.rc1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.2.rc1 fue lanzado. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:54(title)
 msgid "2009-08-12 2.2.beta1 release"
-msgstr ""
+msgstr "12-08-2009 lanzamiento de 2.2.beta1"
 
 #: content/en/software.xml:56(para)
 msgid ""
 "BibleTime 2.2.beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.2.beta1 fue lanzado. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:63(title)
 msgid "2009-07-12 2.1 release"
-msgstr ""
+msgstr "12-07-2009  lanzamiento de 2.1"
 
 #: content/en/software.xml:65(para)
 msgid ""
 "BibleTime 2.1 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.1 fue lanzado. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:72(title)
 msgid "2009-07-05 2.1.rc1 release"
-msgstr ""
+msgstr "05-07-2009 lanzamiento de 2.1.rc1"
 
 #: content/en/software.xml:74(para)
 msgid ""
 "BibleTime 2.1.rc1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.1.rc1 fue lanzado. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:81(title)
 msgid "2009-06-28 2.1.beta1 release"
-msgstr ""
+msgstr "28-06-2009 lanzamiento de 2.1.beta1"
 
 #: content/en/software.xml:83(para)
 msgid ""
 "BibleTime 2.1.beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.1.beta1 fue lanzado. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:90(title)
 msgid "2009-06-06 2.0.1 bugfix release"
-msgstr ""
+msgstr "06-06-2009 lanzamiento de 2.0.1 bugfix"
 
 #: content/en/software.xml:92(para)
 msgid ""
 "BibleTime 2.0.1 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.0.1 fue lanzado. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:99(title)
 msgid "2009-05-28: 2.0 release"
-msgstr ""
+msgstr "28-05-2009 lanzamiento de 2.0"
 
 #: content/en/software.xml:101(para)
 msgid ""
 "BibleTime 2.0 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.0 fue lanzada. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:108(title)
 msgid "2009-05-20: 2.0rc1 release"
-msgstr ""
+msgstr "20-05-2009 lanzamiento de 2.0rc1"
 
 #: content/en/software.xml:110(para)
 msgid ""
 "BibleTime 2.0rc1 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.0rc1 fue lanzada. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:117(title)
 msgid "2009-05-16: 2.0beta3 release"
-msgstr ""
+msgstr "16-05-2009 lanzamiento de 2.0beta3"
 
 #: content/en/software.xml:119(para)
 msgid ""
@@ -1864,10 +1938,14 @@ msgid ""
 "User Interface translation for the upcoming Release Candidate. <ulink url="
 "\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.0beta3 fue lanzada. Recordatorio para traductores para preparar "
+"la traducción de la interfaz de usuario para el candidato el próximo "
+"lanzamiento. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:128(title)
 msgid "2009-04-29: 2.0beta2 release"
-msgstr ""
+msgstr "29-04-2009 lanzamiento de 2.0beta2"
 
 #: content/en/software.xml:130(para)
 msgid ""
@@ -1876,70 +1954,86 @@ msgid ""
 "url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</"
 "ulink>"
 msgstr ""
+"BibleTime 2.0beta2 fue lanzada. Traductores, ahora es un buen momento para "
+"que su trabajo listo a tiempo para el próximo candidato de lanzamiento. "
+"<ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> Más..."
+"</ulink>"
 
 #: content/en/software.xml:139(title)
 msgid "2009-04-22: 2.0beta1 release"
-msgstr ""
+msgstr "22-04-2009 lanzamiento de 2.0beta1"
 
 #: content/en/software.xml:141(para)
 msgid ""
 "BibleTime 2.0beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.0beta1 fue lanzada. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:148(title)
 msgid "2009-03-25: 2.0alpha3 release"
-msgstr ""
+msgstr "25-03-2009 lanzamiento de 2.0alpha3"
 
 #: content/en/software.xml:150(para)
 msgid ""
 "BibleTime 2.0alpha3 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.0alpha3 fue lanzada. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:157(title)
 msgid "2009-03-20: 2.0alpha2 release"
-msgstr ""
+msgstr "20-03-2009 lanzamiento de 2.0alpha2"
 
 #: content/en/software.xml:159(para)
 msgid ""
 "BibleTime 2.0alpha2 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.0alpha2 fue lanzada. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:166(title)
 msgid "2009-03-07: 2.0alpha1 release"
-msgstr ""
+msgstr "07-03-2009 lanzamiento de 2.0alpha1"
 
 #: content/en/software.xml:168(para)
 msgid ""
 "BibleTime 2.0alpha1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 2.0alpha1 fue lanzada. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:175(title)
 msgid "2009-02-07: 1.7 release"
-msgstr ""
+msgstr "07-02-2009 lanzamiento de 1.7"
 
 #: content/en/software.xml:177(para)
 msgid ""
 "BibleTime 1.7 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 1.7 fue lanzada. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:184(title)
 msgid "2009-02-03: 1.7rc1 release"
-msgstr ""
+msgstr "03-02-2009 lanzamiento de 1.7rc1"
 
 #: content/en/software.xml:186(para)
 msgid ""
 "BibleTime 1.7rc1 was just released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 1.7rc1 fue lanzada. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:193(title)
 msgid "2008-12-13: 1.7beta3 release"
-msgstr ""
+msgstr "13-12-2008 lanzamiento de 1.7beta3"
 
 #: content/en/software.xml:195(para)
 msgid ""
@@ -1947,11 +2041,13 @@ msgid ""
 "1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements"
 "\"> More...</ulink>"
 msgstr ""
+"BibleTime 1.7.beta3 fue lanzada. El requisito de Sword se estableció de "
+"nuevo a1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Más...</ulink>"
 
 #: content/en/software.xml:203(title)
-#, fuzzy
 msgid "2008-09-18: BibleTime 1.7beta2"
-msgstr "18-03-2006: BibleTime 1.6beta1"
+msgstr "18-03-2006: BibleTime 1.7beta2"
 
 #: content/en/software.xml:205(para)
 msgid ""
@@ -1960,11 +2056,14 @@ msgid ""
 "translators are encouraged to start their work. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
+"BibleTime 1.7beta2 fue lanzada. Aunque esta versión es etiquetado como "
+"betaes completamente utilizable y debe ser estable para el trabajo diario. "
+"Ensambladores ytraductores se les anima a iniciar su trabajo. <ulink url="
+"\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 
 #: content/en/software.xml:214(title)
-#, fuzzy
 msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
-msgstr "16-10-2005: BibleTime 1.5.2"
+msgstr "16-10-2005: paquete Ubuntu, BibleTime 1.6.5.1"
 
 #: content/en/software.xml:215(para)
 msgid ""
@@ -1972,17 +2071,21 @@ msgid ""
 "\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</"
 "ulink> how to setup your Linux to get the new packages."
 msgstr ""
+"Finalmente, existen paquetes disponibles para Ubuntu 8.04 y 7.10. <ulink url="
+"\"https://launchpad.net/~txwikinger/+archive\">R. Janke describe aquí</"
+"ulink> cómo configurar su Linux para obtener los nuevos paquetes."
 
 #: content/en/software.xml:220(para)
 msgid ""
 "Version 1.6.5.1 has been released. It contains fixes so it can be installed "
 "on current versions of Linux."
 msgstr ""
+"Version 1.6.5.1 fue lanzada. Contiene correcciones de lo que puede ser "
+"instaladoen las versiones actuales de Linux."
 
 #: content/en/software.xml:225(title)
-#, fuzzy
 msgid "2008-01-12: BibleTime 1.7alpha1"
-msgstr "16-10-2005: BibleTime 1.5.2"
+msgstr "12-01-2008: BibleTime 1.7alpha1"
 
 #: content/en/software.xml:226(para)
 msgid ""
@@ -1991,24 +2094,29 @@ msgid ""
 "_1.7alpha1_release\"> Read the announcement</ulink> to know more about the "
 "current status and the future of BibleTime."
 msgstr ""
+"El nuevo alfa (testing) para el entorno de la versión de KDE 4.0 está "
+"disponible. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Current_events#2008-01-12:_1.7alpha1_release\"> Lea el anuncio</ulink> para "
+"saber más acerca de lasituación actual y el futuro de BibleTime."
 
 #: content/en/sidebar_tips.xml:12(title)
 msgid "Sidebar tips"
-msgstr "Ayudas [?]"
+msgstr "Barra de consejos [?]"
 
 #: content/en/sidebar_tips.xml:14(summary)
-#, fuzzy
 msgid "BibleTime tips"
-msgstr "BibleTime"
+msgstr "consejos BibleTime"
 
 #: content/en/sidebar_tips.xml:16(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, platforma cruzada, Software, Biblia de "
+"Estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword"
 
 #: content/en/sidebar_tips.xml:25(para)
-#, fuzzy
 msgid ""
 "It will take you just a few minutes to update the webpage translation in "
 "your language. Helping with translations is something anybody can do and it "
@@ -2025,56 +2133,55 @@ msgstr ""
 
 #: content/en/layout.xml:8(year)
 msgid "1999"
-msgstr ""
+msgstr "1999"
 
 #: content/en/layout.xml:9(year)
 msgid "2000"
-msgstr ""
+msgstr "2000"
 
 #: content/en/layout.xml:10(year)
 msgid "2001"
-msgstr ""
+msgstr "2001"
 
 #: content/en/layout.xml:11(year)
 msgid "2002"
-msgstr ""
+msgstr "2002"
 
 #: content/en/layout.xml:12(year)
 msgid "2003"
-msgstr ""
+msgstr "2003"
 
 #: content/en/layout.xml:13(year)
 msgid "2004"
-msgstr ""
+msgstr "2004"
 
 #: content/en/layout.xml:14(year)
 msgid "2005"
-msgstr ""
+msgstr "2005"
 
 #: content/en/layout.xml:15(year)
 msgid "2006"
-msgstr ""
+msgstr "2006"
 
 #: content/en/layout.xml:16(year)
 msgid "2007"
-msgstr ""
+msgstr "2007"
 
 #: content/en/layout.xml:17(year)
 msgid "2008"
-msgstr ""
+msgstr "2008"
 
 #: content/en/layout.xml:18(year)
 msgid "2009"
-msgstr ""
+msgstr "2009"
 
 #: content/en/layout.xml:19(holder)
 msgid "The BibleTime developers"
 msgstr "Los desarrolladores de BibleTime"
 
 #: content/en/layout.xml:56(title)
-#, fuzzy
 msgid "Development wiki"
-msgstr "Desarrollo"
+msgstr "Wiki de Desarrollo"
 
 #: content/en/index.xml:9(title)
 msgid "BibleTime"
@@ -2082,13 +2189,16 @@ msgstr "BibleTime"
 
 #: content/en/index.xml:11(summary)
 msgid "Start page"
-msgstr ""
+msgstr "página de inicio"
 
 #: content/en/index.xml:13(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, index"
 msgstr ""
+"ibleTime, Linux, unix, FreeBSD, platforma cruzada, Software, Biblia de "
+"Estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, indice"
 
 #: content/en/error404.xml:10(title) content/en/error404.xml:12(summary)
 msgid "Error 404: File not found"
@@ -2100,6 +2210,9 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, sword, file not found, "
 "error"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, platforma cruzada, Software, Biblia de "
+"Estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, archivo no encontrado, error"
 
 #: content/en/error404.xml:23(title)
 msgid "The document is not available"
@@ -2116,7 +2229,6 @@ msgstr ""
 "navegación de la izquierda para ver si el documento fue movido."
 
 #: content/en/error404.xml:31(para)
-#, fuzzy
 msgid ""
 "If you cannat solve the problem, please report the URL that failed to "
 "<email>info@bibletime.info</email>. Thank you very much!"
@@ -2129,22 +2241,22 @@ msgid "Devotional"
 msgstr "Devocional"
 
 #: content/en/devotional.xml:10(summary)
-#, fuzzy
 msgid "BibleTime devotional"
-msgstr "Desarrollo de BiblieTime"
+msgstr "Devocional de BiblieTime"
 
 #: content/en/devotional.xml:11(keywords)
 msgid ""
 "BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
 "Bible, devotional, crosswire, sword"
 msgstr ""
+"BibleTime, Linux, Software, Biblia de estudio, estudio bíblico, KDE, Dios, "
+"Religion, Biblia, devocional, crosswire, sword"
 
 #: content/en/devotional.xml:15(title)
 msgid "Did you know..."
 msgstr "Sabías que..."
 
 #: content/en/devotional.xml:16(para)
-#, fuzzy
 msgid ""
 "Did you know that today in 2009, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
@@ -2166,7 +2278,6 @@ msgstr ""
 "perseguidos."
 
 #: content/en/devotional.xml:27(para)
-#, fuzzy
 msgid ""
 "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share "
 "its suffering... You are Christ's body and each of you is an individual part "
@@ -2181,9 +2292,8 @@ msgid "Mailinglists"
 msgstr "Listas de correo"
 
 #: content/en/development_mailinglists.xml:12(summary)
-#, fuzzy
 msgid "BibleTime's mailinglists"
-msgstr "Lista de correo para desarrolladores de BibleTime"
+msgstr "Lista de correo de BibleTime"
 
 #: content/en/development_mailinglists.xml:14(keywords)
 msgid ""
@@ -2191,13 +2301,15 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, mailing list, help, "
 "support, development"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, platforma cruzada, Software, Biblia de "
+"estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"lista de correo, ayuda, soporte, desarrollo"
 
 #: content/en/development_mailinglists.xml:22(title)
 msgid "BibleTime development mailing list"
 msgstr "Lista de correo para desarrolladores de BibleTime"
 
 #: content/en/development_mailinglists.xml:24(para)
-#, fuzzy
 msgid ""
 "To subscribe to the development mailing list of the BibleTime project please "
 "visit the following web page and enter your eMail address there: <ulink url="
@@ -2210,7 +2322,6 @@ msgstr ""
 "devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
 
 #: content/en/development_mailinglists.xml:30(para)
-#, fuzzy
 msgid ""
 "Archives of the BibleTime development mailing list are available at <ulink "
 "url=\"http://www.crosswire.org/pipermail/bt-devel/\"> www.crosswire.org/"
@@ -2221,37 +2332,36 @@ msgstr ""
 "org/pipermail/bt-devel</ulink>."
 
 #: content/en/development_mailinglists.xml:35(para)
-#, fuzzy
 msgid ""
 "To subscribe to the BibleTime Translations mailing list please visit the "
 "following web page and enter your eMail address there: <ulink url=\"https://"
 "lists.sourceforge.net/lists/listinfo/bibletime-translations\"> lists."
 "sourceforge.net/lists/listinfo/bibletime-translations</ulink>."
 msgstr ""
-"Para suscribirte a la lista de correo de desarrollo del proyecto BibleTime, "
-"por favor visita la siguiente página e ingresa tu dirección de correo "
-"electrónico allí: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
-"devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
+"Para suscribirte a la lista de correo de traducciones del proyecto "
+"BibleTime, por favor visita la siguiente página e ingresa tu dirección de "
+"correo electrónico allí: <ulink url=\"https://lists.sourceforge.net/lists/"
+"listinfo/bibletime-translations\"> lists.sourceforge.net/lists/listinfo/"
+"bibletime-translations</ulink>."
 
 #: content/en/development_mailinglists.xml:41(para)
-#, fuzzy
 msgid ""
 "To subscribe to the BibleTime commit log mailing list please visit the "
 "following web page and enter your eMail address there: <ulink url=\"https://"
 "lists.sourceforge.net/lists/listinfo/bibletime-cvs\"> lists.sourceforge.net/"
 "lists/listinfo/bibletime-cvs</ulink>."
 msgstr ""
-"Para suscribirte a la lista de correo de desarrollo del proyecto BibleTime, "
-"por favor visita la siguiente página e ingresa tu dirección de correo "
-"electrónico allí: <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
-"devel\">www.crosswire.org/mailman/listinfo/bt-devel</ulink>."
+"Para suscribirte a la lista de correo [?]commit log[?]  del proyecto "
+"BibleTime, por favor visita la siguiente página e ingresa tu dirección de "
+"correo electrónico allí: <ulink url=\"https://lists.sourceforge.net/lists/"
+"listinfo/bibletime-cvs\"> lists.sourceforge.net/lists/listinfo/bibletime-"
+"cvs</ulink>."
 
 #: content/en/development_mailinglists.xml:49(title)
 msgid "Sword development mailing list"
 msgstr "Lista de correo de desarrollo de Sword"
 
 #: content/en/development_mailinglists.xml:51(para)
-#, fuzzy
 msgid ""
 "To subscribe to the development mailing list of the Sword project please "
 "visit the following web page and enter your eMail address there: <ulink url="
@@ -2264,7 +2374,6 @@ msgstr ""
 "\">www.crosswire.org/mailman/listinfo/sword-devel</ulink>."
 
 #: content/en/development_mailinglists.xml:57(para)
-#, fuzzy
 msgid ""
 "Archives of the Sword development mailing list are available at <ulink url="
 "\"http://www.crosswire.org/pipermail/sword-devel/\"> www.crosswire.org/"
@@ -2289,22 +2398,23 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, sword, development team, "
 "translators, join"
 msgstr ""
+"BibleTime, Linux, unix, FreeBSD, platforma cruzada, Software, Biblia de "
+"estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, equipo de desarrollo, traductores, únete"
 
 #: content/en/development_join.xml:23(title)
 msgid "Join the BibleTime team"
 msgstr "Únete al equipo de BibleTime"
 
 #: content/en/development_join.xml:25(para)
-#, fuzzy
 msgid ""
 "We are thankful to everybody who helps us improve the BibleTime software, "
 "it's documentation and it's translations."
 msgstr ""
-"Estamos alegres por todos los que nos ayudan a mejorar el software de "
+"Estamos agradecidos por todos los que nos ayudan a mejorar el software de "
 "BibleTime, su documentación y sus traducciones."
 
 #: content/en/development_join.xml:31(title)
-#, fuzzy
 msgid "The basic steps..."
 msgstr "Los pasos básicos..."
 
@@ -2316,7 +2426,6 @@ msgstr ""
 "favor sígalos!"
 
 #: content/en/development_join.xml:39(para)
-#, fuzzy
 msgid ""
 "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</"
 "ulink>, please sign up for one. It is free. We need your username to add you "
@@ -2327,7 +2436,6 @@ msgstr ""
 "agregarte como miembro del equipo, asignarte tareas, etc."
 
 #: content/en/development_join.xml:47(para)
-#, fuzzy
 msgid ""
 "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
 "devel\"> BibleTime development mailing list</ulink>. All developers read "
@@ -2340,8 +2448,8 @@ msgstr ""
 "devel\">listas de correo de desarrollo de BibleTime</ulink>. Todos los "
 "desarrolladores leen esta lista de correo, así que todos saben lo que está "
 "pasando. También hay una lista de correo para los<ulink url=\"https://lists."
-"sourceforge.net/lists/listinfo/bibletime-cvs\">mensajes de [?]compromiso[?]</"
-"ulink> del proceso de desarrollo [?]que viene[?]."
+"sourceforge.net/lists/listinfo/bibletime-cvs\">mensajes de compromiso</"
+"ulink> del proceso de desarrollo que viene."
 
 #: content/en/development_join.xml:58(para)
 msgid ""
@@ -2357,16 +2465,14 @@ msgid "The next steps for software developers..."
 msgstr "Los siguientes pasos son para los desarrolladores de software..."
 
 #: content/en/development_join.xml:70(para)
-#, fuzzy
 msgid ""
 "Work through some of the Qt 4 tutorials to get used to programming with the "
 "tools BibleTime uses."
 msgstr ""
-"Trabaja con algunos tutoriales de QT 3 y KDE 3 para acostumbrarte a "
-"programar con lo que BibleTime usa."
+"Trabaja con algunos tutoriales de QT 4 para acostumbrarte a programar con lo "
+"que BibleTime usa."
 
 #: content/en/development_join.xml:76(para)
-#, fuzzy
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
 "Do not forget to add how difficult it should be."
@@ -2379,16 +2485,14 @@ msgid "The next steps for documentation authors..."
 msgstr "Los siguientes pasos son para autores de documentación..."
 
 #: content/en/development_join.xml:88(para)
-#, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
 "directory of the bibletime svn directory."
 msgstr ""
 "Lee la documentación existente en inglés. Está localizada en el directorio "
-"docs/ del directorio cvs de BibleTime."
+"docs/ del directorio svn de BibleTime."
 
 #: content/en/development_join.xml:94(para)
-#, fuzzy
 msgid ""
 "The documentation is stored in docbook format in the unicode subdirectories "
 "of each documentation part (handbook, Bible study howto, installation, "
@@ -2407,7 +2511,6 @@ msgid "The next steps for translators..."
 msgstr "Los siguientes pasos para los traductores..."
 
 #: content/en/development_join.xml:109(para)
-#, fuzzy
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
 "located at <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
@@ -2417,14 +2520,14 @@ msgstr ""
 "ulink>."
 
 #: content/en/development_join.xml:115(para)
-#, fuzzy
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
 "Lokalize</ulink>, if it is not yet installed on your system. It will help "
 "you a lot with the translation process."
 msgstr ""
-"Instala el programa KBabel, si es que no está instalado ya en tu sistema. "
-"Éste te ayudará un montón con el proceso de traducción."
+"Instala el programa <ulink url=\"http://userbase.kde.org/Lokalize\"> "
+"Lokalize</ulink>, si es que no está instalado ya en tu sistema. Éste te "
+"ayudará un montón con el proceso de traducción."
 
 #: content/en/development_join.xml:122(para)
 msgid ""
@@ -2439,22 +2542,28 @@ msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-translations mailing list</ulink>."
 msgstr ""
+"Subscribete a <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
+"bibletime-translations\"> la lista de correo Bibletime-translations</ulink>."
 
 #: content/en/development_join.xml:134(title)
 msgid "For everybody, regardless of participation level..."
-msgstr ""
+msgstr "Para todos, independientemente del nivel de participación..."
 
 #: content/en/development_join.xml:138(para)
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room."
 msgstr ""
+"Únete a nosotros en IRC! Podemos ser encontrados en la URL<ulink url="
+"\"http://www.freenode.net\">FreeNode Network</ulink>, en la sala #bibletime."
 
 #: content/en/development_join.xml:144(para)
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
 msgstr ""
+"Regístrese para obtener una cuenta en nuestra <ulink url=\"http://devel."
+"bibletime.info\"> wiki </ulink>, y hacer tu aporte allí."
 
 #: content/en/development_help.xml:13(title)
 msgid "Help us"
@@ -2462,18 +2571,17 @@ msgstr "Ayúdanos"
 
 #: content/en/development_help.xml:15(summary)
 msgid "Direct and indirect support for the development of BibleTime"
-msgstr ""
+msgstr "El apoyo directo e indirecto para el desarrollo de BibleTime"
 
 #: content/en/development_help.xml:16(keywords)
 msgid "BibleTime, Help us, Help BibleTime, Software"
-msgstr ""
+msgstr "BibleTime, ayúdanos, Ayuda BibleTime, Software"
 
 #: content/en/development_help.xml:20(title)
 msgid "Please help us ..."
 msgstr "Por favor ayúdanos ..."
 
 #: content/en/development_help.xml:22(para)
-#, fuzzy
 msgid ""
 "Our aim is to develop BibleTime into a really mature Bible study application "
 "that can by used by everyone. To ahieve this, we need your help. There are "
@@ -2504,7 +2612,6 @@ msgid "Do you want to report a bug or suggest a new feature?"
 msgstr "¿Quieres reportar un error o sugerir una nueva característica?"
 
 #: content/en/development_help.xml:39(para)
-#, fuzzy
 msgid ""
 "You can use <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;"
 "atid=100954\"> BibleTime's bug tracker</ulink> to report problems with "
@@ -2525,7 +2632,6 @@ msgstr ""
 "ya ha sido tratado (y por lo tanto ya está en estado \"cerrado\")."
 
 #: content/en/development_help.xml:49(para)
-#, fuzzy
 msgid ""
 "There is also <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;"
 "atid=350954\"> a place</ulink> where you can make suggestions for features "
@@ -2544,7 +2650,6 @@ msgid "Do you know how to program software?"
 msgstr "¿Sabes cómo programar software?"
 
 #: content/en/development_help.xml:60(para)
-#, fuzzy
 msgid ""
 "Do you know how to program in C++? Are you familiar with the Qt programming "
 "interface or are motivated to learn it? If you have time to regularly work "
@@ -2563,7 +2668,6 @@ msgid "Do you know how to write documentation?"
 msgstr "¿Sabes cómo escribir documentación?"
 
 #: content/en/development_help.xml:71(para)
-#, fuzzy
 msgid ""
 "Do you think you would be good in working on BibleTime's English "
 "documentation? If you think you are, please read the page <olink "
@@ -2574,12 +2678,10 @@ msgstr ""
 "\"development_join\">Únete a nosotros</olink>."
 
 #: content/en/development_help.xml:78(title)
-#, fuzzy
 msgid "Can you translate English into another language?"
 msgstr "¿Eres bueno en traducir del inglés a otro(s) idioma(s)?"
 
 #: content/en/development_help.xml:80(para)
-#, fuzzy
 msgid ""
 "BibleTime should be useable for everyone. That is why we need a translation "
 "into your language, if it is not yet available. If you decide to start "
@@ -2595,7 +2697,6 @@ msgstr ""
 "que deben ser traducidos."
 
 #: content/en/development_help.xml:88(para)
-#, fuzzy
 msgid ""
 "You can find more information about the translation process on the page "
 "<olink targetdocent=\"translations\">translation</olink>."
@@ -2613,9 +2714,11 @@ msgid ""
 "study, God, Religion, Bible, devotional, crosswire, sword, support, "
 "development"
 msgstr ""
+"BibleTime, Linux, unix, FreBSD, platforma cruzada, Software, Biblia de "
+"estudio, estudio bíblico, Dios, Religion, Biblia, devocional, crosswire, "
+"sword, soporte, desarrollo"
 
 #: content/en/development.xml:24(para)
-#, fuzzy
 msgid ""
 "These pages describe how you can join in the development of BibleTime and "
 "other ways you can help us! BibleTime's quality and usefulness depends on "
@@ -2626,7 +2729,6 @@ msgstr ""
 "ayuda de otros en gran medida."
 
 #: content/en/development.xml:29(para)
-#, fuzzy
 msgid ""
 "Please read the following pages very carefully to see what you can do to "
 "help us with the development!"
@@ -2636,9 +2738,8 @@ msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: content/en/development.xml:0(None)
-#, fuzzy
 msgid "translator-credits"
-msgstr "Traducciones"
+msgstr "Creditos de traducción"
 
 #, fuzzy
 #~ msgid "2007-11-04: BibleTime 1.6.5"
