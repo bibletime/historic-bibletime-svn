@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-26 23:40-0400\n"
-"PO-Revision-Date: 2009-08-26 06:49-0400\n"
+"POT-Creation-Date: 2009-09-20 23:25-0400\n"
+"PO-Revision-Date: 2009-09-20 18:08-0400\n"
 "Last-Translator: Roy E. Alvear <racl@gulix.cl>\n"
 "Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: content/en/translation.xml:9(title)
@@ -62,7 +62,7 @@ msgstr "Traducir la Interfaz de usuario del programa."
 
 #: content/en/translation.xml:33(para)
 msgid "Translate the Bible Study Howto."
-msgstr "Traduzca Cómo estudiar la biblia"
+msgstr "Traduzca Cómo Estudiar la Biblia"
 
 #: content/en/translation.xml:36(para) content/en/translation.xml:145(title)
 msgid "Translate the program's handbook."
@@ -133,6 +133,7 @@ msgstr ""
 "estadísticas se actualizarán después de eso."
 
 #: content/en/translation.xml:79(para)
+#, fuzzy
 msgid ""
 "For editing .po files we recommend that you use <ulink url=\"http://i18n.kde."
 "org/tools/kbabel/\">KBabel</ulink> which works on KDE. It has many advanced "
@@ -140,7 +141,7 @@ msgid ""
 "\">Lokalize</ulink> is another KDE based app, it will replace KBabel. <ulink "
 "url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file "
 "editor suitable for our documentation and website translations. <ulink url="
-"\"http://doc.qtsoftware.com/4.5/linguist-manual.html\"> Qt Linguist 4.5</"
+"\"http://qt.nokia.com/doc/4.5/linguist-manual.html\"> Qt Linguist 4.5</"
 "ulink> (part of the cross-platform Qt development package) is needed to "
 "translate the user interface which is in .ts format."
 msgstr ""
@@ -313,7 +314,7 @@ msgstr ""
 "electrónicas instaladas trabajando así para facilitar el crear y administrar "
 "sus propios marcadores. A continuación se muestra la \"lupa\" que puede "
 "mostrar información adicional acerca de una palabra o un trozo de texto. En "
-"este ejemplo, muestra detalles acerca del hebreo de la palabra KJV que se "
+"este ejemplo, muestra detalles acerca del hebreo de la palabra que la RV "
 "traduce como \"Dios \". La parte principal de la BibleTime ventana (llamado "
 "\"escritorio \") ofrece espacio para leer obras como Biblias,  comentarios, "
 "diccionarios u otros libros."
@@ -1464,7 +1465,7 @@ msgstr "Problemas de Uso"
 
 #: content/en/software_faq.xml:62(para)
 msgid "Is it possible to search for a specific Strong number?"
-msgstr "¿Es posible buscar por un número Strong específico?"
+msgstr "¿Es posible buscar por un número Fuente específico?"
 
 #: content/en/software_faq.xml:68(title)
 msgid "Using BibleTime 1.1 - 1.4.x"
@@ -1477,9 +1478,9 @@ msgid ""
 "the seachdialog and search for &lt;0120&gt; or any other Strong code."
 msgstr ""
 "Necesitas al menos BibleTime 1.1 para esto. Activa el uso por defecto de los "
-"números Strong en el diálogo de opciones (Sword-&gt;Configuración de "
-"Filtro). Luego abre el diálogo de búsqueda y busca por &lt;0120&gt; o "
-"cualquier otro código Strong."
+"números de Fuente (Strong) en el diálogo de opciones (Sword-&gt;"
+"Configuración de Filtro). Luego abre el diálogo de búsqueda y busca por "
+"&lt;0120&gt; o cualquier otro código Strong."
 
 #: content/en/software_faq.xml:73(title)
 msgid "Using BibleTime 1.5 or later"
@@ -1493,7 +1494,7 @@ msgid ""
 msgstr ""
 "La interfaz de búsqueda ahora ofrece la posibilidad de establecer el tipo de "
 "búsqueda que vas a realizar. Puedes elegir entre encabezados, notas al pie, "
-"números [de] Strong y números morfológicos."
+"números de Fuente (Strong) y números morfológicos."
 
 #: content/en/software_faq.xml:82(para)
 msgid "Why do I see only question marks instead of Unicode text?"
@@ -1527,14 +1528,14 @@ msgstr "Módulos"
 
 #: content/en/software_faq.xml:101(para)
 msgid "The KJV shows no Strong numbers in the NT"
-msgstr "La KJV muestra los números sin negrita en el Nuevo Testamento"
+msgstr "La RV muestra los números sin Fuente en el Nuevo Testamento"
 
 #: content/en/software_faq.xml:105(para)
 msgid ""
 "You're probably using an outdated version of the KJV module. Please update "
 "the module."
 msgstr ""
-"Probablemente estás usando una versión desactualizada del módulo KJV. Por "
+"Probablemente estás usando una versión desactualizada del módulo RV. Por "
 "favor actualiza el módulo."
 
 #: content/en/software_faq.xml:113(para)
@@ -1676,10 +1677,11 @@ msgid "Introduction"
 msgstr "Introducción"
 
 #: content/en/software_about.xml:23(para)
+#, fuzzy
 msgid ""
-"BibleTime is a Bible study application built with <ulink url=\"http://www."
-"qtsoftware.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire."
-"org/sword/\"> Sword</ulink> programming library to work with Bible texts, "
+"BibleTime is a Bible study application built with <ulink url=\"http://qt."
+"nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/"
+"sword/\"> Sword</ulink> programming library to work with Bible texts, "
 "commentaries, dictionaries and books provided by the <ulink url=\"http://www."
 "crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
@@ -1813,12 +1815,13 @@ msgid "Welcome to the BibleTime project."
 msgstr "Bienvenido al proyecto BibleTime."
 
 #: content/en/software.xml:24(para)
+#, fuzzy
 msgid ""
 "<placeholder-1/> BibleTime is a Bible study application built with <ulink "
-"url=\"http://www.qtsoftware.com/\">Qt4</ulink>, using the <ulink url="
-"\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to "
-"work with Bible texts, commentaries, dictionaries and books provided by the "
-"<ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
+"url=\"http://qt.nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www."
+"crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible "
+"texts, commentaries, dictionaries and books provided by the <ulink url="
+"\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
 "BibleTime es un aplicación de estudio de la Biblia para Linux. Está basada "
 "en <ulink url=\"http://www.qtsoftware.com/\">Qt4</ulink>/<ulink url=\"http://"
