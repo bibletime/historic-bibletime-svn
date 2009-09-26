@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-26 23:40-0400\n"
+"POT-Creation-Date: 2009-09-25 22:07-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,7 @@ msgid ""
 "\">Lokalize</ulink> is another KDE based app, it will replace KBabel. <ulink "
 "url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file "
 "editor suitable for our documentation and website translations. <ulink url="
-"\"http://doc.qtsoftware.com/4.5/linguist-manual.html\"> Qt Linguist 4.5</"
+"\"http://qt.nokia.com/doc/4.5/linguist-manual.html\"> Qt Linguist 4.5</"
 "ulink> (part of the cross-platform Qt development package) is needed to "
 "translate the user interface which is in .ts format."
 msgstr ""
@@ -1438,9 +1438,9 @@ msgstr ""
 
 #: content/en/software_about.xml:23(para)
 msgid ""
-"BibleTime is a Bible study application built with <ulink url=\"http://www."
-"qtsoftware.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire."
-"org/sword/\"> Sword</ulink> programming library to work with Bible texts, "
+"BibleTime is a Bible study application built with <ulink url=\"http://qt."
+"nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/"
+"sword/\"> Sword</ulink> programming library to work with Bible texts, "
 "commentaries, dictionaries and books provided by the <ulink url=\"http://www."
 "crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
@@ -1561,10 +1561,10 @@ msgstr "Bun Venit la proiectul BibleTime!"
 #: content/en/software.xml:24(para)
 msgid ""
 "<placeholder-1/> BibleTime is a Bible study application built with <ulink "
-"url=\"http://www.qtsoftware.com/\">Qt4</ulink>, using the <ulink url="
-"\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to "
-"work with Bible texts, commentaries, dictionaries and books provided by the "
-"<ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
+"url=\"http://qt.nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www."
+"crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible "
+"texts, commentaries, dictionaries and books provided by the <ulink url="
+"\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
 
 #: content/en/software.xml:42(title)
@@ -1573,111 +1573,121 @@ msgid "News about BibleTime"
 msgstr "Despre BibleTime"
 
 #: content/en/software.xml:45(title)
-msgid "2009-08-26 2.2 release"
+msgid "2009-09-25 2.2 release"
 msgstr ""
 
 #: content/en/software.xml:47(para)
+msgid ""
+"BibleTime 2.3.beta1 has been released. <ulink url=\"http://devel.bibletime."
+"info/wiki/Release_announcements\"> More...</ulink>"
+msgstr ""
+
+#: content/en/software.xml:54(title)
+msgid "2009-08-26 2.2 release"
+msgstr ""
+
+#: content/en/software.xml:56(para)
 msgid ""
 "BibleTime 2.2 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:54(title)
+#: content/en/software.xml:63(title)
 msgid "2009-08-19 2.2.rc1 release"
 msgstr ""
 
-#: content/en/software.xml:56(para)
+#: content/en/software.xml:65(para)
 msgid ""
 "BibleTime 2.2.rc1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:63(title)
+#: content/en/software.xml:72(title)
 msgid "2009-08-12 2.2.beta1 release"
 msgstr ""
 
-#: content/en/software.xml:65(para)
+#: content/en/software.xml:74(para)
 msgid ""
 "BibleTime 2.2.beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:72(title)
+#: content/en/software.xml:81(title)
 msgid "2009-07-12 2.1 release"
 msgstr ""
 
-#: content/en/software.xml:74(para)
+#: content/en/software.xml:83(para)
 msgid ""
 "BibleTime 2.1 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:81(title)
+#: content/en/software.xml:90(title)
 msgid "2009-07-05 2.1.rc1 release"
 msgstr ""
 
-#: content/en/software.xml:83(para)
+#: content/en/software.xml:92(para)
 msgid ""
 "BibleTime 2.1.rc1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:90(title)
+#: content/en/software.xml:99(title)
 msgid "2009-06-28 2.1.beta1 release"
 msgstr ""
 
-#: content/en/software.xml:92(para)
+#: content/en/software.xml:101(para)
 msgid ""
 "BibleTime 2.1.beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:99(title)
+#: content/en/software.xml:108(title)
 msgid "2009-06-06 2.0.1 bugfix release"
 msgstr ""
 
-#: content/en/software.xml:101(para)
+#: content/en/software.xml:110(para)
 msgid ""
 "BibleTime 2.0.1 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:108(title)
+#: content/en/software.xml:117(title)
 msgid "2009-05-28: 2.0 release"
 msgstr ""
 
-#: content/en/software.xml:110(para)
+#: content/en/software.xml:119(para)
 msgid ""
 "BibleTime 2.0 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:117(title)
+#: content/en/software.xml:126(title)
 msgid "2009-05-20: 2.0rc1 release"
 msgstr ""
 
-#: content/en/software.xml:119(para)
+#: content/en/software.xml:128(para)
 msgid ""
 "BibleTime 2.0rc1 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:126(title)
+#: content/en/software.xml:135(title)
 msgid "2009-05-16: 2.0beta3 release"
 msgstr ""
 
-#: content/en/software.xml:128(para)
+#: content/en/software.xml:137(para)
 msgid ""
 "BibleTime 2.0beta3 has been released. Reminder to tranlators to prepare the "
 "User Interface translation for the upcoming Release Candidate. <ulink url="
 "\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:137(title)
+#: content/en/software.xml:146(title)
 msgid "2009-04-29: 2.0beta2 release"
 msgstr ""
 
-#: content/en/software.xml:139(para)
+#: content/en/software.xml:148(para)
 msgid ""
 "BibleTime 2.0beta2 has been released. Now is a good time for tranlators to "
 "get their work prepared in time for the upcoming Release Candidate. <ulink "
@@ -1685,83 +1695,83 @@ msgid ""
 "ulink>"
 msgstr ""
 
-#: content/en/software.xml:148(title)
+#: content/en/software.xml:157(title)
 msgid "2009-04-22: 2.0beta1 release"
 msgstr ""
 
-#: content/en/software.xml:150(para)
+#: content/en/software.xml:159(para)
 msgid ""
 "BibleTime 2.0beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:157(title)
+#: content/en/software.xml:166(title)
 msgid "2009-03-25: 2.0alpha3 release"
 msgstr ""
 
-#: content/en/software.xml:159(para)
+#: content/en/software.xml:168(para)
 msgid ""
 "BibleTime 2.0alpha3 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:166(title)
+#: content/en/software.xml:175(title)
 msgid "2009-03-20: 2.0alpha2 release"
 msgstr ""
 
-#: content/en/software.xml:168(para)
+#: content/en/software.xml:177(para)
 msgid ""
 "BibleTime 2.0alpha2 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:175(title)
+#: content/en/software.xml:184(title)
 msgid "2009-03-07: 2.0alpha1 release"
 msgstr ""
 
-#: content/en/software.xml:177(para)
+#: content/en/software.xml:186(para)
 msgid ""
 "BibleTime 2.0alpha1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:184(title)
+#: content/en/software.xml:193(title)
 msgid "2009-02-07: 1.7 release"
 msgstr ""
 
-#: content/en/software.xml:186(para)
+#: content/en/software.xml:195(para)
 msgid ""
 "BibleTime 1.7 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:193(title)
+#: content/en/software.xml:202(title)
 msgid "2009-02-03: 1.7rc1 release"
 msgstr ""
 
-#: content/en/software.xml:195(para)
+#: content/en/software.xml:204(para)
 msgid ""
 "BibleTime 1.7rc1 was just released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:202(title)
+#: content/en/software.xml:211(title)
 msgid "2008-12-13: 1.7beta3 release"
 msgstr ""
 
-#: content/en/software.xml:204(para)
+#: content/en/software.xml:213(para)
 msgid ""
 "BibleTime 1.7.beta3 was just released. The Sword requirement was set back to "
 "1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements"
 "\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:212(title)
+#: content/en/software.xml:221(title)
 #, fuzzy
 msgid "2008-09-18: BibleTime 1.7beta2"
 msgstr "A aparut BibleTime 1.3beta4"
 
-#: content/en/software.xml:214(para)
+#: content/en/software.xml:223(para)
 msgid ""
 "BibleTime 1.7beta2 has been released. Though this version is labeled as beta "
 "it is completely usable and should be stable for daily work. Packagers and "
@@ -1769,30 +1779,30 @@ msgid ""
 "bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:223(title)
+#: content/en/software.xml:232(title)
 #, fuzzy
 msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
 msgstr "A aparut BibleTime 1.3beta4"
 
-#: content/en/software.xml:224(para)
+#: content/en/software.xml:233(para)
 msgid ""
 "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url="
 "\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</"
 "ulink> how to setup your Linux to get the new packages."
 msgstr ""
 
-#: content/en/software.xml:229(para)
+#: content/en/software.xml:238(para)
 msgid ""
 "Version 1.6.5.1 has been released. It contains fixes so it can be installed "
 "on current versions of Linux."
 msgstr ""
 
-#: content/en/software.xml:234(title)
+#: content/en/software.xml:243(title)
 #, fuzzy
 msgid "2008-01-12: BibleTime 1.7alpha1"
 msgstr "A aparut BibleTime 1.3beta4"
 
-#: content/en/software.xml:235(para)
+#: content/en/software.xml:244(para)
 msgid ""
 "The new alpha (testing) version for the KDE 4.0 environment is available. "
 "<ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:"
