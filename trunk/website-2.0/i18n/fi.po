@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_fi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-03 21:37-0400\n"
+"POT-Creation-Date: 2009-10-06 23:04-0400\n"
 "PO-Revision-Date: 2009-03-13 08:37+0200\n"
 "Last-Translator: Ilpo Kantonen <ilpo@iki.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
@@ -2130,10 +2130,24 @@ msgid "News about BibleTime"
 msgstr "Uutisia BibleTimestä"
 
 #: content/en/software.xml:45(title)
+#, fuzzy
+msgid "2009-10-06 2.3 release"
+msgstr "3.2.2009: Bibletime 1.7 RC 1"
+
+#: content/en/software.xml:47(para)
+#, fuzzy
+msgid ""
+"BibleTime 2.3 has been released. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> More...</ulink>"
+msgstr ""
+"BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
+"bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
+
+#: content/en/software.xml:54(title)
 msgid "Join us for our first Bug-a-thon"
 msgstr ""
 
-#: content/en/software.xml:47(para)
+#: content/en/software.xml:56(para)
 #, fuzzy
 msgid ""
 "We are hosting a Bug-a-thon on October 9, <ulink url=\"http://devel."
@@ -2142,12 +2156,12 @@ msgstr ""
 "Kirjaudu (rekisteröidy) meidän <ulink url=\"http://devel.bibletime.info"
 "\">wikiin</ulink>, ja avusta meitä siellä."
 
-#: content/en/software.xml:54(title)
+#: content/en/software.xml:63(title)
 #, fuzzy
 msgid "2009-09-30 2.3.rc1 release"
 msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
-#: content/en/software.xml:56(para)
+#: content/en/software.xml:65(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.3.rc1 has been released. <ulink url=\"http://devel.bibletime."
@@ -2156,12 +2170,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:63(title)
+#: content/en/software.xml:72(title)
 #, fuzzy
 msgid "2009-09-25 2.3.beta1 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:65(para)
+#: content/en/software.xml:74(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.3.beta1 has been released. <ulink url=\"http://devel.bibletime."
@@ -2170,12 +2184,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:72(title)
+#: content/en/software.xml:81(title)
 #, fuzzy
 msgid "2009-08-26 2.2 release"
 msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
-#: content/en/software.xml:74(para)
+#: content/en/software.xml:83(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.2 has been released. <ulink url=\"http://devel.bibletime.info/"
@@ -2184,12 +2198,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:81(title)
+#: content/en/software.xml:90(title)
 #, fuzzy
 msgid "2009-08-19 2.2.rc1 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:83(para)
+#: content/en/software.xml:92(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.2.rc1 has been released. <ulink url=\"http://devel.bibletime."
@@ -2198,12 +2212,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:90(title)
+#: content/en/software.xml:99(title)
 #, fuzzy
 msgid "2009-08-12 2.2.beta1 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:92(para)
+#: content/en/software.xml:101(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.2.beta1 has been released. <ulink url=\"http://devel.bibletime."
@@ -2212,12 +2226,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:99(title)
+#: content/en/software.xml:108(title)
 #, fuzzy
 msgid "2009-07-12 2.1 release"
 msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
-#: content/en/software.xml:101(para)
+#: content/en/software.xml:110(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.1 has been released. <ulink url=\"http://devel.bibletime.info/"
@@ -2226,12 +2240,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:108(title)
+#: content/en/software.xml:117(title)
 #, fuzzy
 msgid "2009-07-05 2.1.rc1 release"
 msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
-#: content/en/software.xml:110(para)
+#: content/en/software.xml:119(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.1.rc1 has been released. <ulink url=\"http://devel.bibletime."
@@ -2240,12 +2254,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:117(title)
+#: content/en/software.xml:126(title)
 #, fuzzy
 msgid "2009-06-28 2.1.beta1 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:119(para)
+#: content/en/software.xml:128(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.1.beta1 has been released. <ulink url=\"http://devel.bibletime."
@@ -2254,12 +2268,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:126(title)
+#: content/en/software.xml:135(title)
 #, fuzzy
 msgid "2009-06-06 2.0.1 bugfix release"
 msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
-#: content/en/software.xml:128(para)
+#: content/en/software.xml:137(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.0.1 has been released. <ulink url=\"http://devel.bibletime.info/"
@@ -2268,12 +2282,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:135(title)
+#: content/en/software.xml:144(title)
 #, fuzzy
 msgid "2009-05-28: 2.0 release"
 msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
-#: content/en/software.xml:137(para)
+#: content/en/software.xml:146(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.0 has been released. <ulink url=\"http://devel.bibletime.info/"
@@ -2282,12 +2296,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:144(title)
+#: content/en/software.xml:153(title)
 #, fuzzy
 msgid "2009-05-20: 2.0rc1 release"
 msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
-#: content/en/software.xml:146(para)
+#: content/en/software.xml:155(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.0rc1 has been released. <ulink url=\"http://devel.bibletime.info/"
@@ -2296,12 +2310,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:153(title)
+#: content/en/software.xml:162(title)
 #, fuzzy
 msgid "2009-05-16: 2.0beta3 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:155(para)
+#: content/en/software.xml:164(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.0beta3 has been released. Reminder to tranlators to prepare the "
@@ -2311,12 +2325,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:164(title)
+#: content/en/software.xml:173(title)
 #, fuzzy
 msgid "2009-04-29: 2.0beta2 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:166(para)
+#: content/en/software.xml:175(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.0beta2 has been released. Now is a good time for tranlators to "
@@ -2327,12 +2341,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:175(title)
+#: content/en/software.xml:184(title)
 #, fuzzy
 msgid "2009-04-22: 2.0beta1 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:177(para)
+#: content/en/software.xml:186(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.0beta1 has been released. <ulink url=\"http://devel.bibletime."
@@ -2341,12 +2355,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:184(title)
+#: content/en/software.xml:193(title)
 #, fuzzy
 msgid "2009-03-25: 2.0alpha3 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:186(para)
+#: content/en/software.xml:195(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.0alpha3 has been released. <ulink url=\"http://devel.bibletime."
@@ -2355,12 +2369,12 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:193(title)
+#: content/en/software.xml:202(title)
 #, fuzzy
 msgid "2009-03-20: 2.0alpha2 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:195(para)
+#: content/en/software.xml:204(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.0alpha2 has been released. <ulink url=\"http://devel.bibletime."
@@ -2369,11 +2383,11 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:202(title)
+#: content/en/software.xml:211(title)
 msgid "2009-03-07: 2.0alpha1 release"
 msgstr "7.3.2009: BibleTime 2.0 alfa1 -julkaisu"
 
-#: content/en/software.xml:204(para)
+#: content/en/software.xml:213(para)
 msgid ""
 "BibleTime 2.0alpha1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
@@ -2381,11 +2395,11 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 2.0 alfa1. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:211(title)
+#: content/en/software.xml:220(title)
 msgid "2009-02-07: 1.7 release"
 msgstr "7.2.2009: BibleTime 1.7"
 
-#: content/en/software.xml:213(para)
+#: content/en/software.xml:222(para)
 msgid ""
 "BibleTime 1.7 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
@@ -2393,11 +2407,11 @@ msgstr ""
 "BibleTimestä on julkistettu uusi versio 1.7. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:220(title)
+#: content/en/software.xml:229(title)
 msgid "2009-02-03: 1.7rc1 release"
 msgstr "3.2.2009: Bibletime 1.7 RC 1"
 
-#: content/en/software.xml:222(para)
+#: content/en/software.xml:231(para)
 msgid ""
 "BibleTime 1.7rc1 was just released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
@@ -2405,11 +2419,11 @@ msgstr ""
 "Juuri julkistettiin BibleTime 1.7 RC1. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:229(title)
+#: content/en/software.xml:238(title)
 msgid "2008-12-13: 1.7beta3 release"
 msgstr "13.12.2008: BibleTime 1.7 beta3"
 
-#: content/en/software.xml:231(para)
+#: content/en/software.xml:240(para)
 msgid ""
 "BibleTime 1.7.beta3 was just released. The Sword requirement was set back to "
 "1.5.9. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements"
@@ -2419,11 +2433,11 @@ msgstr ""
 "version 1.5.9 mukaisiksi. <ulink url=\"http://devel.bibletime.info/wiki/"
 "Release_announcements\"> Lue lisää...</ulink>"
 
-#: content/en/software.xml:239(title)
+#: content/en/software.xml:248(title)
 msgid "2008-09-18: BibleTime 1.7beta2"
 msgstr "18.9.2008: BibleTime 1.7 beta2"
 
-#: content/en/software.xml:241(para)
+#: content/en/software.xml:250(para)
 msgid ""
 "BibleTime 1.7beta2 has been released. Though this version is labeled as beta "
 "it is completely usable and should be stable for daily work. Packagers and "
@@ -2436,11 +2450,11 @@ msgstr ""
 "\"http://devel.bibletime.info/wiki/Release_announcements\"> Lue lisää...</"
 "ulink>"
 
-#: content/en/software.xml:250(title)
+#: content/en/software.xml:259(title)
 msgid "2008-05-10: Ubuntu packages, BibleTime 1.6.5.1"
 msgstr "10.5.2008: BibleTime 1.6.5.1 Ubuntu-paketit"
 
-#: content/en/software.xml:251(para)
+#: content/en/software.xml:260(para)
 msgid ""
 "Finally there are packages available for Ubuntu 8.04 and 7.10. <ulink url="
 "\"https://launchpad.net/~txwikinger/+archive\">R. Janke describes here</"
@@ -2451,7 +2465,7 @@ msgstr ""
 "tässä</ulink>, kuinka asetat Linux-järjestelmäsi vastaanottamaan uudet "
 "asennuspaketit."
 
-#: content/en/software.xml:256(para)
+#: content/en/software.xml:265(para)
 msgid ""
 "Version 1.6.5.1 has been released. It contains fixes so it can be installed "
 "on current versions of Linux."
@@ -2459,11 +2473,11 @@ msgstr ""
 "Versio 1.6.5.1 on julkistettu. Se sisältää virheenkorjauksia. Sen voi "
 "asentaa Linux-järjestelmässä nykyisen version päälle."
 
-#: content/en/software.xml:261(title)
+#: content/en/software.xml:270(title)
 msgid "2008-01-12: BibleTime 1.7alpha1"
 msgstr "12.1.2008: BibleTime 1.7 alfa 1"
 
-#: content/en/software.xml:262(para)
+#: content/en/software.xml:271(para)
 msgid ""
 "The new alpha (testing) version for the KDE 4.0 environment is available. "
 "<ulink url=\"http://devel.bibletime.info/wiki/Current_events#2008-01-12:"
