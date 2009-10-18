@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-16 12:18-0400\n"
+"POT-Creation-Date: 2009-10-18 00:48-0400\n"
 "PO-Revision-Date: 2005-12-02 15:01+0100\n"
 "Last-Translator: Haavard Haugen <havard.haugen@gmail.com>\n"
 "Language-Team: nynorsk <nn@li.org>\n"
@@ -46,12 +46,12 @@ msgstr ""
 "trengst. Det er vårt ynskje å tilby BibleTime til brukarar på så mange språk "
 "som mogeleg. Dei følgjande områda er opne for bidrag frå deg:"
 
-#: content/en/translation.xml:27(para) content/en/translation.xml:100(title)
+#: content/en/translation.xml:27(para) content/en/translation.xml:99(title)
 #, fuzzy
 msgid "Translate the www.bibletime.info website."
 msgstr "<para>Oversett nettsida www.bibletime.info.</para>"
 
-#: content/en/translation.xml:30(para) content/en/translation.xml:114(title)
+#: content/en/translation.xml:30(para) content/en/translation.xml:113(title)
 #, fuzzy
 msgid "Translate the program's User Interface."
 msgstr "<para>Oversett brukargrensesnittet til programmet.</para>"
@@ -61,12 +61,12 @@ msgstr "<para>Oversett brukargrensesnittet til programmet.</para>"
 msgid "Translate the Bible Study Howto."
 msgstr "Bibelstudieguiden"
 
-#: content/en/translation.xml:36(para) content/en/translation.xml:143(title)
+#: content/en/translation.xml:36(para) content/en/translation.xml:142(title)
 #, fuzzy
 msgid "Translate the program's handbook."
 msgstr "<para>Oversett handboka til programmet.</para>"
 
-#: content/en/translation.xml:39(para) content/en/translation.xml:156(title)
+#: content/en/translation.xml:39(para) content/en/translation.xml:155(title)
 #, fuzzy
 msgid "Translate the biblical booknames."
 msgstr "<para>Oversett handboka til programmet.</para>"
@@ -145,19 +145,20 @@ msgstr ""
 #: content/en/translation.xml:101(para)
 #, fuzzy
 msgid ""
-"If a translation of the website to your language does not yet exist, you can "
-"download and translate the <ulink url=\"/po/bibletime_website_template.pot"
-"\">Webpage translation template</ulink>. If you want to update an existing "
-"translation, use the links in the table below to download the corresponding "
-"file. We usually add the translated pages and the flag at the top if a "
-"translation is about 80% complete."
+"If a translation of the website in your language does not yet exist, you can "
+"download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/"
+"viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Webpage "
+"translation template</ulink>. If you want to update an existing translation, "
+"use the links in the table below to download the corresponding file. We "
+"usually add the translated pages and the flag at the top if a translation is "
+"about 80% complete."
 msgstr ""
 "Dersom det enno ikkje eksisterer ei omsetjing av nettsida til ditt språk, "
 "kan du lasta ned og omsetja <ulink url=\"/en/pot/full.pot\">malfila for "
 "omsetjing av nettsida</ulink>. Bruk lekkjene i tabellen under dersom du vil "
 "oppdatere ei allereie eksisterande omsetjing."
 
-#: content/en/translation.xml:115(para)
+#: content/en/translation.xml:114(para)
 #, fuzzy
 msgid ""
 "If a translation of the User Interface to your language does not yet exist, "
@@ -173,19 +174,19 @@ msgstr ""
 "\">malfila for omsetjing av brukargrensesnittet</ulink>. Bruk lekkjene i "
 "tabellen under dersom du vil oppdatere ei allereie eksisterande omsetjing."
 
-#: content/en/translation.xml:121(para)
+#: content/en/translation.xml:120(para)
 msgid ""
 "Starting at 1.7, we have moved translation format to Qt's .ts file format "
 "from the previous .po format. Due to the changes, the translations need a "
 "thorough rewrite."
 msgstr ""
 
-#: content/en/translation.xml:130(title)
+#: content/en/translation.xml:129(title)
 #, fuzzy
 msgid "Translate the Bible study howto."
 msgstr "Bibelstudieguiden"
 
-#: content/en/translation.xml:131(para)
+#: content/en/translation.xml:130(para)
 #, fuzzy
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
@@ -201,7 +202,7 @@ msgstr ""
 "\">malfila for omsetjing av handboka</ulink>. Bruk lekkjene i tabellen under "
 "dersom du vil oppdatere ei allereie eksisterande omsetjing."
 
-#: content/en/translation.xml:144(para)
+#: content/en/translation.xml:143(para)
 #, fuzzy
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
@@ -217,7 +218,7 @@ msgstr ""
 "\">malfila for omsetjing av handboka</ulink>. Bruk lekkjene i tabellen under "
 "dersom du vil oppdatere ei allereie eksisterande omsetjing."
 
-#: content/en/translation.xml:157(para)
+#: content/en/translation.xml:156(para)
 msgid ""
 "Translated Bible book names come from the Sword project. There are no good "
 "instructions at the moment but you can find some information and examples by "
@@ -3059,3 +3060,9 @@ msgid ""
 msgstr ""
 "Ver venleg og les dei følgjande sidene nøye for å sjå om du kan hjelpa oss "
 "med utviklinga!"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: content/en/development.xml:0(None)
+#, fuzzy
+msgid "translator-credits"
+msgstr "Omsetjingar"

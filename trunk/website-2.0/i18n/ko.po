@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-16 12:18-0400\n"
+"POT-Creation-Date: 2009-10-18 00:48-0400\n"
 "PO-Revision-Date: 2004-02-04 11:05+0545\n"
 "Last-Translator:  <s970501@ku.edu.np>\n"
 "Language-Team:  <ko@li.org>\n"
@@ -45,12 +45,12 @@ msgstr ""
 "임이 가능한한 많은 언어로 지원되길 소망합니다. 다음의 영역들이 당신의 도움을 "
 "필요로 하고 있습니다:"
 
-#: content/en/translation.xml:27(para) content/en/translation.xml:100(title)
+#: content/en/translation.xml:27(para) content/en/translation.xml:99(title)
 #, fuzzy
 msgid "Translate the www.bibletime.info website."
 msgstr "<para>www.bibletime.info 웹사이트의 번역.</para>"
 
-#: content/en/translation.xml:30(para) content/en/translation.xml:114(title)
+#: content/en/translation.xml:30(para) content/en/translation.xml:113(title)
 #, fuzzy
 msgid "Translate the program's User Interface."
 msgstr "<para>프로그램의 사용자 인터페이스의 번역.</para>"
@@ -60,12 +60,12 @@ msgstr "<para>프로그램의 사용자 인터페이스의 번역.</para>"
 msgid "Translate the Bible Study Howto."
 msgstr "바이블스터디 하우투"
 
-#: content/en/translation.xml:36(para) content/en/translation.xml:143(title)
+#: content/en/translation.xml:36(para) content/en/translation.xml:142(title)
 #, fuzzy
 msgid "Translate the program's handbook."
 msgstr "<para>프로그램 핸드북의 번역.</para>"
 
-#: content/en/translation.xml:39(para) content/en/translation.xml:156(title)
+#: content/en/translation.xml:39(para) content/en/translation.xml:155(title)
 #, fuzzy
 msgid "Translate the biblical booknames."
 msgstr "<para>프로그램 핸드북의 번역.</para>"
@@ -138,19 +138,20 @@ msgstr ""
 #: content/en/translation.xml:101(para)
 #, fuzzy
 msgid ""
-"If a translation of the website to your language does not yet exist, you can "
-"download and translate the <ulink url=\"/po/bibletime_website_template.pot"
-"\">Webpage translation template</ulink>. If you want to update an existing "
-"translation, use the links in the table below to download the corresponding "
-"file. We usually add the translated pages and the flag at the top if a "
-"translation is about 80% complete."
+"If a translation of the website in your language does not yet exist, you can "
+"download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/"
+"viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Webpage "
+"translation template</ulink>. If you want to update an existing translation, "
+"use the links in the table below to download the corresponding file. We "
+"usually add the translated pages and the flag at the top if a translation is "
+"about 80% complete."
 msgstr ""
 "당신의 언어로의 웹사이트 번역이 존재하지 않는다면, <ulink url=\"/en/pot/full."
 "pot\">웹페이지 번역 템플릿</ulink>에서 템플릿을 다운로드하여 번역하실 수 있습"
 "니다. 기존의 번역을 업데이트하시려면, 아래의 테이블에서 필요한 파일을 다운로"
 "드 하십시오."
 
-#: content/en/translation.xml:115(para)
+#: content/en/translation.xml:114(para)
 #, fuzzy
 msgid ""
 "If a translation of the User Interface to your language does not yet exist, "
@@ -166,19 +167,19 @@ msgstr ""
 "번역하십시오. 기존의 번역을 업데이트하시려면, 아래 테이블에서 필요한 파일을 "
 "다운로드하십시오."
 
-#: content/en/translation.xml:121(para)
+#: content/en/translation.xml:120(para)
 msgid ""
 "Starting at 1.7, we have moved translation format to Qt's .ts file format "
 "from the previous .po format. Due to the changes, the translations need a "
 "thorough rewrite."
 msgstr ""
 
-#: content/en/translation.xml:130(title)
+#: content/en/translation.xml:129(title)
 #, fuzzy
 msgid "Translate the Bible study howto."
 msgstr "바이블스터디 하우투"
 
-#: content/en/translation.xml:131(para)
+#: content/en/translation.xml:130(para)
 #, fuzzy
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
@@ -194,7 +195,7 @@ msgstr ""
 "있습니다. 기존의 번역을 업데이트하고 싶으시면, 아래의 테이블에서 필요한 파일"
 "을 다운로드하실 수 있습니다."
 
-#: content/en/translation.xml:144(para)
+#: content/en/translation.xml:143(para)
 #, fuzzy
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
@@ -210,7 +211,7 @@ msgstr ""
 "있습니다. 기존의 번역을 업데이트하고 싶으시면, 아래의 테이블에서 필요한 파일"
 "을 다운로드하실 수 있습니다."
 
-#: content/en/translation.xml:157(para)
+#: content/en/translation.xml:156(para)
 msgid ""
 "Translated Bible book names come from the Sword project. There are no good "
 "instructions at the moment but you can find some information and examples by "

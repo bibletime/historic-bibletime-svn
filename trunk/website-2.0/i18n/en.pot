@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2009-10-16 13:05-0400\n"
+"POT-Creation-Date: 2009-10-18 00:48-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr ""
 msgid "This is a part of software development where the help of many individuals is needed. It is our desire to offer BibleTime to users in as many languages as possible. The following areas are open for your contributions:"
 msgstr ""
 
-#: content/en/translation.xml:27(para) content/en/translation.xml:100(title) 
+#: content/en/translation.xml:27(para) content/en/translation.xml:99(title) 
 msgid "Translate the www.bibletime.info website."
 msgstr ""
 
-#: content/en/translation.xml:30(para) content/en/translation.xml:114(title) 
+#: content/en/translation.xml:30(para) content/en/translation.xml:113(title) 
 msgid "Translate the program's User Interface."
 msgstr ""
 
@@ -41,11 +41,11 @@ msgstr ""
 msgid "Translate the Bible Study Howto."
 msgstr ""
 
-#: content/en/translation.xml:36(para) content/en/translation.xml:143(title) 
+#: content/en/translation.xml:36(para) content/en/translation.xml:142(title) 
 msgid "Translate the program's handbook."
 msgstr ""
 
-#: content/en/translation.xml:39(para) content/en/translation.xml:156(title) 
+#: content/en/translation.xml:39(para) content/en/translation.xml:155(title) 
 msgid "Translate the biblical booknames."
 msgstr ""
 
@@ -82,30 +82,30 @@ msgid "A list of the language abbreviations is available at <ulink url=\"http://
 msgstr ""
 
 #: content/en/translation.xml:101(para) 
-msgid "If a translation of the website to your language does not yet exist, you can download and translate the <ulink url=\"/po/bibletime_website_template.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
+msgid "If a translation of the website in your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
 msgstr ""
 
-#: content/en/translation.xml:115(para) 
+#: content/en/translation.xml:114(para) 
 msgid "If a translation of the User Interface to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
-#: content/en/translation.xml:121(para) 
+#: content/en/translation.xml:120(para) 
 msgid "Starting at 1.7, we have moved translation format to Qt's .ts file format from the previous .po format. Due to the changes, the translations need a thorough rewrite."
 msgstr ""
 
-#: content/en/translation.xml:130(title) 
+#: content/en/translation.xml:129(title) 
 msgid "Translate the Bible study howto."
 msgstr ""
 
-#: content/en/translation.xml:131(para) 
+#: content/en/translation.xml:130(para) 
 msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
-#: content/en/translation.xml:144(para) 
+#: content/en/translation.xml:143(para) 
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
-#: content/en/translation.xml:157(para) 
+#: content/en/translation.xml:156(para) 
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
 msgstr ""
 

@@ -94,21 +94,20 @@
     </para>
     </formalpara>
 
-<!--- section break -->
-
     <formalpara>
+
     <title>Translate the www.bibletime.info website.</title>
-    <para>If a translation of the website to your language does not yet
-    exist, you can download and translate the 
-    <ulink url="/po/bibletime_website_template.pot">Webpage translation
-    template</ulink>. If you want to update an existing translation,
-    use the links in the table below to download the corresponding
-    file. We usually add the translated pages and the flag at the top
-    if a translation is about 80% complete.</para>
+
+    <para>If a translation of the website in your language does not yet
+      exist, you can download and translate the 
+      <ulink url="http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot">Webpage translation
+      template</ulink>.  If you want to update an existing translation,
+      use the links in the table below to download the corresponding
+      file.  We usually add the translated pages and the flag at the top
+      if a translation is about 80% complete.</para>
+
     <ssi mode="exec" cgi="/postats/website_stats.pl" />
     </formalpara>
-
-<!--- section break -->
 
     <formalpara>
     <title>Translate the program's User Interface.</title>

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-16 12:18-0400\n"
+"POT-Creation-Date: 2009-10-18 00:48-0400\n"
 "PO-Revision-Date: 2009-03-17 14:29+0100\n"
 "Last-Translator: Tomáš Michalek <michto01@gmail.com>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -43,12 +43,12 @@ msgid ""
 "possible. The following areas are open for your contributions:"
 msgstr ""
 
-#: content/en/translation.xml:27(para) content/en/translation.xml:100(title)
+#: content/en/translation.xml:27(para) content/en/translation.xml:99(title)
 #, fuzzy
 msgid "Translate the www.bibletime.info website."
 msgstr "<para>Přeložte www.bibletime.info webové stránky.</para>"
 
-#: content/en/translation.xml:30(para) content/en/translation.xml:114(title)
+#: content/en/translation.xml:30(para) content/en/translation.xml:113(title)
 #, fuzzy
 msgid "Translate the program's User Interface."
 msgstr "<para>Přeložte interface programu.</para>"
@@ -58,12 +58,12 @@ msgstr "<para>Přeložte interface programu.</para>"
 msgid "Translate the Bible Study Howto."
 msgstr "Přeložte Jak studovat Bibli."
 
-#: content/en/translation.xml:36(para) content/en/translation.xml:143(title)
+#: content/en/translation.xml:36(para) content/en/translation.xml:142(title)
 #, fuzzy
 msgid "Translate the program's handbook."
 msgstr "<para>Přeložte příručku k programu</para>"
 
-#: content/en/translation.xml:39(para) content/en/translation.xml:156(title)
+#: content/en/translation.xml:39(para) content/en/translation.xml:155(title)
 #, fuzzy
 msgid "Translate the biblical booknames."
 msgstr "<para>Přeložte biblické knihy.</para>"
@@ -158,13 +158,15 @@ msgstr ""
 "php/code_list.php</ulink>."
 
 #: content/en/translation.xml:101(para)
+#, fuzzy
 msgid ""
-"If a translation of the website to your language does not yet exist, you can "
-"download and translate the <ulink url=\"/po/bibletime_website_template.pot"
-"\">Webpage translation template</ulink>. If you want to update an existing "
-"translation, use the links in the table below to download the corresponding "
-"file. We usually add the translated pages and the flag at the top if a "
-"translation is about 80% complete."
+"If a translation of the website in your language does not yet exist, you can "
+"download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/"
+"viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Webpage "
+"translation template</ulink>. If you want to update an existing translation, "
+"use the links in the table below to download the corresponding file. We "
+"usually add the translated pages and the flag at the top if a translation is "
+"about 80% complete."
 msgstr ""
 "Jestli překlad do vašeho jazyka stále neexistuje, můžete si stáhnout a "
 "přeložit <ulink url=\"/po/bibletime_website_template.pot\">překladatelskou "
@@ -173,7 +175,7 @@ msgstr ""
 "daný soubor. Běžně přidáváme navrch stránek vlajku a lokalizaci stránek, "
 "když je překlad hotov z cca 80%."
 
-#: content/en/translation.xml:115(para)
+#: content/en/translation.xml:114(para)
 msgid ""
 "If a translation of the User Interface to your language does not yet exist, "
 "you can download and translate the <ulink url=\"http://bibletime.svn."
@@ -188,7 +190,7 @@ msgstr ""
 "programu</ulink>. Pokud chcete aktualizovat existující překlad, použijte "
 "odkaz nad tabulkou a stáhněte odpovidající soubor."
 
-#: content/en/translation.xml:121(para)
+#: content/en/translation.xml:120(para)
 #, fuzzy
 msgid ""
 "Starting at 1.7, we have moved translation format to Qt's .ts file format "
@@ -199,11 +201,11 @@ msgstr ""
 "předchozích sérii. Proto překlady potřebují přepsání."
 
 #
-#: content/en/translation.xml:130(title)
+#: content/en/translation.xml:129(title)
 msgid "Translate the Bible study howto."
 msgstr "Přeložte Jak studovat Bibli."
 
-#: content/en/translation.xml:131(para)
+#: content/en/translation.xml:130(para)
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
 "exist, you can download and translate the <ulink url=\"http://bibletime.svn."
@@ -218,7 +220,7 @@ msgstr ""
 "\"Jak studovat bibli\"</ulink>. Pokud chcete aktualizovat existující "
 "překlad, použijte odkaz nad tabulkou a stáhněte odpovidající soubor."
 
-#: content/en/translation.xml:144(para)
+#: content/en/translation.xml:143(para)
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
 "can download and translate the <ulink url=\"http://bibletime.svn.sourceforge."
@@ -233,7 +235,7 @@ msgstr ""
 "příručky</ulink>. Pokud chcete aktualizovat existující překlad, použijte "
 "odkaz nad tabulkou a stáhněte odpovidající soubor."
 
-#: content/en/translation.xml:157(para)
+#: content/en/translation.xml:156(para)
 msgid ""
 "Translated Bible book names come from the Sword project. There are no good "
 "instructions at the moment but you can find some information and examples by "
