@@ -19,5 +19,5 @@ my $stats = SSI::POStats->new( $cgi );
 print $cgi->header();
 
 print $cgi->start_div({-class=>'postats'});
-print $stats->show_stats("website_stats.txt", '/po/bibletime_website_$lang.po', '<a href="/$lang/index.html">$lang</a>');
+print $stats->show_stats("website_stats.txt", 'http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/$lang.po', '<a href="/$lang/index.html">$lang</a>');
 print $cgi->end_div();

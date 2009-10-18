@@ -36,7 +36,7 @@ function mergePoTemplateIntoPoFile {
 	msgmerge --force-po -o tmp/temp-$lang.po "i18n/$lang.po" "i18n/en.pot"
 	mv "tmp/temp-$lang.po" "i18n/$lang.po"
 
-	cp "i18n/$lang.po" "website-generated/po/bibletime_website_$lang.po"
+#	cp "i18n/$lang.po" "website-generated/po/bibletime_website_$lang.po"
 }
 
 # Creates the translated docbook files in tmp/lang/
