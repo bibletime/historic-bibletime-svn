@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-18 00:48-0400\n"
+"POT-Creation-Date: 2009-10-21 22:36-0400\n"
 "PO-Revision-Date: 2009-08-02 17:25-0300\n"
 "Last-Translator: Rafael Fagundes Rosa Campos\n"
 "Language-Team: Português do Brasil <kde-i18n-doc@kde.org>\n"
@@ -261,13 +261,13 @@ msgstr "@@image: '/images/screenshots/1.jpg'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: content/en/software_screenshots.xml:48(None)
+#: content/en/software_screenshots.xml:50(None)
 msgid "@@image: '/images/screenshots/3.jpg'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '/images/screenshots/3.jpg'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: content/en/software_screenshots.xml:67(None)
+#: content/en/software_screenshots.xml:69(None)
 msgid "@@image: '/images/screenshots/2.jpg'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '/images/screenshots/2.jpg'; md5=THIS FILE DOESN'T EXIST"
 
@@ -293,16 +293,17 @@ msgstr ""
 msgid "The main window"
 msgstr "A janela principal"
 
-#: content/en/software_screenshots.xml:31(para)
+#: content/en/software_screenshots.xml:32(para)
+#, fuzzy
 msgid ""
 "Here you can see a typical BibleTime session. On the left pane, you see the "
 "\"bookshelf\" which offers quick access to all installed electronic works as "
 "well as facilities to create and manage your own bookmarks. Below is the "
 "\"mag(nifying glass)\", which can display additional information about a "
-"word or piece of text. In this example it shows details about the hebrew "
-"word that the KJV translates as \"God\". The main part of the BibleTime "
-"window (called \"desk\") offers space to read works such as Bibles, "
-"commentaries, lexicons or other books."
+"word or piece of text. In this example it shows a cross reference, with "
+"scripture to Psalms 10:6. The main part of the BibleTime window (called "
+"\"desk\") offers space to read works such as Bibles, commentaries, lexicons "
+"or other books."
 msgstr ""
 "Aqui você pode ver uma sessão típica do BibleTime. No painel esquerdo, você "
 "vê a \"prateleira de livros\", que oferece acesso rápido para todos as obras "
@@ -313,11 +314,11 @@ msgstr ""
 "parte da janela do BibleTime (chamada \"mesa\") oferece espaço para ler "
 "obras como Bíblias, comentários, lexicons e outros livros."
 
-#: content/en/software_screenshots.xml:42(title)
+#: content/en/software_screenshots.xml:44(title)
 msgid "The Bookshelf Manager"
 msgstr "O Gerenciador de Livros"
 
-#: content/en/software_screenshots.xml:53(para)
+#: content/en/software_screenshots.xml:55(para)
 msgid ""
 "BibleTime offers a dialog to automatically download and manage electronic "
 "works. You simply define a library (a remote collection of works, such as "
@@ -331,11 +332,11 @@ msgstr ""
 "ulink> ), e depois você pode transferir obras desta biblioteca para sua "
 "estante de livros local para usá-los. Fácil, nao??"
 
-#: content/en/software_screenshots.xml:61(title)
+#: content/en/software_screenshots.xml:63(title)
 msgid "The search dialog"
 msgstr "O diálogo de busca"
 
-#: content/en/software_screenshots.xml:72(para)
+#: content/en/software_screenshots.xml:74(para)
 msgid ""
 "BibleTime offers a powerful search dialog. You can search in several works "
 "at a time, limit your search to text scopes or also to certain kinds of "
@@ -502,7 +503,8 @@ msgstr ""
 "Deus, Religião, Bíblia, devocional, crosswire, sword, atalhos, links"
 
 #: content/en/software_links.xml:20(title)
-msgid "List of important Christian pages"
+#, fuzzy
+msgid "List of Christian Pages"
 msgstr "Lista de páginas cristãs importantes"
 
 #: content/en/software_links.xml:22(para)
@@ -568,14 +570,15 @@ msgid ""
 msgstr ""
 
 #: content/en/software_links.xml:72(title)
-msgid "Biblesoftware for Linux/Unix"
-msgstr "Softwares Bíblicos para Linux/Unix"
+#, fuzzy
+msgid "Other Bible Software Tools"
+msgstr "Softwares Bíblicos para Windows"
 
-#: content/en/software_links.xml:76(ulink)
+#: content/en/software_links.xml:75(ulink)
 msgid "Xiphos"
 msgstr ""
 
-#: content/en/software_links.xml:79(para)
+#: content/en/software_links.xml:77(para)
 msgid ""
 "Xiphos is a Sword frontend using the Gnome toolkit. A really good "
 "application. Be sure to check it out!"
@@ -583,15 +586,12 @@ msgstr ""
 "Xiphos é uma interface gráfica para o Sword usando o kit de ferramentas "
 "Gnome. Uma aplicação realmente boa. Não deixe de checar!"
 
-#: content/en/software_links.xml:85(title)
-msgid "Biblesoftware for Windows"
-msgstr "Softwares Bíblicos para Windows"
-
-#: content/en/software_links.xml:87(title)
-msgid "<ulink url=\"http://www.bibleworks.com/\"> BibleWorks</ulink>."
+#: content/en/software_links.xml:82(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
 msgstr "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
 
-#: content/en/software_links.xml:90(para)
+#: content/en/software_links.xml:84(para)
 msgid ""
 "BibleWorks is one of the best commercial Bible study applications for "
 "Windows! Very good but very expensive, too. Very useful for Bible scholars."
@@ -599,11 +599,12 @@ msgstr ""
 "BibleWorks é uma das melhores aplicações para estudo da Bíblia para Windows!"
 "Muito bom mas muito caro também. Só é útil para escolas."
 
-#: content/en/software_links.xml:95(title)
-msgid "<ulink url=\"http://www.bibleworkshop.com/\"> BibleWorkshop</ulink>."
+#: content/en/software_links.xml:90(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
 msgstr "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
 
-#: content/en/software_links.xml:98(para)
+#: content/en/software_links.xml:92(para)
 msgid ""
 "The Bible Workshop program is a powerful, commercial Bible study application "
 "for Windows, which is available in English, German and French. It is "
@@ -613,22 +614,22 @@ msgstr ""
 "Windows, que está disponível em inglês, alemão e francês. É possível "
 "melhorar o Bible Workshop usando bibliotecas de Texto que você pode comprar."
 
-#: content/en/software_links.xml:104(title)
+#: content/en/software_links.xml:99(title)
 msgid "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
 msgstr "<ulink url=\"http://www.e-sword.net//\">e-Sword</ulink>."
 
-#: content/en/software_links.xml:106(para)
+#: content/en/software_links.xml:101(para)
 msgid ""
 "e-Sword is a great and easy to use Bible study application for Windows "
 "systems."
 msgstr ""
 "e-Sword é uma ótima e fácil de usar aplicação de estudo Bíblico para Windows."
 
-#: content/en/software_links.xml:110(title)
+#: content/en/software_links.xml:106(title)
 msgid "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
 msgstr "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
 
-#: content/en/software_links.xml:112(para)
+#: content/en/software_links.xml:108(para)
 msgid ""
 "Logos is one of the best commercial Bible study applications for Windows. "
 "You can buy a lot of texts to enhance it."
@@ -636,22 +637,23 @@ msgstr ""
 "Logos é uma das melhores aplicações para estudo da Bíblia para Windows. Você "
 "pode comprar muitos, muitos textos para melhorá-lo."
 
-#: content/en/software_links.xml:117(title)
-msgid "<ulink url=\"http://www.onlinebible.org/\"> OnlineBible</ulink>."
+#: content/en/software_links.xml:114(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
 msgstr "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
 
-#: content/en/software_links.xml:120(para)
+#: content/en/software_links.xml:116(para)
 msgid "The Online Bible is a powerful Bible study application for Windows."
 msgstr ""
 "A Bíblia online é uma aplicação poderosa de estudo da Bíblia para Windows."
 
-#: content/en/software_links.xml:124(title)
+#: content/en/software_links.xml:121(title)
 msgid ""
 "<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
 msgstr ""
 "<ulink url=\"http://www.crosswire.org/sword/\">Sword para Windows</ulink>."
 
-#: content/en/software_links.xml:127(para)
+#: content/en/software_links.xml:123(para)
 msgid ""
 "This is the Windows Bible study application made by the Sword team! Sword is "
 "supported by the Crosswire Bible Society."
@@ -659,13 +661,14 @@ msgstr ""
 "Esta é a aplicação de estudo da Bíblia para Windows feito pelo time do Sword!"
 "Sword é suportado pela Sociedade Bíblica Crosswire."
 
-#: content/en/software_links.xml:132(title)
+#: content/en/software_links.xml:129(title)
+#, fuzzy
 msgid ""
-"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
+"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
 msgstr ""
 "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
 
-#: content/en/software_links.xml:135(para)
+#: content/en/software_links.xml:131(para)
 msgid ""
 "Tnach is a free, advanced software tool for anyone dealing with Hebrew and "
 "Greek. It can be downloaded for a donation."
@@ -673,11 +676,12 @@ msgstr ""
 "Tnach é um software livre, uma ferramenta avançada para qualquer um que lide "
 "com Hebreu e Grego. Pode ser baixado por uma doação."
 
-#: content/en/software_links.xml:140(title)
-msgid "<ulink url=\"http://www.volksbibel.de/\"> Volksbibel</ulink>."
+#: content/en/software_links.xml:137(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
 msgstr "<ulink url=\"http://www.volksbibel.de/\">Volksbibel</ulink>."
 
-#: content/en/software_links.xml:143(para)
+#: content/en/software_links.xml:139(para)
 msgid ""
 "Volksbibel 2000.2 is a German, metacard based software Bible study tool for "
 "Windows, Linux and Mac. Althouth there are not so many texts as other "
@@ -689,15 +693,11 @@ msgstr ""
 "quanto em outros softwares, ele tem algumas coisas legais como suporte "
 "básico a mapas incluído. Se você é alemão, experimente!"
 
-#: content/en/software_links.xml:151(title)
-msgid "Biblesoftware for Mac"
-msgstr "Softwares Bíblicos para Mac"
-
-#: content/en/software_links.xml:153(title)
+#: content/en/software_links.xml:147(title)
 msgid "<ulink url=\"http://www.macsword.com/\">MacSword for OS X</ulink>."
 msgstr "<ulink url=\"http://www.macsword.com/\">MacSword para MacOS X</ulink>."
 
-#: content/en/software_links.xml:156(para)
+#: content/en/software_links.xml:149(para)
 msgid ""
 "MacSword is a new Bible study application for the new Macintosh OS X system. "
 "The screenshots look very promising!"
@@ -705,15 +705,16 @@ msgstr ""
 "MacSword é um novo software de estudo da Bíblia para o novo sistema "
 "Macintosh OS X. As telas parecem muito promissoras!"
 
-#: content/en/software_links.xml:162(title)
+#: content/en/software_links.xml:156(title)
 msgid "Development tools"
 msgstr "Ferramentas de desenvolvimento"
 
-#: content/en/software_links.xml:164(title)
-msgid "<ulink url=\"http://www.sourceforge.net/\"> SourceForge</ulink>."
+#: content/en/software_links.xml:158(title)
+#, fuzzy
+msgid "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 
-#: content/en/software_links.xml:167(para)
+#: content/en/software_links.xml:160(para)
 msgid ""
 "SourceForge provides us with the tools to develop BibleTime with many team "
 "members at the same time! We save a lot of time and money by using their "
@@ -3207,3 +3208,9 @@ msgid "translator-credits"
 msgstr ""
 "Augusto Men <augustocmen@yahoo.com.br>;, 2009 2009. Rafael Fagundes "
 "<rafaelfrc@yahoo.com.br>;, 2009 2009"
+
+#~ msgid "Biblesoftware for Linux/Unix"
+#~ msgstr "Softwares Bíblicos para Linux/Unix"
+
+#~ msgid "Biblesoftware for Mac"
+#~ msgstr "Softwares Bíblicos para Mac"
