@@ -4,7 +4,7 @@
 ]>
 <webpage id="software_screenshots">
   <config param="desc" value="News" />
-  <config param="rcsdate" value="$Date$" />
+  <config param="rcsdate" value="$LastChangedDate$" />
   <head>
     <title>Screenshots</title>
     <summary>Screenshots of BibleTime</summary>
@@ -28,16 +28,18 @@
           </inlinemediaobject>
         </ulink>
       </para>
-      <para>Here you can see a typical BibleTime session. On the left
-      pane, you see the "bookshelf" which offers quick access to all
-      installed electronic works as well as facilities to create and
-      manage your own bookmarks. Below is the "mag(nifying glass)",
-      which can display additional information about a word or piece of
-      text. In this example it shows details about the hebrew word that
-      the KJV translates as "God". The main part of the BibleTime
-      window (called "desk") offers space to read works such as Bibles,
-      commentaries, lexicons or other books.</para>
+
+      <para>Here you can see a typical BibleTime session.  On the left
+	pane, you see the "bookshelf" which offers quick access to all
+	installed electronic works as well as facilities to create and
+	manage your own bookmarks.  Below is the "mag(nifying glass)",
+	which can display additional information about a word or piece of
+	text.  In this example it shows a cross reference, with
+	scripture to Psalms 10:6.  The main part of the BibleTime
+	window (called "desk") offers space to read works such as Bibles,
+	commentaries, lexicons or other books.</para>
     </formalpara>
+
     <formalpara>
       <title>The Bookshelf Manager</title>
       <para>
