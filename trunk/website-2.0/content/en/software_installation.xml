@@ -16,14 +16,15 @@
     <keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
       biblestudy, bible study,
       God, Religion, Bible, devotional, crosswire, sword, installation,
-      download, ubuntu, mandrake, suse, debian, freebsd, pcbsd
+      download, ubuntu, mandrake, suse, debian, freebsd, pcbsd,
+      windows
     </keywords>
   </head>
   <section>
     <title>Download BibleTime</title>
+
     <para>This is a short list of available download locations.
-    Packages which are not provided on our SourceForge pages might be
-    outdated. Please see below for detailed download and installation
+    Please see below for detailed download and installation
     instructions. 
     <itemizedlist>
       <listitem>
@@ -32,6 +33,12 @@
 	  SourceForge</ulink>.
 	</para>
       </listitem>
+
+      <listitem>
+	<para>Windows Test releases can be downloaded from 
+	  <ulink url="http://sourcearchives.com/downloads/">sourcearchives.com</ulink>.</para>
+      </listitem>
+
       <listitem>
         <para>Ubuntu packages are available in the repository and 
         <ulink url="http://packages.ubuntu.com/hardy/bibletime">
@@ -40,11 +47,13 @@
         <ulink url="https://launchpad.net/~txwikinger/+archive">
         here</ulink>.</para>
       </listitem>
+
       <listitem>
         <para>Debian packages are available in the repository and 
         <ulink url="http://packages.debian.org/bibletime">
         here</ulink>.</para>
       </listitem>
+
       <listitem>
         <para>Gentoo packages are in Portage. Just call "emerge
         bibletime".</para>
@@ -63,6 +72,7 @@
         <ulink url="http://www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all">
         www.freebsd.org</ulink>.</para>
       </listitem>
+
       <listitem>
         <para>PC-BSD packages are available 
         <ulink url="http://www.pbidir.com/bt/pbi/149/bibletime">
@@ -70,6 +80,7 @@
       </listitem>
     </itemizedlist></para>
   </section>
+
   <section>
     <title>Installation of BibleTime</title>
     <para>This section explains how to install BibleTime on your
