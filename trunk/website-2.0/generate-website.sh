@@ -106,9 +106,6 @@ updateTranslationTemplate i18n/en.pot
 
 for lang in $BT_LANG_ALL; do \
    mergePoTemplateIntoPoFile $lang; \
-done;
-
-for lang in $BT_LANG_ONLINE; do 
    createTranslatedDocbook $lang; \
    createHtml $lang "tmp/$lang"; \
 done;
