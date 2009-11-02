@@ -6,10 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_da\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-27 20:45-0400\n"
-"PO-Revision-Date: 2009-08-27 20:23+0200\n"
+"POT-Creation-Date: 2009-11-02 09:44-0500\n"
+"PO-Revision-Date: 2009-11-02 14:44+0100\n"
 "Last-Translator: \n"
-"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+"Language-Team: Dansk <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -125,7 +125,6 @@ msgstr ""
 "statistikkerne blive opdateret."
 
 #: content/en/translation.xml:79(para)
-#, fuzzy
 msgid ""
 "For editing .po files, we recommend that you use <ulink url=\"http://"
 "userbase.kde.org/Lokalize\">Lokalize</ulink>. It has many advanced features "
@@ -136,14 +135,12 @@ msgid ""
 "package) is needed to translate the user interface which is in .ts format."
 msgstr ""
 "Til at redigere .po filer, anbefaler vi at du bruger <ulink url=\"http://"
-"i18n.kde.org/tools/kbabel/\">KBabel</ulink> der virker med KDE. Det har "
-"mange avancerede egenskaber og er til enstor hjælp.  <ulink  url=\"http://"
-"userbase.kde.org/Lokalize\">Lokalize</ulink> er et andet KDE baseret "
-"program, det vil erstatte KBabel. <ulink url=\"http://www.poedit.net/"
+"userbase.kde.org/Lokalize\">Lokalize</ulink>. Det har mange avancerede "
+"egenskaber og er til en stor hjælp. <ulink url=\"http://www.poedit.net/"
 "\">Poedit</ulink> er en kryds-platform fil-behandler brugbar til vores "
-"dokumentation og hjemmeside oversættelser. <ulink url=\"http://doc.trolltech."
-"com/4.0/linguist-manual.html\"> Qt Linguist 4.5</ulink> (en del af kryds-"
-"platform Qt udviklingspakken) er nødvendig til at oversætte brugerflade som "
+"dokumentation- og hjemmeside oversættelser. <ulink url=\"http://qt.nokia.com/"
+"doc/4.5/linguist-manual.html\"> Qt Linguist 4.5</ulink> (en del af kryds-"
+"platform Qt udviklingspakken) er nødvendig til at oversætte brugerfladen som "
 "er i .ts formatet."
 
 #: content/en/translation.xml:91(para)
@@ -157,7 +154,6 @@ msgstr ""
 "standards/iso639-2/php/code_list.php</ulink>."
 
 #: content/en/translation.xml:101(para)
-#, fuzzy
 msgid ""
 "If a translation of the website in your language does not yet exist, you can "
 "download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/"
@@ -168,11 +164,12 @@ msgid ""
 "about 80% complete."
 msgstr ""
 "Hvis oversættelsen af hjemmesiden til dit sprog endnu ikke eksisterer, så "
-"kan du hente og oversætte <ulink url=\"/po/bibletime_website_template.pot"
-"\">Hjemmeside oversættelses-skabelonen</ulink>. Hvis du ønsker at opdatere "
-"en eksisterende oversættelse, så brug linksne herunder i tabellen til at "
-"downloade den tilsvarende fil. Vi tilføjer normalt de oversatte sider og "
-"flaget i toppen når oversættelsen er omkring 80% færdig."
+"kan du hente og oversætte <ulink url=\"http://bibletime.svn.sourceforge.net/"
+"viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Skabelonen til "
+"hjemmeside oversættelse</ulink>. Hvis du ønsker at opdatere en eksisterende "
+"oversættelse, så brug linksne herunder i tabellen til at hente den "
+"tilsvarende fil. Vi tilføjer normalt de oversatte sider og flaget i toppen, "
+"når en oversættelse er omkring 80% færdig."
 
 #: content/en/translation.xml:114(para)
 msgid ""
@@ -295,7 +292,6 @@ msgid "The main window"
 msgstr "Hoved vinduet"
 
 #: content/en/software_screenshots.xml:32(para)
-#, fuzzy
 msgid ""
 "Here you can see a typical BibleTime session. On the left pane, you see the "
 "\"bookshelf\" which offers quick access to all installed electronic works as "
@@ -309,11 +305,11 @@ msgstr ""
 "Her kan du se en typisk BibleTime-session. På den venstre bjælke, kan du se "
 "\"boghylden\" der giver hurtig adgang til alle installerede elektroniske "
 "værker, så vel som faciliteter til at skabe og administrere dine egne "
-"bogmærker. Derunder er \"forstørrelsesglasset\", der kan vise uddybende "
-"information om et ord, eller et stykke tekst. I dette eksempel viser det "
-"detaljer om det hebraiske ord som KJV oversætter som \"Gud\". I hoveddelen "
-"af BibleTime-vinduet (kaldt \"skrivebordet\") er der plads til at læse "
-"værker som Bibler, kommentarer, leksikoner eller andre bøger."
+"bogmærker. Derunder er \"Luppen\", der kan vise uddybende information om et "
+"ord, eller et stykke tekst. I dette eksempel viser den en kryds-henvisning, "
+"til Salme 10:6. I hoveddelen af BibleTime-vinduet (kaldt \"skrivebordet\") "
+"er der plads til at læse værker som Bibler, kommentarer, leksikoner eller "
+"andre bøger."
 
 #: content/en/software_screenshots.xml:44(title)
 msgid "The Bookshelf Manager"
@@ -504,9 +500,8 @@ msgstr ""
 "bibel studie, Gud, Religion, Bibel, andagt, crosswire, sword, links"
 
 #: content/en/software_links.xml:20(title)
-#, fuzzy
 msgid "List of Christian Pages"
-msgstr "Liste over vigtige kristne sider"
+msgstr "Liste over kristne sider"
 
 #: content/en/software_links.xml:22(para)
 msgid ""
@@ -574,9 +569,8 @@ msgstr ""
 "og i kristne sammenhænge "
 
 #: content/en/software_links.xml:72(title)
-#, fuzzy
 msgid "Other Bible Software Tools"
-msgstr "Bibelsoftware til Windows"
+msgstr "Andre bibelsoftware værktøjer"
 
 #: content/en/software_links.xml:75(ulink)
 msgid "Xiphos"
@@ -591,9 +585,8 @@ msgstr ""
 "godt program. Se at få tjekket det ud!"
 
 #: content/en/software_links.xml:82(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
-msgstr "<ulink url=\"http://www.bibleworks.com/\"> BibleWorks</ulink>."
+msgstr "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
 
 #: content/en/software_links.xml:84(para)
 msgid ""
@@ -605,9 +598,8 @@ msgstr ""
 "bibelstuderende."
 
 #: content/en/software_links.xml:90(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
-msgstr "<ulink url=\"http://www.bibleworkshop.com/\"> BibleWorkshop</ulink>."
+msgstr "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
 
 #: content/en/software_links.xml:92(para)
 msgid ""
@@ -643,9 +635,8 @@ msgstr ""
 "Man kan købe en masse tekster til at udvide det."
 
 #: content/en/software_links.xml:114(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
-msgstr "<ulink url=\"http://www.onlinebible.org/\"> OnlineBible</ulink>."
+msgstr "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
 
 #: content/en/software_links.xml:116(para)
 msgid "The Online Bible is a powerful Bible study application for Windows."
@@ -666,11 +657,10 @@ msgstr ""
 "bliver støttet af The Crosswire Bible Society."
 
 #: content/en/software_links.xml:129(title)
-#, fuzzy
 msgid ""
 "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
 msgstr ""
-"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\"> Tnach</ulink>."
+"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
 
 #: content/en/software_links.xml:131(para)
 msgid ""
@@ -681,9 +671,8 @@ msgstr ""
 "gøre med hebraisk og græsk. Det kan hentes gratis mod en donation."
 
 #: content/en/software_links.xml:137(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.volksbibel-2000.de/\">Volksbibel</ulink>."
-msgstr "<ulink url=\"http://www.volksbibel.de/\"> Volksbibel</ulink>."
+msgstr "<ulink url=\"http://www.volksbibel-2000.de/\">Volksbibel</ulink>."
 
 #: content/en/software_links.xml:139(para)
 msgid ""
@@ -710,33 +699,28 @@ msgstr ""
 "Skærmbillederne ser meget lovende ud!"
 
 #: content/en/software_links.xml:156(title)
-#, fuzzy
 msgid "Other BibleTime Links"
-msgstr "BibleTime tips"
+msgstr "Andre BibleTime links"
 
 #: content/en/software_links.xml:159(ulink)
-#, fuzzy
 msgid "BibleTime wiki"
-msgstr "BibleTime tips"
+msgstr "BibleTimes wiki"
 
 #: content/en/software_links.xml:162(ulink)
-#, fuzzy
 msgid "BibleTime Blog"
-msgstr "BibleTime"
+msgstr "BibleTimes blog"
 
 #: content/en/software_links.xml:165(ulink)
-#, fuzzy
 msgid "BibleTime Facebook page"
-msgstr "BibelTimes andagt"
+msgstr "BibelTimes Facebook side"
 
 #: content/en/software_links.xml:171(title)
 msgid "Development tools"
 msgstr "Udviklingsværktøjer"
 
 #: content/en/software_links.xml:173(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
-msgstr "<ulink url=\"http://www.sourceforge.net/\"> SourceForge</ulink>."
+msgstr "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 
 #: content/en/software_links.xml:175(para)
 msgid ""
@@ -1465,7 +1449,6 @@ msgid "Installation of the BibleTime software"
 msgstr "Installation af BibleTime softwaren"
 
 #: content/en/software_installation.xml:16(keywords)
-#, fuzzy
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword, installation, "
@@ -1473,7 +1456,7 @@ msgid ""
 msgstr ""
 "BibleTime, Linux, unix, FreeBSD, kryds-platform, Software, bibelstudie, "
 "bibel studie, Gud, Religion, Bibel, andagt, crosswire, sword, installation, "
-"download, hent, ubuntu, mandrake, suse, debian, freebsd, pcbsd"
+"download, hent, ubuntu, mandrake, suse, debian, freebsd, pcbsd, windows"
 
 #: content/en/software_installation.xml:31(para)
 msgid ""
@@ -1484,13 +1467,12 @@ msgstr ""
 "showfiles.php?group_id=954\"> SourceForge</ulink>."
 
 #: content/en/software_installation.xml:38(para)
-#, fuzzy
 msgid ""
 "Windows Test releases can be downloaded from <ulink url=\"http://"
 "sourcearchives.com/downloads/\">sourcearchives.com</ulink>."
 msgstr ""
-"Kildekode kan hentes fra <ulink url=\"http://sourceforge.net/project/"
-"showfiles.php?group_id=954\"> SourceForge</ulink>."
+"Windows test udgivelser kan hentes fra  <ulink url=\"http://sourcearchives."
+"com/downloads/\">sourcearchives.com</ulink>."
 
 #: content/en/software_installation.xml:43(para)
 msgid ""
@@ -1543,15 +1525,12 @@ msgstr ""
 "str=bibletime\"> her</ulink>."
 
 #: content/en/software_installation.xml:26(para)
-#, fuzzy
 msgid ""
 "This is a short list of available download locations. Please see below for "
 "detailed download and installation instructions. <placeholder-1/>"
 msgstr ""
-"Dette er en kort liste over steder der kan hentes fra. Pakker der ikke er "
-"opgivet på vores SourceForge-sider er sandsynligtvis uddateret. Vær venlig "
-"at se herunder for detaljerede hentning- og installations instruktioner. "
-"<placeholder-1/>"
+"Dette er en kort liste over steder der kan hentes fra. Se herunder for "
+"detaljerede hentning- og installations instruktioner. <placeholder-1/>"
 
 #: content/en/software_installation.xml:85(title)
 msgid "Installation of BibleTime"
@@ -1774,7 +1753,6 @@ msgid "make install"
 msgstr "make install"
 
 #: content/en/software_faq.xml:33(para)
-#, fuzzy
 msgid ""
 "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. "
 "Then run make and make install as usual. The KDE directories for the widely "
@@ -1796,20 +1774,18 @@ msgid "Is it possible to search for a specific Strong number?"
 msgstr "Er det muligt at søge efter et specifikt Strong-nummer?"
 
 #: content/en/software_faq.xml:66(para)
-#, fuzzy
 msgid ""
 "The search interface now offers to set the type of your search. You can "
 "choose between headings, footnotes, Strongs numbers and morphological codes."
 msgstr ""
-"Den nye søgeflade gør det nu muligt at indstille typen af din søgning. Du "
-"kan vælge mellem overskrifter, fodnoter, Strong-tal og morphologiske tal."
+"Søgefladen gør det nu muligt at indstille typen af din søgning. Du kan vælge "
+"mellem overskrifter, fodnoter, Strong-tal og morphologiske tal."
 
 #: content/en/software_faq.xml:75(para)
 msgid "Why do I see only question marks instead of Unicode text?"
 msgstr "Hvorfor er der spørgsmålstegn i stedet for Unicode-tekst?"
 
 #: content/en/software_faq.xml:80(para)
-#, fuzzy
 msgid ""
 "First make sure you have the latest version of the module which has the "
 "problems! Check <ulink url=\"http://www.crosswire.org/sword\"> www.crosswire."
@@ -1848,7 +1824,6 @@ msgid "Where can I write down my personal notes?"
 msgstr "Hvor kan jeg skrive mine personlige noter?"
 
 #: content/en/software_faq.xml:112(para)
-#, fuzzy
 msgid ""
 "You have to install the module \"Personal\", which is available as a "
 "commentary on <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo."
@@ -1857,7 +1832,7 @@ msgid ""
 msgstr ""
 "Du er nødt til at installere modulet \"Personal\", som er tilgængelig som en "
 "kommentar på <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo.jsp?"
-"modName=Personal\">Crosswire</ulink>. Se i BibleTimes håndbog for mere "
+"modName=Personal\"> Crosswire</ulink>. Se i BibleTimes håndbog for mere "
 "information om den personlige kommentar."
 
 #: content/en/software_faq.xml:122(para)
@@ -1883,25 +1858,22 @@ msgid "Is BibleTime available in my native language?"
 msgstr "Er BibleTime til rådighed på mit oprindelige sprog?"
 
 #: content/en/software_faq.xml:142(para)
-#, fuzzy
 msgid ""
 "BibleTime is available in several languages, which are all listed on our "
 "<olink targetdocent=\"translation\">translations page</olink>."
 msgstr ""
-"BibleTime er til rådighed på flere sprog, de kan alle ses på vores <olink "
-"targetdocent=\"translation\">oversættelse side</olink>. Oversættelserne er "
-"til rådighed i pakken bibletime-i18n."
+"BibleTime er tilgængeligt på flere sprog, de kan alle ses på vores <olink "
+"targetdocent=\"translation\">oversættelse side</olink>."
 
 #: content/en/software_faq.xml:146(para)
-#, fuzzy
 msgid ""
 "If a translation in your language is not available, please consider to help "
 "to make it available. More information is available on out <olink "
 "targetdocent=\"translation\">translations page</olink>."
 msgstr ""
-"Hvis der ikke er en oversættelse til dit sprog, så vær venlig at overvej at "
-"hjælpe med at gøre det tilgængeligt. Mere information er til rådighed på "
-"vores <olink targetdocent=\"translation\">oversættelses side.</olink>."
+"Hvis der ikke er en oversættelse til dit sprog, så overvej at hjælpe med at "
+"gøre det tilgængeligt. Mere information er til rådighed på vores <olink "
+"targetdocent=\"translation\">oversættelses side.</olink>."
 
 #: content/en/software_contact.xml:10(title)
 msgid "Contact"
@@ -1962,11 +1934,11 @@ msgstr ""
 
 #: content/en/software_contact.xml:59(ulink)
 msgid "Email us"
-msgstr ""
+msgstr "Send os mail"
 
 #: content/en/software_contact.xml:63(para)
 msgid "You can contact us on one of our mailing lists."
-msgstr ""
+msgstr "Du kan kontakte os på en af vores postlister."
 
 #: content/en/software_about.xml:9(title)
 msgid "About BibleTime"
@@ -1989,7 +1961,6 @@ msgid "Introduction"
 msgstr "Introduktion"
 
 #: content/en/software_about.xml:23(para)
-#, fuzzy
 msgid ""
 "BibleTime is a Bible study application built with <ulink url=\"http://qt."
 "nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/"
@@ -1998,8 +1969,8 @@ msgid ""
 "crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
 "BibleTime er et program til at studere Bibelen, bygget med  <ulink url="
-"\"http://www.qtsoftware.com/\">Qt4</ulink>og det bruger <ulink url=\"http://"
-"www.crosswire.org/sword/\"> Sword</ulink> programmerings-biblioteket til at "
+"\"http://qt.nokia.com/\">Qt4</ulink>, og det bruger <ulink url=\"http://www."
+"crosswire.org/sword/\"> Sword</ulink> programmerings-biblioteket til at "
 "arbejde med bibeltekster, kommentarer, ordbøger og bøger forsynet af <ulink "
 "url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 
@@ -2088,6 +2059,8 @@ msgid ""
 "transitions BibleTime to be be made available on other platforms in the "
 "future."
 msgstr ""
+"BibleTime version 2.0 blev udgivet i maj 2009, udviklet med Qt4. Dette gør "
+"at BibleTime kan blive gjort tilgængelig på andre platforme i fremtiden."
 
 #: content/en/software_about.xml:75(para)
 msgid ""
@@ -2096,6 +2069,10 @@ msgid ""
 "together developers, contributors and userbase to work on improving the "
 "BibleTime application."
 msgstr ""
+"I oktober 2009, holdt BibleTime holdet dets første <ulink url=\"http://devel."
+"bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</ulink> nogen sinde, det bragte "
+"udviklere bidragsydere og brugere sammen i arbejdet med at forbedre "
+"BibleTime programmet."
 
 #: content/en/software.xml:10(title)
 msgid "Software"
@@ -2124,7 +2101,6 @@ msgid "Welcome to the BibleTime project."
 msgstr "Velkommen til BibleTime projektet."
 
 #: content/en/software.xml:24(para)
-#, fuzzy
 msgid ""
 "<placeholder-1/> BibleTime is a Bible study application built with <ulink "
 "url=\"http://qt.nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www."
@@ -2133,8 +2109,8 @@ msgid ""
 "\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
 "<placeholder-1/> BibleTime er et program til at studere Bibelen, bygget med "
-"<ulink url=\"http://www.qtsoftware.com/\">Qt4</ulink> og det bruger <ulink "
-"url=\"http://www.crosswire.org/sword/\"> Sword</ulink> programmerings-"
+"<ulink url=\"http://qt.nokia.com/\">Qt4</ulink>, og det bruger <ulink url="
+"\"http://www.crosswire.org/sword/\"> Sword</ulink> programmerings-"
 "biblioteket til at arbejde med bibeltekster, kommentarer, ordbøger og bøger "
 "forsynet af <ulink url=\"http://www.crosswire.org/\">Crosswire Bible "
 "Society</ulink>."
@@ -2144,9 +2120,8 @@ msgid "News about BibleTime"
 msgstr "Nyheder om BibleTime"
 
 #: content/en/software.xml:45(title)
-#, fuzzy
 msgid "2009-10-27 Testing BibleTime for Windows"
-msgstr "12-01-2008: BibleTime 1.7alpha1"
+msgstr "27-10-2009 Afprøvning af BibleTime til Windows"
 
 #: content/en/software.xml:47(para)
 msgid ""
@@ -2154,158 +2129,153 @@ msgid ""
 "<ulink url=\"http://devel.bibletime.info/wiki/Release_announcements#2009-10-"
 "27_Windows_installer_available_for_testing\">Windows PC</ulink>."
 msgstr ""
+"Vi er glade for at kunne meddele at BibleTime nu er klar til at blive "
+"afprøvet på din <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements#2009-10-27_Windows_installer_available_for_testing"
+"\">Windows PC</ulink>."
 
 #: content/en/software.xml:53(title)
-#, fuzzy
 msgid "2009-10-27 BibleTime 2.3.3 bugfix released"
-msgstr "06-06-2009 2.0.1 fejlrettelses udgivelse"
+msgstr "27-10-2009 BibleTime 2.3.3 fejlrettelse udgivet"
 
 #: content/en/software.xml:55(para)
-#, fuzzy
 msgid ""
 "BT 2.3.3 bugfix has been released. All packagers and maintainers are "
 "encouraged to update to this version. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.2 er blevet udgivet. <ulink url=\"http://devel.bibletime.info/"
-"wiki/Release_announcements\"> Mere...</ulink>"
+"BT 2.3.3 fejlrettelsen er blevet udgivet. Vi opmuntrer alle pakkere og "
+"vedligeholdere til at opdatere til denne version. <ulink url=\"http://devel."
+"bibletime.info/wiki/Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:62(title)
 msgid "2009-10-27 Next Bug-a-thon announced"
-msgstr ""
+msgstr "27-10-2009 Næste Bug-a-thon bekendtgjort"
 
 #: content/en/software.xml:64(para)
-#, fuzzy
 msgid ""
 "With the success of our last Bug-a-thon, we will have having our second one "
 "on November 14. <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon"
 "\">More...</ulink>"
 msgstr ""
-"Tilmeld dig og få en konto på vores <ulink url=\"http://devel.bibletime.info"
-"\">wiki</ulink>, og gør dine bidrag der."
+"På grund af den sidste Bug-a-thons succes, vil vi holde vores anden den 14n "
+"november.  <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">Mere..."
+"</ulink>"
 
 #: content/en/software.xml:70(title)
-#, fuzzy
 msgid "2009-10-24 BibleTime Blog"
-msgstr "12-01-2008: BibleTime 1.7alpha1"
+msgstr "24-10-2009 BibleTimes blog"
 
 #: content/en/software.xml:72(para)
 msgid ""
 "We are pleased to announce that BibleTime is now hosting a <ulink url="
 "\"http://blog.bibletime.info/\">blog</ulink>!"
 msgstr ""
+"Vi er glade for at kunne annoncere at BibleTime nu har fået sig en <ulink "
+"url=\"http://blog.bibletime.info/\">blog</ulink>!"
 
 #: content/en/software.xml:77(title)
-#, fuzzy
 msgid "2009-10-16 Become a fan of BibleTime"
-msgstr "Velkommen til BibleTime."
+msgstr "16-10-2009 Bliv fan af BibleTime"
 
 #: content/en/software.xml:79(para)
 msgid ""
 "You can now become a fan of Bibletime on Facebook by following this <ulink "
 "url=\"http://www.facebook.com/bibletime\">link</ulink>."
 msgstr ""
+"Nu kan du blive fan af BibleTime på Facebook ved at følge dette <ulink url="
+"\"http://www.facebook.com/bibletime\">link</ulink>."
 
 #: content/en/software.xml:84(title)
-#, fuzzy
 msgid "2009-10-15 BibleTime Packaging mailing list"
-msgstr "BibleTimes postlister"
+msgstr "15-10-2009 BibleTimes pakke postliste"
 
 #: content/en/software.xml:86(para)
 msgid ""
 "We have created a new mailing list for BibleTime Packagers, you can read "
 "more <ulink url=\"development_mailinglists.html\"> here</ulink>."
 msgstr ""
+"Vi har oprettet en ny postliste for BibleTime pakkere, du kan læse mere "
+"<ulink url=\"development_mailinglists.html\"> her</ulink>."
 
 #: content/en/software.xml:92(title)
-#, fuzzy
 msgid "2009-10-14 2.3.2 release"
-msgstr "26-08.2009 2.2 udgivelse"
+msgstr "14-10-2009 2.3.2 udgivelse"
 
 #: content/en/software.xml:94(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.3.2 has been released. It is a bug fix release, as a result of "
 "the <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</"
 "ulink>. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements"
 "\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.0beta2 er blevet udgivet. Nu er det en god ide for oversættere, "
-"til at få deres arbejde gjort klar til den kommende Release Candidate. "
-"<ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> "
-"Mere...</ulink>"
+"BibleTime 2.3.2 er blevet udgivet. Det er en fejlrettelses udgivelse, og er "
+"et resultat af vores <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon"
+"\">Bug-a-thon</ulink>. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:101(title)
-#, fuzzy
 msgid "2009-10-10 2.3.1 release"
-msgstr "26-08.2009 2.2 udgivelse"
+msgstr "10-10-2009 2.3.1 udgivelse"
 
 #: content/en/software.xml:103(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.3.1 has been released. It is a bug fix release, as a result of "
 "the <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</"
 "ulink>. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements"
 "\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.0beta2 er blevet udgivet. Nu er det en god ide for oversættere, "
-"til at få deres arbejde gjort klar til den kommende Release Candidate. "
-"<ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> "
-"Mere...</ulink>"
+"BibleTime 2.3.1 er blevet udgivet. Det er en fejlrettelses udgivelse, og er "
+"et resultat af vores <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon"
+"\">Bug-a-thon</ulink>. <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:111(title)
-#, fuzzy
 msgid "2009-10-06 2.3 release"
-msgstr "26-08.2009 2.2 udgivelse"
+msgstr "06-10-2009 2.3 udgivelse"
 
 #: content/en/software.xml:113(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.3 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.2 er blevet udgivet. <ulink url=\"http://devel.bibletime.info/"
+"BibleTime 2.3 er blevet udgivet. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:120(title)
 msgid "2009-10-01 Join us for our first Bug-a-thon"
-msgstr ""
+msgstr "01-10-2009 Slut dig til vores første Bug-a-thon"
 
 #: content/en/software.xml:122(para)
-#, fuzzy
 msgid ""
 "We are hosting a Bug-a-thon on October 9, <ulink url=\"http://devel."
 "bibletime.info/wiki/Bug-a-thon\"> read more</ulink>."
 msgstr ""
-"Tilmeld dig og få en konto på vores <ulink url=\"http://devel.bibletime.info"
-"\">wiki</ulink>, og gør dine bidrag der."
+"Vi holder en Bug-a-thon den 9. oktober, <ulink url=\"http://devel.bibletime."
+"info/wiki/Bug-a-thon\"> læs mere</ulink>."
 
 #: content/en/software.xml:129(title)
-#, fuzzy
 msgid "2009-09-30 2.3.rc1 release"
-msgstr "05-07-2009 2.1.rc1 release"
+msgstr "30-09-2009 2.3rc1 udgivelse"
 
 #: content/en/software.xml:131(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.3.rc1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.2.rc1 er blevet udgivet. <ulink url=\"http://devel.bibletime."
+"BibleTime 2.3.rc1 er blevet udgivet. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:138(title)
-#, fuzzy
 msgid "2009-09-25 2.3.beta1 release"
-msgstr "12-08-2009 2.2.beta1 udgivelse"
+msgstr "25-09-2009 2.3.beta1 udgivelse"
 
 #: content/en/software.xml:140(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.3.beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.2.beta1 er blevet udgivet. <ulink url=\"http://devel.bibletime."
+"BibleTime 2.3.beta1 er blevet udgivet. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Mere...</ulink>"
 
 #: content/en/software.xml:147(title)
@@ -2686,7 +2656,6 @@ msgid "Mailinglists"
 msgstr "Postlister"
 
 #: content/en/development_mailinglists.xml:12(summary)
-#, fuzzy
 msgid "BibleTime's mailing lists"
 msgstr "BibleTimes postlister"
 
@@ -2701,12 +2670,10 @@ msgstr ""
 "support, udvikling"
 
 #: content/en/development_mailinglists.xml:22(title)
-#, fuzzy
 msgid "BibleTime Development mailing list"
 msgstr "BibleTimes udviklings postliste"
 
 #: content/en/development_mailinglists.xml:24(para)
-#, fuzzy
 msgid ""
 "To subscribe to the development mailing list of the BibleTime project please "
 "visit the following web page and enter your eMail address there: <ulink url="
@@ -2718,7 +2685,9 @@ msgstr ""
 "For at tilmelde dig udviklings postlisten fra BibleTime projektet, så besøg "
 "den følgende hjemmeside og indtast din e-mail adresse der: <ulink url="
 "\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> www.crosswire.org/"
-"mailman/listinfo/bt-devel</ulink>."
+"mailman/listinfo/bt-devel</ulink>. Denne liste er beregnet til brug af alle "
+"interesserede personer, og er et godt sted at starte med at kontakte "
+"udviklere eller stille generelle spørsgmål."
 
 #: content/en/development_mailinglists.xml:32(para)
 msgid ""
@@ -2731,12 +2700,10 @@ msgstr ""
 "pipermail/bt-devel</ulink>."
 
 #: content/en/development_mailinglists.xml:38(title)
-#, fuzzy
 msgid "BibleTime Translations mailing list"
-msgstr "BibleTimes postlister"
+msgstr "BibleTimes oversættelses postliste"
 
 #: content/en/development_mailinglists.xml:40(para)
-#, fuzzy
 msgid ""
 "To subscribe to the BibleTime Translations mailing list please visit the "
 "following web page and enter your eMail address there: <ulink url=\"https://"
@@ -2748,15 +2715,15 @@ msgstr ""
 "For at tilmelde dig BibleTime Translations postlisten, så besøg den følgende "
 "hjemmeside og indsæt din e-mail adresse der: <ulink url=\"https://lists."
 "sourceforge.net/lists/listinfo/bibletime-translations\"> lists.sourceforge."
-"net/lists/listinfo/bibletime-translations</ulink>."
+"net/lists/listinfo/bibletime-translations</ulink>. Denne liste er beregnet "
+"til oversættere til at indsende deres værk, og til at stille spørsmål "
+"omkring oversættelser."
 
 #: content/en/development_mailinglists.xml:49(title)
-#, fuzzy
 msgid "BibleTime commit log mailing list"
-msgstr "BibleTimes udviklings postliste"
+msgstr "BibleTimes commit log postliste"
 
 #: content/en/development_mailinglists.xml:51(para)
-#, fuzzy
 msgid ""
 "To subscribe to the BibleTime commit log mailing list please visit the "
 "following web page and enter your eMail address there: <ulink url=\"https://"
@@ -2767,15 +2734,14 @@ msgstr ""
 "For at tilmelde dig BibleTimes commit log postliste, så besøg den følgende "
 "hjemmeside og indtast din emailadresse der:<ulink url=\"https://lists."
 "sourceforge.net/lists/listinfo/bibletime-cvs\"> lists.sourceforge.net/lists/"
-"listinfo/bibletime-cvs</ulink>."
+"listinfo/bibletime-cvs</ulink>. Denne liste er beregnet til brug af alle "
+"interesserede personer til at overvåge BibleTime udviklernes arbejde."
 
 #: content/en/development_mailinglists.xml:60(title)
-#, fuzzy
 msgid "BibleTime Packaging mailing list"
-msgstr "BibleTimes postlister"
+msgstr "BibleTimes paknings postliste"
 
 #: content/en/development_mailinglists.xml:62(para)
-#, fuzzy
 msgid ""
 "To subscribe to the BibleTime Packagers mailing list please visit the "
 "following web page and enter your eMail address there: <ulink url=\"https://"
@@ -2787,7 +2753,8 @@ msgstr ""
 "For at tilmelde dig BibleTimes commit log postliste, så besøg den følgende "
 "hjemmeside og indtast din emailadresse der:<ulink url=\"https://lists."
 "sourceforge.net/lists/listinfo/bibletime-cvs\"> lists.sourceforge.net/lists/"
-"listinfo/bibletime-cvs</ulink>."
+"listinfo/bibletime-cvs</ulink>. Denne liste er beregnet til diskussion og "
+"annonceringer til BibleTimes pakkere og til andre interesserede personer."
 
 #: content/en/development_mailinglists.xml:71(title)
 msgid "Sword development mailing list"
@@ -2981,7 +2948,6 @@ msgid "For everybody, regardless of participation level..."
 msgstr "For alle, uanset deltagelsesniveau..."
 
 #: content/en/development_join.xml:138(para)
-#, fuzzy
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room. If you do not have an "
@@ -2989,7 +2955,9 @@ msgid ""
 "channels=bibletime\">FreeNode Webchat</ulink>."
 msgstr ""
 "Slut dig til os i IRC! Vi kan findes på <ulink url=\"http://www.freenode.net"
-"\">FreeNode Network</ulink>, i #bibletime rummet."
+"\">FreeNode Network</ulink>, i #bibletime rummet. Hvis du ikke har en IRC "
+"klient kan du bruge <ulink href=\"http://webchat.freenode.net/?"
+"channels=bibletime\">FreeNodes Webchat</ulink>."
 
 #: content/en/development_join.xml:147(para)
 msgid ""
@@ -3016,17 +2984,16 @@ msgid "Please help us ..."
 msgstr "Vær venlig at hjælp os ..."
 
 #: content/en/development_help.xml:22(para)
-#, fuzzy
 msgid ""
 "Our aim is to develop BibleTime into a really mature Bible study application "
 "that can by used by everyone. To achieve this, we need your help. There are "
 "different possibilities for supporting the BibleTime project directly and "
 "indirectly:"
 msgstr ""
-"Vores mål er at udvikle BibleTime til et modent bibelstudie program, som kan "
-"bruges af hvem som helst. For at opnå det, har vi brug for din hjælp. Der er "
-"forskellige måder hvorpå du kan støtte op om BibleTime-projektet, både "
-"direkte og indirekte:"
+"Vores mål er at udvikle BibleTime til et godt og modent bibelstudie program, "
+"som kan bruges af hvem som helst. For at opnå det, har vi brug for din "
+"hjælp. Der er forskellige måder hvorpå du kan støtte op om BibleTime-"
+"projektet, både direkte og indirekte:"
 
 #: content/en/development_help.xml:29(title)
 msgid "Do you want to pray?"
@@ -3175,34 +3142,3 @@ msgstr ""
 #: content/en/development.xml:0(None)
 msgid "translator-credits"
 msgstr "oversætter-ros"
-
-#~ msgid ""
-#~ "@@image: '/images/screenshots/1-small.jpg'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr ""
-#~ "@@image: '/images/screenshots/1-small.jpg'; md5=DENNE FIL EKSISTERER IKKE"
-
-#, fuzzy
-#~ msgid "Contact the BibleTime Team"
-#~ msgstr "Slut dig til BibleTime holdet"
-
-#, fuzzy
-#~ msgid "Mailing lists"
-#~ msgstr "Postlister"
-
-#~ msgid "Using BibleTime 1.5 or later"
-#~ msgstr "Brug af BibleTime 1.5 eller senere"
-
-#~ msgid "Using BibleTime 1.1 - 1.4.x"
-#~ msgstr "Brug af BibleTime 1.1 - 1.4.x"
-
-#~ msgid "The translations are missing!"
-#~ msgstr "Oversættelserne mangler!"
-
-#~ msgid ""
-#~ "Please install the package bibletime-i18n which contains the translations "
-#~ "of the daily tips, the handbook, the installation instructions and the "
-#~ "Bible study howto."
-#~ msgstr ""
-#~ "Vær venlig at installere pakken bibletime-i18n der indeholder "
-#~ "oversættelser af de daglige tips, håndbogen, installations instruktioner "
-#~ "og bibelstudie vejledningen."
