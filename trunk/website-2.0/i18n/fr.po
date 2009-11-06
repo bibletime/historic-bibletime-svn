@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: bibletime-translations@lists.sourceforge.net\n"
-"POT-Creation-Date: 2009-11-04 15:41-0500\n"
+"POT-Creation-Date: 2009-11-06 12:23-0500\n"
 "PO-Revision-Date: 2008-06-02 00:12+0200\n"
 "Last-Translator: Thomas Abthorpe <tabthorpe@FreeBSD.org>\n"
 "MIME-Version: 1.0\n"
@@ -52,11 +52,11 @@ msgstr ""
 "nécessaire. Nous voulons offrir BibleTime dans autant de langues que "
 "possible. Les zones suivantes sont ouvertes à vos contributions :"
 
-#: content/en/translation.xml:27(para) content/en/translation.xml:99(title)
+#: content/en/translation.xml:27(para) content/en/translation.xml:98(title)
 msgid "Translate the www.bibletime.info website."
 msgstr "Traduire le site www.bibletime.info."
 
-#: content/en/translation.xml:30(para) content/en/translation.xml:113(title)
+#: content/en/translation.xml:30(para) content/en/translation.xml:112(title)
 msgid "Translate the program's User Interface."
 msgstr "Traduire l'interface du programme."
 
@@ -65,11 +65,11 @@ msgstr "Traduire l'interface du programme."
 msgid "Translate the Bible Study Howto."
 msgstr "Traduire le tutoriel d'étude biblique."
 
-#: content/en/translation.xml:36(para) content/en/translation.xml:142(title)
+#: content/en/translation.xml:36(para) content/en/translation.xml:138(title)
 msgid "Translate the program's handbook."
 msgstr "Traduire le manuel du programme."
 
-#: content/en/translation.xml:39(para) content/en/translation.xml:155(title)
+#: content/en/translation.xml:39(para) content/en/translation.xml:151(title)
 msgid "Translate the biblical booknames."
 msgstr "Traduire la liste des livres de la Bible."
 
@@ -164,10 +164,10 @@ msgstr ""
 "url=\"http://www.loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/"
 "standards/iso639-2/php/code_list.php</ulink>."
 
-#: content/en/translation.xml:101(para)
+#: content/en/translation.xml:100(para)
 #, fuzzy
 msgid ""
-"If a translation of the website in your language does not yet exist, you can "
+"If a translation of the website does not exist in your language, you can "
 "download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/"
 "viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Webpage "
 "translation template</ulink>. If you want to update an existing translation, "
@@ -184,8 +184,9 @@ msgstr ""
 "le drapeau en haut si une traduction est à 80% complétée."
 
 #: content/en/translation.xml:114(para)
+#, fuzzy
 msgid ""
-"If a translation of the User Interface to your language does not yet exist, "
+"If a translation of the User Interface in your language does not yet exist, "
 "you can download and translate the <ulink url=\"http://bibletime.svn."
 "sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/"
 "bibletime_ui.ts\"> User Interface translation template</ulink>. If you want "
@@ -200,24 +201,12 @@ msgstr ""
 "utilisez les liens dans la table ci-dessous pour télécharger le fichier "
 "correspondant."
 
-#: content/en/translation.xml:120(para)
-#, fuzzy
-msgid ""
-"Starting at 1.7, we have moved translation format to Qt's .ts file format "
-"from the previous .po format. Due to the changes, the translations need a "
-"thorough rewrite."
-msgstr ""
-"Nous préparons la série BibleTime 1.7/2.0 et avons changé pour le format de "
-"fichier de Qt qui est .ts à partir de la série de la version 1.6 du format ."
-"po. À cause des changements, les traductions demanderont une réécriture "
-"exhaustive.)"
-
 #
-#: content/en/translation.xml:129(title)
+#: content/en/translation.xml:125(title)
 msgid "Translate the Bible study howto."
 msgstr "Traduire le tutoriel d'étude biblique"
 
-#: content/en/translation.xml:130(para)
+#: content/en/translation.xml:126(para)
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
 "exist, you can download and translate the <ulink url=\"http://bibletime.svn."
@@ -233,7 +222,7 @@ msgstr ""
 "à jour une traduction existante, utilisez les liens dans la table ci-dessous "
 "pour télécharger le fichier correspondant."
 
-#: content/en/translation.xml:143(para)
+#: content/en/translation.xml:139(para)
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
 "can download and translate the <ulink url=\"http://bibletime.svn.sourceforge."
@@ -249,7 +238,7 @@ msgstr ""
 "traduction existante, utilisez les liens dans la table ci-dessous pour "
 "télécharger le fichier correspondant."
 
-#: content/en/translation.xml:156(para)
+#: content/en/translation.xml:152(para)
 #, fuzzy
 msgid ""
 "Translated Bible book names come from the Sword project. There are no good "
@@ -3308,6 +3297,17 @@ msgstr ""
 #, fuzzy
 msgid "translator-credits"
 msgstr "Traductions"
+
+#, fuzzy
+#~ msgid ""
+#~ "Starting at 1.7, we have moved translation format to Qt's .ts file format "
+#~ "from the previous .po format. Due to the changes, the translations need a "
+#~ "thorough rewrite."
+#~ msgstr ""
+#~ "Nous préparons la série BibleTime 1.7/2.0 et avons changé pour le format "
+#~ "de fichier de Qt qui est .ts à partir de la série de la version 1.6 du "
+#~ "format .po. À cause des changements, les traductions demanderont une "
+#~ "réécriture exhaustive.)"
 
 #
 #, fuzzy
