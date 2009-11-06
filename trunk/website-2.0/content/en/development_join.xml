@@ -67,8 +67,9 @@
 
         <orderedlist>
           <listitem>
-            <para>Work through some of the Qt 4 tutorials to
-	      get used to programming with the tools BibleTime
+            <para>Work through some of the 
+	      <ulink url="http://doc.trolltech.com/4.3/tutorial.html">Qt4 tutorials</ulink>
+	      to get accustomed to programming with the tools BibleTime
 	      uses.</para>
           </listitem>
 
@@ -86,16 +87,16 @@
         <orderedlist>
           <listitem>
             <para>Read the existing English documentation.  It is located
-	      in the docs/ directory of the bibletime svn
-	      directory.</para>
+	      in the docs/ directory of the 
+	      <ulink url="http://bibletime.svn.sourceforge.net/viewvc/bibletime/trunk/bibletime/docs/">bibletime repository</ulink>.</para>
           </listitem>
 
           <listitem>
             <para>The documentation is stored in docbook format in the
-	      unicode subdirectories of each documentation part
-	      (handbook, Bible study howto, installation, helpdialog).
+	      localized subdirectories of each documentation part
+	      (handbook and Bible study howto).
 	      Please do not edit the HTML files directly because they are
-	      generated from the docbook files.  The translation file are
+	      generated from the docbook files.  The translation files are
 	      also generated from the docbook data.</para>
           </listitem>
         </orderedlist>
