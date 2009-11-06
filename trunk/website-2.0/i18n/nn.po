@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-06 12:23-0500\n"
+"POT-Creation-Date: 2009-11-06 15:29-0500\n"
 "PO-Revision-Date: 2005-12-02 15:01+0100\n"
 "Last-Translator: Haavard Haugen <havard.haugen@gmail.com>\n"
 "Language-Team: nynorsk <nn@li.org>\n"
@@ -2052,6 +2052,12 @@ msgid ""
 "BibleTime application."
 msgstr ""
 
+#: content/en/software_about.xml:80(para)
+msgid ""
+"Late in October 2009, the BibleTime team releases it's first beta canadidate "
+"for the Windows platform"
+msgstr ""
+
 #: content/en/software.xml:10(title)
 msgid "Software"
 msgstr "Programvare"
@@ -2403,6 +2409,7 @@ msgid "BibleTime tips"
 msgstr "BibleTime"
 
 #: content/en/sidebar_tips.xml:16(keywords)
+#: content/en/devotional.xml:13(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword"
@@ -2515,10 +2522,10 @@ msgstr ""
 "www.bibletime.info/\">www.bibletime.info</ulink>. Ver venleg og bruk "
 "navigasjonsmenyen til venstre for å sjå om dokumentet har vorte flytta."
 
-#: content/en/error404.xml:31(para)
+#: content/en/error404.xml:30(para)
 #, fuzzy
 msgid ""
-"If you cannat solve the problem, please report the URL that failed to "
+"If you cannot solve the problem, please report the URL that failed to "
 "<email>info@bibletime.info</email>. Thank you very much!"
 msgstr ""
 "Dersom du ikkje klarer å løysa problemet, rapporter URL'en som feila til "
@@ -2528,22 +2535,16 @@ msgstr ""
 msgid "Devotional"
 msgstr "Andakt"
 
-#: content/en/devotional.xml:10(summary)
+#: content/en/devotional.xml:11(summary)
 #, fuzzy
 msgid "BibleTime devotional"
 msgstr "Utviklinga av BibleTime"
 
-#: content/en/devotional.xml:11(keywords)
-msgid ""
-"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
-"Bible, devotional, crosswire, sword"
-msgstr ""
-
-#: content/en/devotional.xml:15(title)
+#: content/en/devotional.xml:19(title)
 msgid "Did you know..."
 msgstr ""
 
-#: content/en/devotional.xml:16(para)
+#: content/en/devotional.xml:21(para)
 msgid ""
 "Did you know that today in 2009, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
@@ -2555,7 +2556,7 @@ msgid ""
 "organization that tries to help persecuted Christians."
 msgstr ""
 
-#: content/en/devotional.xml:27(para)
+#: content/en/devotional.xml:33(para)
 msgid ""
 "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share "
 "its suffering... You are Christ's body and each of you is an individual part "
@@ -2773,13 +2774,14 @@ msgstr "Dei neste stega for programvareutviklarar..."
 #: content/en/development_join.xml:70(para)
 #, fuzzy
 msgid ""
-"Work through some of the Qt 4 tutorials to get used to programming with the "
-"tools BibleTime uses."
+"Work through some of the <ulink url=\"http://doc.trolltech.com/4.3/tutorial."
+"html\">Qt4 tutorials</ulink> to get accustomed to programming with the tools "
+"BibleTime uses."
 msgstr ""
 "Arbeid deg gjennom nokre av guidane til Qt 3 og KDE 3, slik at du vert van "
 "med programvareverktøya som vert brukt i BibleTime."
 
-#: content/en/development_join.xml:76(para)
+#: content/en/development_join.xml:77(para)
 #, fuzzy
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
@@ -2788,27 +2790,28 @@ msgstr ""
 "Dersom du ikkje veit kva du skal gjera, spør etter oppgåver på epostlista. "
 "Ikkje gløym å oppgje kor vanskelege oppgåvene bør vera!"
 
-#: content/en/development_join.xml:84(title)
+#: content/en/development_join.xml:85(title)
 msgid "The next steps for documentation authors..."
 msgstr "Dei neste stega for dokumentasjonsforfattarar..."
 
-#: content/en/development_join.xml:88(para)
+#: content/en/development_join.xml:89(para)
 #, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
-"directory of the bibletime svn directory."
+"directory of the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/"
+"bibletime/trunk/bibletime/docs/\">bibletime repository</ulink>."
 msgstr ""
 "Les den eksisterande, engelske dokumentasjonen. Han ligg i mappa docs/ i "
 "BibleTime si CVS-mappe."
 
-#: content/en/development_join.xml:94(para)
+#: content/en/development_join.xml:95(para)
 #, fuzzy
 msgid ""
-"The documentation is stored in docbook format in the unicode subdirectories "
-"of each documentation part (handbook, Bible study howto, installation, "
-"helpdialog). Please do not edit the HTML files directly because they are "
-"generated from the docbook files. The translation file are also generated "
-"from the docbook data."
+"The documentation is stored in docbook format in the localized "
+"subdirectories of each documentation part (handbook and Bible study howto). "
+"Please do not edit the HTML files directly because they are generated from "
+"the docbook files. The translation files are also generated from the docbook "
+"data."
 msgstr ""
 "Dokumentasjonen ligg lagra i docbook-filer i unicode-undermappene til kvar "
 "del av dokumentasjonen (handboka, Bibelstudieguiden, installasjon, "
@@ -2816,11 +2819,11 @@ msgstr ""
 "vert generert frå docbook-filene. Omsetjingsfila vert òg generert frå "
 "docbook-dataene."
 
-#: content/en/development_join.xml:105(title)
+#: content/en/development_join.xml:106(title)
 msgid "The next steps for translators..."
 msgstr "Dei neste stega for omsetjarar..."
 
-#: content/en/development_join.xml:109(para)
+#: content/en/development_join.xml:110(para)
 #, fuzzy
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
@@ -2829,7 +2832,7 @@ msgstr ""
 "Ta ein kikk på internasjonaliseringssidene til KDE-prosjektet. Desse sidene "
 "ligg på <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>."
 
-#: content/en/development_join.xml:115(para)
+#: content/en/development_join.xml:116(para)
 #, fuzzy
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
@@ -2840,7 +2843,7 @@ msgstr ""
 "systemet ditt. Dette programmet vil vera til stor hjelp i "
 "omsetjingsprosessen."
 
-#: content/en/development_join.xml:122(para)
+#: content/en/development_join.xml:123(para)
 msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
 "BibleTime</olink>."
@@ -2848,17 +2851,17 @@ msgstr ""
 "Les sida om <olink targetdocent=\"translation\">omsetjing av BibleTime</"
 "olink>."
 
-#: content/en/development_join.xml:127(para)
+#: content/en/development_join.xml:128(para)
 msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-translations mailing list</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:134(title)
+#: content/en/development_join.xml:135(title)
 msgid "For everybody, regardless of participation level..."
 msgstr ""
 
-#: content/en/development_join.xml:138(para)
+#: content/en/development_join.xml:139(para)
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room. If you do not have an "
@@ -2866,7 +2869,7 @@ msgid ""
 "channels=bibletime\">FreeNode Webchat</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:147(para)
+#: content/en/development_join.xml:148(para)
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
@@ -2917,7 +2920,7 @@ msgstr ""
 msgid "Do you want to report a bug or suggest a new feature?"
 msgstr ""
 
-#: content/en/development_help.xml:39(para)
+#: content/en/development_help.xml:40(para)
 msgid ""
 "You can use <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;"
 "atid=100954\"> BibleTime's bug tracker</ulink> to report problems with "
@@ -2925,8 +2928,8 @@ msgid ""
 "of BibleTime you are using, your Sword version, information about Qt version "
 "and your operating system, plus everything else that is neccessary to "
 "reproduce the bug. Before you submit the bug, please query the database to "
-"see if a similar bug has already been handled (and is therefore alredy in "
-"status \"closed\")."
+"see if a similar bug has already been handled (and is therefore has \"closed"
+"\" status)."
 msgstr ""
 
 #: content/en/development_help.xml:49(para)

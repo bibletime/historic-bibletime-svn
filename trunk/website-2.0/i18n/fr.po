@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: full\n"
 "Report-Msgid-Bugs-To: bibletime-translations@lists.sourceforge.net\n"
-"POT-Creation-Date: 2009-11-06 12:23-0500\n"
+"POT-Creation-Date: 2009-11-06 15:29-0500\n"
 "PO-Revision-Date: 2008-06-02 00:12+0200\n"
 "Last-Translator: Thomas Abthorpe <tabthorpe@FreeBSD.org>\n"
 "MIME-Version: 1.0\n"
@@ -2217,6 +2217,12 @@ msgid ""
 "BibleTime application."
 msgstr ""
 
+#: content/en/software_about.xml:80(para)
+msgid ""
+"Late in October 2009, the BibleTime team releases it's first beta canadidate "
+"for the Windows platform"
+msgstr ""
+
 #
 #: content/en/software.xml:10(title)
 msgid "Software"
@@ -2578,6 +2584,7 @@ msgid "BibleTime tips"
 msgstr "BibleTime"
 
 #: content/en/sidebar_tips.xml:16(keywords)
+#: content/en/devotional.xml:13(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword"
@@ -2697,10 +2704,10 @@ msgstr ""
 "déplacé"
 
 #
-#: content/en/error404.xml:31(para)
+#: content/en/error404.xml:30(para)
 #, fuzzy
 msgid ""
-"If you cannat solve the problem, please report the URL that failed to "
+"If you cannot solve the problem, please report the URL that failed to "
 "<email>info@bibletime.info</email>. Thank you very much!"
 msgstr ""
 "Si vous n'arrivez pas à résoudre le problème, envoyez l'adresse fautive à "
@@ -2711,22 +2718,16 @@ msgid "Devotional"
 msgstr "Lectures journalières"
 
 #
-#: content/en/devotional.xml:10(summary)
+#: content/en/devotional.xml:11(summary)
 #, fuzzy
 msgid "BibleTime devotional"
 msgstr "Développement de BibleTime"
 
-#: content/en/devotional.xml:11(keywords)
-msgid ""
-"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
-"Bible, devotional, crosswire, sword"
-msgstr ""
-
-#: content/en/devotional.xml:15(title)
+#: content/en/devotional.xml:19(title)
 msgid "Did you know..."
 msgstr "Le saviez-vous..."
 
-#: content/en/devotional.xml:16(para)
+#: content/en/devotional.xml:21(para)
 #, fuzzy
 msgid ""
 "Did you know that today in 2009, more than 200,000,000 Christians are being "
@@ -2747,7 +2748,7 @@ msgstr ""
 "Ces pages proviennent de Portes Ouvertes, une organisation indépendante qui "
 "cherche à aider les chrétiens persécutés."
 
-#: content/en/devotional.xml:27(para)
+#: content/en/devotional.xml:33(para)
 #, fuzzy
 msgid ""
 "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share "
@@ -2995,14 +2996,15 @@ msgstr "Les prochaines étapes concernent les développeurs du logiciel..."
 #: content/en/development_join.xml:70(para)
 #, fuzzy
 msgid ""
-"Work through some of the Qt 4 tutorials to get used to programming with the "
-"tools BibleTime uses."
+"Work through some of the <ulink url=\"http://doc.trolltech.com/4.3/tutorial."
+"html\">Qt4 tutorials</ulink> to get accustomed to programming with the tools "
+"BibleTime uses."
 msgstr ""
 "Travaillez les tutoriaux de Qt4 pour vous habituer à la programmation "
 "utilisée pour BibleTime."
 
 #
-#: content/en/development_join.xml:76(para)
+#: content/en/development_join.xml:77(para)
 #, fuzzy
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
@@ -3013,29 +3015,30 @@ msgstr ""
 "désirez."
 
 #
-#: content/en/development_join.xml:84(title)
+#: content/en/development_join.xml:85(title)
 msgid "The next steps for documentation authors..."
 msgstr "Les prochaines étapes concernent les auteurs de la documentation..."
 
 #
-#: content/en/development_join.xml:88(para)
+#: content/en/development_join.xml:89(para)
 #, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
-"directory of the bibletime svn directory."
+"directory of the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/"
+"bibletime/trunk/bibletime/docs/\">bibletime repository</ulink>."
 msgstr ""
 "Lisez la documentation anglaise existante. Elle est située dans le "
 "répertoire docs/ du répertoire cvs de Bible Time."
 
 #
-#: content/en/development_join.xml:94(para)
+#: content/en/development_join.xml:95(para)
 #, fuzzy
 msgid ""
-"The documentation is stored in docbook format in the unicode subdirectories "
-"of each documentation part (handbook, Bible study howto, installation, "
-"helpdialog). Please do not edit the HTML files directly because they are "
-"generated from the docbook files. The translation file are also generated "
-"from the docbook data."
+"The documentation is stored in docbook format in the localized "
+"subdirectories of each documentation part (handbook and Bible study howto). "
+"Please do not edit the HTML files directly because they are generated from "
+"the docbook files. The translation files are also generated from the docbook "
+"data."
 msgstr ""
 "La documentation est stockée dans des fichiers docbook situés dans le sous-"
 "répertoire unicode de chaque partie de documentation (handbook, Bible study "
@@ -3044,11 +3047,11 @@ msgstr ""
 "traduction est aussi généré à partir des données docbook."
 
 #
-#: content/en/development_join.xml:105(title)
+#: content/en/development_join.xml:106(title)
 msgid "The next steps for translators..."
 msgstr "Les prochaines étapes concernent les traducteurs..."
 
-#: content/en/development_join.xml:109(para)
+#: content/en/development_join.xml:110(para)
 #, fuzzy
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
@@ -3058,7 +3061,7 @@ msgstr ""
 "trouver ici : <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>."
 
 #
-#: content/en/development_join.xml:115(para)
+#: content/en/development_join.xml:116(para)
 #, fuzzy
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
@@ -3068,7 +3071,7 @@ msgstr ""
 "Installez le programme KBabel, s'il n'est pas encore installé sur votre "
 "système. Il sera une aide précieuse dans le processus de traduction."
 
-#: content/en/development_join.xml:122(para)
+#: content/en/development_join.xml:123(para)
 msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
 "BibleTime</olink>."
@@ -3076,17 +3079,17 @@ msgstr ""
 "Lisez la page suivante : <olink targetdocent=\"translation\">traduire "
 "BibleTime</olink>"
 
-#: content/en/development_join.xml:127(para)
+#: content/en/development_join.xml:128(para)
 msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-translations mailing list</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:134(title)
+#: content/en/development_join.xml:135(title)
 msgid "For everybody, regardless of participation level..."
 msgstr ""
 
-#: content/en/development_join.xml:138(para)
+#: content/en/development_join.xml:139(para)
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room. If you do not have an "
@@ -3094,7 +3097,7 @@ msgid ""
 "channels=bibletime\">FreeNode Webchat</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:147(para)
+#: content/en/development_join.xml:148(para)
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
@@ -3151,7 +3154,7 @@ msgid "Do you want to report a bug or suggest a new feature?"
 msgstr ""
 "Voulez-vous rapporter un bogue ou suggérer une nouvelle fonctionnalité?"
 
-#: content/en/development_help.xml:39(para)
+#: content/en/development_help.xml:40(para)
 #, fuzzy
 msgid ""
 "You can use <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;"
@@ -3160,8 +3163,8 @@ msgid ""
 "of BibleTime you are using, your Sword version, information about Qt version "
 "and your operating system, plus everything else that is neccessary to "
 "reproduce the bug. Before you submit the bug, please query the database to "
-"see if a similar bug has already been handled (and is therefore alredy in "
-"status \"closed\")."
+"see if a similar bug has already been handled (and is therefore has \"closed"
+"\" status)."
 msgstr ""
 "Vous pouvez utiliser <ulink url=\"https://sourceforge.net/tracker/?"
 "group_id=954&amp;atid=100954\">le suivi de bogues de BibleTime</ulink> pour "

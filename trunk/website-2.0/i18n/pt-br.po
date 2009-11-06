@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-06 12:23-0500\n"
+"POT-Creation-Date: 2009-11-06 15:29-0500\n"
 "PO-Revision-Date: 2009-08-02 17:25-0300\n"
 "Last-Translator: Rafael Fagundes Rosa Campos\n"
 "Language-Team: Português do Brasil <kde-i18n-doc@kde.org>\n"
@@ -2089,6 +2089,12 @@ msgid ""
 "BibleTime application."
 msgstr ""
 
+#: content/en/software_about.xml:80(para)
+msgid ""
+"Late in October 2009, the BibleTime team releases it's first beta canadidate "
+"for the Windows platform"
+msgstr ""
+
 #: content/en/software.xml:10(title)
 msgid "Software"
 msgstr "Software"
@@ -2504,6 +2510,7 @@ msgid "BibleTime tips"
 msgstr "BibleTime dicas"
 
 #: content/en/sidebar_tips.xml:16(keywords)
+#: content/en/devotional.xml:13(keywords)
 msgid ""
 "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible "
 "study, God, Religion, Bible, devotional, crosswire, sword"
@@ -2622,9 +2629,10 @@ msgstr ""
 "\"http://www.bibletime.info/\">www.bibletime.info</ulink>. Por favor, use a "
 "árvore de navegação à esquerda para ver se o documento foi movido."
 
-#: content/en/error404.xml:31(para)
+#: content/en/error404.xml:30(para)
+#, fuzzy
 msgid ""
-"If you cannat solve the problem, please report the URL that failed to "
+"If you cannot solve the problem, please report the URL that failed to "
 "<email>info@bibletime.info</email>. Thank you very much!"
 msgstr ""
 "Se você não conseguir solucionar o problema, por favor, reporte a URL que "
@@ -2634,23 +2642,15 @@ msgstr ""
 msgid "Devotional"
 msgstr "Devocional"
 
-#: content/en/devotional.xml:10(summary)
+#: content/en/devotional.xml:11(summary)
 msgid "BibleTime devotional"
 msgstr "Devocional do BibleTime"
 
-#: content/en/devotional.xml:11(keywords)
-msgid ""
-"BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
-"Bible, devotional, crosswire, sword"
-msgstr ""
-"BibleTime, Linux, Software, estudo bíblico, KDE, Deus, Religião, Bíblia, "
-"devocional, crosswire, sword"
-
-#: content/en/devotional.xml:15(title)
+#: content/en/devotional.xml:19(title)
 msgid "Did you know..."
 msgstr "Você sabia..."
 
-#: content/en/devotional.xml:16(para)
+#: content/en/devotional.xml:21(para)
 msgid ""
 "Did you know that today in 2009, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
@@ -2670,7 +2670,7 @@ msgstr ""
 "regiões mundo afora. Estas páginas são da Missão Portas Abertas, uma "
 "organização independente que tenta ajudar os cristãos perseguidos."
 
-#: content/en/devotional.xml:27(para)
+#: content/en/devotional.xml:33(para)
 msgid ""
 "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share "
 "its suffering... You are Christ's body and each of you is an individual part "
@@ -2895,14 +2895,16 @@ msgid "The next steps for software developers..."
 msgstr "Os próximos passos para desenvolvedores de software..."
 
 #: content/en/development_join.xml:70(para)
+#, fuzzy
 msgid ""
-"Work through some of the Qt 4 tutorials to get used to programming with the "
-"tools BibleTime uses."
+"Work through some of the <ulink url=\"http://doc.trolltech.com/4.3/tutorial."
+"html\">Qt4 tutorials</ulink> to get accustomed to programming with the tools "
+"BibleTime uses."
 msgstr ""
 "Leia alguns tutoriais do Qt 4 para se acostumar com programação com as "
 "ferramentas que o BibleTime usa."
 
-#: content/en/development_join.xml:76(para)
+#: content/en/development_join.xml:77(para)
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
 "Do not forget to add how difficult it should be."
@@ -2911,25 +2913,28 @@ msgstr ""
 "algumas tarefas. Não se esqueça de adicionar o nível de dificuldade que "
 "devem ter."
 
-#: content/en/development_join.xml:84(title)
+#: content/en/development_join.xml:85(title)
 msgid "The next steps for documentation authors..."
 msgstr "Os próximos passos para autores de documentação..."
 
-#: content/en/development_join.xml:88(para)
+#: content/en/development_join.xml:89(para)
+#, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
-"directory of the bibletime svn directory."
+"directory of the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/"
+"bibletime/trunk/bibletime/docs/\">bibletime repository</ulink>."
 msgstr ""
 "Leia a documentação existente em inglês. Está localizada no diretório docs/ "
 "do diretório svn do BibleTime."
 
-#: content/en/development_join.xml:94(para)
+#: content/en/development_join.xml:95(para)
+#, fuzzy
 msgid ""
-"The documentation is stored in docbook format in the unicode subdirectories "
-"of each documentation part (handbook, Bible study howto, installation, "
-"helpdialog). Please do not edit the HTML files directly because they are "
-"generated from the docbook files. The translation file are also generated "
-"from the docbook data."
+"The documentation is stored in docbook format in the localized "
+"subdirectories of each documentation part (handbook and Bible study howto). "
+"Please do not edit the HTML files directly because they are generated from "
+"the docbook files. The translation files are also generated from the docbook "
+"data."
 msgstr ""
 "A documentação é guardada em arquivos docbook nos subdiretórios unicode de "
 "cada parte (livro de mão, Estudo Bíblico HowTo, instalação, diálogo de "
@@ -2937,11 +2942,11 @@ msgstr ""
 "gerados a partir dos documentos docbook. Os arquivos de tradução também são "
 "gerados a partir dos arquivos docbook."
 
-#: content/en/development_join.xml:105(title)
+#: content/en/development_join.xml:106(title)
 msgid "The next steps for translators..."
 msgstr "O próximo passo para tradutores..."
 
-#: content/en/development_join.xml:109(para)
+#: content/en/development_join.xml:110(para)
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
 "located at <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
@@ -2949,7 +2954,7 @@ msgstr ""
 "Dê uma olhada nas páginas de internacionalização do projeto KDE. Eles estão "
 "localizados em: <ulink url=\"http://i18n.kde.org/\">i18n.kde.org</ulink>."
 
-#: content/en/development_join.xml:115(para)
+#: content/en/development_join.xml:116(para)
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
 "Lokalize</ulink>, if it is not yet installed on your system. It will help "
@@ -2959,7 +2964,7 @@ msgstr ""
 "Lokalize</ulink>, se ainda não estiver instalado em seu sistema. Ele irá "
 "ajudá-lo muito no processo de tradução."
 
-#: content/en/development_join.xml:122(para)
+#: content/en/development_join.xml:123(para)
 msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
 "BibleTime</olink>."
@@ -2967,7 +2972,7 @@ msgstr ""
 "Por favor, leia a página sobre a <olink targetdocent=\"translation"
 "\">tradução do BibleTime</olink>."
 
-#: content/en/development_join.xml:127(para)
+#: content/en/development_join.xml:128(para)
 msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> Bibletime-translations mailing list</ulink>."
@@ -2975,11 +2980,11 @@ msgstr ""
 "Inscreva-se na <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\">lista de e-mails traduções do Bibletime</ulink>."
 
-#: content/en/development_join.xml:134(title)
+#: content/en/development_join.xml:135(title)
 msgid "For everybody, regardless of participation level..."
 msgstr "Para todos, independente do nível de participação..."
 
-#: content/en/development_join.xml:138(para)
+#: content/en/development_join.xml:139(para)
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room. If you do not have an "
@@ -2991,7 +2996,7 @@ msgstr ""
 "tem iu cliente IRC, você pode usar o <ulink href=\"http://webchat.freenode."
 "net/?channels=bibletime\">Bate-papo FreeNode</ulink>."
 
-#: content/en/development_join.xml:147(para)
+#: content/en/development_join.xml:148(para)
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
@@ -3045,7 +3050,8 @@ msgstr ""
 msgid "Do you want to report a bug or suggest a new feature?"
 msgstr "Você deseja reportar um bug ou sugerir uma nova função?"
 
-#: content/en/development_help.xml:39(para)
+#: content/en/development_help.xml:40(para)
+#, fuzzy
 msgid ""
 "You can use <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;"
 "atid=100954\"> BibleTime's bug tracker</ulink> to report problems with "
@@ -3053,8 +3059,8 @@ msgid ""
 "of BibleTime you are using, your Sword version, information about Qt version "
 "and your operating system, plus everything else that is neccessary to "
 "reproduce the bug. Before you submit the bug, please query the database to "
-"see if a similar bug has already been handled (and is therefore alredy in "
-"status \"closed\")."
+"see if a similar bug has already been handled (and is therefore has \"closed"
+"\" status)."
 msgstr ""
 "Você pode usar o <ulink url=\"https://sourceforge.net/tracker/?"
 "group_id=954&amp;atid=100954\">caçador de bugs do BibleTime</ulink> para "
@@ -3175,6 +3181,13 @@ msgid "translator-credits"
 msgstr ""
 "Augusto Men <augustocmen@yahoo.com.br>;, 2009 2009. Rafael Fagundes "
 "<rafaelfrc@yahoo.com.br>;, 2009 2009"
+
+#~ msgid ""
+#~ "BibleTime, Linux, Software, biblestudy, bible study, KDE, God, Religion, "
+#~ "Bible, devotional, crosswire, sword"
+#~ msgstr ""
+#~ "BibleTime, Linux, Software, estudo bíblico, KDE, Deus, Religião, Bíblia, "
+#~ "devocional, crosswire, sword"
 
 #~ msgid ""
 #~ "Starting at 1.7, we have moved translation format to Qt's .ts file format "
