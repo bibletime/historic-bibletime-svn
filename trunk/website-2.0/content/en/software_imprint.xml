@@ -5,11 +5,17 @@
 
 <webpage id="software_imprint">
 <config param="desc" value="Imprint"/>
-<config param="rcsdate" value="$Date$"/>
+<config param="rcsdate" value="$LastChangedDate$"/>
+
 <head>
-<title>Imprint</title>
-<summary>BibleTime imprint</summary>
-<keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, press, in the media, pree coverage</keywords>
+  <title>Imprint</title>
+
+  <summary>BibleTime imprint</summary>
+
+  <keywords>
+    BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X,
+    Software, biblestudy, bible study, God, Religion, Bible, devotional,
+    crosswire, sword, press, in the media, press coverage</keywords>
 </head>
 
 <section><title>Responsibility</title>

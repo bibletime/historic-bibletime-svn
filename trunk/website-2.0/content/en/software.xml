@@ -7,11 +7,12 @@
   <config param="desc" value="Software page" />
   <config param="rcsdate" value="$LastChangedDate$" />
   <head>
-    <title>Software</title>
+    <title>Welcome to BibleTime</title>
 
     <summary>Welcome to BibleTime</summary>
 
-    <keywords>BibleTime, bibletime, Linux, unix, Freebsd, cross platform,
+    <keywords>
+      BibleTime, bibletime, Linux, unix, Freebsd, Windows, Mac OS X,
       Software, biblestudy, bible study, Qt, God, Religion, Bible, devotional,
       crosswire, sword, Ubuntu, Debian
     </keywords>
@@ -28,13 +29,16 @@
 	    <imagedata fileref="/images/screenshots/1.jpg" format="JPG" />
 	  </imageobject>
 	 </inlinemediaobject>
-      </ulink> BibleTime is a Bible study application built with
-      <ulink url="http://qt.nokia.com/">Qt4</ulink>, 
-      using the <ulink url="http://www.crosswire.org/sword/">
-      Sword</ulink> programming library to work with Bible texts,
-      commentaries, dictionaries and books provided by the 
-      <ulink url="http://www.crosswire.org/">Crosswire Bible
-      Society</ulink>.
+	</ulink> BibleTime is a completely free Bible study program.
+	The program's user interface is built with
+	<ulink url="http://qt.nokia.com/">Qt framework</ulink>, which
+	makes it run on several operating systems including Linux,
+	Windows, FreeBSD and Mac OS X.  The software uses the
+	<ulink url="http://www.crosswire.org/sword/">
+	SWORD</ulink> programming library to work with over 200 free Bible
+	texts, commentaries, dictionaries and books provided by the 
+	<ulink url="http://www.crosswire.org/">Crosswire Bible
+	Society</ulink>.
     </para>
   </section>
 
@@ -94,7 +98,7 @@
     <formalpara>
       <title>2009-10-16 Become a fan of BibleTime</title>
 
-      <para>You can now become a fan of Bibletime on Facebook by following this
+      <para>You can now become a fan of BibleTime on Facebook by following this
 	<ulink url="http://www.facebook.com/bibletime">link</ulink>.</para>
     </formalpara>
 

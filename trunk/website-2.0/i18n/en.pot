@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2009-11-11 21:43-0500\n"
+"POT-Creation-Date: 2009-11-16 23:37-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,165 +10,165 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: content/en/translation.xml:9(title) 
-msgid "Translation"
+msgid "Help translate BibleTime"
 msgstr ""
 
-#: content/en/translation.xml:10(summary) 
+#: content/en/translation.xml:11(summary) 
 msgid "BibleTime translation statistics"
 msgstr ""
 
-#: content/en/translation.xml:11(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, Qt, God, Religion, Bible, devotional, crosswire, sword, translation, translate, webpage"
+#: content/en/translation.xml:13(keywords) 
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, Qt, God, Religion, Bible, devotional, crosswire, sword, translation, translate, webpage"
 msgstr ""
 
-#: content/en/translation.xml:17(title) 
+#: content/en/translation.xml:21(title) 
 msgid "Help translate BibleTime into your language"
 msgstr ""
 
-#: content/en/translation.xml:19(para) 
+#: content/en/translation.xml:23(para) 
 msgid "This is a part of software development where the help of many individuals is needed. It is our desire to offer BibleTime to users in as many languages as possible. The following areas are open for your contributions:"
 msgstr ""
 
-#: content/en/translation.xml:27(para) content/en/translation.xml:98(title) 
+#: content/en/translation.xml:31(para) content/en/translation.xml:102(title) 
 msgid "Translate the www.bibletime.info website."
 msgstr ""
 
-#: content/en/translation.xml:30(para) content/en/translation.xml:112(title) 
+#: content/en/translation.xml:34(para) content/en/translation.xml:116(title) 
 msgid "Translate the program's User Interface."
 msgstr ""
 
-#: content/en/translation.xml:33(para) 
+#: content/en/translation.xml:37(para) 
 msgid "Translate the Bible Study Howto."
 msgstr ""
 
-#: content/en/translation.xml:36(para) content/en/translation.xml:138(title) 
+#: content/en/translation.xml:40(para) content/en/translation.xml:142(title) 
 msgid "Translate the program's handbook."
 msgstr ""
 
-#: content/en/translation.xml:39(para) content/en/translation.xml:151(title) 
+#: content/en/translation.xml:43(para) content/en/translation.xml:155(title) 
 msgid "Translate the biblical booknames."
 msgstr ""
 
-#: content/en/translation.xml:43(para) 
+#: content/en/translation.xml:47(para) 
 msgid "On this page you can find statistics about the completeness of existing translations for each of these areas, as well as links to translation templates that you can use to submit new translations which do not yet exist. If a translation into your language does not yet exist or you want to work on an existing translation, follow these steps:"
 msgstr ""
 
-#: content/en/translation.xml:53(para) 
+#: content/en/translation.xml:57(para) 
 msgid "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> the translators' mailing list bibletime-translations at lists.sourceforge.net</ulink>. You will receive information relevant for translators and can communicate with the developers and the other translators. Use this list if you have questions or comments."
 msgstr ""
 
-#: content/en/translation.xml:62(para) 
+#: content/en/translation.xml:66(para) 
 msgid "Download a template you want to translate or an existing translation you want to enhance."
 msgstr ""
 
-#: content/en/translation.xml:66(para) 
+#: content/en/translation.xml:70(para) 
 msgid "Use one of the recommended programs mentioned below or some other program and edit the translation."
 msgstr ""
 
-#: content/en/translation.xml:70(para) 
+#: content/en/translation.xml:74(para) 
 msgid "Send the translation to the translators' mailing list."
 msgstr ""
 
-#: content/en/translation.xml:74(para) 
+#: content/en/translation.xml:78(para) 
 msgid "Developers will integrate your work as soon as possible. The statistics will be updated after that."
 msgstr ""
 
-#: content/en/translation.xml:79(para) 
+#: content/en/translation.xml:83(para) 
 msgid "For editing .po files, we recommend that you use <ulink url=\"http://userbase.kde.org/Lokalize\">Lokalize</ulink>. It has many advanced features and is a great aid. <ulink url=\"http://www.poedit.net/\">Poedit</ulink> is a cross-platform file editor suitable for our documentation and website translations. <ulink url=\"http://qt.nokia.com/doc/4.5/linguist-manual.html\"> Qt Linguist 4.5</ulink> (part of the cross-platform Qt development package) is needed to translate the user interface which is in .ts format."
 msgstr ""
 
-#: content/en/translation.xml:91(para) 
+#: content/en/translation.xml:95(para) 
 msgid "A list of the language abbreviations is available at <ulink url=\"http://www.loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-2/php/code_list.php</ulink>."
 msgstr ""
 
-#: content/en/translation.xml:100(para) 
+#: content/en/translation.xml:104(para) 
 msgid "If a translation of the website does not exist in your language, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Webpage translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file. We usually add the translated pages and the flag at the top if a translation is about 80% complete."
 msgstr ""
 
-#: content/en/translation.xml:114(para) 
+#: content/en/translation.xml:118(para) 
 msgid "If a translation of the User Interface in your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
-#: content/en/translation.xml:125(title) 
+#: content/en/translation.xml:129(title) 
 msgid "Translate the Bible study howto."
 msgstr ""
 
-#: content/en/translation.xml:126(para) 
+#: content/en/translation.xml:130(para) 
 msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
-#: content/en/translation.xml:139(para) 
+#: content/en/translation.xml:143(para) 
 msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
-#: content/en/translation.xml:152(para) 
+#: content/en/translation.xml:156(para) 
 msgid "Translated Bible book names come from the Sword project. There are no good instructions at the moment but you can find some information and examples by looking at <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/locales.d\"> the locales.d directory</ulink> of the Sword library and using <ulink url=\"ftp://ftp.crosswire.org/pub/sword/source/sword/doc/translation-template.conf\"> the template</ulink>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: content/en/software_screenshots.xml:26(None) content/en/software.xml:28(None) 
+#: content/en/software_screenshots.xml:29(None) content/en/software.xml:29(None) 
 msgid "@@image: '/images/screenshots/1.jpg'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: content/en/software_screenshots.xml:50(None) 
+#: content/en/software_screenshots.xml:53(None) 
 msgid "@@image: '/images/screenshots/3.jpg'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: content/en/software_screenshots.xml:69(None) 
+#: content/en/software_screenshots.xml:72(None) 
 msgid "@@image: '/images/screenshots/2.jpg'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
 #: content/en/software_screenshots.xml:9(title) 
-msgid "Screenshots"
+msgid "BibleTime Screenshots"
 msgstr ""
 
-#: content/en/software_screenshots.xml:10(summary) content/en/software_screenshots.xml:18(title) 
+#: content/en/software_screenshots.xml:11(summary) content/en/software_screenshots.xml:21(title) 
 msgid "Screenshots of BibleTime"
 msgstr ""
 
-#: content/en/software_screenshots.xml:11(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, screenshots, gallery"
+#: content/en/software_screenshots.xml:13(keywords) 
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, screenshots, gallery"
 msgstr ""
 
-#: content/en/software_screenshots.xml:20(title) 
+#: content/en/software_screenshots.xml:23(title) 
 msgid "The main window"
 msgstr ""
 
-#: content/en/software_screenshots.xml:32(para) 
+#: content/en/software_screenshots.xml:35(para) 
 msgid "Here you can see a typical BibleTime session. On the left pane, you see the \"bookshelf\" which offers quick access to all installed electronic works as well as facilities to create and manage your own bookmarks. Below is the \"mag(nifying glass)\", which can display additional information about a word or piece of text. In this example it shows a cross reference, with scripture to Psalms 10:6. The main part of the BibleTime window (called \"desk\") offers space to read works such as Bibles, commentaries, lexicons or other books."
 msgstr ""
 
-#: content/en/software_screenshots.xml:44(title) 
+#: content/en/software_screenshots.xml:47(title) 
 msgid "The Bookshelf Manager"
 msgstr ""
 
-#: content/en/software_screenshots.xml:55(para) 
+#: content/en/software_screenshots.xml:58(para) 
 msgid "BibleTime offers a dialog to automatically download and manage electronic works. You simply define a library (a remote collection of works, such as <ulink url=\"http://www.crosswire.org/sword/\">Crosswire</ulink>), and then you can transfer works from this library to your local bookshelf to use them. Easy, huh?"
 msgstr ""
 
-#: content/en/software_screenshots.xml:63(title) 
+#: content/en/software_screenshots.xml:66(title) 
 msgid "The search dialog"
 msgstr ""
 
-#: content/en/software_screenshots.xml:74(para) 
+#: content/en/software_screenshots.xml:77(para) 
 msgid "BibleTime offers a powerful search dialog. You can search in several works at a time, limit your search to text scopes or also to certain kinds of text, such as footnotes."
 msgstr ""
 
-#: content/en/software_press.xml:10(title) content/en/software_press.xml:21(title) 
-msgid "In the press"
-msgstr ""
-
-#: content/en/software_press.xml:12(summary) 
+#: content/en/software_press.xml:10(title) content/en/software_press.xml:12(summary) 
 msgid "BibleTime in the press"
 msgstr ""
 
 #: content/en/software_press.xml:14(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, press, in the media, press coverage"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, press, in the media, press coverage"
+msgstr ""
+
+#: content/en/software_press.xml:21(title) 
+msgid "In the press"
 msgstr ""
 
 #: content/en/software_press.xml:22(para) 
@@ -192,54 +192,54 @@ msgid "Andreas Pour (© 2001 Andreas \"Dre\" Pour. All rights reserved)"
 msgstr ""
 
 #: content/en/software_press.xml:44(para) 
-msgid "Bibletime is already a true godsend for religious KDE users. It is easily useable though it may take a bit of time to learn some quirks. I think the next release will make it even better, particularly by providing a GUI for the difficult Sword installation/configuration. Besides this, my personal wishlist item is to use KHTML for its advanced navigation features."
+msgid "BibleTime is already a true godsend for religious KDE users. It is easily useable though it may take a bit of time to learn some quirks. I think the next release will make it even better, particularly by providing a GUI for the difficult Sword installation/configuration. Besides this, my personal wishlist item is to use KHTML for its advanced navigation features."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: content/en/software_linkus.xml:31(None) 
+#: content/en/software_linkus.xml:34(None) 
 msgid "@@image: '/images/banner/big.jpg'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: content/en/software_linkus.xml:50(None) 
+#: content/en/software_linkus.xml:53(None) 
 msgid "@@image: '/images/banner/small.jpg'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
 #: content/en/software_linkus.xml:9(title) 
-msgid "Link to us"
+msgid "Link to BibleTime"
 msgstr ""
 
-#: content/en/software_linkus.xml:10(summary) content/en/software_linkus.xml:16(title) 
+#: content/en/software_linkus.xml:11(summary) content/en/software_linkus.xml:19(title) 
 msgid "How to link to www.bibletime.info"
 msgstr ""
 
-#: content/en/software_linkus.xml:11(keywords) 
-msgid "BibleTime, Linux, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, links, link us"
+#: content/en/software_linkus.xml:13(keywords) 
+msgid "BibleTime, Linux, Software, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, links, link us"
 msgstr ""
 
-#: content/en/software_linkus.xml:17(para) 
+#: content/en/software_linkus.xml:20(para) 
 msgid "Please do not copy the images, as their design may change."
 msgstr ""
 
-#: content/en/software_linkus.xml:19(title) 
+#: content/en/software_linkus.xml:22(title) 
 msgid "Larger banner"
 msgstr ""
 
-#: content/en/software_linkus.xml:20(para) content/en/software_linkus.xml:38(para) 
+#: content/en/software_linkus.xml:23(para) content/en/software_linkus.xml:41(para) 
 msgid "Put the following HTML code on your pages: <placeholder-1/>It will look like this: <placeholder-2/>"
 msgstr ""
 
-#: content/en/software_linkus.xml:37(title) 
+#: content/en/software_linkus.xml:40(title) 
 msgid "Smaller banner"
 msgstr ""
 
-#: content/en/software_linkus.xml:56(title) 
+#: content/en/software_linkus.xml:59(title) 
 msgid "Text link"
 msgstr ""
 
-#: content/en/software_linkus.xml:57(para) 
+#: content/en/software_linkus.xml:60(para) 
 msgid "To insert a simple text link please use the following HTML code on your pages: <placeholder-1/>It will look like this: <ulink url=\"http://www.bibletime.info/\">BibleTime - Bible study software</ulink>"
 msgstr ""
 
@@ -252,7 +252,7 @@ msgid "Link collection of good sites"
 msgstr ""
 
 #: content/en/software_links.xml:13(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, links"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, links"
 msgstr ""
 
 #: content/en/software_links.xml:20(title) 
@@ -395,31 +395,39 @@ msgstr ""
 msgid "BibleTime Facebook page"
 msgstr ""
 
-#: content/en/software_links.xml:171(title) 
+#: content/en/software_links.xml:168(ulink) 
+msgid "BibleTime's Oloh listing"
+msgstr ""
+
+#: content/en/software_links.xml:174(title) 
 msgid "Development tools"
 msgstr ""
 
-#: content/en/software_links.xml:173(title) 
+#: content/en/software_links.xml:176(title) 
 msgid "<ulink url=\"http://www.sourceforge.net/\">SourceForge</ulink>."
 msgstr ""
 
-#: content/en/software_links.xml:175(para) 
+#: content/en/software_links.xml:178(para) 
 msgid "SourceForge provides us with the tools to develop BibleTime with many team members at the same time! We save a lot of time and money by using their services."
 msgstr ""
 
-#: content/en/software_license.xml:10(title) content/en/software_license.xml:18(title) 
-msgid "License"
+#: content/en/software_license.xml:10(title) 
+msgid "The BibleTime License"
 msgstr ""
 
-#: content/en/software_license.xml:11(summary) 
+#: content/en/software_license.xml:12(summary) 
 msgid "BibleTime's license"
 msgstr ""
 
-#: content/en/software_license.xml:12(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, license"
+#: content/en/software_license.xml:14(keywords) 
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, license"
 msgstr ""
 
-#: content/en/software_license.xml:20(literallayout) 
+#: content/en/software_license.xml:22(title) 
+msgid "License"
+msgstr ""
+
+#: content/en/software_license.xml:24(literallayout) 
 #, no-wrap
 msgid "\n\t\t    GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n\t\t\t    Preamble\n\n  The licenses for most software are designed to take away your\nfreedom to share and change it.  By contrast, the GNU General Public\nLicense is intended to guarantee your freedom to share and change free\nsoftware--to make sure the software is free for all its users.  This\nGeneral Public License applies to most of the Free Software\nFoundation's software and to any other program whose authors commit to\nusing it.  (Some other Free Software Foundation software is covered by\nthe GNU Library General Public License instead.)  You can apply it to\nyour programs, too.\n\n  When we speak of free software, we are referring to freedom, not\nprice.  Our General Public Licenses are designed to make sure that you\nhave the freedom to distribute copies of free software (and charge for\nthis service if you wish), that you receive source code or can get it\nif you want it, that you can change the software or use pieces of it\nin new free programs; and that you know you can do these things.\n\n  To protect your rights, we need to make restrictions that forbid\nanyone to deny you these rights or to ask you to surrender the rights.\nThese restrictions translate to certain responsibilities for you if you\ndistribute copies of the software, or if you modify it.\n\n  For example, if you distribute copies of such a program, whether\ngratis or for a fee, you must give the recipients all the rights that\nyou have.  You must make sure that they, too, receive or can get the\nsource code.  And you must show them these terms so they know their\nrights.\n\n  We protect your rights with two steps: (1) copyright the software, and\n(2) offer you this license which gives you legal permission to copy,\ndistribute and/or modify the software.\n\n  Also, for each author's protection and ours, we want to make certain\nthat everyone understands that there is no warranty for this free\nsoftware.  If the software is modified by someone else and passed on, we\nwant its recipients to know that what they have is not the original, so\nthat any problems introduced by others will not reflect on the original\nauthors' reputations.\n\n  Finally, any free program is threatened constantly by software\npatents.  We wish to avoid the danger that redistributors of a free\nprogram will individually obtain patent licenses, in effect making the\nprogram proprietary.  To prevent this, we have made it clear that any\npatent must be licensed for everyone's free use or not licensed at all.\n\n  The precise terms and conditions for copying, distribution and\nmodification follow.\n\n\t\t    GNU GENERAL PUBLIC LICENSE\n   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n  0. This License applies to any program or other work which contains\na notice placed by the copyright holder saying it may be distributed\nunder the terms of this General Public License.  The \"Program\", below,\nrefers to any such program or work, and a \"work based on the Program\"\nmeans either the Program or any derivative work under copyright law:\nthat is to say, a work containing the Program or a portion of it,\neither verbatim or with modifications and/or translated into another\nlanguage.  (Hereinafter, translation is included without limitation in\nthe term \"modification\".)  Each licensee is addressed as \"you\".\n\nActivities other than copying, distribution and modification are not\ncovered by this License; they are outside its scope.  The act of\nrunning the Program is not restricted, and the output from the Program\nis covered only if its contents constitute a work based on the\nProgram (independent of having been made by running the Program).\nWhether that is true depends on what the Program does.\n\n  1. You may copy and distribute verbatim copies of the Program's\nsource code as you receive it, in any medium, provided that you\nconspicuously and appropriately publish on each copy an appropriate\ncopyright notice and disclaimer of warranty; keep intact all the\nnotices that refer to this License and to the absence of any warranty;\nand give any other recipients of the Program a copy of this License\nalong with the Program.\n\nYou may charge a fee for the physical act of transferring a copy, and\nyou may at your option offer warranty protection in exchange for a fee.\n\n  2. You may modify your copy or copies of the Program or any portion\nof it, thus forming a work based on the Program, and copy and\ndistribute such modifications or work under the terms of Section 1\nabove, provided that you also meet all of these conditions:\n\n    a) You must cause the modified files to carry prominent notices\n    stating that you changed the files and the date of any change.\n\n    b) You must cause any work that you distribute or publish, that in\n    whole or in part contains or is derived from the Program or any\n    part thereof, to be licensed as a whole at no charge to all third\n    parties under the terms of this License.\n\n    c) If the modified program normally reads commands interactively\n    when run, you must cause it, when started running for such\n    interactive use in the most ordinary way, to print or display an\n    announcement including an appropriate copyright notice and a\n    notice that there is no warranty (or else, saying that you provide\n    a warranty) and that users may redistribute the program under\n    these conditions, and telling the user how to view a copy of this\n    License.  (Exception: if the Program itself is interactive but\n    does not normally print such an announcement, your work based on\n    the Program is not required to print an announcement.)\n\nThese requirements apply to the modified work as a whole.  If\nidentifiable sections of that work are not derived from the Program,\nand can be reasonably considered independent and separate works in\nthemselves, then this License, and its terms, do not apply to those\nsections when you distribute them as separate works.  But when you\ndistribute the same sections as part of a whole which is a work based\non the Program, the distribution of the whole must be on the terms of\nthis License, whose permissions for other licensees extend to the\nentire whole, and thus to each and every part regardless of who wrote it.\n\nThus, it is not the intent of this section to claim rights or contest\nyour rights to work written entirely by you; rather, the intent is to\nexercise the right to control the distribution of derivative or\ncollective works based on the Program.\n\nIn addition, mere aggregation of another work not based on the Program\nwith the Program (or with a work based on the Program) on a volume of\na storage or distribution medium does not bring the other work under\nthe scope of this License.\n\n  3. You may copy and distribute the Program (or a work based on it,\nunder Section 2) in object code or executable form under the terms of\nSections 1 and 2 above provided that you also do one of the following:\n\n    a) Accompany it with the complete corresponding machine-readable\n    source code, which must be distributed under the terms of Sections\n    1 and 2 above on a medium customarily used for software interchange; or,\n\n    b) Accompany it with a written offer, valid for at least three\n    years, to give any third party, for a charge no more than your\n    cost of physically performing source distribution, a complete\n    machine-readable copy of the corresponding source code, to be\n    distributed under the terms of Sections 1 and 2 above on a medium\n    customarily used for software interchange; or,\n\n    c) Accompany it with the information you received as to the offer\n    to distribute corresponding source code.  (This alternative is\n    allowed only for noncommercial distribution and only if you\n    received the program in object code or executable form with such\n    an offer, in accord with Subsection b above.)\n\nThe source code for a work means the preferred form of the work for\nmaking modifications to it.  For an executable work, complete source\ncode means all the source code for all modules it contains, plus any\nassociated interface definition files, plus the scripts used to\ncontrol compilation and installation of the executable.  However, as a\nspecial exception, the source code distributed need not include\nanything that is normally distributed (in either source or binary\nform) with the major components (compiler, kernel, and so on) of the\noperating system on which the executable runs, unless that component\nitself accompanies the executable.\n\nIf distribution of executable or object code is made by offering\naccess to copy from a designated place, then offering equivalent\naccess to copy the source code from the same place counts as\ndistribution of the source code, even though third parties are not\ncompelled to copy the source along with the object code.\n\n  4. You may not copy, modify, sublicense, or distribute the Program\nexcept as expressly provided under this License.  Any attempt\notherwise to copy, modify, sublicense or distribute the Program is\nvoid, and will automatically terminate your rights under this License.\nHowever, parties who have received copies, or rights, from you under\nthis License will not have their licenses terminated so long as such\nparties remain in full compliance.\n\n  5. You are not required to accept this License, since you have not\nsigned it.  However, nothing else grants you permission to modify or\ndistribute the Program or its derivative works.  These actions are\nprohibited by law if you do not accept this License.  Therefore, by\nmodifying or distributing the Program (or any work based on the\nProgram), you indicate your acceptance of this License to do so, and\nall its terms and conditions for copying, distributing or modifying\nthe Program or works based on it.\n\n  6. Each time you redistribute the Program (or any work based on the\nProgram), the recipient automatically receives a license from the\noriginal licensor to copy, distribute or modify the Program subject to\nthese terms and conditions.  You may not impose any further\nrestrictions on the recipients' exercise of the rights granted herein.\nYou are not responsible for enforcing compliance by third parties to\nthis License.\n\n  7. If, as a consequence of a court judgment or allegation of patent\ninfringement or for any other reason (not limited to patent issues),\nconditions are imposed on you (whether by court order, agreement or\notherwise) that contradict the conditions of this License, they do not\nexcuse you from the conditions of this License.  If you cannot\ndistribute so as to satisfy simultaneously your obligations under this\nLicense and any other pertinent obligations, then as a consequence you\nmay not distribute the Program at all.  For example, if a patent\nlicense would not permit royalty-free redistribution of the Program by\nall those who receive copies directly or indirectly through you, then\nthe only way you could satisfy both it and this License would be to\nrefrain entirely from distribution of the Program.\n\nIf any portion of this section is held invalid or unenforceable under\nany particular circumstance, the balance of the section is intended to\napply and the section as a whole is intended to apply in other\ncircumstances.\n\nIt is not the purpose of this section to induce you to infringe any\npatents or other property right claims or to contest validity of any\nsuch claims; this section has the sole purpose of protecting the\nintegrity of the free software distribution system, which is\nimplemented by public license practices.  Many people have made\ngenerous contributions to the wide range of software distributed\nthrough that system in reliance on consistent application of that\nsystem; it is up to the author/donor to decide if he or she is willing\nto distribute software through any other system and a licensee cannot\nimpose that choice.\n\nThis section is intended to make thoroughly clear what is believed to\nbe a consequence of the rest of this License.\n\n  8. If the distribution and/or use of the Program is restricted in\ncertain countries either by patents or by copyrighted interfaces, the\noriginal copyright holder who places the Program under this License\nmay add an explicit geographical distribution limitation excluding\nthose countries, so that distribution is permitted only in or among\ncountries not thus excluded.  In such case, this License incorporates\nthe limitation as if written in the body of this License.\n\n  9. The Free Software Foundation may publish revised and/or new versions\nof the General Public License from time to time.  Such new versions will\nbe similar in spirit to the present version, but may differ in detail to\naddress new problems or concerns.\n\nEach version is given a distinguishing version number.  If the Program\nspecifies a version number of this License which applies to it and \"any\nlater version\", you have the option of following the terms and conditions\neither of that version or of any later version published by the Free\nSoftware Foundation.  If the Program does not specify a version number of\nthis License, you may choose any version ever published by the Free Software\nFoundation.\n\n  10. If you wish to incorporate parts of the Program into other free\nprograms whose distribution conditions are different, write to the author\nto ask for permission.  For software which is copyrighted by the Free\nSoftware Foundation, write to the Free Software Foundation; we sometimes\nmake exceptions for this.  Our decision will be guided by the two goals\nof preserving the free status of all derivatives of our free software and\nof promoting the sharing and reuse of software generally.\n\n\t\t\t    NO WARRANTY\n\n  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\nFOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\nOTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\nPROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED\nOR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\nTO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\nPROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\nREPAIR OR CORRECTION.\n\n  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\nWILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\nREDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\nINCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\nOUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\nTO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\nYOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\nPROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGES.\n\n\t\t     END OF TERMS AND CONDITIONS\n\n\t    How to Apply These Terms to Your New Programs\n\n  If you develop a new program, and you want it to be of the greatest\npossible use to the public, the best way to achieve this is to make it\nfree software which everyone can redistribute and change under these terms.\n\n  To do so, attach the following notices to the program.  It is safest\nto attach them to the start of each source file to most effectively\nconvey the exclusion of warranty; and each file should have at least\nthe \"copyright\" line and a pointer to where the full notice is found.\n\n    &lt;one line to give the program's name and a brief idea of what it does.&gt;\n    Copyright (C) 19yy  &lt;name of author&gt;\n\n    This program is free software; you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation; either version 2 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program; if not, write to the Free Software\n    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n\n\nAlso add information on how to contact you by electronic and paper mail.\n\nIf the program is interactive, make it output a short notice like this\nwhen it starts in an interactive mode:\n\n    Gnomovision version 69, Copyright (C) 19yy name of author\n    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\n    This is free software, and you are welcome to redistribute it\n    under certain conditions; type `show c' for details.\n\nThe hypothetical commands `show w' and `show c' should show the appropriate\nparts of the General Public License.  Of course, the commands you use may\nbe called something other than `show w' and `show c'; they could even be\nmouse-clicks or menu items--whatever suits your program.\n\nYou should also get your employer (if you work as a programmer) or your\nschool, if any, to sign a \"copyright disclaimer\" for the program, if\nnecessary.  Here is a sample; alter the names:\n\n  Yoyodyne, Inc., hereby disclaims all copyright interest in the program\n  `Gnomovision' (which makes passes at compilers) written by James Hacker.\n\n  &lt;signature of Ty Coon&gt;, 1 April 1989\n  Ty Coon, President of Vice\n\nThis General Public License does not permit incorporating your program into\nproprietary programs.  If your program is a subroutine library, you may\nconsider it more useful to permit linking proprietary applications with the\nlibrary.  If this is what you want to do, use the GNU Library General\nPublic License instead of this License.\n  "
 msgstr ""
@@ -433,7 +441,7 @@ msgid "Installation of the BibleTime software"
 msgstr ""
 
 #: content/en/software_installation.xml:16(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, installation, download, ubuntu, mandrake, suse, debian, freebsd, pcbsd, windows"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, installation, download, ubuntu, mandrake, suse, debian, freebsd, pcbsd, windows"
 msgstr ""
 
 #: content/en/software_installation.xml:31(para) 
@@ -540,32 +548,32 @@ msgstr ""
 msgid "Books"
 msgstr ""
 
-#: content/en/software_imprint.xml:10(title) 
+#: content/en/software_imprint.xml:11(title) 
 msgid "Imprint"
 msgstr ""
 
-#: content/en/software_imprint.xml:11(summary) 
+#: content/en/software_imprint.xml:13(summary) 
 msgid "BibleTime imprint"
 msgstr ""
 
-#: content/en/software_imprint.xml:12(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, press, in the media, pree coverage"
+#: content/en/software_imprint.xml:15(keywords) 
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, press, in the media, press coverage"
 msgstr ""
 
-#: content/en/software_imprint.xml:15(title) 
+#: content/en/software_imprint.xml:21(title) 
 msgid "Responsibility"
 msgstr ""
 
-#: content/en/software_imprint.xml:16(para) 
+#: content/en/software_imprint.xml:22(para) 
 msgid "This imprint is required in Germany for all webpages."
 msgstr ""
 
-#: content/en/software_imprint.xml:17(para) 
+#: content/en/software_imprint.xml:23(para) 
 msgid "The person who is responsible for these webpages is: <literallayout>\nJoachim Ansorg\nPoststraße 2\n56479 Salzburg\nGermany\n</literallayout><ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-Services</ulink>"
 msgstr ""
 
 #: content/en/software_faq.xml:11(title) 
-msgid "FAQ"
+msgid "BibleTime FAQ"
 msgstr ""
 
 #: content/en/software_faq.xml:13(summary) 
@@ -573,7 +581,7 @@ msgid "FAQ about BibleTime"
 msgstr ""
 
 #: content/en/software_faq.xml:15(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, faq, questions, help"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, faq, questions, help"
 msgstr ""
 
 #: content/en/software_faq.xml:21(title) 
@@ -685,7 +693,7 @@ msgid "If a translation in your language is not available, please consider to he
 msgstr ""
 
 #: content/en/software_contact.xml:10(title) 
-msgid "Contact"
+msgid "Contact the BibleTime Team"
 msgstr ""
 
 #: content/en/software_contact.xml:12(summary) content/en/software_contact.xml:22(title) 
@@ -693,7 +701,7 @@ msgid "How to contact us"
 msgstr ""
 
 #: content/en/software_contact.xml:14(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, contact"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, contact"
 msgstr ""
 
 #: content/en/software_contact.xml:26(ulink) 
@@ -737,7 +745,7 @@ msgid "Introduction to the BibleTime software"
 msgstr ""
 
 #: content/en/software_about.xml:13(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, Qt, God, Religion, Bible, devotional, crosswire, sword, about"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, Software, biblestudy, bible study, Qt, God, Religion, Bible, devotional, crosswire, sword, about"
 msgstr ""
 
 #: content/en/software_about.xml:21(title) 
@@ -800,263 +808,259 @@ msgstr ""
 msgid "Late in October 2009, the BibleTime team releases it's first beta canadidate for the Windows platform"
 msgstr ""
 
-#: content/en/software.xml:10(title) 
-msgid "Software"
-msgstr ""
-
-#: content/en/software.xml:12(summary) 
+#: content/en/software.xml:10(title) content/en/software.xml:12(summary) 
 msgid "Welcome to BibleTime"
 msgstr ""
 
 #: content/en/software.xml:14(keywords) 
-msgid "BibleTime, bibletime, Linux, unix, Freebsd, cross platform, Software, biblestudy, bible study, Qt, God, Religion, Bible, devotional, crosswire, sword, Ubuntu, Debian"
+msgid "BibleTime, bibletime, Linux, unix, Freebsd, Windows, Mac OS X, Software, biblestudy, bible study, Qt, God, Religion, Bible, devotional, crosswire, sword, Ubuntu, Debian"
 msgstr ""
 
-#: content/en/software.xml:19(author) 
+#: content/en/software.xml:20(author) 
 msgid "The BibleTime team"
 msgstr ""
 
-#: content/en/software.xml:23(title) 
+#: content/en/software.xml:24(title) 
 msgid "Welcome to the BibleTime project."
 msgstr ""
 
-#: content/en/software.xml:24(para) 
-msgid "<placeholder-1/> BibleTime is a Bible study application built with <ulink url=\"http://qt.nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/sword/\"> Sword</ulink> programming library to work with Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
+#: content/en/software.xml:25(para) 
+msgid "<placeholder-1/> BibleTime is a completely free Bible study program. The program's user interface is built with <ulink url=\"http://qt.nokia.com/\">Qt framework</ulink>, which makes it run on several operating systems including Linux, Windows, FreeBSD and Mac OS X. The software uses the <ulink url=\"http://www.crosswire.org/sword/\"> SWORD</ulink> programming library to work with over 200 free Bible texts, commentaries, dictionaries and books provided by the <ulink url=\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
 
-#: content/en/software.xml:42(title) 
+#: content/en/software.xml:46(title) 
 msgid "News about BibleTime"
 msgstr ""
 
-#: content/en/software.xml:45(title) 
+#: content/en/software.xml:49(title) 
 msgid "2009-11-11 2.4.rc1 release"
 msgstr ""
 
-#: content/en/software.xml:47(para) 
+#: content/en/software.xml:51(para) 
 msgid "BibleTime 2.4.rc1 has been released. Translators are encouraged to commence UI translations. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:54(title) 
+#: content/en/software.xml:58(title) 
 msgid "2009-11-04 2.4.beta1 release"
 msgstr ""
 
-#: content/en/software.xml:56(para) 
+#: content/en/software.xml:60(para) 
 msgid "BibleTime 2.4.beta1 has been released. Translators are encouraged to commence UI translations. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:63(title) 
+#: content/en/software.xml:67(title) 
 msgid "2009-10-27 Testing BibleTime for Windows"
 msgstr ""
 
-#: content/en/software.xml:65(para) 
+#: content/en/software.xml:69(para) 
 msgid "We are pleased to announce that BibleTime is now ready for testing on your <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements#2009-10-27_Windows_installer_available_for_testing\">Windows PC</ulink>."
 msgstr ""
 
-#: content/en/software.xml:71(title) 
+#: content/en/software.xml:75(title) 
 msgid "2009-10-27 BibleTime 2.3.3 bugfix released"
 msgstr ""
 
-#: content/en/software.xml:73(para) 
+#: content/en/software.xml:77(para) 
 msgid "BT 2.3.3 bugfix has been released. All packagers and maintainers are encouraged to update to this version. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:80(title) 
+#: content/en/software.xml:84(title) 
 msgid "2009-10-27 Next Bug-a-thon announced"
 msgstr ""
 
-#: content/en/software.xml:82(para) 
+#: content/en/software.xml:86(para) 
 msgid "With the success of our last Bug-a-thon, we will have having our second one on November 14. <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:88(title) 
+#: content/en/software.xml:92(title) 
 msgid "2009-10-24 BibleTime Blog"
 msgstr ""
 
-#: content/en/software.xml:90(para) 
+#: content/en/software.xml:94(para) 
 msgid "We are pleased to announce that BibleTime is now hosting a <ulink url=\"http://blog.bibletime.info/\">blog</ulink>!"
 msgstr ""
 
-#: content/en/software.xml:95(title) 
+#: content/en/software.xml:99(title) 
 msgid "2009-10-16 Become a fan of BibleTime"
 msgstr ""
 
-#: content/en/software.xml:97(para) 
-msgid "You can now become a fan of Bibletime on Facebook by following this <ulink url=\"http://www.facebook.com/bibletime\">link</ulink>."
+#: content/en/software.xml:101(para) 
+msgid "You can now become a fan of BibleTime on Facebook by following this <ulink url=\"http://www.facebook.com/bibletime\">link</ulink>."
 msgstr ""
 
-#: content/en/software.xml:102(title) 
+#: content/en/software.xml:106(title) 
 msgid "2009-10-15 BibleTime Packaging mailing list"
 msgstr ""
 
-#: content/en/software.xml:104(para) 
+#: content/en/software.xml:108(para) 
 msgid "We have created a new mailing list for BibleTime Packagers, you can read more <ulink url=\"development_mailinglists.html\"> here</ulink>."
 msgstr ""
 
-#: content/en/software.xml:110(title) 
+#: content/en/software.xml:114(title) 
 msgid "2009-10-14 2.3.2 release"
 msgstr ""
 
-#: content/en/software.xml:112(para) 
+#: content/en/software.xml:116(para) 
 msgid "BibleTime 2.3.2 has been released. It is a bug fix release, as a result of the <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</ulink>. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:119(title) 
+#: content/en/software.xml:123(title) 
 msgid "2009-10-10 2.3.1 release"
 msgstr ""
 
-#: content/en/software.xml:121(para) 
+#: content/en/software.xml:125(para) 
 msgid "BibleTime 2.3.1 has been released. It is a bug fix release, as a result of the <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</ulink>. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:129(title) 
+#: content/en/software.xml:133(title) 
 msgid "2009-10-06 2.3 release"
 msgstr ""
 
-#: content/en/software.xml:131(para) 
+#: content/en/software.xml:135(para) 
 msgid "BibleTime 2.3 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:138(title) 
+#: content/en/software.xml:142(title) 
 msgid "2009-10-01 Join us for our first Bug-a-thon"
 msgstr ""
 
-#: content/en/software.xml:140(para) 
+#: content/en/software.xml:144(para) 
 msgid "We are hosting a Bug-a-thon on October 9, <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\"> read more</ulink>."
 msgstr ""
 
-#: content/en/software.xml:147(title) 
+#: content/en/software.xml:151(title) 
 msgid "2009-09-30 2.3.rc1 release"
 msgstr ""
 
-#: content/en/software.xml:149(para) 
+#: content/en/software.xml:153(para) 
 msgid "BibleTime 2.3.rc1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:156(title) 
+#: content/en/software.xml:160(title) 
 msgid "2009-09-25 2.3.beta1 release"
 msgstr ""
 
-#: content/en/software.xml:158(para) 
+#: content/en/software.xml:162(para) 
 msgid "BibleTime 2.3.beta1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:165(title) 
+#: content/en/software.xml:169(title) 
 msgid "2009-08-26 2.2 release"
 msgstr ""
 
-#: content/en/software.xml:167(para) 
+#: content/en/software.xml:171(para) 
 msgid "BibleTime 2.2 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:174(title) 
+#: content/en/software.xml:178(title) 
 msgid "2009-08-19 2.2.rc1 release"
 msgstr ""
 
-#: content/en/software.xml:176(para) 
+#: content/en/software.xml:180(para) 
 msgid "BibleTime 2.2.rc1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:183(title) 
+#: content/en/software.xml:187(title) 
 msgid "2009-08-12 2.2.beta1 release"
 msgstr ""
 
-#: content/en/software.xml:185(para) 
+#: content/en/software.xml:189(para) 
 msgid "BibleTime 2.2.beta1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:192(title) 
+#: content/en/software.xml:196(title) 
 msgid "2009-07-12 2.1 release"
 msgstr ""
 
-#: content/en/software.xml:194(para) 
+#: content/en/software.xml:198(para) 
 msgid "BibleTime 2.1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:201(title) 
+#: content/en/software.xml:205(title) 
 msgid "2009-07-05 2.1.rc1 release"
 msgstr ""
 
-#: content/en/software.xml:203(para) 
+#: content/en/software.xml:207(para) 
 msgid "BibleTime 2.1.rc1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:210(title) 
+#: content/en/software.xml:214(title) 
 msgid "2009-06-28 2.1.beta1 release"
 msgstr ""
 
-#: content/en/software.xml:212(para) 
+#: content/en/software.xml:216(para) 
 msgid "BibleTime 2.1.beta1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:219(title) 
+#: content/en/software.xml:223(title) 
 msgid "2009-06-06 2.0.1 bugfix release"
 msgstr ""
 
-#: content/en/software.xml:221(para) 
+#: content/en/software.xml:225(para) 
 msgid "BibleTime 2.0.1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:228(title) 
+#: content/en/software.xml:232(title) 
 msgid "2009-05-28: 2.0 release"
 msgstr ""
 
-#: content/en/software.xml:230(para) 
+#: content/en/software.xml:234(para) 
 msgid "BibleTime 2.0 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:237(title) 
+#: content/en/software.xml:241(title) 
 msgid "2009-05-20: 2.0rc1 release"
 msgstr ""
 
-#: content/en/software.xml:239(para) 
+#: content/en/software.xml:243(para) 
 msgid "BibleTime 2.0rc1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:246(title) 
+#: content/en/software.xml:250(title) 
 msgid "2009-05-16: 2.0beta3 release"
 msgstr ""
 
-#: content/en/software.xml:248(para) 
+#: content/en/software.xml:252(para) 
 msgid "BibleTime 2.0beta3 has been released. Reminder to tranlators to prepare the User Interface translation for the upcoming Release Candidate. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:257(title) 
+#: content/en/software.xml:261(title) 
 msgid "2009-04-29: 2.0beta2 release"
 msgstr ""
 
-#: content/en/software.xml:259(para) 
+#: content/en/software.xml:263(para) 
 msgid "BibleTime 2.0beta2 has been released. Now is a good time for tranlators to get their work prepared in time for the upcoming Release Candidate. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:268(title) 
+#: content/en/software.xml:272(title) 
 msgid "2009-04-22: 2.0beta1 release"
 msgstr ""
 
-#: content/en/software.xml:270(para) 
+#: content/en/software.xml:274(para) 
 msgid "BibleTime 2.0beta1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:277(title) 
+#: content/en/software.xml:281(title) 
 msgid "2009-03-25: 2.0alpha3 release"
 msgstr ""
 
-#: content/en/software.xml:279(para) 
+#: content/en/software.xml:283(para) 
 msgid "BibleTime 2.0alpha3 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:286(title) 
+#: content/en/software.xml:290(title) 
 msgid "2009-03-20: 2.0alpha2 release"
 msgstr ""
 
-#: content/en/software.xml:288(para) 
+#: content/en/software.xml:292(para) 
 msgid "BibleTime 2.0alpha2 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
-#: content/en/software.xml:295(title) 
+#: content/en/software.xml:299(title) 
 msgid "2009-03-07: 2.0alpha1 release"
 msgstr ""
 
-#: content/en/software.xml:297(para) 
+#: content/en/software.xml:301(para) 
 msgid "BibleTime 2.0alpha1 has been released. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements\"> More...</ulink>"
 msgstr ""
 
@@ -1069,7 +1073,7 @@ msgid "BibleTime tips"
 msgstr ""
 
 #: content/en/sidebar_tips.xml:16(keywords) content/en/devotional.xml:13(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword"
 msgstr ""
 
 #: content/en/sidebar_tips.xml:25(para) 
@@ -1121,7 +1125,7 @@ msgid "2009"
 msgstr ""
 
 #: content/en/layout.xml:19(holder) 
-msgid "The BibleTime developers"
+msgid "The BibleTime Team"
 msgstr ""
 
 #: content/en/layout.xml:56(title) 
@@ -1137,7 +1141,7 @@ msgid "Start page"
 msgstr ""
 
 #: content/en/index.xml:13(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, index"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, index"
 msgstr ""
 
 #: content/en/error404.xml:10(title) content/en/error404.xml:12(summary) 
@@ -1145,7 +1149,7 @@ msgid "Error 404: File not found"
 msgstr ""
 
 #: content/en/error404.xml:14(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, file not found, error"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software God, Religion, Bible, devotional, crosswire, sword, file not found, error"
 msgstr ""
 
 #: content/en/error404.xml:23(title) 
@@ -1168,20 +1172,20 @@ msgstr ""
 msgid "BibleTime devotional"
 msgstr ""
 
-#: content/en/devotional.xml:19(title) 
+#: content/en/devotional.xml:20(title) 
 msgid "Did you know..."
 msgstr ""
 
-#: content/en/devotional.xml:21(para) 
+#: content/en/devotional.xml:22(para) 
 msgid "Did you know that today in 2009, more than 200,000,000 Christians are being disadvantaged, persecuted and even killed because of their faith? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> (German) shows the countries where people have to \"pay\" for their faith, and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> here is an English one</ulink> that has some information about the main regions worldwide. These pages are from Open Doors, an independent organization that tries to help persecuted Christians."
 msgstr ""
 
-#: content/en/devotional.xml:33(para) 
+#: content/en/devotional.xml:34(para) 
 msgid "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share its suffering... You are Christ's body and each of you is an individual part of it.\""
 msgstr ""
 
 #: content/en/development_mailinglists.xml:10(title) 
-msgid "Mailinglists"
+msgid "BibleTime Mailing lists"
 msgstr ""
 
 #: content/en/development_mailinglists.xml:12(summary) 
@@ -1189,7 +1193,7 @@ msgid "BibleTime's mailing lists"
 msgstr ""
 
 #: content/en/development_mailinglists.xml:14(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, mailing list, help, support, development"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software God, Religion, Bible, devotional, crosswire, mailing list, help, support, development"
 msgstr ""
 
 #: content/en/development_mailinglists.xml:22(title) 
@@ -1241,7 +1245,7 @@ msgid "Archives of the Sword development mailing list are available at <ulink ur
 msgstr ""
 
 #: content/en/development_join.xml:11(title) 
-msgid "Join us"
+msgid "How to join the BibleTime Team"
 msgstr ""
 
 #: content/en/development_join.xml:13(summary) content/en/development.xml:12(summary) content/en/development.xml:22(title) 
@@ -1249,7 +1253,7 @@ msgid "BibleTime's development"
 msgstr ""
 
 #: content/en/development_join.xml:15(keywords) 
-msgid "BibleTime, Linux, unix, FreeBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, development team, translators, join"
+msgid "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, development team, translators, join"
 msgstr ""
 
 #: content/en/development_join.xml:23(title) 
@@ -1321,7 +1325,7 @@ msgid "Read the page about <olink targetdocent=\"translation\">translating Bible
 msgstr ""
 
 #: content/en/development_join.xml:128(para) 
-msgid "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> Bibletime-translations mailing list</ulink>."
+msgid "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> BibleTime-translations mailing list</ulink>."
 msgstr ""
 
 #: content/en/development_join.xml:135(title) 
@@ -1337,7 +1341,7 @@ msgid "Sign up for an account on our <ulink url=\"http://devel.bibletime.info\">
 msgstr ""
 
 #: content/en/development_help.xml:13(title) 
-msgid "Help us"
+msgid "Help the BibleTime team"
 msgstr ""
 
 #: content/en/development_help.xml:15(summary) 
@@ -1405,11 +1409,11 @@ msgid "You can find more information about the translation process on the page <
 msgstr ""
 
 #: content/en/development.xml:10(title) 
-msgid "Development"
+msgid "BibleTime Development"
 msgstr ""
 
 #: content/en/development.xml:14(keywords) 
-msgid "BibleTime, Linux, unix, FreBSD, cross platform, Software, biblestudy, bible study, God, Religion, Bible, devotional, crosswire, sword, support, development"
+msgid "BibleTime, Linux, unix, FreBSD, Windows, Mac OS X, biblestudy, bible study, software, God, Religion, Bible, devotional, crosswire, sword, support, development"
 msgstr ""
 
 #: content/en/development.xml:24(para) 

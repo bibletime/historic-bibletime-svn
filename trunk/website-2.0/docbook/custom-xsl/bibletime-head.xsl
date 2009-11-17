@@ -4,7 +4,7 @@ xmlns:xweb="xalan://com.nwalsh.xalan.Website"
 xmlns:sweb="http://nwalsh.com/xslt/ext/com.nwalsh.saxon.Website"
 exclude-result-prefixes="sweb xweb" version="1.0">
   <xsl:template match="title" mode="head.mode">
-    <title>BibleTime: 
-    <xsl:value-of select="." /> - Open Source bible study software</title>
+    <title>
+    <xsl:value-of select="." /> - Free Bible software</title>
   </xsl:template>
 </xsl:stylesheet>

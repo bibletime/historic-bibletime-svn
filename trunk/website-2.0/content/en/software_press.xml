@@ -5,14 +5,14 @@
 ]>
 <webpage id="software_press">
   <config param="desc" value="In the press" />
-  <config param="rcsdate" value="$Date$" />
+  <config param="rcsdate" value="$LastChangedDate$" />
   <head>
-    <title>In the press</title>
+    <title>BibleTime in the press</title>
 
     <summary>BibleTime in the press</summary>
 
-    <keywords>BibleTime, Linux, unix, FreeBSD, cross platform, Software,
-      biblestudy, bible study,
+    <keywords>BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X,
+      biblestudy, bible study, software,
       God, Religion, Bible, devotional, crosswire, sword, press, in the
       media, press coverage
     </keywords>
@@ -41,7 +41,7 @@
     <blockquote>
       <attribution>Andreas Pour (&#169; 2001 Andreas "Dre" Pour. All
       rights reserved)</attribution>
-      <para>Bibletime is already a true godsend for religious KDE
+      <para>BibleTime is already a true godsend for religious KDE
       users. It is easily useable though it may take a bit of time to
       learn some quirks. I think the next release will make it even
       better, particularly by providing a GUI for the difficult Sword
