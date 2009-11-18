@@ -1,3 +1,4 @@
+# translation of fr.po to
 # translation of BibleTime website to french
 # Copyright (C) 2004-2009 The BibleTime Team, http://www.bibletime.info
 #
@@ -10,19 +11,19 @@
 # Thomas Abthorpe <tabthorpe@FreeBSD.org>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: full\n"
+"Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: bibletime-translations@lists.sourceforge.net\n"
-"POT-Creation-Date: 2009-11-17 23:49-0500\n"
-"PO-Revision-Date: 2009-11-12 19:40-0800\n"
-"Last-Translator: paul Martrenchar\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2009-11-18 16:03-0500\n"
+"PO-Revision-Date: 2009-11-18 16:01-0500\n"
+"Last-Translator: Thomas Abthorpe <tabthorpe@FreeBSD.org>\n"
+"Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Language: fr\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: content/en/translation.xml:9(title)
-#, fuzzy
 msgid "Help translate BibleTime"
 msgstr "Aidez-nous à traduire BibleTime dans votre langue"
 
@@ -43,7 +44,6 @@ msgid "Help translate BibleTime into your language"
 msgstr "Aidez-nous à traduire BibleTime dans votre langue"
 
 #: content/en/translation.xml:23(para)
-#, fuzzy
 msgid ""
 "This is a part of software development where the help of many individuals is "
 "needed. It is our desire to offer BibleTime to users in as many languages as "
@@ -75,7 +75,6 @@ msgid "Translate the biblical booknames."
 msgstr "Traduire la liste des livres de la Bible."
 
 #: content/en/translation.xml:47(para)
-#, fuzzy
 msgid ""
 "On this page you can find statistics about the completeness of existing "
 "translations for each of these areas, as well as links to translation "
@@ -90,7 +89,6 @@ msgstr ""
 "travailler sur une traduction existante, veuillez suivre ces étapes :"
 
 #: content/en/translation.xml:57(para)
-#, fuzzy
 msgid ""
 "Subscribe to <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> the translators' mailing list bibletime-"
@@ -134,7 +132,6 @@ msgstr ""
 "statistiques seront mise-à-jour après cela."
 
 #: content/en/translation.xml:83(para)
-#, fuzzy
 msgid ""
 "For editing .po files, we recommend that you use <ulink url=\"http://"
 "userbase.kde.org/Lokalize\">Lokalize</ulink>. It has many advanced features "
@@ -155,7 +152,6 @@ msgstr ""
 "pour nos traductions de la documentation et du site web."
 
 #: content/en/translation.xml:95(para)
-#, fuzzy
 msgid ""
 "A list of the language abbreviations is available at <ulink url=\"http://www."
 "loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-"
@@ -166,7 +162,6 @@ msgstr ""
 "standards/iso639-2/php/code_list.php</ulink>."
 
 #: content/en/translation.xml:104(para)
-#, fuzzy
 msgid ""
 "If a translation of the website does not exist in your language, you can "
 "download and translate the <ulink url=\"http://bibletime.svn.sourceforge.net/"
@@ -185,7 +180,6 @@ msgstr ""
 "le drapeau en haut si une traduction est à 80% complétée."
 
 #: content/en/translation.xml:118(para)
-#, fuzzy
 msgid ""
 "If a translation of the User Interface in your language does not yet exist, "
 "you can download and translate the <ulink url=\"http://bibletime.svn."
@@ -240,7 +234,6 @@ msgstr ""
 "télécharger le fichier correspondant."
 
 #: content/en/translation.xml:156(para)
-#, fuzzy
 msgid ""
 "Translated Bible book names come from the Sword project. There are no good "
 "instructions at the moment but you can find some information and examples by "
@@ -277,9 +270,8 @@ msgstr ""
 
 #
 #: content/en/software_screenshots.xml:9(title)
-#, fuzzy
 msgid "BibleTime Screenshots"
-msgstr "License de BibleTime"
+msgstr ""
 
 #: content/en/software_screenshots.xml:11(summary)
 #: content/en/software_screenshots.xml:21(title)
@@ -298,7 +290,6 @@ msgid "The main window"
 msgstr "La fenêtre principale"
 
 #: content/en/software_screenshots.xml:35(para)
-#, fuzzy
 msgid ""
 "Here you can see a typical BibleTime session. On the left pane, you see the "
 "\"bookshelf\" which offers quick access to all installed electronic works as "
@@ -324,7 +315,6 @@ msgid "The Bookshelf Manager"
 msgstr "Le gestionnaire de Bibliothèque"
 
 #: content/en/software_screenshots.xml:58(para)
-#, fuzzy
 msgid ""
 "BibleTime offers a dialog to automatically download and manage electronic "
 "works. You simply define a library (a remote collection of works, such as "
@@ -357,7 +347,6 @@ msgstr ""
 #
 #: content/en/software_press.xml:10(title)
 #: content/en/software_press.xml:12(summary)
-#, fuzzy
 msgid "BibleTime in the press"
 msgstr "Dans la presse"
 
@@ -403,7 +392,6 @@ msgstr ""
 
 #
 #: content/en/software_press.xml:38(para)
-#, fuzzy
 msgid ""
 "On <ulink url=\"http://static.kdenews.org/content/bibletime/bibletime.html"
 "\">dot.kde.org</ulink>, Andreas Pour draws the following conclusion in his "
@@ -419,7 +407,6 @@ msgstr "Andreas Pour (&copy; 2001 Andreas \"Dre\" Pour. Tous droits réservés)"
 
 #
 #: content/en/software_press.xml:44(para)
-#, fuzzy
 msgid ""
 "BibleTime is already a true godsend for religious KDE users. It is easily "
 "useable though it may take a bit of time to learn some quirks. I think the "
@@ -449,9 +436,8 @@ msgstr ""
 
 #
 #: content/en/software_linkus.xml:9(title)
-#, fuzzy
 msgid "Link to BibleTime"
-msgstr "Bienvenue sur le projet BibleTime"
+msgstr ""
 
 #
 #: content/en/software_linkus.xml:11(summary)
@@ -467,7 +453,6 @@ msgstr ""
 
 #
 #: content/en/software_linkus.xml:20(para)
-#, fuzzy
 msgid "Please do not copy the images, as their design may change."
 msgstr ""
 "Veuillez NE PAS copier les images car leur design pourrait évoluer avec le "
@@ -499,21 +484,11 @@ msgstr "Lien textuel"
 
 #
 #: content/en/software_linkus.xml:60(para)
-#, fuzzy
 msgid ""
 "To insert a simple text link please use the following HTML code on your "
 "pages: <placeholder-1/>It will look like this: <ulink url=\"http://www."
 "bibletime.info/\">BibleTime - Bible study software</ulink>"
 msgstr ""
-"Pour insérer un lien textuel, veuillez insérez le code HTML suivant sur vos "
-"pages : <programlisting>\n"
-"<![CDATA[\n"
-" <a href=\"http://www.bibletime.info/\" TARGET=\"_blank\">\n"
-" BibleTime - Logiciel d'étude biblique pour KDE\n"
-" </a>\n"
-"]]>\n"
-"</programlisting> Cela ressemblera à ceci : <ulink url=\"http://www."
-"bibletime.info/\">BibleTime - Logiciel d'étude biblique pour KDE</ulink>"
 
 #
 #: content/en/software_links.xml:9(title)
@@ -532,12 +507,10 @@ msgstr ""
 
 #
 #: content/en/software_links.xml:20(title)
-#, fuzzy
 msgid "List of Christian Pages"
 msgstr "Liste de sites chrétiens"
 
 #: content/en/software_links.xml:22(para)
-#, fuzzy
 msgid ""
 "There are many Christian pages on the world wide web. Here we have collected "
 "a list of pages that are important in our opinion."
@@ -548,7 +521,6 @@ msgstr ""
 
 #
 #: content/en/software_links.xml:26(para)
-#, fuzzy
 msgid ""
 "Since we are not the author of the linked pages we are not responsible for "
 "their content, we explicitely dissociate ourselves from the content of the "
@@ -558,13 +530,12 @@ msgid ""
 msgstr ""
 "Comme nous ne sommes pas les auteurs des pages vers lesquelles ces liens "
 "pointent, nous ne sommes pas responsables de leur contenu. Nous nous "
-"dissocions de manière explicite du contenu de ces pages ! Ceci est "
+"dissocions de manière explicite du contenu de ces pages ! Ceci est  "
 "nécessaire car la loi Allemande le requiert, sinon, nous en serions "
 "responsables."
 
 #
 #: content/en/software_links.xml:34(title)
-#, fuzzy
 msgid "General Christian pages"
 msgstr "Pages chrétiennes générales"
 
@@ -588,7 +559,6 @@ msgstr ""
 
 #
 #: content/en/software_links.xml:53(para)
-#, fuzzy
 msgid ""
 "The Crosswire Bible society is one of the few Christian organizations in the "
 "world providing everything they make free for all! Crosswire supports the "
@@ -620,7 +590,6 @@ msgstr ""
 
 #
 #: content/en/software_links.xml:77(para)
-#, fuzzy
 msgid ""
 "Xiphos is a Sword frontend using the Gnome toolkit. A really good "
 "application. Be sure to check it out!"
@@ -636,7 +605,6 @@ msgstr "<ulink url=\"http://www.bibleworks.com/\">BibleWorks</ulink>."
 
 #
 #: content/en/software_links.xml:84(para)
-#, fuzzy
 msgid ""
 "BibleWorks is one of the best commercial Bible study applications for "
 "Windows! Very good but very expensive, too. Very useful for Bible scholars."
@@ -647,13 +615,11 @@ msgstr ""
 
 #
 #: content/en/software_links.xml:90(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
-msgstr "<ulink url=\"http://www.bibleworkshop.com/\">BibleWorkshop</ulink>."
+msgstr ""
 
 #
 #: content/en/software_links.xml:92(para)
-#, fuzzy
 msgid ""
 "The Bible Workshop program is a powerful, commercial Bible study application "
 "for Windows, which is available in English, German and French. It is "
@@ -693,9 +659,8 @@ msgstr ""
 
 #
 #: content/en/software_links.xml:114(title)
-#, fuzzy
 msgid "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
-msgstr "<ulink url=\"http://www.onlinebible.org/\">OnlineBible</ulink>."
+msgstr ""
 
 #
 #: content/en/software_links.xml:116(para)
@@ -721,11 +686,9 @@ msgstr ""
 
 #
 #: content/en/software_links.xml:129(title)
-#, fuzzy
 msgid ""
 "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
 msgstr ""
-"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
 
 #: content/en/software_links.xml:131(para)
 msgid ""
@@ -742,7 +705,6 @@ msgstr "<ulink url=\"http://www.volksbibel-2000.de/\">Volksbibel</ulink>."
 
 #
 #: content/en/software_links.xml:139(para)
-#, fuzzy
 msgid ""
 "Volksbibel 2000.2 is a German, metacard based software Bible study tool for "
 "Windows, Linux and Mac. Althouth there are not so many texts as other "
@@ -770,33 +732,28 @@ msgstr ""
 
 #
 #: content/en/software_links.xml:156(title)
-#, fuzzy
 msgid "Other BibleTime Links"
 msgstr "Autres liens de BibleTime"
 
 #
 #: content/en/software_links.xml:159(ulink)
-#, fuzzy
 msgid "BibleTime wiki"
 msgstr "BibleTime wiki"
 
 #
 #: content/en/software_links.xml:162(ulink)
-#, fuzzy
 msgid "BibleTime Blog"
 msgstr "BibleTime Blog"
 
 #
 #: content/en/software_links.xml:165(ulink)
-#, fuzzy
 msgid "BibleTime Facebook page"
 msgstr "Page Facebook de BibleTime"
 
 #
 #: content/en/software_links.xml:168(ulink)
-#, fuzzy
 msgid "BibleTime's Oloh listing"
-msgstr "Liste de diffusion de l'équipe de développement de BibleTime"
+msgstr ""
 
 #
 #: content/en/software_links.xml:174(title)
@@ -821,13 +778,11 @@ msgstr ""
 
 #
 #: content/en/software_license.xml:10(title)
-#, fuzzy
 msgid "The BibleTime License"
 msgstr "Autres liens de BibleTime"
 
 #
 #: content/en/software_license.xml:12(summary)
-#, fuzzy
 msgid "BibleTime's license"
 msgstr "License de BibleTime"
 
@@ -843,7 +798,7 @@ msgid "License"
 msgstr "Licence"
 
 #: content/en/software_license.xml:24(literallayout)
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "\n"
 "\t\t    GNU GENERAL PUBLIC LICENSE\n"
@@ -1188,369 +1143,6 @@ msgid ""
 "Public License instead of this License.\n"
 "  "
 msgstr ""
-"GPL Introduction\n"
-"\n"
-"  This is an unofficial translation of the GNU General Public Licence\n"
-"into French. It was not published by the Free Software Foundation, and does\n"
-"not legally state the distribution terms for software that uses the GNU GPL\n"
-"--only the original English text of the GNU GPL does that. However, we hope\n"
-"that this translation will help French speakers understand the GNU GPL better.\n"
-"\n"
-"  Voici (http://www.linux-france.org/article/these/gpl.html) une adaptation\n"
-"non officielle de la Licence Publique Générale du projet GNU. Elle n'a pas été\n"
-"publiée par la Free Software Foundation et son contenu n'a aucune portée légale\n"
-"car seule la version anglaise de ce document détaille le mode de distribution des\n"
-"logiciels sous GNU GPL. Nous espérons cependant qu'elle permettra aux\n"
-"francophones de mieux comprendre la GPL.\n"
-"[Note du traducteur : J'ai apporté de petites modifications à la traduction\n"
-"française de la GNU GPL, veuillez m'en excuser.]\n"
-"\n"
-"LICENCE PUBLIQUE GENERALE GNU\n"
-"                   Version 2, Juin 1991\n"
-"\n"
-" Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
-"     59 Temple Place, Suite 330, Boston, MA 02111-1307  USA\n"
-" N'importe qui est autorisé de copier et de distribuer des copies exactes\n"
-" de cette licence, mais aucune modification ne sera tolérée.\n"
-"\n"
-"                   Préambule\n"
-"  Les licences d'utilisation de la plupart des programmes sont définies\n"
-"pour limiter ou supprimer toute liberté à l'utilisateur. À l'inverse, la\n"
-"Licence Publique Générale (General Public License) est destinée à vous\n"
-"garantir la liberté de partager et de modifier les logiciels libres,\n"
-"et de s'assurer que ces logiciels sont effectivement accessibles à tout\n"
-"utilisateur. Cette Licence Publique Générale s'applique à la plupart des\n"
-"programmes de la Free Software Foundation, comme à tout autre programme\n"
-"dont l'auteur l'aura décidé (d'autres logiciels de la FSF sont couverts\n"
-"pour leur part par la Licence Publique Générale pour Bibliothèques GNU\n"
-"(LGPL)). Vous pouvez aussi appliquer les termes de cette Licence à vos\n"
-"propres programmes, si vous le désirez.\n"
-"\n"
-"  Liberté des logiciels ne signifie pas nécessairement gratuité. Notre\n"
-"Licence est conçue pour vous assurer la liberté de distribuer des copies\n"
-"des programmes, gratuitement ou non, de recevoir le code source ou de\n"
-"pouvoir l'obtenir, de modifier les programmes ou d'en utiliser des\n"
-"éléments dans de nouveaux programmes libres, en sachant que vous y êtes\n"
-"autorisé.\n"
-"\n"
-"  Afin de garantir ces droits, nous avons dû introduire des restrictions\n"
-"interdisant à quiconque de vous les refuser ou de vous demander d'y\n"
-"renoncer. Ces restrictions vous imposent en retour certaines obligations\n"
-"si vous distribuez ou modifiez des copies de programmes protégés par la\n"
-"licence.\n"
-"\n"
-"  En d'autres termes, il vous incombera en ce cas de : * transmettre aux\n"
-"destinataires tous les droits que vous possédez, * expédier aux\n"
-"destinataires le code source ou bien tenir celui-ci à leur disposition,\n"
-"* leur remettre cette Licence afin qu'ils prennent connaissance de leurs\n"
-"droits.\n"
-"\n"
-"  Nous protégeons vos droits de deux façons : d'abord par le copyright du\n"
-"logiciel, ensuite par la remise de cette Licence qui vous autorise\n"
-"légalement à copier, distribuer et/ou modifier le logiciel.\n"
-"\n"
-"  En outre, pour protéger chaque auteur ainsi que la FSF, nous affirmons\n"
-"solennellement que le programme concerné ne fait l'objet d'aucune garantie.\n"
-"Si un tiers le modifie puis le redistribue, tous ceux qui en recevront une\n"
-"copie doivent savoir qu'il ne s'agit pas de l'original afin qu'une copie\n"
-"défectueuse n'entache pas la réputation de l'auteur du logiciel.\n"
-"\n"
-"  Enfin, tout programme libre est sans cesse menacé par des dépôts\n"
-"de brevets. Nous souhaitons à tout prix éviter que des distributeurs\n"
-"puissent déposer des brevets sur les Logiciels Libres pour leur propre\n"
-"compte. Pour éviter cela, nous stipulons bien que tout dépôt éventuel de\n"
-"brevet doit accorder expressément à tout un chacun le libre usage du\n"
-"produit.\n"
-"\n"
-"  Les dispositions précises et les conditions de copie, de distribution\n"
-"et de modification de nos logiciels sont les suivantes.\n"
-"\n"
-"                    LICENCE PUBLIQUE GENERALE GNU\n"
-" TERMES ET CONDITIONS POUR LA COPIE, LA DISTRIBUTION ET LA MODIFICATION\n"
-"\n"
-"  0. La présente Licence s'applique à tout Programme (ou autre travail)\n"
-"où figure une note, placée par le détenteur des droits, stipulant que\n"
-"ledit Programme ou travail peut être distribué selon les termes de la\n"
-"présente Licence. Le terme Programme désigne aussi bien le Programme\n"
-"lui-même que tout travail qui en est dérivé selon la loi, c'est-à-dire\n"
-"tout ouvrage reproduisant le Programme ou une partie de celui-ci, à\n"
-"l'identique ou bien modifié, et/ou traduit dans une autre langue (la\n"
-"traduction est considérée comme une modification). Chaque personne\n"
-"concernée par la Licence Publique Générale sera désignée par le terme\n"
-"Vous.\n"
-"\n"
-"Les activités autres que la copie, la distribution et la modification\n"
-"ne sont pas couvertes par la présente Licence et sortent de son cadre.\n"
-"Rien ne restreint l'utilisation du Programme et les données issues de\n"
-"celui-ci ne sont couvertes que si leur contenu constitue un travail basé\n"
-"sur le logiciel (indépendemment du fait d'avoir été réalisé en lançant\n"
-"le Programme). Tout dépend de ce que le Programme est censé produire.\n"
-"\n"
-"  1. Vous pouvez copier et distribuer des copies conformes du code\n"
-"source du Programme, tel que Vous l'avez reçu, sur n'importe quel\n"
-"support, à condition de placer sur chaque copie un copyright approprié\n"
-"et une restriction de garantie, de ne pas modifier ou omettre toutes les\n"
-"stipulations se référant à la présente Licence et à la limitation de\n"
-"garantie, et de fournir avec toute copie du Programme un exemplaire de\n"
-"la Licence.\n"
-"\n"
-"Vous pouvez demander une rétribution financière pour la réalisation de\n"
-"la copie et demeurez libre de proposer une garantie assurée par vos\n"
-"soins, moyennant finances.\n"
-"\n"
-"  2. Vous pouvez modifier votre copie ou vos copies du Programme ou\n"
-"partie de celui-ci, ou d'un travail basé sur ce Programme, et copier\n"
-"et distribuer ces modifications selon les termes de l'article 1,\n"
-"à condition de Vous conformer également aux conditions suivantes :\n"
-"\n"
-"    a) Ajouter aux fichiers modifiés l'indication très claire des\n"
-"    modifications effectuées, ainsi que la date de chaque changement.\n"
-"\n"
-"    b) Distribuer sous les termes de la Licence Publique Générale\n"
-"    l'ensemble de toute réalisation contenant tout ou partie du\n"
-"    Programme, avec ou sans modifications.\n"
-"\n"
-"    c) Si le Programme modifié lit des commandes de manière interactive\n"
-"    lors de son exécution, faire en sorte qu'il affiche, lors d'une\n"
-"    invocation ordinaire, le copyright approprié en indiquant clairement\n"
-"    la limitation de garantie (ou la garantie que Vous Vous engagez à\n"
-"    fournir Vous-même), qu'il stipule que tout utilisateur peut librement\n"
-"    redistribuer le Programme selon les conditions de la Licence Publique\n"
-"    Générale GNU, et qu'il montre à tout utilisateur comment lire une\n"
-"    copie de celle-ci (exception : si le Programme original est interactif\n"
-"    mais n'affiche pas un tel message en temps normal, tout travail dérivé\n"
-"    de ce Programme ne sera pas non plus contraint de l'afficher).\n"
-"\n"
-"Toutes ces conditions s'appliquent à l'ensemble des modifications. Si des\n"
-"éléments identifiables de ce travail ne sont pas dérivés du Programme et\n"
-"peuvent être raisonnablement considérés comme indépendants, la présente\n"
-"Licence ne s'applique pas à ces éléments lorsque Vous les distribuez\n"
-"seuls. Mais, si Vous distribuez ces mêmes éléments comme partie d'un\n"
-"ensemble cohérent dont le reste est basé sur un Programme soumis à la\n"
-"Licence, ils lui sont également soumis, et la Licence s'étend ainsi à\n"
-"l'ensemble du produit, quel qu'en soit l'auteur.\n"
-"\n"
-"Cet article n'a pas pour but de s'approprier ou de contester vos droits\n"
-"sur un travail entièrement réalisé par Vous, mais plutôt d'ouvrir droit\n"
-"à un contrôle de la libre distribution de tout travail dérivé ou collectif\n"
-"basé sur le Programme.\n"
-"\n"
-"En outre, toute fusion d'un autre travail, non basé sur le Programme, avec\n"
-"le Programme (ou avec un travail dérivé de ce dernier), effectuée sur un\n"
-"support de stockage ou de distribution, ne fait pas tomber cet autre travail\n"
-"sous le contrôle de la Licence.\n"
-"\n"
-"  3. Vous pouvez copier et distribuer le Programme (ou tout travail dérivé\n"
-"selon les conditions énoncées dans l'article 1) sous forme de code objet\n"
-"ou exécutable, selon les termes des articles 0 et 1, à condition de\n"
-"respecter l'une des clauses suivantes :\n"
-"\n"
-"    a) Fournir le code source complet du Programme, sous une forme lisible\n"
-"    par un ordinateur et selon les termes des articles 0 et 1, sur un\n"
-"    support habituellement utilisé pour l'échange de données ; ou,\n"
-"\n"
-"    b) Faire une offre écrite, valable pendant au moins trois ans,\n"
-"    prévoyant de donner à tout tiers qui en fera la demande une copie,\n"
-"    sous forme lisible par un ordinateur, du code source correspondant,\n"
-"    pour un tarif n'excédant pas le coût de la copie, selon les termes\n"
-"    des articles 0 et 1, sur un support couramment utilisé pour\n"
-"    l'échange de données informatiques ; ou,\n"
-"\n"
-"    c) Informer le destinataire de l'endroit où le code source peut\n"
-"    être obtenu (cette solution n'est recevable que dans le cas d'une\n"
-"    distribution non commerciale, et uniquement si Vous avez reçu le\n"
-"    Programme sous forme de code objet ou exécutable avec l'offre\n"
-"    prévue à l'alinéa b ci-dessus).\n"
-"\n"
-"Le code source d'un travail désigne la forme de cet ouvrage sous\n"
-"laquelle les modifications sont les plus aisées. Sont ainsi désignés\n"
-"la totalité du code source de tous les modules composant un Programme\n"
-"exécutable, de même que tout fichier de définition associé, ainsi que\n"
-"les scripts utilisés pour effectuer la compilation et l'installation\n"
-"du Programme exécutable. Toutefois, l'environnement standard de\n"
-"développement du système d'exploitation mis en oeuvre (source ou\n"
-"binaire) -- compilateurs, bibliothèques, noyau, etc. -- constitue\n"
-"une exception, sauf si ces éléments sont diffusés en même temps que\n"
-"le Programme exécutable.\n"
-"\n"
-"Si la distribution de l'exécutable ou du code objet consiste à offrir\n"
-"un accès permettant de copier le Programme depuis un endroit\n"
-"particulier, l'offre d'un accès équivalent pour se procurer le code\n"
-"source au même endroit est considéré comme une distribution de ce\n"
-"code source, même si l'utilisateur choisit de ne pas profiter de\n"
-"cette offre.\n"
-"\n"
-"  4. Vous ne pouvez pas copier, modifier, céder, déposer ou\n"
-"distribuer le Programme d'une autre manière que l'autorise la\n"
-"Licence Publique Générale. Toute tentative de ce type annule\n"
-"immédiatement vos droits d'utilisation du Programme sous cette\n"
-"Licence. Toutefois, les tiers ayant reçu de Vous des copies du\n"
-"Programme ou le droit d'utiliser ces copies continueront à\n"
-"bénéficier de leur droit d'utilisation tant qu'ils respecteront\n"
-"pleinement les conditions de la Licence.\n"
-"\n"
-"  5. Ne l'ayant pas signée, Vous n'êtes pas obligé d'accepter\n"
-"cette Licence. Cependant, rien d'autre ne Vous autorise à\n"
-"modifier ou distribuer le Programme ou quelque travaux dérivés :\n"
-"la loi l'interdit tant que Vous n'acceptez pas les termes de\n"
-"cette Licence. En conséquence, en modifiant ou en distribuant\n"
-"le Programme (ou tout travail basé sur lui), Vous acceptez\n"
-"implicitement tous les termes et conditions de cette Licence.\n"
-"\n"
-"  6. La diffusion d'un Programme (ou de tout travail dérivé)\n"
-"suppose l'envoi simultané d'une licence autorisant la copie,\n"
-"la distribution ou la modification du Programme, aux termes\n"
-"et conditions de la Licence. Vous n'avez pas le droit d'imposer\n"
-"de restrictions supplémentaires aux droits transmis au\n"
-"destinataire. Vous n'êtes pas responsable du respect de la\n"
-"Licence par un tiers.\n"
-"\n"
-"  7. Si, à la suite d'une décision de Justice, d'une plainte\n"
-"en contrefaçon ou pour toute autre raison (liée ou non à la\n"
-"contrefaçon), des conditions Vous sont imposées (que ce soit\n"
-"par ordonnance, accord amiable ou autre) qui se révèlent\n"
-"incompatibles avec les termes de la présente Licence, Vous\n"
-"n'êtes pas pour autant dégagé des obligations liées à celle-ci :\n"
-"si Vous ne pouvez concilier vos obligations légales ou autres\n"
-"avec les conditions de cette Licence, Vous ne devez pas distribuer\n"
-"le Programme.\n"
-"\n"
-"Si une partie quelconque de cet article est invalidée ou\n"
-"inapplicable pour quelque raison que ce soit, le reste de\n"
-"l'article continue de s'appliquer et l'intégralité de l'article\n"
-"s'appliquera en toute autre circonstance.\n"
-"\n"
-"Le présent article n'a pas pour but de Vous pousser à enfreindre\n"
-"des droits ou des dispositions légales ni en contester la\n"
-"validité ; son seul objectif est de protéger l'intégrité du\n"
-"système de distribution du Logiciel Libre. De nombreuses personnes\n"
-"ont généreusement contribué à la large gamme de Programmes\n"
-"distribuée de cette façon en toute confiance ; il appartient à\n"
-"chaque auteur/donateur de décider de diffuser ses Programmes selon\n"
-"les critères de son choix.\n"
-"\n"
-"  8. Si la distribution et/ou l'utilisation du Programme est\n"
-"limitée dans certains pays par des brevets ou des droits sur\n"
-"des interfaces, le détenteur original des droits qui place le\n"
-"Programme sous la Licence Publique Générale peut ajouter\n"
-"explicitement une clause de limitation géographique excluant\n"
-"ces pays. Dans ce cas, cette clause devient une partie\n"
-"intégrante de la Licence.\n"
-"\n"
-"  9. La Free Software Foundation se réserve le droit de publier\n"
-"périodiquement des mises à jour ou de nouvelles versions de la\n"
-"Licence. Rédigées dans le même esprit que la présente version,\n"
-"elles seront cependant susceptibles d'en modifier certains\n"
-"détails à mesure que de nouveaux problèmes se font jour.\n"
-"\n"
-"Chaque version possède un numéro distinct. Si le Programme\n"
-"précise un numéro de version de cette Licence et « toute\n"
-"version ultérieure », Vous avez le choix de suivre les termes\n"
-"et conditions de cette version ou de toute autre version plus\n"
-"récente publiée par la Free Software Foundation. Si le Programme\n"
-"ne spécifie aucun numéro de version, Vous pouvez alors choisir\n"
-"l'une quelconque des versions publiées par la Free Software\n"
-"Foundation.\n"
-"\n"
-"  10. Si Vous désirez incorporer des éléments du Programme\n"
-"dans d'autres Programmes libres dont les conditions de\n"
-"distribution diffèrent, Vous devez écrire à l'auteur pour lui\n"
-"en demander la permission. Pour ce qui est des Programmes\n"
-"directement déposés par la Free Software Foundation,\n"
-"écrivez-nous : une exception est toujours envisageable. Notre\n"
-"décision sera basée sur notre volonté de préserver la liberté\n"
-"de notre Programme ou de ses dérivés et celle de promouvoir le\n"
-"partage et la réutilisation du logiciel en général.\n"
-"\n"
-"                   LIMITATION DE GARANTIE\n"
-"\n"
-"  11. PARCE QUE L'UTILISATION DE CE PROGRAMME EST LIBRE ET GRATUITE,\n"
-"AUCUNE GARANTIE N'EST FOURNIE, COMME LE PERMET LA LOI. SAUF MENTION\n"
-"ECRITE, LES DETENTEURS DU COPYRIGHT ET/OU LES TIERS FOURNISSENT LE\n"
-"PROGRAMME EN L'ETAT, SANS AUCUNE SORTE DE GARANTIE EXPLICITE OU\n"
-"IMPLICITE, Y COMPRIS LES GARANTIES DE COMMERCIALISATION OU\n"
-"D'ADAPTATION DANS UN BUT PARTICULIER. VOUS ASSUMEZ TOUS LES RISQUES\n"
-"QUANT A LA QUALITE ET AUX EFFETS DU PROGRAMME. SI LE PROGRAMME EST\n"
-"DETECTUEUX, VOUS ASSUMEZ LE COUT DE TOUS LES SERVICES, CORRECTIONS\n"
-"OU REPARATIONS NECESSAIRES.\n"
-"\n"
-"  12. SAUF LORSQU'EXPLICITEMENT PREVU PAR LA LOI OU ACCEPTE PAR ECRIT,\n"
-"NI LE DETENTEUR DES DROITS, NI QUICONQUE AUTORISE A MODIFIER ET/OU\n"
-"REDISTRIBUER LE PROGRAMME COMME IL EST PERMIS CI-DESSUS NE POURRA ETRE\n"
-"TENU POUR RESPONSABLE DE TOUTE DOMMAGE DIRECT, INDIRECT, SECONDAIRE OU\n"
-"ACCESSOIRE (PERTES FINANCIERES DUES AU MANQUE A GAGNER, A L'INTERRUPTION\n"
-"D'ACTIVITES OU A LA PERTE DE DONNEES, ETC., DECOULANT DE L'UTILISATION\n"
-"DU PROGRAMME OU DE L'IMPOSSIBILITE D'UTILISER CELUI-CI).\n"
-"\n"
-"                  FIN DES TERMES ET CONDITIONS\n"
-"\n"
-"      Comment appliquer ces directives à vos nouveaux programmes\n"
-"\n"
-"  Si vous développez un nouveau programme et désirez en faire bénéficier\n"
-"tout un chacun, la meilleure méthode est d'en faire un Logiciel Libre\n"
-"que tout le monde pourra redistribuer et modifier selon les termes de\n"
-"la Licence Publique Générale.\n"
-"\n"
-"  Pour cela, insérez les indications suivantes dans votre programme\n"
-"(il est préférable et plus sûr de les faire figurer au début de chaque\n"
-"fichier source ; dans tous les cas, chaque module source devra comporter\n"
-"au minimum la ligne de « copyright » et indiquer où résident toutes les\n"
-"autres indications) :\n"
-"\n"
-"    ((une ligne pour donner le nom du programme et donner une idée de\n"
-"    sa finalité))Copyright (C) 19xx ((nom de l'auteur))\n"
-"\n"
-"    Ce programme est libre, vous pouvez le redistribuer et/ou le modifier\n"
-"    selon les termes de la Licence Publique Générale GNU publiée par la\n"
-"    Free Software Foundation (version 2 ou bien toute autre version\n"
-"    ultérieure choisie par vous).\n"
-"\n"
-"    Ce programme est distribué car potentiellement utile, mais SANS\n"
-"    AUCUNE GARANTIE, ni explicite ni implicite, y compris les garanties\n"
-"    de commercialisation ou d'adaptation dans un but spécifique.\n"
-"    Reportez-vous à la Licence Publique Générale GNU pour plus de détails.\n"
-"\n"
-"    Vous devez avoir reçu une copie de la Licence Publique Générale GNU\n"
-"    en même temps que ce programme ; si ce n'est pas le cas, écrivez à la\n"
-"    Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,\n"
-"    MA 02111-1307  USA\n"
-"\n"
-"\n"
-"Ajoutez également votre adresse électronique, le cas échéant, ainsi que\n"
-"votre adresse postale.\n"
-"\n"
-"Si le programme est interactif, faites-lui afficher un court\n"
-"avertissement du type de celui-ci à chaque invocation :\n"
-"\n"
-"     (nom du programme) version 69, Copyright (C) 19aa nom de l'auteur...\n"
-"     (nom du programme) est fourni sans AUCUNE GARANTIE. Pour plus de\n"
-"     détails, tapez `g'. Ce programme est libre et vous êtes encouragé\n"
-"     à le redistribuer sous certaines conditions ; tapez `c' pour plus\n"
-"     de détails.\n"
-"\n"
-"Les commandes hypothétiques `g' et `c' doivent afficher les sections\n"
-"appropriées de la Licence Publique Générale GNU. Bien entendu, vous\n"
-"pouvez implanter ces commandes comme bon vous semble : options dans\n"
-"un menu, ou bien accessibles d'un clic de souris, etc., tout dépend de\n"
-"votre programme.\n"
-"\n"
-"Si vous officiez en tant que programmeur, n'omettez pas de demander à\n"
-"votre employeur, votre établissement scolaire ou autres de signer une\n"
-"décharge stipulant leur renoncement aux droits qu'ils pourraient avoir\n"
-"sur le programme :\n"
-"\n"
-"  ...((employeur, école...)) déclare par la présente ne pas revendiquer\n"
-"  de droits sur le programme.\n"
-"\n"
-"  (nom du programme) » réalisé par ...((nom de l'auteur)).((signature\n"
-"  du responsable)), ...((date)), ...((nom et qualité du responsable)).\n"
-"\n"
-"La Licence Publique Générale ne permet pas d'inclure votre programme\n"
-"dans des logiciels sous licence commerciale spécifique. Si votre\n"
-"programme est une fonction de bibliothèque, vous jugerez probablement\n"
-"plus judicieux de le faire relever de la Licence Générale de\n"
-"Bibliothèque GNU (LGPL) plutôt que de la présente.\n"
-"\n"
 
 #: content/en/software_installation.xml:12(title)
 #: content/en/software_installation.xml:24(title)
@@ -1559,7 +1151,6 @@ msgstr "Télécharger BibleTime"
 
 #
 #: content/en/software_installation.xml:14(summary)
-#, fuzzy
 msgid "Installation of the BibleTime software"
 msgstr "Installation de BibleTime"
 
@@ -1571,7 +1162,6 @@ msgid ""
 msgstr ""
 
 #: content/en/software_installation.xml:31(para)
-#, fuzzy
 msgid ""
 "Sourcecode can be downloaded from <ulink url=\"http://sourceforge.net/"
 "project/showfiles.php?group_id=954\"> SourceForge</ulink>."
@@ -1581,17 +1171,12 @@ msgstr ""
 "project/showfiles.php?group_id=954\">SourceForge</ulink>."
 
 #: content/en/software_installation.xml:38(para)
-#, fuzzy
 msgid ""
 "Windows Test releases can be downloaded from <ulink url=\"http://"
 "sourcearchives.com/downloads/\">sourcearchives.com</ulink>."
 msgstr ""
-"Le code source et les paquetages pour la plupart des grandes distributions "
-"Linux peuvent être téléchargés ici : <ulink url=\"http://sourceforge.net/"
-"project/showfiles.php?group_id=954\">SourceForge</ulink>."
 
 #: content/en/software_installation.xml:43(para)
-#, fuzzy
 msgid ""
 "Ubuntu packages are available in the repository and <ulink url=\"http://"
 "packages.ubuntu.com/hardy/bibletime\"> here</ulink>. Updated packages for "
@@ -1604,7 +1189,6 @@ msgstr ""
 "<ulink url=\"https://launchpad.net/~txwikinger/+archive\">ici</ulink>."
 
 #: content/en/software_installation.xml:52(para)
-#, fuzzy
 msgid ""
 "Debian packages are available in the repository and <ulink url=\"http://"
 "packages.debian.org/bibletime\"> here</ulink>."
@@ -1619,7 +1203,6 @@ msgstr ""
 "\"."
 
 #: content/en/software_installation.xml:63(para)
-#, fuzzy
 msgid ""
 "OpenSuse packages can be downloaded from PackMan, <ulink url=\"http://"
 "packman.links2linux.org/package/kde4-bibletime\"> here</ulink>."
@@ -1628,7 +1211,6 @@ msgstr ""
 "packman.links2linux.org/package/kde4-bibletime\">ici</ulink>."
 
 #: content/en/software_installation.xml:71(para)
-#, fuzzy
 msgid ""
 "A FreeBSD application port of BibleTime can be found at <ulink url=\"http://"
 "www.FreeBSD.org/cgi/ports.cgi?query=bibletime&amp;stype=all\"> www.freebsd."
@@ -1639,7 +1221,6 @@ msgstr ""
 "freebsd.org</ulink>."
 
 #: content/en/software_installation.xml:77(para)
-#, fuzzy
 msgid ""
 "PC-BSD packages are available <ulink url=\"http://www.pbidir.com/bt/pbi/149/"
 "bibletime\"> here</ulink>."
@@ -1648,15 +1229,10 @@ msgstr ""
 "pbi/149/bibletime\">ici</ulink>."
 
 #: content/en/software_installation.xml:26(para)
-#, fuzzy
 msgid ""
 "This is a short list of available download locations. Please see below for "
 "detailed download and installation instructions. <placeholder-1/>"
 msgstr ""
-"Voici une courte liste de sites de téléchargement. Il se peut que les "
-"paquetages qui ne sont pas disponibles sur nos pages SourceForge soient "
-"périmés. Veuillez voir ci-dessous les instructions de téléchargement et "
-"d'installation."
 
 #
 #: content/en/software_installation.xml:85(title)
@@ -1681,7 +1257,6 @@ msgid "Prebuilt binary packages"
 msgstr "Paquetages binaires pré-compilés"
 
 #: content/en/software_installation.xml:94(para)
-#, fuzzy
 msgid ""
 "With the help of great volunteers, we try to provide packages for many "
 "popular Linux/Unix distributions. Before installing BibleTime, however, you "
@@ -1697,7 +1272,6 @@ msgstr ""
 "de BibleTime)."
 
 #: content/en/software_installation.xml:103(para)
-#, fuzzy
 msgid ""
 "First download the binary package for your distribution listed above, and "
 "install it. More information can also be found on the <ulink url=\"http://"
@@ -1722,7 +1296,6 @@ msgid "Installation from source code"
 msgstr "Installation à partir du code source"
 
 #: content/en/software_installation.xml:118(para)
-#, fuzzy
 msgid ""
 "Installation using BibleTime's source code is more difficult than using "
 "binary packages. Please follow the steps detailed on the <ulink url=\"http://"
@@ -1751,7 +1324,6 @@ msgstr ""
 "modules sur votre ordinateur."
 
 #: content/en/software_installation.xml:133(para)
-#, fuzzy
 msgid ""
 "Instructions for manual installation is available on <ulink url=\"http://www."
 "crosswire.org/sword/modules/moduleinstall.jsp\"> www.crosswire.org/sword/"
@@ -1837,13 +1409,11 @@ msgstr ""
 
 #
 #: content/en/software_faq.xml:11(title)
-#, fuzzy
 msgid "BibleTime FAQ"
-msgstr "BibleTime"
+msgstr ""
 
 #
 #: content/en/software_faq.xml:13(summary)
-#, fuzzy
 msgid "FAQ about BibleTime"
 msgstr "FAQ à propos de BibleTime"
 
@@ -1898,7 +1468,6 @@ msgstr "make install"
 
 #
 #: content/en/software_faq.xml:33(para)
-#, fuzzy
 msgid ""
 "Please run configure with the parameter --prefix=&lt;your KDE directory&gt;. "
 "Then run make and make install as usual. The KDE directories for the widely "
@@ -1923,7 +1492,6 @@ msgid "Is it possible to search for a specific Strong number?"
 msgstr "Est-il possible de rechercher un numéro Strong spécifique ?"
 
 #: content/en/software_faq.xml:66(para)
-#, fuzzy
 msgid ""
 "The search interface now offers to set the type of your search. You can "
 "choose between headings, footnotes, Strongs numbers and morphological codes."
@@ -1941,7 +1509,6 @@ msgstr ""
 
 #
 #: content/en/software_faq.xml:80(para)
-#, fuzzy
 msgid ""
 "First make sure you have the latest version of the module which has the "
 "problems! Check <ulink url=\"http://www.crosswire.org/sword\"> www.crosswire."
@@ -1953,7 +1520,6 @@ msgstr ""
 
 #
 #: content/en/software_faq.xml:84(para)
-#, fuzzy
 msgid ""
 "You have to install an unicode font like Code2000, Arial Unicode MS or "
 "Bitstream Cyberbit to display the special unicode characters. Check the "
@@ -1991,7 +1557,6 @@ msgstr "Où puis-je écrire mes notes personnelles ?"
 
 #
 #: content/en/software_faq.xml:112(para)
-#, fuzzy
 msgid ""
 "You have to install the module \"Personal\", which is available as a "
 "commentary on <ulink url=\"http://www.crosswire.org/sword/modules/ModInfo."
@@ -2029,23 +1594,20 @@ msgid "Is BibleTime available in my native language?"
 msgstr "BibleTime est-il disponible dans ma langue ?"
 
 #: content/en/software_faq.xml:142(para)
-#, fuzzy
 msgid ""
 "BibleTime is available in several languages, which are all listed on our "
 "<olink targetdocent=\"translation\">translations page</olink>."
 msgstr ""
 "BibleTime est disponible en plusieurs langues qui sont toutes listées sur "
-"notre <olink targetdocent=\"translation\">page des traductions</olink>. Les "
-"traductions sont disponibles dans le paquet bibletime-i18n."
+"notre <olink targetdocent=\"translation\">page des traductions</olink>."
 
 #: content/en/software_faq.xml:146(para)
-#, fuzzy
 msgid ""
 "If a translation in your language is not available, please consider to help "
 "to make it available. More information is available on out <olink "
 "targetdocent=\"translation\">translations page</olink>."
 msgstr ""
-"Si aucune traduction n'est disponible dans votre langue, vous pouvez "
+"Si aucune traduction n'est disponible dans votre langue, vous pouvez  "
 "contribuer à la créer. Pour plus d'informations, veuillez consulter notre "
 "<olink targetdocent=\"translation\">page des traductions</olink>."
 
@@ -2123,7 +1685,6 @@ msgstr "A propos de BibleTime"
 
 #
 #: content/en/software_about.xml:11(summary)
-#, fuzzy
 msgid "Introduction to the BibleTime software"
 msgstr "Introduction au logiciel BibleTime"
 
@@ -2139,7 +1700,6 @@ msgstr "Introduction"
 
 #
 #: content/en/software_about.xml:23(para)
-#, fuzzy
 msgid ""
 "BibleTime is a Bible study application built with <ulink url=\"http://qt."
 "nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/"
@@ -2147,12 +1707,6 @@ msgid ""
 "commentaries, dictionaries and books provided by the <ulink url=\"http://www."
 "crosswire.org/\">Crosswire Bible Society</ulink>."
 msgstr ""
-"BibleTime est une application d'étude biblique pour Linux. Elle est basée "
-"sur l'environnement de bureau <ulink url=\"http://www.kde.org/\">KDE</ulink> "
-"et utilise les bibliothèques de programmation <ulink url=\"http://www."
-"crosswire.org/sword/\">Sword</ulink> pour travailler avec les textes "
-"bibliques, commentaires, dictionnaires et livres fournis par la <ulink url="
-"\"http://www.crosswire.org/\">Crosswire Bible Society</ulink>."
 
 #
 #: content/en/software_about.xml:34(title)
@@ -2213,7 +1767,6 @@ msgstr ""
 "première version de BibleTime tournant sous KDE 3.0."
 
 #: content/en/software_about.xml:60(para)
-#, fuzzy
 msgid ""
 "BibleTime version 1.5 was released in July 2005 after a long time of "
 "development."
@@ -2228,7 +1781,6 @@ msgid ""
 msgstr ""
 
 #: content/en/software_about.xml:68(para)
-#, fuzzy
 msgid ""
 "BibleTime version 1.7 was released in January 2008, it is the first version "
 "developed with Qt4 for use with KDE4."
@@ -2281,7 +1833,6 @@ msgstr "Bienvenue sur le projet BibleTime"
 
 #
 #: content/en/software.xml:25(para)
-#, fuzzy
 msgid ""
 "<placeholder-1/> BibleTime is a completely free Bible study program. The "
 "program's user interface is built with <ulink url=\"http://qt.nokia.com/"
@@ -2328,7 +1879,6 @@ msgstr ""
 
 #
 #: content/en/software.xml:67(title)
-#, fuzzy
 msgid "2009-10-27 Testing BibleTime for Windows"
 msgstr "27-10-2009 Test de BibleTime pour Windows"
 
@@ -2341,7 +1891,6 @@ msgstr ""
 
 #
 #: content/en/software.xml:75(title)
-#, fuzzy
 msgid "2009-10-27 BibleTime 2.3.3 bugfix released"
 msgstr "27-10-2009 BibleTime 2.3.3 mise à jour de débug"
 
@@ -2365,7 +1914,6 @@ msgstr ""
 
 #
 #: content/en/software.xml:92(title)
-#, fuzzy
 msgid "2009-10-24 BibleTime Blog"
 msgstr "24-10-2009 BibleTime Blog"
 
@@ -2377,9 +1925,8 @@ msgstr ""
 
 #
 #: content/en/software.xml:99(title)
-#, fuzzy
 msgid "2009-10-16 Become a fan of BibleTime"
-msgstr "Bienvenue sur le projet BibleTime"
+msgstr ""
 
 #: content/en/software.xml:101(para)
 msgid ""
@@ -2389,9 +1936,8 @@ msgstr ""
 
 #
 #: content/en/software.xml:106(title)
-#, fuzzy
 msgid "2009-10-15 BibleTime Packaging mailing list"
-msgstr "Liste de diffusion de l'équipe de développement de BibleTime"
+msgstr ""
 
 #: content/en/software.xml:108(para)
 msgid ""
@@ -2634,7 +2180,6 @@ msgid ""
 msgstr ""
 
 #: content/en/sidebar_tips.xml:25(para)
-#, fuzzy
 msgid ""
 "It will take you just a few minutes to update the webpage translation in "
 "your language. Helping with translations is something anybody can do and it "
@@ -2695,9 +2240,8 @@ msgstr ""
 
 #
 #: content/en/layout.xml:19(holder)
-#, fuzzy
 msgid "The BibleTime Team"
-msgstr "Rejoindre l'équipe BibleTime"
+msgstr ""
 
 #
 #: content/en/layout.xml:56(title)
@@ -2749,7 +2293,6 @@ msgstr ""
 
 #
 #: content/en/error404.xml:30(para)
-#, fuzzy
 msgid ""
 "If you cannot solve the problem, please report the URL that failed to "
 "<email>info@bibletime.info</email>. Thank you very much!"
@@ -2763,9 +2306,8 @@ msgstr "Lectures journalières"
 
 #
 #: content/en/devotional.xml:11(summary)
-#, fuzzy
 msgid "BibleTime devotional"
-msgstr "Développement de BibleTime"
+msgstr ""
 
 #: content/en/devotional.xml:20(title)
 msgid "Did you know..."
@@ -2783,7 +2325,7 @@ msgid ""
 "regions worldwide. These pages are from Open Doors, an independent "
 "organization that tries to help persecuted Christians."
 msgstr ""
-"Saviez-vous qu'aujourd'hui, en 2006, plus de 200'000'000 chrétiens sont "
+"Saviez-vous qu'aujourd'hui, en 2009, plus de 200'000'000 chrétiens sont "
 "désavantagés, persécutés et même tués à cause de leur foi ? <ulink url="
 "\"http://www.portesouvertes.ch/downloads/fr/persecfr.pdf\">Cette carte</"
 "ulink> montre les pays où les gens « paient » pour leur foi, et <ulink url="
@@ -2793,7 +2335,6 @@ msgstr ""
 "cherche à aider les chrétiens persécutés."
 
 #: content/en/devotional.xml:34(para)
-#, fuzzy
 msgid ""
 "1Cor 12:26.27: \"If one part of the body suffers, all the other parts share "
 "its suffering... You are Christ's body and each of you is an individual part "
@@ -2805,13 +2346,11 @@ msgstr ""
 
 #
 #: content/en/development_mailinglists.xml:10(title)
-#, fuzzy
 msgid "BibleTime Mailing lists"
 msgstr "Liste de diffusion de l'équipe de développement de BibleTime"
 
 #
 #: content/en/development_mailinglists.xml:12(summary)
-#, fuzzy
 msgid "BibleTime's mailing lists"
 msgstr "Liste de diffusion de l'équipe de développement de BibleTime"
 
@@ -2824,12 +2363,10 @@ msgstr ""
 
 #
 #: content/en/development_mailinglists.xml:22(title)
-#, fuzzy
 msgid "BibleTime Development mailing list"
 msgstr "Liste de diffusion de l'équipe de développement de BibleTime"
 
 #: content/en/development_mailinglists.xml:24(para)
-#, fuzzy
 msgid ""
 "To subscribe to the development mailing list of the BibleTime project please "
 "visit the following web page and enter your eMail address there: <ulink url="
@@ -2844,7 +2381,6 @@ msgstr ""
 "mailman/listinfo/bt-devel</ulink>."
 
 #: content/en/development_mailinglists.xml:32(para)
-#, fuzzy
 msgid ""
 "Archives of the BibleTime development mailing list are available at <ulink "
 "url=\"http://www.crosswire.org/pipermail/bt-devel/\"> www.crosswire.org/"
@@ -2856,12 +2392,10 @@ msgstr ""
 
 #
 #: content/en/development_mailinglists.xml:38(title)
-#, fuzzy
 msgid "BibleTime Translations mailing list"
 msgstr "Liste de diffusion de l'équipe de traduction de BibleTime"
 
 #: content/en/development_mailinglists.xml:40(para)
-#, fuzzy
 msgid ""
 "To subscribe to the BibleTime Translations mailing list please visit the "
 "following web page and enter your eMail address there: <ulink url=\"https://"
@@ -2870,19 +2404,13 @@ msgid ""
 "intended for translators to submit their work, and ask questions regarding "
 "translations."
 msgstr ""
-"Pour s'inscrire à la liste de l'équipe de développement de BibleTime, rendez-"
-"vous sur la page suivante et entrez votre adresse email : <ulink url="
-"\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/"
-"mailman/listinfo/bt-devel</ulink>."
 
 #
 #: content/en/development_mailinglists.xml:49(title)
-#, fuzzy
 msgid "BibleTime commit log mailing list"
-msgstr "Liste de diffusion de l'équipe de développement de BibleTime"
+msgstr ""
 
 #: content/en/development_mailinglists.xml:51(para)
-#, fuzzy
 msgid ""
 "To subscribe to the BibleTime commit log mailing list please visit the "
 "following web page and enter your eMail address there: <ulink url=\"https://"
@@ -2890,19 +2418,13 @@ msgid ""
 "lists/listinfo/bibletime-cvs</ulink>. This list is intended for use by all "
 "interested individuals to monitor the work of the BibleTime developers."
 msgstr ""
-"Pour s'inscrire à la liste de l'équipe de développement de BibleTime, rendez-"
-"vous sur la page suivante et entrez votre adresse email : <ulink url="
-"\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/"
-"mailman/listinfo/bt-devel</ulink>."
 
 #
 #: content/en/development_mailinglists.xml:60(title)
-#, fuzzy
 msgid "BibleTime Packaging mailing list"
-msgstr "Liste de diffusion de l'équipe de développement de BibleTime"
+msgstr ""
 
 #: content/en/development_mailinglists.xml:62(para)
-#, fuzzy
 msgid ""
 "To subscribe to the BibleTime Packagers mailing list please visit the "
 "following web page and enter your eMail address there: <ulink url=\"https://"
@@ -2911,10 +2433,6 @@ msgid ""
 "intended for discussion and announcements to BibleTime Packagers and other "
 "interested individuals."
 msgstr ""
-"Pour s'inscrire à la liste de l'équipe de développement de BibleTime, rendez-"
-"vous sur la page suivante et entrez votre adresse email : <ulink url="
-"\"http://www.crosswire.org/mailman/listinfo/bt-devel\">www.crosswire.org/"
-"mailman/listinfo/bt-devel</ulink>."
 
 #
 #: content/en/development_mailinglists.xml:71(title)
@@ -2922,7 +2440,6 @@ msgid "Sword development mailing list"
 msgstr "Liste de diffusion du développement de Sword"
 
 #: content/en/development_mailinglists.xml:73(para)
-#, fuzzy
 msgid ""
 "To subscribe to the development mailing list of the Sword project please "
 "visit the following web page and enter your eMail address there: <ulink url="
@@ -2935,7 +2452,6 @@ msgstr ""
 "mailman/listinfo/sword-devel</ulink>."
 
 #: content/en/development_mailinglists.xml:79(para)
-#, fuzzy
 msgid ""
 "Archives of the Sword development mailing list are available at <ulink url="
 "\"http://www.crosswire.org/pipermail/sword-devel/\"> www.crosswire.org/"
@@ -2947,9 +2463,8 @@ msgstr ""
 
 #
 #: content/en/development_join.xml:11(title)
-#, fuzzy
 msgid "How to join the BibleTime Team"
-msgstr "Joindre l'équipe BibleTime"
+msgstr ""
 
 #
 #: content/en/development_join.xml:13(summary)
@@ -2971,7 +2486,6 @@ msgstr "Joindre l'équipe BibleTime"
 
 #
 #: content/en/development_join.xml:25(para)
-#, fuzzy
 msgid ""
 "We are thankful to everybody who helps us improve the BibleTime software, "
 "it's documentation and it's translations."
@@ -2981,7 +2495,6 @@ msgstr ""
 
 #
 #: content/en/development_join.xml:31(title)
-#, fuzzy
 msgid "The basic steps..."
 msgstr "Les étapes de base..."
 
@@ -2995,7 +2508,6 @@ msgstr ""
 
 #
 #: content/en/development_join.xml:39(para)
-#, fuzzy
 msgid ""
 "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</"
 "ulink>, please sign up for one. It is free. We need your username to add you "
@@ -3007,7 +2519,6 @@ msgstr ""
 "confier des tâches, etc."
 
 #: content/en/development_join.xml:47(para)
-#, fuzzy
 msgid ""
 "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
 "devel\"> BibleTime development mailing list</ulink>. All developers read "
@@ -3040,18 +2551,14 @@ msgstr "Les prochaines étapes concernent les développeurs du logiciel..."
 
 #
 #: content/en/development_join.xml:70(para)
-#, fuzzy
 msgid ""
 "Work through some of the <ulink url=\"http://doc.trolltech.com/4.3/tutorial."
 "html\">Qt4 tutorials</ulink> to get accustomed to programming with the tools "
 "BibleTime uses."
 msgstr ""
-"Travaillez les tutoriaux de Qt4 pour vous habituer à la programmation "
-"utilisée pour BibleTime."
 
 #
 #: content/en/development_join.xml:77(para)
-#, fuzzy
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
 "Do not forget to add how difficult it should be."
@@ -3067,7 +2574,6 @@ msgstr "Les prochaines étapes concernent les auteurs de la documentation..."
 
 #
 #: content/en/development_join.xml:89(para)
-#, fuzzy
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
 "directory of the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/"
@@ -3079,7 +2585,6 @@ msgstr ""
 
 #
 #: content/en/development_join.xml:95(para)
-#, fuzzy
 msgid ""
 "The documentation is stored in docbook format in the localized "
 "subdirectories of each documentation part (handbook and Bible study howto). "
@@ -3099,7 +2604,6 @@ msgid "The next steps for translators..."
 msgstr "Les prochaines étapes concernent les traducteurs..."
 
 #: content/en/development_join.xml:110(para)
-#, fuzzy
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
 "located at <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
@@ -3110,7 +2614,6 @@ msgstr ""
 
 #
 #: content/en/development_join.xml:116(para)
-#, fuzzy
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
 "Lokalize</ulink>, if it is not yet installed on your system. It will help "
@@ -3154,9 +2657,8 @@ msgstr ""
 
 #
 #: content/en/development_help.xml:13(title)
-#, fuzzy
 msgid "Help the BibleTime team"
-msgstr "Rejoindre l'équipe BibleTime"
+msgstr ""
 
 #: content/en/development_help.xml:15(summary)
 msgid "Direct and indirect support for the development of BibleTime"
@@ -3172,7 +2674,6 @@ msgid "Please help us ..."
 msgstr "SVP Aidez-nous ..."
 
 #: content/en/development_help.xml:22(para)
-#, fuzzy
 msgid ""
 "Our aim is to develop BibleTime into a really mature Bible study application "
 "that can by used by everyone. To achieve this, we need your help. There are "
@@ -3205,7 +2706,6 @@ msgstr ""
 "Voulez-vous rapporter un bogue ou suggérer une nouvelle fonctionnalité?"
 
 #: content/en/development_help.xml:40(para)
-#, fuzzy
 msgid ""
 "You can use <ulink url=\"https://sourceforge.net/tracker/?group_id=954&amp;"
 "atid=100954\"> BibleTime's bug tracker</ulink> to report problems with "
@@ -3227,7 +2727,6 @@ msgstr ""
 "\" (fermé))."
 
 #: content/en/development_help.xml:49(para)
-#, fuzzy
 msgid ""
 "There is also <ulink url=\"http://sourceforge.net/tracker/?group_id=954&amp;"
 "atid=350954\"> a place</ulink> where you can make suggestions for features "
@@ -3249,7 +2748,6 @@ msgstr "Savez-vous développer des logiciels?"
 
 #
 #: content/en/development_help.xml:60(para)
-#, fuzzy
 msgid ""
 "Do you know how to program in C++? Are you familiar with the Qt programming "
 "interface or are motivated to learn it? If you have time to regularly work "
@@ -3269,7 +2767,6 @@ msgstr "Savez-vous écrire de la documentation?"
 
 #
 #: content/en/development_help.xml:71(para)
-#, fuzzy
 msgid ""
 "Do you think you would be good in working on BibleTime's English "
 "documentation? If you think you are, please read the page <olink "
@@ -3281,13 +2778,11 @@ msgstr ""
 
 #
 #: content/en/development_help.xml:78(title)
-#, fuzzy
 msgid "Can you translate English into another language?"
 msgstr "Pouvez-vous traduire de l'anglais vers une autre langue?"
 
 #
 #: content/en/development_help.xml:80(para)
-#, fuzzy
 msgid ""
 "BibleTime should be useable for everyone. That is why we need a translation "
 "into your language, if it is not yet available. If you decide to start "
@@ -3302,7 +2797,6 @@ msgstr ""
 "Nous vous fournirons les fichiers à traduire."
 
 #: content/en/development_help.xml:88(para)
-#, fuzzy
 msgid ""
 "You can find more information about the translation process on the page "
 "<olink targetdocent=\"translations\">translation</olink>."
@@ -3312,7 +2806,6 @@ msgstr ""
 
 #
 #: content/en/development.xml:10(title)
-#, fuzzy
 msgid "BibleTime Development"
 msgstr "Développement de BibleTime"
 
@@ -3325,7 +2818,6 @@ msgstr ""
 
 #
 #: content/en/development.xml:24(para)
-#, fuzzy
 msgid ""
 "These pages describe how you can join in the development of BibleTime and "
 "other ways you can help us! BibleTime's quality and usefulness depends on "
@@ -3337,7 +2829,6 @@ msgstr ""
 
 #
 #: content/en/development.xml:29(para)
-#, fuzzy
 msgid ""
 "Please read the following pages very carefully to see what you can do to "
 "help us with the development!"
@@ -3348,6 +2839,5 @@ msgstr ""
 #
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: content/en/development.xml:0(None)
-#, fuzzy
 msgid "translator-credits"
 msgstr "Traductions"
