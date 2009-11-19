@@ -33,7 +33,8 @@
 	The program's user interface is built with
 	<ulink url="http://qt.nokia.com/">Qt framework</ulink>, which
 	makes it run on several operating systems including Linux,
-	Windows, FreeBSD and Mac OS X.  The software uses the
+	<ulink url="http://sourceforge.net/projects/bibletime/">Windows</ulink>,
+	FreeBSD and Mac OS X.  The software uses the
 	<ulink url="http://www.crosswire.org/sword/">
 	SWORD</ulink> programming library to work with over 200 free Bible
 	texts, commentaries, dictionaries and books provided by the 
@@ -44,6 +45,14 @@
 
   <section>
     <title>News about BibleTime</title>
+
+    <formalpara>
+      <title>2009-11-18 2.4 release</title>
+
+      <para>BibleTime 2.4 has been released.  Packagers and users are
+	encouraged to update to this version.  <ulink url="http://devel.bibletime.info/wiki/Release_announcements">
+	More...</ulink></para>
+    </formalpara>
 
     <formalpara>
       <title>2009-11-11 2.4.rc1 release</title>
@@ -187,118 +196,6 @@
       <title>2009-08-12 2.2.beta1 release</title>
 
       <para>BibleTime 2.2.beta1 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-07-12 2.1 release</title>
-
-      <para>BibleTime 2.1 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-07-05 2.1.rc1 release</title>
-
-      <para>BibleTime 2.1.rc1 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-06-28 2.1.beta1 release</title>
-
-      <para>BibleTime 2.1.beta1 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-06-06 2.0.1 bugfix release</title>
-
-      <para>BibleTime 2.0.1 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-05-28: 2.0 release</title>
-
-      <para>BibleTime 2.0 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-05-20: 2.0rc1 release</title>
-
-      <para>BibleTime 2.0rc1 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-05-16: 2.0beta3 release</title>
-
-      <para>BibleTime 2.0beta3 has been released.  Reminder to
-	tranlators to prepare the User Interface translation for the
-	upcoming Release Candidate.  <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-04-29: 2.0beta2 release</title>
-
-      <para>BibleTime 2.0beta2 has been released. Now is a good time
-	for tranlators to get their work prepared in time for the
-	upcoming Release Candidate. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-04-22: 2.0beta1 release</title>
-
-      <para>BibleTime 2.0beta1 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-03-25: 2.0alpha3 release</title>
-
-      <para>BibleTime 2.0alpha3 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-03-20: 2.0alpha2 release</title>
-
-      <para>BibleTime 2.0alpha2 has been released. <ulink
-	url="http://devel.bibletime.info/wiki/Release_announcements">
-	More...</ulink>
-      </para>
-    </formalpara>
-
-    <formalpara>
-      <title>2009-03-07: 2.0alpha1 release</title>
-
-      <para>BibleTime 2.0alpha1 has been released. <ulink
 	url="http://devel.bibletime.info/wiki/Release_announcements">
 	More...</ulink>
       </para>
