@@ -11,19 +11,19 @@ img {
 
 a {
 	background-color:transparent;
-	color:blue;
+	color:#006400; /* green */
 	text-decoration: none;
 	background:transparent;
 }
 
 a:visited {
 	background-color:transparent;
-	color:blue;
+	color:228b22; /* off green */
 }
 
 h1 {
 	font-size:19px;
-	color:#094ED0;
+	color:#006400; /* green */
 	background-color:transparent;
 	text-transform: uppercase;
 	margin:6px 0 4px 0;
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
 	font-size:17px;
-	color:#094ED0;
+	color:#006400; /* green */
 	background-color:transparent;
 	margin:4px 0 3px 0;
 }
