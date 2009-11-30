@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-24 12:15-0500\n"
-"PO-Revision-Date: 2009-08-02 17:25-0300\n"
+"POT-Creation-Date: 2009-11-30 16:17-0500\n"
+"PO-Revision-Date: 2009-11-30 16:08-0300\n"
 "Last-Translator: Rafael Fagundes Rosa Campos\n"
 "Language-Team: Português do Brasil <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -2117,7 +2117,7 @@ msgid ""
 "Society</ulink>."
 msgstr ""
 "<placeholder-1/> BibleTime é um aplicativo de estudo da Bíblia completamente "
-"livre.A interface do programa com o usário é feita com <ulink url=\"http://"
+"livre. A interface do programa com o usário é feita com <ulink url=\"http://"
 "qt.nokia.com/\">Qt framework</ulink>, que trabalha em uma série de sistemas "
 "operacionais, incluindo Linux,<ulink url=\"http://sourceforge.net/projects/"
 "bibletime/\">Windows</ulink>, FreeBSD e Mac OS X. O programa usa a "
@@ -2400,55 +2400,55 @@ msgstr ""
 "targetdocent=\"translations\">fazendo traduções</olink> e atualize o arquivo "
 "de tradução de seu próprio idioma."
 
-#: content/en/layout.xml:8(year)
+#: content/en/layout.xml:8(year) content/en/layout-christmas.xml:8(year)
 msgid "1999"
 msgstr "1999"
 
-#: content/en/layout.xml:9(year)
+#: content/en/layout.xml:9(year) content/en/layout-christmas.xml:9(year)
 msgid "2000"
 msgstr "2000"
 
-#: content/en/layout.xml:10(year)
+#: content/en/layout.xml:10(year) content/en/layout-christmas.xml:10(year)
 msgid "2001"
 msgstr "2001"
 
-#: content/en/layout.xml:11(year)
+#: content/en/layout.xml:11(year) content/en/layout-christmas.xml:11(year)
 msgid "2002"
 msgstr "2002"
 
-#: content/en/layout.xml:12(year)
+#: content/en/layout.xml:12(year) content/en/layout-christmas.xml:12(year)
 msgid "2003"
 msgstr "2003"
 
-#: content/en/layout.xml:13(year)
+#: content/en/layout.xml:13(year) content/en/layout-christmas.xml:13(year)
 msgid "2004"
 msgstr "2004"
 
-#: content/en/layout.xml:14(year)
+#: content/en/layout.xml:14(year) content/en/layout-christmas.xml:14(year)
 msgid "2005"
 msgstr "2005"
 
-#: content/en/layout.xml:15(year)
+#: content/en/layout.xml:15(year) content/en/layout-christmas.xml:15(year)
 msgid "2006"
 msgstr "2006"
 
-#: content/en/layout.xml:16(year)
+#: content/en/layout.xml:16(year) content/en/layout-christmas.xml:16(year)
 msgid "2007"
 msgstr "2007"
 
-#: content/en/layout.xml:17(year)
+#: content/en/layout.xml:17(year) content/en/layout-christmas.xml:17(year)
 msgid "2008"
 msgstr "2008"
 
-#: content/en/layout.xml:18(year)
+#: content/en/layout.xml:18(year) content/en/layout-christmas.xml:18(year)
 msgid "2009"
 msgstr "2009"
 
-#: content/en/layout.xml:19(holder)
+#: content/en/layout.xml:19(holder) content/en/layout-christmas.xml:19(holder)
 msgid "The BibleTime Team"
 msgstr "O Time do BibleTime"
 
-#: content/en/layout.xml:56(title)
+#: content/en/layout.xml:56(title) content/en/layout-christmas.xml:56(title)
 msgid "Development wiki"
 msgstr "Desenvolvimento wiki"
 
@@ -3037,7 +3037,7 @@ msgstr ""
 "Por favor leia as seguintes páginas muito cuidadosamente para ver se você "
 "pode nos ajudar com o desenvolvimento!"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: content/en/development.xml:0(None)
 msgid "translator-credits"
 msgstr ""
