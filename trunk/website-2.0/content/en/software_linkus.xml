@@ -24,14 +24,14 @@
       <programlisting>
         <![CDATA[
  <a href="http://www.bibletime.info/" target="_blank">
- <img src="http://www.bibletime.info/images/banner/big.jpg" width="312" height="60" border="0"/>
+ <img src="http://www.bibletime.info/images/banner/big.png" width="312" height="60" border="0"/>
  </a>
 ]]>
 </programlisting>It will look like this: 
       <ulink url="http://www.bibletime.info/">
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/images/banner/big.jpg" format="JPG" />
+            <imagedata fileref="/images/banner/big.png" format="PNG" />
           </imageobject>
         </mediaobject>
       </ulink></para>
@@ -42,15 +42,15 @@
       <programlisting>
         <![CDATA[
  <a href="http://www.bibletime.info/" target="_blank">
- <img src="http://www.bibletime.info/images/banner/small.jpg" width="88" height="31" border="0"/>
+ <img src="http://www.bibletime.info/images/banner/small.png" width="88" height="31" border="0"/>
  </a>
 ]]>
 </programlisting>It will look like this: 
       <ulink url="http://www.bibletime.info/">
         <mediaobject>
           <imageobject>
-            <imagedata fileref="/images/banner/small.jpg"
-            format="JPG" />
+            <imagedata fileref="/images/banner/small.png"
+            format="PNG" />
           </imageobject>
         </mediaobject>
       </ulink></para>
