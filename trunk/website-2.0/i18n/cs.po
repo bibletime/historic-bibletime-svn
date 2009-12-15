@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-09 20:49-0500\n"
+"POT-Creation-Date: 2009-12-15 15:11-0500\n"
 "PO-Revision-Date: 2009-10-27 08:44-0400\n"
 "Last-Translator: Tomáš Michalek <michto01@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -422,13 +422,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: content/en/software_linkus.xml:34(None)
-msgid "@@image: '/images/banner/big.jpg'; md5=THIS FILE DOESN'T EXIST"
+#, fuzzy
+msgid "@@image: '/images/banner/big.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '/images/banner/big.jpg'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: content/en/software_linkus.xml:53(None)
-msgid "@@image: '/images/banner/small.jpg'; md5=THIS FILE DOESN'T EXIST"
+#, fuzzy
+msgid "@@image: '/images/banner/small.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '/images/banner/small.jpg'; md5=THIS FILE DOESN'T EXIST"
 
 #
