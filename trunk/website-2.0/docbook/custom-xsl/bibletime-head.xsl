@@ -5,6 +5,6 @@ xmlns:sweb="http://nwalsh.com/xslt/ext/com.nwalsh.saxon.Website"
 exclude-result-prefixes="sweb xweb" version="1.0">
   <xsl:template match="title" mode="head.mode">
     <title>
-    <xsl:value-of select="." /> - Free Bible software</title>
+    <xsl:value-of select="." /> - BibleTime, Free Bible software</title>
   </xsl:template>
 </xsl:stylesheet>

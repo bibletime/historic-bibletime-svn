@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-21 08:25-0500\n"
+"POT-Creation-Date: 2009-12-31 10:48-0500\n"
 "PO-Revision-Date: 2009-10-27 08:44-0400\n"
 "Last-Translator: Tomáš Michalek <michto01@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -19,8 +19,8 @@ msgstr ""
 
 #: content/en/translation.xml:9(title)
 #, fuzzy
-msgid "Help translate BibleTime"
-msgstr "Pomozte přeložit BibleTime do Vaašeho jazyka"
+msgid "Translate"
+msgstr "Překlady"
 
 #
 #: content/en/translation.xml:11(summary)
@@ -268,7 +268,7 @@ msgstr "@@image: '/images/screenshots/2.jpg'; md5=THIS FILE DOESN'T EXIST"
 #
 #: content/en/software_screenshots.xml:9(title)
 #, fuzzy
-msgid "BibleTime Screenshots"
+msgid "Screenshots"
 msgstr "Vývoj  BibleTime"
 
 #
@@ -343,6 +343,11 @@ msgstr ""
 
 #
 #: content/en/software_press.xml:10(title)
+#, fuzzy
+msgid "In the Press"
+msgstr "V tisku"
+
+#
 #: content/en/software_press.xml:12(summary)
 msgid "BibleTime in the press"
 msgstr "BibleTime v tisku"
@@ -436,8 +441,8 @@ msgstr "@@image: '/images/banner/small.jpg'; md5=THIS FILE DOESN'T EXIST"
 #
 #: content/en/software_linkus.xml:9(title)
 #, fuzzy
-msgid "Link to BibleTime"
-msgstr "Vítáme Vás v BibleTime"
+msgid "Link to us"
+msgstr "Odkazy"
 
 #
 #: content/en/software_linkus.xml:11(summary)
@@ -769,9 +774,9 @@ msgstr ""
 
 #
 #: content/en/software_license.xml:10(title)
-#, fuzzy
-msgid "The BibleTime License"
-msgstr "BibleTime tipy"
+#: content/en/software_license.xml:22(title)
+msgid "License"
+msgstr "Licence"
 
 #
 #: content/en/software_license.xml:12(summary)
@@ -786,11 +791,6 @@ msgid ""
 msgstr ""
 "BibleTime, Linux, Unix, FreeBSD, meziplatformní, software, studium bible, "
 "Bůh, Náboženství, Bible, zbožnostl, crosswire, sword, licence"
-
-#
-#: content/en/software_license.xml:22(title)
-msgid "License"
-msgstr "Licence"
 
 #: content/en/software_license.xml:24(literallayout)
 #, no-wrap
@@ -1140,8 +1140,8 @@ msgid ""
 msgstr ""
 
 #: content/en/software_installation.xml:12(title)
-#: content/en/software_installation.xml:24(title)
-msgid "Download BibleTime"
+#, fuzzy
+msgid "Download"
 msgstr "Stáhni si BibleTime"
 
 #
@@ -1159,6 +1159,10 @@ msgstr ""
 "BibleTime, Linux, Unix, FreeBSD, meziplatformní, software, studium bible, "
 "Bůh, Náboženství, Bible, zbožnost, crosswire, sword, instalace, download, "
 "ubuntu, mandrake, suse, debian, freebsd, pcbsd "
+
+#: content/en/software_installation.xml:24(title)
+msgid "Download BibleTime"
+msgstr "Stáhni si BibleTime"
 
 #: content/en/software_installation.xml:31(para)
 #, fuzzy
@@ -1408,11 +1412,9 @@ msgstr ""
 "</literallayout><ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-"
 "Services</ulink>"
 
-#
 #: content/en/software_faq.xml:11(title)
-#, fuzzy
-msgid "BibleTime FAQ"
-msgstr "BibleTime"
+msgid "FAQ"
+msgstr ""
 
 #
 #: content/en/software_faq.xml:13(summary)
@@ -1612,11 +1614,9 @@ msgstr ""
 "zprostředkovat. Více indormací mužete získat na <olink targetdocent="
 "\"translation\">stránkach překladů.</olink>."
 
-#
 #: content/en/software_contact.xml:10(title)
-#, fuzzy
-msgid "Contact the BibleTime Team"
-msgstr "Připojte se k týmu BibleTime"
+msgid "Contact"
+msgstr ""
 
 #
 #: content/en/software_contact.xml:12(summary)
@@ -1681,11 +1681,9 @@ msgstr ""
 msgid "You can contact us on one of our mailing lists."
 msgstr ""
 
-#
 #: content/en/software_about.xml:9(title)
-#, fuzzy
-msgid "About BibleTime"
-msgstr "O programu BibleTime"
+msgid "About"
+msgstr ""
 
 #
 #: content/en/software_about.xml:11(summary)
@@ -1825,8 +1823,12 @@ msgid ""
 "for the Windows platform"
 msgstr ""
 
+#: content/en/software.xml:10(title)
+msgid "Welcome"
+msgstr ""
+
 #
-#: content/en/software.xml:10(title) content/en/software.xml:12(summary)
+#: content/en/software.xml:12(summary)
 msgid "Welcome to BibleTime"
 msgstr "Vítáme Vás v BibleTime"
 
@@ -2274,14 +2276,19 @@ msgstr "2008"
 msgid "2009"
 msgstr "2009"
 
+#: content/en/layout.xml:19(year)
+#, fuzzy
+msgid "2010"
+msgstr "2000"
+
 #
-#: content/en/layout.xml:19(holder) content/en/layout-christmas.xml:19(holder)
+#: content/en/layout.xml:20(holder) content/en/layout-christmas.xml:19(holder)
 #, fuzzy
 msgid "The BibleTime Team"
 msgstr "BibleTime team"
 
 #
-#: content/en/layout.xml:56(title) content/en/layout-christmas.xml:56(title)
+#: content/en/layout.xml:57(title) content/en/layout-christmas.xml:56(title)
 msgid "Development wiki"
 msgstr "Vývojářská wiki"
 
@@ -2359,8 +2366,9 @@ msgid "Did you know..."
 msgstr "Věděli jste?"
 
 #: content/en/devotional.xml:22(para)
+#, fuzzy
 msgid ""
-"Did you know that today in 2009, more than 200,000,000 Christians are being "
+"Did you know that today in 2010, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
 "\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> "
 "(German) shows the countries where people have to \"pay\" for their faith, "
@@ -2389,7 +2397,7 @@ msgstr ""
 #
 #: content/en/development_mailinglists.xml:10(title)
 #, fuzzy
-msgid "BibleTime Mailing lists"
+msgid "Mailing Lists"
 msgstr "Mailing list BibleTime"
 
 #
@@ -2546,11 +2554,9 @@ msgstr ""
 "crosswire.org/pipermail/bt-devel/\"> www.crosswire.org/pipermail/bt-devel</"
 "ulink>."
 
-#
 #: content/en/development_join.xml:11(title)
-#, fuzzy
-msgid "How to join the BibleTime Team"
-msgstr "Připojte se k týmu BibleTime"
+msgid "Join Us"
+msgstr ""
 
 #
 #: content/en/development_join.xml:13(summary)
@@ -2749,11 +2755,9 @@ msgstr ""
 "Přihlaste se na naše  <ulink url=\"http://devel.bibletime.info\">wiki</"
 "ulink> a zanechte nám zde svůj příspěvek. "
 
-#
 #: content/en/development_help.xml:13(title)
-#, fuzzy
-msgid "Help the BibleTime team"
-msgstr "BibleTime team"
+msgid "Help Us"
+msgstr ""
 
 #: content/en/development_help.xml:15(summary)
 msgid "Direct and indirect support for the development of BibleTime"
@@ -2895,8 +2899,8 @@ msgstr ""
 #
 #: content/en/development.xml:10(title)
 #, fuzzy
-msgid "BibleTime Development"
-msgstr "Vývoj  BibleTime"
+msgid "Development"
+msgstr "Vývojářská wiki"
 
 #: content/en/development.xml:14(keywords)
 #, fuzzy
@@ -2932,3 +2936,47 @@ msgstr ""
 #: content/en/development.xml:0(None)
 msgid "translator-credits"
 msgstr "Tomáš Michalek <michto01@gmail.com>, 2008,2009"
+
+#
+#, fuzzy
+#~ msgid "Link to BibleTime"
+#~ msgstr "Vítáme Vás v BibleTime"
+
+#
+#, fuzzy
+#~ msgid "The BibleTime License"
+#~ msgstr "BibleTime tipy"
+
+#
+#, fuzzy
+#~ msgid "BibleTime FAQ"
+#~ msgstr "BibleTime"
+
+#
+#, fuzzy
+#~ msgid "Contact the BibleTime Team"
+#~ msgstr "Připojte se k týmu BibleTime"
+
+#
+#, fuzzy
+#~ msgid "About BibleTime"
+#~ msgstr "O programu BibleTime"
+
+#
+#, fuzzy
+#~ msgid "How to join the BibleTime Team"
+#~ msgstr "Připojte se k týmu BibleTime"
+
+#
+#, fuzzy
+#~ msgid "Help the BibleTime team"
+#~ msgstr "BibleTime team"
+
+#, fuzzy
+#~ msgid "Help translate BibleTime"
+#~ msgstr "Pomozte přeložit BibleTime do Vaašeho jazyka"
+
+#
+#, fuzzy
+#~ msgid "BibleTime Development"
+#~ msgstr "Vývoj  BibleTime"

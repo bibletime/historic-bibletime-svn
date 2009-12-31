@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: bibletime-translations@lists.sourceforge.net\n"
-"POT-Creation-Date: 2009-12-21 08:25-0500\n"
+"POT-Creation-Date: 2009-12-31 10:48-0500\n"
 "PO-Revision-Date: 2009-11-18 16:01-0500\n"
 "Last-Translator: Thomas Abthorpe <tabthorpe@FreeBSD.org>\n"
 "Language-Team:  <en@li.org>\n"
@@ -23,9 +23,11 @@ msgstr ""
 "X-Language: fr\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#
 #: content/en/translation.xml:9(title)
-msgid "Help translate BibleTime"
-msgstr "Aidez-nous à traduire BibleTime dans votre langue"
+#, fuzzy
+msgid "Translate"
+msgstr "Traductions"
 
 #
 #: content/en/translation.xml:11(summary)
@@ -268,10 +270,10 @@ msgstr ""
 msgid "@@image: '/images/screenshots/2.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
-#
 #: content/en/software_screenshots.xml:9(title)
-msgid "BibleTime Screenshots"
-msgstr ""
+#, fuzzy
+msgid "Screenshots"
+msgstr "Captures d'écrans de BibleTime"
 
 #: content/en/software_screenshots.xml:11(summary)
 #: content/en/software_screenshots.xml:21(title)
@@ -346,6 +348,11 @@ msgstr ""
 
 #
 #: content/en/software_press.xml:10(title)
+#, fuzzy
+msgid "In the Press"
+msgstr "Dans la presse"
+
+#
 #: content/en/software_press.xml:12(summary)
 msgid "BibleTime in the press"
 msgstr "Dans la presse"
@@ -436,8 +443,9 @@ msgstr ""
 
 #
 #: content/en/software_linkus.xml:9(title)
-msgid "Link to BibleTime"
-msgstr ""
+#, fuzzy
+msgid "Link to us"
+msgstr "Liens"
 
 #
 #: content/en/software_linkus.xml:11(summary)
@@ -778,8 +786,9 @@ msgstr ""
 
 #
 #: content/en/software_license.xml:10(title)
-msgid "The BibleTime License"
-msgstr "Autres liens de BibleTime"
+#: content/en/software_license.xml:22(title)
+msgid "License"
+msgstr "Licence"
 
 #
 #: content/en/software_license.xml:12(summary)
@@ -791,11 +800,6 @@ msgid ""
 "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, biblestudy, bible study, "
 "software, God, Religion, Bible, devotional, crosswire, sword, license"
 msgstr ""
-
-#
-#: content/en/software_license.xml:22(title)
-msgid "License"
-msgstr "Licence"
 
 #: content/en/software_license.xml:24(literallayout)
 #, no-wrap
@@ -1145,8 +1149,8 @@ msgid ""
 msgstr ""
 
 #: content/en/software_installation.xml:12(title)
-#: content/en/software_installation.xml:24(title)
-msgid "Download BibleTime"
+#, fuzzy
+msgid "Download"
 msgstr "Télécharger BibleTime"
 
 #
@@ -1160,6 +1164,10 @@ msgid ""
 "software, God, Religion, Bible, devotional, crosswire, sword, installation, "
 "download, ubuntu, mandrake, suse, debian, freebsd, pcbsd, windows"
 msgstr ""
+
+#: content/en/software_installation.xml:24(title)
+msgid "Download BibleTime"
+msgstr "Télécharger BibleTime"
 
 #: content/en/software_installation.xml:31(para)
 #, fuzzy
@@ -1412,9 +1420,8 @@ msgstr ""
 "</literallayout><ulink url=\"http://www.ansorg-it.com/\">Joachim Ansorg IT-"
 "Services</ulink>"
 
-#
 #: content/en/software_faq.xml:11(title)
-msgid "BibleTime FAQ"
+msgid "FAQ"
 msgstr ""
 
 #
@@ -1616,10 +1623,9 @@ msgstr ""
 "contribuer à la créer. Pour plus d'informations, veuillez consulter notre "
 "<olink targetdocent=\"translation\">page des traductions</olink>."
 
-#
 #: content/en/software_contact.xml:10(title)
-msgid "Contact the BibleTime Team"
-msgstr "Joindre l'équipe BibleTime"
+msgid "Contact"
+msgstr ""
 
 #
 #: content/en/software_contact.xml:12(summary)
@@ -1683,10 +1689,9 @@ msgstr "Envoyez nous un email"
 msgid "You can contact us on one of our mailing lists."
 msgstr "Vous pouvez nous contacter sur une de nos mailing lists."
 
-#
 #: content/en/software_about.xml:9(title)
-msgid "About BibleTime"
-msgstr "A propos de BibleTime"
+msgid "About"
+msgstr ""
 
 #
 #: content/en/software_about.xml:11(summary)
@@ -1814,8 +1819,12 @@ msgid ""
 "for the Windows platform"
 msgstr ""
 
+#: content/en/software.xml:10(title)
+msgid "Welcome"
+msgstr ""
+
 #
-#: content/en/software.xml:10(title) content/en/software.xml:12(summary)
+#: content/en/software.xml:12(summary)
 msgid "Welcome to BibleTime"
 msgstr "Bienvenue sur le projet BibleTime"
 
@@ -2195,13 +2204,17 @@ msgstr ""
 msgid "2009"
 msgstr ""
 
+#: content/en/layout.xml:19(year)
+msgid "2010"
+msgstr ""
+
 #
-#: content/en/layout.xml:19(holder) content/en/layout-christmas.xml:19(holder)
+#: content/en/layout.xml:20(holder) content/en/layout-christmas.xml:19(holder)
 msgid "The BibleTime Team"
 msgstr ""
 
 #
-#: content/en/layout.xml:56(title) content/en/layout-christmas.xml:56(title)
+#: content/en/layout.xml:57(title) content/en/layout-christmas.xml:56(title)
 msgid "Development wiki"
 msgstr "Développement"
 
@@ -2273,7 +2286,7 @@ msgstr "Le saviez-vous..."
 #: content/en/devotional.xml:22(para)
 #, fuzzy
 msgid ""
-"Did you know that today in 2009, more than 200,000,000 Christians are being "
+"Did you know that today in 2010, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
 "\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> "
 "(German) shows the countries where people have to \"pay\" for their faith, "
@@ -2303,7 +2316,8 @@ msgstr ""
 
 #
 #: content/en/development_mailinglists.xml:10(title)
-msgid "BibleTime Mailing lists"
+#, fuzzy
+msgid "Mailing Lists"
 msgstr "Liste de diffusion de l'équipe de développement de BibleTime"
 
 #
@@ -2439,9 +2453,8 @@ msgstr ""
 "url=\"http://www.crosswire.org/pipermail/sword-devel/\">www.crosswire.org/"
 "pipermail/sword-devel</ulink>."
 
-#
 #: content/en/development_join.xml:11(title)
-msgid "How to join the BibleTime Team"
+msgid "Join Us"
 msgstr ""
 
 #
@@ -2633,9 +2646,8 @@ msgid ""
 "\">wiki</ulink>, and make your contribution there."
 msgstr ""
 
-#
 #: content/en/development_help.xml:13(title)
-msgid "Help the BibleTime team"
+msgid "Help Us"
 msgstr ""
 
 #: content/en/development_help.xml:15(summary)
@@ -2784,8 +2796,9 @@ msgstr ""
 
 #
 #: content/en/development.xml:10(title)
-msgid "BibleTime Development"
-msgstr "Développement de BibleTime"
+#, fuzzy
+msgid "Development"
+msgstr "Développement"
 
 #: content/en/development.xml:14(keywords)
 msgid ""
@@ -2819,3 +2832,22 @@ msgstr ""
 #: content/en/development.xml:0(None)
 msgid "translator-credits"
 msgstr "Traductions"
+
+#
+#~ msgid "The BibleTime License"
+#~ msgstr "Autres liens de BibleTime"
+
+#
+#~ msgid "Contact the BibleTime Team"
+#~ msgstr "Joindre l'équipe BibleTime"
+
+#
+#~ msgid "About BibleTime"
+#~ msgstr "A propos de BibleTime"
+
+#~ msgid "Help translate BibleTime"
+#~ msgstr "Aidez-nous à traduire BibleTime dans votre langue"
+
+#
+#~ msgid "BibleTime Development"
+#~ msgstr "Développement de BibleTime"
