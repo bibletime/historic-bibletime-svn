@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-31 10:48-0500\n"
+"POT-Creation-Date: 2010-02-15 01:34-0500\n"
 "PO-Revision-Date: 2009-12-15 18:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -2001,136 +2001,11 @@ msgstr ""
 "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, Software, Bibelstudium, "
 "Bibel-Studium, Qt, Gott, Religion, Bibel, Andacht, Crosswire, Sword, über"
 
-#: content/en/software_about.xml:21(title)
-msgid "Introduction"
-msgstr "Einleitung"
-
-#: content/en/software_about.xml:23(para)
+#: content/en/software_about.xml:21(para)
 msgid ""
-"BibleTime is a Bible study application built with <ulink url=\"http://qt."
-"nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/"
-"sword/\"> Sword</ulink> programming library to work with Bible texts, "
-"commentaries, dictionaries and books provided by the <ulink url=\"http://www."
-"crosswire.org/\">Crosswire Bible Society</ulink>."
+"This page has moved to <ulink url=\"http://blog.bibletime.info/about\"> "
+"http://blog.bibletime.info/about</ulink>. Please update your bookmarks."
 msgstr ""
-"BibleTime ist eine mit <ulink url=\"http://qt.nokia.com/\">Qt4</ulink> "
-"erstellte Bibelstudien-Applikation, die die Programmierbibliothek <ulink url="
-"\"http://www.crosswire.org/sword/\"> Sword</ulink> von der <ulink url="
-"\"http://www.crosswire.org/\">Crosswire Bible Society</ulink> für den Umgang "
-"mit Bibeltexten, Kommentaren, Wörterbüchern und Büchern nutzt."
-
-#: content/en/software_about.xml:34(title)
-msgid "The history of BibleTime"
-msgstr "Die Geschichte von BibleTime"
-
-#: content/en/software_about.xml:36(para)
-msgid ""
-"Back in June of 1999 Thomas Hagedorn, Thorsten Uhlmann and Joachim Ansorg "
-"started to work on a Bible study application for KDE 1.0."
-msgstr ""
-"Im Juni 1999 begannen Thomas Hagedorn, Torsten Uhlmann und Joachim Ansorg an "
-"einem Computerprogramm für das Bibelstudium für KDE 1.0 zu arbeiten."
-
-#: content/en/software_about.xml:40(para)
-msgid ""
-"The first version was released two months later as version 0.1. This version "
-"was very simple and supported only the most basic things."
-msgstr ""
-"Diese erste Version wurde zwei Monate später als Version 0.1 veröffentlicht. "
-"Sie war sehr einfach gehalten und unterstützte nur die wirklich "
-"grundlegenden Dinge."
-
-#: content/en/software_about.xml:44(para)
-msgid ""
-"After three months of hard work version 0.2 was released to the public. This "
-"version was usable, it supported basic printing, searching and offered a "
-"simple editor for personal notes."
-msgstr ""
-"Nach drei Monaten harter Arbeit wurde Version 0.2 der Öffentlichkeit "
-"vorgstellt. Diese Version war benutzbar, unterstützte einfaches Drucken und "
-"Suchen und hatte einen Editor zum Erstellen und Bearbeiten persönlicher "
-"Notizen."
-
-#: content/en/software_about.xml:48(para)
-msgid ""
-"BibleTime 0.2 was later ported to KDE 2 and totally redesigned with a more "
-"powerful interface, better printing and a lot of internal changes. This "
-"version was called BibleTime 0.3"
-msgstr ""
-"BibleTime 0.2 wurde später auf KDE 2 portiert und komplett mit einer neuen "
-"Oberfläche, verbesserter Druckfunktion und einer Menge interner Änderungen "
-"überarbeitet. Diese Version hieß BibleTime 0.3."
-
-#: content/en/software_about.xml:53(para)
-msgid ""
-"BibleTime 1.0, which was released almost one year after version 0.3 and was "
-"the first version we considered as stable."
-msgstr ""
-"BibleTime 1.0 wurde beinahe ein Jahr nach Version 0.3 veröffentlicht und war "
-"die erste als stabil eingestufte Version."
-
-#: content/en/software_about.xml:57(para)
-msgid ""
-"BibleTime 1.1 and 1.2 followed later on. BibleTime 1.2 is the first version "
-"of BibleTime for version 3.0 of KDE."
-msgstr ""
-"BibleTime 1.1 und 1.2 folgten später. BibleTime 1.2 ist die erste Version "
-"für KDE 3."
-
-#: content/en/software_about.xml:60(para)
-msgid ""
-"BibleTime version 1.5 was released in July 2005 after a long time of "
-"development."
-msgstr ""
-"BibleTime wurde im Juli 2005 in der Version 1.5 nach einer langen "
-"Entwicklungsphase veröffentlicht."
-
-#: content/en/software_about.xml:63(para)
-msgid ""
-"BibleTime version 1.6 was released in September 2006, and utilized <ulink "
-"url=\"http://clucene.sourceforge.net\">CLucene</ulink> as its search engine."
-msgstr ""
-"Version 1.6 von BibleTime wurde im September 2006 veröffentlicht. Sie "
-"benutzte erstmalig <ulink url=\"http://clucene.sourceforge.net\">CLucene</"
-"ulink> für ihre Suchfunktionalität."
-
-#: content/en/software_about.xml:68(para)
-msgid ""
-"BibleTime version 1.7 was released in January 2008, it is the first version "
-"developed with Qt4 for use with KDE4."
-msgstr ""
-"BibleTime Version 1.7 wurde im Januar 2008 veröffentlicht. Diese Version war "
-"die erste, die mit Qt4 für den Gebrauch unter KDE4 entwickelt worden ist."
-
-#: content/en/software_about.xml:71(para)
-msgid ""
-"BibleTime version 2.0 was released in May 2009, developed with Qt4. This "
-"transitions BibleTime to be be made available on other platforms in the "
-"future."
-msgstr ""
-"BibleTime Version 2.0 wurde im Mai 2009 veröffentlicht, entwickelt mit Qt4. "
-"Dieser Übergang stellt die Verfügbarkeit auf anderen Plattformen in der "
-"Zukunft sicher."
-
-#: content/en/software_about.xml:75(para)
-msgid ""
-"In October 2009, the BibleTime Team hosted it's first ever <ulink url="
-"\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</ulink>, bringing "
-"together developers, contributors and userbase to work on improving the "
-"BibleTime application."
-msgstr ""
-"Im Oktober 2009, veranstaltete das BibleTime-Team seinen ersten <ulink url="
-"\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</ulink>, der "
-"Entwickler, Beitragende und Nutzer zusammenführte, um an der Verbesserung "
-"der BibleTime-Applikation zu arbeiten."
-
-#: content/en/software_about.xml:80(para)
-msgid ""
-"Late in October 2009, the BibleTime team releases it's first beta canadidate "
-"for the Windows platform"
-msgstr ""
-"Im späten Oktober 2009 veröffentlicht das BibleTime-Team seinen ersten Beta-"
-"Kandidaten für die Windows-Plattform"
 
 #: content/en/software.xml:10(title)
 msgid "Welcome"
@@ -2184,11 +2059,24 @@ msgid "News about BibleTime"
 msgstr "Neuigkeiten über BibleTime"
 
 #: content/en/software.xml:50(title)
+msgid "2010-02-15 - We are on the move"
+msgstr ""
+
+#: content/en/software.xml:52(para)
+msgid ""
+"We are in the process of migrating our website to <ulink url=\"http://blog."
+"bibletime.info\">http://blog.bibletime.info</ulink>. We expect some growing "
+"pains, so please bare with us as we work on the task ahead of us. We hope to "
+"start involving translators so make sure our respective languages are "
+"represented."
+msgstr ""
+
+#: content/en/software.xml:61(title)
 #, fuzzy
 msgid "2009-12-20 2.5 - Christmas Edition Codename \"CE\""
 msgstr "09.12.2009: 2.5beta1 - Weihnachts-Edition"
 
-#: content/en/software.xml:52(para)
+#: content/en/software.xml:63(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.5 has been released. Christmas came early here at BibleTime, you "
@@ -2199,18 +2087,18 @@ msgstr ""
 "der Übersetzung der Benutzeroberfläche zu beginnen. <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:59(para)
+#: content/en/software.xml:70(para)
 msgid ""
 "Our family here are BibleTime would like to wish you a very Merry Christmas. "
 "Jesus is the reason for the season!"
 msgstr ""
 
-#: content/en/software.xml:65(title)
+#: content/en/software.xml:76(title)
 #, fuzzy
 msgid "2009-12-16 2.5.rc1 - Christmas Edition"
 msgstr "09.12.2009: 2.5beta1 - Weihnachts-Edition"
 
-#: content/en/software.xml:67(para)
+#: content/en/software.xml:78(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.5.rc1 has been released. Translators are encouraged to finish UI "
@@ -2221,11 +2109,11 @@ msgstr ""
 "der Übersetzung der Benutzeroberfläche zu beginnen. <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:74(title)
+#: content/en/software.xml:85(title)
 msgid "2009-12-09 2.5.beta1 - Christmas Edition"
 msgstr "09.12.2009: 2.5beta1 - Weihnachts-Edition"
 
-#: content/en/software.xml:76(para)
+#: content/en/software.xml:87(para)
 msgid ""
 "BibleTime 2.5.beta1 has been released. Translators are encouraged to "
 "commence UI translations. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2235,11 +2123,11 @@ msgstr ""
 "Übersetzung der Benutzeroberfläche zu beginnen. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:83(title)
+#: content/en/software.xml:94(title)
 msgid "2009-12-04 BibleTime Tracker mailing list"
 msgstr "04.12.2009 BibleTime-Mitverfolgungs-Mailverteilerliste"
 
-#: content/en/software.xml:85(para)
+#: content/en/software.xml:96(para)
 msgid ""
 "We have created a new mailing list for BibleTime Tracker notifications, you "
 "can read more <ulink url=\"development_mailinglists.html\"> here</ulink>."
@@ -2248,11 +2136,11 @@ msgstr ""
 "Benachrichtigungen begonnen. Sie können <ulink url="
 "\"development_mailinglists.html\"> hier</ulink> mehr lesen."
 
-#: content/en/software.xml:91(title)
+#: content/en/software.xml:102(title)
 msgid "2009-11-24 English Handbook PDF available"
 msgstr "24.11.2009 Ein englisches PDF-Benutzerhandbuch steht zur Verfügung"
 
-#: content/en/software.xml:93(para)
+#: content/en/software.xml:104(para)
 msgid ""
 "BibleTime contributor Roland Ewert recently converted the English BibleTime "
 "Handbook to Portable Document Format, it can be downloaded from the <ulink "
@@ -2263,11 +2151,11 @@ msgstr ""
 "diese <ulink url=\"http://www.bibletime.info/handbook_en.pdf\">Webseite</"
 "ulink> heruntergeladen werden."
 
-#: content/en/software.xml:100(title)
+#: content/en/software.xml:111(title)
 msgid "2009-11-18 2.4 release"
 msgstr "18.11.2009 Version 2.4"
 
-#: content/en/software.xml:102(para)
+#: content/en/software.xml:113(para)
 msgid ""
 "BibleTime 2.4 has been released. Packagers and users are encouraged to "
 "update to this version. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2277,11 +2165,11 @@ msgstr ""
 "eingeladen, auf diese Version zu aktualisieren. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:108(title)
+#: content/en/software.xml:119(title)
 msgid "2009-11-11 2.4.rc1 release"
 msgstr "11.11.2009 Version 2.4.rc1"
 
-#: content/en/software.xml:110(para)
+#: content/en/software.xml:121(para)
 msgid ""
 "BibleTime 2.4.rc1 has been released. Translators are encouraged to commence "
 "UI translations. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2291,11 +2179,11 @@ msgstr ""
 "der Übersetzung der Benutzeroberfläche zu beginnen. <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:117(title)
+#: content/en/software.xml:128(title)
 msgid "2009-11-04 2.4.beta1 release"
 msgstr "04.11.2009 Version 2.4.beta1"
 
-#: content/en/software.xml:119(para)
+#: content/en/software.xml:130(para)
 msgid ""
 "BibleTime 2.4.beta1 has been released. Translators are encouraged to "
 "commence UI translations. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2305,11 +2193,11 @@ msgstr ""
 "Übersetzung der Benutzeroberfläche beginnen. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:126(title)
+#: content/en/software.xml:137(title)
 msgid "2009-10-27 Testing BibleTime for Windows"
 msgstr "27.10.2009: Testen von BibleTime für Windows"
 
-#: content/en/software.xml:128(para)
+#: content/en/software.xml:139(para)
 msgid ""
 "We are pleased to announce that BibleTime is now ready for testing on your "
 "<ulink url=\"http://devel.bibletime.info/wiki/Release_announcements#2009-10-"
@@ -2320,11 +2208,11 @@ msgstr ""
 "27_Windows_installer_available_for_testing\">Windows-PC</ulink> zur "
 "Verfügung steht."
 
-#: content/en/software.xml:134(title)
+#: content/en/software.xml:145(title)
 msgid "2009-10-27 BibleTime 2.3.3 bugfix released"
 msgstr "27.10.2009: Veröffentlichung des BibleTime 2.3.3-Bugfixes"
 
-#: content/en/software.xml:136(para)
+#: content/en/software.xml:147(para)
 msgid ""
 "BT 2.3.3 bugfix has been released. All packagers and maintainers are "
 "encouraged to update to this version. <ulink url=\"http://devel.bibletime."
@@ -2334,11 +2222,11 @@ msgstr ""
 "wird empfohlen, auf diese Version upzudaten. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:143(title)
+#: content/en/software.xml:154(title)
 msgid "2009-10-27 Next Bug-a-thon announced"
 msgstr "27.10.2009: Nächster Bug-a-thon angekündigt"
 
-#: content/en/software.xml:145(para)
+#: content/en/software.xml:156(para)
 msgid ""
 "With the success of our last Bug-a-thon, we will have having our second one "
 "on November 14. <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon"
@@ -2348,11 +2236,11 @@ msgstr ""
 "stattfinden. <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon"
 "\">Mehr...</ulink>"
 
-#: content/en/software.xml:151(title)
+#: content/en/software.xml:162(title)
 msgid "2009-10-24 BibleTime Blog"
 msgstr "24.10.2009: BibleTime-Blog"
 
-#: content/en/software.xml:153(para)
+#: content/en/software.xml:164(para)
 msgid ""
 "We are pleased to announce that BibleTime is now hosting a <ulink url="
 "\"http://blog.bibletime.info/\">blog</ulink>!"
@@ -2360,11 +2248,11 @@ msgstr ""
 "Wir freuen uns bekanntzugeben, dass BibleTime jetzt einen <ulink url="
 "\"http://blog.bibletime.info/\">Blog</ulink> unterhält!"
 
-#: content/en/software.xml:158(title)
+#: content/en/software.xml:169(title)
 msgid "2009-10-16 Become a fan of BibleTime"
 msgstr "16.10.2009: Werden Sie ein BibleTime-Fan"
 
-#: content/en/software.xml:160(para)
+#: content/en/software.xml:171(para)
 msgid ""
 "You can now become a fan of BibleTime on Facebook by following this <ulink "
 "url=\"http://www.facebook.com/bibletime\">link</ulink>."
@@ -2372,11 +2260,11 @@ msgstr ""
 "Sie können jetzt ein BibleTime-Fan auf Facebook werden, indem Sie diesem "
 "<ulink url=\"http://www.facebook.com/bibletime\">Verweis</ulink> folgen."
 
-#: content/en/software.xml:165(title)
+#: content/en/software.xml:176(title)
 msgid "2009-10-15 BibleTime Packaging mailing list"
 msgstr "15.10.2009: BibleTime-Paketersteller-Mailverteilerliste"
 
-#: content/en/software.xml:167(para)
+#: content/en/software.xml:178(para)
 msgid ""
 "We have created a new mailing list for BibleTime Packagers, you can read "
 "more <ulink url=\"development_mailinglists.html\"> here</ulink>."
@@ -2385,11 +2273,11 @@ msgstr ""
 "genommen. Sie können <ulink url=\"development_mailinglists.html\"> hier</"
 "ulink> mehr lesen."
 
-#: content/en/software.xml:173(title)
+#: content/en/software.xml:184(title)
 msgid "2009-10-14 2.3.2 release"
 msgstr "14.10.2009: Version 2.3.2 veröffentlicht"
 
-#: content/en/software.xml:175(para)
+#: content/en/software.xml:186(para)
 msgid ""
 "BibleTime 2.3.2 has been released. It is a bug fix release, as a result of "
 "the <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</"
@@ -2401,11 +2289,11 @@ msgstr ""
 "ulink>. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements"
 "\"> Mehr...</ulink>"
 
-#: content/en/software.xml:182(title)
+#: content/en/software.xml:193(title)
 msgid "2009-10-10 2.3.1 release"
 msgstr "10.10.2009: Version 2.3.1 veröffentlicht"
 
-#: content/en/software.xml:184(para)
+#: content/en/software.xml:195(para)
 msgid ""
 "BibleTime 2.3.1 has been released. It is a bug fix release, as a result of "
 "the <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</"
@@ -2417,11 +2305,11 @@ msgstr ""
 "ulink>. <ulink url=\"http://devel.bibletime.info/wiki/Release_announcements"
 "\"> Mehr...</ulink>"
 
-#: content/en/software.xml:192(title)
+#: content/en/software.xml:203(title)
 msgid "2009-10-06 2.3 release"
 msgstr "06.10.2009: Version 2.3 veröffentlicht"
 
-#: content/en/software.xml:194(para)
+#: content/en/software.xml:205(para)
 msgid ""
 "BibleTime 2.3 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
@@ -2429,11 +2317,11 @@ msgstr ""
 "BibleTime 2.3 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:201(title)
+#: content/en/software.xml:212(title)
 msgid "2009-10-01 Join us for our first Bug-a-thon"
 msgstr "01.10.2009 Treten Sie unserem ersten Bug-a-thon bei"
 
-#: content/en/software.xml:203(para)
+#: content/en/software.xml:214(para)
 msgid ""
 "We are hosting a Bug-a-thon on October 9, <ulink url=\"http://devel."
 "bibletime.info/wiki/Bug-a-thon\"> read more</ulink>."
@@ -2441,11 +2329,11 @@ msgstr ""
 "Wir veranstalten einen Bug-a-thon am 9. Oktober, <ulink url=\"http://devel."
 "bibletime.info/wiki/Bug-a-thon\"> Lesen Sie mehr</ulink>."
 
-#: content/en/software.xml:210(title)
+#: content/en/software.xml:221(title)
 msgid "2009-09-30 2.3.rc1 release"
 msgstr "30.09.2009: Freigabe der Version 2.3rc1"
 
-#: content/en/software.xml:212(para)
+#: content/en/software.xml:223(para)
 msgid ""
 "BibleTime 2.3.rc1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
@@ -2453,11 +2341,11 @@ msgstr ""
 "BibleTime 2.3rc1 ist freigegeben worden. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:219(title)
+#: content/en/software.xml:230(title)
 msgid "2009-09-25 2.3.beta1 release"
 msgstr "25.09.2009: Veröffentlichung der Version 2.3beta1"
 
-#: content/en/software.xml:221(para)
+#: content/en/software.xml:232(para)
 msgid ""
 "BibleTime 2.3.beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
@@ -2465,11 +2353,11 @@ msgstr ""
 "BibleTime 2.3beta1 wurde veröffentlicht. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:228(title)
+#: content/en/software.xml:239(title)
 msgid "2009-08-26 2.2 release"
 msgstr "26.08.2009: Version 2.2 veröffentlicht"
 
-#: content/en/software.xml:230(para)
+#: content/en/software.xml:241(para)
 msgid ""
 "BibleTime 2.2 has been released. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> More...</ulink>"
@@ -2477,11 +2365,11 @@ msgstr ""
 "BibleTime 2.2 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:237(title)
+#: content/en/software.xml:248(title)
 msgid "2009-08-19 2.2.rc1 release"
 msgstr "19.08.2009: Veröffentlichung der Version 2.2.rc1"
 
-#: content/en/software.xml:239(para)
+#: content/en/software.xml:250(para)
 msgid ""
 "BibleTime 2.2.rc1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
@@ -2489,11 +2377,11 @@ msgstr ""
 "BibleTime 2.2.rc1 ist freigegeben worden. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:246(title)
+#: content/en/software.xml:257(title)
 msgid "2009-08-12 2.2.beta1 release"
 msgstr "12.08.2009: Veröffentlichung der Version 2.2.beta1"
 
-#: content/en/software.xml:248(para)
+#: content/en/software.xml:259(para)
 msgid ""
 "BibleTime 2.2.beta1 has been released. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> More...</ulink>"
@@ -3215,6 +3103,124 @@ msgstr ""
 #: content/en/development.xml:0(None)
 msgid "translator-credits"
 msgstr "Nennung der Übersetzer"
+
+#~ msgid "Introduction"
+#~ msgstr "Einleitung"
+
+#~ msgid ""
+#~ "BibleTime is a Bible study application built with <ulink url=\"http://qt."
+#~ "nokia.com/\">Qt4</ulink>, using the <ulink url=\"http://www.crosswire.org/"
+#~ "sword/\"> Sword</ulink> programming library to work with Bible texts, "
+#~ "commentaries, dictionaries and books provided by the <ulink url=\"http://"
+#~ "www.crosswire.org/\">Crosswire Bible Society</ulink>."
+#~ msgstr ""
+#~ "BibleTime ist eine mit <ulink url=\"http://qt.nokia.com/\">Qt4</ulink> "
+#~ "erstellte Bibelstudien-Applikation, die die Programmierbibliothek <ulink "
+#~ "url=\"http://www.crosswire.org/sword/\"> Sword</ulink> von der <ulink url="
+#~ "\"http://www.crosswire.org/\">Crosswire Bible Society</ulink> für den "
+#~ "Umgang mit Bibeltexten, Kommentaren, Wörterbüchern und Büchern nutzt."
+
+#~ msgid "The history of BibleTime"
+#~ msgstr "Die Geschichte von BibleTime"
+
+#~ msgid ""
+#~ "Back in June of 1999 Thomas Hagedorn, Thorsten Uhlmann and Joachim Ansorg "
+#~ "started to work on a Bible study application for KDE 1.0."
+#~ msgstr ""
+#~ "Im Juni 1999 begannen Thomas Hagedorn, Torsten Uhlmann und Joachim Ansorg "
+#~ "an einem Computerprogramm für das Bibelstudium für KDE 1.0 zu arbeiten."
+
+#~ msgid ""
+#~ "The first version was released two months later as version 0.1. This "
+#~ "version was very simple and supported only the most basic things."
+#~ msgstr ""
+#~ "Diese erste Version wurde zwei Monate später als Version 0.1 "
+#~ "veröffentlicht. Sie war sehr einfach gehalten und unterstützte nur die "
+#~ "wirklich grundlegenden Dinge."
+
+#~ msgid ""
+#~ "After three months of hard work version 0.2 was released to the public. "
+#~ "This version was usable, it supported basic printing, searching and "
+#~ "offered a simple editor for personal notes."
+#~ msgstr ""
+#~ "Nach drei Monaten harter Arbeit wurde Version 0.2 der Öffentlichkeit "
+#~ "vorgstellt. Diese Version war benutzbar, unterstützte einfaches Drucken "
+#~ "und Suchen und hatte einen Editor zum Erstellen und Bearbeiten "
+#~ "persönlicher Notizen."
+
+#~ msgid ""
+#~ "BibleTime 0.2 was later ported to KDE 2 and totally redesigned with a "
+#~ "more powerful interface, better printing and a lot of internal changes. "
+#~ "This version was called BibleTime 0.3"
+#~ msgstr ""
+#~ "BibleTime 0.2 wurde später auf KDE 2 portiert und komplett mit einer "
+#~ "neuen Oberfläche, verbesserter Druckfunktion und einer Menge interner "
+#~ "Änderungen überarbeitet. Diese Version hieß BibleTime 0.3."
+
+#~ msgid ""
+#~ "BibleTime 1.0, which was released almost one year after version 0.3 and "
+#~ "was the first version we considered as stable."
+#~ msgstr ""
+#~ "BibleTime 1.0 wurde beinahe ein Jahr nach Version 0.3 veröffentlicht und "
+#~ "war die erste als stabil eingestufte Version."
+
+#~ msgid ""
+#~ "BibleTime 1.1 and 1.2 followed later on. BibleTime 1.2 is the first "
+#~ "version of BibleTime for version 3.0 of KDE."
+#~ msgstr ""
+#~ "BibleTime 1.1 und 1.2 folgten später. BibleTime 1.2 ist die erste Version "
+#~ "für KDE 3."
+
+#~ msgid ""
+#~ "BibleTime version 1.5 was released in July 2005 after a long time of "
+#~ "development."
+#~ msgstr ""
+#~ "BibleTime wurde im Juli 2005 in der Version 1.5 nach einer langen "
+#~ "Entwicklungsphase veröffentlicht."
+
+#~ msgid ""
+#~ "BibleTime version 1.6 was released in September 2006, and utilized <ulink "
+#~ "url=\"http://clucene.sourceforge.net\">CLucene</ulink> as its search "
+#~ "engine."
+#~ msgstr ""
+#~ "Version 1.6 von BibleTime wurde im September 2006 veröffentlicht. Sie "
+#~ "benutzte erstmalig <ulink url=\"http://clucene.sourceforge.net\">CLucene</"
+#~ "ulink> für ihre Suchfunktionalität."
+
+#~ msgid ""
+#~ "BibleTime version 1.7 was released in January 2008, it is the first "
+#~ "version developed with Qt4 for use with KDE4."
+#~ msgstr ""
+#~ "BibleTime Version 1.7 wurde im Januar 2008 veröffentlicht. Diese Version "
+#~ "war die erste, die mit Qt4 für den Gebrauch unter KDE4 entwickelt worden "
+#~ "ist."
+
+#~ msgid ""
+#~ "BibleTime version 2.0 was released in May 2009, developed with Qt4. This "
+#~ "transitions BibleTime to be be made available on other platforms in the "
+#~ "future."
+#~ msgstr ""
+#~ "BibleTime Version 2.0 wurde im Mai 2009 veröffentlicht, entwickelt mit "
+#~ "Qt4. Dieser Übergang stellt die Verfügbarkeit auf anderen Plattformen in "
+#~ "der Zukunft sicher."
+
+#~ msgid ""
+#~ "In October 2009, the BibleTime Team hosted it's first ever <ulink url="
+#~ "\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</ulink>, "
+#~ "bringing together developers, contributors and userbase to work on "
+#~ "improving the BibleTime application."
+#~ msgstr ""
+#~ "Im Oktober 2009, veranstaltete das BibleTime-Team seinen ersten <ulink "
+#~ "url=\"http://devel.bibletime.info/wiki/Bug-a-thon\">Bug-a-thon</ulink>, "
+#~ "der Entwickler, Beitragende und Nutzer zusammenführte, um an der "
+#~ "Verbesserung der BibleTime-Applikation zu arbeiten."
+
+#~ msgid ""
+#~ "Late in October 2009, the BibleTime team releases it's first beta "
+#~ "canadidate for the Windows platform"
+#~ msgstr ""
+#~ "Im späten Oktober 2009 veröffentlicht das BibleTime-Team seinen ersten "
+#~ "Beta-Kandidaten für die Windows-Plattform"
 
 #~ msgid "Link to BibleTime"
 #~ msgstr "Verweis auf BibleTime"
