@@ -5,15 +5,15 @@
 # Joachim Ansorg <mail@joachim-ansorg.de>, 2006, 2007.
 # Joachim Ansorg <info@bibletime.info>, 2008.
 # Harald Albrecht, 2009.
-# Roland Teschner <rolte@gmx.net>, 2009.
-# Thomas Abthorpe <tabthorpe@FreeBSD.org>, 2009.
+# Roland Teschner <rolte@gmx.net>, 2009, 2010.
+# Thomas Abthorpe <tabthorpe@FreeBSD.org>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-15 01:34-0500\n"
-"PO-Revision-Date: 2009-12-15 18:03+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2010-02-25 14:42-0500\n"
+"PO-Revision-Date: 2010-02-13 00:47+0100\n"
+"Last-Translator: Roland Teschner <rolte@gmx.net>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,9 +22,8 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: content/en/translation.xml:9(title)
-#, fuzzy
 msgid "Translate"
-msgstr "Übersetzungen"
+msgstr "Übersetzen"
 
 #: content/en/translation.xml:11(summary)
 msgid "BibleTime translation statistics"
@@ -275,9 +274,8 @@ msgid "@@image: '/images/screenshots/2.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '/images/screenshots/2.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: content/en/software_screenshots.xml:9(title)
-#, fuzzy
 msgid "Screenshots"
-msgstr "BibleTime Bildschirmfotos"
+msgstr "Bildschirmfotos"
 
 #: content/en/software_screenshots.xml:11(summary)
 #: content/en/software_screenshots.xml:21(title)
@@ -353,9 +351,8 @@ msgstr ""
 "besondere Textbereiche, wie etwa Fußnoten, durchsuchen."
 
 #: content/en/software_press.xml:10(title)
-#, fuzzy
 msgid "In the Press"
-msgstr "In der Öffentlichkeit"
+msgstr "In den Medien"
 
 #: content/en/software_press.xml:12(summary)
 msgid "BibleTime in the press"
@@ -436,21 +433,18 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: content/en/software_linkus.xml:34(None)
-#, fuzzy
 msgid "@@image: '/images/banner/big.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr "@@image: '/images/banner/big.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: '/images/banner/big.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: content/en/software_linkus.xml:53(None)
-#, fuzzy
 msgid "@@image: '/images/banner/small.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr "@@image: '/images/banner/small.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: '/images/banner/small.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: content/en/software_linkus.xml:9(title)
-#, fuzzy
 msgid "Link to us"
-msgstr "Verweise"
+msgstr "Auf uns verweisen"
 
 #: content/en/software_linkus.xml:11(summary)
 #: content/en/software_linkus.xml:19(title)
@@ -1466,9 +1460,8 @@ msgstr ""
 "  "
 
 #: content/en/software_installation.xml:12(title)
-#, fuzzy
 msgid "Download"
-msgstr "BibleTime herunterladen"
+msgstr "Herunterladen"
 
 #: content/en/software_installation.xml:14(summary)
 msgid "Installation of the BibleTime software"
@@ -1735,7 +1728,7 @@ msgstr ""
 
 #: content/en/software_faq.xml:11(title)
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: content/en/software_faq.xml:13(summary)
 msgid "FAQ about BibleTime"
@@ -1922,7 +1915,7 @@ msgstr ""
 
 #: content/en/software_contact.xml:10(title)
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: content/en/software_contact.xml:12(summary)
 #: content/en/software_contact.xml:22(title)
@@ -1987,7 +1980,7 @@ msgstr "Sie können uns über einen unserer Mail-Verteiler kontaktieren."
 
 #: content/en/software_about.xml:9(title)
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #: content/en/software_about.xml:11(summary)
 msgid "Introduction to the BibleTime software"
@@ -2009,7 +2002,7 @@ msgstr ""
 
 #: content/en/software.xml:10(title)
 msgid "Welcome"
-msgstr ""
+msgstr "Willkommen"
 
 #: content/en/software.xml:12(summary)
 msgid "Welcome to BibleTime"
@@ -2072,41 +2065,39 @@ msgid ""
 msgstr ""
 
 #: content/en/software.xml:61(title)
-#, fuzzy
 msgid "2009-12-20 2.5 - Christmas Edition Codename \"CE\""
-msgstr "09.12.2009: 2.5beta1 - Weihnachts-Edition"
+msgstr "20.12.2009: 2.5 - Weihnachts-Edition Codename \"CE\""
 
 #: content/en/software.xml:63(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.5 has been released. Christmas came early here at BibleTime, you "
 "can read more <ulink url=\"http://devel.bibletime.info/wiki/"
 "Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.4.rc1 wurde veröffentlicht. Übersetzer werden eingeladen, mit "
-"der Übersetzung der Benutzeroberfläche zu beginnen. <ulink url=\"http://"
-"devel.bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
+"BibleTime 2.5 wurde veröffentlicht. Hier bei BibleTime weihnachtete es früh, "
+"Sie können <ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements\">hier</ulink> mehr lesen."
 
 #: content/en/software.xml:70(para)
 msgid ""
 "Our family here are BibleTime would like to wish you a very Merry Christmas. "
 "Jesus is the reason for the season!"
 msgstr ""
+"Unsere Familie hier bei BibleTime wünscht Ihnen recht fröhliche Weihnachten. "
+"Jesus ist der Grund für das Fest!"
 
 #: content/en/software.xml:76(title)
-#, fuzzy
 msgid "2009-12-16 2.5.rc1 - Christmas Edition"
-msgstr "09.12.2009: 2.5beta1 - Weihnachts-Edition"
+msgstr "16.12.2009: 2.5.rc1 - Weihnachts-Edition"
 
 #: content/en/software.xml:78(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.5.rc1 has been released. Translators are encouraged to finish UI "
 "translations. <ulink url=\"http://devel.bibletime.info/wiki/"
 "Release_announcements\"> More...</ulink>"
 msgstr ""
-"BibleTime 2.4.rc1 wurde veröffentlicht. Übersetzer werden eingeladen, mit "
-"der Übersetzung der Benutzeroberfläche zu beginnen. <ulink url=\"http://"
+"BibleTime 2.5.rc1 wurde veröffentlicht. Die Übersetzer werden gebeten, die "
+"Übersetzungen der Benutzeroberfläche fertigzustellen. <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
 #: content/en/software.xml:85(title)
@@ -2467,9 +2458,8 @@ msgid "2009"
 msgstr "2009"
 
 #: content/en/layout.xml:19(year)
-#, fuzzy
 msgid "2010"
-msgstr "2000"
+msgstr "2010"
 
 #: content/en/layout.xml:20(holder) content/en/layout-christmas.xml:19(holder)
 msgid "The BibleTime Team"
@@ -2545,7 +2535,6 @@ msgid "Did you know..."
 msgstr "Wussten Sie ..."
 
 #: content/en/devotional.xml:22(para)
-#, fuzzy
 msgid ""
 "Did you know that today in 2010, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
@@ -2556,13 +2545,13 @@ msgid ""
 "regions worldwide. These pages are from Open Doors, an independent "
 "organization that tries to help persecuted Christians."
 msgstr ""
-"Wussten Sie, dass jetzt in diesem Jahr 2009 mehr als 200.000.000 Christen "
+"Wussten Sie, dass jetzt in diesem Jahr 2010 mehr als 200.000.000 Christen "
 "auf Grund ihres Glaubens benachteiligt, verfolgt und sogar getötet werden? "
 "<ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">Diese "
 "Karte</ulink> (in deutsch) zeigt die Länder, in denen man für seinen Glauben "
-"&quot;bezahlen&quot; muss. Außerdem gibt diese <ulink url=\"http://www."
-"opendoorsusa.org/content/category/4/17/24\">englisch-sprachige Seite</ulink> "
-"Informationen über Hauptregionen weltweit. Diese Seiten gehören zu Open "
+"\"bezahlen\" muss. Außerdem gibt diese <ulink url=\"http://www.opendoorsusa."
+"org/content/category/4/17/24\"> englischsprachige Karte</ulink> "
+"Informationen über die Hauptregionen weltweit. Diese Seiten gehören zu Open "
 "Doors (Offene Türen), einer unabhängigen Organisation, die versucht, "
 "verfolgten Christen zu helfen."
 
@@ -2577,9 +2566,8 @@ msgstr ""
 "der Leib Christi und jeder von euch ein Glied.&quot;"
 
 #: content/en/development_mailinglists.xml:10(title)
-#, fuzzy
 msgid "Mailing Lists"
-msgstr "BibleTime-Mailverteilerlisten"
+msgstr "Mailverteilerlisten"
 
 #: content/en/development_mailinglists.xml:12(summary)
 msgid "BibleTime's mailing lists"
@@ -2733,7 +2721,7 @@ msgstr ""
 
 #: content/en/development_join.xml:11(title)
 msgid "Join Us"
-msgstr ""
+msgstr "Treten Sie uns bei"
 
 #: content/en/development_join.xml:13(summary)
 #: content/en/development.xml:12(summary) content/en/development.xml:22(title)
@@ -2927,7 +2915,7 @@ msgstr ""
 
 #: content/en/development_help.xml:13(title)
 msgid "Help Us"
-msgstr ""
+msgstr "Helfen Sie uns"
 
 #: content/en/development_help.xml:15(summary)
 msgid "Direct and indirect support for the development of BibleTime"
@@ -3066,9 +3054,8 @@ msgstr ""
 "<olink targetdocent=\"translations\">Übersetzung</olink> finden."
 
 #: content/en/development.xml:10(title)
-#, fuzzy
 msgid "Development"
-msgstr "Entwicklungswiki"
+msgstr "Entwicklung"
 
 #: content/en/development.xml:14(keywords)
 msgid ""
