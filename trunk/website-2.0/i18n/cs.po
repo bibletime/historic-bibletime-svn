@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_cs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-21 00:54-0400\n"
+"POT-Creation-Date: 2010-07-07 11:59-0400\n"
 "PO-Revision-Date: 2009-10-27 08:44-0400\n"
 "Last-Translator: Tomáš Michalek <michto01@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -150,8 +150,8 @@ msgstr ""
 #: content/en/translation.xml:95(para)
 msgid ""
 "A list of the language abbreviations is available at <ulink url=\"http://www."
-"loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-"
-"2/php/code_list.php</ulink>."
+"loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/"
+"iso639-2/php/code_list.php</ulink>."
 msgstr ""
 "Soupiska zkratek pro vaš jazyk je dostupná na <ulink url=\"http://www.loc."
 "gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-2/"
@@ -1761,10 +1761,24 @@ msgstr "Novinky o BibleTime"
 
 #: content/en/software.xml:50(title)
 #, fuzzy
-msgid "2010-05-19 2.7 released"
+msgid "2010-07-06 2.7.1 released"
 msgstr "2009-09-25 vydání 2.3.beta1"
 
 #: content/en/software.xml:52(para)
+#, fuzzy
+msgid ""
+"BibleTime 2.7.1 has been released. You can read more <ulink url=\"http://"
+"devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
+msgstr ""
+"BibleTime verze 2.3.beta1 byla zveřejněna. <ulink url=\"http://devel."
+"bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
+
+#: content/en/software.xml:58(title)
+#, fuzzy
+msgid "2010-05-19 2.7 released"
+msgstr "2009-09-25 vydání 2.3.beta1"
+
+#: content/en/software.xml:60(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.7 has been released. You can read more <ulink url=\"http://devel."
@@ -1773,12 +1787,12 @@ msgstr ""
 "BibleTime verze 2.3.beta1 byla zveřejněna. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
-#: content/en/software.xml:58(title) content/en/software.xml:66(title)
+#: content/en/software.xml:66(title) content/en/software.xml:74(title)
 #, fuzzy
 msgid "2010-04-29 2.7.beta1 released"
 msgstr "2009-09-25 vydání 2.3.beta1"
 
-#: content/en/software.xml:60(para) content/en/software.xml:68(para)
+#: content/en/software.xml:68(para) content/en/software.xml:76(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.7.beta1 has been released. You can read more <ulink url=\"http://"
@@ -1787,12 +1801,12 @@ msgstr ""
 "BibleTime verze 2.3.beta1 byla zveřejněna. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
-#: content/en/software.xml:74(title)
+#: content/en/software.xml:82(title)
 #, fuzzy
 msgid "2009-12-20 2.5 - Christmas Edition Codename \"CE\""
 msgstr "2009-09-25 vydání 2.3.beta1"
 
-#: content/en/software.xml:76(para)
+#: content/en/software.xml:84(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.5 has been released. Christmas came early here at BibleTime, you "
@@ -1802,18 +1816,18 @@ msgstr ""
 "BibleTime verze 2.3.beta1 byla zveřejněna. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
-#: content/en/software.xml:83(para)
+#: content/en/software.xml:91(para)
 msgid ""
 "Our family here are BibleTime would like to wish you a very Merry Christmas. "
 "Jesus is the reason for the season!"
 msgstr ""
 
-#: content/en/software.xml:89(title)
+#: content/en/software.xml:97(title)
 #, fuzzy
 msgid "2009-12-16 2.5.rc1 - Christmas Edition"
 msgstr "2009-09-25 vydání 2.3.beta1"
 
-#: content/en/software.xml:91(para)
+#: content/en/software.xml:99(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.5.rc1 has been released. Translators are encouraged to finish UI "
@@ -1823,12 +1837,12 @@ msgstr ""
 "BibleTime verze 2.3.beta1 byla zveřejněna. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
-#: content/en/software.xml:98(title)
+#: content/en/software.xml:106(title)
 #, fuzzy
 msgid "2009-12-09 2.5.beta1 - Christmas Edition"
 msgstr "2009-09-25 vydání 2.3.beta1"
 
-#: content/en/software.xml:100(para)
+#: content/en/software.xml:108(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.5.beta1 has been released. Translators are encouraged to "
@@ -1839,12 +1853,12 @@ msgstr ""
 "bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
 #
-#: content/en/software.xml:107(title)
+#: content/en/software.xml:115(title)
 #, fuzzy
 msgid "2009-12-04 BibleTime Tracker mailing list"
 msgstr "2009-10-15 mailing list baličkářů BibleTime "
 
-#: content/en/software.xml:109(para)
+#: content/en/software.xml:117(para)
 #, fuzzy
 msgid ""
 "We have created a new mailing list for BibleTime Tracker notifications, you "
@@ -1853,23 +1867,23 @@ msgstr ""
 "Vytvořili jsme nový mailing list pro Bibletime baličkáře. Více si můžete "
 "přečíst <ulink url=\"development_mailinglists.html\"> zde</ulink>. "
 
-#: content/en/software.xml:115(title)
+#: content/en/software.xml:123(title)
 msgid "2009-11-24 English Handbook PDF available"
 msgstr ""
 
-#: content/en/software.xml:117(para)
+#: content/en/software.xml:125(para)
 msgid ""
 "BibleTime contributor Roland Ewert recently converted the English BibleTime "
 "Handbook to Portable Document Format, it can be downloaded from the <ulink "
 "url=\"http://www.bibletime.info/handbook_en.pdf\">website</ulink>."
 msgstr ""
 
-#: content/en/software.xml:124(title)
+#: content/en/software.xml:132(title)
 #, fuzzy
 msgid "2009-11-18 2.4 release"
 msgstr "2009-08-19 vydání 2.2.rc1"
 
-#: content/en/software.xml:126(para)
+#: content/en/software.xml:134(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.4 has been released. Packagers and users are encouraged to "
@@ -1879,12 +1893,12 @@ msgstr ""
 "BibleTime verze 2.3 byla zveřejněna. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Více...</ulink>"
 
-#: content/en/software.xml:132(title)
+#: content/en/software.xml:140(title)
 #, fuzzy
 msgid "2009-11-11 2.4.rc1 release"
 msgstr "2009-08-19 vydání 2.2.rc1"
 
-#: content/en/software.xml:134(para)
+#: content/en/software.xml:142(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.4.rc1 has been released. Translators are encouraged to commence "
@@ -1894,12 +1908,12 @@ msgstr ""
 "BibleTime verze 2.3.beta1 byla zveřejněna. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
-#: content/en/software.xml:141(title)
+#: content/en/software.xml:149(title)
 #, fuzzy
 msgid "2009-11-04 2.4.beta1 release"
 msgstr "2009-09-25 vydání 2.3.beta1"
 
-#: content/en/software.xml:143(para)
+#: content/en/software.xml:151(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.4.beta1 has been released. Translators are encouraged to "
@@ -1909,27 +1923,28 @@ msgstr ""
 "BibleTime verze 2.3.beta1 byla zveřejněna. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Více...</ulink>"
 
-#: content/en/software.xml:150(title)
+#: content/en/software.xml:158(title)
 #, fuzzy
 msgid "2009-10-27 Testing BibleTime for Windows"
 msgstr "2009-10-24 BibleTime blog"
 
-#: content/en/software.xml:152(para)
+#: content/en/software.xml:160(para)
 #, fuzzy
 msgid ""
 "We are pleased to announce that BibleTime is now ready for testing on your "
-"<ulink url=\"http://devel.bibletime.info/wiki/Release_announcements#2009-10-"
-"27_Windows_installer_available_for_testing\">Windows PC</ulink>."
+"<ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements#2009-10-27_Windows_installer_available_for_testing"
+"\">Windows PC</ulink>."
 msgstr ""
 "S radostí oznamujeme, že BibleTime teď hostinguje <ulink url=\"http://blog."
 "bibletime.info/\">blog</ulink>!"
 
-#: content/en/software.xml:158(title)
+#: content/en/software.xml:166(title)
 #, fuzzy
 msgid "2009-10-27 BibleTime 2.3.3 bugfix released"
 msgstr "2009-06-06 opravné vydání 2.0.1 "
 
-#: content/en/software.xml:160(para)
+#: content/en/software.xml:168(para)
 #, fuzzy
 msgid ""
 "BT 2.3.3 bugfix has been released. All packagers and maintainers are "
@@ -1939,11 +1954,11 @@ msgstr ""
 "BibleTime verze 2.3 byla zveřejněna. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Více...</ulink>"
 
-#: content/en/software.xml:167(title)
+#: content/en/software.xml:175(title)
 msgid "2009-10-27 Next Bug-a-thon announced"
 msgstr ""
 
-#: content/en/software.xml:169(para)
+#: content/en/software.xml:177(para)
 #, fuzzy
 msgid ""
 "With the success of our last Bug-a-thon, we will have having our second one "
@@ -1953,11 +1968,11 @@ msgstr ""
 "9 řína hostingujeme Bug-a thon, <ulink url=\"http://devel.bibletime.info/"
 "wiki/Bug-a-thon\"> čtěte více</ulink>."
 
-#: content/en/software.xml:175(title)
+#: content/en/software.xml:183(title)
 msgid "2009-10-24 BibleTime Blog"
 msgstr "2009-10-24 BibleTime blog"
 
-#: content/en/software.xml:177(para)
+#: content/en/software.xml:185(para)
 msgid ""
 "We are pleased to announce that BibleTime is now hosting a <ulink url="
 "\"http://blog.bibletime.info/\">blog</ulink>!"
@@ -1966,11 +1981,11 @@ msgstr ""
 "bibletime.info/\">blog</ulink>!"
 
 #
-#: content/en/software.xml:182(title)
+#: content/en/software.xml:190(title)
 msgid "2009-10-16 Become a fan of BibleTime"
 msgstr "2009-10-16 Staň se fandou BibleTime"
 
-#: content/en/software.xml:184(para)
+#: content/en/software.xml:192(para)
 #, fuzzy
 msgid ""
 "You can now become a fan of BibleTime on Facebook by following this <ulink "
@@ -1980,11 +1995,11 @@ msgstr ""
 "\"http://www.facebook.com/pages/BibleTime/151457492414?ref=mf\">link</ulink>."
 
 #
-#: content/en/software.xml:189(title)
+#: content/en/software.xml:197(title)
 msgid "2009-10-15 BibleTime Packaging mailing list"
 msgstr "2009-10-15 mailing list baličkářů BibleTime "
 
-#: content/en/software.xml:191(para)
+#: content/en/software.xml:199(para)
 #, fuzzy
 msgid ""
 "We have created a new mailing list for BibleTime Packagers, you can read "

@@ -11,10 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-25 10:44-0400\n"
+"POT-Creation-Date: 2010-07-07 11:59-0400\n"
 "PO-Revision-Date: 2010-05-06 11:56+0200\n"
 "Last-Translator: Roland Teschner <rolte@gmx.net>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -157,8 +158,8 @@ msgstr ""
 #: content/en/translation.xml:95(para)
 msgid ""
 "A list of the language abbreviations is available at <ulink url=\"http://www."
-"loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-"
-"2/php/code_list.php</ulink>."
+"loc.gov/standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/"
+"iso639-2/php/code_list.php</ulink>."
 msgstr ""
 "Eine Liste der Sprachen-Kürzel ist auf <ulink url=\"http://www.loc.gov/"
 "standards/iso639-2/php/code_list.php\"> www.loc.gov/standards/iso639-2/php/"
@@ -1790,9 +1791,10 @@ msgid ""
 msgstr ""
 "Bitte starten Sie configure mit dem Parameter --prefix=&lt;Ihr KDE-"
 "Verzeichnis&gt;. Dann starten Sie wie sonst auch make und make install. Die "
-"KDE-Verzeichnisse der meistbenutzten Linux-Distributionen sind: <placeholder-"
-"1/> Alternativ können Sie den Befehl \"kde-config --prefix\" benutzen, um "
-"Ihr KDE-Verzeichnis zu ermitteln. Die Befehle sind: <placeholder-2/>"
+"KDE-Verzeichnisse der meistbenutzten Linux-Distributionen sind: "
+"<placeholder-1/> Alternativ können Sie den Befehl \"kde-config --prefix\" "
+"benutzen, um Ihr KDE-Verzeichnis zu ermitteln. Die Befehle sind: "
+"<placeholder-2/>"
 
 #: content/en/software_faq.xml:56(title)
 msgid "Usage problems"
@@ -2056,10 +2058,24 @@ msgstr "Neuigkeiten über BibleTime"
 
 #: content/en/software.xml:50(title)
 #, fuzzy
-msgid "2010-05-19 2.7 released"
+msgid "2010-07-06 2.7.1 released"
 msgstr "19.08.2009: Veröffentlichung der Version 2.2.rc1"
 
 #: content/en/software.xml:52(para)
+#, fuzzy
+msgid ""
+"BibleTime 2.7.1 has been released. You can read more <ulink url=\"http://"
+"devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
+msgstr ""
+"BibleTime 2.3 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
+"wiki/Release_announcements\"> Mehr...</ulink>"
+
+#: content/en/software.xml:58(title)
+#, fuzzy
+msgid "2010-05-19 2.7 released"
+msgstr "19.08.2009: Veröffentlichung der Version 2.2.rc1"
+
+#: content/en/software.xml:60(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.7 has been released. You can read more <ulink url=\"http://devel."
@@ -2068,12 +2084,12 @@ msgstr ""
 "BibleTime 2.3 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:58(title) content/en/software.xml:66(title)
+#: content/en/software.xml:66(title) content/en/software.xml:74(title)
 #, fuzzy
 msgid "2010-04-29 2.7.beta1 released"
 msgstr "25.09.2009: Veröffentlichung der Version 2.3beta1"
 
-#: content/en/software.xml:60(para) content/en/software.xml:68(para)
+#: content/en/software.xml:68(para) content/en/software.xml:76(para)
 #, fuzzy
 msgid ""
 "BibleTime 2.7.beta1 has been released. You can read more <ulink url=\"http://"
@@ -2082,11 +2098,11 @@ msgstr ""
 "BibleTime 2.3beta1 wurde veröffentlicht. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:74(title)
+#: content/en/software.xml:82(title)
 msgid "2009-12-20 2.5 - Christmas Edition Codename \"CE\""
 msgstr "20.12.2009: 2.5 - Weihnachts-Edition Codename \"CE\""
 
-#: content/en/software.xml:76(para)
+#: content/en/software.xml:84(para)
 msgid ""
 "BibleTime 2.5 has been released. Christmas came early here at BibleTime, you "
 "can read more <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2096,7 +2112,7 @@ msgstr ""
 "Sie können <ulink url=\"http://devel.bibletime.info/wiki/"
 "Release_announcements\">hier</ulink> mehr lesen."
 
-#: content/en/software.xml:83(para)
+#: content/en/software.xml:91(para)
 msgid ""
 "Our family here are BibleTime would like to wish you a very Merry Christmas. "
 "Jesus is the reason for the season!"
@@ -2104,11 +2120,11 @@ msgstr ""
 "Unsere Familie hier bei BibleTime wünscht Ihnen recht fröhliche Weihnachten. "
 "Jesus ist der Grund für das Fest!"
 
-#: content/en/software.xml:89(title)
+#: content/en/software.xml:97(title)
 msgid "2009-12-16 2.5.rc1 - Christmas Edition"
 msgstr "16.12.2009: 2.5.rc1 - Weihnachts-Edition"
 
-#: content/en/software.xml:91(para)
+#: content/en/software.xml:99(para)
 msgid ""
 "BibleTime 2.5.rc1 has been released. Translators are encouraged to finish UI "
 "translations. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2118,11 +2134,11 @@ msgstr ""
 "Übersetzungen der Benutzeroberfläche fertigzustellen. <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:98(title)
+#: content/en/software.xml:106(title)
 msgid "2009-12-09 2.5.beta1 - Christmas Edition"
 msgstr "09.12.2009: 2.5beta1 - Weihnachts-Edition"
 
-#: content/en/software.xml:100(para)
+#: content/en/software.xml:108(para)
 msgid ""
 "BibleTime 2.5.beta1 has been released. Translators are encouraged to "
 "commence UI translations. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2132,11 +2148,11 @@ msgstr ""
 "Übersetzung der Benutzeroberfläche zu beginnen. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:107(title)
+#: content/en/software.xml:115(title)
 msgid "2009-12-04 BibleTime Tracker mailing list"
 msgstr "04.12.2009 BibleTime-Mitverfolgungs-Mailverteilerliste"
 
-#: content/en/software.xml:109(para)
+#: content/en/software.xml:117(para)
 msgid ""
 "We have created a new mailing list for BibleTime Tracker notifications, you "
 "can read more <ulink url=\"development_mailinglists.html\"> here</ulink>."
@@ -2145,11 +2161,11 @@ msgstr ""
 "Benachrichtigungen begonnen. Sie können <ulink url="
 "\"development_mailinglists.html\"> hier</ulink> mehr lesen."
 
-#: content/en/software.xml:115(title)
+#: content/en/software.xml:123(title)
 msgid "2009-11-24 English Handbook PDF available"
 msgstr "24.11.2009 Ein englisches PDF-Benutzerhandbuch steht zur Verfügung"
 
-#: content/en/software.xml:117(para)
+#: content/en/software.xml:125(para)
 msgid ""
 "BibleTime contributor Roland Ewert recently converted the English BibleTime "
 "Handbook to Portable Document Format, it can be downloaded from the <ulink "
@@ -2160,11 +2176,11 @@ msgstr ""
 "diese <ulink url=\"http://www.bibletime.info/handbook_en.pdf\">Webseite</"
 "ulink> heruntergeladen werden."
 
-#: content/en/software.xml:124(title)
+#: content/en/software.xml:132(title)
 msgid "2009-11-18 2.4 release"
 msgstr "18.11.2009 Version 2.4"
 
-#: content/en/software.xml:126(para)
+#: content/en/software.xml:134(para)
 msgid ""
 "BibleTime 2.4 has been released. Packagers and users are encouraged to "
 "update to this version. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2174,11 +2190,11 @@ msgstr ""
 "eingeladen, auf diese Version zu aktualisieren. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:132(title)
+#: content/en/software.xml:140(title)
 msgid "2009-11-11 2.4.rc1 release"
 msgstr "11.11.2009 Version 2.4.rc1"
 
-#: content/en/software.xml:134(para)
+#: content/en/software.xml:142(para)
 msgid ""
 "BibleTime 2.4.rc1 has been released. Translators are encouraged to commence "
 "UI translations. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2188,11 +2204,11 @@ msgstr ""
 "der Übersetzung der Benutzeroberfläche zu beginnen. <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:141(title)
+#: content/en/software.xml:149(title)
 msgid "2009-11-04 2.4.beta1 release"
 msgstr "04.11.2009 Version 2.4.beta1"
 
-#: content/en/software.xml:143(para)
+#: content/en/software.xml:151(para)
 msgid ""
 "BibleTime 2.4.beta1 has been released. Translators are encouraged to "
 "commence UI translations. <ulink url=\"http://devel.bibletime.info/wiki/"
@@ -2202,26 +2218,27 @@ msgstr ""
 "Übersetzung der Benutzeroberfläche beginnen. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:150(title)
+#: content/en/software.xml:158(title)
 msgid "2009-10-27 Testing BibleTime for Windows"
 msgstr "27.10.2009: Testen von BibleTime für Windows"
 
-#: content/en/software.xml:152(para)
+#: content/en/software.xml:160(para)
 msgid ""
 "We are pleased to announce that BibleTime is now ready for testing on your "
-"<ulink url=\"http://devel.bibletime.info/wiki/Release_announcements#2009-10-"
-"27_Windows_installer_available_for_testing\">Windows PC</ulink>."
+"<ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements#2009-10-27_Windows_installer_available_for_testing"
+"\">Windows PC</ulink>."
 msgstr ""
 "Wir freuen uns, bekanntzugeben, dass BibleTime nun zum Testen auf Ihrem "
-"<ulink url=\"http://devel.bibletime.info/wiki/Release_announcements#2009-10-"
-"27_Windows_installer_available_for_testing\">Windows-PC</ulink> zur "
-"Verfügung steht."
+"<ulink url=\"http://devel.bibletime.info/wiki/"
+"Release_announcements#2009-10-27_Windows_installer_available_for_testing"
+"\">Windows-PC</ulink> zur Verfügung steht."
 
-#: content/en/software.xml:158(title)
+#: content/en/software.xml:166(title)
 msgid "2009-10-27 BibleTime 2.3.3 bugfix released"
 msgstr "27.10.2009: Veröffentlichung des BibleTime 2.3.3-Bugfixes"
 
-#: content/en/software.xml:160(para)
+#: content/en/software.xml:168(para)
 msgid ""
 "BT 2.3.3 bugfix has been released. All packagers and maintainers are "
 "encouraged to update to this version. <ulink url=\"http://devel.bibletime."
@@ -2231,11 +2248,11 @@ msgstr ""
 "wird empfohlen, auf diese Version upzudaten. <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> Mehr...</ulink>"
 
-#: content/en/software.xml:167(title)
+#: content/en/software.xml:175(title)
 msgid "2009-10-27 Next Bug-a-thon announced"
 msgstr "27.10.2009: Nächster Bug-a-thon angekündigt"
 
-#: content/en/software.xml:169(para)
+#: content/en/software.xml:177(para)
 msgid ""
 "With the success of our last Bug-a-thon, we will have having our second one "
 "on November 14. <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon"
@@ -2245,11 +2262,11 @@ msgstr ""
 "stattfinden. <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon"
 "\">Mehr...</ulink>"
 
-#: content/en/software.xml:175(title)
+#: content/en/software.xml:183(title)
 msgid "2009-10-24 BibleTime Blog"
 msgstr "24.10.2009: BibleTime-Blog"
 
-#: content/en/software.xml:177(para)
+#: content/en/software.xml:185(para)
 msgid ""
 "We are pleased to announce that BibleTime is now hosting a <ulink url="
 "\"http://blog.bibletime.info/\">blog</ulink>!"
@@ -2257,11 +2274,11 @@ msgstr ""
 "Wir freuen uns bekanntzugeben, dass BibleTime jetzt einen <ulink url="
 "\"http://blog.bibletime.info/\">Blog</ulink> unterhält!"
 
-#: content/en/software.xml:182(title)
+#: content/en/software.xml:190(title)
 msgid "2009-10-16 Become a fan of BibleTime"
 msgstr "16.10.2009: Werden Sie ein BibleTime-Fan"
 
-#: content/en/software.xml:184(para)
+#: content/en/software.xml:192(para)
 msgid ""
 "You can now become a fan of BibleTime on Facebook by following this <ulink "
 "url=\"http://www.facebook.com/bibletime\">link</ulink>."
@@ -2269,11 +2286,11 @@ msgstr ""
 "Sie können jetzt ein BibleTime-Fan auf Facebook werden, indem Sie diesem "
 "<ulink url=\"http://www.facebook.com/bibletime\">Verweis</ulink> folgen."
 
-#: content/en/software.xml:189(title)
+#: content/en/software.xml:197(title)
 msgid "2009-10-15 BibleTime Packaging mailing list"
 msgstr "15.10.2009: BibleTime-Paketersteller-Mailverteilerliste"
 
-#: content/en/software.xml:191(para)
+#: content/en/software.xml:199(para)
 msgid ""
 "We have created a new mailing list for BibleTime Packagers, you can read "
 "more <ulink url=\"development_mailinglists.html\"> here</ulink>."
