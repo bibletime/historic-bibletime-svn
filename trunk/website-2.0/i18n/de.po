@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-09-07 01:29-0400\n"
-"PO-Revision-Date: 2010-05-06 11:56+0200\n"
+"PO-Revision-Date: 2010-09-11 10:29+0200\n"
 "Last-Translator: Roland Teschner <rolte@gmx.net>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: content/en/translation.xml:9(title)
@@ -462,8 +462,7 @@ msgstr ""
 
 #: content/en/software_linkus.xml:20(para)
 msgid "Please do not copy the images, as their design may change."
-msgstr ""
-"Bitte kopieren Sie nicht die Bilder, da sich ihr Design verändern könnte."
+msgstr "Bitte kopieren Sie nicht die Bilder, da sich ihr Design verändern könnte."
 
 #: content/en/software_linkus.xml:22(title)
 msgid "Larger banner"
@@ -659,10 +658,8 @@ msgid "The Online Bible is a powerful Bible study application for Windows."
 msgstr "Die Online-Bibel ist ein mächtiges Bibelstudien-Programm für Windows."
 
 #: content/en/software_links.xml:121(title)
-msgid ""
-"<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
-msgstr ""
-"<ulink url=\"http://www.crosswire.org/sword/\">Sword für Windows</ulink>."
+msgid "<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
+msgstr "<ulink url=\"http://www.crosswire.org/sword/\">Sword für Windows</ulink>."
 
 #: content/en/software_links.xml:123(para)
 msgid ""
@@ -673,10 +670,8 @@ msgstr ""
 "von der Crosswire Bibelgesellschaft unterstützt."
 
 #: content/en/software_links.xml:129(title)
-msgid ""
-"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
-msgstr ""
-"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
+msgid "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
+msgstr "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
 
 #: content/en/software_links.xml:131(para)
 msgid ""
@@ -1661,8 +1656,7 @@ msgid "Available types of works"
 msgstr "Verfügbare Werkarten"
 
 #: content/en/software_installation.xml:139(para)
-msgid ""
-"Here is a list of available types of works and where to get more information:"
+msgid "Here is a list of available types of works and where to get more information:"
 msgstr ""
 "Hier ist eine Liste der verfügbaren Werkarten und wo man weitere "
 "Informationen über diese bekommen kann:"
@@ -2057,73 +2051,65 @@ msgid "News about BibleTime"
 msgstr "Neuigkeiten über BibleTime"
 
 #: content/en/software.xml:50(title)
-#, fuzzy
 msgid "2010-09-05 2.7.3 released"
-msgstr "19.08.2009: Veröffentlichung der Version 2.2.rc1"
+msgstr "05.09.2010: Version 2.7.3 erschienen"
 
 #: content/en/software.xml:52(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.7.3 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.3 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
-"wiki/Release_announcements\"> Mehr...</ulink>"
+"BibleTime 2.7.3 wurde veröffentlicht. Lesen Sie dazu <ulink url=\"http://devel."
+"bibletime.info/"
+"wiki/Release_announcements\"> hier </ulink> mehr."
 
 #: content/en/software.xml:58(title)
-#, fuzzy
 msgid "2010-07-12 2.7.2 released"
-msgstr "19.08.2009: Veröffentlichung der Version 2.2.rc1"
+msgstr "12.07.2010: Version 2.7.2 veröffentlicht"
 
 #: content/en/software.xml:60(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.7.2 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.3 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
-"wiki/Release_announcements\"> Mehr...</ulink>"
+"BibleTime 2.7.2 wurde veröffentlicht. Lesen Sie dazu <ulink url=\"http://devel."
+"bibletime.info/"
+"wiki/Release_announcements\"> hier </ulink> mehr."
 
 #: content/en/software.xml:66(title)
-#, fuzzy
 msgid "2010-07-06 2.7.1 released"
-msgstr "19.08.2009: Veröffentlichung der Version 2.2.rc1"
+msgstr "06.07.2010: Version 2.7.1 erschienen"
 
 #: content/en/software.xml:68(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.7.1 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.3 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
+"BibleTime 2.7.1 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> Mehr...</ulink>"
 
 #: content/en/software.xml:74(title)
-#, fuzzy
 msgid "2010-05-19 2.7 released"
-msgstr "19.08.2009: Veröffentlichung der Version 2.2.rc1"
+msgstr "19.05.2010: Version 2.7 erschienen"
 
 #: content/en/software.xml:76(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.7 has been released. You can read more <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.3 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
+"BibleTime 2.7 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
 "wiki/Release_announcements\"> Mehr...</ulink>"
 
 #: content/en/software.xml:82(title) content/en/software.xml:90(title)
-#, fuzzy
 msgid "2010-04-29 2.7.beta1 released"
-msgstr "25.09.2009: Veröffentlichung der Version 2.3beta1"
+msgstr "29.04.2010: Version 2.7beta1 erschienen"
 
 #: content/en/software.xml:84(para) content/en/software.xml:92(para)
-#, fuzzy
 msgid ""
 "BibleTime 2.7.beta1 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.3beta1 wurde veröffentlicht. <ulink url=\"http://devel.bibletime."
+"BibleTime 2.7beta1 wurde veröffentlicht. <ulink url=\"http://devel.bibletime."
 "info/wiki/Release_announcements\"> Mehr...</ulink>"
 
 #: content/en/software.xml:98(title)
@@ -2702,8 +2688,7 @@ msgid "The basic steps..."
 msgstr "Die grundlegenden Schritte ..."
 
 #: content/en/development_join.xml:33(para)
-msgid ""
-"The following are necessary for each type of team member. Please follow them!"
+msgid "The following are necessary for each type of team member. Please follow them!"
 msgstr ""
 "Die folgenden Schritte sind für jede Art von Teammitglied nötig. Bitte "
 "befolgen Sie diese!"
