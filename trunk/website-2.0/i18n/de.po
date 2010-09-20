@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-07 01:29-0400\n"
+"POT-Creation-Date: 2010-09-20 12:16-0400\n"
 "PO-Revision-Date: 2010-09-11 10:29+0200\n"
 "Last-Translator: Roland Teschner <rolte@gmx.net>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -185,13 +185,14 @@ msgstr ""
 "derSeite hinzu, sobald die Übersetzung zu mindestens 80% komplett ist."
 
 #: content/en/translation.xml:118(para)
+#, fuzzy
 msgid ""
 "If a translation of the User Interface in your language does not yet exist, "
-"you can download and translate the <ulink url=\"http://bibletime.svn."
-"sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/messages/"
-"bibletime_ui.ts\"> User Interface translation template</ulink>. If you want "
-"to update an existing translation, use the links in the table below to "
-"download the corresponding file."
+"you can download and translate the <ulink url=\"http://gitorious.org/"
+"bibletime/bibletime/blobs/raw/master/i18n/messages/bibletime_ui.ts\"> User "
+"Interface translation template</ulink>. If you want to update an existing "
+"translation, use the links in the table below to download the corresponding "
+"file."
 msgstr ""
 "Wenn eine Übersetzung der Benutzeroberfläche in Ihrer Sprache noch nicht "
 "existiert, laden Sie die <ulink url=\"http://bibletime.svn.sourceforge.net/"
@@ -206,13 +207,13 @@ msgid "Translate the Bible study howto."
 msgstr "Übersetzen Sie die Anleitung zum Bibelstudium."
 
 #: content/en/translation.xml:130(para)
+#, fuzzy
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
-"exist, you can download and translate the <ulink url=\"http://bibletime.svn."
-"sourceforge.net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/howto/howto."
-"pot\"> howto translation template</ulink>. If you want to update an existing "
-"translation, use the links in the table below to download the corresponding "
-"file."
+"exist, you can download and translate the <ulink url=\"http://gitorious.org/"
+"bibletime/bibletime/blobs/raw/master/i18n/howto/howto.pot\"> howto "
+"translation template</ulink>. If you want to update an existing translation, "
+"use the links in the table below to download the corresponding file."
 msgstr ""
 "Wenn eine Übersetzung der Anleitung zum Bibelstudium in Ihre Sprache noch "
 "nicht existiert, können Sie die <ulink url=\"http://bibletime.svn."
@@ -223,13 +224,13 @@ msgstr ""
 "Tabelle, um die entsprechende Datei zum Übersetzen herunterzuladen."
 
 #: content/en/translation.xml:143(para)
+#, fuzzy
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
-"can download and translate the <ulink url=\"http://bibletime.svn.sourceforge."
-"net/viewvc/*checkout*/bibletime/trunk/bibletime/i18n/handbook/handbook.pot"
-"\"> handbook translation template</ulink>. If you want to update an existing "
-"translation, use the links in the table below to download the corresponding "
-"file."
+"can download and translate the <ulink url=\"http://gitorious.org/bibletime/"
+"bibletime/blobs/raw/master/i18n/handbook/handbook.pot\"> handbook "
+"translation template</ulink>. If you want to update an existing translation, "
+"use the links in the table below to download the corresponding file."
 msgstr ""
 "Wenn eine Übersetzung des Handbuches in Ihre Sprache noch nicht existiert, "
 "können Sie <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/"
@@ -462,7 +463,8 @@ msgstr ""
 
 #: content/en/software_linkus.xml:20(para)
 msgid "Please do not copy the images, as their design may change."
-msgstr "Bitte kopieren Sie nicht die Bilder, da sich ihr Design verändern könnte."
+msgstr ""
+"Bitte kopieren Sie nicht die Bilder, da sich ihr Design verändern könnte."
 
 #: content/en/software_linkus.xml:22(title)
 msgid "Larger banner"
@@ -658,8 +660,10 @@ msgid "The Online Bible is a powerful Bible study application for Windows."
 msgstr "Die Online-Bibel ist ein mächtiges Bibelstudien-Programm für Windows."
 
 #: content/en/software_links.xml:121(title)
-msgid "<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
-msgstr "<ulink url=\"http://www.crosswire.org/sword/\">Sword für Windows</ulink>."
+msgid ""
+"<ulink url=\"http://www.crosswire.org/sword/\">Sword for Windows</ulink>."
+msgstr ""
+"<ulink url=\"http://www.crosswire.org/sword/\">Sword für Windows</ulink>."
 
 #: content/en/software_links.xml:123(para)
 msgid ""
@@ -670,8 +674,10 @@ msgstr ""
 "von der Crosswire Bibelgesellschaft unterstützt."
 
 #: content/en/software_links.xml:129(title)
-msgid "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
-msgstr "<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
+msgid ""
+"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
+msgstr ""
+"<ulink url=\"http://www.koenigsmuenster.de/rsk/index.shtml\">Tnach</ulink>."
 
 #: content/en/software_links.xml:131(para)
 msgid ""
@@ -1656,7 +1662,8 @@ msgid "Available types of works"
 msgstr "Verfügbare Werkarten"
 
 #: content/en/software_installation.xml:139(para)
-msgid "Here is a list of available types of works and where to get more information:"
+msgid ""
+"Here is a list of available types of works and where to get more information:"
 msgstr ""
 "Hier ist eine Liste der verfügbaren Werkarten und wo man weitere "
 "Informationen über diese bekommen kann:"
@@ -2059,9 +2066,8 @@ msgid ""
 "BibleTime 2.7.3 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.7.3 wurde veröffentlicht. Lesen Sie dazu <ulink url=\"http://devel."
-"bibletime.info/"
-"wiki/Release_announcements\"> hier </ulink> mehr."
+"BibleTime 2.7.3 wurde veröffentlicht. Lesen Sie dazu <ulink url=\"http://"
+"devel.bibletime.info/wiki/Release_announcements\"> hier </ulink> mehr."
 
 #: content/en/software.xml:58(title)
 msgid "2010-07-12 2.7.2 released"
@@ -2072,9 +2078,8 @@ msgid ""
 "BibleTime 2.7.2 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.7.2 wurde veröffentlicht. Lesen Sie dazu <ulink url=\"http://devel."
-"bibletime.info/"
-"wiki/Release_announcements\"> hier </ulink> mehr."
+"BibleTime 2.7.2 wurde veröffentlicht. Lesen Sie dazu <ulink url=\"http://"
+"devel.bibletime.info/wiki/Release_announcements\"> hier </ulink> mehr."
 
 #: content/en/software.xml:66(title)
 msgid "2010-07-06 2.7.1 released"
@@ -2085,8 +2090,8 @@ msgid ""
 "BibleTime 2.7.1 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
-"BibleTime 2.7.1 wurde veröffentlicht. <ulink url=\"http://devel.bibletime.info/"
-"wiki/Release_announcements\"> Mehr...</ulink>"
+"BibleTime 2.7.1 wurde veröffentlicht. <ulink url=\"http://devel.bibletime."
+"info/wiki/Release_announcements\"> Mehr...</ulink>"
 
 #: content/en/software.xml:74(title)
 msgid "2010-05-19 2.7 released"
@@ -2688,7 +2693,8 @@ msgid "The basic steps..."
 msgstr "Die grundlegenden Schritte ..."
 
 #: content/en/development_join.xml:33(para)
-msgid "The following are necessary for each type of team member. Please follow them!"
+msgid ""
+"The following are necessary for each type of team member. Please follow them!"
 msgstr ""
 "Die folgenden Schritte sind für jede Art von Teammitglied nötig. Bitte "
 "befolgen Sie diese!"
