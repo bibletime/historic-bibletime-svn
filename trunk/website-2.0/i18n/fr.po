@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: bibletime-translations@lists.sourceforge.net\n"
-"POT-Creation-Date: 2011-02-09 21:12-0500\n"
+"POT-Creation-Date: 2011-02-18 13:12-0500\n"
 "PO-Revision-Date: 2009-11-18 16:01-0500\n"
 "Last-Translator: Thomas Abthorpe <tabthorpe@FreeBSD.org>\n"
 "Language-Team:  <en@li.org>\n"
@@ -1767,24 +1767,38 @@ msgstr "Nouvelles de BibleTime"
 #
 #: content/en/software.xml:50(title)
 #, fuzzy
-msgid "2011-01-22 2.8.1 released"
+msgid "2011-02-18 2.8.1b for Windows released"
 msgstr "27-10-2009 BibleTime 2.3.3 mise à jour de débug"
 
 #: content/en/software.xml:52(para)
 msgid ""
 "The BibleTime team is proud to announce the immediate availability of "
-"BibleTime version 2.8.0, which is the first bug fix of the 2.9 series, more "
-"<ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-January/010687."
-"html\"> here</ulink>."
+"BibleTime version 2.8.1b for Windows, which is bug fix for the Windows "
+"platform only, more <ulink url=\"http://blog.bibletime.info/"
+"archive/2011/02/18/bibletime-windows-281b\"> here</ulink>."
 msgstr ""
 
 #
 #: content/en/software.xml:60(title)
 #, fuzzy
-msgid "2010-11-26 2.8.0 released"
+msgid "2011-01-22 2.8.1 released"
 msgstr "27-10-2009 BibleTime 2.3.3 mise à jour de débug"
 
 #: content/en/software.xml:62(para)
+msgid ""
+"The BibleTime team is proud to announce the immediate availability of "
+"BibleTime version 2.8.1, which is the first bug fix of the 2.8 series, more "
+"<ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-January/010687."
+"html\"> here</ulink>."
+msgstr ""
+
+#
+#: content/en/software.xml:70(title)
+#, fuzzy
+msgid "2010-11-26 2.8.0 released"
+msgstr "27-10-2009 BibleTime 2.3.3 mise à jour de débug"
+
+#: content/en/software.xml:72(para)
 msgid ""
 "The BibleTime team is proud to announce the immediate availability of "
 "BibleTime version 2.8.0, which is the first full release in the stable 2.8 "
@@ -1793,86 +1807,86 @@ msgid ""
 msgstr ""
 
 #
-#: content/en/software.xml:70(title)
+#: content/en/software.xml:80(title)
 #, fuzzy
 msgid "2010-11-12 2.8 RC2 released"
 msgstr "27-10-2009 BibleTime 2.3.3 mise à jour de débug"
 
-#: content/en/software.xml:72(para)
+#: content/en/software.xml:82(para)
 msgid ""
 "BibleTime 2.8 RC2 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
 
 #
-#: content/en/software.xml:78(title)
+#: content/en/software.xml:88(title)
 #, fuzzy
 msgid "2010-10-29 2.8 RC1 released"
 msgstr "27-10-2009 BibleTime 2.3.3 mise à jour de débug"
 
-#: content/en/software.xml:80(para)
+#: content/en/software.xml:90(para)
 msgid ""
 "BibleTime 2.8 RC1 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
 
 #
-#: content/en/software.xml:86(title)
+#: content/en/software.xml:96(title)
 #, fuzzy
 msgid "2010-10-15 2.8 beta released"
 msgstr "27-10-2009 BibleTime 2.3.3 mise à jour de débug"
 
-#: content/en/software.xml:88(para)
+#: content/en/software.xml:98(para)
 msgid ""
 "BibleTime 2.8 beta has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
 
-#: content/en/software.xml:94(title)
+#: content/en/software.xml:104(title)
 msgid "2010-09-05 2.7.3 released"
 msgstr ""
 
-#: content/en/software.xml:96(para)
+#: content/en/software.xml:106(para)
 msgid ""
 "BibleTime 2.7.3 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
 
-#: content/en/software.xml:102(title)
+#: content/en/software.xml:112(title)
 msgid "2010-07-12 2.7.2 released"
 msgstr ""
 
-#: content/en/software.xml:104(para)
+#: content/en/software.xml:114(para)
 msgid ""
 "BibleTime 2.7.2 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
 
-#: content/en/software.xml:110(title)
+#: content/en/software.xml:120(title)
 msgid "2010-07-06 2.7.1 released"
 msgstr ""
 
-#: content/en/software.xml:112(para)
+#: content/en/software.xml:122(para)
 msgid ""
 "BibleTime 2.7.1 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
 
-#: content/en/software.xml:118(title)
+#: content/en/software.xml:128(title)
 msgid "2010-05-19 2.7 released"
 msgstr ""
 
-#: content/en/software.xml:120(para)
+#: content/en/software.xml:130(para)
 msgid ""
 "BibleTime 2.7 has been released. You can read more <ulink url=\"http://devel."
 "bibletime.info/wiki/Release_announcements\"> here</ulink>."
 msgstr ""
 
-#: content/en/software.xml:126(title) content/en/software.xml:134(title)
+#: content/en/software.xml:136(title) content/en/software.xml:144(title)
 msgid "2010-04-29 2.7.beta1 released"
 msgstr ""
 
-#: content/en/software.xml:128(para) content/en/software.xml:136(para)
+#: content/en/software.xml:138(para) content/en/software.xml:146(para)
 msgid ""
 "BibleTime 2.7.beta1 has been released. You can read more <ulink url=\"http://"
 "devel.bibletime.info/wiki/Release_announcements\"> here</ulink>."
