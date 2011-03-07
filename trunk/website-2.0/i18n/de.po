@@ -6,14 +6,14 @@
 # Joachim Ansorg <info@bibletime.info>, 2008.
 # Harald Albrecht, 2009.
 # Roland Teschner <rolte@gmx.net>, 2009, 2010.
-# Thomas Abthorpe <tabthorpe@FreeBSD.org>, 2009, 2010.
+# Thomas Abthorpe <tabthorpe@FreeBSD.org>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-18 13:12-0500\n"
-"PO-Revision-Date: 2010-11-17 18:08+0100\n"
-"Last-Translator: Roland Teschner <rolte@gmx.net>\n"
+"POT-Creation-Date: 2011-03-07 02:08-0500\n"
+"PO-Revision-Date: 2011-02-22 16:55+0100\n"
+"Last-Translator: \n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2055,9 +2055,8 @@ msgid "News about BibleTime"
 msgstr "Neuigkeiten über BibleTime"
 
 #: content/en/software.xml:50(title)
-#, fuzzy
 msgid "2011-02-18 2.8.1b for Windows released"
-msgstr "12.11.2010: Version 2.8 RC2 erschienen"
+msgstr "18.02.2011: Version 2.8.1b für Windows herausgegeben"
 
 #: content/en/software.xml:52(para)
 msgid ""
@@ -2066,11 +2065,14 @@ msgid ""
 "platform only, more <ulink url=\"http://blog.bibletime.info/"
 "archive/2011/02/18/bibletime-windows-281b\"> here</ulink>."
 msgstr ""
+"Das BibleTime-Team freut sich, die sofortige Verfügbarkeit von BibleTime, "
+"Version 2.8.1b für Windows, bekanntgeben zu können. Sie ist ein Bugfix "
+"lediglich für die Windows-Plattform, mehr dazu <ulink url=\"http://blog."
+"bibletime.info/archive/2011/02/18/bibletime-windows-281b\"> hier</ulink>."
 
 #: content/en/software.xml:60(title)
-#, fuzzy
 msgid "2011-01-22 2.8.1 released"
-msgstr "12.11.2010: Version 2.8 RC2 erschienen"
+msgstr "22.01.2011: Version 2.8.1 erschienen"
 
 #: content/en/software.xml:62(para)
 msgid ""
@@ -2079,11 +2081,14 @@ msgid ""
 "<ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-January/010687."
 "html\"> here</ulink>."
 msgstr ""
+"Das BibleTime-Team freut sich, die sofortige Verfügbarkeit von BibleTime, "
+"Version 2.8.1, bekanntgeben zu können. Sie ist das erste Bugfix der Serie "
+"2.8, mehr dazu <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"January/010687.html\"> hier</ulink>."
 
 #: content/en/software.xml:70(title)
-#, fuzzy
 msgid "2010-11-26 2.8.0 released"
-msgstr "12.11.2010: Version 2.8 RC2 erschienen"
+msgstr "26.11.2010: Version 2.8.0 erschienen"
 
 #: content/en/software.xml:72(para)
 msgid ""
@@ -2092,6 +2097,11 @@ msgid ""
 "series of BibleTime. <ulink url=\"http://www.crosswire.org/pipermail/bt-"
 "devel/2010-November/010600.html\"> here</ulink>."
 msgstr ""
+"Das BibleTime-Team freut sich, die sofortige Verfügbarkeit von BibleTime, "
+"Version 2.8.0, bekanntgeben zu können. Sie ist die erste Haupt-"
+"Veröffentlichung der stabilen Serie 2.8 von BibleTime, mehr dazu <ulink url="
+"\"http://www.crosswire.org/pipermail/bt-devel/2010-November/010600.html\"> "
+"hier</ulink>."
 
 #: content/en/software.xml:80(title)
 msgid "2010-11-12 2.8 RC2 released"
