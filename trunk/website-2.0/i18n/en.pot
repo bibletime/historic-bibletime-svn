@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-02-18 13:12-0500\n"
+"POT-Creation-Date: 2011-07-04 23:32-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -449,7 +449,7 @@ msgid "Download BibleTime"
 msgstr ""
 
 #: content/en/software_installation.xml:31(para)
-msgid "Sourcecode can be downloaded from <ulink url=\"http://sourceforge.net/projects/bibletime/\"> SourceForge</ulink>."
+msgid "Sourcecode can be downloaded from <ulink url=\"http://gitorious.org/bibletime\"> Gitorious</ulink>."
 msgstr ""
 
 #: content/en/software_installation.xml:38(para)
@@ -1093,70 +1093,70 @@ msgid "The following are necessary for each type of team member. Please follow t
 msgstr ""
 
 #: content/en/development_join.xml:39(para)
-msgid "If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</ulink>, please sign up for one. It is free. We need your username to add you to the team members list, to assign tasks to you, etc."
+msgid "Sign up for an account on <ulink url=\"https://sf.net\">SourceForge</ulink>, and <ulink url=\"http://gitorious.org/\">Gitorious</ulink> Both are free. We will need your username to add you to the team members list (Gitorious), to assign tasks to you (SourceForge), etc."
 msgstr ""
 
-#: content/en/development_join.xml:47(para)
+#: content/en/development_join.xml:48(para)
 msgid "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-devel\"> BibleTime development mailing list</ulink>. All developers read this mailing list, so everybody knows what is hapenning. There is also a mailing list for the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\"> commit messages</ulink> of the ongoing development process."
 msgstr ""
 
-#: content/en/development_join.xml:58(para)
+#: content/en/development_join.xml:59(para)
 msgid "Get the development version of BibleTime and install it. If you need help with this ask on the mailing list or look into the documentation section."
 msgstr ""
 
-#: content/en/development_join.xml:66(title)
+#: content/en/development_join.xml:67(title)
 msgid "The next steps for software developers..."
 msgstr ""
 
-#: content/en/development_join.xml:70(para)
+#: content/en/development_join.xml:71(para)
 msgid "Work through some of the <ulink url=\"http://doc.trolltech.com/4.3/tutorial.html\">Qt4 tutorials</ulink> to get accustomed to programming with the tools BibleTime uses."
 msgstr ""
 
-#: content/en/development_join.xml:77(para)
+#: content/en/development_join.xml:78(para)
 msgid "If you do not know what to do please ask on the mailing list for some tasks. Do not forget to add how difficult it should be."
 msgstr ""
 
-#: content/en/development_join.xml:85(title)
+#: content/en/development_join.xml:86(title)
 msgid "The next steps for documentation authors..."
 msgstr ""
 
-#: content/en/development_join.xml:89(para)
+#: content/en/development_join.xml:90(para)
 msgid "Read the existing English documentation. It is located in the docs/ directory of the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/bibletime/trunk/bibletime/docs/\">bibletime repository</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:95(para)
+#: content/en/development_join.xml:96(para)
 msgid "The documentation is stored in docbook format in the localized subdirectories of each documentation part (handbook and Bible study howto). Please do not edit the HTML files directly because they are generated from the docbook files. The translation files are also generated from the docbook data."
 msgstr ""
 
-#: content/en/development_join.xml:106(title)
+#: content/en/development_join.xml:107(title)
 msgid "The next steps for translators..."
 msgstr ""
 
-#: content/en/development_join.xml:110(para)
+#: content/en/development_join.xml:111(para)
 msgid "Have a look at the internationaliziation pages of the KDE project. They are located at <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:116(para)
+#: content/en/development_join.xml:117(para)
 msgid "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> Lokalize</ulink>, if it is not yet installed on your system. It will help you a lot with the translation process."
 msgstr ""
 
-#: content/en/development_join.xml:123(para)
+#: content/en/development_join.xml:124(para)
 msgid "Read the page about <olink targetdocent=\"translation\">translating BibleTime</olink>."
 msgstr ""
 
-#: content/en/development_join.xml:128(para)
+#: content/en/development_join.xml:129(para)
 msgid "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-translations\"> BibleTime-translations mailing list</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:135(title)
+#: content/en/development_join.xml:136(title)
 msgid "For everybody, regardless of participation level..."
 msgstr ""
 
-#: content/en/development_join.xml:139(para)
+#: content/en/development_join.xml:140(para)
 msgid "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net\">FreeNode Network</ulink>, in the #bibletime room. If you do not have an IRC Client you can use the <ulink href=\"http://webchat.freenode.net/?channels=bibletime\">FreeNode Webchat</ulink>."
 msgstr ""
 
-#: content/en/development_join.xml:148(para)
+#: content/en/development_join.xml:149(para)
 msgid "Sign up for an account on our <ulink url=\"http://devel.bibletime.info\">wiki</ulink>, and make your contribution there."
 msgstr ""
 

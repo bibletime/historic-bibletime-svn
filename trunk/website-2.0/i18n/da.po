@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_da\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-18 13:12-0500\n"
+"POT-Creation-Date: 2011-07-04 23:32-0400\n"
 "PO-Revision-Date: 2010-05-30 17:58+0200\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1465,9 +1465,10 @@ msgid "Download BibleTime"
 msgstr "Hent BibleTime"
 
 #: content/en/software_installation.xml:31(para)
+#, fuzzy
 msgid ""
-"Sourcecode can be downloaded from <ulink url=\"http://sourceforge.net/"
-"projects/bibletime/\"> SourceForge</ulink>."
+"Sourcecode can be downloaded from <ulink url=\"http://gitorious.org/bibletime"
+"\"> Gitorious</ulink>."
 msgstr ""
 "Kildekode kan hentes fra <ulink url=\"http://sourceforge.net/projects/"
 "bibletime/\"> SourceForge</ulink>."
@@ -2551,17 +2552,19 @@ msgstr ""
 "følge dem!"
 
 #: content/en/development_join.xml:39(para)
+#, fuzzy
 msgid ""
-"If you do not have an account on <ulink url=\"https://sf.net\">SourceForge</"
-"ulink>, please sign up for one. It is free. We need your username to add you "
-"to the team members list, to assign tasks to you, etc."
+"Sign up for an account on <ulink url=\"https://sf.net\">SourceForge</ulink>, "
+"and <ulink url=\"http://gitorious.org/\">Gitorious</ulink> Both are free. We "
+"will need your username to add you to the team members list (Gitorious), to "
+"assign tasks to you (SourceForge), etc."
 msgstr ""
 "Hvis du ikke har en konto på <ulink url=\"https://sf.net\">SourceForge</"
 "ulink>, så vær venlig at anskaffe dig dig en. Det er gratis. Vi har brug for "
 "dit brugernavn for at tilføje dig til holdmedlems listen, så de kan give dig "
 "opgaver, osv."
 
-#: content/en/development_join.xml:47(para)
+#: content/en/development_join.xml:48(para)
 msgid ""
 "Subscribe to the <ulink url=\"http://www.crosswire.org/mailman/listinfo/bt-"
 "devel\"> BibleTime development mailing list</ulink>. All developers read "
@@ -2576,7 +2579,7 @@ msgstr ""
 "url=\"https://lists.sourceforge.net/lists/listinfo/bibletime-cvs\"> "
 "udgivelse af meddelelser</ulink> om den igangværende udviklings process."
 
-#: content/en/development_join.xml:58(para)
+#: content/en/development_join.xml:59(para)
 msgid ""
 "Get the development version of BibleTime and install it. If you need help "
 "with this ask on the mailing list or look into the documentation section."
@@ -2585,11 +2588,11 @@ msgstr ""
 "brug for hjælp med det, så spørg over postlisten eller kig i dokumentations "
 "sektionen."
 
-#: content/en/development_join.xml:66(title)
+#: content/en/development_join.xml:67(title)
 msgid "The next steps for software developers..."
 msgstr "De næste skridt for software udviklere..."
 
-#: content/en/development_join.xml:70(para)
+#: content/en/development_join.xml:71(para)
 msgid ""
 "Work through some of the <ulink url=\"http://doc.trolltech.com/4.3/tutorial."
 "html\">Qt4 tutorials</ulink> to get accustomed to programming with the tools "
@@ -2599,7 +2602,7 @@ msgstr ""
 "tutorial.html\">Qt4 øvelserne</ulink> for at blive vant til at programmere "
 "med de værktøjer BibleTime bruger."
 
-#: content/en/development_join.xml:77(para)
+#: content/en/development_join.xml:78(para)
 msgid ""
 "If you do not know what to do please ask on the mailing list for some tasks. "
 "Do not forget to add how difficult it should be."
@@ -2607,11 +2610,11 @@ msgstr ""
 "Hvis du ikke ved hvad du skal gøre, så spørg nogle over postlisten om nogle "
 "opgaver. Glem ikke at tilføje hvor svært det må være."
 
-#: content/en/development_join.xml:85(title)
+#: content/en/development_join.xml:86(title)
 msgid "The next steps for documentation authors..."
 msgstr "De næste skridt for dokumentations forfattere..."
 
-#: content/en/development_join.xml:89(para)
+#: content/en/development_join.xml:90(para)
 msgid ""
 "Read the existing English documentation. It is located in the docs/ "
 "directory of the <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/"
@@ -2621,7 +2624,7 @@ msgstr ""
 "<ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/bibletime/trunk/"
 "bibletime/docs/\">bibletimes arkiv</ulink>."
 
-#: content/en/development_join.xml:95(para)
+#: content/en/development_join.xml:96(para)
 msgid ""
 "The documentation is stored in docbook format in the localized "
 "subdirectories of each documentation part (handbook and Bible study howto). "
@@ -2635,11 +2638,11 @@ msgstr ""
 "fordi de er genereret af docbook-filer. Oversættelses-filen er også "
 "genereret af docbook data."
 
-#: content/en/development_join.xml:106(title)
+#: content/en/development_join.xml:107(title)
 msgid "The next steps for translators..."
 msgstr "De næste skridt for oversættere..."
 
-#: content/en/development_join.xml:110(para)
+#: content/en/development_join.xml:111(para)
 msgid ""
 "Have a look at the internationaliziation pages of the KDE project. They are "
 "located at <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
@@ -2647,7 +2650,7 @@ msgstr ""
 "Ta' et kig på internationaliserings siderne fra KDE projektet. Disse sider "
 "ligger på <ulink url=\"http://i18n.kde.org/\">http://i18n.kde.org</ulink>."
 
-#: content/en/development_join.xml:116(para)
+#: content/en/development_join.xml:117(para)
 msgid ""
 "Install the program <ulink url=\"http://userbase.kde.org/Lokalize\"> "
 "Lokalize</ulink>, if it is not yet installed on your system. It will help "
@@ -2657,7 +2660,7 @@ msgstr ""
 "Lokalize</ulink>, hvis det ikke allerede er installeret på dit system. Det "
 "vil hjælpe dig meget med oversættelses processen."
 
-#: content/en/development_join.xml:123(para)
+#: content/en/development_join.xml:124(para)
 msgid ""
 "Read the page about <olink targetdocent=\"translation\">translating "
 "BibleTime</olink>."
@@ -2665,7 +2668,7 @@ msgstr ""
 "Læs siden om <olink targetdocent=\"translation\">oversættelse af BibleTime</"
 "olink>."
 
-#: content/en/development_join.xml:128(para)
+#: content/en/development_join.xml:129(para)
 msgid ""
 "Subscribe to the <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> BibleTime-translations mailing list</ulink>."
@@ -2673,11 +2676,11 @@ msgstr ""
 "Tilmeld dig  <ulink url=\"https://lists.sourceforge.net/lists/listinfo/"
 "bibletime-translations\"> BibleTime-oversættelse postlisten</ulink>."
 
-#: content/en/development_join.xml:135(title)
+#: content/en/development_join.xml:136(title)
 msgid "For everybody, regardless of participation level..."
 msgstr "For alle, uanset deltagelsesniveau..."
 
-#: content/en/development_join.xml:139(para)
+#: content/en/development_join.xml:140(para)
 msgid ""
 "Join us in IRC! We can be found on the <ulink url=\"http://www.freenode.net"
 "\">FreeNode Network</ulink>, in the #bibletime room. If you do not have an "
@@ -2689,7 +2692,7 @@ msgstr ""
 "klient kan du bruge <ulink href=\"http://webchat.freenode.net/?"
 "channels=bibletime\">FreeNodes Webchat</ulink>."
 
-#: content/en/development_join.xml:148(para)
+#: content/en/development_join.xml:149(para)
 msgid ""
 "Sign up for an account on our <ulink url=\"http://devel.bibletime.info"
 "\">wiki</ulink>, and make your contribution there."
