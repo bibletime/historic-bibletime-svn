@@ -5,15 +5,15 @@
 # Joachim Ansorg <mail@joachim-ansorg.de>, 2006, 2007.
 # Joachim Ansorg <info@bibletime.info>, 2008.
 # Harald Albrecht, 2009.
-# Roland Teschner <rolte@gmx.net>, 2009, 2010.
+# Roland Teschner <rolte@gmx.net>, 2009, 2010, 2011.
 # Thomas Abthorpe <tabthorpe@FreeBSD.org>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-13 22:50-0400\n"
-"PO-Revision-Date: 2011-02-22 16:55+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2011-10-19 23:20-0400\n"
+"PO-Revision-Date: 2011-10-19 21:18+0200\n"
+"Last-Translator: Roland Teschner <rolte@gmx.net>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1481,13 +1481,12 @@ msgid "Download BibleTime"
 msgstr "BibleTime herunterladen"
 
 #: content/en/software_installation.xml:31(para)
-#, fuzzy
 msgid ""
 "Sourcecode can be downloaded from <ulink url=\"http://gitorious.org/bibletime"
 "\"> Gitorious</ulink>."
 msgstr ""
-"Der Quellcode kann von <ulink url=\"http://sourceforge.net/projects/"
-"bibletime/\"> SourceForge</ulink> heruntergeladen werden."
+"Der Quellcode kann von <ulink url=\"http://gitorious.org/bibletime\"> "
+"Gitorious</ulink> heruntergeladen werden."
 
 #: content/en/software_installation.xml:38(para)
 msgid ""
@@ -2056,30 +2055,26 @@ msgid "News about BibleTime"
 msgstr "Neuigkeiten über BibleTime"
 
 #: content/en/software.xml:50(title)
-#, fuzzy
 msgid "2011-09-19 BibleTime 2.8.2 released"
-msgstr "27.10.2009: Veröffentlichung des BibleTime 2.3.3-Bugfixes"
+msgstr "19.09.2011: Veröffentlichung von BibleTime 2.8.2"
 
 #: content/en/software.xml:52(para)
-#, fuzzy
 msgid ""
 "The BibleTime teamn is pleased to announce the availability of BibleTime "
 "version 2.9 Beta 1, the first test version the 2.9 series. You can read more "
 "<ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
 "September/010855.html\">here</ulink>."
 msgstr ""
-"Das BibleTime-Team freut sich, die sofortige Verfügbarkeit von BibleTime, "
-"Version 2.8.1, bekanntgeben zu können. Sie ist das erste Bugfix der Serie "
-"2.8, mehr dazu <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
-"January/010687.html\"> hier</ulink>."
+"Das BibleTime-Team freut sich, die Verfügbarkeit von BibleTime, Version 2.9 "
+"Beta 1, bekanntgeben zu können. Sie ist die erste Version der 2.9-Serie. Sie "
+"können mehr dazu <ulink url=\"http://www.crosswire.org/pipermail/bt-"
+"devel/2011-September/010855.html\">hier</ulink> lesen."
 
 #: content/en/software.xml:59(title)
-#, fuzzy
 msgid "2011-08-27 BibleTime 2.8.2 released"
-msgstr "27.10.2009: Veröffentlichung des BibleTime 2.3.3-Bugfixes"
+msgstr "27.08.2011: BibleTime 2.8.2 herausgegeben"
 
 #: content/en/software.xml:61(para)
-#, fuzzy
 msgid ""
 "The BibleTime teamn is pleased to announce the immediate availability of "
 "BibleTime version 2.8.2, the next bugfix of the 2.8 series. You can read "
@@ -2087,9 +2082,9 @@ msgid ""
 "August/010843.html\">here</ulink>."
 msgstr ""
 "Das BibleTime-Team freut sich, die sofortige Verfügbarkeit von BibleTime, "
-"Version 2.8.1, bekanntgeben zu können. Sie ist das erste Bugfix der Serie "
+"Version 2.8.2, bekanntgeben zu können. Sie ist das nächste Bugfix der Serie "
 "2.8, mehr dazu <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
-"January/010687.html\"> hier</ulink>."
+"August/010843.html\">hier</ulink>."
 
 #: content/en/software.xml:68(title)
 msgid "2011-02-18 2.8.1b for Windows released"
@@ -2288,8 +2283,8 @@ msgid ""
 "regions worldwide. These pages are from Open Doors, an independent "
 "organization that tries to help persecuted Christians."
 msgstr ""
-"Wussten Sie, dass jetzt in diesem Jahr 2010 mehr als 200.000.000 Christen "
-"auf Grund ihres Glaubens benachteiligt, verfolgt und sogar getötet werden? "
+"Wussten Sie, dass im letzten Jahr 2010 mehr als 200.000.000 Christen auf "
+"Grund ihres Glaubens benachteiligt, verfolgt und sogar getötet wurden? "
 "<ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\">Diese "
 "Karte</ulink> (in deutsch) zeigt die Länder, in denen man für seinen Glauben "
 "\"bezahlen\" muss. Außerdem gibt diese <ulink url=\"http://www.opendoorsusa."
@@ -2505,17 +2500,17 @@ msgstr ""
 "befolgen Sie diese!"
 
 #: content/en/development_join.xml:39(para)
-#, fuzzy
 msgid ""
 "Sign up for an account on <ulink url=\"https://sf.net\">SourceForge</ulink>, "
 "and <ulink url=\"http://gitorious.org/\">Gitorious</ulink> Both are free. We "
 "will need your username to add you to the team members list (Gitorious), to "
 "assign tasks to you (SourceForge), etc."
 msgstr ""
-"Falls Sie noch kein eigenes Benutzerkonto bei <ulink url=\"https://sf.net"
-"\">SourceForge</ulink> haben, legen Sie sich bitte ein neues Benutzerkonto "
-"an. Das Ganze ist kostenlos. Wir benötigen danach Ihren Benutzernamen, um "
-"Sie zu den Teammitgliedern hinzuzufügen und Ihnen u.a. Aufgaben zuzuweisen."
+"Legen Sie ein Benutzerkonto bei <ulink url=\"https://sf.net\">SourceForge</"
+"ulink>, und <ulink url=\"http://gitorious.org/\">Gitorious</ulink> an. Beide "
+"sind kostenlos. Wir werden Ihren Benutzernamen benötigen, um Sie der "
+"Teammitgliedsliste (Gitorious) hinzuzufügen und Ihnen u. a. Aufgaben "
+"zuzuweisen (SourceForge)."
 
 #: content/en/development_join.xml:48(para)
 msgid ""
