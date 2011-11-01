@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-01 12:45-0400\n"
+"POT-Creation-Date: 2011-11-01 13:45-0400\n"
 "PO-Revision-Date: 2010-12-09 15:33-0300\n"
 "Last-Translator: Rafael Fagundes Rosa Campos <rafaelfrc@yahoo.com.br>\n"
 "Language-Team: Português do Brasil <kde-i18n-doc@kde.org>\n"
@@ -2031,10 +2031,28 @@ msgstr "Notícias sobre o BibleTime"
 
 #: content/en/software.xml:50(title)
 #, fuzzy
-msgid "2011-09-19 BibleTime 2.9 Beta 1 released"
+msgid "2011-10-05 BibleTime 2.9 Beta 2 released"
 msgstr "2009-10-27: BibleTime 2.3.3  lançado com correção de bugs"
 
 #: content/en/software.xml:52(para)
+#, fuzzy
+msgid ""
+"The BibleTime teamn is pleased to announce the availability of BibleTime "
+"version 2.9 Beta 2, the second test version the 2.9 series. You can read "
+"more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"October/010870.html\">here</ulink>."
+msgstr ""
+"O time do BibleTime tem o orgulho de anunciar a disponibilidade imediata do "
+"BibleTime versão 2.8.1 que é o primeiro lançamento estável para a série 2.8, "
+"mais <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"January/010687.html\"> aqui</ulink>."
+
+#: content/en/software.xml:59(title)
+#, fuzzy
+msgid "2011-09-19 BibleTime 2.9 Beta 1 released"
+msgstr "2009-10-27: BibleTime 2.3.3  lançado com correção de bugs"
+
+#: content/en/software.xml:61(para)
 #, fuzzy
 msgid ""
 "The BibleTime teamn is pleased to announce the availability of BibleTime "
@@ -2047,12 +2065,12 @@ msgstr ""
 "mais <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
 "January/010687.html\"> aqui</ulink>."
 
-#: content/en/software.xml:59(title)
+#: content/en/software.xml:68(title)
 #, fuzzy
 msgid "2011-08-27 BibleTime 2.8.2 released"
 msgstr "2009-10-27: BibleTime 2.3.3  lançado com correção de bugs"
 
-#: content/en/software.xml:61(para)
+#: content/en/software.xml:70(para)
 #, fuzzy
 msgid ""
 "The BibleTime teamn is pleased to announce the immediate availability of "
@@ -2065,11 +2083,11 @@ msgstr ""
 "mais <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
 "January/010687.html\"> aqui</ulink>."
 
-#: content/en/software.xml:68(title)
+#: content/en/software.xml:77(title)
 msgid "2011-02-18 2.8.1b for Windows released"
 msgstr "2011-02-18 2.8.1b para Windows lançado"
 
-#: content/en/software.xml:70(para)
+#: content/en/software.xml:79(para)
 msgid ""
 "The BibleTime team is proud to announce the immediate availability of "
 "BibleTime version 2.8.1b for Windows, which is bug fix for the Windows "
@@ -2081,11 +2099,11 @@ msgstr ""
 "para a plataforma Windows, mais <ulink url=\"http://blog.bibletime.info/"
 "archive/2011/02/18/bibletime-windows-281b\"> aqui</ulink>."
 
-#: content/en/software.xml:78(title)
+#: content/en/software.xml:87(title)
 msgid "2011-01-22 2.8.1 released"
 msgstr "2011-01-22 2.8.1 lançado"
 
-#: content/en/software.xml:80(para)
+#: content/en/software.xml:89(para)
 msgid ""
 "The BibleTime team is proud to announce the immediate availability of "
 "BibleTime version 2.8.1, which is the first bug fix of the 2.8 series, more "
