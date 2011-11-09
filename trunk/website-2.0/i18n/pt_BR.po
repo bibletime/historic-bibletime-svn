@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime_website_pt-br\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-01 13:45-0400\n"
-"PO-Revision-Date: 2010-12-09 15:33-0300\n"
-"Last-Translator: Rafael Fagundes Rosa Campos <rafaelfrc@yahoo.com.br>\n"
+"POT-Creation-Date: 2011-11-09 11:49-0500\n"
+"PO-Revision-Date: 2011-11-08 11:33-0300\n"
+"Last-Translator: Rafael <rafaelfagundes@ieee.org>\n"
 "Language-Team: Português do Brasil <kde-i18n-doc@kde.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -168,13 +168,13 @@ msgid ""
 "usually add the translated pages and the flag at the top if a translation is "
 "about 80% complete."
 msgstr ""
-"Se a tradução do website no seu idioma não existe ainda, você pode fazer "
-"download e traduzir o <ulink url=\"http://bibletime.svn.sourceforge.net/"
-"viewvc/*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Modelo de "
-"Tradução de Página da Web</ulink>. Se você quiser atualizar uma tradução "
-"existente, use os links na tabela abaixo para baixar o arquivo "
-"correspondente. Nós normalmente adicionamos as páginas traduzidas e a "
-"bandeira no topo se a tradução está 80% completa."
+"Se a tradução do website no seu idioma não existe ainda, você pode baixar e "
+"traduzir o <ulink url=\"http://bibletime.svn.sourceforge.net/viewvc/"
+"*checkout*/bibletime/trunk/website-2.0/i18n/en.pot\">Modelo de Tradução de "
+"Página Web</ulink>. Se você quiser atualizar uma tradução existente, use os "
+"links na tabela abaixo para baixar o arquivo correspondente. Nós normalmente "
+"adicionamos as páginas traduzidas e a bandeira no topo se a tradução está "
+"80% completa."
 
 #: content/en/translation.xml:118(para)
 msgid ""
@@ -267,7 +267,7 @@ msgstr "Capturas de Tela"
 #: content/en/software_screenshots.xml:11(summary)
 #: content/en/software_screenshots.xml:21(title)
 msgid "Screenshots of BibleTime"
-msgstr "Telas do BibleTime"
+msgstr "Capturas de telas do BibleTime"
 
 #: content/en/software_screenshots.xml:13(keywords)
 msgid ""
@@ -350,8 +350,8 @@ msgid ""
 "media, press coverage"
 msgstr ""
 "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, estudo bíblico, estudo "
-"bíblico, software,  Qt, Deus, Religião, Bíblia, devocional, crosswire, "
-"sword, imprensa, na mídia, cobertura da imprensa"
+"bíblico, software,  Deus, Religião, Bíblia, devocional, crosswire, sword, "
+"imprensa, na mídia, cobertura da imprensa"
 
 #: content/en/software_press.xml:21(title)
 msgid "In the press"
@@ -484,7 +484,7 @@ msgstr "Links"
 
 #: content/en/software_links.xml:11(summary)
 msgid "Link collection of good sites"
-msgstr "Coleção de links para sites bons"
+msgstr "Coleção de links para bons sites"
 
 #: content/en/software_links.xml:13(keywords)
 msgid ""
@@ -615,7 +615,8 @@ msgid ""
 "e-Sword is a great and easy to use Bible study application for Windows "
 "systems."
 msgstr ""
-"e-Sword é uma ótima e fácil de usar aplicação de estudo Bíblico para Windows."
+"e-Sword é um ótimo aplicativo de estudo Bíblico e bem fácil de usar  para "
+"Windows. "
 
 #: content/en/software_links.xml:106(title)
 msgid "<ulink url=\"http://www.logos.com/\">Logos</ulink>."
@@ -1475,7 +1476,7 @@ msgid ""
 "Windows releases can be downloaded from <ulink url=\"http://sourceforge.net/"
 "projects/bibletime/\"> SourceForge</ulink>."
 msgstr ""
-"Lançamentos para Windows podem ser baixados de <ulink url=\"http://"
+"Lançamentos para Windows podem ser baixados do <ulink url=\"http://"
 "sourceforge.net/projects/bibletime/\"> SourceForge</ulink>."
 
 #: content/en/software_installation.xml:44(para)
@@ -2021,9 +2022,9 @@ msgstr ""
 "incluindo Linux, <ulink url=\"http://sourceforge.net/projects/bibletime/"
 "\">Windows</ulink>, FreeBSD e Mac OS X. O programa usa a biblioteca de "
 "programação <ulink url=\"http://www.crosswire.org/sword/\">SWORD</ulink> "
-"para trabalhar com mais de 200 textos bíblicos, comentários, dicionários e "
-"livros providos pela <ulink url=\"http://www.crosswire.org/\">Sociedade "
-"Bíblica Crosswire</ulink>."
+"para trabalhar com mais de 200 textos bíblicos livres, comentários, "
+"dicionários e livros providos pela <ulink url=\"http://www.crosswire.org/"
+"\">Sociedade Bíblica Crosswire</ulink>."
 
 #: content/en/software.xml:47(title)
 msgid "News about BibleTime"
@@ -2031,63 +2032,78 @@ msgstr "Notícias sobre o BibleTime"
 
 #: content/en/software.xml:50(title)
 #, fuzzy
-msgid "2011-10-05 BibleTime 2.9 Beta 2 released"
-msgstr "2009-10-27: BibleTime 2.3.3  lançado com correção de bugs"
+msgid "2011-11-08 BibleTime 2.9 RC 1 released"
+msgstr "05/10/2011 BibleTime 2.9 Beta 2 lançado"
 
 #: content/en/software.xml:52(para)
 #, fuzzy
 msgid ""
-"The BibleTime teamn is pleased to announce the availability of BibleTime "
-"version 2.9 Beta 2, the second test version the 2.9 series. You can read "
-"more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
-"October/010870.html\">here</ulink>."
+"The BibleTime team is pleased to announce the availability of BibleTime "
+"version 2.9 RC 1, the first release candidate of the 2.9 series. You can "
+"read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"November/010877.html\">here</ulink>."
 msgstr ""
 "O time do BibleTime tem o orgulho de anunciar a disponibilidade imediata do "
-"BibleTime versão 2.8.1 que é o primeiro lançamento estável para a série 2.8, "
+"BibleTime versão 2.9 Beta 1, a primeira versão da série 2.9. Você pode ler "
 "mais <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
-"January/010687.html\"> aqui</ulink>."
+"September/010855.html\">aqui</ulink>."
 
 #: content/en/software.xml:59(title)
-#, fuzzy
-msgid "2011-09-19 BibleTime 2.9 Beta 1 released"
-msgstr "2009-10-27: BibleTime 2.3.3  lançado com correção de bugs"
+msgid "2011-10-05 BibleTime 2.9 Beta 2 released"
+msgstr "05/10/2011 BibleTime 2.9 Beta 2 lançado"
 
 #: content/en/software.xml:61(para)
 #, fuzzy
 msgid ""
-"The BibleTime teamn is pleased to announce the availability of BibleTime "
-"version 2.9 Beta 1, the first test version the 2.9 series. You can read more "
-"<ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
-"September/010855.html\">here</ulink>."
+"The BibleTime team is pleased to announce the availability of BibleTime "
+"version 2.9 Beta 2, the second test version of the 2.9 series. You can read "
+"more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"October/010870.html\">here</ulink>."
 msgstr ""
 "O time do BibleTime tem o orgulho de anunciar a disponibilidade imediata do "
-"BibleTime versão 2.8.1 que é o primeiro lançamento estável para a série 2.8, "
-"mais <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
-"January/010687.html\"> aqui</ulink>."
+"BibleTime versão 2.9 Beta 2, a segunda versao de teste da série 2.9. Você "
+"pode ler mais <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"October/010870.html\">aqui</ulink>."
 
 #: content/en/software.xml:68(title)
-#, fuzzy
-msgid "2011-08-27 BibleTime 2.8.2 released"
-msgstr "2009-10-27: BibleTime 2.3.3  lançado com correção de bugs"
+msgid "2011-09-19 BibleTime 2.9 Beta 1 released"
+msgstr "19/09/2011  BibleTime 2.9 Beta 1 lançado"
 
 #: content/en/software.xml:70(para)
 #, fuzzy
 msgid ""
-"The BibleTime teamn is pleased to announce the immediate availability of "
+"The BibleTime team is pleased to announce the availability of BibleTime "
+"version 2.9 Beta 1, the first test version of the 2.9 series. You can read "
+"more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"September/010855.html\">here</ulink>."
+msgstr ""
+"O time do BibleTime tem o orgulho de anunciar a disponibilidade imediata do "
+"BibleTime versão 2.9 Beta 1, a primeira versão da série 2.9. Você pode ler "
+"mais <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"September/010855.html\">aqui</ulink>."
+
+#: content/en/software.xml:77(title)
+msgid "2011-08-27 BibleTime 2.8.2 released"
+msgstr "27/08/2011 BibleTime 2.8.2 lançado"
+
+#: content/en/software.xml:79(para)
+#, fuzzy
+msgid ""
+"The BibleTime team is pleased to announce the immediate availability of "
 "BibleTime version 2.8.2, the next bugfix of the 2.8 series. You can read "
 "more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
 "August/010843.html\">here</ulink>."
 msgstr ""
 "O time do BibleTime tem o orgulho de anunciar a disponibilidade imediata do "
-"BibleTime versão 2.8.1 que é o primeiro lançamento estável para a série 2.8, "
-"mais <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
-"January/010687.html\"> aqui</ulink>."
+"BibleTime versão 2.8.2, que é o próximo lançamento com correção de bugs para "
+"a série 2.8. Você pode ler mais <ulink url=\"http://www.crosswire.org/"
+"pipermail/bt-devel/2011-August/010843.html\">aqui</ulink>."
 
-#: content/en/software.xml:77(title)
+#: content/en/software.xml:86(title)
 msgid "2011-02-18 2.8.1b for Windows released"
 msgstr "2011-02-18 2.8.1b para Windows lançado"
 
-#: content/en/software.xml:79(para)
+#: content/en/software.xml:88(para)
 msgid ""
 "The BibleTime team is proud to announce the immediate availability of "
 "BibleTime version 2.8.1b for Windows, which is bug fix for the Windows "
@@ -2099,11 +2115,11 @@ msgstr ""
 "para a plataforma Windows, mais <ulink url=\"http://blog.bibletime.info/"
 "archive/2011/02/18/bibletime-windows-281b\"> aqui</ulink>."
 
-#: content/en/software.xml:87(title)
+#: content/en/software.xml:96(title)
 msgid "2011-01-22 2.8.1 released"
 msgstr "2011-01-22 2.8.1 lançado"
 
-#: content/en/software.xml:89(para)
+#: content/en/software.xml:98(para)
 msgid ""
 "The BibleTime team is proud to announce the immediate availability of "
 "BibleTime version 2.8.1, which is the first bug fix of the 2.8 series, more "
@@ -2312,7 +2328,7 @@ msgid ""
 "support, development"
 msgstr ""
 "BibleTime, Linux, unix, FreeBSD, Windows, Mac OS X, estudo bíblico, estudo "
-"da bíblia, Deus, Religião, Bíblia, devocional, crosswire, lista de "
+"da bíblia, software Deus, Religião, Bíblia, devocional, crosswire, lista de "
 "discussão, ajuda, suporte, desenvolvimento"
 
 #: content/en/development_mailinglists.xml:22(title)
@@ -2406,7 +2422,7 @@ msgstr ""
 
 #: content/en/development_mailinglists.xml:71(title)
 msgid "BibleTime Tracker mailing list"
-msgstr "Lista de discussão dos rastreadores"
+msgstr "Lista de discussão do BibleTime Tracker"
 
 #: content/en/development_mailinglists.xml:73(para)
 msgid ""
@@ -2574,7 +2590,7 @@ msgid ""
 "the docbook files. The translation files are also generated from the docbook "
 "data."
 msgstr ""
-"A documentação é guardada em arquivos docbook nos subdiretórios de cada "
+"A documentação é armazenada em arquivos docbook nos subdiretórios de cada "
 "parte da documentação (manual e Estudo Bíblico HowTo). Por favor, não edite "
 "os arquivos HTML diretamente porque eles são gerados a partir dos documentos "
 "docbook. Os arquivos de tradução também são gerados a partir dos arquivos "
@@ -2734,8 +2750,8 @@ msgid ""
 "so, please read the page <olink targetdocent=\"development_join\">Join us</"
 "olink>."
 msgstr ""
-"Você sabe como programar em C++? Você está familiarizado com a interface de "
-"programação do KDE ou está motivado a aprendê-la? Se você tiver tempo para "
+"Você sabe programar em C++? Você está familiarizado com a programação da "
+"interface Qt ou está motivado a aprendê-la? Se você tiver tempo para "
 "trabalhar regularmente no código fonte do BibleTime nós lhe pedimos para se "
 "juntar ao nosso time! Por favor, leia a página <olink targetdocent="
 "\"development_join\">Junte-se ao time</olink>."
@@ -2956,107 +2972,3 @@ msgstr ""
 #~ "BibleTime 2.5beta1 foi lançado. Tradutores já podem iniciar as traduções "
 #~ "da interface com o usuário<ulink url=\"http://devel.bibletime.info/wiki/"
 #~ "Release_announcements\"> Mais...</ulink>"
-
-# 2009-10-15 lista de discussão dos rastreadores do BibleTime
-#~ msgid "2009-12-04 BibleTime Tracker mailing list"
-#~ msgstr "2009-10-15 Lista de discussão de Empacotamento do BibleTime"
-
-# Nós criamos uma nova lista para as notificações dos rastreadores, você pode ler mais <ulink url="development_mailinglists.html"> aqui</ulink>.
-#~ msgid ""
-#~ "We have created a new mailing list for BibleTime Tracker notifications, "
-#~ "you can read more <ulink url=\"development_mailinglists.html\"> here</"
-#~ "ulink>."
-#~ msgstr ""
-#~ "Nós criamos uma nova lista para os empacotadores do BibleTime, você pode "
-#~ "ler mais <ulink url=\"development_mailinglists.html\"> aqui</ulink>."
-
-#~ msgid "2009-11-24 English Handbook PDF available"
-#~ msgstr "2009-11-24 PDF do Manual em Inglês disponível"
-
-#~ msgid ""
-#~ "BibleTime contributor Roland Ewert recently converted the English "
-#~ "BibleTime Handbook to Portable Document Format, it can be downloaded from "
-#~ "the <ulink url=\"http://www.bibletime.info/handbook_en.pdf\">website</"
-#~ "ulink>."
-#~ msgstr ""
-#~ "O contribuidor do BibleTime Roland Ewert recentemente converteu o Manual "
-#~ "em Inglês para o Portable Document Format, que pode ser baixado do <ulink "
-#~ "url=\"http://www.bibletime.info/handbook_en.pdf\">website</ulink>."
-
-#~ msgid "2009-11-18 2.4 release"
-#~ msgstr "2009-11-18 2.4 lançado"
-
-#~ msgid ""
-#~ "BibleTime 2.4 has been released. Packagers and users are encouraged to "
-#~ "update to this version. <ulink url=\"http://devel.bibletime.info/wiki/"
-#~ "Release_announcements\"> More...</ulink>"
-#~ msgstr ""
-#~ "BibleTime 2.4 foi lançado. Empacotadores e usuários são encorajados a "
-#~ "atualizar para esta versão.<ulink url=\"http://devel.bibletime.info/wiki/"
-#~ "Release_announcements\"> Mais...</ulink>"
-
-#~ msgid "2009-11-11 2.4.rc1 release"
-#~ msgstr "2009-11-11 2.4.rc1 lançado"
-
-#~ msgid ""
-#~ "BibleTime 2.4.rc1 has been released. Translators are encouraged to "
-#~ "commence UI translations. <ulink url=\"http://devel.bibletime.info/wiki/"
-#~ "Release_announcements\"> More...</ulink>"
-#~ msgstr ""
-#~ "BibleTime 2.4rc1 foi lançado. Tradutores já podem começar as traduções da "
-#~ "Interface com o usuário<ulink url=\"http://devel.bibletime.info/wiki/"
-#~ "Release_announcements\"> Mais...</ulink>"
-
-#~ msgid "2009-11-04 2.4.beta1 release"
-#~ msgstr "2009-11-04 2.4.beta1 lançado"
-
-#~ msgid ""
-#~ "BibleTime 2.4.beta1 has been released. Translators are encouraged to "
-#~ "commence UI translations. <ulink url=\"http://devel.bibletime.info/wiki/"
-#~ "Release_announcements\"> More...</ulink>"
-#~ msgstr ""
-#~ "BibleTime 2.4beta1 foi lançado. Tradutores já podem iniciar as traduções "
-#~ "da interface com o usuário<ulink url=\"http://devel.bibletime.info/wiki/"
-#~ "Release_announcements\"> Mais...</ulink>"
-
-#~ msgid ""
-#~ "BT 2.3.3 bugfix has been released. All packagers and maintainers are "
-#~ "encouraged to update to this version. <ulink url=\"http://devel.bibletime."
-#~ "info/wiki/Release_announcements\"> More...</ulink>"
-#~ msgstr ""
-#~ "BibleTime 2.3.3 foi lançado com correção de bugs. Empacotadores e "
-#~ "mantenedores são encorajados a atualizar para esta versão.<ulink url="
-#~ "\"http://devel.bibletime.info/wiki/Release_announcements\"> Mais...</"
-#~ "ulink>"
-
-#~ msgid ""
-#~ "With the success of our last Bug-a-thon, we will have having our second "
-#~ "one on November 14. <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-"
-#~ "thon\">More...</ulink>"
-#~ msgstr ""
-#~ "Com o sucesso do nosso último Bug-a-thon, Nós teremos outro 14 de "
-#~ "Novembro, <ulink url=\"http://devel.bibletime.info/wiki/Bug-a-thon\"> "
-#~ "leia mais</ulink>"
-
-#~ msgid "2009-10-24 BibleTime Blog"
-#~ msgstr "2009-10-24 BibleTime Blog"
-
-#~ msgid "2009-10-16 Become a fan of BibleTime"
-#~ msgstr "2009-10-16 Se torne um fã do BibleTime"
-
-#~ msgid ""
-#~ "You can now become a fan of BibleTime on Facebook by following this "
-#~ "<ulink url=\"http://www.facebook.com/bibletime\">link</ulink>."
-#~ msgstr ""
-#~ "Você pode se tornar um fã do Bibletime no Facebook seguindo este <ulink "
-#~ "url=\"http://www.facebook.com/bibletime\">link</ulink>."
-
-#~ msgid "2009-10-15 BibleTime Packaging mailing list"
-#~ msgstr "2009-10-15 Lista de discussão de Empacotamento do BibleTime"
-
-#~ msgid ""
-#~ "We have created a new mailing list for BibleTime Packagers, you can read "
-#~ "more <ulink url=\"development_mailinglists.html\"> here</ulink>."
-#~ msgstr ""
-#~ "Nós criamos uma nova lista para os empacotadores do BibleTime, você pode "
-#~ "ler mais <ulink url=\"development_mailinglists.html\"> aqui</ulink>."
