@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-22 22:22-0500\n"
+"POT-Creation-Date: 2011-12-08 12:28-0500\n"
 "PO-Revision-Date: 2011-10-05 01:25+0200\n"
 "Last-Translator: Andrew Alfy <andrewalfy@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,13 +161,14 @@ msgstr ""
 "تقريباً."
 
 #: content/en/translation.xml:118(para)
+#, fuzzy
 msgid ""
 "If a translation of the User Interface in your language does not yet exist, "
 "you can download and translate the <ulink url=\"http://gitorious.org/"
-"bibletime/bibletime/blobs/raw/master/i18n/messages/bibletime_ui.ts\"> User "
-"Interface translation template</ulink>. If you want to update an existing "
-"translation, use the links in the table below to download the corresponding "
-"file."
+"bibletime/bibletime/blobs/raw/stable-2.9/i18n/messages/bibletime_ui.ts\"> "
+"User Interface translation template</ulink>. If you want to update an "
+"existing translation, use the links in the table below to download the "
+"corresponding file."
 msgstr ""
 "إذا لم تكن هناك ترجمة لواجهة المستخدم بلغتك، تستطيع تحميل وترجمة <ulink url="
 "\"http://gitorious.org/bibletime/bibletime/blobs/raw/master/i18n/messages/"
@@ -179,10 +180,11 @@ msgid "Translate the Bible study howto."
 msgstr "ترجم كيفية دراسة الكتاب المقدس"
 
 #: content/en/translation.xml:130(para)
+#, fuzzy
 msgid ""
 "If a translation of the Bible study howto to your language does not yet "
 "exist, you can download and translate the <ulink url=\"http://gitorious.org/"
-"bibletime/bibletime/blobs/raw/master/i18n/howto/howto.pot\"> howto "
+"bibletime/bibletime/blobs/raw/stable-2.9/i18n/howto/howto.pot\"> howto "
 "translation template</ulink>. If you want to update an existing translation, "
 "use the links in the table below to download the corresponding file."
 msgstr ""
@@ -193,10 +195,11 @@ msgstr ""
 "المقابل. "
 
 #: content/en/translation.xml:143(para)
+#, fuzzy
 msgid ""
 "If a translation of the handbook to your language does not yet exist, you "
 "can download and translate the <ulink url=\"http://gitorious.org/bibletime/"
-"bibletime/blobs/raw/master/i18n/handbook/handbook.pot\"> handbook "
+"bibletime/blobs/raw/stable-2.9/i18n/handbook/handbook.pot\"> handbook "
 "translation template</ulink>. If you want to update an existing translation, "
 "use the links in the table below to download the corresponding file."
 msgstr ""
@@ -1982,10 +1985,27 @@ msgstr "أخبار عن بيبل تايم"
 
 #: content/en/software.xml:50(title)
 #, fuzzy
-msgid "2011-11-22 BibleTime 2.8.4 released"
+msgid "2011-12-08 BibleTime 2.9.0 released"
 msgstr "2009-10-27 إصدار بيبل تايم 2.3.3 bugfix  "
 
 #: content/en/software.xml:52(para)
+#, fuzzy
+msgid ""
+"The BibleTime team is pleased to announce the immediate availability of "
+"BibleTime version 2.9.0, the first release of the 2.9 series. You can read "
+"the <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-"
+"December/010937.html\">announcement</ulink>."
+msgstr ""
+"يسر فريق بيبل تايم أن يعلن عن توافر النسخة 2.8.1 من بيبل تايم، وهي أول نسخة "
+"إصلاح أعطال للسلسلة 2.8، المزيد <ulink url=\"http://www.crosswire.org/"
+"pipermail/bt-devel/2011-January/010687.html\"> هنا </ulink>."
+
+#: content/en/software.xml:59(title)
+#, fuzzy
+msgid "2011-11-22 BibleTime 2.8.4 released"
+msgstr "2009-10-27 إصدار بيبل تايم 2.3.3 bugfix  "
+
+#: content/en/software.xml:61(para)
 #, fuzzy
 msgid ""
 "The BibleTime team is pleased to announce the immediate availability of "
@@ -1997,12 +2017,12 @@ msgstr ""
 "إصلاح أعطال للسلسلة 2.8، المزيد <ulink url=\"http://www.crosswire.org/"
 "pipermail/bt-devel/2011-January/010687.html\"> هنا </ulink>."
 
-#: content/en/software.xml:59(title)
+#: content/en/software.xml:68(title)
 #, fuzzy
 msgid "2011-11-22 BibleTime 2.8.3 released"
 msgstr "2009-10-27 إصدار بيبل تايم 2.3.3 bugfix  "
 
-#: content/en/software.xml:61(para)
+#: content/en/software.xml:70(para)
 #, fuzzy
 msgid ""
 "The BibleTime team is pleased to announce the immediate availability of "
@@ -2014,12 +2034,12 @@ msgstr ""
 "إصلاح أعطال للسلسلة 2.8، المزيد <ulink url=\"http://www.crosswire.org/"
 "pipermail/bt-devel/2011-January/010687.html\"> هنا </ulink>."
 
-#: content/en/software.xml:68(title)
+#: content/en/software.xml:77(title)
 #, fuzzy
 msgid "2011-11-20 BibleTime 2.9 RC 2 released"
 msgstr "2009-10-27 إصدار بيبل تايم 2.3.3 bugfix  "
 
-#: content/en/software.xml:70(para)
+#: content/en/software.xml:79(para)
 #, fuzzy
 msgid ""
 "The BibleTime team is pleased to announce the availability of BibleTime "
@@ -2031,12 +2051,12 @@ msgstr ""
 "إصلاح أعطال للسلسلة 2.8، المزيد <ulink url=\"http://www.crosswire.org/"
 "pipermail/bt-devel/2011-January/010687.html\"> هنا </ulink>."
 
-#: content/en/software.xml:77(title)
+#: content/en/software.xml:86(title)
 #, fuzzy
 msgid "2011-11-08 BibleTime 2.9 RC 1 released"
 msgstr "2009-10-27 إصدار بيبل تايم 2.3.3 bugfix  "
 
-#: content/en/software.xml:79(para)
+#: content/en/software.xml:88(para)
 #, fuzzy
 msgid ""
 "The BibleTime team is pleased to announce the availability of BibleTime "
@@ -2048,12 +2068,12 @@ msgstr ""
 "إصلاح أعطال للسلسلة 2.8، المزيد <ulink url=\"http://www.crosswire.org/"
 "pipermail/bt-devel/2011-January/010687.html\"> هنا </ulink>."
 
-#: content/en/software.xml:86(title)
+#: content/en/software.xml:95(title)
 #, fuzzy
 msgid "2011-10-05 BibleTime 2.9 Beta 2 released"
 msgstr "2009-10-27 إصدار بيبل تايم 2.3.3 bugfix  "
 
-#: content/en/software.xml:88(para)
+#: content/en/software.xml:97(para)
 #, fuzzy
 msgid ""
 "The BibleTime team is pleased to announce the availability of BibleTime "
@@ -2065,12 +2085,12 @@ msgstr ""
 "إصلاح أعطال للسلسلة 2.8، المزيد <ulink url=\"http://www.crosswire.org/"
 "pipermail/bt-devel/2011-January/010687.html\"> هنا </ulink>."
 
-#: content/en/software.xml:95(title)
+#: content/en/software.xml:104(title)
 #, fuzzy
 msgid "2011-09-19 BibleTime 2.9 Beta 1 released"
 msgstr "2009-10-27 إصدار بيبل تايم 2.3.3 bugfix  "
 
-#: content/en/software.xml:97(para)
+#: content/en/software.xml:106(para)
 #, fuzzy
 msgid ""
 "The BibleTime team is pleased to announce the availability of BibleTime "
@@ -2082,12 +2102,12 @@ msgstr ""
 "إصلاح أعطال للسلسلة 2.8، المزيد <ulink url=\"http://www.crosswire.org/"
 "pipermail/bt-devel/2011-January/010687.html\"> هنا </ulink>."
 
-#: content/en/software.xml:104(title)
+#: content/en/software.xml:113(title)
 #, fuzzy
 msgid "2011-08-27 BibleTime 2.8.2 released"
 msgstr "2009-10-27 إصدار بيبل تايم 2.3.3 bugfix  "
 
-#: content/en/software.xml:106(para)
+#: content/en/software.xml:115(para)
 #, fuzzy
 msgid ""
 "The BibleTime team is pleased to announce the immediate availability of "
@@ -2099,11 +2119,11 @@ msgstr ""
 "إصلاح أعطال للسلسلة 2.8، المزيد <ulink url=\"http://www.crosswire.org/"
 "pipermail/bt-devel/2011-January/010687.html\"> هنا </ulink>."
 
-#: content/en/software.xml:113(title)
+#: content/en/software.xml:122(title)
 msgid "2011-02-18 2.8.1b for Windows released"
 msgstr "2011-02-18 إصدار 2.8.1b للويندوز"
 
-#: content/en/software.xml:115(para)
+#: content/en/software.xml:124(para)
 msgid ""
 "The BibleTime team is proud to announce the immediate availability of "
 "BibleTime version 2.8.1b for Windows, which is bug fix for the Windows "
@@ -2114,11 +2134,11 @@ msgstr ""
 "وتتضمن إصلاح بعض الأعطال لمنصة ويندوز فقط، المزيد <ulink url=\"http://blog."
 "bibletime.info/archive/2011/02/18/bibletime-windows-281b\"> من هنا </ulink>."
 
-#: content/en/software.xml:123(title)
+#: content/en/software.xml:132(title)
 msgid "2011-01-22 2.8.1 released"
 msgstr "2011-01-22 إصدار النسخة 2.8.1"
 
-#: content/en/software.xml:125(para)
+#: content/en/software.xml:134(para)
 msgid ""
 "The BibleTime team is proud to announce the immediate availability of "
 "BibleTime version 2.8.1, which is the first bug fix of the 2.8 series, more "
@@ -2204,15 +2224,19 @@ msgstr "2008"
 msgid "2009"
 msgstr "2009"
 
-#: content/en/layout.xml:19(year)
+#: content/en/layout.xml:19(year) content/en/layout-christmas.xml:19(year)
 msgid "2010"
 msgstr "2010"
 
-#: content/en/layout.xml:20(holder) content/en/layout-christmas.xml:19(holder)
+#: content/en/layout.xml:20(year) content/en/layout-christmas.xml:20(year)
+msgid "2011"
+msgstr ""
+
+#: content/en/layout.xml:21(holder) content/en/layout-christmas.xml:21(holder)
 msgid "The BibleTime Team"
 msgstr "فريق بيبل تايم"
 
-#: content/en/layout.xml:57(title) content/en/layout-christmas.xml:56(title)
+#: content/en/layout.xml:58(title) content/en/layout-christmas.xml:58(title)
 msgid "Development wiki"
 msgstr "ويكي التطوير"
 
@@ -2282,8 +2306,9 @@ msgid "Did you know..."
 msgstr "هل كنت تعلم..."
 
 #: content/en/devotional.xml:22(para)
+#, fuzzy
 msgid ""
-"Did you know that today in 2010, more than 200,000,000 Christians are being "
+"Did you know that today in 2011, more than 200,000,000 Christians are being "
 "disadvantaged, persecuted and even killed because of their faith? <ulink url="
 "\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> "
 "(German) shows the countries where people have to \"pay\" for their faith, "

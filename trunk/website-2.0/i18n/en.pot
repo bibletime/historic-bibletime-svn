@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-11-22 22:22-0500\n"
+"POT-Creation-Date: 2011-12-08 12:28-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,7 @@ msgid "If a translation of the website does not exist in your language, you can 
 msgstr ""
 
 #: content/en/translation.xml:118(para)
-msgid "If a translation of the User Interface in your language does not yet exist, you can download and translate the <ulink url=\"http://gitorious.org/bibletime/bibletime/blobs/raw/master/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgid "If a translation of the User Interface in your language does not yet exist, you can download and translate the <ulink url=\"http://gitorious.org/bibletime/bibletime/blobs/raw/stable-2.9/i18n/messages/bibletime_ui.ts\"> User Interface translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
 #: content/en/translation.xml:129(title)
@@ -94,11 +94,11 @@ msgid "Translate the Bible study howto."
 msgstr ""
 
 #: content/en/translation.xml:130(para)
-msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://gitorious.org/bibletime/bibletime/blobs/raw/master/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgid "If a translation of the Bible study howto to your language does not yet exist, you can download and translate the <ulink url=\"http://gitorious.org/bibletime/bibletime/blobs/raw/stable-2.9/i18n/howto/howto.pot\"> howto translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
 #: content/en/translation.xml:143(para)
-msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://gitorious.org/bibletime/bibletime/blobs/raw/master/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
+msgid "If a translation of the handbook to your language does not yet exist, you can download and translate the <ulink url=\"http://gitorious.org/bibletime/bibletime/blobs/raw/stable-2.9/i18n/handbook/handbook.pot\"> handbook translation template</ulink>. If you want to update an existing translation, use the links in the table below to download the corresponding file."
 msgstr ""
 
 #: content/en/translation.xml:156(para)
@@ -785,74 +785,82 @@ msgid "News about BibleTime"
 msgstr ""
 
 #: content/en/software.xml:50(title)
-msgid "2011-11-22 BibleTime 2.8.4 released"
+msgid "2011-12-08 BibleTime 2.9.0 released"
 msgstr ""
 
 #: content/en/software.xml:52(para)
-msgid "The BibleTime team is pleased to announce the immediate availability of BibleTime version 2.8.4, the next bugfix of the 2.8 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-November/010902.html\">here</ulink>."
+msgid "The BibleTime team is pleased to announce the immediate availability of BibleTime version 2.9.0, the first release of the 2.9 series. You can read the <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-December/010937.html\">announcement</ulink>."
 msgstr ""
 
 #: content/en/software.xml:59(title)
-msgid "2011-11-22 BibleTime 2.8.3 released"
+msgid "2011-11-22 BibleTime 2.8.4 released"
 msgstr ""
 
 #: content/en/software.xml:61(para)
-msgid "The BibleTime team is pleased to announce the immediate availability of BibleTime version 2.8.3, the next bugfix of the 2.8 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-November/010898.html\">here</ulink>."
+msgid "The BibleTime team is pleased to announce the immediate availability of BibleTime version 2.8.4, the next bugfix of the 2.8 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-November/010902.html\">here</ulink>."
 msgstr ""
 
 #: content/en/software.xml:68(title)
-msgid "2011-11-20 BibleTime 2.9 RC 2 released"
+msgid "2011-11-22 BibleTime 2.8.3 released"
 msgstr ""
 
 #: content/en/software.xml:70(para)
-msgid "The BibleTime team is pleased to announce the availability of BibleTime version 2.9 RC 2, the second release candidate of the 2.9 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-November/010893.html\">here</ulink>."
+msgid "The BibleTime team is pleased to announce the immediate availability of BibleTime version 2.8.3, the next bugfix of the 2.8 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-November/010898.html\">here</ulink>."
 msgstr ""
 
 #: content/en/software.xml:77(title)
-msgid "2011-11-08 BibleTime 2.9 RC 1 released"
+msgid "2011-11-20 BibleTime 2.9 RC 2 released"
 msgstr ""
 
 #: content/en/software.xml:79(para)
-msgid "The BibleTime team is pleased to announce the availability of BibleTime version 2.9 RC 1, the first release candidate of the 2.9 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-November/010877.html\">here</ulink>."
+msgid "The BibleTime team is pleased to announce the availability of BibleTime version 2.9 RC 2, the second release candidate of the 2.9 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-November/010893.html\">here</ulink>."
 msgstr ""
 
 #: content/en/software.xml:86(title)
-msgid "2011-10-05 BibleTime 2.9 Beta 2 released"
+msgid "2011-11-08 BibleTime 2.9 RC 1 released"
 msgstr ""
 
 #: content/en/software.xml:88(para)
-msgid "The BibleTime team is pleased to announce the availability of BibleTime version 2.9 Beta 2, the second test version of the 2.9 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-October/010870.html\">here</ulink>."
+msgid "The BibleTime team is pleased to announce the availability of BibleTime version 2.9 RC 1, the first release candidate of the 2.9 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-November/010877.html\">here</ulink>."
 msgstr ""
 
 #: content/en/software.xml:95(title)
-msgid "2011-09-19 BibleTime 2.9 Beta 1 released"
+msgid "2011-10-05 BibleTime 2.9 Beta 2 released"
 msgstr ""
 
 #: content/en/software.xml:97(para)
-msgid "The BibleTime team is pleased to announce the availability of BibleTime version 2.9 Beta 1, the first test version of the 2.9 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-September/010855.html\">here</ulink>."
+msgid "The BibleTime team is pleased to announce the availability of BibleTime version 2.9 Beta 2, the second test version of the 2.9 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-October/010870.html\">here</ulink>."
 msgstr ""
 
 #: content/en/software.xml:104(title)
-msgid "2011-08-27 BibleTime 2.8.2 released"
+msgid "2011-09-19 BibleTime 2.9 Beta 1 released"
 msgstr ""
 
 #: content/en/software.xml:106(para)
-msgid "The BibleTime team is pleased to announce the immediate availability of BibleTime version 2.8.2, the next bugfix of the 2.8 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-August/010843.html\">here</ulink>."
+msgid "The BibleTime team is pleased to announce the availability of BibleTime version 2.9 Beta 1, the first test version of the 2.9 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-September/010855.html\">here</ulink>."
 msgstr ""
 
 #: content/en/software.xml:113(title)
-msgid "2011-02-18 2.8.1b for Windows released"
+msgid "2011-08-27 BibleTime 2.8.2 released"
 msgstr ""
 
 #: content/en/software.xml:115(para)
+msgid "The BibleTime team is pleased to announce the immediate availability of BibleTime version 2.8.2, the next bugfix of the 2.8 series. You can read more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-August/010843.html\">here</ulink>."
+msgstr ""
+
+#: content/en/software.xml:122(title)
+msgid "2011-02-18 2.8.1b for Windows released"
+msgstr ""
+
+#: content/en/software.xml:124(para)
 msgid "The BibleTime team is proud to announce the immediate availability of BibleTime version 2.8.1b for Windows, which is bug fix for the Windows platform only, more <ulink url=\"http://blog.bibletime.info/archive/2011/02/18/bibletime-windows-281b\"> here</ulink>."
 msgstr ""
 
-#: content/en/software.xml:123(title)
+#: content/en/software.xml:132(title)
 msgid "2011-01-22 2.8.1 released"
 msgstr ""
 
-#: content/en/software.xml:125(para)
+#: content/en/software.xml:134(para)
 msgid "The BibleTime team is proud to announce the immediate availability of BibleTime version 2.8.1, which is the first bug fix of the 2.8 series, more <ulink url=\"http://www.crosswire.org/pipermail/bt-devel/2011-January/010687.html\"> here</ulink>."
 msgstr ""
 
@@ -916,15 +924,19 @@ msgstr ""
 msgid "2009"
 msgstr ""
 
-#: content/en/layout.xml:19(year)
+#: content/en/layout.xml:19(year) content/en/layout-christmas.xml:19(year)
 msgid "2010"
 msgstr ""
 
-#: content/en/layout.xml:20(holder) content/en/layout-christmas.xml:19(holder)
+#: content/en/layout.xml:20(year) content/en/layout-christmas.xml:20(year)
+msgid "2011"
+msgstr ""
+
+#: content/en/layout.xml:21(holder) content/en/layout-christmas.xml:21(holder)
 msgid "The BibleTime Team"
 msgstr ""
 
-#: content/en/layout.xml:57(title) content/en/layout-christmas.xml:56(title)
+#: content/en/layout.xml:58(title) content/en/layout-christmas.xml:58(title)
 msgid "Development wiki"
 msgstr ""
 
@@ -973,7 +985,7 @@ msgid "Did you know..."
 msgstr ""
 
 #: content/en/devotional.xml:22(para)
-msgid "Did you know that today in 2010, more than 200,000,000 Christians are being disadvantaged, persecuted and even killed because of their faith? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> (German) shows the countries where people have to \"pay\" for their faith, and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> here is an English one</ulink> that has some information about the main regions worldwide. These pages are from Open Doors, an independent organization that tries to help persecuted Christians."
+msgid "Did you know that today in 2011, more than 200,000,000 Christians are being disadvantaged, persecuted and even killed because of their faith? <ulink url=\"http://www.opendoors-de.org/downloads/persecde.pdf\"> This map</ulink> (German) shows the countries where people have to \"pay\" for their faith, and <ulink url=\"http://www.opendoorsusa.org/content/category/4/17/24\"> here is an English one</ulink> that has some information about the main regions worldwide. These pages are from Open Doors, an independent organization that tries to help persecuted Christians."
 msgstr ""
 
 #: content/en/devotional.xml:34(para)
