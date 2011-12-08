@@ -18,6 +18,6 @@ my $stats = SSI::POStats->new( $cgi );
 print $cgi->header();
 
 print $cgi->start_div({-class=>'postats'});
-print $stats->show_stats("howto_stats.txt", 'http://gitorious.org/bibletime/bibletime/blobs/raw/master//i18n/howto/howto-$lang.po');
+print $stats->show_stats("howto_stats.txt", 'http://gitorious.org/bibletime/bibletime/blobs/raw/stable-2.9/i18n/howto/howto-$lang.po');
 print $cgi->end_div();
 
